@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tututor",
+    "name": "Tututor.ai",
+    "url": "https://tututor.ai",
+    "what": "Education platform for schools in Spain. AI tutors teachers can shape per topic, quiz generation with automatic grading, per-class analytics, school CRM.",
+    "stack": ["React", "Node", "Express", "MongoDB", "WebSockets", "OpenAI", "ElevenLabs"]
+  },
+  {
+    "id": "illume",
+    "name": "Illume",
+    "url": "https://www.joinillume.com/",
+    "what": "Business analytics for MedSpas that builds its own dashboards from whatever data you connect. Started as Insight-X.",
+    "stack": ["React", "Tailwind", "Chart.js", "D3"]
+  },
+  {
+    "id": "viloi",
+    "name": "Viloi",
+    "url": "https://viloi.com",
+    "what": "A writing tool that rewrites machine-generated text so it reads naturally. Multi-model pipeline, Stripe billing — built solo.",
+    "stack": ["React", "Node", "Express", "MongoDB", "Stripe"]
+  },
+  {
+    "id": "yaksport",
+    "name": "Yaksport",
+    "url": "https://yaksport.dk/",
+    "what": "Booking platform for Danish sports clubs looking for training camps abroad. Over 100 clubs use it.",
+    "stack": ["React", "Tailwind", "i18next", "React Router"]
+  }
+]

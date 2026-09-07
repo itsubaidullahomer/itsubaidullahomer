@@ -1,0 +1,12 @@
+{
+  "name": "itsubaidullahomer",
+  "private": true,
+  "type": "module",
+  "description": "My GitHub profile README, plus the script that keeps its live parts fresh.",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
