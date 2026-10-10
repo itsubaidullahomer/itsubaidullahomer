@@ -85,10 +85,10 @@ export const projects: Project[] = [
     slug: "ali-foodies",
     name: "Ali Foodies",
     description:
-      "Rebuilding Ali Foodies' website for the phone, because that's where almost every customer finds it.",
+      "A small website rebuild that brings product design, UX, and development together through thoughtful decisions about the customer experience.",
     status: "Building",
     dates: "2026 \u2013 present",
-    role: "Redesign and rebuild",
+    role: "Product design, UX & development",
     image: "/images/ali-foodies/compare/after-home.jpg",
     url: "https://alifoodies.com",
     stack: [],

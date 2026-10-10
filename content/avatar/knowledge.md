@@ -439,9 +439,9 @@ Ali Foodies
 All work
 Building
 2026 – present
-Redesign and rebuild
+Product design, UX & development
 Ali Foodies
-Rebuilding Ali Foodies' website for the phone, because that's where almost every customer finds it.
+A small website rebuild that brings product design, UX, and development together through thoughtful decisions about the customer experience.
 The old site
 The new build
 01
@@ -457,8 +457,10 @@ Scroll
 Before
 After
 The old site and the new one, scrolled together on the same phone.
-The brief
-Ali Foodies already had a website. Around 99.9% of the people who use it are on a phone, so the new version is built for that screen first and everything else second. Rather than list every change, the comparison above puts the previous site and the new build on the same phone and scrolls them together. The new version is live as a preview while I finish it.
+Why this project is here
+Ali Foodies is a small, straightforward website rebuild. Ubaid included it to show the care he brings to product decisions on smaller projects. His work covers product design, UX, and development: understanding what customers need, designing a clearer experience, and building the details to support it.
+The decisions
+Almost every customer visits on a phone. The redesign puts ordering on the opening screen, makes the menu easier to explore with categories, photos, prices and clear actions, and keeps hours, location, directions and contact options close. The comparison shows the actual previous site and the new build, with a draggable divider and synchronized scrolling. The new version remains a preview while work continues; it is not a completed launch.
 Previous
 Viloi
 Next

@@ -138,8 +138,10 @@ export function SelectedWork() {
             Made for the phone.
           </h3>
           <p>
-            Almost every customer visits on mobile. So that’s where I started
-            the rebuild.
+            Ali Foodies is a small, straightforward website rebuild. I included
+            it here because the care is in the decisions: understanding what
+            customers need, designing a clearer experience, and building every
+            detail to support it.
           </p>
           <ul className="compare-improvements">
             <li>Ordering, front and center.</li>
