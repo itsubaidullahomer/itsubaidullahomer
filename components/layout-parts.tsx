@@ -121,9 +121,15 @@ export function Footer() {
         </div>
         <div>
           <h3>Pages</h3>
-          {["About", "Playground", "Now", "Writing", "Contact"].map((p) => (
-            <Link key={p} href={`/${p.toLowerCase()}`}>
-              {p}
+          {[
+            ["About", "/about"],
+            ["Experiments", "/playground"],
+            ["What I’m working on", "/now"],
+            ["Writing", "/writing"],
+            ["Contact", "/contact"],
+          ].map(([label, href]) => (
+            <Link key={href} href={href}>
+              {label}
             </Link>
           ))}
         </div>

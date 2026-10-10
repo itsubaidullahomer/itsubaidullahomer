@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 import { HeroWords, Parallax } from "@/components/motion";
 import { Avatar } from "@/components/avatar";
-import { BookButton, TalkButton } from "@/components/providers";
+import { BookButton } from "@/components/providers";
 import { Section, SectionHeading, FinalCTA } from "@/components/layout-parts";
 import {
   LogoStrip,
@@ -21,6 +21,7 @@ import {
 import { Process } from "@/components/process";
 import { SelectedWork } from "@/components/work";
 import { experience } from "@/content/site";
+import { readConfig } from "@/lib/chatgpt/security";
 export const metadata: Metadata = { alternates: { canonical: "/" } };
 export default function Home() {
   return (
@@ -39,21 +40,12 @@ export default function Home() {
             <br />I can help you build your next one.
           </p>
           <div className="button-row">
-            <TalkButton>
-              <MessageSquare size={14} /> Talk to me
-            </TalkButton>
+            <BookButton>
+              <MessageSquare size={14} /> Discuss a project
+            </BookButton>
             <Link href="#work" className="button button-secondary">
               See the work <ArrowDown size={14} />
             </Link>
-          </div>
-          <div className="hero-person">
-            <Image src="/images/avatar.png" alt="" width={34} height={34} />
-            <div>
-              <BookButton variant="ghost">
-                Prefer the real me? Book a call <ArrowUpRight size={12} />
-              </BookButton>
-              <span>No pitch deck required.</span>
-            </div>
           </div>
         </div>
         <div className="hero-stage">
@@ -80,10 +72,9 @@ export default function Home() {
               loading="eager"
             />
           </div>
-          <Avatar />
+          <Avatar available={Boolean(readConfig(process.env))} />
           <span className="stage-note">
-            <MessageSquare size={10} /> Experience the work. Bring your ChatGPT
-            account.
+            <MessageSquare size={10} /> An AI demo grounded in my work.
           </span>
         </div>
       </Section>

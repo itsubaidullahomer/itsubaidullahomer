@@ -6,7 +6,7 @@ import {
 } from "@/components/playground";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
-  "Playground",
+  "Experiments",
   "Interactive streaming, voice interruption and system architecture experiments. Try the engineering behind Ubaid’s work.",
   "/playground",
 );
@@ -14,7 +14,7 @@ export default function Playground() {
   return (
     <>
       <PageIntro
-        label="The lab"
+        label="Experiments"
         title="A few things worth playing with."
         description="Small experiments in the details that make a product feel good. Break a stream. Interrupt a call. Follow a request. Everything here runs locally in your browser."
       />

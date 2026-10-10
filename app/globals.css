@@ -394,33 +394,6 @@ button {
   font-weight: 500;
   color: #262626;
 }
-.hero-person {
-  display: flex;
-  gap: 11px;
-  align-items: center;
-  margin-top: 34px;
-  font-size: 12px;
-  color: #666;
-}
-.hero-person img {
-  border-radius: 50%;
-  filter: grayscale(1);
-  border: 1px solid #e5e5e5;
-}
-.hero-person button {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-  color: #222;
-  font-size: 12px;
-  padding: 0;
-}
-.hero-person span {
-  display: block;
-  font-size: 10px;
-  color: #737373;
-  margin-top: 1px;
-}
 .hero-stage {
   position: relative;
   min-width: 0;
@@ -2654,13 +2627,6 @@ button {
     line-height: 1.75;
     margin-bottom: 25px;
   }
-  .hero-person {
-    margin-top: 26px;
-  }
-  .hero-person img {
-    width: 29px;
-    height: 29px;
-  }
   .hero-stage {
     min-height: 390px;
     width: 100%;
@@ -3263,6 +3229,10 @@ input[type="checkbox"] {
 .avatar-chat-button {
   width: 100%;
   justify-content: center;
+}
+.avatar-chat-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
 }
 .avatar-mode > span {
   color: #b8b8b8;

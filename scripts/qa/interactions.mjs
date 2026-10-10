@@ -65,7 +65,7 @@ expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(
   "itsubaidullahomer@gmail.com",
 );
 pass("Email clipboard and success state");
-await page.getByRole("button", { name: "Talk to me", exact: true }).click();
+await page.getByRole("button", { name: "Ask the AI me", exact: true }).click();
 await expect(
   page.getByRole("button", { name: "Continue with ChatGPT" }),
 ).toBeVisible();

@@ -7,8 +7,7 @@ import { BookButton } from "./providers";
 const links = [
   ["Work", "/work"],
   ["About", "/about"],
-  ["Playground", "/playground"],
-  ["Now", "/now"],
+  ["Experiments", "/playground"],
 ];
 export function Wordmark() {
   return (

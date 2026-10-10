@@ -320,7 +320,11 @@ export default function ChatGPTConversation({
           className="dialog-content chatgpt-dialog"
           onCloseAutoFocus={(e) => {
             e.preventDefault();
-            document.getElementById("avatar-start")?.focus();
+            document
+              .querySelector<HTMLButtonElement>(
+                "#avatar-start:not(:disabled), [data-ai-trigger]",
+              )
+              ?.focus();
           }}
         >
           <Dialog.Close

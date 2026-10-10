@@ -27,7 +27,7 @@ await page.goto(base, { waitUntil: "networkidle" });
 expect(providerCalls).toBe(0);
 expect(connectionCalls).toBe(0);
 pass("No provider or account requests before interaction");
-await page.locator("#avatar-start").click();
+await page.getByRole("button", { name: "Ask the AI me", exact: true }).click();
 await expect(page.getByRole("dialog")).toBeVisible();
 await expect(
   page.getByRole("button", { name: "Continue with ChatGPT" }),
@@ -58,9 +58,11 @@ for (const width of [375, 768, 1280, 1440]) {
 pass("Connection panel fits all four widths");
 await page.keyboard.press("Escape");
 await expect(page.getByRole("dialog")).toHaveCount(0);
-await expect(page.locator("#avatar-start")).toBeFocused();
+await expect(
+  page.getByRole("button", { name: "Ask the AI me", exact: true }),
+).toBeFocused();
 pass("Escape closes the panel and restores keyboard focus");
-await page.getByRole("button", { name: "Talk to me", exact: true }).click();
+await page.getByRole("button", { name: "Ask the AI me", exact: true }).click();
 await page
   .getByRole("dialog")
   .getByRole("button", { name: "Book a call", exact: true })
@@ -103,7 +105,7 @@ await page.route("https://auth.openai.com/**", (route) =>
     body: "<h1>Mock OpenAI authorization</h1>",
   }),
 );
-await page.locator("#avatar-start").click();
+await page.getByRole("button", { name: "Ask the AI me", exact: true }).click();
 await page.getByRole("button", { name: "Continue with ChatGPT" }).click();
 await expect(
   page.getByRole("heading", { name: "Mock OpenAI authorization" }),
@@ -286,7 +288,7 @@ current = {
   models: [{ id: "test-model-a", name: "Demo model A" }],
   messages: [],
 };
-await page.locator("#avatar-start").click();
+await page.getByRole("button", { name: "Ask the AI me", exact: true }).click();
 await page
   .getByRole("textbox", { name: "Message AI Ubaid" })
   .fill("Keep my draft when I stop.");
@@ -302,7 +304,7 @@ await expect(
 pass("Stop aborts a pending reply and preserves the draft (mock)");
 await page.keyboard.press("Escape");
 current.expiresAt = Date.now() + 2500;
-await page.locator("#avatar-start").click();
+await page.getByRole("button", { name: "Ask the AI me", exact: true }).click();
 await page
   .getByRole("textbox", { name: "Message AI Ubaid" })
   .fill("A reply that will expire.");

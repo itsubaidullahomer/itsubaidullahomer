@@ -2,7 +2,7 @@
 
 ## What is here
 
-The portfolio is a Next.js 16 / React 19 / TypeScript app. The redesign is ready for release to `main`. It uses Tailwind 4, Radix-based shadcn-style primitives, Geist fonts, Motion, and local MDX. All 18 original page URLs remain: home, Work, nine case studies, About, Contact, Playground, Now, Writing and two articles. `/api/og`, sitemap, robots, Person/ProfessionalService structured data and article structured data are included.
+The portfolio is a Next.js 16 / React 19 / TypeScript app. The redesign is deployed from `main` to https://itsubaidullahomer.com. It uses Tailwind 4, Radix-based shadcn-style primitives, Geist fonts, Motion, and local MDX. All 18 original page URLs remain: home, Work, nine case studies, About, Contact, Playground, Now, Writing and two articles. `/api/og`, sitemap, robots, Person/ProfessionalService structured data and article structured data are included.
 
 The starting checkout was the GitHub profile repository, not the old portfolio source. The existing README, profile assets, data and daily GitHub workflow remain. `npm run profile:build` runs the original automation. The site’s public content, real photos, CV and screenshots were recovered from its live deployment. See `docs/source-inventory.json` and `DECISIONS.md`.
 
@@ -20,7 +20,7 @@ npm run build
 npm start
 ```
 
-The owner authorized merging to `main` and deploying on 11 October 2026. The live domain currently uses Vercel. Use the Next.js preset, repository root, and `npm run build`, with `main` as the production branch. A local preview uses port 3000; the QA production preview uses port 3001. ChatGPT and the earlier avatar remain disabled until their separate provider setup is complete.
+The owner authorized merging to `main` and deploying on 11 October 2026. The live domain uses Vercel project `ubaidullah` in `ubaidullahmomers-projects`, connected to `itsubaidullahomer/itsubaidullahomer`. The old `itsubaidullahomer/ubaidullah` source is disconnected. Use the Next.js preset, repository root, and `npm run build`, with `main` as the production branch. A local preview uses port 3000; the QA production preview uses port 3001. ChatGPT and the earlier avatar remain disabled until their separate provider setup is complete.
 
 ## Configuration
 
@@ -44,7 +44,7 @@ Public environment variables are baked into the build. Rebuild after changing Ca
 
 ## ChatGPT connection: the current public experience
 
-The homepage now opens an **Experience my work** panel with **Continue with ChatGPT**. It is a text conversation using the visitor’s eligible plan allowance, with account-specific model selection and streaming. Booking and email stay available without connecting. Full setup, security, and verification details are in [docs/CHATGPT.md](docs/CHATGPT.md).
+The hero’s **Discuss a project** button opens direct booking/contact. The separate **Meet AI Ubaid** card shows a disabled **Coming soon** button until the server configuration is ready, then **Ask about my work** opens the **Experience my work** panel with **Continue with ChatGPT**. The card receives only an availability boolean from the server; changing provider configuration requires a fresh deployment. The FAQ’s **Ask the AI me** entry also opens the connection panel. It is a text conversation using the visitor’s eligible plan allowance, with account-specific model selection and streaming. Booking and email stay available without connecting. Full setup, security, and verification details are in [docs/CHATGPT.md](docs/CHATGPT.md).
 
 Hosted-client approval from OpenAI is required. Set the `CHATGPT_*` variables documented in `.env.example` only after that approval. Until then, the panel honestly shows **Connection opens soon**. The integration uses no owner OpenAI API key and never silently switches to owner-funded Gemini requests. Live OAuth and plan usage have not been tested without the approved client credentials.
 

@@ -13,7 +13,7 @@ import { getContributions } from "@/lib/github";
 import { pageMetadata } from "@/lib/metadata";
 export const revalidate = 86400;
 export const metadata = pageMetadata(
-  "Now",
+  "What I’m working on",
   "What Ubaidullah Omer is building, learning and exploring right now.",
   "/now",
 );
@@ -26,7 +26,7 @@ export default async function Now() {
   return (
     <>
       <PageIntro
-        label="Now"
+        label="What I’m working on"
         title="A little closer to the work."
         description="What’s on my desk, what I’m figuring out, and what I keep coming back to."
       >

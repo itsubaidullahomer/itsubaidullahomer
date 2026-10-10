@@ -4,15 +4,13 @@ import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import { MessageSquare, ArrowUpRight } from "lucide-react";
 import { Button } from "./ui/button";
-import { useContact } from "./providers";
 const ChatGPTConversation = dynamic(() => import("./chatgpt-conversation"), {
   ssr: false,
 });
-export function Avatar() {
+export function Avatar({ available }: { available: boolean }) {
   const [active, setActive] = useState(false);
   const [mode, setMode] = useState<"polite" | "unfiltered">("polite");
   const [result, setResult] = useState<string>();
-  const { book } = useContact();
   useEffect(() => {
     const start = () => setActive(true);
     window.addEventListener("avatar:start", start);
@@ -43,10 +41,10 @@ export function Avatar() {
           <i />
           <i />
         </span>
-        <span>ubaid — {active ? "conversation" : "live"}</span>
+        <span>ubaid — AI demo</span>
         <span className="status">
-          <i />
-          {active ? "Here" : "Say hello"}
+          {available && <i />}
+          {available ? (active ? "Here" : "Ready") : "In development"}
         </span>
       </div>
       <div className="avatar-picture">
@@ -58,22 +56,28 @@ export function Avatar() {
           priority
         />
         <div className="avatar-label">
-          <strong>A little like me.</strong>
+          <strong>Meet AI Ubaid.</strong>
           <span>An AI version. Same curiosity.</span>
         </div>
       </div>
       <div className="avatar-controls">
         <p className="avatar-caption">
-          Experience my work in a conversation.
-          <br />
-          Connect your ChatGPT account and meet the AI me.
+          An AI guide to my projects, process, and experience.
         </p>
         <Button
           id="avatar-start"
           onClick={() => setActive(true)}
           className="avatar-chat-button"
+          disabled={!available}
         >
-          <MessageSquare size={14} /> Let’s talk <ArrowUpRight size={14} />
+          {available ? (
+            <>
+              <MessageSquare size={14} /> Ask about my work
+              <ArrowUpRight size={14} />
+            </>
+          ) : (
+            "Coming soon"
+          )}
         </Button>
         {active && (
           <ChatGPTConversation
@@ -87,10 +91,7 @@ export function Avatar() {
           />
         )}
         <div className="avatar-mode">
-          <span>Powered by your ChatGPT plan</span>
-          <button onClick={book} className="flex items-center gap-1">
-            Meet the real me <ArrowUpRight size={10} />
-          </button>
+          <span>Text conversation · Your ChatGPT plan</span>
         </div>
       </div>
     </div>

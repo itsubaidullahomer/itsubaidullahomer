@@ -87,7 +87,7 @@ export function BookButton({
   );
 }
 export function TalkButton({
-  children = "Talk to me",
+  children = "Ask the AI me",
   variant = "primary",
 }: {
   children?: ReactNode;
@@ -95,7 +95,7 @@ export function TalkButton({
 }) {
   const { talk } = useContact();
   return (
-    <Button variant={variant} onClick={talk}>
+    <Button variant={variant} onClick={talk} data-ai-trigger>
       {children}
     </Button>
   );

@@ -1,6 +1,6 @@
 # Visitor-funded ChatGPT conversation
 
-Implemented 11 October 2026. The homepage’s **Let’s talk**, **Talk to me**, and **Ask the AI me** entry points now open a text conversation panel inviting visitors to experience Ubaid’s work by connecting ChatGPT.
+Implemented 11 October 2026. The homepage separates human contact from the AI demo: **Discuss a project** opens booking/contact, while the **Meet AI Ubaid** card shows **Coming soon** until configured, then **Ask about my work** opens the text conversation panel. The FAQ’s **Ask the AI me** entry can also open that panel. The hero availability flag uses the same server-side configuration validation as the API and is refreshed on deployment.
 
 ## What the experience does
 
