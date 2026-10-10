@@ -15,3 +15,7 @@
 - GitHub public events: https://docs.github.com/en/rest/activity/events
 
 Live paid services cannot be integration-tested without the owner’s credentials. The no-configuration paths, protocol adapters, input limits, UI states and cleanup are tested locally. Do not treat mocked browser tests as a live provider test.
+
+## ChatGPT connection, checked 11 October 2026
+
+See [CHATGPT.md](CHATGPT.md) for the exact official OAuth, plan-usage, streaming, model, limitation and UI references. The documented local/open-source grant is not treated as permission to run a public hosted client. Activation requires an approved hosted client supporting the implemented scope and Responses contract.

@@ -42,7 +42,13 @@ Copy `.env.example` to `.env.local` for local testing; set production values in 
 
 Public environment variables are baked into the build. Rebuild after changing Cal or Senja settings.
 
-## Avatar: shipped and blocked
+## ChatGPT connection: the current public experience
+
+The homepage now opens an **Experience my work** panel with **Continue with ChatGPT**. It is a text conversation using the visitor’s eligible plan allowance, with account-specific model selection and streaming. Booking and email stay available without connecting. Full setup, security, and verification details are in [docs/CHATGPT.md](docs/CHATGPT.md).
+
+Hosted-client approval from OpenAI is required. Set the `CHATGPT_*` variables documented in `.env.example` only after that approval. Until then, the panel honestly shows **Connection opens soon**. The integration uses no owner OpenAI API key and never silently switches to owner-funded Gemini requests. Live OAuth and plan usage have not been tested without the approved client credentials.
+
+## Earlier Gemini/Decart implementation (inactive UI)
 
 Shipped: click-only session creation, a disclosed AI persona, polite/unfiltered tone, voice input/output, captions, microphone controls, typing, bounded server-owned text history, live page tools, portrait/audio feedback, provider-failure fallbacks, End, silence timeout and hard expiry. Google and Redis clients load only on the relevant server path or after interaction. No permanent key reaches the browser.
 
@@ -50,7 +56,7 @@ Shipped: click-only session creation, a disclosed AI persona, polite/unfiltered 
 
 No live Google, Decart, Redis, Cal or Senja credentials were provided, so those paid/account-specific integrations are not claimed as live-tested. The missing-configuration paths and mocked conversation transport are verified. Before enabling the avatar, check an actual microphone conversation, interruption, text fallback, captions, three-minute expiry and daily limits with your accounts.
 
-## Costs and abuse limits
+## Earlier avatar: costs and abuse limits
 
 - Three sessions per IP per UTC day, plus a global daily session count. Atomic Redis checks cover all instances. Failed provider initialization conservatively consumes its reservation.
 - Only Vercel’s overwritten IP header is trusted. Other hosts share one conservative bucket until a trusted-proxy integration is added.
@@ -84,7 +90,9 @@ Edit `content/avatar/persona.md` for voice, dry wit and interaction boundaries. 
 `docs/QA.md` records final results and any remaining limitations. Full-resolution screenshots and machine-readable results are in ignored `qa-output/`, so large generated evidence is not committed.
 
 - `scripts/qa/screenshots.mjs`: all 18 routes plus the 404 page at 375, 768, 1280, 1440. Scrolls through the page to load screenshots and settle reveals before capture.
-- `scripts/qa/interactions.mjs`: real UI interactions, missing-key behavior, reduced motion, all-route accessibility and separately labeled mocked transport checks.
+- `scripts/qa/interactions.mjs`: real UI interactions, missing-configuration behavior, reduced motion and all-route accessibility.
+- `scripts/qa/chatgpt.mjs`: connection and conversation panels at four widths, keyboard accessibility, missing approval/configuration, and separately labeled mocked authorization, streaming, quota, Stop, expiry and disconnect states.
+- `tests/chatgpt-security.test.ts`: identity verification, encryption, grants, configuration boundaries, model catalog filtering, request constraints and stream parsing.
 - `tests/avatar-policy.test.ts`: input boundaries, budgets, origin validation and IP-header trust.
 
 Set `QA_BASE_URL` to test another local production port. The screenshot and interaction scripts use installed Google Chrome through Playwright. The build is fully usable without `.env.local`.

@@ -67,9 +67,13 @@ expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(
 pass("Email clipboard and success state");
 await page.getByRole("button", { name: "Talk to me", exact: true }).click();
 await expect(
-  page.getByText("The AI me is off duty.", { exact: false }),
+  page.getByRole("button", { name: "Continue with ChatGPT" }),
 ).toBeVisible();
-pass("No-key avatar fails gracefully to booking");
+await expect(
+  page.getByRole("button", { name: "Continue with ChatGPT" }),
+).toBeDisabled();
+await page.keyboard.press("Escape");
+pass("Unconfigured ChatGPT shows an honest connection state");
 await page.goto(base + "/work/tututor");
 await page
   .getByRole("button", {
@@ -168,48 +172,7 @@ const animation = await page
   .evaluate((e) => getComputedStyle(e).animationName);
 expect(animation).toBe("none");
 pass("Reduced motion disables continuous animation");
-// Deterministic transport tests. These do not count as paid provider verification.
-await page.route("**/api/avatar/token", (r) =>
-  r.fulfill({ json: { mode: "text", expiresAt: Date.now() + 180000 } }),
-);
-let sent;
-await page.route("**/api/avatar/chat", (r) => {
-  sent = r.request().postDataJSON();
-  return r.fulfill({
-    json: {
-      reply:
-        "I built the backend behind eight Tututor products. What are you building?",
-    },
-  });
-});
-await page.getByRole("button", { name: "Type instead of speaking" }).click();
-await expect(
-  page.getByRole("textbox", { name: "Message AI Ubaid" }),
-).toBeVisible();
-await page.getByRole("button", { name: "Unfiltered", exact: true }).click();
-await page
-  .getByRole("textbox", { name: "Message AI Ubaid" })
-  .fill("Tell me about Tututor");
-await page.getByRole("button", { name: "Send message" }).click();
-await expect(
-  page.getByRole("log", { name: "Conversation transcript" }),
-).toContainText("I built the backend");
-expect(sent.mode).toBe("unfiltered");
-await page.getByRole("button", { name: "End conversation" }).click();
-await expect(
-  page.getByRole("textbox", { name: "Message AI Ubaid" }),
-).toHaveCount(0);
-pass("Mocked typed conversation, tone, transcript and End cleanup");
-await page.getByRole("button", { name: "Back", exact: true }).click();
-await page.unroute("**/api/avatar/token");
-await page.route("**/api/avatar/token", (r) =>
-  r.fulfill({ json: { mode: "text", expiresAt: Date.now() + 900 } }),
-);
-await page.getByRole("button", { name: "Type instead of speaking" }).click();
-await expect(
-  page.getByText("Three minutes, already.", { exact: false }),
-).toBeVisible({ timeout: 4000 });
-pass("Server-provided expiry ends the client session");
+// Dedicated ChatGPT transport and connection checks live in chatgpt.mjs.
 await fs.writeFile(
   "qa-output/interactions.json",
   JSON.stringify({ checks, errors, a11y }, null, 2),

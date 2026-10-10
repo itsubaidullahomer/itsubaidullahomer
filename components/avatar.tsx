@@ -2,27 +2,38 @@
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import { Mic, MessageSquare, ArrowUpRight } from "lucide-react";
+import { MessageSquare, ArrowUpRight } from "lucide-react";
 import { Button } from "./ui/button";
 import { useContact } from "./providers";
-const LiveSession = dynamic(() => import("./avatar-session"), {
+const ChatGPTConversation = dynamic(() => import("./chatgpt-conversation"), {
   ssr: false,
-  loading: () => (
-    <p className="avatar-caption" role="status">
-      Getting ready to meet you…
-    </p>
-  ),
 });
 export function Avatar() {
   const [active, setActive] = useState(false);
   const [mode, setMode] = useState<"polite" | "unfiltered">("polite");
-  const [textOnly, setTextOnly] = useState(false);
+  const [result, setResult] = useState<string>();
   const { book } = useContact();
   useEffect(() => {
     const start = () => setActive(true);
     window.addEventListener("avatar:start", start);
-    if (new URLSearchParams(location.search).get("talk") === "1") start();
-    return () => window.removeEventListener("avatar:start", start);
+    const params = new URLSearchParams(location.search);
+    const frame = requestAnimationFrame(() => {
+      if (params.get("talk") === "1") {
+        setResult(params.get("chatgpt") || undefined);
+        start();
+        params.delete("talk");
+        params.delete("chatgpt");
+        history.replaceState(
+          null,
+          "",
+          `${location.pathname}${params.size ? `?${params}` : ""}${location.hash}`,
+        );
+      }
+    });
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("avatar:start", start);
+    };
   }, []);
   return (
     <div className="avatar-device" id="avatar">
@@ -52,57 +63,31 @@ export function Avatar() {
         </div>
       </div>
       <div className="avatar-controls">
-        {active ? (
-          <LiveSession
+        <p className="avatar-caption">
+          Experience my work in a conversation.
+          <br />
+          Connect your ChatGPT account and meet the AI me.
+        </p>
+        <Button
+          id="avatar-start"
+          onClick={() => setActive(true)}
+          className="avatar-chat-button"
+        >
+          <MessageSquare size={14} /> Let’s talk <ArrowUpRight size={14} />
+        </Button>
+        {active && (
+          <ChatGPTConversation
             mode={mode}
-            textOnly={textOnly}
-            onEnd={() => setActive(false)}
+            onModeChange={setMode}
+            result={result}
+            onClose={() => {
+              setActive(false);
+              setResult(undefined);
+            }}
           />
-        ) : (
-          <>
-            <p className="avatar-caption">
-              Ask about my work. Tell me about yours.
-              <br />
-              Or test my opinions on loading spinners.
-            </p>
-            <div className="button-row">
-              <Button
-                onClick={() => {
-                  setTextOnly(false);
-                  setActive(true);
-                }}
-              >
-                <Mic size={13} /> Let’s talk
-              </Button>
-              <button
-                aria-label="Type instead of speaking"
-                onClick={() => {
-                  setTextOnly(true);
-                  setActive(true);
-                }}
-                className="button button-secondary"
-                style={{ flex: 0, padding: "9px 12px" }}
-              >
-                <MessageSquare size={13} />
-              </button>
-            </div>
-          </>
         )}
         <div className="avatar-mode">
-          <div className="mode-toggle" aria-label="Conversation tone">
-            <button
-              aria-pressed={mode === "polite"}
-              onClick={() => setMode("polite")}
-            >
-              Polite
-            </button>
-            <button
-              aria-pressed={mode === "unfiltered"}
-              onClick={() => setMode("unfiltered")}
-            >
-              Unfiltered
-            </button>
-          </div>
+          <span>Powered by your ChatGPT plan</span>
           <button onClick={book} className="flex items-center gap-1">
             Meet the real me <ArrowUpRight size={10} />
           </button>

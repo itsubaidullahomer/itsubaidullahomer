@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowDown, ArrowUpRight, ArrowRight, Mic } from "lucide-react";
+import {
+  ArrowDown,
+  ArrowUpRight,
+  ArrowRight,
+  MessageSquare,
+} from "lucide-react";
 import { HeroWords, Parallax } from "@/components/motion";
 import { Avatar } from "@/components/avatar";
 import { BookButton, TalkButton } from "@/components/providers";
@@ -35,7 +40,7 @@ export default function Home() {
           </p>
           <div className="button-row">
             <TalkButton>
-              <Mic size={14} /> Talk to me
+              <MessageSquare size={14} /> Talk to me
             </TalkButton>
             <Link href="#work" className="button button-secondary">
               See the work <ArrowDown size={14} />
@@ -77,7 +82,8 @@ export default function Home() {
           </div>
           <Avatar />
           <span className="stage-note">
-            <Mic size={10} /> Real-time conversation. A very unreal me.
+            <MessageSquare size={10} /> Experience the work. Bring your ChatGPT
+            account.
           </span>
         </div>
       </Section>
