@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowDown,
@@ -7,8 +6,8 @@ import {
   ArrowRight,
   MessageSquare,
 } from "lucide-react";
-import { HeroWords, Parallax } from "@/components/motion";
-import { Avatar } from "@/components/avatar";
+import { HeroWords } from "@/components/motion";
+import { HeroStage } from "@/components/hero-stage";
 import { BookButton } from "@/components/providers";
 import { Section, SectionHeading, FinalCTA } from "@/components/layout-parts";
 import {
@@ -48,35 +47,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="hero-stage">
-          <div className="back-screen">
-            <Parallax>
-              <Image
-                src="/images/tututor/showcase/tututor-catalog.jpg"
-                alt=""
-                width={450}
-                height={280}
-                sizes="(max-width: 540px) 300px, 450px"
-                loading="eager"
-                fetchPriority="high"
-              />
-            </Parallax>
-          </div>
-          <div className="back-screen second">
-            <Image
-              src="/images/screens/viloi.jpg"
-              alt=""
-              width={450}
-              height={280}
-              sizes="(max-width: 540px) 280px, 420px"
-              loading="eager"
-            />
-          </div>
-          <Avatar available={Boolean(readConfig(process.env))} />
-          <span className="stage-note">
-            <MessageSquare size={10} /> An AI demo grounded in my work.
-          </span>
-        </div>
+        <HeroStage available={Boolean(readConfig(process.env))} />
       </Section>
       <LogoStrip />
       <Process />

@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "./service-art.css";
 @import "./process-art.css";
+@import "./hero-art.css";
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -405,36 +406,6 @@ button {
   padding: 20px 0 30px;
   perspective: 1400px;
 }
-.back-screen {
-  position: absolute;
-  width: 85%;
-  height: 255px;
-  top: 8px;
-  left: 25px;
-  transform: rotate(-7deg);
-  border: 1px solid #dedede;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  background: white;
-  opacity: 0.7;
-}
-.back-screen.second {
-  top: auto;
-  bottom: 0;
-  left: 65px;
-  transform: rotate(6deg);
-  height: 265px;
-  width: 81%;
-  opacity: 0.55;
-}
-.back-screen img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-  filter: grayscale(1);
-}
 .avatar-device {
   width: 365px;
   position: relative;
@@ -580,16 +551,6 @@ button {
 }
 .avatar-device .status {
   color: #c5c5c5;
-}
-.stage-note {
-  position: absolute;
-  bottom: -30px;
-  left: 20%;
-  font-size: 9px;
-  color: #737373;
-  display: flex;
-  align-items: center;
-  gap: 7px;
 }
 .logo-section {
   padding: 28px 0 32px;
@@ -1613,7 +1574,6 @@ button {
 .project-visual img,
 .compare-view img,
 .case-image img,
-.back-screen img,
 .logo-item img {
   transition:
     filter 450ms ease,
@@ -1624,8 +1584,7 @@ button {
 .spotlight:is(:hover, :focus-within) .compare-view img,
 .showcase:is(:hover, :focus-within) .showcase-shot img,
 .compare-stage:is(:hover, :focus-within) .compare-view img,
-.case-image:is(:hover, :focus-visible) img,
-.hero-stage:is(:hover, :focus-within) .back-screen img {
+.case-image:is(:hover, :focus-visible) img {
   filter: grayscale(0);
 }
 @media (hover: none), (pointer: coarse), (max-width: 540px) {
@@ -1633,7 +1592,6 @@ button {
   .project-visual img,
   .compare-view img,
   .case-image img,
-  .back-screen img,
   .logo-item img {
     filter: grayscale(0);
     opacity: 1;
@@ -2245,19 +2203,6 @@ button {
   .avatar-picture {
     height: 275px;
   }
-  .back-screen {
-    width: 90%;
-    left: 0;
-  }
-  .back-screen.second {
-    left: 55px;
-  }
-  .stage-note {
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-  }
   .logo-section {
     padding: 26px 0;
   }
@@ -2548,26 +2493,6 @@ button {
   }
   .avatar-controls {
     padding: 3px 14px 13px;
-  }
-  .back-screen {
-    left: 0;
-    top: 0;
-    width: 92%;
-    height: 200px;
-    transform: rotate(-5deg);
-    opacity: 0.45;
-  }
-  .back-screen.second {
-    left: 24px;
-    bottom: 0;
-    width: 85%;
-    height: 220px;
-    transform: rotate(5deg);
-  }
-  .stage-note {
-    font-size: 8px;
-    bottom: -20px;
-    gap: 5px;
   }
   .avatar-label strong {
     font-size: 17px;
@@ -3012,10 +2937,6 @@ button {
     filter: none !important;
     transform: none !important;
   }
-  .back-screen,
-  .back-screen.second {
-    transform: none;
-  }
   .marquee-track {
     animation: none;
   }
@@ -3087,9 +3008,6 @@ input[type="checkbox"] {
   color: #666;
 }
 @media (max-width: 540px) {
-  .hero-stage .back-screen {
-    display: none;
-  }
   .avatar-device {
     width: 100%;
   }
