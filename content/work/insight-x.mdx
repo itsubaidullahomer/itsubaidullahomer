@@ -1,0 +1,18 @@
+## The problem
+
+MedSpa operators wanted dashboards for revenue, bookings, provider performance and retention, without paying an analyst to rewrite queries every time their schema changed. The BI tools they tried assumed they could write SQL or spend an afternoon in a chart builder. Neither was true.
+
+## What I built
+
+I built an engine that inspects the incoming data structure and generates the chart logic for it at runtime. Dashboards re-render against whatever the connected platform returns, whether that's Boulevard, Zenoti or Vagaro, with no manual configuration in between. The frontend is React with Chart.js and D3, where every chart is a real component instead of an embedded iframe.
+
+## The hard parts
+
+- Built the analytics engine that generates chart logic from the raw data structure.
+- Designed and implemented real-time dashboards for revenue tracking, booking analytics, provider performance, and retention.
+- Integrated MedSpa platforms (Boulevard, Zenoti, Vagaro) for automatic operational data ingestion.
+- Owned the frontend architecture: chart composition, state and responsive layouts.
+
+## Results
+
+The platform showed enough traction to help the company close $250k in funding. Operators got live dashboards for revenue, bookings, provider performance and client retention in one place without writing a query. The company has since rebranded to Illume Analytics and is still serving wellness practices today.

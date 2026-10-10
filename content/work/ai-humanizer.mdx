@@ -1,0 +1,18 @@
+## The problem
+
+Tools built on a single model fail unpredictably. One model's output gets flagged, another one's doesn't, and there's no good way to know in advance which will work for a given piece of text. Most of them also have no real billing, so they never get past the prototype stage.
+
+## What I built
+
+The pipeline routes text through GPT-4, Claude and Gemini with fallback logic between them, so if one model's output comes back flagged the next one takes a different angle at it. Stripe handles subscriptions and plan changes through webhooks, and JWT keeps sessions stateless. I gave the UI its own look mostly so it wouldn't blend into the wall of identical AI tools.
+
+## The hard parts
+
+- Built the multi-model pipeline with fallback, so a flagged result gets retried through a different model.
+- Implemented Stripe subscription billing with webhook automation for plan changes, cancellations, and dunning.
+- Designed and implemented JWT-based authentication so the API stays stateless.
+- Designed and built the UI so the product didn't look like every other AI tool.
+
+## Results
+
+It's live with paying customers and billing that runs itself. The fallback design means the product keeps working when one provider changes behavior, which happens more often than you'd expect.

@@ -1,0 +1,90 @@
+## The problem
+
+I was hired to fix one bug in someone else’s Next.js app. Fixing the next ten the same way would not make it a dependable product. We agreed to rebuild.
+
+## What I built
+
+Eight products on one Express and MongoDB backend: Tututor.AI, EduNova for teachers, school admin, platform admin, and the Familias, Alumnos and Profesores mobile apps, plus the core API.
+
+The teacher toolkit has 40+ AI tools for lesson preparation, a full document editor, mind maps, games and Google Classroom export.
+
+## The hard parts
+
+I moved AI calls and permanent keys out of the browser, replaced Firebase with our own backend, and added school scoping, realtime messaging, push, storage and billing. The finance module handles SEPA direct-debit batches; Educamos imports and Plumier XXI exports connect the regional school systems. The export matched 1,833 of 1,833 golden-test cases.
+
+## Results
+
+20k+ students, teachers and families use the platform. About 1,000 API endpoints across 90 data models serve eight products. Three mobile apps are listed on both stores. There are approximately 6,000 commits across nine repos, more than 3,600 of them mine.
+
+## The full story
+
+What schools see as “Tututor” is a set of separate apps, each with its own repo and release cycle, sharing one backend and one data model. I built that backend and most of what sits on it. The junior developers I led, and later the founder himself, committed alongside me.
+
+The Express backend all eight products talk to. Auth with 2FA and Google/Apple sign-in, school scoping, realtime chat, push, file storage, billing and the AI layer.
+
+The original product. 40+ AI tools for lesson prep (didactic units, rubrics, quizzes, mind maps, games) and a document editor with AI actions built in.
+
+Where a teacher runs their day: grades (including infant-school report cards), attendance, homework with AI feedback, messages, meetings, curriculum planning.
+
+Enrolment, teacher assignments, and the finance module: receipts, SEPA direct-debit batches, tax forms. Also the Educamos import and Plumier XXI export.
+
+The internal console: schools, users, curriculum master data by region, bulk imports, and product analytics.
+
+Homework, attendance, grades, permission slips, messages and the school timetable, for every child in the family, with push notifications.
+
+The student's day: homework, grades, timetable, online tests, files and the class board.
+
+Take the register from the classroom, set homework, grade, message families, and correct exams with AI. The largest of the apps.
+
+It didn't start as a platform. It started as someone else's Next.js app with a problem to fix. Each chapter below is a real point in the git history, with what the product looked like at the time.
+
+The founder came to me with this app and one problem. Looking at the code, I told him the honest version: fixing this bug would take a day, and the next ten would too. I said we should rebuild it instead, and he agreed. My brother designed the new version.
+
+I rewrote it as a React app with Redux, then rebuilt the data layer on Firebase for auth and storage, because I didn't know backend work yet. By 12 October 2024 it was 229 files and 37,000 lines. It worked, but the AI calls to OpenAI, Anthropic and Gemini ran in the browser, API keys included. That was the thing I most needed to fix.
+
+By then I'd built a few backends on other projects and I was ready. I told the founder we needed our own, and built it: Express and MongoDB, first code on 16 October 2024. Three days later the frontend's auth moved off Firebase, and within a month every AI tool generated through the server. The keys left the browser, credits and Stripe billing got a proper home, and we finally had somewhere to put data we owned.
+
+The busiest stretch: 870 commits to the frontend in three months. The catalog grew to 40+ tools built on the curriculum data for each Spanish region, plus games, a quiz generator, mind maps and Google Classroom export. The first editor showed generated text in a read-only box with three buttons. I replaced it with a full document editor where you select a paragraph and ask the AI to improve, expand, shorten or turn it into a table.
+
+Schools liked the tools and asked for everything else. I added a school model to the backend in March 2025, then attendance, students, grades and messaging over the next months, and started the teacher platform and the admin panel on top. The work outgrew one person, so I led a small team of junior developers: three app developers and a couple of web developers. I set the architecture and split the work between them, and kept most of the backend myself. The parent app followed in September 2025.
+
+Infant-school report cards graded by observation, not numbers. A finance module that builds SEPA direct-debit files by hand, so schools can collect fees from families' banks. Importing a school's whole roster from Educamos, and exporting grades to Plumier XXI, the regional system, in its exact format: golden-tested against real exports, 1,833 out of 1,833 matched. Then the scaling work: queries scoped by school, a Redis adapter so sockets work across instances, locks so scheduled jobs run once, file storage moved from Cloudinary to Cloudflare R2, and indexes and aggregations where the queries got slow.
+
+By the middle of 2026 the juniors had moved on. By then the founder had grown into a real developer, and he now builds features the juniors used to. Since then it has been the two of us, and either of us can pick up anything from the database to the App Store release.
+
+I shipped Familias, Alumnos and Profesores to the App Store and Google Play: moved them to newer React Native, fixed the Android 16 KB page-size requirement, turned on R8 obfuscation, added Google and Apple sign-in, and worked through store rejections. Then I started the next rebuild: a Kotlin Multiplatform core with SwiftUI and Jetpack Compose on top. 226 commits in its first five days.
+
+The first version showed you the generated text and let you copy it. Today it's a full document editor. Select any passage and the AI rewrites it in place, and every image and document from the generation sits one click away.
+
+Parents, students and teachers each get their own app, all on the same backend as the web platform. These are the store screenshots, taken from our demo school.
+
+Eight products, one backend. Hover a box to see what it does, or play a scenario to watch a request travel through it.
+
+Pick a scenario to watch a request travel through, or hover a service to see what it does.
+
+When we started, the founder couldn't read code. He'd send me lists of wording changes: this button should be in Spanish, this label is wrong. So I showed him how to do it himself. Find the string, change it, commit, push. His first commit in the backend changed three lines. His first in the frontend translated three strings.
+
+Then it kept going. He copied an existing tool to make a new one. He learned to edit prompts, then to add fields, then whole screens. Two years later he builds complete features across the backend, web and mobile apps: dining, absenteeism tracking, family invoices, tax forms. He works the way I do now, with an AI assistant and conventional commits. In July 2026 he made more backend commits than I did. The juniors I led have moved on, and today the founder and I run the whole product between us.
+
+At some level, that's a threat to my job. I'm fine with that, and I'd do it again. A client who understands his own product makes better decisions, gives better feedback and trusts the work, because he's seen how it's made. I think teaching the people you build for is part of the job, and it's the fair thing to do.
+
+First commits: three strings translated to Spanish, and a three-line change to which AI models the tools use.
+
+Builds billing receipts and returned-payment handling for SEPA direct debits.
+
+The junior team moves on. From here it's the two of us, and he takes on the work they used to do.
+
+Ships an absenteeism system of about 10,000 lines. His median commit has grown from 16 lines to 487.
+
+Rebuilt the product three times: frontend to React, then off Firebase onto a backend I wrote, then the platform around it.
+
+Designed and wrote most of the Express backend: auth, school scoping, realtime messaging, push, storage, billing and the AI layer. About 1,000 endpoints on 90 models.
+
+Built the finance module (SEPA direct-debit batches, receipts, surcharges), the Educamos import and the Plumier XXI grades export.
+
+Did the scaling work: Redis socket adapter, cron locks, the R2 storage migration, index and aggregation rewrites, an authentication floor across the API.
+
+Shipped three React Native apps to both stores, and started the native Kotlin Multiplatform + SwiftUI rewrite.
+
+Led a team of junior developers through 2025 and early 2026 (three app developers and a couple of web developers): set the architecture and split the work. Taught the founder to code; today it is the two of us.
+

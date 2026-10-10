@@ -1,0 +1,17 @@
+## The problem
+
+Most animated marketing pages either run at 30fps and feel like syrup, or get stripped back to nothing so they look good on PageSpeed. There is a middle ground, but it takes enough fiddling that most teams give up after the first regression.
+
+## What I built
+
+I treated every animation as a budget question. GPU-composited transforms only, and nothing that forces layout mid-scroll. Framer Motion handles orchestration and GSAP the timeline-heavy parts. The scroll work goes through requestAnimationFrame so it can't block the main thread, and only the critical CSS loads up front.
+
+## The hard parts
+
+- Built the motion layer, combining Framer Motion for orchestration with GSAP for timelines.
+- Implemented scroll-triggered effects, parallax interactions, and glassmorphism design at 60fps.
+- Tuned the page to 95+ on Lighthouse without cutting any of the motion.
+
+## Results
+
+A page with reveals, parallax depth and glass panels that still lands in the green Lighthouse bands.

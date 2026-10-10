@@ -1,0 +1,17 @@
+## The problem
+
+The restaurant was handing 30% of every order to delivery apps. They wanted their own ordering page, and one that didn't look like a form from 2014.
+
+## What I built
+
+Redux Toolkit for cart and order state, RTK Query for server state, Stripe for payments, Google OAuth so nobody has to make an account, and i18next for the two languages. Order tracking connects the kitchen view to the customer view, so a status change only has to be made once.
+
+## The hard parts
+
+- Built shopping cart, payment processing, and order tracking using Redux Toolkit + RTK Query + Stripe API.
+- Wired Google OAuth for one-tap sign-in.
+- Implemented i18next for Danish/English with locale-aware copy.
+
+## Results
+
+The restaurant now takes its regulars' orders directly instead of paying an aggregator for them.

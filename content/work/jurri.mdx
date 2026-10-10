@@ -1,0 +1,18 @@
+## The problem
+
+Teams were using four separate tools for what was really one workflow: storage, email across several accounts, shared credentials and access control. None of them talked to each other, so people spent half their day moving between tabs.
+
+## What I built
+
+One product with three surfaces (files, inbox, vault) sharing the same navigation, search and auth model. RTK Query handled server state with fairly aggressive cache invalidation so nothing on screen went stale. I split the frontend into small components and hooks the rest of the team could reuse, and over a few months that turned into the library everyone built new screens from.
+
+## The hard parts
+
+- Built the reusable React component and hooks library the team ended up using for everything.
+- Built drag-and-drop file uploads with multi-file progress and resumable behavior.
+- Implemented the unified inbox aggregating multiple email accounts behind one UI.
+- Worked on the bundle with code splitting and lazy loading for roughly a 40% faster first load.
+
+## Results
+
+Reusing those components noticeably cut the time it took the team to put up a new screen. Code splitting and lazy loading brought the initial load down by about 40%. And users stopped juggling tabs, which was the point.
