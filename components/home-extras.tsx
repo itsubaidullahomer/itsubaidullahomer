@@ -1,18 +1,289 @@
-'use client';
-import {useState} from 'react';
-import Image from 'next/image';
-import Script from 'next/script';
-import * as Accordion from '@radix-ui/react-accordion';
-import {Plus,Pause,Play,ArrowRight,Check} from 'lucide-react';
-import {faqs} from '@/content/site';
-import {pricing} from '@/content/pricing';
-import {BookButton,CopyEmail,TalkButton} from './providers';
-import {Section,SectionHeading} from './layout-parts';
-const logos=[{name:'Tututor.ai',src:'/logos/tututor.png',url:'https://tututor.ai'},{name:'illume',src:'/logos/illume.png',url:'https://joinillume.com'},{name:'viloi',src:'/logos/viloi.png',url:'https://viloi.com'},{name:'Danzee Tech',src:'/logos/danzee.png',url:'https://danzeetech.com'},{name:'Ali Foodies',src:'/logos/ali-foodies.png',url:'https://alifoodies.com'}];
-export function LogoStrip(){const[paused,setPaused]=useState(false);return <Section className="logo-section"><p>Products I’ve built and shipped</p><button className="marquee-pause" onClick={()=>setPaused(!paused)} aria-label={paused?'Play product logos':'Pause product logos'}>{paused?<Play size={11}/>:<Pause size={11}/>}</button><div className="marquee-mask"><div className={`marquee-track ${paused?'paused':''}`}>{[0,1].map(copy=><div key={copy} className="flex" aria-hidden={copy===1}>{logos.map(l=><a className="logo-item" key={l.name} href={l.url} tabIndex={copy===1?-1:0} target="_blank" rel="noreferrer">{l.src&&<Image src={l.src} alt="" width={25} height={25}/>}<span>{l.name}</span></a>)}</div>)}</div></div></Section>;}
-const services=[['AI features, end to end.','The model, the streaming, the failures. All the parts that make it work.','ai'],['Full-stack web apps.','A solid data model. An interface that makes sense. Built to grow.','web'],['Mobile apps.','React Native and native apps, from the first screen to the stores.','mobile'],['Landing pages with life.','Clear copy, considered motion, and the performance to match.','landing'],['Voice & calling agents.','Conversations that handle pauses, interruptions and the real world.','voice'],['Rescue & rebuild.','Untangle the fragile parts. Keep what works. Ship what’s next.','rescue']];
-function ServiceArt({type}:{type:string}){return <div className="service-art" aria-hidden="true">{type==='ai'?<div className="pipeline"><span>Your app</span><ArrowRight size={12}/><span>AI layer</span><ArrowRight size={12}/><span>A useful answer</span></div>:type==='web'?<div className="app-wire"><aside><i/><i/><i/></aside><div><i/><div className="chart">{[35,65,48,83,100].map((h,i)=><i key={i} style={{height:`${h}%`}}/>)}</div></div></div>:type==='mobile'?<><div className="mobile-wire"><div/><div/><div/></div><div className="mobile-wire" style={{transform:'rotate(-7deg)',marginLeft:18,marginTop:22}}><div/><div/><div/></div></>:type==='landing'?<div className="type-sample">Made to move<span style={{fontSize:22}}> ↗</span></div>:type==='voice'?<div className="waveform">{Array.from({length:28},(_,i)=><i key={i} style={{height:`${12+Math.abs(Math.sin(i*1.2))*40}px`,animationDelay:`${i*-.07}s`}}/>)}</div>:<div className="repair-diff"><div>− &nbsp; it works on my machine</div><div>+ &nbsp; it works for your customers</div></div>}</div>;}
-export function Services(){return <Section className="services-section"><SectionHeading title="One engineer. The whole product." description="Bring me an idea, a difficult feature, or a product that needs a fresh start."/><div className="bento">{services.map(([title,text,type])=><article className="service-tile" key={type}><ServiceArt type={type}/><h3>{title}</h3><p>{text}</p></article>)}</div></Section>;}
-export function Pricing(){return <Section><SectionHeading title="A scope that fits. A clear way forward." description="A focused build or someone in your corner for the long run."/><div className="pricing-grid">{pricing.map(p=><article className="price-card" key={p.name}><h3>{p.name}</h3><p>{p.description}</p><span className="price-label">{p.startingAt?'Starting at':'Let’s define the work'}</span><span className="price-value">{p.startingAt?new Intl.NumberFormat('en-US',{style:'currency',currency:p.currency,maximumFractionDigits:0}).format(p.startingAt):'Scope first, quote second.'}</span><ul>{p.includes.map(item=><li key={item}><Check size={13}/>{item}</li>)}</ul><BookButton variant="secondary">Let’s talk <ArrowRight size={14}/></BookButton></article>)}</div><p className="pricing-note">Fixed scope. Clear milestones. No surprises.</p><div className="custom-work"><div><h3>Something a little different?</h3><p>Tell me about it. The interesting work rarely fits a package.</p></div><BookButton>Discuss custom work <ArrowRight size={14}/></BookButton></div></Section>;}
-export function FAQ(){return <Section className="faq-section"><div className="faq-layout"><div><h2>A few things you might be wondering.</h2><p>Didn’t find it? Ask the AI version of me.</p><div className="faq-links"><TalkButton variant="ghost">Ask the AI me <ArrowRight size={14}/></TalkButton><CopyEmail compact/></div></div><Accordion.Root type="single" collapsible>{faqs.map(([q,a],i)=><Accordion.Item className="faq-item" value={`faq-${i}`} key={q}><Accordion.Header><Accordion.Trigger className="faq-trigger">{q}<Plus size={17}/></Accordion.Trigger></Accordion.Header><Accordion.Content className="faq-content"><p>{a}</p></Accordion.Content></Accordion.Item>)}</Accordion.Root></div></Section>;}
-export function Testimonials(){const id=process.env.NEXT_PUBLIC_SENJA_WIDGET_ID;if(!id||!/^[a-zA-Z0-9-]+$/.test(id))return null;return <Section className="senja-section"><SectionHeading title="From the people I work with."/><div className="senja-embed" data-id={id} data-mode="shadow" data-lazyload="true"/><Script src={`https://widget.senja.io/widget/${id}/platform.js`} strategy="lazyOnload"/></Section>;}
+"use client";
+import { useState } from "react";
+import Image from "next/image";
+import Script from "next/script";
+import * as Accordion from "@radix-ui/react-accordion";
+import { Plus, Pause, Play, ArrowRight, Check } from "lucide-react";
+import { faqs } from "@/content/site";
+import { pricing } from "@/content/pricing";
+import { BookButton, CopyEmail, TalkButton } from "./providers";
+import { Section, SectionHeading } from "./layout-parts";
+const logos = [
+  { name: "Tututor.ai", src: "/logos/tututor.png", url: "https://tututor.ai" },
+  { name: "illume", src: "/logos/illume.png", url: "https://joinillume.com" },
+  { name: "viloi", src: "/logos/viloi.png", url: "https://viloi.com" },
+  {
+    name: "Danzee Tech",
+    src: "/logos/danzee.png",
+    url: "https://danzeetech.com",
+  },
+  {
+    name: "Ali Foodies",
+    src: "/logos/ali-foodies.png",
+    url: "https://alifoodies.com",
+  },
+];
+export function LogoStrip() {
+  const [paused, setPaused] = useState(false);
+  return (
+    <Section className="logo-section">
+      <p>Products I’ve built and shipped</p>
+      <button
+        className="marquee-pause"
+        onClick={() => setPaused(!paused)}
+        aria-label={paused ? "Play product logos" : "Pause product logos"}
+      >
+        {paused ? <Play size={11} /> : <Pause size={11} />}
+      </button>
+      <div className="marquee-mask">
+        <div className={`marquee-track ${paused ? "paused" : ""}`}>
+          {[0, 1].map((copy) => (
+            <div key={copy} className="flex" aria-hidden={copy === 1}>
+              {logos.map((l) => (
+                <a
+                  className="logo-item"
+                  key={l.name}
+                  href={l.url}
+                  tabIndex={copy === 1 ? -1 : 0}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {l.src && <Image src={l.src} alt="" width={25} height={25} />}
+                  <span>{l.name}</span>
+                </a>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    </Section>
+  );
+}
+const services = [
+  [
+    "AI features, end to end.",
+    "The model, the streaming, the failures. All the parts that make it work.",
+    "ai",
+  ],
+  [
+    "Full-stack web apps.",
+    "A solid data model. An interface that makes sense. Built to grow.",
+    "web",
+  ],
+  [
+    "Mobile apps.",
+    "React Native and native apps, from the first screen to the stores.",
+    "mobile",
+  ],
+  [
+    "Landing pages with life.",
+    "Clear copy, considered motion, and the performance to match.",
+    "landing",
+  ],
+  [
+    "Voice & calling agents.",
+    "Conversations that handle pauses, interruptions and the real world.",
+    "voice",
+  ],
+  [
+    "Rescue & rebuild.",
+    "Untangle the fragile parts. Keep what works. Ship what’s next.",
+    "rescue",
+  ],
+];
+function ServiceArt({ type }: { type: string }) {
+  return (
+    <div className="service-art" aria-hidden="true">
+      {type === "ai" ? (
+        <div className="pipeline">
+          <span>Your app</span>
+          <ArrowRight size={12} />
+          <span>AI layer</span>
+          <ArrowRight size={12} />
+          <span>A useful answer</span>
+        </div>
+      ) : type === "web" ? (
+        <div className="app-wire">
+          <aside>
+            <i />
+            <i />
+            <i />
+          </aside>
+          <div>
+            <i />
+            <div className="chart">
+              {[35, 65, 48, 83, 100].map((h, i) => (
+                <i key={i} style={{ height: `${h}%` }} />
+              ))}
+            </div>
+          </div>
+        </div>
+      ) : type === "mobile" ? (
+        <>
+          <div className="mobile-wire">
+            <div />
+            <div />
+            <div />
+          </div>
+          <div
+            className="mobile-wire"
+            style={{
+              transform: "rotate(-7deg)",
+              marginLeft: 18,
+              marginTop: 22,
+            }}
+          >
+            <div />
+            <div />
+            <div />
+          </div>
+        </>
+      ) : type === "landing" ? (
+        <div className="type-sample">
+          Made to move<span style={{ fontSize: 22 }}> ↗</span>
+        </div>
+      ) : type === "voice" ? (
+        <div className="waveform">
+          {Array.from({ length: 28 }, (_, i) => (
+            <i
+              key={i}
+              style={{
+                height: `${12 + Math.abs(Math.sin(i * 1.2)) * 40}px`,
+                animationDelay: `${i * -0.07}s`,
+              }}
+            />
+          ))}
+        </div>
+      ) : (
+        <div className="repair-diff">
+          <div>− &nbsp; it works on my machine</div>
+          <div>+ &nbsp; it works for your customers</div>
+        </div>
+      )}
+    </div>
+  );
+}
+export function Services() {
+  return (
+    <Section className="services-section">
+      <SectionHeading
+        title="One engineer. The whole product."
+        description="Bring me an idea, a difficult feature, or a product that needs a fresh start."
+      />
+      <div className="bento">
+        {services.map(([title, text, type]) => (
+          <article className="service-tile" key={type}>
+            <ServiceArt type={type} />
+            <h3>{title}</h3>
+            <p>{text}</p>
+          </article>
+        ))}
+      </div>
+    </Section>
+  );
+}
+export function Pricing() {
+  return (
+    <Section>
+      <SectionHeading
+        title="A scope that fits. A clear way forward."
+        description="A focused build or someone in your corner for the long run."
+      />
+      <div className="pricing-grid">
+        {pricing.map((p) => (
+          <article className="price-card" key={p.name}>
+            <h3>{p.name}</h3>
+            <p>{p.description}</p>
+            <span className="price-label">
+              {p.startingAt ? "Starting at" : "Let’s define the work"}
+            </span>
+            <span className="price-value">
+              {p.startingAt
+                ? new Intl.NumberFormat("en-US", {
+                    style: "currency",
+                    currency: p.currency,
+                    maximumFractionDigits: 0,
+                  }).format(p.startingAt)
+                : "Scope first, quote second."}
+            </span>
+            <ul>
+              {p.includes.map((item) => (
+                <li key={item}>
+                  <Check size={13} />
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <BookButton variant="secondary">
+              Let’s talk <ArrowRight size={14} />
+            </BookButton>
+          </article>
+        ))}
+      </div>
+      <p className="pricing-note">
+        Fixed scope. Clear milestones. No surprises.
+      </p>
+      <div className="custom-work">
+        <div>
+          <h3>Something a little different?</h3>
+          <p>Tell me about it. The interesting work rarely fits a package.</p>
+        </div>
+        <BookButton>
+          Discuss custom work <ArrowRight size={14} />
+        </BookButton>
+      </div>
+    </Section>
+  );
+}
+export function FAQ() {
+  return (
+    <Section className="faq-section">
+      <div className="faq-layout">
+        <div>
+          <h2>A few things you might be wondering.</h2>
+          <p>Didn’t find it? Ask the AI version of me.</p>
+          <div className="faq-links">
+            <TalkButton variant="ghost">
+              Ask the AI me <ArrowRight size={14} />
+            </TalkButton>
+            <CopyEmail compact />
+          </div>
+        </div>
+        <Accordion.Root type="single" collapsible>
+          {faqs.map(([q, a], i) => (
+            <Accordion.Item className="faq-item" value={`faq-${i}`} key={q}>
+              <Accordion.Header>
+                <Accordion.Trigger className="faq-trigger">
+                  {q}
+                  <Plus size={17} />
+                </Accordion.Trigger>
+              </Accordion.Header>
+              <Accordion.Content className="faq-content">
+                <p>{a}</p>
+              </Accordion.Content>
+            </Accordion.Item>
+          ))}
+        </Accordion.Root>
+      </div>
+    </Section>
+  );
+}
+export function Testimonials() {
+  const id = process.env.NEXT_PUBLIC_SENJA_WIDGET_ID;
+  if (!id || !/^[a-zA-Z0-9-]+$/.test(id)) return null;
+  return (
+    <Section className="senja-section">
+      <SectionHeading title="From the people I work with." />
+      <div
+        className="senja-embed"
+        data-id={id}
+        data-mode="shadow"
+        data-lazyload="true"
+      />
+      <Script
+        src="https://static.senja.io/dist/platform.js"
+        strategy="lazyOnload"
+      />
+    </Section>
+  );
+}

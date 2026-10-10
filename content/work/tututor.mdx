@@ -88,3 +88,20 @@ Shipped three React Native apps to both stores, and started the native Kotlin Mu
 
 Led a team of junior developers through 2025 and early 2026 (three app developers and a couple of web developers): set the architecture and split the work. Taught the founder to code; today it is the two of us.
 
+
+## The product family in detail
+
+These figures are the snapshot published in the original case study, not live counters.
+
+- **Core API:** 2,164 commits, about 1,000 endpoints and 90 models. Node.js, Express, MongoDB, Socket.io and Redis. Shared authentication includes 2FA and Google/Apple sign-in.
+- **Tututor.AI:** 1,552 commits and 138k lines since October 2024. React, Redux / RTK Query, Plate, TipTap and Stripe. The document editor lets teachers improve, expand, shorten or turn a selected passage into a table.
+- **EduNova for teachers:** 1,290 commits, 30 API services and 604 hooks. React 19, RTK Query, Socket.io and jsPDF. Grades, infant-school report cards, attendance, homework with AI feedback, meetings and curriculum planning.
+- **EduNova school admin:** 353 commits, 36 API services and 665 hooks. React, RTK Query, SEPA XML and XLSX. Enrolment, assignments, receipts, direct-debit batches and tax forms.
+- **Platform admin:** 76 commits and 165 wired endpoints. React 19, Vite, Tailwind 4 and Recharts. Schools, users, regional curriculum data, imports and analytics.
+- **Familias:** 182 commits; Android v1.39 and iOS v1.24. React Native 0.77, FCM / APNs, Google and Apple sign-in. Homework, attendance, grades, permission slips and messages for every child in the family.
+- **Alumnos:** 82 commits; Android v1.10 and iOS v1.5. React Native 0.77, FCM and 2FA. Homework, grades, timetable, online tests, files and the class board.
+- **Profesores:** 74 commits and 99k lines; Android v1.5. React Native 0.84, TypeScript and R8. Classroom attendance, homework, grading, family messages and AI exam correction.
+
+The frontend reached 229 files and 37,000 lines by 12 October 2024. The Express backend began on 16 October; authentication moved off Firebase three days later, and AI generation moved server-side within a month. The busiest frontend period added 870 commits in three months. School data entered the backend in March 2025, and the parent app followed in September 2025.
+
+The September 2026 native rewrite started with a Kotlin Multiplatform core and SwiftUI / Jetpack Compose interfaces, with 226 commits in its first five days. The Nova owl concept was selected for Familias. These are historical project figures, not claims about the current repository.
