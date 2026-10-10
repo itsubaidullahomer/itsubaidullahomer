@@ -36,7 +36,7 @@ Application prepared on 11 October 2026:
 - Requested capability: hosted website sign-in **and** plan-funded Responses API access.
 - Proposed callback: `https://itsubaidullahomer.com/api/chatgpt/callback`.
 
-The owner authorized submission. The browser submission attempt did not produce a success confirmation and its anti-bot verification reported errors. Receipt is **unconfirmed**; the filled form was left open for manual completion. Do not record the application as received or approved without confirmation.
+The owner confirmed submitting the form on 11 October 2026 after completing the browser step manually. OpenAI approval and hosted-client credentials are still pending. Submission alone does not enable the connection.
 
 After OpenAI accepts the application:
 

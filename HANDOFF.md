@@ -2,7 +2,7 @@
 
 ## What is here
 
-The portfolio is a Next.js 16 / React 19 / TypeScript app on branch `redesign`. It uses Tailwind 4, Radix-based shadcn-style primitives, Geist fonts, Motion, and local MDX. All 18 original page URLs remain: home, Work, nine case studies, About, Contact, Playground, Now, Writing and two articles. `/api/og`, sitemap, robots, Person/ProfessionalService structured data and article structured data are included.
+The portfolio is a Next.js 16 / React 19 / TypeScript app. The redesign is ready for release to `main`. It uses Tailwind 4, Radix-based shadcn-style primitives, Geist fonts, Motion, and local MDX. All 18 original page URLs remain: home, Work, nine case studies, About, Contact, Playground, Now, Writing and two articles. `/api/og`, sitemap, robots, Person/ProfessionalService structured data and article structured data are included.
 
 The starting checkout was the GitHub profile repository, not the old portfolio source. The existing README, profile assets, data and daily GitHub workflow remain. `npm run profile:build` runs the original automation. The site’s public content, real photos, CV and screenshots were recovered from its live deployment. See `docs/source-inventory.json` and `DECISIONS.md`.
 
@@ -20,7 +20,7 @@ npm run build
 npm start
 ```
 
-Vercel uses the Next.js preset, repository root, and `npm run build`. This work has not been pushed or deployed. Keep the existing site live until you review this branch. A local preview uses port 3000; the QA production preview uses port 3001.
+The owner authorized merging to `main` and deploying on 11 October 2026. The live domain currently uses Vercel. Use the Next.js preset, repository root, and `npm run build`, with `main` as the production branch. A local preview uses port 3000; the QA production preview uses port 3001. ChatGPT and the earlier avatar remain disabled until their separate provider setup is complete.
 
 ## Configuration
 
