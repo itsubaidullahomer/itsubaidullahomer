@@ -1,17 +1,23 @@
-KCVLet's build something that ships.I take on a few product engineering projects at a time. If you need someone who can own a feature from the data model to the last CSS fix, that's the part I'm good at.
-
-SitemapWorkAboutNowPlaygroundWritingContactElsewhereGitHubLinkedInFacebookInstagramEmail© 2026 Ubaidullah Omer · Built in Rahim Yar Khan, PakistanAll systems normalbuild 6211aa5Next.js · React 19 · VercelrequestAnimationFrame(function(){$RT=performance.now()});{"@context":"https://schema.org","@type":"BlogPosting","headline":"Shipping AI features to real users","description":"Notes from a year of putting AI into a platform 17,000 people use. Most of the work had nothing to do with the model.","image":"https://itsubaidullahomer.com/api/og?title=Shipping%20AI%20features%20to%20real%20users","datePublished":"2026-04-22","dateModified":"2026-04-22","author":{"@type":"Person","@id":"https://itsubaidullahomer.com/#person","name":"Ubaidullah Omer","url":"https://itsubaidullahomer.com"},"publisher":{"@type":"Person","@id":"https://itsubaidullahomer.com/#person","name":"Ubaidullah Omer","url":"https://itsubaidullahomer.com"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://itsubaidullahomer.com/writing/shipping-ai-features-to-real-users"}}{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://itsubaidullahomer.com"},{"@type":"ListItem","position":2,"name":"Writing","item":"https://itsubaidullahomer.com/writing"},{"@type":"ListItem","position":3,"name":"Shipping AI features to real users","item":"https://itsubaidullahomer.com/writing/shipping-ai-features-to-real-users"}]}All writingApril 22, 2026·6 minShipping AI features to real usersNotes from a year of putting AI into a platform 17,000 people use. Most of the work had nothing to do with the model.
-
 The model is the easy part. That's the thing nobody mentions when they talk about shipping AI features.
 
 When I started on the AI tools inside Tututor I assumed prompt engineering would be the hard bit. It wasn't. The hard bit was everything around the model: keeping the teacher UI responsive while the model was thinking, storing conversations in a shape someone could actually read back later, and working out what the product should do when a response takes eight seconds instead of one.
 
-Stream everything. As soon as someone sees tokens landing on screen, they'll wait. Show them a spinner for three seconds and they assume it's broken. It's less a performance trick than a way of telling the user the product is still with them.
+A few things that mattered more than which model I picked:
 
-Store the conversation, not just the answer. Teachers read back every student conversation to work out where someone got stuck, and that's only possible because each turn is its own row rather than a JSON blob. The shape you pick early decides which features are even available to you six months later.
+Stream everything.
 
-Put the AI calls in their own service. Not for architectural purity. Because when OpenAI is having a bad day, you don't want your main API having one too.
+As soon as someone sees tokens landing on screen, they'll wait. Show them a spinner for three seconds and they assume it's broken. It's less a performance trick than a way of telling the user the product is still with them.
 
-Decide what failure looks like. When the model can't answer, what does the screen say? Most teams fall back to a generic error. That's the one moment where a specific response is worth the effort: an older answer, a related action, anything other than "Something went wrong."
+Store the conversation, not just the answer.
+
+Teachers read back every student conversation to work out where someone got stuck, and that's only possible because each turn is its own row rather than a JSON blob. The shape you pick early decides which features are even available to you six months later.
+
+Put the AI calls in their own service.
+
+Not for architectural purity. Because when OpenAI is having a bad day, you don't want your main API having one too.
+
+Decide what failure looks like.
+
+When the model can't answer, what does the screen say? Most teams fall back to a generic error. That's the one moment where a specific response is worth the effort: an older answer, a related action, anything other than "Something went wrong."
 
 The model gets the attention. The plumbing is what keeps people using it.
