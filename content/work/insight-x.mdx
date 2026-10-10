@@ -1,18 +1,19 @@
-## The problem
+## Start with the questions operators ask
 
-MedSpa operators wanted dashboards for revenue, bookings, provider performance and retention, without paying an analyst to rewrite queries every time their schema changed. The BI tools they tried assumed they could write SQL or spend an afternoon in a chart builder. Neither was true.
+MedSpa operators needed to understand revenue, bookings, provider performance and client retention. Their data lived in different booking platforms, and getting a useful dashboard could mean writing queries or configuring charts. I focused on making that information usable without asking operators to become analysts.
 
-## What I built
+## The decisions behind the dashboards
 
-I built an engine that inspects the incoming data structure and generates the chart logic for it at runtime. Dashboards re-render against whatever the connected platform returns, whether that's Boulevard, Zenoti or Vagaro, with no manual configuration in between. The frontend is React with Chart.js and D3, where every chart is a real component instead of an embedded iframe.
+**Adapt to the data coming in.** I built an engine that inspects the incoming data structure and generates chart logic at runtime. That let the dashboards work with data from Boulevard, Zenoti and Vagaro without a separate manual chart setup for each connection.
 
-## The hard parts
+**Organize around business questions.** Revenue, bookings, provider performance and retention became the main dashboard views. The structure follows what an operator needs to understand about the practice.
 
-- Built the analytics engine that generates chart logic from the raw data structure.
-- Designed and implemented real-time dashboards for revenue tracking, booking analytics, provider performance, and retention.
-- Integrated MedSpa platforms (Boulevard, Zenoti, Vagaro) for automatic operational data ingestion.
-- Owned the frontend architecture: chart composition, state and responsive layouts.
+**Make charts part of the product.** I built the visualizations as React components with Chart.js and D3. Owning the chart composition, state and responsive layouts gave me control over how the dashboards behaved as a complete interface.
 
-## Results
+## My contribution
 
-The platform showed enough traction to help the company close $250k in funding. Operators got live dashboards for revenue, bookings, provider performance and client retention in one place without writing a query. The company has since rebranded to Illume Analytics and is still serving wellness practices today.
+As a part-time full-stack engineer, I built the analytics engine and platform integrations, designed and implemented the dashboards, and owned the frontend architecture. My work connected the data ingestion to the experience people actually used to read it.
+
+## What that made possible
+
+Operators could see their key business information in one place without writing a query. The product is live today as Illume Analytics, and the company went on to raise $250k.

@@ -1,17 +1,21 @@
-## The problem
+## Give the restaurant a direct ordering channel
 
-The restaurant was handing 30% of every order to delivery apps. They wanted their own ordering page, and one that didn't look like a form from 2014.
+Crown Kabab wanted to take orders through its own website and reduce its dependence on delivery platforms. The product needed to carry a customer from choosing food to payment and order updates, while keeping the kitchen connected to the same order.
 
-## What I built
+## The decisions behind the ordering flow
 
-Redux Toolkit for cart and order state, RTK Query for server state, Stripe for payments, Google OAuth so nobody has to make an account, and i18next for the two languages. Order tracking connects the kitchen view to the customer view, so a status change only has to be made once.
+**Treat the order as one connected journey.** I connected the cart, payment and order tracking, keeping cart state separate from server data. That made each part of the interface reflect the appropriate stage of the order.
 
-## The hard parts
+**Keep account setup light.** Google sign-in let customers use an existing account, and Stripe handled payment processing. The aim was to make ordering straightforward without adding another password to remember.
 
-- Built shopping cart, payment processing, and order tracking using Redux Toolkit + RTK Query + Stripe API.
-- Wired Google OAuth for one-tap sign-in.
-- Implemented i18next for Danish/English with locale-aware copy.
+**Support the people already ordering.** Danish and English content use the same ordering flow. Customers can follow the process in either language.
 
-## Results
+**Connect customer and kitchen updates.** A status change in the kitchen is reflected in the customer's order view. Staff only need to make the update once.
 
-The restaurant now takes its regulars' orders directly instead of paying an aggregator for them.
+## My contribution
+
+I built the cart, payment integration and order tracking, and added Google sign-in and language support. The work tied the customer experience to the restaurant's handling of the order.
+
+## What that made possible
+
+The restaurant gained its own channel for customers to order directly. Those orders no longer needed to pass through a delivery marketplace, giving the restaurant more control over that part of its business.

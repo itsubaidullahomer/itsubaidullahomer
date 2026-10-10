@@ -1,17 +1,19 @@
-## The problem
+## Design around a comparison, not a single search
 
-Clubs comparing camps care about facilities, location, season and price all at once. The old site couldn't answer those questions, so every enquiry turned into a phone call to the agency.
+A sports club choosing a training camp has to weigh facilities, location, season and price together. The old site left too many of those questions for the agency to answer. My frontend work focused on helping clubs explore the options and carry their choices through to booking.
 
-## What I built
+## The decisions behind the journey
 
-Search comes first and re-queries on every interaction without the page flashing. Content runs through i18next so the same components render in Danish or English. React Router keeps the funnel state intact when someone goes back a step, which they do constantly.
+**Put comparison first.** I built multi-filter search connected to camp and availability data. Results update in place as filters change, so clubs can narrow their options without a full page reload.
 
-## The hard parts
+**Let people go back without starting again.** I preserved the booking flow's state when someone returned to an earlier step. Revisiting a choice is a normal part of planning a group trip; the interface should support it.
 
-- Built the multi-filter search surface and the booking funnel.
-- Wired i18next for Danish/English content with locale-aware routing.
-- Integrated REST APIs for camp data and availability.
+**Keep both languages on the same path.** Danish and English use the same components, with localized content and routing. That kept the search and booking behavior consistent across the two versions.
 
-## Results
+## My contribution
 
-Over 100 clubs are on the platform. Most bookings now go through without anyone at the agency being involved, so they only handle the unusual requests instead of every single quote.
+As a frontend engineer, I built the search interface and booking flow, integrated the camp and availability APIs, and implemented Danish and English support.
+
+## What that made possible
+
+The platform serves over 100 clubs. They can compare camps and move through a standard booking themselves, leaving the agency to help with requests that need a conversation.

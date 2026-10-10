@@ -109,8 +109,10 @@ export function SelectedWork() {
               </Link>
             </h3>
             <p>
-              Tututor.ai grew from a bug fix into eight products on one backend.
-              Today, 20k+ students, teachers and families use it.
+              As Tututor grew, I built a shared backend for eight products and
+              brought AI into the document editor, where teachers could use it
+              in their work. Those decisions helped a small teaching tool grow
+              into a platform for 20k+ students, teachers and families.
             </p>
             <div className="work-tags">
               <span>Lead engineer</span>

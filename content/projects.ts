@@ -14,7 +14,7 @@ export const projects: Project[] = [
     slug: "tututor",
     name: "Tututor.ai",
     description:
-      "An AI tool for teachers that I rebuilt three times and grew into a school platform: eight products, one backend, 20k+ users.",
+      "I helped an AI teaching tool grow into a school platform by bringing eight products onto one shared backend and AI into teachers’ everyday work. Now used by 20k+ students, teachers and families.",
     status: "Live",
     dates: "Nov 2023 \u2013 Present",
     role: "Lead engineer, from first rebuild to today",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     slug: "insight-x",
     name: "Illume",
     description:
-      "Business analytics for MedSpas that builds its own dashboards from whatever data you connect. Live today as Illume Analytics.",
+      "I built adaptive dashboards that turn MedSpa booking data into useful business insights, so operators can understand revenue, bookings and retention without writing queries or configuring charts.",
     status: "Live",
     dates: "Dec 2024 \u2013 Jun 2025",
     role: "Full-Stack Engineer (part-time)",
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     slug: "ai-humanizer",
     name: "Viloi",
     description:
-      "A writing tool at viloi.com that rewrites machine-generated text so it reads naturally. Multi-model pipeline, Stripe billing, built solo.",
+      "I built Viloi from the writing experience through to subscription billing, using model fallbacks to handle varied AI output and automated billing to support a product with paying customers.",
     status: "Live",
     dates: "Side project",
     role: "Full-Stack Engineer",
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     slug: "jurri",
     name: "Jurri",
     description:
-      "Cloud storage, a unified inbox and a password vault in one app for enterprise teams.",
+      "I brought files, email and a password vault into a consistent frontend, with shared components that made new screens easier for the team to build and familiar for people to use.",
     status: "Live",
     dates: "Sep 2023 \u2013 Apr 2024",
     role: "Frontend Engineer",
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     slug: "yaksport",
     name: "Yaksport",
     description:
-      "Booking platform for Danish sports clubs looking for training camps abroad. Over 100 clubs use it.",
+      "I built the search and booking experience around how sports clubs compare camps, keeping their choices intact as they explore options. The platform serves over 100 clubs in Danish and English.",
     status: "Live",
     dates: "Jan 2023 \u2013 Aug 2023",
     role: "Frontend Engineer",
@@ -128,7 +128,7 @@ export const projects: Project[] = [
     slug: "crown-kabab",
     name: "Crown Kabab",
     description:
-      "Ordering site for a restaurant, with Stripe checkout, Google sign-in and Danish/English support.",
+      "I built a direct ordering experience that connects the customer’s cart, payment and order status, giving the restaurant its own sales channel and customers a clear path from choosing food to tracking it.",
     status: "Shipped",
     dates: "Nov 2022 \u2013 May 2023",
     role: "Full-Stack Engineer",
@@ -147,7 +147,7 @@ export const projects: Project[] = [
     slug: "animated-landing",
     name: "Animated Landing",
     description:
-      "A landing page built to find out how much motion I could add before the Lighthouse score dropped.",
+      "I explored how motion could give a landing page character while keeping it responsive, choosing animation techniques around a performance budget and checking their cost as I built.",
     status: "Shipped",
     dates: "Side project",
     role: "Frontend Engineer",
@@ -159,7 +159,7 @@ export const projects: Project[] = [
     slug: "toolkitjar",
     name: "ToolkitJar",
     description:
-      "A free online tools website I built, with tools for text, SEO, code and images, including a text compare tool, a word counter and a JSON formatter. Everything runs in the browser, so nothing is uploaded.",
+      "I made everyday text, code and image tasks quick to find and private to use, with free tools grouped by purpose and processing kept in the browser so content doesn’t need to be uploaded.",
     status: "Live",
     dates: "Side project",
     role: "Developer",

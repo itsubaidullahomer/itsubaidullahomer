@@ -1,18 +1,19 @@
-## The problem
+## Turn a writing tool into a working product
 
-Tools built on a single model fail unpredictably. One model's output gets flagged, another one's doesn't, and there's no good way to know in advance which will work for a given piece of text. Most of them also have no real billing, so they never get past the prototype stage.
+Viloi rewrites machine-generated text so it reads more naturally. Building it meant thinking beyond the prompt: how to respond when a model gives an unsuitable result, how people access a paid plan, and how subscriptions keep working after the first payment.
 
-## What I built
+## The decisions behind the product
 
-The pipeline routes text through GPT-4, Claude and Gemini with fallback logic between them, so if one model's output comes back flagged the next one takes a different angle at it. Stripe handles subscriptions and plan changes through webhooks, and JWT keeps sessions stateless. I gave the UI its own look mostly so it wouldn't blend into the wall of identical AI tools.
+**Give the pipeline another way to try.** I connected GPT-4, Claude and Gemini with fallback routing. When an output is flagged, the pipeline can retry through another model. That gives the product another path when one model's response is unsuitable.
 
-## The hard parts
+**Build for the whole subscription lifecycle.** I used Stripe webhooks to handle plan changes, cancellations and failed-payment follow-up. Those events need to work just as reliably as checkout if people are going to pay for the product over time.
 
-- Built the multi-model pipeline with fallback, so a flagged result gets retried through a different model.
-- Implemented Stripe subscription billing with webhook automation for plan changes, cancellations, and dunning.
-- Designed and implemented JWT-based authentication so the API stays stateless.
-- Designed and built the UI so the product didn't look like every other AI tool.
+**Carry the work through the interface.** I designed and built the UI alongside the API, authentication and billing. It gave Viloi a visual identity of its own and let me take responsibility for the complete product.
 
-## Results
+## My contribution
 
-It's live with paying customers and billing that runs itself. The fallback design means the product keeps working when one provider changes behavior, which happens more often than you'd expect.
+I built Viloi solo, from the interface and multi-model pipeline to JWT authentication and subscription handling. The engineering decisions covered both the writing feature and the ongoing work of running a paid service.
+
+## What that made possible
+
+Viloi is live with paying customers. Model fallbacks provide a way to retry unsuitable results, and automated subscription handling keeps routine billing changes from becoming manual work.

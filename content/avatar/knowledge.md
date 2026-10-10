@@ -2,436 +2,140 @@
 
 Ubaidullah Omer (Ubaid), AI Product Engineer, Rahim Yar Khan, Pakistan (UTC+5). Self-taught, four years of web apps. Available for select freelance product and AI work; also considers product and AI engineering roles. No rates or guaranteed start dates are published. Contact: itsubaidullahomer@gmail.com. Use the page booking action to schedule.
 
+Project narratives refreshed on 11 October 2026 from the portfolio case studies. First-person project descriptions below refer to Ubaid. Historical project figures remain snapshots.
+
 Canonical project slugs: tututor, insight-x (Illume), ai-humanizer (Viloi), ali-foodies, jurri, yaksport, crown-kabab, animated-landing, toolkitjar.
 
 ## tututor
 
-
-All work
-Live
-Nov 2023 – Present
-Lead engineer, from first rebuild to today
 Tututor.ai
-An AI tool for teachers that I rebuilt three times and grew into a school platform: eight products, one backend, 20k+ users.
-Visit Tututor.ai
-Tututor.AI
-AI tools
-AI editor
-Images
-Mind maps
-Virtual tutors
-Assistant
-Plans
-EduNova
-Dashboard
-Messages
-Timetable
-Apps
-Mobile apps
-app.tutor.ai
-Tututor.AI
-40+ AI tools for lesson prep
-Didactic units, exams, mind maps, games, rubrics. Grouped by what the teacher wants to do, with a search box that understands plain requests.
-01
-/
-11
-0
-1
-20k+
-Students, teachers & families
-schools across Murcia, Spain
-0
-2
-~6,000
-Commits across 9 repos
-3,600+ of them mine
-0
-3
-~1,000
-API endpoints
-on ~90 data models, one Express backend
-0
-4
-6
-Store listings
-3 apps, each on iOS and Android
-The product family
-One login,
-8
-products.
-What schools see as “Tututor” is a set of separate apps, each with its own repo and release cycle, sharing one backend and one data model. I built that backend and most of what sits on it. The junior developers I led, and later the founder himself, committed alongside me.
-Backend
-·
-Every app
-Core API
-The Express backend all eight products talk to. Auth with 2FA and Google/Apple sign-in, school scoping, realtime chat, push, file storage, billing and the AI layer.
-2,164 commits · ~1,000 endpoints · ~90 models
-Node.js
-Express
-MongoDB
-Socket.io + Redis
-Web app
-·
-Teachers
-Tututor.AI
-The original product. 40+ AI tools for lesson prep (didactic units, rubrics, quizzes, mind maps, games) and a document editor with AI actions built in.
-1,552 commits · 138k lines · since Oct 2024
-React
-Redux / RTK Query
-Plate + TipTap
-Stripe
-Web app
-·
-Teachers
-EduNova for teachers
-Where a teacher runs their day: grades (including infant-school report cards), attendance, homework with AI feedback, messages, meetings, curriculum planning.
-1,290 commits · 30 API services, 604 hooks
-React 19
-RTK Query
-Socket.io
-jsPDF
-Web app
-·
-School office
-EduNova school admin
-Enrolment, teacher assignments, and the finance module: receipts, SEPA direct-debit batches, tax forms. Also the Educamos import and Plumier XXI export.
-353 commits · 36 API services, 665 hooks
-React
-RTK Query
-SEPA XML
-XLSX
-Web app
-·
-Our team
-Platform admin
-The internal console: schools, users, curriculum master data by region, bulk imports, and product analytics.
-76 commits · 165 endpoints wired
-React 19
-Vite
-Tailwind 4
-Recharts
-Mobile app
-·
-Parents
-Familias
-Homework, attendance, grades, permission slips, messages and the school timetable, for every child in the family, with push notifications.
-182 commits · v1.39 Android · v1.24 iOS
-React Native 0.77
-FCM / APNs
-Google + Apple sign-in
-Mobile app
-·
-Students
-Alumnos
-The student's day: homework, grades, timetable, online tests, files and the class board.
-82 commits · v1.10 Android · v1.5 iOS
-React Native 0.77
-FCM
-2FA
-Mobile app
-·
-Teachers
-Profesores
-Take the register from the classroom, set homework, grade, message families, and correct exams with AI. The largest of the apps.
-74 commits · 99k lines · v1.5 Android
-React Native 0.84
-TypeScript
-R8
-The journey
-Three rebuilds and a lot of commits.
-It didn't start as a platform. It started as someone else's Next.js app with a problem to fix. Each chapter below is a real point in the git history, with what the product looked like at the time.
-Before Oct 2024
-What I was handed
-A Next.js app and a bug to fix.
-The founder came to me with this app and one problem. Looking at the code, I told him the honest version: fixing this bug would take a day, and the next ten would too. I said we should rebuild it instead, and he agreed. My brother designed the new version.
-The app as it came to me.
-My brother's redesign, the plan for rebuild one.
-2024
-Rebuilds 1 & 2
-React and Redux, on Firebase.
-I rewrote it as a React app with Redux, then rebuilt the data layer on Firebase for auth and storage, because I didn't know backend work yet. By 12 October 2024 it was 229 files and 37,000 lines. It worked, but the AI calls to OpenAI, Anthropic and Gemini ran in the browser, API keys included. That was the thing I most needed to fix.
-React 18
-Vite
-Redux Toolkit
-Firebase
-The React rebuild, with my brother's design.
-Oct 2024
-Rebuild 3
-I learned backend work, then wrote ours.
-By then I'd built a few backends on other projects and I was ready. I told the founder we needed our own, and built it: Express and MongoDB, first code on 16 October 2024. Three days later the frontend's auth moved off Firebase, and within a month every AI tool generated through the server. The keys left the browser, credits and Stripe billing got a proper home, and we finally had somewhere to put data we owned.
-Node.js
-Express
-MongoDB
-JWT
-Stripe
-Nov 2024 – Mar 2025
-Growth
-Forty tools and a real editor.
-The busiest stretch: 870 commits to the frontend in three months. The catalog grew to 40+ tools built on the curriculum data for each Spanish region, plus games, a quiz generator, mind maps and Google Classroom export. The first editor showed generated text in a read-only box with three buttons. I replaced it with a full document editor where you select a paragraph and ask the AI to improve, expand, shorten or turn it into a table.
-Plate
-TipTap
-OpenAI
-Claude
-Gemini
-Replicate
-Mar – Dec 2025
-The turn
-From a tool teachers use to a platform schools run on.
-Schools liked the tools and asked for everything else. I added a school model to the backend in March 2025, then attendance, students, grades and messaging over the next months, and started the teacher platform and the admin panel on top. The work outgrew one person, so I led a small team of junior developers: three app developers and a couple of web developers. I set the architecture and split the work between them, and kept most of the backend myself. The parent app followed in September 2025.
-Socket.io
-FCM push
-2FA
-Redis
-2026
-Depth
-The unglamorous things schools actually need.
-Infant-school report cards graded by observation, not numbers. A finance module that builds SEPA direct-debit files by hand, so schools can collect fees from families' banks. Importing a school's whole roster from Educamos, and exporting grades to Plumier XXI, the regional system, in its exact format: golden-tested against real exports, 1,833 out of 1,833 matched. Then the scaling work: queries scoped by school, a Redis adapter so sockets work across instances, locks so scheduled jobs run once, file storage moved from Cloudinary to Cloudflare R2, and indexes and aggregations where the queries got slow.
-SEPA pain.008
-Educamos
-Plumier XXI
-Cloudflare R2
-Mid 2026
-Team of two
-Down to two people, and both of us can do everything.
-By the middle of 2026 the juniors had moved on. By then the founder had grown into a real developer, and he now builds features the juniors used to. Since then it has been the two of us, and either of us can pick up anything from the database to the App Store release.
-Sep 2026
-Now
-Three apps in both stores, and a native rewrite.
-I shipped Familias, Alumnos and Profesores to the App Store and Google Play: moved them to newer React Native, fixed the Android 16 KB page-size requirement, turned on R8 obfuscation, added Google and Apple sign-in, and worked through store rejections. Then I started the next rebuild: a Kotlin Multiplatform core with SwiftUI and Jetpack Compose on top. 226 commits in its first five days.
-React Native
-Kotlin Multiplatform
-SwiftUI
-Jetpack Compose
-Home concepts for the native Familias app. The owl, Nova, won.
-Then and now
-The editor, then and now.
-The first version showed you the generated text and let you copy it. Today it's a full document editor. Select any passage and the AI rewrites it in place, and every image and document from the generation sits one click away.
-first version
-First version: read, then copy, save or download.
-today
-Today: a full editor, with AI actions on whatever you select.
-On the phone
-Three apps, both stores.
-Parents, students and teachers each get their own app, all on the same backend as the web platform. These are the store screenshots, taken from our demo school.
-Profesores
-Home: next class, one tap to take the register
-Alumnos
-Home
-Familias
-Homework
-Profesores
-Timetable
-Alumnos
-Grades
-Familias
-Attendance
-Profesores
-Homework
-Familias
-Messages
-Architecture
-How the system is wired.
-Eight products, one backend. Hover a box to see what it does, or play a scenario to watch a request travel through it.
-4 web apps
-React · RTK Query
-3 mobile apps
-React Native
-Express API
-~1,000 endpoints
-Realtime
-Socket.io + Redis
-AI layer
-Prompts · model routing
-Scheduled jobs
-node-cron + locks
-MongoDB
-~90 models
-Cloudflare R2
-Files
-LLMs
-OpenAI · Claude
-Push
-FCM · APNs
-School systems
-Educamos · SEPA
-Trace a request
-Pick a scenario to watch a request travel through, or hover a service to see what it does.
-A teacher generates a didactic unit
-A teacher takes the register
-The school collects monthly fees
-Client
-Service
-AI
-Data
-External
-The part I'm proudest of
-I taught my client to code. Now he ships features.
-When we started, the founder couldn't read code. He'd send me lists of wording changes: this button should be in Spanish, this label is wrong. So I showed him how to do it himself. Find the string, change it, commit, push. His first commit in the backend changed three lines. His first in the frontend translated three strings.
-Then it kept going. He copied an existing tool to make a new one. He learned to edit prompts, then to add fields, then whole screens. Two years later he builds complete features across the backend, web and mobile apps: dining, absenteeism tracking, family invoices, tax forms. He works the way I do now, with an AI assistant and conventional commits. In July 2026 he made more backend commits than I did. The juniors I led have moved on, and today the founder and I run the whole product between us.
-At some level, that's a threat to my job. I'm fine with that, and I'd do it again. A client who understands his own product makes better decisions, gives better feedback and trusts the work, because he's seen how it's made. I think teaching the people you build for is part of the job, and it's the fair thing to do.
-Nov 2024
-First commits: three strings translated to Spanish, and a three-line change to which AI models the tools use.
-Nov 2024
-First new tool, built by copying an existing one: 7 files, 1,184 lines.
-Feb 2025
-Adds new AI tools on the backend himself.
-Feb 2026
-First full feature across backend and web: the school dining system.
-May 2026
-Builds billing receipts and returned-payment handling for SEPA direct debits.
-Mid 2026
-The junior team moves on. From here it's the two of us, and he takes on the work they used to do.
-Sep 2026
-Ships an absenteeism system of about 10,000 lines. His median commit has grown from 16 lines to 487.
-What I owned
-01
-Rebuilt the product three times: frontend to React, then off Firebase onto a backend I wrote, then the platform around it.
-02
-Designed and wrote most of the Express backend: auth, school scoping, realtime messaging, push, storage, billing and the AI layer. About 1,000 endpoints on 90 models.
-03
-Built the finance module (SEPA direct-debit batches, receipts, surcharges), the Educamos import and the Plumier XXI grades export.
-04
-Did the scaling work: Redis socket adapter, cron locks, the R2 storage migration, index and aggregation rewrites, an authentication floor across the API.
-05
-Shipped three React Native apps to both stores, and started the native Kotlin Multiplatform + SwiftUI rewrite.
-06
-Led a team of junior developers through 2025 and early 2026 (three app developers and a couple of web developers): set the architecture and split the work. Taught the founder to code; today it is the two of us.
-Stack
-React
-Redux Toolkit / RTK Query
-Node.js
-Express
-MongoDB
-Socket.io + Redis
-React Native
-Kotlin Multiplatform
-SwiftUI
-OpenAI
-Claude
-Gemini
-Stripe
-Cloudflare R2
-Firebase Cloud Messaging
-Next
-Insight-X · now Illume
+Live · Nov 2023 – Present
+Role: Lead engineer, from first rebuild to today
+
+I helped an AI teaching tool grow into a school platform by bringing eight products onto one shared backend and AI into teachers’ everyday work. Now used by 20k+ students, teachers and families.
+
+### Know when a fix needs a bigger decision
+
+I joined Tututor to fix one bug in an existing teaching app. Looking at the code, I could see that fixing the next ten bugs the same way would not make it a dependable product. I proposed a rebuild, the founder agreed, and my brother designed the new version.
+
+That first decision set the direction for the work that followed: understand what the product needs next, then give it a foundation that can support it. Over time, a small AI tool became eight connected products used by 20k+ students, teachers and families.
+
+### Build the foundation as the product grows
+
+I initially rebuilt the frontend in React and used Firebase for authentication and storage. It let me move the product forward with the skills I had then. As I gained backend experience, I could address the next limitation: AI calls and permanent API keys were still in the browser.
+
+I built an Express and MongoDB backend and moved authentication, AI generation, credits and Stripe billing onto it. The keys left the browser, and shared product rules had a place to live on the server.
+
+When schools started asking for attendance, grades, messaging and administration, I extended that backend with school-scoped data. The teacher tools, school administration and family apps could share a data model while each kept an interface suited to its users.
+
+### Put AI where teachers can use it
+
+The early experience generated text into a read-only box and asked the teacher to copy it elsewhere. I replaced that with a full document editor: select a passage, then ask AI to improve, expand, shorten or turn it into a table.
+
+That changed the role of AI in the product. A teacher could keep working on the actual document, using AI for a particular part of it. The toolkit also grew to 40+ tools, using curriculum data for Spanish regions, with quizzes, mind maps, games and Google Classroom export.
+
+The product decision was to bring generation and editing into the same workflow, so the output could become something a teacher was ready to use.
+
+### Fit the systems schools already depend on
+
+School software has to work with existing routines and requirements. I built infant-school report cards based on observation, a finance module for receipts and SEPA direct-debit batches, and integrations for importing rosters from Educamos and exporting grades to Plumier XXI.
+
+For the grades export, an approximately correct file was not useful. I checked the output against real exports: all 1,833 golden-test cases matched. The point of that work was to make the connection dependable for the school using it.
+
+As usage grew, I also worked on the parts people should not have to notice: database indexes and aggregations for slow queries, a Redis adapter for messaging across server instances, locks to keep scheduled jobs from running twice, and a move to Cloudflare R2 for file storage.
+
+### Help the team and founder own the product
+
+The work eventually outgrew one person. I led a small team of junior developers, set the architecture and divided the work while keeping most of the backend myself.
+
+I also started teaching the founder to make changes. His first commits were small translations and configuration edits. Over time, he moved into prompts, fields, screens and complete features across the backend, web and mobile apps.
+
+The junior team later moved on, and today the founder and I maintain the product together. Helping him understand the code made the work easier to discuss and gave him more control over his own product. I see that as part of the value I bring to a long-running project.
+
+### Carry the work through to release
+
+I shipped the Familias, Alumnos and Profesores apps to both the App Store and Google Play. That included React Native upgrades, platform requirements, Google and Apple sign-in, and working through store rejections.
+
+The next rebuild uses a Kotlin Multiplatform core with SwiftUI and Jetpack Compose interfaces. It continues the same work across web and mobile: keeping the shared product connected while giving each group an experience that fits its day.
+
+### What the work added
+
+Tututor now brings lesson preparation, classroom work, school administration and family communication onto one platform. The published project snapshot includes eight products, about 1,000 API endpoints across 90 data models, and three mobile apps on both stores.
+
+My role has covered architecture, most of the backend, web and mobile development, releases and team leadership. The value is in how those decisions work together: teachers can edit what AI produces, schools can connect their existing systems, and the founder can keep building the product alongside me.
+
+### The product family in detail
+
+These figures are the snapshot published in the original case study, not live counters.
+
+- **Core API:** 2,164 commits, about 1,000 endpoints and 90 models. Node.js, Express, MongoDB, Socket.io and Redis. Shared authentication includes 2FA and Google/Apple sign-in.
+- **Tututor.AI:** 1,552 commits and 138k lines since October 2024. React, Redux / RTK Query, Plate, TipTap and Stripe. The document editor lets teachers improve, expand, shorten or turn a selected passage into a table.
+- **EduNova for teachers:** 1,290 commits, 30 API services and 604 hooks. React 19, RTK Query, Socket.io and jsPDF. Grades, infant-school report cards, attendance, homework with AI feedback, meetings and curriculum planning.
+- **EduNova school admin:** 353 commits, 36 API services and 665 hooks. React, RTK Query, SEPA XML and XLSX. Enrolment, assignments, receipts, direct-debit batches and tax forms.
+- **Platform admin:** 76 commits and 165 wired endpoints. React 19, Vite, Tailwind 4 and Recharts. Schools, users, regional curriculum data, imports and analytics.
+- **Familias:** 182 commits; Android v1.39 and iOS v1.24. React Native 0.77, FCM / APNs, Google and Apple sign-in. Homework, attendance, grades, permission slips and messages for every child in the family.
+- **Alumnos:** 82 commits; Android v1.10 and iOS v1.5. React Native 0.77, FCM and 2FA. Homework, grades, timetable, online tests, files and the class board.
+- **Profesores:** 74 commits and 99k lines; Android v1.5. React Native 0.84, TypeScript and R8. Classroom attendance, homework, grading, family messages and AI exam correction.
+
+The frontend reached 229 files and 37,000 lines by 12 October 2024. The Express backend began on 16 October; authentication moved off Firebase three days later, and AI generation moved server-side within a month. The busiest frontend period added 870 commits in three months. School data entered the backend in March 2025, and the parent app followed in September 2025.
+
+The September 2026 native rewrite started with a Kotlin Multiplatform core and SwiftUI / Jetpack Compose interfaces, with 226 commits in its first five days. The Nova owl concept was selected for Familias. These are historical project figures, not claims about the current repository.
 
 ## insight-x
 
+Illume
+Live · Dec 2024 – Jun 2025
+Role: Full-Stack Engineer (part-time)
 
-All work
-Live
-Dec 2024 – Jun 2025
-Full-Stack Engineer (part-time)
-Insight-X · now Illume
-Business analytics for MedSpas that builds its own dashboards from whatever data you connect. Live today as Illume Analytics.
-Visit Insight-X · now Illume
-joinillume.com
-The live site, captured full page. Scroll inside the frame.
-0
-1
-$250k
-Funding secured
-platform demoed traction
-0
-2
-3
-Booking platforms integrated
-Boulevard, Zenoti, Vagaro
-0
-3
-0
-Manual chart config
-AI generates the logic
-0
-4
-4
-Dashboard surfaces
-revenue, bookings, providers, retention
-The problem
-MedSpa operators wanted dashboards for revenue, bookings, provider performance and retention, without paying an analyst to rewrite queries every time their schema changed. The BI tools they tried assumed they could write SQL or spend an afternoon in a chart builder. Neither was true.
-The approach
-I built an engine that inspects the incoming data structure and generates the chart logic for it at runtime. Dashboards re-render against whatever the connected platform returns, whether that's Boulevard, Zenoti or Vagaro, with no manual configuration in between. The frontend is React with Chart.js and D3, where every chart is a real component instead of an embedded iframe.
-The outcome
-The platform showed enough traction to help the company close $250k in funding. Operators got live dashboards for revenue, bookings, provider performance and client retention in one place without writing a query. The company has since rebranded to Illume Analytics and is still serving wellness practices today.
-What I owned
-01
-Built the analytics engine that generates chart logic from the raw data structure.
-02
-Designed and implemented real-time dashboards for revenue tracking, booking analytics, provider performance, and retention.
-03
-Integrated MedSpa platforms (Boulevard, Zenoti, Vagaro) for automatic operational data ingestion.
-04
-Owned the frontend architecture: chart composition, state and responsive layouts.
-Stack
-React
-Tailwind CSS
-Chart.js
-D3.js
-OpenAI API
-Node.js
-Express
-MongoDB
-Previous
-Tututor.ai
-Next
-Viloi
+I built adaptive dashboards that turn MedSpa booking data into useful business insights, so operators can understand revenue, bookings and retention without writing queries or configuring charts.
+
+### Start with the questions operators ask
+
+MedSpa operators needed to understand revenue, bookings, provider performance and client retention. Their data lived in different booking platforms, and getting a useful dashboard could mean writing queries or configuring charts. I focused on making that information usable without asking operators to become analysts.
+
+### The decisions behind the dashboards
+
+**Adapt to the data coming in.** I built an engine that inspects the incoming data structure and generates chart logic at runtime. That let the dashboards work with data from Boulevard, Zenoti and Vagaro without a separate manual chart setup for each connection.
+
+**Organize around business questions.** Revenue, bookings, provider performance and retention became the main dashboard views. The structure follows what an operator needs to understand about the practice.
+
+**Make charts part of the product.** I built the visualizations as React components with Chart.js and D3. Owning the chart composition, state and responsive layouts gave me control over how the dashboards behaved as a complete interface.
+
+### My contribution
+
+As a part-time full-stack engineer, I built the analytics engine and platform integrations, designed and implemented the dashboards, and owned the frontend architecture. My work connected the data ingestion to the experience people actually used to read it.
+
+### What that made possible
+
+Operators could see their key business information in one place without writing a query. The product is live today as Illume Analytics, and the company went on to raise $250k.
 
 ## ai-humanizer
 
-
-All work
-Live
-Side project
-Full-Stack Engineer
 Viloi
-A writing tool at viloi.com that rewrites machine-generated text so it reads naturally. Multi-model pipeline, Stripe billing, built solo.
-Visit Viloi
-viloi.com
-The live site, captured full page. Scroll inside the frame.
-0
-1
-3
-LLM providers
-GPT-4, Claude, Gemini with fallback routing
-0
-2
-0
-Manual billing
-Stripe + webhook-driven subscriptions
-0
-3
-JWT
-Stateless auth
-no server-side session storage
-The problem
-Tools built on a single model fail unpredictably. One model's output gets flagged, another one's doesn't, and there's no good way to know in advance which will work for a given piece of text. Most of them also have no real billing, so they never get past the prototype stage.
-The approach
-The pipeline routes text through GPT-4, Claude and Gemini with fallback logic between them, so if one model's output comes back flagged the next one takes a different angle at it. Stripe handles subscriptions and plan changes through webhooks, and JWT keeps sessions stateless. I gave the UI its own look mostly so it wouldn't blend into the wall of identical AI tools.
-The outcome
-It's live with paying customers and billing that runs itself. The fallback design means the product keeps working when one provider changes behavior, which happens more often than you'd expect.
-What I owned
-01
-Built the multi-model pipeline with fallback, so a flagged result gets retried through a different model.
-02
-Implemented Stripe subscription billing with webhook automation for plan changes, cancellations, and dunning.
-03
-Designed and implemented JWT-based authentication so the API stays stateless.
-04
-Designed and built the UI so the product didn't look like every other AI tool.
-Stack
-React
-Node.js
-Express
-MongoDB
-OpenAI
-Anthropic
-Gemini
-Stripe
-JWT
-Previous
-Insight-X · now Illume
-Next
-Ali Foodies
+Live · Side project
+Role: Full-Stack Engineer
+
+I built Viloi from the writing experience through to subscription billing, using model fallbacks to handle varied AI output and automated billing to support a product with paying customers.
+
+### Turn a writing tool into a working product
+
+Viloi rewrites machine-generated text so it reads more naturally. Building it meant thinking beyond the prompt: how to respond when a model gives an unsuitable result, how people access a paid plan, and how subscriptions keep working after the first payment.
+
+### The decisions behind the product
+
+**Give the pipeline another way to try.** I connected GPT-4, Claude and Gemini with fallback routing. When an output is flagged, the pipeline can retry through another model. That gives the product another path when one model's response is unsuitable.
+
+**Build for the whole subscription lifecycle.** I used Stripe webhooks to handle plan changes, cancellations and failed-payment follow-up. Those events need to work just as reliably as checkout if people are going to pay for the product over time.
+
+**Carry the work through the interface.** I designed and built the UI alongside the API, authentication and billing. It gave Viloi a visual identity of its own and let me take responsibility for the complete product.
+
+### My contribution
+
+I built Viloi solo, from the interface and multi-model pipeline to JWT authentication and subscription handling. The engineering decisions covered both the writing feature and the ongoing work of running a paid service.
+
+### What that made possible
+
+Viloi is live with paying customers. Model fallbacks provide a way to retry unsuitable results, and automated subscription handling keeps routine billing changes from becoming manual work.
 
 ## ali-foodies
 
@@ -468,223 +172,141 @@ Jurri
 
 ## jurri
 
-
-All work
-Live
-Sep 2023 – Apr 2024
-Frontend Engineer
 Jurri
-Cloud storage, a unified inbox and a password vault in one app for enterprise teams.
-Visit Jurri
-jurri.danzeetech.com
-The live site.
-0
-1
-~30%
-Code duplication removed
-via reusable component + hook library
-0
-2
-~40%
-Faster initial load
-code splitting + lazy loading + bundle work
-0
-3
-3-in-1
-Product surface
-files, inbox, vault, one app
-The problem
-Teams were using four separate tools for what was really one workflow: storage, email across several accounts, shared credentials and access control. None of them talked to each other, so people spent half their day moving between tabs.
-The approach
-One product with three surfaces (files, inbox, vault) sharing the same navigation, search and auth model. RTK Query handled server state with fairly aggressive cache invalidation so nothing on screen went stale. I split the frontend into small components and hooks the rest of the team could reuse, and over a few months that turned into the library everyone built new screens from.
-The outcome
-Reusing those components noticeably cut the time it took the team to put up a new screen. Code splitting and lazy loading brought the initial load down by about 40%. And users stopped juggling tabs, which was the point.
-What I owned
-01
-Built the reusable React component and hooks library the team ended up using for everything.
-02
-Built drag-and-drop file uploads with multi-file progress and resumable behavior.
-03
-Implemented the unified inbox aggregating multiple email accounts behind one UI.
-04
-Worked on the bundle with code splitting and lazy loading for roughly a 40% faster first load.
-Stack
-React
-Redux Toolkit
-RTK Query
-Node.js
-Express
-MongoDB
-Previous
-Ali Foodies
-Next
-Yaksport
+Live · Sep 2023 – Apr 2024
+Role: Frontend Engineer
+
+I brought files, email and a password vault into a consistent frontend, with shared components that made new screens easier for the team to build and familiar for people to use.
+
+### Make several workflows feel like one product
+
+Jurri brings cloud storage, a unified inbox and a password vault into one app for enterprise teams. My frontend work focused on making those different surfaces feel connected, so people could move between them using familiar navigation and interactions.
+
+### The decisions behind the frontend
+
+**Share the patterns people learn.** I built reusable React components and hooks across the files, inbox and vault screens. The same library gave the team a consistent starting point for new screens and reduced repeated implementation work.
+
+**Keep the interface in step with the data.** I used RTK Query and cache invalidation to refresh server state after changes. In a product with several connected surfaces, what someone sees needs to reflect the work they have just done.
+
+**Make file handling visible.** Drag-and-drop uploads included progress for multiple files and resumable behavior. Uploading a batch needs feedback people can follow, especially when it takes time.
+
+**Load what the current screen needs.** Code splitting and lazy loading reduced the amount of the product required up front. The bundle work brought the initial load down by about 40% during the project.
+
+### My contribution
+
+As a frontend engineer, I built the shared component and hooks library, file upload experience and unified inbox, and worked on loading performance. My contribution was the interface and its connection to the underlying services.
+
+### What that made possible
+
+Teams could work with files, email and credentials in one interface. The development team could reuse established patterns when adding screens, while a lighter initial load made the app quicker to open.
 
 ## yaksport
 
-
-All work
-Live
-Jan 2023 – Aug 2023
-Frontend Engineer
 Yaksport
-Booking platform for Danish sports clubs looking for training camps abroad. Over 100 clubs use it.
-Visit Yaksport
-yaksport.dk
-The live site, captured full page. Scroll inside the frame.
-0
-1
-100+
-Sports clubs served
-0
-2
-2
-Languages
-Danish + English via i18next
-0
-3
-0
-Page reloads on filter
-every search is in-place
-The problem
-Clubs comparing camps care about facilities, location, season and price all at once. The old site couldn't answer those questions, so every enquiry turned into a phone call to the agency.
-The approach
-Search comes first and re-queries on every interaction without the page flashing. Content runs through i18next so the same components render in Danish or English. React Router keeps the funnel state intact when someone goes back a step, which they do constantly.
-The outcome
-Over 100 clubs are on the platform. Most bookings now go through without anyone at the agency being involved, so they only handle the unusual requests instead of every single quote.
-What I owned
-01
-Built the multi-filter search surface and the booking funnel.
-02
-Wired i18next for Danish/English content with locale-aware routing.
-03
-Integrated REST APIs for camp data and availability.
-Stack
-React
-Tailwind CSS
-i18next
-React Router
-REST APIs
-Previous
-Jurri
-Next
-Crown Kabab
+Live · Jan 2023 – Aug 2023
+Role: Frontend Engineer
+
+I built the search and booking experience around how sports clubs compare camps, keeping their choices intact as they explore options. The platform serves over 100 clubs in Danish and English.
+
+### Design around a comparison, not a single search
+
+A sports club choosing a training camp has to weigh facilities, location, season and price together. The old site left too many of those questions for the agency to answer. My frontend work focused on helping clubs explore the options and carry their choices through to booking.
+
+### The decisions behind the journey
+
+**Put comparison first.** I built multi-filter search connected to camp and availability data. Results update in place as filters change, so clubs can narrow their options without a full page reload.
+
+**Let people go back without starting again.** I preserved the booking flow's state when someone returned to an earlier step. Revisiting a choice is a normal part of planning a group trip; the interface should support it.
+
+**Keep both languages on the same path.** Danish and English use the same components, with localized content and routing. That kept the search and booking behavior consistent across the two versions.
+
+### My contribution
+
+As a frontend engineer, I built the search interface and booking flow, integrated the camp and availability APIs, and implemented Danish and English support.
+
+### What that made possible
+
+The platform serves over 100 clubs. They can compare camps and move through a standard booking themselves, leaving the agency to help with requests that need a conversation.
 
 ## crown-kabab
 
-
-All work
-Shipped
-Nov 2022 – May 2023
-Full-Stack Engineer
 Crown Kabab
-Ordering site for a restaurant, with Stripe checkout, Google sign-in and Danish/English support.
-crown-kabab
-The live site.
-0
-1
-100%
-Owned ordering surface
-no aggregator fees on direct orders
-0
-2
-2
-Languages
-Danish + English
-The problem
-The restaurant was handing 30% of every order to delivery apps. They wanted their own ordering page, and one that didn't look like a form from 2014.
-The approach
-Redux Toolkit for cart and order state, RTK Query for server state, Stripe for payments, Google OAuth so nobody has to make an account, and i18next for the two languages. Order tracking connects the kitchen view to the customer view, so a status change only has to be made once.
-The outcome
-The restaurant now takes its regulars' orders directly instead of paying an aggregator for them.
-What I owned
-01
-Built shopping cart, payment processing, and order tracking using Redux Toolkit + RTK Query + Stripe API.
-02
-Wired Google OAuth for one-tap sign-in.
-03
-Implemented i18next for Danish/English with locale-aware copy.
-Stack
-React
-Redux Toolkit
-RTK Query
-Stripe
-Google OAuth
-i18next
-Previous
-Yaksport
-Next
-Animated Landing
+Shipped · Nov 2022 – May 2023
+Role: Full-Stack Engineer
+
+I built a direct ordering experience that connects the customer’s cart, payment and order status, giving the restaurant its own sales channel and customers a clear path from choosing food to tracking it.
+
+### Give the restaurant a direct ordering channel
+
+Crown Kabab wanted to take orders through its own website and reduce its dependence on delivery platforms. The product needed to carry a customer from choosing food to payment and order updates, while keeping the kitchen connected to the same order.
+
+### The decisions behind the ordering flow
+
+**Treat the order as one connected journey.** I connected the cart, payment and order tracking, keeping cart state separate from server data. That made each part of the interface reflect the appropriate stage of the order.
+
+**Keep account setup light.** Google sign-in let customers use an existing account, and Stripe handled payment processing. The aim was to make ordering straightforward without adding another password to remember.
+
+**Support the people already ordering.** Danish and English content use the same ordering flow. Customers can follow the process in either language.
+
+**Connect customer and kitchen updates.** A status change in the kitchen is reflected in the customer's order view. Staff only need to make the update once.
+
+### My contribution
+
+I built the cart, payment integration and order tracking, and added Google sign-in and language support. The work tied the customer experience to the restaurant's handling of the order.
+
+### What that made possible
+
+The restaurant gained its own channel for customers to order directly. Those orders no longer needed to pass through a delivery marketplace, giving the restaurant more control over that part of its business.
 
 ## animated-landing
 
-
-All work
-Shipped
-Side project
-Frontend Engineer
 Animated Landing
-A landing page built to find out how much motion I could add before the Lighthouse score dropped.
-animated-landing
-The live site.
-0
-1
-95+
-Lighthouse score
-performance band with full motion intact
-0
-2
-60fps
-Scroll & parallax
-GPU-only transforms
-0
-3
-0
-Layout thrash
-no measure→mutate in the hot path
-The problem
-Most animated marketing pages either run at 30fps and feel like syrup, or get stripped back to nothing so they look good on PageSpeed. There is a middle ground, but it takes enough fiddling that most teams give up after the first regression.
-The approach
-I treated every animation as a budget question. GPU-composited transforms only, and nothing that forces layout mid-scroll. Framer Motion handles orchestration and GSAP the timeline-heavy parts. The scroll work goes through requestAnimationFrame so it can't block the main thread, and only the critical CSS loads up front.
-The outcome
-A page with reveals, parallax depth and glass panels that still lands in the green Lighthouse bands.
-What I owned
-01
-Built the motion layer, combining Framer Motion for orchestration with GSAP for timelines.
-02
-Implemented scroll-triggered effects, parallax interactions, and glassmorphism design at 60fps.
-03
-Tuned the page to 95+ on Lighthouse without cutting any of the motion.
-Stack
-React
-Tailwind CSS
-Framer Motion
-GSAP
-Previous
-Crown Kabab
-Next
-ToolkitJar
+Shipped · Side project
+Role: Frontend Engineer
+
+I explored how motion could give a landing page character while keeping it responsive, choosing animation techniques around a performance budget and checking their cost as I built.
+
+### Give motion a performance budget
+
+This was a side project to explore how much character I could bring to a landing page while keeping loading and scrolling responsive. I wanted reveals, parallax and depth to feel like part of the interface, with their performance cost considered from the start.
+
+### The decisions behind the motion
+
+**Choose effects that avoid extra layout work.** I used composited transforms for movement and avoided effects that force layout changes during scrolling. That choice shaped the visuals before I started tuning them.
+
+**Give each animation tool a clear job.** Framer Motion handled orchestration, while GSAP handled the more involved timelines. Scroll updates used requestAnimationFrame to coordinate work with browser frames.
+
+**Check the cost as part of the build.** I prioritized critical CSS and tuned loading alongside the animation work. Performance was a constraint on the design throughout the project.
+
+### What the experiment showed
+
+The original build reached a 95+ Lighthouse score while keeping its reveals, parallax and glass panels. That is the result recorded during the project, rather than a live benchmark for this portfolio.
+
+The value of the exercise was learning to make visual choices with a rendering cost in mind, then checking whether the result still felt fast to use.
 
 ## toolkitjar
 
-
-All work
-Live
-Side project
-Developer
 ToolkitJar
-A free online tools website I built, with tools for text, SEO, code and images, including a text compare tool, a word counter and a JSON formatter. Everything runs in the browser, so nothing is uploaded.
-Visit ToolkitJar
-toolkitjar.com
-The live site.
-The problem
-Small everyday jobs, like counting words, comparing two pieces of text or formatting JSON, shouldn't need an account or an upload.
-The approach
-Every tool runs in the browser, so nothing you paste or drop in leaves your machine. The tools are grouped by the job they do, and a search that opens with Ctrl K gets you to the right one quickly.
-The outcome
-Live at toolkitjar.com and still growing. I add new tools regularly.
-Previous
-Animated Landing
+Live · Side project
+Role: Developer
+
+I made everyday text, code and image tasks quick to find and private to use, with free tools grouped by purpose and processing kept in the browser so content doesn’t need to be uploaded.
+
+### Make small tasks easy to finish
+
+ToolkitJar grew from everyday jobs: comparing two pieces of text, counting words, formatting JSON, and working with images. These are small tasks, so I wanted the route from finding a tool to getting a result to stay short.
+
+### The decisions behind the tools
+
+**Keep processing in the browser.** The tools work locally, so the text and files they process do not need to be uploaded to a server. That makes privacy part of how the tools work.
+
+**Organize by the job someone needs to do.** Tools are grouped by purpose, with search available through Ctrl K. As the collection grows, people can find a specific utility without browsing every page.
+
+**Keep the utilities free to use.** The product is built around getting an everyday task done without an account or an upload getting in the way.
+
+### What that made possible
+
+ToolkitJar brings text, SEO, code and image utilities into one place. The contribution is in making small, useful interactions easy to find and keeping the content being processed on the user's own device. The site is live, and I continue adding tools.
 
 ## Employment and practice
 

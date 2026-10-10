@@ -1,18 +1,21 @@
-## The problem
+## Make several workflows feel like one product
 
-Teams were using four separate tools for what was really one workflow: storage, email across several accounts, shared credentials and access control. None of them talked to each other, so people spent half their day moving between tabs.
+Jurri brings cloud storage, a unified inbox and a password vault into one app for enterprise teams. My frontend work focused on making those different surfaces feel connected, so people could move between them using familiar navigation and interactions.
 
-## What I built
+## The decisions behind the frontend
 
-One product with three surfaces (files, inbox, vault) sharing the same navigation, search and auth model. RTK Query handled server state with fairly aggressive cache invalidation so nothing on screen went stale. I split the frontend into small components and hooks the rest of the team could reuse, and over a few months that turned into the library everyone built new screens from.
+**Share the patterns people learn.** I built reusable React components and hooks across the files, inbox and vault screens. The same library gave the team a consistent starting point for new screens and reduced repeated implementation work.
 
-## The hard parts
+**Keep the interface in step with the data.** I used RTK Query and cache invalidation to refresh server state after changes. In a product with several connected surfaces, what someone sees needs to reflect the work they have just done.
 
-- Built the reusable React component and hooks library the team ended up using for everything.
-- Built drag-and-drop file uploads with multi-file progress and resumable behavior.
-- Implemented the unified inbox aggregating multiple email accounts behind one UI.
-- Worked on the bundle with code splitting and lazy loading for roughly a 40% faster first load.
+**Make file handling visible.** Drag-and-drop uploads included progress for multiple files and resumable behavior. Uploading a batch needs feedback people can follow, especially when it takes time.
 
-## Results
+**Load what the current screen needs.** Code splitting and lazy loading reduced the amount of the product required up front. The bundle work brought the initial load down by about 40% during the project.
 
-Reusing those components noticeably cut the time it took the team to put up a new screen. Code splitting and lazy loading brought the initial load down by about 40%. And users stopped juggling tabs, which was the point.
+## My contribution
+
+As a frontend engineer, I built the shared component and hooks library, file upload experience and unified inbox, and worked on loading performance. My contribution was the interface and its connection to the underlying services.
+
+## What that made possible
+
+Teams could work with files, email and credentials in one interface. The development team could reuse established patterns when adding screens, while a lighter initial load made the app quicker to open.
