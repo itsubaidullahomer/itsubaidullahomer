@@ -2,6 +2,7 @@
 @import "./service-art.css";
 @import "./process-art.css";
 @import "./hero-art.css";
+@import "./experiment-art.css";
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -2001,53 +2002,6 @@ button {
   margin-top: 5px;
   color: #737373;
 }
-.architecture {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-  align-items: center;
-  min-height: 250px;
-  padding: 12px;
-}
-.arch-row {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  position: relative;
-}
-.arch-node {
-  padding: 11px 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  font-size: 10px;
-  background: #fff;
-  transition:
-    background 0.3s,
-    border 0.3s,
-    box-shadow 0.3s;
-  position: relative;
-}
-.arch-node.active {
-  border-color: #555;
-  background: #efefef;
-  box-shadow: 0 0 0 4px #eee;
-}
-.arch-row:not(:first-child):before {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 26px;
-  background: #ccc;
-  top: -26px;
-  left: 50%;
-}
-.arch-node small {
-  display: block;
-  font-size: 8px;
-  color: #737373;
-  margin-top: 2px;
-}
 .not-found {
   text-align: center;
   padding: 180px 30px;
@@ -2897,17 +2851,6 @@ button {
   }
   .lab-output {
     padding: 16px;
-  }
-  .arch-node {
-    padding: 9px 10px;
-    font-size: 9px;
-  }
-  .arch-row {
-    gap: 7px;
-  }
-  .architecture {
-    padding: 4px;
-    min-height: 220px;
   }
   .lab-controls .button {
     font-size: 11px;

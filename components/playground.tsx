@@ -1,6 +1,24 @@
 "use client";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
-import { Play, RotateCcw, Pause, ArrowRight } from "lucide-react";
+import {
+  Play,
+  RotateCcw,
+  Pause,
+  ArrowRight,
+  Waves,
+  AudioLines,
+  Network,
+  UserRound,
+  Users,
+  Building2,
+  Server,
+  Sparkles,
+  Radio,
+  FileDown,
+  Cpu,
+  Database,
+} from "lucide-react";
+import { StreamVisual, VoiceVisual } from "./experiment-visuals";
 import { Button } from "./ui/button";
 const sample =
   "A good AI interface stays with you while the model thinks. It streams the first useful words, keeps the text you already received, and tells you what happened when the connection drops. Retrying should continue the thought, not erase the conversation. The prompt is rarely the hard part.";
@@ -57,7 +75,7 @@ export function StreamingLab() {
     setState("waiting");
   }
   return (
-    <article className="lab-card" id="streaming-lab">
+    <article className="lab-card stream-lab" id="streaming-lab">
       <div className="lab-heading">
         <div>
           <h2>The space between request and reply.</h2>
@@ -66,10 +84,13 @@ export function StreamingLab() {
             its place.
           </p>
         </div>
-        <span className="demo-label">Streaming UI lab</span>
+        <span className="demo-label">
+          <Waves size={14} aria-hidden="true" /> 01 / Streaming
+        </span>
       </div>
       <div className="lab-body">
         <div className="lab-controls">
+          <span className="lab-control-title">Tune the response</span>
           <label>
             Initial latency <span className="mono">{latency} ms</span>
             <input
@@ -144,51 +165,80 @@ export function StreamingLab() {
             )}
           </div>
         </div>
-        <div className="lab-output">
-          <div
-            className="mini-bar"
-            style={{ padding: "0 0 15px", marginBottom: 18 }}
-          >
-            <span>assistant / response</span>
-            <span>
-              {state === "done"
-                ? "Complete"
-                : state === "failed"
-                  ? "Connection interrupted"
-                  : state === "waiting"
-                    ? "Waiting for first token"
-                    : state}
-            </span>
-          </div>
-          <div className="output-text" aria-label="Streamed response">
-            {state === "idle" ? (
-              <p>
-                Ready when you are. This response is local, so you can
-                experiment without using API credits.
+        <div className="lab-output" data-state={state}>
+          <StreamVisual
+            state={state}
+            count={count}
+            total={words.length}
+            latency={latency}
+          />
+          <div className="experiment-console">
+            <div className="experiment-console-bar">
+              <span>assistant / response</span>
+              <span className="experiment-state" role="status">
+                <i className="lab-state-dot" />
+                {state === "done"
+                  ? "Complete"
+                  : state === "failed"
+                    ? "Connection interrupted"
+                    : state === "waiting"
+                      ? "Waiting for first token"
+                      : state === "idle"
+                        ? "Ready"
+                        : state === "paused"
+                          ? "Paused"
+                          : "Receiving words"}
+              </span>
+            </div>
+            <div className="output-text" aria-label="Streamed response">
+              {state === "idle" ? (
+                <p>
+                  Ready when you are. This response is local, so you can
+                  experiment without using API credits.
+                </p>
+              ) : state === "waiting" ? (
+                <p>
+                  Getting the first words ready
+                  <span className="stream-caret" />
+                </p>
+              ) : (
+                <>
+                  {words.slice(0, count).join(" ")}
+                  {active && <span className="stream-caret" />}
+                </>
+              )}
+            </div>
+            {state === "failed" && (
+              <p className="stream-recovery" role="status">
+                The connection dropped. Your answer is safe. Retry to continue
+                where it stopped.
               </p>
-            ) : state === "waiting" ? (
-              <p>
-                Getting the first words ready
-                <span className="stream-caret" />
-              </p>
-            ) : (
-              <>
-                {words.slice(0, count).join(" ")}
-                {active && <span className="stream-caret" />}
-              </>
             )}
           </div>
-          {state === "failed" && (
-            <p className="mt-4 text-xs" role="status">
-              The connection dropped. Your answer is safe. Retry to continue
-              where it stopped.
-            </p>
-          )}
-          <div className="lab-status" aria-live="polite">
-            {count} / {words.length} words ·{" "}
-            {elapsed > 0 ? (elapsed / 1000).toFixed(1) : "0.0"}s elapsed ·{" "}
-            {failed ? "Recovered text preserved" : "Local simulation"}
+          <div className="stream-metrics">
+            <span>
+              <strong>
+                {count}
+                <small> / {words.length}</small>
+              </strong>
+              Words received
+            </span>
+            <span>
+              <strong>
+                {(elapsed / 1000).toFixed(1)}
+                <small> s</small>
+              </strong>
+              Active time
+            </span>
+            <span>
+              <strong>{failed ? "Preserved" : "Local"}</strong>
+              {failed ? "Context on retry" : "No API credits"}
+            </span>
           </div>
+          <p className="lab-takeaway">
+            <span>Try this</span> Leave the connection drop on, then retry. The
+            buffer keeps every word.
+          </p>
         </div>
       </div>
     </article>
@@ -229,6 +279,8 @@ export function VoiceLab() {
     () => false,
   );
   const log = useRef<HTMLDivElement>(null);
+  const listening =
+    !running && lines.at(-1)?.text === "Of course. Go ahead — I’m listening.";
   useEffect(() => () => window.speechSynthesis?.cancel(), []);
   useEffect(() => {
     if (!running) return;
@@ -260,7 +312,9 @@ export function VoiceLab() {
     setInterruptions((n) => n + 1);
     setLines((old) => [
       ...old.map((l, i) =>
-        i === old.length - 1 ? { ...l, interrupted: true } : l,
+        i === old.length - 1 && l.who === "Agent"
+          ? { ...l, interrupted: true }
+          : l,
       ),
       {
         who: "Visitor",
@@ -271,7 +325,7 @@ export function VoiceLab() {
     setRunning(false);
   }
   return (
-    <article className="lab-card" id="voice-lab">
+    <article className="lab-card voice-lab" id="voice-lab">
       <div className="lab-heading">
         <div>
           <h2>A conversation has two sides.</h2>
@@ -280,10 +334,15 @@ export function VoiceLab() {
             talking, keeps the context, and gives you the floor.
           </p>
         </div>
-        <span className="demo-label">Voice agent simulator</span>
+        <span className="demo-label">
+          <AudioLines size={14} aria-hidden="true" /> 02 / Voice
+        </span>
       </div>
       <div className="lab-body">
         <div className="lab-controls">
+          <span className="lab-control-title">
+            Take the conversation off script
+          </span>
           <p className="text-sm">
             No calls are made. Optional audio uses your browser’s built-in
             speech.
@@ -348,44 +407,70 @@ export function VoiceLab() {
           </div>
         </div>
         <div className="lab-output">
-          <div
-            ref={log}
-            className="call-transcript"
-            role="log"
-            aria-live="polite"
-            aria-label="Simulated call transcript"
-          >
-            {lines.length ? (
-              lines.map((line, i) => (
-                <div
-                  key={i}
-                  className={`call-line ${line.interrupted ? "interrupted" : ""}`}
-                >
-                  <strong>{line.who}</strong>
-                  {line.text}
-                  {line.interrupted && (
-                    <small>Stopped by visitor interruption</small>
-                  )}
-                </div>
-              ))
-            ) : (
-              <p>
-                The line is quiet. Start a demo call to see the conversation
-                unfold.
-              </p>
-            )}
+          <VoiceVisual
+            phase={
+              running
+                ? "active"
+                : listening
+                  ? "listening"
+                  : index >= script.length
+                    ? "complete"
+                    : lines.length
+                      ? "paused"
+                      : "idle"
+            }
+            speaker={lines.at(-1)?.who ?? "Agent"}
+          />
+          <div className="experiment-console">
+            <div className="experiment-console-bar">
+              <span>call / transcript</span>
+              <span>Local simulation</span>
+            </div>
+            <div
+              ref={log}
+              className="call-transcript"
+              role="log"
+              aria-live="polite"
+              aria-label="Simulated call transcript"
+            >
+              {lines.length ? (
+                lines.map((line, i) => (
+                  <div
+                    key={i}
+                    className={`call-line ${line.who === "Visitor" ? "visitor-line" : "agent-line"} ${line.interrupted ? "interrupted" : ""}`}
+                  >
+                    <strong>{line.who}</strong>
+                    {line.text}
+                    {line.interrupted && (
+                      <small>Stopped by visitor interruption</small>
+                    )}
+                  </div>
+                ))
+              ) : (
+                <p>
+                  The line is quiet. Start a demo call to see the conversation
+                  unfold.
+                </p>
+              )}
+            </div>
           </div>
-          <div className="lab-status">
+          <div className="lab-status" role="status">
             {running
               ? "Call in progress"
-              : index >= script.length
-                ? "Call complete"
-                : lines.length
-                  ? "Listening / paused"
-                  : "Ready"}{" "}
+              : listening
+                ? "Listening / paused"
+                : index >= script.length
+                  ? "Call complete"
+                  : lines.length
+                    ? "Listening / paused"
+                    : "Ready"}{" "}
             · {interruptions}{" "}
             {interruptions === 1 ? "interruption" : "interruptions"} handled
           </div>
+          <p className="lab-takeaway">
+            <span>Try this</span> Interrupt mid-sentence. The transcript stays,
+            but the agent gives you the floor.
+          </p>
         </div>
       </div>
     </article>
@@ -427,6 +512,68 @@ const scenarios = [
     ],
   },
 ];
+const systemNodes = [
+  {
+    name: "Teacher",
+    icon: UserRound,
+    x: 100,
+    y: 38,
+    column: "1 / span 2",
+    row: 1,
+  },
+  { name: "Family", icon: Users, x: 300, y: 38, column: "3 / span 2", row: 1 },
+  {
+    name: "School office",
+    icon: Building2,
+    x: 500,
+    y: 38,
+    column: "5 / span 2",
+    row: 1,
+  },
+  { name: "API", icon: Server, x: 300, y: 142, column: "3 / span 2", row: 2 },
+  {
+    name: "AI service",
+    icon: Sparkles,
+    x: 100,
+    y: 246,
+    column: "1 / span 2",
+    row: 3,
+  },
+  {
+    name: "Realtime",
+    icon: Radio,
+    x: 300,
+    y: 246,
+    column: "3 / span 2",
+    row: 3,
+  },
+  {
+    name: "SEPA export",
+    icon: FileDown,
+    x: 500,
+    y: 246,
+    column: "5 / span 2",
+    row: 3,
+  },
+  { name: "Model", icon: Cpu, x: 200, y: 350, column: "2 / span 2", row: 4 },
+  {
+    name: "Database",
+    icon: Database,
+    x: 400,
+    y: 350,
+    column: "4 / span 2",
+    row: 4,
+  },
+];
+function routePath(from: string, to: string) {
+  const a = systemNodes.find((node) => node.name === from)!;
+  const b = systemNodes.find((node) => node.name === to)!;
+  if (Math.abs(a.y - b.y) > 220) {
+    const side = b.x < 300 ? 12 : 588;
+    return `M ${a.x} ${a.y} C ${side} ${a.y}, ${side} ${b.y}, ${b.x} ${b.y}`;
+  }
+  return `M ${a.x} ${a.y} C ${a.x} ${(a.y + b.y) / 2}, ${b.x} ${(a.y + b.y) / 2}, ${b.x} ${b.y}`;
+}
 export function ArchitectureLab() {
   const [scenario, setScenario] = useState(0);
   const [step, setStep] = useState(-1);
@@ -443,14 +590,8 @@ export function ArchitectureLab() {
     }, 1100);
     return () => clearTimeout(timer);
   }, [playing, step, current]);
-  const rows = [
-    ["Teacher", "Family", "School office"],
-    ["API"],
-    ["AI service", "Realtime", "SEPA export"],
-    ["Model", "Database"],
-  ];
   return (
-    <article className="lab-card" id="architecture-lab">
+    <article className="lab-card system-lab" id="architecture-lab">
       <div className="lab-heading">
         <div>
           <h2>Follow a request through the system.</h2>
@@ -459,10 +600,15 @@ export function ArchitectureLab() {
             workflow and see what each part does.
           </p>
         </div>
-        <span className="demo-label">Interactive system map</span>
+        <span className="demo-label">
+          <Network size={14} aria-hidden="true" /> 03 / Systems
+        </span>
       </div>
       <div className="lab-body">
         <div className="lab-controls">
+          <span className="lab-control-title">
+            One product. Different paths.
+          </span>
           <label htmlFor="scenario">Choose a workflow</label>
           <select
             id="scenario"
@@ -510,26 +656,69 @@ export function ArchitectureLab() {
           </div>
         </div>
         <div className="lab-output">
-          <div className="architecture" aria-label="Tututor architecture">
-            {rows.map((row, i) => (
-              <div className="arch-row" key={i}>
-                {row.map((node) => (
-                  <div
-                    key={node}
-                    className={`arch-node ${step >= 0 && current.path[step] === node ? "active" : ""}`}
-                  >
-                    {node}
-                    {node === "API" && <small>Express · school-scoped</small>}
-                    {node === "Database" && <small>MongoDB</small>}
-                    {node === "Realtime" && <small>Socket.io + Redis</small>}
-                  </div>
-                ))}
-              </div>
+          <div className="experiment-console-bar">
+            <span>tututor / system map</span>
+            <span>
+              {step < 0
+                ? "Workflow ready"
+                : `Step ${step + 1} / ${current.path.length}`}
+            </span>
+          </div>
+          <div className="system-board" aria-label="Tututor architecture">
+            <svg
+              className="system-routes"
+              viewBox="0 0 600 388"
+              preserveAspectRatio="none"
+              aria-hidden="true"
+            >
+              {current.path.slice(1).map((to, i) => (
+                <path
+                  key={`${scenario}-${i}`}
+                  d={routePath(current.path[i], to)}
+                  className={step > i ? "route-visited" : ""}
+                />
+              ))}
+            </svg>
+            {systemNodes.map((node) => {
+              const active = step >= 0 && current.path[step] === node.name;
+              const visited = current.path
+                .slice(0, step + 1)
+                .includes(node.name);
+              const onRoute = current.path.includes(node.name);
+              const Icon = node.icon;
+              return (
+                <div
+                  key={node.name}
+                  className={`system-node ${active ? "active" : visited ? "visited" : ""} ${onRoute ? "on-route" : ""}`}
+                  style={{ gridColumn: node.column, gridRow: node.row }}
+                >
+                  <Icon size={21} aria-hidden="true" />
+                  <span>{node.name}</span>
+                </div>
+              );
+            })}
+          </div>
+          <div className="trace-itinerary" aria-label="Request steps">
+            {current.path.map((node, i) => (
+              <button
+                type="button"
+                key={`${scenario}-${i}`}
+                className={i === step ? "active" : i < step ? "visited" : ""}
+                aria-label={`Step ${i + 1}: ${node}`}
+                aria-current={i === step ? "step" : undefined}
+                onClick={() => {
+                  setPlaying(false);
+                  setStep(i);
+                }}
+              >
+                <span>{i + 1}</span>
+                {node}
+              </button>
             ))}
           </div>
-          <div className="lab-status" aria-live="polite">
+          <div className="lab-status trace-note" aria-live="polite">
             {step < 0
-              ? "Select a workflow and start a trace."
+              ? "Trace the request, or select any numbered step to explore."
               : current.notes[step]}
           </div>
         </div>
