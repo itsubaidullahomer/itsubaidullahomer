@@ -23,6 +23,29 @@ Request a client through [OpenAI’s hosted integration process](https://develop
 
 Until approval and configuration are present, the actual UI shows **Connection opens soon** and a disabled connection button. No live connection or response is fabricated.
 
+## Approval application and activation
+
+The [official interest form](https://openai.com/form/sign-in-with-chatgpt-interest/) is the application route linked by OpenAI's client-registration documentation. Choose **Sign in and ChatGPT plan use for AI requests**. The program is a limited trial for selected hosted/commercial partners; the checked documentation does not promise acceptance or a response time.
+
+Application prepared on 11 October 2026:
+
+- Contact: Ubaidullah Omer, `itsubaidullahomer@gmail.com`.
+- Company/practice: Ubaidullah Omer — Independent AI Product Engineer.
+- Website: `https://itsubaidullahomer.com`.
+- Product: **AI Ubaid**, a free text conversation grounded in the engineer's published work, allowing visitors to explore projects and discuss product ideas using their own eligible ChatGPT plan.
+- Requested capability: hosted website sign-in **and** plan-funded Responses API access.
+- Proposed callback: `https://itsubaidullahomer.com/api/chatgpt/callback`.
+
+The owner authorized submission. The browser submission attempt did not produce a success confirmation and its anti-bot verification reported errors. Receipt is **unconfirmed**; the filled form was left open for manual completion. Do not record the application as received or approved without confirmation.
+
+After OpenAI accepts the application:
+
+1. Obtain the approved client ID, token authentication method, client secret if applicable, allowed callbacks, and explicit confirmation of the hosted plan-usage scopes and inference endpoint. Identity-only approval cannot enable the bot.
+2. Register the exact production callback above, plus a separate development/staging callback if OpenAI supports it. Never reuse the open-source loopback registration to serve public visitors.
+3. Configure the server environment with those credentials and an Upstash Redis database. A local `.env.local` has been prepared with a random session-encryption key, restrictive file permissions, and both enablement flags still `false`; it is ignored by Git. No OpenAI or Redis credentials have been supplied. Provision separate production secrets in the deployment environment.
+4. Validate the approved contract against this implementation, then enable it in a restricted test deployment. Test real consent, model discovery, a completed answer, denied permission, usage limits, expiry and disconnect with an eligible account.
+5. Deploy the verified configuration on the registered HTTPS domain and enable the public button. Local browser fixtures and an application submission are not substitutes for the real account test.
+
 ## Configuration
 
 The existing Upstash Redis URL/token are reused. Add these server-only values from `.env.example`:
