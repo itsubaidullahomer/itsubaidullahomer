@@ -2,7 +2,17 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Check, ArrowUpRight } from "lucide-react";
+import {
+  Check,
+  ArrowUpRight,
+  Sparkles,
+  MessageSquare,
+  Rocket,
+  Smartphone,
+  BookOpen,
+  CalendarDays,
+  Bell,
+} from "lucide-react";
 import { useReducedMotion } from "motion/react";
 const answer =
   "Start with the lesson, not the model. Here’s a plan your students can actually follow.";
@@ -38,9 +48,14 @@ export function StreamingMini() {
     };
   }, [reduce, paused]);
   return (
-    <div className="mini-window" ref={ref}>
+    <div className="mini-window process-assistant" ref={ref}>
       <div className="mini-bar">
-        <span>tututor / assistant</span>
+        <span className="process-window-title">
+          <span className="process-window-icon" aria-hidden="true">
+            <Sparkles size={13} />
+          </span>
+          tututor / assistant
+        </span>
         <button
           onClick={() => setPaused(!paused)}
           className="pause-mini"
@@ -52,11 +67,15 @@ export function StreamingMini() {
       <div className="mini-content">
         <div className="chat-request">Help me plan tomorrow’s lesson.</div>
         <div className="chat-answer">
-          <span className="mini-mark">✳</span>
+          <span className="mini-mark" aria-hidden="true">
+            <Sparkles size={15} />
+          </span>
           <div>
             {retry ? (
               <>
-                <span className="mono">Connection interrupted. Retrying…</span>
+                <span className="mono stream-retry">
+                  Connection interrupted. Retrying…
+                </span>
                 <br />
                 {answer.slice(0, 32)}
               </>
@@ -75,14 +94,24 @@ export function StreamingMini() {
 }
 export function ClientThread() {
   return (
-    <div className="mini-window">
+    <div className="mini-window process-thread">
       <div className="mini-bar">
-        <span># project-updates</span>
+        <span className="process-window-title">
+          <span className="process-window-icon" aria-hidden="true">
+            <MessageSquare size={13} />
+          </span>
+          # project-updates
+        </span>
         <span>Sample conversation</span>
       </div>
       <div className="mini-content">
         <div className="thread-message">
-          <div className="thread-avatar">C</div>
+          <div
+            className="thread-avatar thread-avatar-client"
+            aria-hidden="true"
+          >
+            C
+          </div>
           <div>
             <strong>Client</strong>
             <p>Could we make that work better on mobile?</p>
@@ -106,27 +135,32 @@ export function ClientThread() {
 }
 export function DeployMini() {
   return (
-    <div className="mini-window">
+    <div className="mini-window process-deploy">
       <div className="mini-bar">
-        <span>From preview to production</span>
+        <span className="process-window-title">
+          <span className="process-window-icon" aria-hidden="true">
+            <Rocket size={13} />
+          </span>
+          From preview to production
+        </span>
         <span>Sample deployment</span>
       </div>
       <div className="deploy-stage grid-texture">
         <div className="deploy-toast">
-          <span className="deploy-check">
+          <span className="deploy-check" aria-hidden="true">
             <Check size={16} />
           </span>
           <div>
             <strong>Pushed to prod</strong>
             <p>Vercel · Deployed</p>
-            <div className="deploy-lines">
+            <div className="deploy-lines" aria-hidden="true">
               <i />
               <i />
               <i />
               <i />
             </div>
           </div>
-          <ArrowUpRight size={16} />
+          <ArrowUpRight size={16} aria-hidden="true" />
         </div>
       </div>
     </div>
@@ -134,9 +168,14 @@ export function DeployMini() {
 }
 export function PhoneMini() {
   return (
-    <div className="mini-window">
+    <div className="mini-window process-mobile">
       <div className="mini-bar">
-        <span>Tututor · a day at school</span>
+        <span className="process-window-title">
+          <span className="process-window-icon" aria-hidden="true">
+            <Smartphone size={13} />
+          </span>
+          Tututor · a day at school
+        </span>
         <span>Scroll the phone ↓</span>
       </div>
       <div className="process-phone-stage">
@@ -146,7 +185,7 @@ export function PhoneMini() {
           role="region"
           aria-label="Scrollable Tututor interface illustration"
         >
-          <div className="phone-speaker" />
+          <div className="phone-speaker" aria-hidden="true" />
           <p>TUTUTOR · FAMILIAS</p>
           <h4>
             A little closer
@@ -155,15 +194,36 @@ export function PhoneMini() {
           </h4>
           <p>Homework, messages and the moments that matter.</p>
           {[
-            ["Today at school", "Everything in one place"],
-            ["New homework", "Ready when you are"],
-            ["A note from the teacher", "Keep the conversation going"],
-            ["The week ahead", "Your school timetable"],
-            ["Attendance", "A clear view of their day"],
-          ].map(([a, b]) => (
-            <div className="phone-tile" key={a}>
-              {a}
-              <span>{b}</span>
+            {
+              title: "Today at school",
+              text: "Everything in one place",
+              icon: Bell,
+            },
+            {
+              title: "New homework",
+              text: "Ready when you are",
+              icon: BookOpen,
+            },
+            {
+              title: "A note from the teacher",
+              text: "Keep the conversation going",
+              icon: MessageSquare,
+            },
+            {
+              title: "The week ahead",
+              text: "Your school timetable",
+              icon: CalendarDays,
+            },
+            {
+              title: "Attendance",
+              text: "A clear view of their day",
+              icon: Check,
+            },
+          ].map(({ title, text, icon: Icon }) => (
+            <div className="phone-tile" key={title}>
+              <Icon className="phone-tile-icon" size={13} aria-hidden="true" />
+              {title}
+              <span>{text}</span>
             </div>
           ))}
         </div>
@@ -220,7 +280,7 @@ export function Process() {
     return () => observer.disconnect();
   }, []);
   return (
-    <section className="section process-section">
+    <section id="process" className="section process-section">
       <div className="process-grid">
         <div className="process-left">
           <span className="eyebrow">The way I work</span>
