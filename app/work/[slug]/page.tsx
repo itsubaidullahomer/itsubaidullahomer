@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { projects } from "@/content/projects";
 import { Section, Status, FinalCTA } from "@/components/layout-parts";
-import { ImageZoom, CompareSlider, TututorShowcase } from "@/components/work";
+import { ImageZoom, TututorShowcase } from "@/components/work";
+import { CompareSlider } from "@/components/compare-slider";
 import { getContent, Article, headings } from "@/lib/mdx";
 import { pageMetadata } from "@/lib/metadata";
 export function generateStaticParams() {

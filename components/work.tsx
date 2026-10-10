@@ -1,19 +1,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 import * as Tabs from "@radix-ui/react-tabs";
 import * as Dialog from "@radix-ui/react-dialog";
-import {
-  ArrowUpRight,
-  ArrowRight,
-  MoveHorizontal,
-  Expand,
-  X,
-} from "lucide-react";
+import { ArrowUpRight, ArrowRight, Expand, X } from "lucide-react";
 import { projects, type Project } from "@/content/projects";
 import { Spotlight, Parallax } from "./motion";
 import { Status } from "./layout-parts";
+import { CompareSlider } from "./compare-slider";
 const views = [
   {
     name: "AI toolkit",
@@ -61,49 +55,6 @@ export function TututorShowcase() {
         </Tabs.Content>
       ))}
     </Tabs.Root>
-  );
-}
-export function CompareSlider() {
-  const [value, setValue] = useState(50);
-  return (
-    <div className="compare-stage">
-      <div className="compare-view">
-        <Image
-          src="/images/ali-foodies/compare/before-home.jpg"
-          alt="Previous Ali Foodies mobile website"
-          fill
-          sizes="200px"
-        />
-        <div
-          className="compare-after"
-          style={{ clipPath: `inset(0 ${100 - value}% 0 0)` }}
-        >
-          <Image
-            src="/images/ali-foodies/compare/after-home.jpg"
-            alt="Rebuilt Ali Foodies mobile website"
-            fill
-            sizes="200px"
-          />
-        </div>
-        <div className="compare-divider" style={{ left: `${value}%` }}>
-          <span>
-            <MoveHorizontal size={14} />
-          </span>
-        </div>
-      </div>
-      <span className="compare-label before">AFTER</span>
-      <span className="compare-label after">BEFORE</span>
-      <input
-        className="compare-range"
-        type="range"
-        min="0"
-        max="100"
-        value={value}
-        onChange={(e) => setValue(Number(e.target.value))}
-        aria-label="Compare Ali Foodies before and after"
-        aria-valuetext={`${value}% of new design revealed`}
-      />
-    </div>
   );
 }
 export function ProjectCard({ project: p }: { project: Project }) {
@@ -190,6 +141,11 @@ export function SelectedWork() {
             Almost every customer visits on mobile. So that’s where I started
             the rebuild.
           </p>
+          <ul className="compare-improvements">
+            <li>Ordering, front and center.</li>
+            <li>A menu made for thumbs.</li>
+            <li>Hours and location in easy reach.</li>
+          </ul>
           <Link href="/work/ali-foodies" className="text-link">
             Explore the redesign <ArrowRight size={15} />
           </Link>
