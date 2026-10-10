@@ -8,6 +8,7 @@ import { faqs } from "@/content/site";
 import { pricing } from "@/content/pricing";
 import { BookButton, CopyEmail, TalkButton } from "./providers";
 import { Section, SectionHeading } from "./layout-parts";
+import { ServiceArt } from "./service-art";
 const logos = [
   { name: "Tututor.ai", src: "/logos/tututor.png", url: "https://tututor.ai" },
   { name: "illume", src: "/logos/illume.png", url: "https://joinillume.com" },
@@ -91,81 +92,9 @@ const services = [
     "rescue",
   ],
 ];
-function ServiceArt({ type }: { type: string }) {
-  return (
-    <div className="service-art" aria-hidden="true">
-      {type === "ai" ? (
-        <div className="pipeline">
-          <span>Your app</span>
-          <ArrowRight size={12} />
-          <span>AI layer</span>
-          <ArrowRight size={12} />
-          <span>A useful answer</span>
-        </div>
-      ) : type === "web" ? (
-        <div className="app-wire">
-          <aside>
-            <i />
-            <i />
-            <i />
-          </aside>
-          <div>
-            <i />
-            <div className="chart">
-              {[35, 65, 48, 83, 100].map((h, i) => (
-                <i key={i} style={{ height: `${h}%` }} />
-              ))}
-            </div>
-          </div>
-        </div>
-      ) : type === "mobile" ? (
-        <>
-          <div className="mobile-wire">
-            <div />
-            <div />
-            <div />
-          </div>
-          <div
-            className="mobile-wire"
-            style={{
-              transform: "rotate(-7deg)",
-              marginLeft: 18,
-              marginTop: 22,
-            }}
-          >
-            <div />
-            <div />
-            <div />
-          </div>
-        </>
-      ) : type === "landing" ? (
-        <div className="type-sample">
-          Made to move<span style={{ fontSize: 22 }}> ↗</span>
-        </div>
-      ) : type === "voice" ? (
-        <div className="waveform">
-          {Array.from({ length: 28 }, (_, i) => (
-            <i
-              key={i}
-              style={{
-                height: `${12 + Math.abs(Math.sin(i * 1.2)) * 40}px`,
-                animationDelay: `${i * -0.07}s`,
-              }}
-            />
-          ))}
-        </div>
-      ) : (
-        <div className="repair-diff">
-          <div>− &nbsp; it works on my machine</div>
-          <div>+ &nbsp; it works for your customers</div>
-        </div>
-      )}
-    </div>
-  );
-}
 export function Services() {
   return (
-    <Section className="services-section">
+    <Section id="services" className="services-section">
       <SectionHeading
         title="One engineer. The whole product."
         description="Bring me an idea, a difficult feature, or a product that needs a fresh start."
