@@ -1,62 +1,15 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import * as Tabs from "@radix-ui/react-tabs";
 import * as Dialog from "@radix-ui/react-dialog";
 import { ArrowUpRight, ArrowRight, Expand, X } from "lucide-react";
 import { projects, type Project } from "@/content/projects";
-import { Spotlight, Parallax } from "./motion";
+import { Spotlight } from "./motion";
 import { Status } from "./layout-parts";
 import { CompareSlider } from "./compare-slider";
-const views = [
-  {
-    name: "AI toolkit",
-    image: "/images/tututor/showcase/tututor-catalog.jpg",
-    alt: "Tututor’s AI tools catalog, organized around lesson preparation",
-  },
-  {
-    name: "AI editor",
-    image: "/images/tututor/showcase/tututor-editor-ai.jpg",
-    alt: "Tututor’s document editor with contextual AI actions",
-  },
-  {
-    name: "Mobile apps",
-    image: "/images/tututor/journey/native-concepts.jpg",
-    alt: "Tututor mobile app concepts for families",
-  },
-];
-export function TututorShowcase() {
-  return (
-    <Tabs.Root defaultValue="ai-toolkit" className="showcase">
-      <Tabs.List className="showcase-tabs" aria-label="Tututor product views">
-        {views.map((v) => (
-          <Tabs.Trigger
-            key={v.name}
-            value={v.name.toLowerCase().replaceAll(" ", "-")}
-            className="showcase-tab"
-          >
-            {v.name}
-          </Tabs.Trigger>
-        ))}
-      </Tabs.List>
-      {views.map((v) => (
-        <Tabs.Content
-          key={v.name}
-          value={v.name.toLowerCase().replaceAll(" ", "-")}
-        >
-          <Parallax className="showcase-shot">
-            <Image
-              src={v.image}
-              alt={v.alt}
-              fill
-              sizes="(max-width: 768px) 85vw, 1000px"
-            />
-          </Parallax>
-        </Tabs.Content>
-      ))}
-    </Tabs.Root>
-  );
-}
+import { TututorShowcase, TututorImpact } from "./tututor-showcase";
+export { TututorShowcase } from "./tututor-showcase";
+
 export function ProjectCard({ project: p }: { project: Project }) {
   return (
     <Spotlight id={`project-${p.slug}`}>
@@ -100,9 +53,12 @@ export function SelectedWork() {
   return (
     <>
       <Spotlight className="work-feature" id="project-tututor">
-        <div className="work-card-copy">
+        <div className="work-card-copy tututor-feature-heading">
           <div>
-            <Status status="Live" />
+            <div className="tututor-feature-kicker">
+              <span>Tututor.ai / Featured project</span>
+              <Status status="Live" />
+            </div>
             <h3>
               <Link href="/work/tututor">
                 A small tool. Then a whole school platform.
@@ -120,9 +76,12 @@ export function SelectedWork() {
               <span>2023 — present</span>
             </div>
           </div>
-          <Link href="/work/tututor" className="text-link">
-            The full story <ArrowUpRight size={16} />
-          </Link>
+          <div className="tututor-feature-aside">
+            <TututorImpact />
+            <Link href="/work/tututor" className="text-link">
+              The full story <ArrowUpRight size={16} />
+            </Link>
+          </div>
         </div>
         <TututorShowcase />
       </Spotlight>

@@ -52,7 +52,11 @@ export default async function ProjectPage({
             Visit {p.name} <ArrowUpRight size={15} />
           </a>
         )}
-        {slug === "ali-foodies" ? (
+        {slug === "tututor" ? (
+          <div className="mt-8">
+            <TututorShowcase />
+          </div>
+        ) : slug === "ali-foodies" ? (
           <div className="mt-8">
             <CompareSlider />
           </div>
@@ -71,12 +75,6 @@ export default async function ProjectPage({
         </aside>
         <Article source={source} />
       </Section>
-      {slug === "tututor" && (
-        <Section>
-          <h2 className="mb-8">A closer look at the product.</h2>
-          <TututorShowcase />
-        </Section>
-      )}
       {p.stack.length > 0 && (
         <Section>
           <h2>Built with.</h2>

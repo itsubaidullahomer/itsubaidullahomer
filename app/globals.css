@@ -4,6 +4,7 @@
 @import "./hero-art.css";
 @import "./experiment-art.css";
 @import "./compare-slider.css";
+@import "./tututor-showcase.css";
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -941,46 +942,6 @@ button {
 .work-arrow:hover {
   transform: rotate(-35deg);
 }
-.showcase {
-  background: #f3f3f3;
-  padding: 27px 35px 0;
-  border-top: 1px solid #eee;
-  overflow: hidden;
-}
-.showcase-tabs {
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  margin-bottom: 22px;
-  flex-wrap: wrap;
-}
-.showcase-tab {
-  border-radius: 30px;
-  padding: 7px 12px;
-  font-size: 10px;
-  color: #737373;
-  border: 1px solid transparent;
-}
-.showcase-tab[data-state="active"] {
-  background: #fff;
-  border-color: #ddd;
-  color: #222;
-  box-shadow: 0 1px 3px #00000005;
-}
-.showcase-shot {
-  position: relative;
-  height: 400px;
-  border-radius: 11px 11px 0 0;
-  border: 1px solid #d8d8d8;
-  overflow: hidden;
-  box-shadow: 0 15px 50px #0000000c;
-  background: white;
-}
-.showcase-shot img {
-  object-fit: cover;
-  object-position: top;
-  filter: grayscale(1);
-}
 .parallax-content {
   height: 100%;
   position: relative;
@@ -1499,7 +1460,6 @@ button {
   height: auto;
 }
 /* Keep the editorial monochrome at rest; reveal the real product on interaction. */
-.showcase-shot img,
 .project-visual img,
 .compare-view img,
 .case-image img,
@@ -1508,16 +1468,13 @@ button {
     filter 450ms ease,
     opacity 450ms ease;
 }
-.spotlight:is(:hover, :focus-within) .showcase-shot img,
 .spotlight:is(:hover, :focus-within) .project-visual img,
 .spotlight:is(:hover, :focus-within) .compare-view img,
-.showcase:is(:hover, :focus-within) .showcase-shot img,
 .compare-stage:is(:hover, :focus-within) .compare-view img,
 .case-image:is(:hover, :focus-visible) img {
   filter: grayscale(0);
 }
 @media (hover: none), (pointer: coarse), (max-width: 540px) {
-  .showcase-shot img,
   .project-visual img,
   .compare-view img,
   .case-image img,
@@ -2126,12 +2083,6 @@ button {
   .compare-card .work-card-copy {
     padding: 26px;
   }
-  .showcase {
-    padding: 22px 22px 0;
-  }
-  .showcase-shot {
-    height: 300px;
-  }
   .bento {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -2456,20 +2407,6 @@ button {
     margin-top: 20px;
     width: 34px;
     height: 34px;
-  }
-  .showcase {
-    padding: 18px 15px 0;
-  }
-  .showcase-tabs {
-    gap: 2px;
-    margin-bottom: 14px;
-  }
-  .showcase-tab {
-    font-size: 8px;
-    padding: 6px 9px;
-  }
-  .showcase-shot {
-    height: 205px;
   }
   .work-grid {
     grid-template-columns: 1fr;
@@ -2871,9 +2808,6 @@ input[type="checkbox"] {
   .avatar-device .avatar-picture > img {
     scale: 1;
   }
-}
-.showcase-tab {
-  color: #666;
 }
 @media (max-width: 540px) {
   .avatar-device {

@@ -79,3 +79,13 @@ OpenAI hosted-client approval, compatible plan-usage grants, Redis credentials a
 - The site has not been pushed or deployed. Recheck canonical URLs, registered redirects, permissions, provider quotas and origin checks on the final HTTPS domain before enabling the connection.
 
 Large screenshots and reports are intentionally ignored by Git. Reproduce them with the documented scripts in `HANDOFF.md`.
+
+## Tututor gallery — 11 October 2026
+
+The featured project and case study now share a gallery with six areas and 23 screenshots. Asset existence and intrinsic dimensions were checked for all 23 images. The additional editor close-up was captured from the signed-in demo account; the other views come from the owner's original portfolio assets.
+
+Browser checks covered the home, work and Tututor case-study routes; all six area selections; thumbnail changes; vertical keyboard tab navigation; the mobile horizontal tab list; screenshot enlargement; next-image navigation; original-size scrolling; and Escape dismissal. Desktop original-size mode served the 1600-pixel source directly and produced a scrollable inspection region. Native concepts remain labeled as design exploration.
+
+At requested widths 375, 768, 1280 and 1440, document scroll width matched client width, and all three displayed phone images loaded. Review captures are in `qa-output/release/tututor-gallery-{width}.jpg`. Mobile inspection was reviewed separately. The active area is mounted on demand, and thumbnails use small responsive image sizes.
+
+`npm run lint`, the production build (including TypeScript and all static routes), and the existing 17 unit tests passed. The gallery interactions above were checked through browser controls; the legacy whole-site browser script was not rerun for this change.

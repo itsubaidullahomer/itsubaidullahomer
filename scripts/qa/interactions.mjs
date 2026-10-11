@@ -37,12 +37,22 @@ await expect(page.getByRole("link", { name: "Email Ubaid" })).toHaveAttribute(
 await page.keyboard.press("Escape");
 await expect(page.getByRole("dialog")).toHaveCount(0);
 pass("Booking fallback and keyboard dismissal");
-await page.getByRole("tab", { name: "AI editor", exact: true }).click();
+await page
+  .getByRole("tab", {
+    name: "Document editor Write, refine & illustrate",
+    exact: true,
+  })
+  .click();
 await expect(
-  page.getByRole("tab", { name: "AI editor", exact: true }),
+  page.getByRole("tab", {
+    name: "Document editor Write, refine & illustrate",
+    exact: true,
+  }),
 ).toHaveAttribute("aria-selected", "true");
 await expect(
-  page.getByAltText("Tututor’s document editor with contextual AI actions"),
+  page.getByAltText(
+    "Tututor’s document editor with selected text and the improve, expand and shorten menu",
+  ),
 ).toBeVisible();
 pass("Accessible product tabs");
 const slider = page.getByRole("slider", {
