@@ -571,6 +571,25 @@
   padding: 18px;
   scrollbar-width: thin;
 }
+.tututor-lightbox-image[data-swipe-enabled] {
+  touch-action: pan-y pinch-zoom;
+}
+.screenshot-swipe-hint {
+  display: none;
+}
+@media (max-width: 759px), (pointer: coarse) {
+  .screenshot-swipe-hint {
+    display: block;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 7px 12px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #56675c;
+    background: #edf1ef;
+  }
+}
 .tututor-lightbox-image img {
   display: block;
   width: auto;

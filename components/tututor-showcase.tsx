@@ -25,6 +25,7 @@ import {
   type TututorView,
 } from "@/content/tututor-showcase";
 import { MobileCardDetails } from "./mobile-card-details";
+import { ScreenshotViewport } from "./screenshot-viewport";
 
 const icons = [
   Sparkles,
@@ -242,14 +243,14 @@ function ShowcasePanel({ view }: { view: TututorView }) {
               <X size={19} />
             </Dialog.Close>
           </div>
-          <div
-            className={`tututor-lightbox-image${actualSize ? " is-actual-size" : ""}`}
-            tabIndex={0}
-            role="region"
-            aria-label="Product screenshot. Scroll to explore at original size."
+          <ScreenshotViewport
+            actualSize={actualSize}
+            multiple={multiple}
+            label="Product screenshot"
+            onStep={(direction) => select(direction === 1 ? next : previous)}
           >
             <ProductImage shot={shot} original sizes="95vw" />
-          </div>
+          </ScreenshotViewport>
           <div className="tututor-lightbox-footer">
             <button
               onClick={() => setActualSize(!actualSize)}
@@ -267,7 +268,7 @@ function ShowcasePanel({ view }: { view: TututorView }) {
               >
                 <ArrowLeft size={17} />
               </button>
-              <span>
+              <span aria-live="polite" aria-atomic="true">
                 {selected + 1} / {view.shots.length}
               </span>
               <button

@@ -22,6 +22,7 @@ import {
 import { Spotlight } from "./motion";
 import { Status } from "./layout-parts";
 import { MobileCardDetails } from "./mobile-card-details";
+import { ScreenshotViewport } from "./screenshot-viewport";
 
 function Screenshot({
   view,
@@ -186,14 +187,14 @@ export function ProductShowcase({
               <X size={19} />
             </Dialog.Close>
           </div>
-          <div
-            className={`tututor-lightbox-image${actualSize ? " is-actual-size" : ""}`}
-            tabIndex={0}
-            role="region"
-            aria-label={`${content.name} screenshot. Scroll to explore at original size.`}
+          <ScreenshotViewport
+            actualSize={actualSize}
+            multiple={content.views.length > 1}
+            label={`${content.name} screenshot`}
+            onStep={step}
           >
             <Screenshot view={view} original />
-          </div>
+          </ScreenshotViewport>
           <div className="tututor-lightbox-footer">
             <button
               onClick={() => setActualSize(!actualSize)}
@@ -210,7 +211,7 @@ export function ProductShowcase({
               >
                 <ArrowLeft size={17} />
               </button>
-              <span>
+              <span aria-live="polite" aria-atomic="true">
                 {index + 1} / {content.views.length}
               </span>
               <button
