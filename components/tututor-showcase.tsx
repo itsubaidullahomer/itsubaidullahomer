@@ -63,6 +63,7 @@ function ProductImage({
       height={shot.height}
       quality={90}
       unoptimized={original}
+      loading={original ? "eager" : undefined}
       sizes={sizes}
       draggable={false}
     />
@@ -244,10 +245,17 @@ function ShowcasePanel({ view }: { view: TututorView }) {
             </Dialog.Close>
           </div>
           <ScreenshotViewport
+            key={shot.src}
             actualSize={actualSize}
             multiple={multiple}
             label="Product screenshot"
             onStep={(direction) => select(direction === 1 ? next : previous)}
+            previous={
+              <ProductImage shot={view.shots[previous]} original sizes="95vw" />
+            }
+            next={
+              <ProductImage shot={view.shots[next]} original sizes="95vw" />
+            }
           >
             <ProductImage shot={shot} original sizes="95vw" />
           </ScreenshotViewport>

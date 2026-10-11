@@ -41,6 +41,7 @@ function Screenshot({
       height={view.height}
       quality={90}
       unoptimized={original}
+      loading={original ? "eager" : undefined}
       sizes={
         original
           ? "95vw"
@@ -188,10 +189,27 @@ export function ProductShowcase({
             </Dialog.Close>
           </div>
           <ScreenshotViewport
+            key={view.id}
             actualSize={actualSize}
             multiple={content.views.length > 1}
             label={`${content.name} screenshot`}
             onStep={step}
+            previous={
+              <Screenshot
+                view={
+                  content.views[
+                    (index - 1 + content.views.length) % content.views.length
+                  ]
+                }
+                original
+              />
+            }
+            next={
+              <Screenshot
+                view={content.views[(index + 1) % content.views.length]}
+                original
+              />
+            }
           >
             <Screenshot view={view} original />
           </ScreenshotViewport>
