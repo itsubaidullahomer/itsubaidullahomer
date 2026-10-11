@@ -9,7 +9,7 @@ export type ProductView = {
   decision: string;
   sourceLabel: string;
   sourceNote: string;
-  focus?: "top";
+  focus?: "editor";
 };
 
 export type ProductShowcaseContent = {
@@ -121,6 +121,7 @@ export const productShowcases: Record<string, ProductShowcaseContent> = {
         sourceLabel: "Live editor · demo text",
         sourceNote:
           "Captured from the signed-in Viloi editor in October 2026. The built-in sample was processed once to show a real input and output; this is one example result, not a performance benchmark.",
+        focus: "editor",
       },
       {
         id: "controls",
@@ -135,7 +136,7 @@ export const productShowcases: Record<string, ProductShowcaseContent> = {
         sourceLabel: "Live editor · tone controls",
         sourceNote:
           "The live editor’s tone selector, captured with the same built-in sample and completed result. The card focuses on the controls; this viewer shows the full interface.",
-        focus: "top",
+        focus: "editor",
       },
       {
         id: "subscriptions",

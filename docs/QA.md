@@ -105,3 +105,7 @@ At requested widths 375, 768, 1280 and 1440, document client/scroll widths match
 After the owner signed in and authorized continuation, the built-in 58-word sample was processed once, producing a 56-word output. Two 853 × 731 captures now show the actual editor and its open tone selector. The public writing demonstration was removed from the gallery; the public plans capture and archived design remain. The Controls preview focuses on the top of the screenshot, while inspection preserves the full source image.
 
 Verified Writing → Controls → Subscriptions → Origins navigation, four-view numbering, screenshot next navigation and Escape dismissal. The new four-tab strip scrolls within the card at 375 pixels without overflowing the document (360-pixel client and scroll widths); desktop was reviewed at 1440 pixels. The existing gallery appears in both the work card and Viloi case study. This capture verifies one completed demo interaction, not the accuracy of the product's detection score. Lint and production build passed.
+
+### Viloi preview crop
+
+Writing and Controls now use a top-aligned 2.4:1 crop. The work-card preview was visually checked for complete sample paragraphs and the open tone menu; its image fills the available 483-pixel width. The inspection dialog still serves the original 853 × 731 image. Lint and the production build passed. The crop is shared by home/work cards and the case-study gallery; source assets are unchanged.

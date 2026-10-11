@@ -213,7 +213,13 @@
   max-height: 100%;
   object-fit: contain;
 }
-.product-screen-image[data-focus="top"] img {
+.product-screen-image[data-focus="editor"] {
+  /* Keep the toolbar and both sample paragraphs; omit the empty lower editor. */
+  aspect-ratio: 2.4;
+  overflow: hidden;
+  background: #08080a;
+}
+.product-screen-image[data-focus="editor"] img {
   object-fit: cover;
   object-position: top;
 }
