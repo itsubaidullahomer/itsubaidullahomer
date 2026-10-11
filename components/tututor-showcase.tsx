@@ -163,6 +163,15 @@ function ShowcasePanel({ view }: { view: TututorView }) {
                 : "Inside the product"}
           </span>
         </div>
+        <Dialog.Trigger
+          className="screenshot-tap-hint tututor-tap-hint"
+          aria-label={`View ${shot.label} full size`}
+        >
+          <Expand size={13} aria-hidden="true" />
+          {isPhone
+            ? "Tap the center phone to view full size"
+            : "Tap to view full size"}
+        </Dialog.Trigger>
         <div className="tututor-caption" aria-live="polite" aria-atomic="true">
           <MobileCardDetails
             label={shot.label}

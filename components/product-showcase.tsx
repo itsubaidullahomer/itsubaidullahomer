@@ -133,6 +133,9 @@ export function ProductShowcase({
                 <span className="product-screen-image" data-focus={item.focus}>
                   <Screenshot view={item} fullWidth={fullWidth} />
                 </span>
+                <span className="screenshot-tap-hint" aria-hidden="true">
+                  <Expand size={13} /> Tap to view full size
+                </span>
               </Dialog.Trigger>
             </div>
             <div className="product-view-copy">

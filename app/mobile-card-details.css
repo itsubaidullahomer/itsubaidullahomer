@@ -5,6 +5,9 @@
 .mobile-card-details-trigger {
   display: none;
 }
+.screenshot-tap-hint {
+  display: none;
+}
 .mobile-card-details-heading {
   display: flex;
   align-items: center;
@@ -25,6 +28,31 @@
   padding-top: 3px;
 }
 @media (max-width: 759px) {
+  .screenshot-tap-hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 10px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #514666;
+    background: #f6f3fc;
+    border-top: 1px solid #e3ddec;
+  }
+  .screenshot-tap-hint svg {
+    flex-shrink: 0;
+  }
+  .tututor-tap-hint {
+    width: 100%;
+    min-height: 36px;
+    margin-top: 5px;
+    border: 1px solid #dce7e1;
+    border-radius: 7px;
+    color: #365f4f;
+    background: #f0f7f3;
+  }
   :is(.product-story-card, .work-feature, .compare-card) .mobile-card-details {
     display: block;
   }
