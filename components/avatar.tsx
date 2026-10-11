@@ -1,13 +1,19 @@
 "use client";
-import Image from "next/image";
 import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { MessageSquare, ArrowUpRight } from "lucide-react";
 import { Button } from "./ui/button";
+import { AvatarVisual } from "./avatar-visual";
 const ChatGPTConversation = dynamic(() => import("./chatgpt-conversation"), {
   ssr: false,
 });
-export function Avatar({ available }: { available: boolean }) {
+export function Avatar({
+  available,
+  visual,
+}: {
+  available: boolean;
+  visual?: ReactNode;
+}) {
   const [active, setActive] = useState(false);
   const [mode, setMode] = useState<"polite" | "unfiltered">("polite");
   const [result, setResult] = useState<string>();
@@ -47,19 +53,7 @@ export function Avatar({ available }: { available: boolean }) {
           {available ? (active ? "Here" : "Ready") : "In development"}
         </span>
       </div>
-      <div className="avatar-picture">
-        <Image
-          src="/images/ubaid-portrait.jpg"
-          alt="Ubaidullah Omer"
-          fill
-          sizes="(max-width: 540px) 290px, 365px"
-          priority
-        />
-        <div className="avatar-label">
-          <strong>Meet AI Ubaid.</strong>
-          <span>An AI version. Same curiosity.</span>
-        </div>
-      </div>
+      <AvatarVisual>{visual}</AvatarVisual>
       <div className="avatar-controls">
         <p className="avatar-caption">
           An AI guide to my projects, process, and experience.

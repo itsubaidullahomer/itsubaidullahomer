@@ -1,0 +1,73 @@
+{
+  "id": "ubaid-v1",
+  "status": "phase-1-static",
+  "created": "2026-10-11",
+  "generator": {
+    "tool": "Built-in GPT image generation",
+    "prompt": "Create a high-end Pixar-style 3D CARTOON character bust based on the man in this reference photo. This must be an actual stylized animated-movie CHARACTER DESIGN, not a realistic portrait, not a skin-smoothing filter, and not a photoreal digital human.\n\nUse bold, simplified sculpted forms: a gently exaggerated head, slightly larger expressive almond-shaped brown eyes, smooth matte clay skin with NO pores, broad rounded sculpted locks of wavy black hair with NO individual hair strands, modeled graphic eyebrows, simple soft moustache and sparse chin beard shapes. The character should unmistakably resemble this particular man: same long oval face, tapered jaw, warm medium-brown skin, swept-up hair silhouette and hairline, thick brows, nose shape, lips, thin moustache and small chin/jaw beard. Keep him an adult. Do not lighten the skin or give him a thick full beard. Aim for sophisticated, warm, modern character illustration with unmistakable cartoon appeal.\n\nFront-facing neutral attentive pose, head upright, relaxed closed mouth with the tiniest friendly smile. White open-collar shirt, simplified fabric. Centered head and upper chest, whole hair silhouette visible, generous top margin, both shoulders visible, square canvas. Soft studio light, very subtle cool lavender rim. True transparent background, clean edges. No text, no props, no scene, no watermark. This will be the static reference for a future rigged 3D talking character on a minimalist monochrome portfolio."
+  },
+  "files": {
+    "identityReference": "public/images/ubaid-portrait.jpg",
+    "master": "assets/avatar/ubaid-v1/master.png",
+    "webPoster": "public/images/avatar/ubaid-v1.webp"
+  },
+  "image": {
+    "width": 1254,
+    "height": 1254,
+    "transparent": true,
+    "colorSpace": "sRGB",
+    "webpQuality": 90,
+    "alphaQuality": 100
+  },
+  "artDirection": {
+    "style": "A restrained animated-film 3D character: sculpted wavy hair, simplified facial volumes, expressive eyes and an off-white collared shirt.",
+    "identityLocks": [
+      "Long oval face with tapered jaw and softly squared chin",
+      "Voluminous swept-up black hair and the original hairline",
+      "Thick dark brows and brown almond-shaped eyes",
+      "Original nose and lip shapes",
+      "Thin moustache, sparse chin/jaw beard, mostly clear cheeks",
+      "Natural medium warm-brown skin; preserve age and proportions"
+    ],
+    "expression": "Neutral, attentive, relaxed closed mouth and subtle warmth.",
+    "lighting": "Broad soft key from upper left, gentle fill, understated cool slate/lilac edge light.",
+    "consistency": "Use the original photo AND this selected master for any further views. Reuse this prompt and palette. Review new views against both anchors; do not chain generations from the last variant or assume a seed guarantees identity. The original photograph wins on identity; the master wins on style.",
+    "identityReview": "Compare hairline, jaw, eye spacing, nose, mouth and facial-hair distribution at both full resolution and the actual hero size. New unseen angles require real reference photos or an artist's approved interpretation."
+  },
+  "integration": {
+    "shell": "components/avatar.tsx retains the device chrome, availability and conversation controls.",
+    "viewport": "components/avatar-visual.tsx owns the fixed responsive frame, accessible character label, backdrop and text overlay.",
+    "staticRenderer": "AvatarPoster is the current renderer and the future loading/error fallback.",
+    "swap": "Pass a future client renderer as Avatar's optional visual ReactNode. AvatarVisual uses the same frame for either renderer. The future renderer owns its ready/error fallback and canvas lifecycle.",
+    "framing": "Centered head-and-upper-chest portrait; full hair silhouette visible; target eye line around 40% of frame height; keep the bottom 22% clear enough for the existing label. Match current 365x290, 325x265, 345x275 and mobile frame sizes rather than changing the hero.",
+    "currentScope": "Static image only. No WebGL dependency, runtime emotion model, lip sync, rig, new audio connection or claim that the demo is live. Grayscale-to-color hover remains a poster effect and is not applied to a future canvas."
+  },
+  "phase2Plan": {
+    "status": "Design only — not implemented",
+    "assetPipeline": [
+      "Lock this canonical design with the user before investing in rigging.",
+      "Create front, three-quarter and side reference views from the original photo plus approved design; validate consistency. Additional real photos are preferable for unseen geometry.",
+      "Sculpt/model and retopologize a single consistent 3D bust in a DCC tool such as Blender. Image-to-3D may supply a starting mesh, but manual likeness correction and deformation-ready topology are still required.",
+      "Create separate eyes and mouth interior; add head/neck/eye joints, facial expression blendshapes and phoneme/viseme shapes. Test combined expressions and mouth shapes for clipping.",
+      "Export a versioned glTF/GLB with morph targets and skinning. Save the editable source model, textures, lighting/camera reference and a rig-name mapping beside the export.",
+      "Render the same neutral pose from the rig as the next static poster so loading, fallback and live states share one identity.",
+      "Validate morph targets, normals, materials, mobile performance and a matching hero crop in-browser before replacing the poster."
+    ],
+    "recommendedRuntime": "A lazily loaded browser 3D renderer using Three.js GLTFLoader, with the static poster preserved as loading/error and unsupported-device fallback. No runtime is added in Phase 1.",
+    "stateBoundary": "A future controller accepts timestamped utterance IDs, expression/emotion/intensity, and timed viseme cues. Translate these through a rig-specific mapping rather than making the model output mesh names.",
+    "animationTiming": "Treat the requested ~80 ms decision latency as a target to measure, not a guarantee or frame rate. Interpolate expressions locally on the render loop. Drive visemes from TTS phoneme/viseme timing against the audio playback clock, independently of emotion decisions. Cancel stale cues on interruption and return the mouth to neutral when audio ends.",
+    "layers": "Separate semantic expression, viseme/jaw movement and idle blink/gaze/head movement. Define blending priorities so an emotion cannot override mouth timing or blink motion.",
+    "accessibility": "Keep a text conversation alternative, keyboard access, reduced-motion behavior and a pause-animation control. Reduced motion should suppress decorative idle movement while retaining useful speaking feedback.",
+    "performance": "Measure first load, time to first audio, decision latency, audio/viseme drift and mobile frame time separately. Keep model inference off the render thread. Do not assume an 80 ms emotion result makes total voice latency 80 ms."
+  },
+  "sources": [
+    {
+      "title": "Khronos glTF 2.0 specification: morph targets, animation and skinning",
+      "url": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html"
+    },
+    {
+      "title": "Three.js GLTFLoader documentation",
+      "url": "https://threejs.org/docs/pages/GLTFLoader.html"
+    }
+  ]
+}

@@ -46,31 +46,52 @@
   background: #94b7a6;
 }
 .hero-stage .avatar-picture::after {
+  pointer-events: none;
   background: linear-gradient(transparent 52%, #202128);
 }
-.hero-stage .avatar-picture > img {
+.hero-stage .avatar-picture {
+  background:
+    radial-gradient(ellipse at 45% 38%, #6f768d55, transparent 70%),
+    linear-gradient(135deg, #323743, #252630 70%);
+}
+.avatar-renderer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.avatar-renderer > canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.hero-stage .avatar-poster {
+  object-fit: cover;
+  object-position: center 12%;
+  padding: 12px 10px 0;
+  filter: grayscale(1);
+  opacity: 0.9;
   transition:
     filter 450ms ease,
     opacity 450ms ease;
 }
-.hero-stage .avatar-device:focus-within .avatar-picture > img {
+.hero-stage .avatar-device:focus-within .avatar-poster {
   filter: grayscale(0);
   opacity: 1;
 }
 @media (hover: hover) and (pointer: fine) {
-  .hero-stage .avatar-device:hover .avatar-picture > img {
+  .hero-stage .avatar-device:hover .avatar-poster {
     filter: grayscale(0);
     opacity: 1;
   }
 }
 @media (hover: none), (pointer: coarse), (max-width: 800px) {
-  .hero-stage .avatar-picture > img {
+  .hero-stage .avatar-poster {
     filter: grayscale(0);
     opacity: 1;
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .hero-stage .avatar-picture > img {
+  .hero-stage .avatar-poster {
     transition: none;
   }
 }
