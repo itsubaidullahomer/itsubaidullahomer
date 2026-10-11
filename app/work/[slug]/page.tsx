@@ -5,6 +5,8 @@ import { projects } from "@/content/projects";
 import { Section, Status, FinalCTA } from "@/components/layout-parts";
 import { ImageZoom, TututorShowcase } from "@/components/work";
 import { CompareSlider } from "@/components/compare-slider";
+import { ProductShowcase } from "@/components/product-showcase";
+import { productShowcases } from "@/content/product-showcases";
 import { getContent, Article, headings } from "@/lib/mdx";
 import { pageMetadata } from "@/lib/metadata";
 export function generateStaticParams() {
@@ -55,6 +57,10 @@ export default async function ProjectPage({
         {slug === "tututor" ? (
           <div className="mt-8">
             <TututorShowcase />
+          </div>
+        ) : productShowcases[slug] ? (
+          <div className="case-product-showcase">
+            <ProductShowcase content={productShowcases[slug]} fullWidth />
           </div>
         ) : slug === "ali-foodies" ? (
           <div className="mt-8">

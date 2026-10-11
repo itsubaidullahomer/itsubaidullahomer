@@ -89,3 +89,13 @@ Browser checks covered the home, work and Tututor case-study routes; all six are
 At requested widths 375, 768, 1280 and 1440, document scroll width matched client width, and all three displayed phone images loaded. Review captures are in `qa-output/release/tututor-gallery-{width}.jpg`. Mobile inspection was reviewed separately. The active area is mounted on demand, and thumbnails use small responsive image sizes.
 
 `npm run lint`, the production build (including TypeScript and all static routes), and the existing 17 unit tests passed. The gallery interactions above were checked through browser controls; the legacy whole-site browser script was not rerun for this change.
+
+## Illume and Viloi product cards — 11 October 2026
+
+Both cards now have three selectable product views, scope figures, contribution notes, and screenshot inspection. The same galleries replace the tall cover captures on both case-study pages. New assets include Illume's public dashboard/revenue artwork, two captures of Viloi's public website, and the original portfolio's two archived website images. Dimensions were verified for all six assets; public previews and older designs are labeled.
+
+Browser checks covered the homepage, work page and both case studies; tab switching and arrow-key navigation; both inspection dialogs; previous/next controls; original-size scrolling; and Escape dismissal. Illume's original archive image loaded at 2561 pixels and produced a 2597-pixel scroll area. The viewer was also reviewed at phone width. Only the active screenshot panel mounts.
+
+At requested widths 375, 768, 1280 and 1440, document client/scroll widths matched at 360, 753, 1265 and 1425 respectively. Captures are in `qa-output/release/illume-viloi-{width}.jpg`. The final visual pass aligned scope labels, kept each full screenshot within a stable frame, and checked the case-study image sizing. No browser console errors were recorded in the checked routes.
+
+`npm run lint` and the production build (TypeScript and all 32 routes) passed. No new unit tests were added for this presentation change; interactions were verified in the browser. The authenticated Viloi editor was not accessed, and the public demonstration's example scores were not validated as product-performance claims.

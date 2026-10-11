@@ -8,6 +8,7 @@ import { Spotlight } from "./motion";
 import { Status } from "./layout-parts";
 import { CompareSlider } from "./compare-slider";
 import { TututorShowcase, TututorImpact } from "./tututor-showcase";
+import { ProductStoryCard } from "./product-showcase";
 export { TututorShowcase } from "./tututor-showcase";
 
 export function ProjectCard({ project: p }: { project: Project }) {
@@ -85,9 +86,9 @@ export function SelectedWork() {
         </div>
         <TututorShowcase />
       </Spotlight>
-      <div className="work-grid">
+      <div className="product-story-grid">
         {projects.slice(1, 3).map((p) => (
-          <ProjectCard key={p.slug} project={p} />
+          <ProductStoryCard key={p.slug} slug={p.slug} />
         ))}
       </div>
       <Spotlight className="compare-card" id="project-ali-foodies">

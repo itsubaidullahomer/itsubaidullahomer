@@ -5,6 +5,7 @@
 @import "./experiment-art.css";
 @import "./compare-slider.css";
 @import "./tututor-showcase.css";
+@import "./product-showcase.css";
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
