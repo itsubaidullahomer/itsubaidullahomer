@@ -102,6 +102,12 @@
   min-width: 0;
   align-items: center;
   gap: 2px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  padding: 3px;
+}
+.product-showcase .product-view-tabs button:focus-visible {
+  outline-offset: -3px;
 }
 .product-view-tabs button {
   font-size: 11px;
@@ -206,6 +212,10 @@
   height: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+.product-screen-image[data-focus="top"] img {
+  object-fit: cover;
+  object-position: top;
 }
 .product-view-copy {
   padding: 0 24px 24px;

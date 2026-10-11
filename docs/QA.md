@@ -99,3 +99,9 @@ Browser checks covered the homepage, work page and both case studies; tab switch
 At requested widths 375, 768, 1280 and 1440, document client/scroll widths matched at 360, 753, 1265 and 1425 respectively. Captures are in `qa-output/release/illume-viloi-{width}.jpg`. The final visual pass aligned scope labels, kept each full screenshot within a stable frame, and checked the case-study image sizing. No browser console errors were recorded in the checked routes.
 
 `npm run lint` and the production build (TypeScript and all 32 routes) passed. No new unit tests were added for this presentation change; interactions were verified in the browser. The authenticated Viloi editor was not accessed, and the public demonstration's example scores were not validated as product-performance claims.
+
+### Viloi demo-account follow-up
+
+After the owner signed in and authorized continuation, the built-in 58-word sample was processed once, producing a 56-word output. Two 853 × 731 captures now show the actual editor and its open tone selector. The public writing demonstration was removed from the gallery; the public plans capture and archived design remain. The Controls preview focuses on the top of the screenshot, while inspection preserves the full source image.
+
+Verified Writing → Controls → Subscriptions → Origins navigation, four-view numbering, screenshot next navigation and Escape dismissal. The new four-tab strip scrolls within the card at 375 pixels without overflowing the document (360-pixel client and scroll widths); desktop was reviewed at 1440 pixels. The existing gallery appears in both the work card and Viloi case study. This capture verifies one completed demo interaction, not the accuracy of the product's detection score. Lint and production build passed.

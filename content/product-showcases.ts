@@ -9,6 +9,7 @@ export type ProductView = {
   decision: string;
   sourceLabel: string;
   sourceNote: string;
+  focus?: "top";
 };
 
 export type ProductShowcaseContent = {
@@ -110,16 +111,31 @@ export const productShowcases: Record<string, ProductShowcaseContent> = {
       {
         id: "writing",
         label: "Writing",
-        src: "/images/viloi/showcase/writing-preview.jpg",
-        width: 1269,
-        height: 714,
-        alt: "Viloi’s public writing demonstration with input text and example output checks",
+        src: "/images/viloi/showcase/editor-live.jpg",
+        width: 853,
+        height: 731,
+        alt: "Viloi’s live editor with its built-in sample text on the left and the completed rewrite on the right",
         title: "Retry when one model falls short.",
         decision:
           "I connected OpenAI, Claude and Gemini with fallback routing, so a flagged response can be retried through another model.",
-        sourceLabel: "Public website demonstration",
+        sourceLabel: "Live editor · demo text",
         sourceNote:
-          "Captured from Viloi’s public writing demonstration. The displayed detection scores are the site’s illustrative examples, not an independently tested guarantee.",
+          "Captured from the signed-in Viloi editor in October 2026. The built-in sample was processed once to show a real input and output; this is one example result, not a performance benchmark.",
+      },
+      {
+        id: "controls",
+        label: "Controls",
+        src: "/images/viloi/showcase/tone-controls-live.jpg",
+        width: 853,
+        height: 731,
+        alt: "Viloi’s editor with the tone selector open, showing Professional, Casual, Academic and Creative options",
+        title: "Keep the writing choices close to the text.",
+        decision:
+          "I kept language, format and tone alongside the editor, so people can shape a rewrite without leaving their text or navigating a separate settings screen.",
+        sourceLabel: "Live editor · tone controls",
+        sourceNote:
+          "The live editor’s tone selector, captured with the same built-in sample and completed result. The card focuses on the controls; this viewer shows the full interface.",
+        focus: "top",
       },
       {
         id: "subscriptions",

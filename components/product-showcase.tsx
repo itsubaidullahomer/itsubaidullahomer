@@ -129,7 +129,7 @@ export function ProductShowcase({
                   </span>
                   <Expand size={11} />
                 </span>
-                <span className="product-screen-image">
+                <span className="product-screen-image" data-focus={item.focus}>
                   <Screenshot view={item} fullWidth={fullWidth} />
                 </span>
               </Dialog.Trigger>
