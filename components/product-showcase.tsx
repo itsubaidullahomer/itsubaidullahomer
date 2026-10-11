@@ -21,6 +21,7 @@ import {
 } from "@/content/product-showcases";
 import { Spotlight } from "./motion";
 import { Status } from "./layout-parts";
+import { MobileCardDetails } from "./mobile-card-details";
 
 function Screenshot({
   view,
@@ -142,8 +143,16 @@ export function ProductShowcase({
                   {String(content.views.length).padStart(2, "0")}
                 </span>
               </div>
-              <h4>{item.title}</h4>
-              <p>{item.decision}</p>
+              {fullWidth ? (
+                <>
+                  <h4>{item.title}</h4>
+                  <p>{item.decision}</p>
+                </>
+              ) : (
+                <MobileCardDetails label={item.title} heading>
+                  <p className="product-view-decision">{item.decision}</p>
+                </MobileCardDetails>
+              )}
             </div>
           </Tabs.Content>
         ))}
@@ -230,27 +239,31 @@ export function ProductStoryCard({ slug }: { slug: string }) {
         </div>
         <span className="product-story-category">{content.category}</span>
         <h3>{content.headline}</h3>
-        <p>{content.summary}</p>
-        <dl
-          className="product-story-facts"
-          aria-label={`${content.name} project scope`}
-        >
-          {content.facts.map((fact) => (
-            <div key={fact.label}>
-              <dt>{fact.label}</dt>
-              <dd>{fact.value}</dd>
-            </div>
-          ))}
-        </dl>
+        <MobileCardDetails label="Project details & my role">
+          <p className="product-story-description">{content.summary}</p>
+          <dl
+            className="product-story-facts"
+            aria-label={`${content.name} project scope`}
+          >
+            {content.facts.map((fact) => (
+              <div key={fact.label}>
+                <dt>{fact.label}</dt>
+                <dd>{fact.value}</dd>
+              </div>
+            ))}
+          </dl>
+          <div className="product-story-contribution">
+            <span className="product-story-role">{content.role}</span>
+            <ul className="product-story-foundations">
+              {content.foundations.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </MobileCardDetails>
       </div>
       <ProductShowcase content={content} />
       <div className="product-story-footer">
-        <span className="product-story-role">{content.role}</span>
-        <ul>
-          {content.foundations.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
         <Link className="text-link" href={`/work/${slug}`}>
           The decisions behind {content.name}
           <ArrowUpRight size={15} />

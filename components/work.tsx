@@ -9,6 +9,7 @@ import { Status } from "./layout-parts";
 import { CompareSlider } from "./compare-slider";
 import { TututorShowcase, TututorImpact } from "./tututor-showcase";
 import { ProductStoryCard } from "./product-showcase";
+import { MobileCardDetails } from "./mobile-card-details";
 export { TututorShowcase } from "./tututor-showcase";
 
 export function ProjectCard({ project: p }: { project: Project }) {
@@ -65,20 +66,24 @@ export function SelectedWork() {
                 A small tool. Then a whole school platform.
               </Link>
             </h3>
-            <p>
-              As Tututor grew, I built a shared backend for eight products and
-              brought AI into the document editor, where teachers could use it
-              in their work. Those decisions helped a small teaching tool grow
-              into a platform for 20k+ students, teachers and families.
-            </p>
-            <div className="work-tags">
-              <span>Lead engineer</span>
-              <span>AI + web + mobile</span>
-              <span>2023 — present</span>
-            </div>
+            <MobileCardDetails label="Project details & impact">
+              <p>
+                As Tututor grew, I built a shared backend for eight products and
+                brought AI into the document editor, where teachers could use it
+                in their work. Those decisions helped a small teaching tool grow
+                into a platform for 20k+ students, teachers and families.
+              </p>
+              <div className="work-tags">
+                <span>Lead engineer</span>
+                <span>AI + web + mobile</span>
+                <span>2023 — present</span>
+              </div>
+              <div className="tututor-context-impact">
+                <TututorImpact />
+              </div>
+            </MobileCardDetails>
           </div>
           <div className="tututor-feature-aside">
-            <TututorImpact />
             <Link href="/work/tututor" className="text-link">
               The full story <ArrowUpRight size={16} />
             </Link>
@@ -99,17 +104,19 @@ export function SelectedWork() {
             <br />
             Made for the phone.
           </h3>
-          <p>
-            Ali Foodies is a small, straightforward website rebuild. I included
-            it here because the care is in the decisions: understanding what
-            customers need, designing a clearer experience, and building every
-            detail to support it.
-          </p>
-          <ul className="compare-improvements">
-            <li>Ordering, front and center.</li>
-            <li>A menu made for thumbs.</li>
-            <li>Hours and location in easy reach.</li>
-          </ul>
+          <MobileCardDetails label="The thinking behind the rebuild">
+            <p>
+              Ali Foodies is a small, straightforward website rebuild. I
+              included it here because the care is in the decisions:
+              understanding what customers need, designing a clearer experience,
+              and building every detail to support it.
+            </p>
+            <ul className="compare-improvements">
+              <li>Ordering, front and center.</li>
+              <li>A menu made for thumbs.</li>
+              <li>Hours and location in easy reach.</li>
+            </ul>
+          </MobileCardDetails>
           <Link href="/work/ali-foodies" className="text-link">
             Explore the redesign <ArrowRight size={15} />
           </Link>

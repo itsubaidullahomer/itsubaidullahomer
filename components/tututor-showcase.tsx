@@ -24,6 +24,7 @@ import {
   type TututorShot,
   type TututorView,
 } from "@/content/tututor-showcase";
+import { MobileCardDetails } from "./mobile-card-details";
 
 const icons = [
   Sparkles,
@@ -163,14 +164,13 @@ function ShowcasePanel({ view }: { view: TututorView }) {
           </span>
         </div>
         <div className="tututor-caption" aria-live="polite" aria-atomic="true">
-          <div className="tututor-caption-title">
-            <h4>{shot.label}</h4>
-            <span>
-              {String(selected + 1).padStart(2, "0")} /{" "}
-              {String(view.shots.length).padStart(2, "0")}
-            </span>
-          </div>
-          <p>{shot.caption}</p>
+          <MobileCardDetails
+            label={shot.label}
+            meta={`${String(selected + 1).padStart(2, "0")} / ${String(view.shots.length).padStart(2, "0")}`}
+            heading
+          >
+            <p>{shot.caption}</p>
+          </MobileCardDetails>
         </div>
         {multiple && (
           <div
@@ -197,8 +197,10 @@ function ShowcasePanel({ view }: { view: TututorView }) {
           </div>
         )}
         <div className="tututor-decision">
-          <span>The decision</span>
-          <p>{view.decision}</p>
+          <MobileCardDetails label="The decision">
+            <span>The decision</span>
+            <p>{view.decision}</p>
+          </MobileCardDetails>
         </div>
       </div>
       <Dialog.Portal>

@@ -1,0 +1,210 @@
+.mobile-card-details,
+.mobile-card-details-content {
+  display: contents;
+}
+.mobile-card-details-trigger {
+  display: none;
+}
+.mobile-card-details-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.mobile-card-details-heading > span {
+  font: 9px var(--font-geist-mono);
+  color: #737b76;
+  white-space: nowrap;
+}
+.tututor-context-impact {
+  margin-top: 20px;
+}
+.tututor-decision .mobile-card-details-content > span {
+  font: 9px var(--font-geist-mono);
+  color: var(--tututor-accent);
+  padding-top: 3px;
+}
+@media (max-width: 759px) {
+  :is(.product-story-card, .work-feature, .compare-card) .mobile-card-details {
+    display: block;
+  }
+  :is(.product-story-card, .work-feature, .compare-card)
+    .mobile-card-details-trigger {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 44px;
+    padding: 9px 0;
+    color: #484b50;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    border-radius: 4px;
+  }
+  .mobile-card-details-trigger > span {
+    flex: 1;
+  }
+  .mobile-card-details-trigger small {
+    font: 9px var(--font-geist-mono);
+    color: #72777a;
+    white-space: nowrap;
+  }
+  .mobile-card-details-trigger svg {
+    flex-shrink: 0;
+    transition: transform 160ms;
+  }
+  .mobile-card-details[data-open="true"] > .mobile-card-details-trigger svg {
+    transform: rotate(180deg);
+  }
+  .mobile-card-details-trigger:focus-visible {
+    outline: 2px solid #71569b;
+    outline-offset: 3px;
+  }
+  :is(.product-story-card, .work-feature, .compare-card)
+    .mobile-card-details-heading,
+  :is(.product-story-card, .work-feature, .compare-card)
+    .mobile-card-details[data-open="false"]
+    > .mobile-card-details-content {
+    display: none;
+  }
+  :is(.product-story-card, .work-feature, .compare-card)
+    .mobile-card-details[data-open="true"]
+    > .mobile-card-details-content {
+    display: block;
+    padding: 4px 0 12px;
+  }
+  .product-story-card .product-story-heading {
+    padding: 16px 16px 4px;
+  }
+  .product-story-card .product-story-brand > a {
+    font-size: 19px;
+  }
+  .product-story-card .product-story-category {
+    margin-top: 8px;
+  }
+  .product-story-card .product-story-heading h3 {
+    margin: 7px 0 5px;
+    font-size: 22px;
+  }
+  .product-story-card .product-story-footer {
+    padding: 12px 16px;
+  }
+  .product-story-card .product-story-footer > a {
+    min-height: 36px;
+  }
+  .product-story-card .product-gallery-toolbar {
+    padding: 7px 9px 0;
+  }
+  .product-story-card .product-view-tabs button {
+    min-height: 40px;
+  }
+  .product-story-card .product-inspect {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  .product-story-card .product-inspect > span {
+    display: none;
+  }
+  .product-story-card .product-stage {
+    padding: 8px 12px 12px;
+  }
+  .product-story-card .product-view-copy {
+    padding: 0 14px 5px;
+  }
+  .product-story-card .product-screen-image:not([data-focus]) {
+    max-height: 185px;
+  }
+  .work-feature .tututor-feature-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0 12px;
+    padding: 16px 16px 12px;
+  }
+  .work-feature .tututor-feature-heading > div:first-child,
+  .work-feature .tututor-feature-heading .mobile-card-details {
+    display: contents;
+  }
+  .work-feature .tututor-feature-kicker,
+  .work-feature .tututor-feature-heading h3,
+  .work-feature .tututor-feature-heading .mobile-card-details-content {
+    grid-column: 1 / -1;
+  }
+  .work-feature .tututor-feature-heading .mobile-card-details-content {
+    grid-row: 4;
+  }
+  .work-feature .tututor-feature-heading h3 {
+    font-size: 22px;
+    margin: 8px 0 4px;
+  }
+  .work-feature .tututor-feature-aside {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: center;
+    margin-top: 0;
+  }
+  .work-feature .tututor-feature-aside > a {
+    min-height: 36px;
+  }
+  .work-feature .tututor-sidebar {
+    padding: 10px 12px 4px;
+  }
+  .work-feature .tututor-sidebar-heading {
+    margin-bottom: 5px;
+  }
+  .work-feature .tututor-tab {
+    min-height: 44px;
+  }
+  .work-feature .tututor-content {
+    padding: 12px;
+  }
+  .work-feature .tututor-view-intro {
+    margin-bottom: 6px;
+  }
+  .work-feature .tututor-view-intro h3 {
+    font-size: 16px;
+  }
+  .work-feature .tututor-view-intro > span {
+    display: none;
+  }
+  .work-feature .tututor-stage {
+    height: 165px;
+    padding: 8px 8px 22px;
+  }
+  .work-feature .tututor-screen:not(.tututor-screen-portrait) > img {
+    max-height: 112px;
+  }
+  .work-feature .tututor-caption {
+    padding: 4px 0;
+  }
+  .work-feature .tututor-decision {
+    display: block;
+    padding-top: 0;
+  }
+  .work-feature .tututor-decision .mobile-card-details-content > span {
+    display: none;
+  }
+  .compare-card .work-card-copy:has(.mobile-card-details) {
+    padding: 16px;
+  }
+  .compare-card .work-card-copy h3 {
+    font-size: 22px;
+    margin: 8px 0 4px;
+  }
+  .compare-card .work-card-copy .text-link {
+    margin-top: 0;
+    min-height: 36px;
+  }
+  .compare-card .compare-stage {
+    padding: 14px 18px;
+    gap: 10px;
+  }
+  .compare-card .compare-device {
+    width: min(180px, 100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mobile-card-details-trigger svg {
+    transition: none;
+  }
+}
