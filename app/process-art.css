@@ -32,6 +32,22 @@
   flex-wrap: wrap;
   gap: 8px 12px;
 }
+.process-section .mini-content {
+  min-height: 195px;
+  padding: 18px;
+}
+.process-section .process-phone-stage {
+  height: 220px;
+}
+.process-section .deploy-stage {
+  min-height: 220px;
+  padding: 18px;
+}
+.process-section .deploy-toast {
+  width: 100%;
+  max-width: 300px;
+  padding: 18px;
+}
 .process-window-title {
   display: inline-flex;
   align-items: center;

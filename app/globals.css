@@ -625,54 +625,75 @@ button {
 }
 .process-grid {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 64px;
-  align-items: start;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
 }
-.process-left {
-  position: sticky;
-  top: 140px;
+.process-intro {
+  max-width: 650px;
+  margin-bottom: 36px;
 }
-.process-left h2 {
-  max-width: 230px;
+.process-intro h2 {
+  text-wrap: balance;
 }
-.process-left > p {
-  font-size: 14px;
-  margin: 18px 0 26px;
-}
-.process-nav {
-  display: grid;
-  gap: 0;
-  margin-top: 38px;
-}
-.process-nav a {
-  display: block;
-  color: #737373;
-  font-size: 13px;
-  padding: 12px 0 12px 18px;
-  border-left: 1px solid #ddd;
-  transition:
-    color 0.3s,
-    border 0.3s;
-}
-.process-nav a.active {
-  color: #171717;
-  border-left: 2px solid #171717;
-}
-.process-items {
-  display: grid;
-  gap: 36px;
+.process-intro > p {
+  margin-top: 18px;
+  font-size: 16px;
 }
 .process-item {
   scroll-margin-top: 115px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fff;
 }
-.process-item > h3 {
-  font-size: 19px;
-  margin: 20px 0 9px;
+.process-promise h3 {
+  max-width: 24ch;
+  font-size: 25px;
+  line-height: 1.2;
+  text-wrap: balance;
 }
-.process-item > p {
-  font-size: 13px;
-  max-width: 480px;
+.process-promise p {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.process-example {
+  min-width: 0;
+  margin: auto 0 0;
+}
+.process-example figcaption {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #65616d;
+}
+.process-example figcaption > span {
+  flex-shrink: 0;
+  font: 9px var(--font-geist-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #797581;
+}
+.launch-checks {
+  display: grid;
+  gap: 6px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 11px;
+  color: #4f6b5b;
+}
+.launch-checks li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 .mini-window {
   background: #fff;
@@ -1962,15 +1983,8 @@ button {
   .avatar-picture {
     height: 265px;
   }
-  .process-grid {
-    grid-template-columns: 250px 1fr;
-    gap: 35px;
-  }
   .nav-links {
     margin-left: 15px;
-  }
-  .process-left h2 {
-    font-size: 36px;
   }
   .faq-layout {
     gap: 40px;
@@ -2051,14 +2065,10 @@ button {
     font-size: 35px;
   }
   .process-grid {
-    grid-template-columns: 200px 1fr;
-    gap: 24px;
+    grid-template-columns: 1fr;
   }
-  .process-left h2 {
+  .process-intro h2 {
     font-size: 32px;
-  }
-  .process-left p {
-    font-size: 13px;
   }
   .mini-content {
     padding: 18px;
@@ -2352,29 +2362,19 @@ button {
   .marquee-pause {
     top: 13px;
   }
-  .process-grid {
-    display: block;
-  }
-  .process-left {
-    position: static;
-  }
-  .process-left h2 {
+  .process-intro h2 {
     font-size: 31px;
-    max-width: 100%;
   }
-  .process-left > p {
-    max-width: 290px;
+  .process-intro > p {
     font-size: 14px;
-    margin: 16px 0 28px;
+    margin-top: 16px;
   }
-  .process-nav {
-    display: none;
+  .process-item {
+    padding: 20px;
+    gap: 20px;
   }
-  .process-items {
-    gap: 33px;
-  }
-  .process-item > h3 {
-    font-size: 20px;
+  .process-promise h3 {
+    font-size: 23px;
   }
   .mini-content {
     padding: 20px;

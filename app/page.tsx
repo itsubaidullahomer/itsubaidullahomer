@@ -50,7 +50,6 @@ export default function Home() {
         <HeroStage available={Boolean(readConfig(process.env))} />
       </Section>
       <LogoStrip />
-      <Process />
       <Section id="work">
         <SectionHeading
           title="Real products. Real people using them."
@@ -62,6 +61,7 @@ export default function Home() {
         </SectionHeading>
         <SelectedWork />
       </Section>
+      <Process />
       <Services />
       <Section>
         <SectionHeading

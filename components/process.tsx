@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   Check,
-  ArrowUpRight,
   Sparkles,
   MessageSquare,
   Rocket,
@@ -54,7 +53,7 @@ export function StreamingMini() {
           <span className="process-window-icon" aria-hidden="true">
             <Sparkles size={13} />
           </span>
-          tututor / assistant
+          Lesson-planning assistant
         </span>
         <button
           onClick={() => setPaused(!paused)}
@@ -80,13 +79,13 @@ export function StreamingMini() {
                 {answer.slice(0, 32)}
               </>
             ) : (
-              answer.slice(0, count)
+              answer.slice(0, count) || "Preparing your lesson plan…"
             )}
             {!paused && <i className="stream-caret" />}
           </div>
         </div>
         <span className="demo-label">
-          Illustrative interaction · no API calls
+          Example: a dropped connection is retried automatically.
         </span>
       </div>
     </div>
@@ -100,7 +99,7 @@ export function ClientThread() {
           <span className="process-window-icon" aria-hidden="true">
             <MessageSquare size={13} />
           </span>
-          # project-updates
+          Project update
         </span>
         <span>Sample conversation</span>
       </div>
@@ -123,9 +122,12 @@ export function ClientThread() {
           </div>
           <div>
             <strong>Ubaid</strong>
-            <p>Done. Shorter flow, bigger tap targets. Try it on your phone.</p>
+            <p>
+              I shortened the flow and made the tap targets bigger. Try the
+              preview on your phone and tell me how it feels.
+            </p>
             <Link href="/playground" className="preview-link">
-              VIEW AN INTERACTIVE PREVIEW ↗
+              Explore my interactive demos ↗
             </Link>
           </div>
         </div>
@@ -141,9 +143,9 @@ export function DeployMini() {
           <span className="process-window-icon" aria-hidden="true">
             <Rocket size={13} />
           </span>
-          From preview to production
+          Ready for launch
         </span>
-        <span>Sample deployment</span>
+        <span>Example checklist</span>
       </div>
       <div className="deploy-stage grid-texture">
         <div className="deploy-toast">
@@ -151,16 +153,20 @@ export function DeployMini() {
             <Check size={16} />
           </span>
           <div>
-            <strong>Pushed to prod</strong>
-            <p>Vercel · Deployed</p>
-            <div className="deploy-lines" aria-hidden="true">
-              <i />
-              <i />
-              <i />
-              <i />
-            </div>
+            <strong>Ready for real users</strong>
+            <ul className="launch-checks">
+              {[
+                "Key flows tested",
+                "Mobile experience checked",
+                "Product is live",
+              ].map((item) => (
+                <li key={item}>
+                  <Check size={12} aria-hidden="true" />
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
-          <ArrowUpRight size={16} aria-hidden="true" />
         </div>
       </div>
     </div>
@@ -231,91 +237,69 @@ export function PhoneMini() {
     </div>
   );
 }
-const steps = [
+const promises = [
   {
     id: "understand",
-    title: "Build for the real world.",
-    nav: "Think through the hard parts",
-    text: "The first answer is easy. I design the waiting, the retry, and what happens when the model has a bad day.",
+    title: "Your product handles the unexpected.",
+    text: "I plan for loading, errors and retries, so people know what’s happening and can keep going when something fails.",
+    example: "Recovering from an interrupted AI reply",
     ui: StreamingMini,
   },
   {
     id: "collaborate",
-    title: "Keep the conversation open.",
-    nav: "Work in the open",
-    text: "Small updates. Working previews. You see the product taking shape, and we make decisions together.",
+    title: "You see progress as it happens.",
+    text: "You get regular updates and working previews. We review the product together and use your feedback to decide what comes next.",
+    example: "Turning your feedback into a working preview",
     ui: ClientThread,
   },
   {
     id: "ship",
-    title: "Make it real. Put it live.",
-    nav: "Ship with confidence",
-    text: "The last mile counts: performance, deployment, and the details that make a product dependable.",
+    title: "You get a product ready for real users.",
+    text: "I test the important flows, check performance and handle deployment, so the product works beyond the demo.",
+    example: "Checking the essentials before launch",
     ui: DeployMini,
   },
   {
     id: "care",
-    title: "Stay close to the people using it.",
-    nav: "Keep making it better",
-    text: "Shipping is a beginning. I keep an eye on the flows people use every day, on the screens they actually have.",
+    title: "You have support after launch.",
+    text: "After launch, I help improve the flows people use every day, with attention to feedback, real devices and changing needs.",
+    example: "Improving the everyday experience on mobile",
     ui: PhoneMini,
   },
 ];
 export function Process() {
-  const [active, setActive] = useState(0);
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (es) => {
-        es.forEach((e) => {
-          if (e.isIntersecting)
-            setActive(Number((e.target as HTMLElement).dataset.index));
-        });
-      },
-      { rootMargin: "-20% 0px -45% 0px" },
-    );
-    ref.current
-      ?.querySelectorAll(".process-item")
-      .forEach((e) => observer.observe(e));
-    return () => observer.disconnect();
-  }, []);
   return (
-    <section id="process" className="section process-section">
+    <section
+      id="process"
+      className="section process-section"
+      aria-labelledby="process-title"
+    >
+      <div className="process-intro">
+        <span className="eyebrow">Working together</span>
+        <h2 id="process-title">What you can expect when we work together.</h2>
+        <p>Working previews, clear communication, and care beyond launch.</p>
+      </div>
       <div className="process-grid">
-        <div className="process-left">
-          <span className="eyebrow">The way I work</span>
-          <h2>
-            Good engineering.
-            <br />
-            No mystery.
-          </h2>
-          <p>From the first rough idea to the little details after launch.</p>
-          <nav className="process-nav" aria-label="Process steps">
-            {steps.map((s, i) => (
-              <a
-                href={`#process-${s.id}`}
-                key={s.id}
-                className={i === active ? "active" : ""}
-              >
-                {s.nav}
-              </a>
-            ))}
-          </nav>
-        </div>
-        <div className="process-items" ref={ref}>
-          {steps.map((s, i) => (
-            <div
-              className="process-item"
-              id={`process-${s.id}`}
-              data-index={i}
-              key={s.id}
-            >
-              <s.ui />
-              <h3>{s.title}</h3>
-              <p>{s.text}</p>
+        {promises.map((promise) => (
+          <article
+            className="process-item"
+            id={`process-${promise.id}`}
+            aria-labelledby={`promise-${promise.id}`}
+            key={promise.id}
+          >
+            <div className="process-promise">
+              <h3 id={`promise-${promise.id}`}>{promise.title}</h3>
+              <p>{promise.text}</p>
             </div>
-          ))}
-        </div>
+            <figure className="process-example">
+              <figcaption>
+                <span>Example</span>
+                {promise.example}
+              </figcaption>
+              <promise.ui />
+            </figure>
+          </article>
+        ))}
       </div>
     </section>
   );

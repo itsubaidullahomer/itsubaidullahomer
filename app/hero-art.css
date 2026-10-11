@@ -48,6 +48,32 @@
 .hero-stage .avatar-picture::after {
   background: linear-gradient(transparent 52%, #202128);
 }
+.hero-stage .avatar-picture > img {
+  transition:
+    filter 450ms ease,
+    opacity 450ms ease;
+}
+.hero-stage .avatar-device:focus-within .avatar-picture > img {
+  filter: grayscale(0);
+  opacity: 1;
+}
+@media (hover: hover) and (pointer: fine) {
+  .hero-stage .avatar-device:hover .avatar-picture > img {
+    filter: grayscale(0);
+    opacity: 1;
+  }
+}
+@media (hover: none), (pointer: coarse), (max-width: 800px) {
+  .hero-stage .avatar-picture > img {
+    filter: grayscale(0);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-stage .avatar-picture > img {
+    transition: none;
+  }
+}
 .hero-stage .avatar-controls {
   background: linear-gradient(#202128, #252731);
 }
