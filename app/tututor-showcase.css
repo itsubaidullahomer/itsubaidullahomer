@@ -6,6 +6,7 @@
   gap: 45px;
   padding: 32px;
 }
+
 .tututor-feature-kicker {
   display: flex;
   align-items: center;
@@ -833,5 +834,172 @@
   .tututor-phone-side,
   .tututor-phone-side:hover {
     transform: none;
+  }
+}
+
+/* A compact overview on project cards; the case-study gallery stays spacious. */
+.work-feature:has(.tututor-showcase) {
+  scroll-margin-top: 0;
+}
+.work-feature .tututor-content {
+  padding: 18px;
+}
+.work-feature .tututor-view-intro {
+  min-height: 0;
+  margin-bottom: 10px;
+}
+.work-feature .tututor-view-intro h3 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.work-feature .tututor-stage {
+  height: 240px;
+  min-height: 0;
+  padding: 10px 10px 24px;
+}
+.work-feature .tututor-screen:not(.tututor-screen-portrait) {
+  width: auto;
+  max-width: 100%;
+}
+.work-feature .tututor-screen:not(.tututor-screen-portrait) > img {
+  width: auto;
+  max-width: 100%;
+  max-height: 176px;
+  object-fit: contain;
+}
+.work-feature .tututor-caption {
+  min-height: 0;
+  padding: 10px 0;
+}
+.work-feature .tututor-thumbnails {
+  padding-bottom: 8px;
+  gap: 6px;
+}
+.work-feature .tututor-thumbnail {
+  flex-basis: 82px;
+}
+.work-feature .tututor-thumb-image {
+  height: 30px;
+}
+.work-feature .tututor-decision {
+  padding-top: 10px;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 8px;
+}
+.work-feature .tututor-sidebar {
+  padding: 18px 10px 14px;
+}
+.work-feature .tututor-sidebar-heading {
+  margin: 0 4px 12px;
+  flex-wrap: wrap;
+}
+.work-feature .tututor-tabs {
+  gap: 4px;
+}
+.work-feature .tututor-tab {
+  min-height: 55px;
+  padding: 8px 6px;
+  gap: 7px;
+}
+.work-feature .tututor-tab-icon {
+  width: 26px;
+  height: 29px;
+}
+.work-feature .tututor-tab-arrow {
+  display: none;
+}
+.work-feature .tututor-sidebar-note {
+  padding-top: 14px;
+}
+@media (min-width: 760px) {
+  .work-feature:has(.tututor-showcase) {
+    display: grid;
+    grid-template-columns: minmax(270px, 0.82fr) minmax(0, 1.8fr);
+  }
+  .work-feature .tututor-feature-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    padding: 24px;
+  }
+  .work-feature .tututor-feature-heading h3 {
+    font-size: 26px;
+  }
+  .work-feature .tututor-feature-aside {
+    align-items: stretch;
+    gap: 18px;
+  }
+  .work-feature .tututor-showcase {
+    grid-template-columns: minmax(0, 1fr) 180px;
+    border-width: 0 0 0 1px;
+  }
+  .work-feature .tututor-impact dd {
+    font-size: 25px;
+  }
+  .work-feature .tututor-impact dt {
+    font-size: 9px;
+  }
+}
+@media (min-width: 760px) and (max-width: 999px) {
+  .work-feature:has(.tututor-showcase) {
+    grid-template-columns: minmax(220px, 0.85fr) minmax(0, 1.8fr);
+  }
+  .work-feature .tututor-showcase {
+    grid-template-columns: minmax(0, 1fr) 145px;
+  }
+  .work-feature .tututor-content {
+    padding: 14px;
+  }
+  .work-feature .tututor-stage {
+    height: 200px;
+  }
+  .work-feature .tututor-screen:not(.tututor-screen-portrait) > img {
+    max-height: 138px;
+  }
+  .work-feature .tututor-tab-icon {
+    display: none;
+  }
+  .work-feature .tututor-tab strong {
+    font-size: 11px;
+  }
+  .work-feature .tututor-tab small {
+    font-size: 9px;
+  }
+  .work-feature .tututor-view-intro h3 {
+    font-size: 16px;
+  }
+  .work-feature .tututor-decision {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .work-feature .tututor-feature-heading {
+    padding: 20px;
+    gap: 20px;
+  }
+  .work-feature .tututor-feature-heading h3 {
+    font-size: 23px;
+  }
+  .work-feature .tututor-feature-aside {
+    gap: 16px;
+  }
+  .work-feature .tututor-feature-heading .work-tags {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 759px) {
+  .work-feature .tututor-feature-heading {
+    padding: 20px;
+  }
+  .work-feature .tututor-feature-aside {
+    margin-top: 16px;
+    gap: 12px;
+  }
+  .work-feature .tututor-stage {
+    height: 210px;
+  }
+  .work-feature .tututor-screen:not(.tututor-screen-portrait) > img {
+    max-height: 152px;
   }
 }

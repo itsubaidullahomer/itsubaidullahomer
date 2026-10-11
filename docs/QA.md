@@ -109,3 +109,9 @@ Verified Writing → Controls → Subscriptions → Origins navigation, four-vie
 ### Viloi preview crop
 
 Writing and Controls now use a top-aligned 2.4:1 crop. The work-card preview was visually checked for complete sample paragraphs and the open tone menu; its image fills the available 483-pixel width. The inspection dialog still serves the original 853 × 731 image. Lint and the production build passed. The crop is shared by home/work cards and the case-study gallery; source assets are unchanged.
+
+### Compact project overview cards
+
+At 1440 pixels, default Tututor/Illume/Viloi card heights changed from roughly 1097/1134/1134 to 545/509/485 pixels. Ali Foodies now measures 586 pixels (previously 700), with its entire phone visible. At 853 pixels, the first three cards measure 552/494/470 pixels. All six Tututor areas and all seven Illume/Viloi views were exercised; the largest desktop Tututor view measured 595 pixels. Three complete mobile app screens remain visible in the phone gallery. Original-size inspection served the 2559 × 1279 Viloi archive at its intrinsic width, and dismissal worked.
+
+At 375 pixels, tabs remain horizontally scrollable within the card and document client/scroll widths both measured 360 pixels. Phone cards retain normal vertical flow so all content stays readable; they are not forced to viewport height. The 853-pixel work page retains its pre-existing five-pixel decorative overflow, with no card content beyond the viewport. Ali Foodies' presets and keyboard adjustment were checked (After → ArrowRight → Split: 0 → 5 → 50). Lint and production build passed. No new unit tests were added for this CSS layout change.

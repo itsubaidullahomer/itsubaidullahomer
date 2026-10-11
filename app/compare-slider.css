@@ -267,6 +267,13 @@
   border: 1px solid #e5e0d7;
   border-radius: 24px;
 }
+.compare-card .compare-stage {
+  padding: 20px 24px;
+  gap: 12px;
+}
+.compare-card .compare-device {
+  width: min(210px, 100%);
+}
 @media (max-width: 800px) {
   .compare-stage {
     padding: 25px 22px;

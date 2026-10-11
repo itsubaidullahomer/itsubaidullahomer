@@ -44,7 +44,7 @@ function Screenshot({
           ? "95vw"
           : fullWidth
             ? "(max-width: 1000px) 90vw, 850px"
-            : "(max-width: 759px) 90vw, (max-width: 1100px) 44vw, 560px"
+            : "(max-width: 759px) 90vw, (max-width: 1100px) 55vw, 680px"
       }
       draggable={false}
     />
