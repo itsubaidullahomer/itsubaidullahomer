@@ -1,0 +1,31 @@
+{
+  "removedEyeCapFaces": 746,
+  "removedMouthClosureFaces": 44,
+  "preservedOriginalVertexCount": 18024,
+  "headFacsCount": 51,
+  "eyeFit": {
+    "L": {
+      "centerNative": [
+        0.2616467248775832,
+        -0.7782311263097883,
+        0.3256647219082431
+      ],
+      "radiusNative": 0.1454304498594562,
+      "fitResidualRMS": 0.007133103197972155
+    },
+    "R": {
+      "centerNative": [
+        -0.260529735933094,
+        -0.7788519082826522,
+        0.3208288138636163
+      ],
+      "radiusNative": 0.14783743190186885,
+      "fitResidualRMS": 0.006866039981443789
+    }
+  },
+  "jawMotion": "Rigid best-fit transform of each fitted mandibular FACS; no prior avatar facial deltas used.",
+  "limitations": [
+    "Dental anatomy and gaze fit are a first geometry study, not final acceptance.",
+    "TongueOut is real tongue geometry; fifteen lip-sync visemes not authored yet."
+  ]
+}

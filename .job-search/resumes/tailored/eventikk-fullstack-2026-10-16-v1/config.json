@@ -1,0 +1,21 @@
+{
+  "focus": "full_stack",
+  "slug": "eventikk-fullstack-2026-10-16-v1",
+  "projects": [
+    "yaksport",
+    "illume",
+    "viloi"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership",
+      "tututor_scope"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

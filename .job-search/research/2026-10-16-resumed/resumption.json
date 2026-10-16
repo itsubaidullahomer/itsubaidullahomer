@@ -1,0 +1,27 @@
+{
+  "recordedAt": "2026-10-16T07:18:31.538Z",
+  "activeAgent": "Codex",
+  "claudeSubmitting": false,
+  "source": "Direct user confirmation: No—keep Codex as the active agent",
+  "automation": "ACTIVE",
+  "cloudConfirmation": {
+    "studied": true,
+    "productionExperience": false,
+    "specificPlatformsAndServices": [],
+    "selfReportedAbility": "Candidate says they can work with these platforms, but have no proper production working experience.",
+    "source": "Direct candidate clarification on October 16, 2026",
+    "confirmedAt": "2026-10-16T07:16:02.928560+00:00",
+    "independentlyVerified": false
+  },
+  "niyytAcknowledgement": {
+    "messageId": "1a1433ab0a616580",
+    "from": "info@niyyt.com",
+    "to": "itsubaidullahomer@gmail.com",
+    "subject": "Application Received: Full Stack Engineer (Next.js & Node.js) - niyyt",
+    "receivedAt": "2026-10-16T05:41:17Z",
+    "checkedAt": "2026-10-16T07:18:31.538Z",
+    "classification": "automated_receipt",
+    "summary": "Employer confirms receipt of application and resume. Hiring team will review; technical discussion is conditional. Typical response window 5–7 business days. No interview invitation or offer.",
+    "url": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#all/1a1433ab0a616580"
+  }
+}

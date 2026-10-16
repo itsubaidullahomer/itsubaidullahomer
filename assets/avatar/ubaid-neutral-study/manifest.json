@@ -1,0 +1,38 @@
+{
+  "id": "ubaid-neutral-study-01",
+  "created": "2026-10-11",
+  "status": "Unrigged likeness study for user review; not approved for the hero",
+  "reference": "assets/avatar/ubaid-v1/master.png",
+  "tool": "Blender 5.2.2 LTS, Cycles; local CPU rendering",
+  "paidServicesUsed": false,
+  "files": {
+    "source": "ubaid-neutral-study.blend",
+    "front": "neutral-front.png",
+    "angle": "neutral-angle.png",
+    "validation": "validation.json",
+    "studio": "neutral-studio.png"
+  },
+  "provenance": {
+    "baseTopology": "CC0 MakeHuman/MPFB mesh and shirt, taken from the previous local prototype and stripped of all bones, weights, and morph targets.",
+    "inputScene": "assets/avatar/ubaid-v2/ubaid-rig.blend",
+    "face": "Portrait-space proportional fit, eye-opening and asymmetry adjustments, tapered lower jaw, and narrower neck; reference-derived baked face texture retained from the initial study. This is not a fully hand-sculpted or fully de-lit production head.",
+    "eyes": "Separate 3D eyeballs, brown iris and pupil surfaces, fibers and catchlights.",
+    "hair": "New authored wave paths, flattened volumetric locks, joined scalp sculpt, and editable fine surface curves. No generated mesh service was used.",
+    "brows": "Surface-grown editable eyebrow curves.",
+    "shirt": "CC0-derived draped shirt with separate authored collar leaves and procedural cloth detail.",
+    "assetLicenseSource": "https://github.com/makehumancommunity/mpfb2/blob/master/LICENSE.ASSETS.md"
+  },
+  "rebuild": {
+    "command": "AVATAR_SCALE=100 AVATAR_SAMPLES=128 Blender --background --factory-startup --python scripts/avatar/build-neutral-study.py",
+    "reviewCommand": "Blender --background --factory-startup --python scripts/avatar/review-neutral-study.py",
+    "requirements": "Blender, the two versioned input assets, and this repository. No API key, account, network call, or MPFB installation is required to run this study script."
+  },
+  "reviewLimits": [
+    "No numerical likeness score is asserted. Compare with the approved artwork visually.",
+    "Hair detail, facial proportions and expression still require approval before rigging.",
+    "Side and back geometry are interpretations; only one approved view is available.",
+    "The current face texture contains reference lighting and needs a dedicated material pass before a production talking avatar.",
+    "This high-detail study is not optimized for browser delivery. No GLB was exported and the live hero remains unchanged."
+  ],
+  "nextGate": "User review of neutral likeness before any rig is added to this study."
+}

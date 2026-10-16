@@ -1,0 +1,79 @@
+{
+  "stage": "neutral review, unapproved",
+  "blender": "5.2.2 LTS",
+  "referenceCount": 27,
+  "portraitProjection": false,
+  "parameters": {
+    "head/head-oval": 0.38,
+    "head/head-scale-vert-incr": 0.1,
+    "head/head-scale-horiz-decr": 0.12,
+    "head/head-fat-decr": 0.06,
+    "chin/chin-width-decr": 0.26,
+    "chin/chin-prominent-incr": 0.22,
+    "chin/chin-bones-incr": 0.18,
+    "chin/chin-height-incr": 0.06,
+    "nose/nose-scale-depth-incr": 0.3,
+    "nose/nose-scale-vert-incr": 0.14,
+    "nose/nose-scale-horiz-decr": 0.1,
+    "nose/nose-width1-decr": 0.1,
+    "nose/nose-point-down": 0.08,
+    "nose/nose-curve-convex": 0.09,
+    "mouth/mouth-scale-horiz-incr": 0.1,
+    "mouth/mouth-upperlip-volume-decr": 0.1,
+    "mouth/mouth-lowerlip-volume-incr": 0.23,
+    "mouth/mouth-cupidsbow-incr": 0.08,
+    "mouth/mouth-angles-up": 0.07,
+    "eyes/l-eye-scale-incr": 0.12,
+    "eyes/l-eye-height2-decr": 0.07,
+    "eyes/l-eye-height3-decr": 0.05,
+    "eyes/l-eye-corner2-up": 0.08,
+    "cheek/l-cheek-bones-incr": 0.18,
+    "cheek/l-cheek-volume-decr": 0.1,
+    "eyes/r-eye-scale-incr": 0.12,
+    "eyes/r-eye-height2-decr": 0.07,
+    "eyes/r-eye-height3-decr": 0.05,
+    "eyes/r-eye-corner2-up": 0.08,
+    "cheek/r-cheek-bones-incr": 0.18,
+    "cheek/r-cheek-volume-decr": 0.1
+  },
+  "landmarks": {
+    "joint-head": [
+      5.820766091346741e-11,
+      -0.04781366512179375,
+      1.6703670024871826
+    ],
+    "joint-head-2": [
+      5.820766091346741e-11,
+      -0.04213104024529457,
+      1.833935022354126
+    ],
+    "joint-neck": [
+      0.0,
+      -0.01203304622322321,
+      1.5708359479904175
+    ],
+    "joint-jaw": [
+      -0.001131710596382618,
+      -0.15619513392448425,
+      1.6194496154785156
+    ],
+    "joint-mouth": [
+      -5.4605596233159304e-05,
+      -0.0629051923751831,
+      1.6785485744476318
+    ],
+    "joint-l-eye": [
+      0.029291348531842232,
+      -0.13276657462120056,
+      1.716111421585083
+    ],
+    "joint-r-eye": [
+      -0.02984367311000824,
+      -0.1328958421945572,
+      1.7157609462738037
+    ]
+  },
+  "headTop": 1.8349488973617554,
+  "facialFibers": 2377,
+  "triangles": 50194
+}

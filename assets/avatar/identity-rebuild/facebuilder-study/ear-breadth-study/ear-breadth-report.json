@@ -1,0 +1,48 @@
+{
+  "status": "isolated visual trial; review required",
+  "fraction": 0.12,
+  "root_pivot_y": -0.13,
+  "coordinate_units": "native FaceBuilder; downstream meter scale 0.1",
+  "vertex_count": 18024,
+  "ear_faces": 2598,
+  "ear_vertices": 2658,
+  "boundary_vertices": 116,
+  "changed_vertices": 1943,
+  "basis_sha256_float64": "6a17a961c60f244583c9e5186479446baf83af51f00c615de573816f0083c097",
+  "maximum_delta_native": 0.028577572381496427,
+  "maximum_delta_mm": 2.8577572381496426,
+  "minimum_face_normal_dot": 0.8845118490529592,
+  "references": [
+    {
+      "reference": "27",
+      "camera": 0,
+      "focal_mm": 54.74040222167969,
+      "size": [
+        756,
+        965
+      ],
+      "expression_keyframe": 1
+    },
+    {
+      "reference": "25",
+      "camera": 1,
+      "focal_mm": 47.38488006591797,
+      "size": [
+        658,
+        1132
+      ],
+      "expression_keyframe": 2
+    },
+    {
+      "reference": "14",
+      "camera": 2,
+      "focal_mm": 56.06056213378906,
+      "size": [
+        1045,
+        1170
+      ],
+      "expression_keyframe": 3
+    }
+  ],
+  "transfer": "This is augmentation relative to existing detailed basis. Verify basis, then apply delta to every shape key. Do not replace or overwrite original detail-basis-deltas.npz."
+}

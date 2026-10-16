@@ -1,0 +1,11 @@
+{
+  "status": "Unapproved neutral sculpture study",
+  "armatures": 0,
+  "shapeKeys": 0,
+  "hairFibers": 11010,
+  "faceVertices": 4520,
+  "paidServices": false,
+  "facialMethod": "Localized mesh deformations, UV reprojection of reference pigmentation. Not hand-brushed sculpt strokes.",
+  "hairMethod": "Authored connected surface boundaries and individual groom curves.",
+  "referenceLimits": "One approved view. Side and back are inferred; no numerical likeness score."
+}

@@ -1,0 +1,49 @@
+{
+  "createdAt": "2026-10-16T07:25:23.808643+00:00",
+  "sources": [
+    {
+      "url": "https://eventikk.com/careers.html",
+      "sha256": "ebef3810fc4247efa762a67207bca135923a7309f36d84bc7622bd1d05fce52f",
+      "capturedAt": "2026-10-16T07:25:23.808643+00:00"
+    },
+    {
+      "url": "https://eventikk.com/",
+      "sha256": "4b421fb5d76a775669be41b4f8dcd8a015e9e3d303789182ef4d63506d22e24e",
+      "capturedAt": "2026-10-16T07:25:23.808643+00:00"
+    },
+    {
+      "url": "https://eventikk.com/about.html",
+      "sha256": "acac36688adea8eaa61a865c15abb3a9ae3c0c8df548e08ecc646b16e003520c",
+      "capturedAt": "2026-10-16T07:25:23.808643+00:00"
+    }
+  ],
+  "sourceFacts": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/2026-10-16-v3/facts.snapshot.json",
+    "sha256": "9264eb02ad1fb6d463e5d22aa7d77d8963da1b71b6b0b341180f913bbebd2c89"
+  },
+  "confirmationSource": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/private/application-facts.json",
+    "sha256": "c78bbcb69e2f4f67ff244825a90e1a1ff5cd961014373558c6deb34f4c583a95"
+  },
+  "selectedFactIds": [
+    "tututor_backend",
+    "tututor_platform",
+    "tututor_leadership",
+    "tututor_scope",
+    "danzee_components",
+    "danzee_jurri",
+    "yaksport",
+    "illume",
+    "viloi"
+  ],
+  "tailoring": "Emphasizes React/TypeScript/Node, school-scoped backend access, billing, founder collaboration, booking workflows and analytics relevant to the venue ERP. All experience bullets retain source wording. No claim of prior Eventikk employment or venue-industry ERP work.",
+  "boundaries": [
+    "No degree",
+    "No major-cloud production experience",
+    "No specific PostgreSQL tenure",
+    "Short employer listing; detailed scope and terms remain unspecified",
+    "No verified funding claim",
+    "Candidate-reported career evidence, not independent verification"
+  ],
+  "submission": false
+}

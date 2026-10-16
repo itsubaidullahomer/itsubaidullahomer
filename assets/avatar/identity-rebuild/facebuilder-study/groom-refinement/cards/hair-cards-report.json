@@ -1,0 +1,14 @@
+{
+  "source": "assets/avatar/identity-rebuild/facebuilder-study/groom-refinement/fiber-groom-refined-v19.blend",
+  "cards": {
+    "guides": 200,
+    "undercoat": 120,
+    "short": 360
+  },
+  "cardTriangles": 9280,
+  "capTriangles": 2209,
+  "atlas": "assets/avatar/identity-rebuild/facebuilder-study/groom-refinement/cards/hair-alpha-atlas-v4.png",
+  "alphaMode": "MASK",
+  "coordinateSystem": "native FaceBuilder coordinates, exported +Y up/+Z forward; integration must apply head transform",
+  "status": "Unapproved technical study; visual silhouette and alpha behavior require browser QA."
+}

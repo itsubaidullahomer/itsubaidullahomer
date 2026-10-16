@@ -1,0 +1,705 @@
+[
+  {
+    "company": "Metabase",
+    "title": "Software Engineer (Frontend)",
+    "companyURL": "https://www.metabase.com",
+    "jobURL": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+    "sourceBoard": "Lever",
+    "sourceId": "8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+    "location": "Global Remote",
+    "employmentType": "Full-time (remote)",
+    "remote": true,
+    "capturedJobDescriptionText": "Build user interfaces for an open-source analytics product. The work covers responsive interaction with data, extending charts, helping users find existing metrics, and integrating embedded analytics into customer products. The team expects engineers to care about usability and visual details, contribute to a substantial React codebase, and communicate design decisions clearly across a distributed team. This is an ongoing listing for multiple frontend positions. The company describes asynchronous work and flexibility about working location. Data visualization and Clojure familiarity are useful extras, while frontend fundamentals, maintainability and performance are central to the role.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "Shipped substantial React/Redux or equivalent applications.",
+      "Strong JavaScript, performance and data-structure skills.",
+      "CSS and component/design-system fluency.",
+      "Testing, code review and clear technical proposals.",
+      "Ability to extend a large existing codebase."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-react"
+        ],
+        "statement": "React/Next.js/TypeScript and a reusable component/hooks library at Danzee Tech.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-product"
+        ],
+        "statement": "Portfolio reports several product rebuilds and long-term ownership.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-remote"
+        ],
+        "statement": "Remote collaboration with Spain and Denmark; reported frontend load-time improvement.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "Redux depth, frontend test examples and complex data visualization are not established by the selected portfolio evidence.",
+      "Production outcomes and claimed experience remain unverified."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "review",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "Official listing permits global remote work; Pakistan is not named and country-specific employment feasibility remains unconfirmed.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:27Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "evidence": "Current official careers/ATS page returned HTTP 200 and contains the role and application interface; listed in the corresponding live careers page or ATS feed. No application submitted.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": null,
+    "publishedAtMeaning": "Lever createdAt is 2020-05-11; creation time is not evidence of a newly published vacancy.",
+    "sourceURLs": [
+      "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "https://api.lever.co/v0/postings/metabase?mode=json",
+      "https://www.metabase.com/jobs"
+    ],
+    "publicTeamLinks": [],
+    "verifiedAt": "2026-10-15T14:53:27Z"
+  },
+  {
+    "company": "Railway",
+    "title": "Senior Full-Stack Engineer - Product",
+    "companyURL": "https://railway.com",
+    "jobURL": "https://railway.com/careers/full-stack",
+    "sourceBoard": "Employer careers + Ashby",
+    "sourceId": "6ddcfe47-6cce-469b-ba6d-4f0e83440c9d",
+    "location": "Remote (anywhere)",
+    "employmentType": "Full-time",
+    "remote": true,
+    "capturedJobDescriptionText": "Own product features across the dashboard, APIs and backend workflows for a developer infrastructure platform. Engineers collaborate with design on complex interfaces, define technical plans, ship changes and observe their results. The stack includes TypeScript and GraphQL, with Temporal coordinating asynchronous work. Contributions to command-line and other open-source tools may involve learning Rust. The role values autonomous product judgment, clear asynchronous communication and the ability to reason about frontend architecture and background jobs. There can be on-call responsibilities. The employer page is explicitly worldwide remote and currently contains an application form.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "End-to-end product ownership and frontend architecture.",
+      "Complex asynchronous backend jobs.",
+      "TypeScript/GraphQL API development.",
+      "Clear written and verbal communication."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-react",
+          "ev-backend"
+        ],
+        "statement": "React/TypeScript frontend work and Express/MongoDB backend ownership.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-product",
+          "ev-integration"
+        ],
+        "statement": "Product leadership plus billing and realtime messaging implementations.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-remote"
+        ],
+        "statement": "Existing remote collaboration across countries.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "GraphQL, Temporal, Rust and build/deploy pipeline ownership are not established.",
+      "Senior infrastructure-product depth and on-call readiness need review."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "review",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "Official listing permits global remote work; Pakistan is not named and country-specific employment feasibility remains unconfirmed.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:27Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://railway.com/careers/full-stack",
+      "evidence": "Current official careers/ATS page returned HTTP 200 and contains the role and application interface; listed in the corresponding live careers page or ATS feed. No application submitted.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": "2024-02-07T20:30:20.299+00:00",
+    "publishedAtMeaning": "Ashby publishedAt; long-running listing, not claimed newly posted.",
+    "sourceURLs": [
+      "https://railway.com/careers/full-stack",
+      "https://api.ashbyhq.com/posting-api/job-board/railway",
+      "https://jobs.ashbyhq.com/railway/6ddcfe47-6cce-469b-ba6d-4f0e83440c9d"
+    ],
+    "publicTeamLinks": [],
+    "verifiedAt": "2026-10-15T14:53:27Z"
+  },
+  {
+    "company": "Automattic",
+    "title": "Experienced Software Engineer",
+    "companyURL": "https://automattic.com",
+    "jobURL": "https://job-boards.greenhouse.io/automatticcareers/jobs/5862239",
+    "sourceBoard": "Greenhouse + employer careers",
+    "sourceId": "5862239",
+    "location": "Remote; worldwide hiring stated",
+    "employmentType": "Not explicitly stated in extracted listing",
+    "remote": true,
+    "capturedJobDescriptionText": "Contribute to products across Automattic’s publishing and commerce portfolio in a distributed engineering organization. The listing emphasizes careful engineering, debugging, understanding software across abstraction boundaries, and production experience with several languages or frameworks. PHP and JavaScript are the main languages; applicants need willingness to become proficient rather than prior mastery of both. Experience with performance or products operating at substantial scale matters. Engineers collaborate through code review and frequent releases. The employer explicitly seeks engineers worldwide and expects availability for several weeks of annual team travel. The public salary range is global, but the hiring process still assesses individual contribution.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "Production experience across languages/frameworks.",
+      "Debugging, software quality and systems understanding.",
+      "Relevant scale/performance experience.",
+      "Willingness to develop PHP/JavaScript expertise.",
+      "Ability to travel 3–4 weeks annually."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-react",
+          "ev-backend"
+        ],
+        "statement": "Self-published JavaScript/TypeScript frontend and Node/Express production work.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-ai",
+          "ev-product"
+        ],
+        "statement": "AI feature integrations and sustained product ownership.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-remote"
+        ],
+        "statement": "Experience with distributed European teams.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "PHP proficiency is not shown, although the listing allows learning.",
+      "Travel availability, scale depth and all portfolio claims need confirmation."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "review",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "Official listing permits global remote work; Pakistan is not named and country-specific employment feasibility remains unconfirmed.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:27Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://job-boards.greenhouse.io/automatticcareers/jobs/5862239",
+      "evidence": "Current official careers/ATS page returned HTTP 200 and contains the role and application interface; listed in the corresponding live careers page or ATS feed. No application submitted.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": "2024-09-01T15:18:17-04:00",
+    "publishedAtMeaning": "Greenhouse first_published; updated_at 2026-09-21T15:18:00-04:00.",
+    "sourceURLs": [
+      "https://job-boards.greenhouse.io/automatticcareers/jobs/5862239",
+      "https://boards-api.greenhouse.io/v1/boards/automatticcareers/jobs?content=true",
+      "https://automattic.com/work-with-us/job/experienced-software-engineer/"
+    ],
+    "publicTeamLinks": [
+      {
+        "label": "Engineering team introductions",
+        "url": "https://automattic.com/work-with-us/"
+      }
+    ],
+    "verifiedAt": "2026-10-15T14:53:27Z"
+  },
+  {
+    "company": "Metabase",
+    "title": "Software Engineer (Backend)",
+    "companyURL": "https://www.metabase.com",
+    "jobURL": "https://jobs.lever.co/metabase/85f454d8-e795-4978-8a2b-4b8bfa7d7c37",
+    "sourceBoard": "Lever",
+    "sourceId": "85f454d8-e795-4978-8a2b-4b8bfa7d7c37",
+    "location": "Global Remote",
+    "employmentType": "Full-time (remote)",
+    "remote": true,
+    "capturedJobDescriptionText": "Develop substantial features and solve backend problems in Metabase’s open-source analytics product. Work crosses Clojure and JavaScript or TypeScript, so engineers need product judgment as well as backend problem-solving ability. Applicants may already know Clojure or have a strong commitment to learning it. The listing values shipping complex software, sound computer-science reasoning gained through study or production experience, and explaining technical choices clearly. Database integrations, JDBC, JVM tuning, open-source contributions and frontend JavaScript experience are useful additional background. Multiple backend positions are advertised through an ongoing global remote listing.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "Clojure experience or strong willingness to learn.",
+      "History of shipping complex products.",
+      "Solid CS/software engineering fundamentals.",
+      "Well-reasoned and clearly explained technical decisions."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-backend"
+        ],
+        "statement": "Express/MongoDB backend architecture and API implementation.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-product"
+        ],
+        "statement": "Portfolio reports platform rebuilds and ongoing multi-product ownership.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-react",
+          "ev-remote"
+        ],
+        "statement": "JavaScript/TypeScript and remote teamwork experience.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "Clojure, JDBC and JVM experience are not documented.",
+      "Candidate willingness to shift from Node to Clojure must be confirmed."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "adjacent_review",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "Official listing permits global remote work; Pakistan is not named and country-specific employment feasibility remains unconfirmed.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:27Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://jobs.lever.co/metabase/85f454d8-e795-4978-8a2b-4b8bfa7d7c37",
+      "evidence": "Current official careers/ATS page returned HTTP 200 and contains the role and application interface; listed in the corresponding live careers page or ATS feed. No application submitted.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": null,
+    "publishedAtMeaning": "Lever createdAt is 2020-05-20; not treated as a publication date.",
+    "sourceURLs": [
+      "https://jobs.lever.co/metabase/85f454d8-e795-4978-8a2b-4b8bfa7d7c37",
+      "https://api.lever.co/v0/postings/metabase?mode=json",
+      "https://www.metabase.com/jobs"
+    ],
+    "publicTeamLinks": [],
+    "verifiedAt": "2026-10-15T14:53:27Z"
+  },
+  {
+    "company": "Railway",
+    "title": "Senior Software Engineer, Support",
+    "companyURL": "https://railway.com",
+    "jobURL": "https://railway.com/careers/senior-software-engineer-support",
+    "sourceBoard": "Employer careers",
+    "sourceId": null,
+    "location": "Remote (anywhere)",
+    "employmentType": "Full-time",
+    "remote": true,
+    "capturedJobDescriptionText": "Combine full-stack engineering with direct user problem solving at a developer infrastructure company. The engineer designs support experiences, builds internal tools and automation, and chooses appropriate interfaces for recurring user needs. The role involves tracing software failures, understanding Unix-like systems, and working across frontend and backend code. Railway seeks substantial engineering experience and practical familiarity with cloud infrastructure, containers and related tooling. Communication quality is especially important because the work explains difficult technical topics to users. The company describes the position as globally remote and says candidates need not meet every listed criterion. Its employer page currently includes an application form.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "Senior full-stack engineering and complex debugging.",
+      "Native-level English communication.",
+      "Working familiarity with Docker, Kubernetes and cloud infrastructure.",
+      "Autonomous support-experience ownership."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-react",
+          "ev-backend"
+        ],
+        "statement": "Frontend and backend product engineering across React and Express.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-product"
+        ],
+        "statement": "Long-term product ownership, rebuilds and resolving API/query problems.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-integration"
+        ],
+        "statement": "Realtime messaging and API integrations are relevant to support tooling.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "Native-level English is not verified.",
+      "Docker/Kubernetes, Unix debugging and direct customer support experience are not established.",
+      "Role appears on employer careers; no corresponding row was returned in the sampled Ashby feed."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "adjacent_review",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "Official listing permits global remote work; Pakistan is not named and country-specific employment feasibility remains unconfirmed.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:27Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://railway.com/careers/senior-software-engineer-support",
+      "evidence": "Employer careers page links this role; role page returns HTTP 200 and includes an application form. ATS feed did not independently include this row.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": null,
+    "publishedAtMeaning": "No publication timestamp exposed in parsed employer page.",
+    "sourceURLs": [
+      "https://railway.com/careers/senior-software-engineer-support",
+      "https://railway.com/careers"
+    ],
+    "publicTeamLinks": [],
+    "verifiedAt": "2026-10-15T14:53:27Z"
+  },
+  {
+    "company": "Railway",
+    "title": "Senior Product Engineer: Scalability",
+    "companyURL": "https://railway.com",
+    "jobURL": "https://railway.com/careers/scalability",
+    "sourceBoard": "Employer careers + Ashby",
+    "sourceId": "5f51771e-339f-49f9-8da2-e3c7179c7bad",
+    "location": "Remote (anywhere)",
+    "employmentType": "Full-time",
+    "remote": true,
+    "capturedJobDescriptionText": "Own backend-heavy systems behind Railway’s usage metering, billing, payments, fraud controls and background processing. The role spans data ingestion, durable workflows, APIs and occasional frontend changes. Engineers must reason about concurrency and partial failures so payments remain correct and operational systems scale reliably. The technology includes Node.js, PostgreSQL, TypeScript, GraphQL, ClickHouse and Temporal. Work includes planning, implementation, monitoring and periodic on-call duties. Deep relational database understanding and evidence of improving systems under load are central. Payment-domain experience helps, but production correctness and autonomous technical ownership are the principal focus.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "Deep PostgreSQL and relational modeling.",
+      "Node.js internals and proven system scaling.",
+      "Durable asynchronous jobs and failure handling.",
+      "Correct, auditable payment processing.",
+      "Autonomous ownership and async communication."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-backend"
+        ],
+        "statement": "Backend architecture and resolving query/indexing bottlenecks.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-integration"
+        ],
+        "statement": "Stripe/SEPA billing and Redis-backed realtime messaging.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-product"
+        ],
+        "statement": "Ownership of products after launch.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "Deep PostgreSQL, Temporal, ClickHouse and high-throughput billing experience are unproven.",
+      "Concurrency, reconciliation and fraud-system work need concrete examples."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "stretch_review",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "Official listing permits global remote work; Pakistan is not named and country-specific employment feasibility remains unconfirmed.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:28Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://railway.com/careers/scalability",
+      "evidence": "Current official careers/ATS page returned HTTP 200 and contains the role and application interface; listed in the corresponding live careers page or ATS feed. No application submitted.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": "2026-06-11T19:42:15.346+00:00",
+    "publishedAtMeaning": "Ashby publishedAt. ATS uses comma in title; employer page uses colon.",
+    "sourceURLs": [
+      "https://railway.com/careers/scalability",
+      "https://api.ashbyhq.com/posting-api/job-board/railway",
+      "https://jobs.ashbyhq.com/railway/5f51771e-339f-49f9-8da2-e3c7179c7bad"
+    ],
+    "publicTeamLinks": [],
+    "verifiedAt": "2026-10-15T14:53:28Z"
+  },
+  {
+    "company": "Metabase",
+    "title": "Success Engineer (Global)",
+    "companyURL": "https://www.metabase.com",
+    "jobURL": "https://jobs.lever.co/metabase/20d0af01-5532-4c22-bf64-474f15b1df05",
+    "sourceBoard": "Lever",
+    "sourceId": "20d0af01-5532-4c22-bf64-474f15b1df05",
+    "location": "Global Remote",
+    "employmentType": "Full-time (remote)",
+    "remote": true,
+    "capturedJobDescriptionText": "Help technical customers use Metabase effectively by understanding their data goals, diagnosing failures and improving implementations. The role combines customer conversations with technical investigation, database work and guidance on translating questions into useful queries. Success engineers also collaborate on educational material and feed customer needs back into product development. Candidates need several years of relevant production engineering, systems administration or database experience, strong SQL skills, and depth in at least two of web applications, infrastructure and databases. Experience with Metabase or similar business intelligence software is useful. The listing describes global asynchronous work with substantial schedule flexibility.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "3+ years in production code, systems or databases.",
+      "Strong SQL and database skills.",
+      "Depth in at least two: web apps, infrastructure, databases.",
+      "Customer-focused troubleshooting and communication."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-backend"
+        ],
+        "statement": "Backend architecture, APIs and query/indexing improvements.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-react"
+        ],
+        "statement": "Web application development and component-library work.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-product",
+          "ev-remote"
+        ],
+        "statement": "Product ownership and remote collaboration.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "Strong SQL/PostgreSQL and BI implementation depth are not established by the selected evidence.",
+      "Customer-facing troubleshooting ability requires examples."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "adjacent_review",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "Official listing permits global remote work; Pakistan is not named and country-specific employment feasibility remains unconfirmed.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:27Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://jobs.lever.co/metabase/20d0af01-5532-4c22-bf64-474f15b1df05",
+      "evidence": "Current official careers/ATS page returned HTTP 200 and contains the role and application interface; listed in the corresponding live careers page or ATS feed. No application submitted.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": null,
+    "publishedAtMeaning": "Lever createdAt is 2020-05-20; not treated as a publication date.",
+    "sourceURLs": [
+      "https://jobs.lever.co/metabase/20d0af01-5532-4c22-bf64-474f15b1df05",
+      "https://api.lever.co/v0/postings/metabase?mode=json",
+      "https://www.metabase.com/jobs"
+    ],
+    "publicTeamLinks": [],
+    "verifiedAt": "2026-10-15T14:53:27Z"
+  },
+  {
+    "company": "Supabase",
+    "title": "Support Engineer (APAC)",
+    "companyURL": "https://supabase.com",
+    "jobURL": "https://jobs.ashbyhq.com/supabase/142135ae-a15f-4ec7-90bb-cb4e7968bc09",
+    "sourceBoard": "Ashby",
+    "sourceId": "142135ae-a15f-4ec7-90bb-cb4e7968bc09",
+    "location": "Remote, APAC",
+    "employmentType": "Full time",
+    "remote": true,
+    "capturedJobDescriptionText": "Provide technical support to developers using Supabase, working with product engineering on issues that cannot be resolved directly. Responsibilities include timely case triage, reproducing problems, explaining implementation or optimization approaches, and improving support tooling. The team also follows public developer feedback channels and may add tests around reproduced failures. Candidates need developer-support experience, strong SQL capability, English communication, command-line familiarity and experience with GitHub discussions or issues. React and Node.js are additional useful knowledge. The role requires working from APAC timezones because the team avoids sustaining overnight shifts. The company otherwise describes globally remote hiring.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "3+ years supporting technical/developer customers.",
+      "Strong SQL, preferably PostgreSQL.",
+      "English fluency; Linux/Unix command line.",
+      "GitHub Issues/Discussions experience.",
+      "Residence in APAC timezones."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-react",
+          "ev-backend"
+        ],
+        "statement": "React/Node.js development and API troubleshooting context.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-product"
+        ],
+        "statement": "Maintaining production products and fixing query problems.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-remote"
+        ],
+        "statement": "Pakistan UTC+5 location and prior distributed work.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "Three years of developer-support work and complex SQL ability are not demonstrated.",
+      "APAC timezone compatibility is plausible; Pakistan-specific employment support is unconfirmed."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "adjacent_review",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "APAC timezone residence is required. Pakistan UTC+5 is geographically compatible; employer does not name Pakistan or confirm a local employment arrangement.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:27Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://jobs.ashbyhq.com/supabase/142135ae-a15f-4ec7-90bb-cb4e7968bc09",
+      "evidence": "Job is present with isListed=true in current official Ashby posting API; job page returns HTTP 200 with its JobPosting data. No application submitted.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": "2025-03-20T18:51:09.252+00:00",
+    "publishedAtMeaning": "Ashby publishedAt; older continuing vacancy, not newly posted.",
+    "sourceURLs": [
+      "https://jobs.ashbyhq.com/supabase/142135ae-a15f-4ec7-90bb-cb4e7968bc09",
+      "https://api.ashbyhq.com/posting-api/job-board/supabase",
+      "https://supabase.com/careers"
+    ],
+    "publicTeamLinks": [],
+    "verifiedAt": "2026-10-15T14:53:27Z"
+  },
+  {
+    "company": "Supabase",
+    "title": "AI Platform Engineer",
+    "companyURL": "https://supabase.com",
+    "jobURL": "https://jobs.ashbyhq.com/supabase/3b5d54ca-741b-45ac-bd3f-31605a0d3541",
+    "sourceBoard": "Ashby",
+    "sourceId": "3b5d54ca-741b-45ac-bd3f-31605a0d3541",
+    "location": "Remote, Global",
+    "employmentType": "Full time",
+    "remote": true,
+    "capturedJobDescriptionText": "Build Supabase’s internal agent execution platform as its dedicated engineer. The platform coordinates event-triggered agents, durable state, review gates, rollback and detailed run logging. The role also owns automated evaluation suites, permission controls, agent tooling and operational measurement. It requires production agent systems with real usage and incident history, deliberate evaluation design, deep integrations including authored MCP servers, and end-to-end infrastructure ownership using Python and GCP. The company expects strong judgment about notifications and human approval. This is an AI reliability and infrastructure role rather than simply connecting a product to an LLM provider. Global remote hiring is stated.",
+    "capturedJobDescriptionType": "paraphrase",
+    "essentialRequirements": [
+      "Production LLM agents with operational history.",
+      "Evaluation datasets/rubrics and CI gates.",
+      "Authored MCP servers and deep API integrations.",
+      "Python/GCP infrastructure, warehouse and IaC ownership."
+    ],
+    "candidateEvidenceMatches": [
+      {
+        "evidenceIds": [
+          "ev-ai"
+        ],
+        "statement": "Server-side integrations with OpenAI, Claude and Gemini.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-backend",
+          "ev-product"
+        ],
+        "statement": "Backend architecture, production product ownership and leadership.",
+        "verification": "self-published, unverified"
+      },
+      {
+        "evidenceIds": [
+          "ev-integration"
+        ],
+        "statement": "Integration and authentication/billing experience.",
+        "verification": "self-published, unverified"
+      }
+    ],
+    "candidateEvidenceGaps": [
+      "Production agents, MCP authorship and evaluation infrastructure are not shown.",
+      "Python, GCP, infrastructure as code and warehouse operation are not evidenced.",
+      "Keep as research reserve; current portfolio evidence does not establish the essential requirements."
+    ],
+    "candidateEvidenceSources": [
+      "content/site.ts",
+      "lib/jobs/seed.ts",
+      "https://itsubaidullahomer.com"
+    ],
+    "selectionTier": "research_reserve",
+    "fitAssessment": "Manual evidence comparison only; no percentage or StrongFit assigned.",
+    "pakistanEligibility": {
+      "status": "unknown",
+      "locationCompatibility": "Official listing permits global remote work; Pakistan is not named and country-specific employment feasibility remains unconfirmed.",
+      "countryNamed": false
+    },
+    "availability": {
+      "status": "open_on_official_listing",
+      "verifiedAt": "2026-10-15T14:53:28Z",
+      "httpStatus": 200,
+      "resolvedURL": "https://jobs.ashbyhq.com/supabase/3b5d54ca-741b-45ac-bd3f-31605a0d3541",
+      "evidence": "Job is present with isListed=true in current official Ashby posting API; job page returns HTTP 200 with its JobPosting data. No application submitted.",
+      "applicationSubmitted": false,
+      "titlePresentInHTML": true
+    },
+    "publishedAt": "2026-07-31T18:56:39.246+00:00",
+    "publishedAtMeaning": "Ashby publishedAt.",
+    "sourceURLs": [
+      "https://jobs.ashbyhq.com/supabase/3b5d54ca-741b-45ac-bd3f-31605a0d3541",
+      "https://api.ashbyhq.com/posting-api/job-board/supabase",
+      "https://supabase.com/careers"
+    ],
+    "publicTeamLinks": [],
+    "verifiedAt": "2026-10-15T14:53:28Z"
+  }
+]

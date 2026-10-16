@@ -11,6 +11,10 @@ const config: NextConfig = {
           { key: "Permissions-Policy", value: "camera=(), microphone=(self)" },
         ],
       },
+      {
+        source: "/admin/:path*",
+        headers: [{ key: "Referrer-Policy", value: "no-referrer" }],
+      },
     ];
   },
 };

@@ -1,0 +1,1522 @@
+{
+  "researchedAt": "2026-10-15T14:50:44Z",
+  "researcher": "jobs_release_check",
+  "scope": "Read-only public employer research. No applications, emails, live imports or account mutations.",
+  "candidateSources": [
+    "content/site.ts",
+    "lib/jobs/seed.ts",
+    ".job-search/flowcv-resume-source.txt"
+  ],
+  "candidateEvidenceStatus": "Self-published, unverified. All requirement assessments remain unknown; no percentage ranking or Strong fit claim.",
+  "descriptionPolicy": "Concise paraphrases, not full copyrighted job-description reproduction. research.sources.text captures the description summary and source URL.",
+  "eligibilityMeaning": "confirmed means listed work geography includes Pakistan/worldwide; it does not confirm all legal/contractual conditions or required candidate answers.",
+  "jobs": [
+    {
+      "id": "tether-frontend-desktop",
+      "company": "Tether / Holepunch",
+      "title": "Frontend Desktop Engineer (100% remote - Worldwide)",
+      "url": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide",
+      "location": "Remote; Pakistan explicitly included",
+      "salary": "Not disclosed",
+      "description": "Develop the React-based Keet desktop application on the Pear peer-to-peer runtime. Work covers UI, performance and reliable state. Requires production React/Preact and JavaScript/TypeScript, state management, maintainable tested code, debugging and interest in distributed peer-to-peer systems. Desktop runtimes, WebRTC, rendering performance and open-source contributions are preferred.",
+      "source": "Recruitee \u2014 official employer careers",
+      "sourceId": "tether-frontend-desktop",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Pakistan appears in both visible locations and JobPosting applicantLocationRequirements.",
+      "requirements": [
+        {
+          "id": "tether-frontend-desktop-r1",
+          "text": "Production React/TypeScript and state management",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "React/TypeScript is reported; exact state libraries need evidence."
+        },
+        {
+          "id": "tether-frontend-desktop-r2",
+          "text": "Testing, debugging and frontend performance",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "Portfolio describes performance work; test ownership needs review."
+        },
+        {
+          "id": "tether-frontend-desktop-r3",
+          "text": "Interest or experience in P2P/distributed systems",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "No P2P project or explicit interest statement is recorded."
+        }
+      ],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Desktop",
+        "Remote Pakistan"
+      ],
+      "notes": "Employer application explicitly asks candidates not to use AI tools to complete answers. Candidate must personally author application answers; no automated submission from generated answers. No outreach performed. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://tether.to/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "tether-frontend-desktop-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide",
+            "text": "Develop the React-based Keet desktop application on the Pear peer-to-peer runtime. Work covers UI, performance and reliable state. Requires production React/Preact and JavaScript/TypeScript, state management, maintainable tested code, debugging and interest in distributed peer-to-peer systems. Desktop runtimes, WebRTC, rendering performance and open-source contributions are preferred.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2026-10-12",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Current employer page rendered with application route; public HTTP GET 200.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/TypeScript; reusable UI; real-time messaging; frontend performance."
+        ],
+        "candidateGapsOrUnknowns": [
+          "P2P interest, desktop runtime, Redux/Zustand depth and test evidence."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review"
+      }
+    },
+    {
+      "id": "tether-mobile-pk-2784265",
+      "company": "Tether / Holepunch",
+      "title": "Mobile Engineer - React Native (100% Remote)",
+      "url": "https://careers.tether.io/o/mobile-engineer-react-native-100-remote-3",
+      "location": "Remote Pakistan; Lahore listed",
+      "salary": "Not disclosed",
+      "description": "Build Keet mobile chat, calls, media and identity features with React Native/Expo and an on-device peer-to-peer core. Integrate native capabilities, profile real devices and maintain stable releases. Requires substantial React Native, Redux/Saga, modern JavaScript, WebSocket/REST experience and remote teamwork. Swift/Kotlin and P2P projects are advantages.",
+      "source": "Recruitee \u2014 official employer careers",
+      "sourceId": "tether-mobile-pk-2784265",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Official role and JSON-LD specify Pakistan (PK), remote, with Lahore as location.",
+      "requirements": [
+        {
+          "id": "tether-mobile-pk-2784265-r1",
+          "text": "React Native production applications",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-mobile"
+          ],
+          "explanation": "Three store releases are self-reported; verify."
+        },
+        {
+          "id": "tether-mobile-pk-2784265-r2",
+          "text": "Redux and Redux-Saga",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Not established by portfolio."
+        },
+        {
+          "id": "tether-mobile-pk-2784265-r3",
+          "text": "WebSockets/REST and remote delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-integration"
+          ],
+          "explanation": "Socket.io/Redis and API work are reported; verify relevant examples."
+        }
+      ],
+      "tags": [
+        "React Native",
+        "Mobile",
+        "Remote Pakistan"
+      ],
+      "notes": "Employer application explicitly asks candidates not to use AI tools to complete answers. Candidate must personally author application answers; no automated submission from generated answers. No outreach performed. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://tether.to/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "tether-mobile-pk-2784265-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://careers.tether.io/o/mobile-engineer-react-native-100-remote-3",
+            "text": "Build Keet mobile chat, calls, media and identity features with React Native/Expo and an on-device peer-to-peer core. Integrate native capabilities, profile real devices and maintain stable releases. Requires substantial React Native, Redux/Saga, modern JavaScript, WebSocket/REST experience and remote teamwork. Swift/Kotlin and P2P projects are advantages.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2026-10-14",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Current employer page rendered with application route; public HTTP GET 200.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Three React Native store apps; realtime messaging; API integrations; remote teams."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Redux-Saga depth, Expo/native capabilities, P2P runtime and desktop-oriented form questions."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review"
+      }
+    },
+    {
+      "id": "creativechaos-7398aab742",
+      "company": "Creative Chaos",
+      "title": "Senior Software Engineer - (Node+React)",
+      "url": "https://apply.workable.com/creativechaos/j/7398AAB742/",
+      "location": "Remote Pakistan",
+      "salary": "Not disclosed",
+      "description": "Build Node/React applications and APIs, maintain secure and performant delivery, and mentor engineers. Requires three to five years, degree or equivalent, JavaScript, Express/Nest, React/Redux/Context, relational and document databases, design systems, collaboration and unit testing. The role expects a high test-coverage standard.",
+      "source": "Workable \u2014 official employer ATS",
+      "sourceId": "creativechaos-7398aab742",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Official Workable API specifies remote=true, workplace=remote, country=Pakistan / PK.",
+      "requirements": [
+        {
+          "id": "creativechaos-7398aab742-r1",
+          "text": "Three to five years and degree/equivalent",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-product"
+          ],
+          "explanation": "Work chronology aligns with years; degree/equivalence remains unknown."
+        },
+        {
+          "id": "creativechaos-7398aab742-r2",
+          "text": "React and Node/Express APIs",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-backend"
+          ],
+          "explanation": "Portfolio reports extensive Express/Mongo and React delivery."
+        },
+        {
+          "id": "creativechaos-7398aab742-r3",
+          "text": "Relational databases and extensive unit testing",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "PostgreSQL implementation depth and test-coverage history not established."
+        }
+      ],
+      "tags": [
+        "Node.js",
+        "React",
+        "Remote Pakistan"
+      ],
+      "notes": "Older publication date retained honestly; current listing may represent evergreen hiring. Review degree/equivalent and evidence before applying. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://creativechaos.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "creativechaos-7398aab742-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://apply.workable.com/creativechaos/j/7398AAB742/",
+            "text": "Build Node/React applications and APIs, maintain secure and performant delivery, and mentor engineers. Requires three to five years, degree or equivalent, JavaScript, Express/Nest, React/Redux/Context, relational and document databases, design systems, collaboration and unit testing. The role expects a high test-coverage standard.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "cc-7398AAB742-state",
+            "label": "Current ATS status and original publication date",
+            "url": "https://apply.workable.com/api/v2/accounts/creativechaos/jobs/7398AAB742",
+            "text": "At verification the public endpoint returned state=published, remote Pakistan, and original published timestamp 2021-08-25T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2021-08-25T00:00:00.000Z",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Public official Workable job detail GET returned HTTP 200, state=published; job also present in current account widget feed. Employer page itself needs JavaScript.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Express/Mongo API architecture; React components; team mentoring."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Degree/equivalence, relational SQL depth, testing coverage and Redux evidence.",
+          "Degree or equivalent wording does not explicitly confirm experience-only eligibility; employer clarification needed."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "hold_education_clarification"
+      }
+    },
+    {
+      "id": "creativechaos-aad5ab52b8",
+      "company": "Creative Chaos",
+      "title": "Senior Software Engineer - React",
+      "url": "https://apply.workable.com/creativechaos/j/AAD5AB52B8/",
+      "location": "Remote Pakistan",
+      "salary": "Not disclosed",
+      "description": "Deliver client-side React applications, improve security and performance, and mentor teammates. Requires three to five years, degree or equivalent, JavaScript, HTML/CSS, React/Redux/Context, design systems, accessibility and security understanding, collaboration tools and substantial unit-test coverage.",
+      "source": "Workable \u2014 official employer ATS",
+      "sourceId": "creativechaos-aad5ab52b8",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Official Workable API specifies remote=true, workplace=remote, country=Pakistan / PK.",
+      "requirements": [
+        {
+          "id": "creativechaos-aad5ab52b8-r1",
+          "text": "React, JavaScript, components and frontend performance",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "Portfolio reports component/hook work and performance optimization."
+        },
+        {
+          "id": "creativechaos-aad5ab52b8-r2",
+          "text": "Three to five years and degree/equivalent",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-product"
+          ],
+          "explanation": "Chronology aligns; education needs confirmation."
+        },
+        {
+          "id": "creativechaos-aad5ab52b8-r3",
+          "text": "Accessibility, Redux/Context and rigorous unit coverage",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Not sufficiently detailed in supplied candidate sources."
+        }
+      ],
+      "tags": [
+        "React",
+        "Frontend",
+        "Remote Pakistan"
+      ],
+      "notes": "Older publication date retained honestly; current listing may represent evergreen hiring. Review degree/equivalent and evidence before applying. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://creativechaos.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "creativechaos-aad5ab52b8-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://apply.workable.com/creativechaos/j/AAD5AB52B8/",
+            "text": "Deliver client-side React applications, improve security and performance, and mentor teammates. Requires three to five years, degree or equivalent, JavaScript, HTML/CSS, React/Redux/Context, design systems, accessibility and security understanding, collaboration tools and substantial unit-test coverage.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "cc-AAD5AB52B8-state",
+            "label": "Current ATS status and original publication date",
+            "url": "https://apply.workable.com/api/v2/accounts/creativechaos/jobs/AAD5AB52B8",
+            "text": "At verification the public endpoint returned state=published, remote Pakistan, and original published timestamp 2026-03-05T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2026-03-05T00:00:00.000Z",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Public official Workable job detail GET returned HTTP 200, state=published; job also present in current account widget feed. Employer page itself needs JavaScript.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React components/hooks; Next/TypeScript; team leadership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Degree, accessibility work, Redux and testing coverage.",
+          "Degree or equivalent wording does not explicitly confirm experience-only eligibility; employer clarification needed."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "hold_education_clarification"
+      }
+    },
+    {
+      "id": "creativechaos-1a5f1dbcb8",
+      "company": "Creative Chaos",
+      "title": "Senior Software Engineer- React Native",
+      "url": "https://apply.workable.com/creativechaos/j/1A5F1DBCB8/",
+      "location": "Remote Pakistan",
+      "salary": "Not disclosed",
+      "description": "Deliver and maintain mobile client applications, improve quality and mentor engineers. Requires three to five years, degree or equivalent, React Native/native APIs, TypeScript, GraphQL, REST and offline storage. Native iOS/Android transition experience is requested; Swift/Kotlin and related languages are advantageous.",
+      "source": "Workable \u2014 official employer ATS",
+      "sourceId": "creativechaos-1a5f1dbcb8",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Official Workable API specifies remote=true, workplace=remote, country=Pakistan / PK.",
+      "requirements": [
+        {
+          "id": "creativechaos-1a5f1dbcb8-r1",
+          "text": "React Native, TypeScript and shipped mobile applications",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-mobile"
+          ],
+          "explanation": "Portfolio reports three apps in both stores."
+        },
+        {
+          "id": "creativechaos-1a5f1dbcb8-r2",
+          "text": "Native APIs and migration from native mobile",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Kotlin Multiplatform started; native-to-React-Native migration not evidenced."
+        },
+        {
+          "id": "creativechaos-1a5f1dbcb8-r3",
+          "text": "GraphQL, offline storage and degree/equivalent",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "These requirements are not established by candidate sources."
+        }
+      ],
+      "tags": [
+        "React Native",
+        "TypeScript",
+        "Remote Pakistan"
+      ],
+      "notes": "Older publication date retained honestly; current listing may represent evergreen hiring. Review degree/equivalent and evidence before applying. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://creativechaos.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "creativechaos-1a5f1dbcb8-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://apply.workable.com/creativechaos/j/1A5F1DBCB8/",
+            "text": "Deliver and maintain mobile client applications, improve quality and mentor engineers. Requires three to five years, degree or equivalent, React Native/native APIs, TypeScript, GraphQL, REST and offline storage. Native iOS/Android transition experience is requested; Swift/Kotlin and related languages are advantageous.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "cc-1A5F1DBCB8-state",
+            "label": "Current ATS status and original publication date",
+            "url": "https://apply.workable.com/api/v2/accounts/creativechaos/jobs/1A5F1DBCB8",
+            "text": "At verification the public endpoint returned state=published, remote Pakistan, and original published timestamp 2025-06-19T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2025-06-19T00:00:00.000Z",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Public official Workable job detail GET returned HTTP 200, state=published; job also present in current account widget feed. Employer page itself needs JavaScript.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React Native releases; app-team leadership; some Kotlin/SwiftUI direction."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Native migration history, GraphQL, offline architecture and degree.",
+          "Degree or equivalent wording does not explicitly confirm experience-only eligibility; employer clarification needed."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "hold_education_clarification"
+      }
+    },
+    {
+      "id": "creativechaos-c4d4ebacd4",
+      "company": "Creative Chaos",
+      "title": "Senior Software Engineer - Node",
+      "url": "https://apply.workable.com/creativechaos/j/C4D4EBACD4/",
+      "location": "Remote Pakistan",
+      "salary": "Not disclosed",
+      "description": "Own server-side features and REST APIs with security, performance and maintenance responsibilities. Mentor engineers and work with clients. Requires three to five years, degree or equivalent, JavaScript, Node frameworks such as Express/Nest, relational/document data modelling, unit tests and standard collaboration practices.",
+      "source": "Workable \u2014 official employer ATS",
+      "sourceId": "creativechaos-c4d4ebacd4",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Official Workable API specifies remote=true, workplace=remote, country=Pakistan / PK.",
+      "requirements": [
+        {
+          "id": "creativechaos-c4d4ebacd4-r1",
+          "text": "Node/Express REST APIs and document databases",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-backend"
+          ],
+          "explanation": "Portfolio describes a large Express/Mongo backend."
+        },
+        {
+          "id": "creativechaos-c4d4ebacd4-r2",
+          "text": "Three to five years, mentoring and degree/equivalent",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-product"
+          ],
+          "explanation": "Chronology and leadership reported; degree is unknown."
+        },
+        {
+          "id": "creativechaos-c4d4ebacd4-r3",
+          "text": "SQL/database modelling, security compliance and test coverage",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "SQL and formal compliance/test evidence need review."
+        }
+      ],
+      "tags": [
+        "Node.js",
+        "Backend",
+        "Remote Pakistan"
+      ],
+      "notes": "Older publication date retained honestly; current listing may represent evergreen hiring. Review degree/equivalent and evidence before applying. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://creativechaos.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "creativechaos-c4d4ebacd4-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://apply.workable.com/creativechaos/j/C4D4EBACD4/",
+            "text": "Own server-side features and REST APIs with security, performance and maintenance responsibilities. Mentor engineers and work with clients. Requires three to five years, degree or equivalent, JavaScript, Node frameworks such as Express/Nest, relational/document data modelling, unit tests and standard collaboration practices.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "cc-C4D4EBACD4-state",
+            "label": "Current ATS status and original publication date",
+            "url": "https://apply.workable.com/api/v2/accounts/creativechaos/jobs/C4D4EBACD4",
+            "text": "At verification the public endpoint returned state=published, remote Pakistan, and original published timestamp 2023-09-21T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2023-09-21T00:00:00.000Z",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Public official Workable job detail GET returned HTTP 200, state=published; job also present in current account widget feed. Employer page itself needs JavaScript.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Express/Mongo backend ownership; realtime/billing; team leadership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Degree/equivalence, relational DB depth, formal compliance and test coverage.",
+          "Degree or equivalent wording does not explicitly confirm experience-only eligibility; employer clarification needed."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "hold_education_clarification"
+      }
+    },
+    {
+      "id": "creativechaos-2d0fad9d9a",
+      "company": "Creative Chaos",
+      "title": "Full Stack Developer",
+      "url": "https://apply.workable.com/creativechaos/j/2D0FAD9D9A/",
+      "location": "Remote Pakistan",
+      "salary": "Not disclosed",
+      "description": "Build React/Node services and production infrastructure using AI-assisted coding. Own PostgreSQL design, Docker deployments, AWS services and GitHub Actions pipelines. Requires five years of full-stack work, JavaScript/TypeScript and Python/Node, AWS operations, container delivery, SQL performance and autonomous engineering. Infrastructure-as-code and open-source work are preferred.",
+      "source": "Workable \u2014 official employer ATS",
+      "sourceId": "creativechaos-2d0fad9d9a",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "low",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Official Workable API specifies remote=true, workplace=remote, country=Pakistan / PK.",
+      "requirements": [
+        {
+          "id": "creativechaos-2d0fad9d9a-r1",
+          "text": "React/Node and AI-assisted product delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-ai"
+          ],
+          "explanation": "Product AI integration is reported; daily coding-agent workflow must be confirmed."
+        },
+        {
+          "id": "creativechaos-2d0fad9d9a-r2",
+          "text": "Five years plus AWS, Docker, PostgreSQL and CI/CD",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Five full years and specialist infrastructure experience are not established."
+        }
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "AWS",
+        "Remote Pakistan"
+      ],
+      "notes": "Older publication date retained honestly; current listing may represent evergreen hiring. Review degree/equivalent and evidence before applying. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://creativechaos.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "creativechaos-2d0fad9d9a-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://apply.workable.com/creativechaos/j/2D0FAD9D9A/",
+            "text": "Build React/Node services and production infrastructure using AI-assisted coding. Own PostgreSQL design, Docker deployments, AWS services and GitHub Actions pipelines. Requires five years of full-stack work, JavaScript/TypeScript and Python/Node, AWS operations, container delivery, SQL performance and autonomous engineering. Infrastructure-as-code and open-source work are preferred.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "cc-2D0FAD9D9A-state",
+            "label": "Current ATS status and original publication date",
+            "url": "https://apply.workable.com/api/v2/accounts/creativechaos/jobs/2D0FAD9D9A",
+            "text": "At verification the public endpoint returned state=published, remote Pakistan, and original published timestamp 2025-11-06T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2025-11-06T00:00:00.000Z",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Public official Workable job detail GET returned HTTP 200, state=published; job also present in current account widget feed. Employer page itself needs JavaScript.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Node products; AI provider integrations; autonomous ownership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Five-year threshold, AWS/Docker operations, SQL tuning and GitHub Actions.",
+          "Five-year minimum not met by four-plus-year chronology; AWS/Python depth unsupported."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "research_reserve"
+      }
+    },
+    {
+      "id": "canonical-5150422",
+      "company": "Canonical",
+      "title": "Web Frontend Engineer - JS, CSS, React, Flutter",
+      "url": "https://job-boards.greenhouse.io/canonical/jobs/5150422",
+      "location": "Home based \u2014 Worldwide",
+      "salary": "Not disclosed",
+      "description": "Build accessible enterprise web interfaces, reusable components and REST-connected applications. Requires React/TypeScript or Flutter, strong frontend fundamentals, Linux familiarity, clear English, independence and an excellent academic record with a STEM degree or compelling alternative. International team travel occurs twice a year.",
+      "source": "Greenhouse \u2014 official employer ATS",
+      "sourceId": "canonical-5150422",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer and public Greenhouse API state Home based - Worldwide.",
+      "requirements": [
+        {
+          "id": "canonical-5150422-r1",
+          "text": "React/TypeScript and maintainable frontend work",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "React/Next component and performance work is self-reported."
+        },
+        {
+          "id": "canonical-5150422-r2",
+          "text": "Academic record and STEM degree or alternative path",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "No education record or alternative narrative supplied."
+        },
+        {
+          "id": "canonical-5150422-r3",
+          "text": "Linux, accessibility and international travel",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Specific Linux/accessibility experience and ability to travel need confirmation."
+        }
+      ],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Worldwide"
+      ],
+      "notes": "Established open-source employer, not a startup. Travel availability is separate from remote country eligibility. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://canonical.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "canonical-5150422-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://job-boards.greenhouse.io/canonical/jobs/5150422",
+            "text": "Build accessible enterprise web interfaces, reusable components and REST-connected applications. Requires React/TypeScript or Flutter, strong frontend fundamentals, Linux familiarity, clear English, independence and an excellent academic record with a STEM degree or compelling alternative. International team travel occurs twice a year.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "canonical-api",
+            "label": "ATS status and date",
+            "url": "https://boards-api.greenhouse.io/v1/boards/canonical/jobs/5150422",
+            "text": "Current public API returned this exact role; first publication 2023-10-11 and update 2026-08-05.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2023-10-11T13:32:38-04:00",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Current employer page with application form plus official Greenhouse API HTTP 200; API updated_at 2026-08-05T18:23:33-04:00.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/TypeScript; reusable UI; remote engineering."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Academic details, Linux, accessibility and travel documents/availability."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review"
+      }
+    },
+    {
+      "id": "tbox-fullstack",
+      "company": "TBox Solutionz",
+      "title": "Full-Stack Engineer (React + Node.js)",
+      "url": "https://tboxsolutionz.com/careers.html",
+      "location": "Remote / Lahore, Pakistan",
+      "salary": "Not disclosed",
+      "description": "Own client-product features from API to UI across several projects. The opening asks for at least two years, strong TypeScript, React/Node, attention to design details and comfort with ambiguous product requirements. PostgreSQL, REST/GraphQL and Git appear in the stack. Applications go through the company careers email.",
+      "source": "Official company careers page",
+      "sourceId": "tbox-fullstack",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer career page says Remote / Lahore in Pakistan, full-time.",
+      "requirements": [
+        {
+          "id": "tbox-fullstack-r1",
+          "text": "Two years, React/Node and TypeScript",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "Candidate chronology and JavaScript product stack align; verify work samples."
+        },
+        {
+          "id": "tbox-fullstack-r2",
+          "text": "Own product features and work across concurrent projects",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-product"
+          ],
+          "explanation": "Lead engineer ownership reported; capacity for concurrent client projects needs confirmation."
+        },
+        {
+          "id": "tbox-fullstack-r3",
+          "text": "PostgreSQL/GraphQL",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Specific production depth not established."
+        }
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "Remote Pakistan"
+      ],
+      "notes": "Shared company careers URL also hosts mobile vacancy; deduplicate by title plus sourceId, not URL alone. Smaller employer; company and engagement terms need routine candidate review. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://tboxsolutionz.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "tbox-fullstack-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://tboxsolutionz.com/careers.html",
+            "text": "Own client-product features from API to UI across several projects. The opening asks for at least two years, strong TypeScript, React/Node, attention to design details and comfort with ambiguous product requirements. PostgreSQL, REST/GraphQL and Git appear in the stack. Applications go through the company careers email.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current employer page rendered with application route; public HTTP GET 200.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Node/TypeScript; end-to-end product ownership; client/remote work."
+        ],
+        "candidateGapsOrUnknowns": [
+          "SQL/GraphQL depth and concurrent-project availability."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review"
+      }
+    },
+    {
+      "id": "tbox-mobile",
+      "company": "TBox Solutionz",
+      "title": "Mobile Engineer (React Native)",
+      "url": "https://tboxsolutionz.com/careers.html",
+      "location": "Remote / Lahore, Pakistan",
+      "salary": "Not disclosed",
+      "description": "Build iOS/Android client applications, taking designs into test releases. Requires at least two years and React Native/TypeScript. Expo, native modules and store-submission experience are useful; Redux or Zustand appears in the stack. Applications are via the official careers email.",
+      "source": "Official company careers page",
+      "sourceId": "tbox-mobile",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer career page says Remote / Lahore in Pakistan, full-time.",
+      "requirements": [
+        {
+          "id": "tbox-mobile-r1",
+          "text": "Two years and React Native/TypeScript",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-mobile"
+          ],
+          "explanation": "Three shipped apps reported; exact duration must be confirmed."
+        },
+        {
+          "id": "tbox-mobile-r2",
+          "text": "Design-to-release delivery and store submission",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-mobile"
+          ],
+          "explanation": "Both-store releases reported; verify ownership."
+        },
+        {
+          "id": "tbox-mobile-r3",
+          "text": "Expo and state-management depth",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Preferred stack knowledge not established."
+        }
+      ],
+      "tags": [
+        "React Native",
+        "TypeScript",
+        "Remote Pakistan"
+      ],
+      "notes": "Same primary page as full-stack opening, distinct title/sourceId. Employer page explicitly marks role open. No email sent. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://tboxsolutionz.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "tbox-mobile-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://tboxsolutionz.com/careers.html",
+            "text": "Build iOS/Android client applications, taking designs into test releases. Requires at least two years and React Native/TypeScript. Expo, native modules and store-submission experience are useful; Redux or Zustand appears in the stack. Applications are via the official careers email.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current employer page rendered with application route; public HTTP GET 200.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Three React Native apps released in both stores; app leadership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Exact mobile tenure, Expo, Redux/Zustand and native-module depth."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review"
+      }
+    },
+    {
+      "id": "eventikk-fullstack",
+      "company": "Eventikk",
+      "title": "Senior Full-Stack Developer",
+      "url": "https://eventikk.com/careers.html",
+      "location": "Remote Pakistan",
+      "salary": "Not disclosed",
+      "description": "Join a small team building an event-industry platform in Pakistan. The live opening names React, Node.js and TypeScript and is full-time, remote within Pakistan. The page describes asynchronous remote work but gives no detailed tenure, education, architecture or interview requirements.",
+      "source": "Official company careers page",
+      "sourceId": "eventikk-fullstack",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer explicitly allows work from anywhere in Pakistan.",
+      "requirements": [
+        {
+          "id": "eventikk-fullstack-r1",
+          "text": "React/Node/TypeScript",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "Candidate stack aligns with listed technologies, subject to verification."
+        },
+        {
+          "id": "eventikk-fullstack-r2",
+          "text": "Seniority and further mandatory requirements",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Employer page does not disclose detail; obtain the full role specification before applying."
+        }
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "Remote Pakistan"
+      ],
+      "notes": "Short listing only; company and detailed role requirements need further review. No application email sent. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://eventikk.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "eventikk-fullstack-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://eventikk.com/careers.html",
+            "text": "Join a small team building an event-industry platform in Pakistan. The live opening names React, Node.js and TypeScript and is full-time, remote within Pakistan. The page describes asynchronous remote work but gives no detailed tenure, education, architecture or interview requirements.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current employer page rendered with application route; public HTTP GET 200.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Node/TypeScript; shipping products; remote Pakistan."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Detailed seniority, scope, employment terms and employer expectations unavailable."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review"
+      }
+    }
+  ],
+  "excludedOrDeferred": [
+    {
+      "company": "Pavago",
+      "title": "AI Product Engineer (Full Stack)",
+      "url": "https://apply.workable.com/pavago/j/D3F28304D6/",
+      "reason": "Current employer URL redirects to not_found=true; excluded despite indexed ads."
+    },
+    {
+      "company": "SadaPay",
+      "title": "Full Stack Product Engineer",
+      "url": "https://sadapay.pk/jobs-listing/full-stack-product-engineer",
+      "reason": "Current description exists, but linked application URL returned 404. Kotlin/Spring essential experience and remote/hybrid terms also unresolved."
+    },
+    {
+      "company": "Smart Working",
+      "title": "Senior Full Stack Developer HR214 PK",
+      "url": "https://jobs.lever.co/smart-working-solutions/469f0f50-94aa-4581-83f0-c6f4f0e7891e",
+      "reason": "Eight years and substantial Angular/GCP requirements exceed demonstrated experience."
+    },
+    {
+      "company": "Smart Working",
+      "title": "Cloud Engineer Frontend-Focused AS315 PK",
+      "url": "https://jobs.lever.co/smart-working-solutions/e7a8642a-d598-4cdf-9695-68f7254f5aa5",
+      "reason": "Five years of AWS is essential and not evidenced; not included to pad the shortlist."
+    },
+    {
+      "company": "Motive",
+      "title": "Senior AI Engineer",
+      "url": "https://job-boards.greenhouse.io/gomotive/jobs/8814872002",
+      "reason": "Computer-vision/ML engineering requirements are not supported by AI API integration experience."
+    },
+    {
+      "company": "Tether",
+      "title": "AI Harness Engineer",
+      "url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide-4",
+      "reason": "This country variant does not include Pakistan; specialist agent-evaluation/P2P evidence missing."
+    }
+  ],
+  "excludedJobs": [
+    {
+      "id": "tarteel-fullstack-059f510d",
+      "company": "Tarteel",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://ats.rippling.com/tarteel/jobs/059f510d-63ca-42af-a19a-446064af52ef",
+      "location": "Remote worldwide; Monday\u2013Thursday 08:00\u201312:00 Eastern overlap",
+      "salary": "USD 90,000\u2013110,000 per year",
+      "description": "Own web and backend features for an AI Quran product and internal tools. Work across React, Next.js, Node, Django and SQL while improving reliability and scale. The role expects five years of full-stack experience, relevant degree, JavaScript/React, Python, SQL, Git/CI and independent communication. Next.js, TanStack, Django, PostgreSQL and React Native are useful.",
+      "source": "Rippling \u2014 official employer ATS",
+      "sourceId": "tarteel-fullstack-059f510d",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "ineligible",
+      "eligibilityEvidence": "Mandatory degree requirement conflicts with candidate-confirmed no degree.",
+      "requirements": [
+        {
+          "id": "tarteel-fullstack-059f510d-r1",
+          "text": "Five years of full-stack experience and relevant bachelor degree",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Employment history begins January 2022; five complete years and degree are not established."
+        },
+        {
+          "id": "tarteel-fullstack-059f510d-r2",
+          "text": "React/JavaScript and end-to-end product delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "Self-published React and product history aligns; verify examples."
+        },
+        {
+          "id": "tarteel-fullstack-059f510d-r3",
+          "text": "Python and SQL production work",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Python/Django production evidence missing; SQL depth needs review."
+        },
+        {
+          "id": "tarteel-fullstack-059f510d-r4",
+          "text": "Eastern morning overlap Monday\u2013Thursday",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-remote"
+          ],
+          "explanation": "Remote work is reported; this exact recurring schedule needs confirmation."
+        }
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "AI product",
+        "Edtech",
+        "Worldwide"
+      ],
+      "notes": "Listed on current Tarteel employer board. No personal team contact verified. Time overlap corresponds roughly 17:00\u201321:00 or 18:00\u201322:00 Pakistan depending on US daylight saving. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://tarteel.ai/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "tarteel-fullstack-059f510d-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://ats.rippling.com/tarteel/jobs/059f510d-63ca-42af-a19a-446064af52ef",
+            "text": "Own web and backend features for an AI Quran product and internal tools. Work across React, Next.js, Node, Django and SQL while improving reliability and scale. The role expects five years of full-stack experience, relevant degree, JavaScript/React, Python, SQL, Git/CI and independent communication. Next.js, TanStack, Django, PostgreSQL and React Native are useful.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current employer page rendered with application route; public HTTP GET 200.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next.js/Node delivery; education-product ownership; three shipped mobile apps."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Python/Django depth, degree, five-year threshold, scheduled overlap.",
+          "Required degree is not held; confirmed candidate fact."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "excluded_degree_requirement"
+      }
+    },
+    {
+      "id": "tarteel-mobile-30da3922",
+      "company": "Tarteel",
+      "title": "Senior Mobile Engineer (React Native)",
+      "url": "https://ats.rippling.com/tarteel/jobs/30da3922-9f34-4f45-b0c0-081f8e4aca46",
+      "location": "Remote worldwide; Monday\u2013Thursday 08:00\u201312:00 Eastern overlap",
+      "salary": "USD 100,000\u2013120,000 per year",
+      "description": "Build and maintain the React Native mobile product, native integrations and an offline-capable experience. Work includes Kotlin Multiplatform and improving reliability at large scale. Requirements include a relevant degree, five years in mobile/full-stack engineering, React Native experience, Git/CI, feature flags or experiments, and experience with a product serving over one million users.",
+      "source": "Rippling \u2014 official employer ATS",
+      "sourceId": "tarteel-mobile-30da3922",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "low",
+      "fit": "unknown",
+      "eligibility": "ineligible",
+      "eligibilityEvidence": "Mandatory degree requirement conflicts with candidate-confirmed no degree.",
+      "requirements": [
+        {
+          "id": "tarteel-mobile-30da3922-r1",
+          "text": "React Native and native mobile delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-mobile"
+          ],
+          "explanation": "Portfolio reports three apps shipped to both stores; verify individual contributions."
+        },
+        {
+          "id": "tarteel-mobile-30da3922-r2",
+          "text": "Five years mobile/full-stack and relevant degree",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Five complete years and degree are not evidenced."
+        },
+        {
+          "id": "tarteel-mobile-30da3922-r3",
+          "text": "Product serving more than one million users",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Portfolio states 20k+ users, which does not establish this scale."
+        },
+        {
+          "id": "tarteel-mobile-30da3922-r4",
+          "text": "Feature flags/experiments and fixed Eastern overlap",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Not established by candidate sources."
+        }
+      ],
+      "tags": [
+        "React Native",
+        "Kotlin",
+        "AI product",
+        "Worldwide"
+      ],
+      "notes": "Clear scale requirement makes this a stretch lead; do not auto-submit as a verified match. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://tarteel.ai/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "tarteel-mobile-30da3922-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://ats.rippling.com/tarteel/jobs/30da3922-9f34-4f45-b0c0-081f8e4aca46",
+            "text": "Build and maintain the React Native mobile product, native integrations and an offline-capable experience. Work includes Kotlin Multiplatform and improving reliability at large scale. Requirements include a relevant degree, five years in mobile/full-stack engineering, React Native experience, Git/CI, feature flags or experiments, and experience with a product serving over one million users.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current employer page rendered with application route; public HTTP GET 200.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React Native releases; started Kotlin Multiplatform; product maintenance."
+        ],
+        "candidateGapsOrUnknowns": [
+          "One-million-user scale, five years, degree, experimentation and schedule.",
+          "Required degree is not held; confirmed candidate fact."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "excluded_degree_requirement"
+      }
+    },
+    {
+      "id": "creativechaos-5cfc3c7a9d",
+      "company": "Creative Chaos",
+      "title": "Full Stack Engineer (Node/Python and React)",
+      "url": "https://apply.workable.com/creativechaos/j/5CFC3C7A9D/",
+      "location": "Remote Pakistan",
+      "salary": "Not disclosed",
+      "description": "Build frontend and backend applications with Node, Python and React. Work includes database design, API integration, debugging, reviews and secure feature delivery. Requires a related bachelor degree, four years of development, both Node and Python, React, SQL/NoSQL, Git and CI/CD understanding.",
+      "source": "Workable \u2014 official employer ATS",
+      "sourceId": "creativechaos-5cfc3c7a9d",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "low",
+      "fit": "unknown",
+      "eligibility": "ineligible",
+      "eligibilityEvidence": "Mandatory degree requirement conflicts with candidate-confirmed no degree.",
+      "requirements": [
+        {
+          "id": "creativechaos-5cfc3c7a9d-r1",
+          "text": "Four years, React and Node product development",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-backend"
+          ],
+          "explanation": "Chronology and core JavaScript stack align with self-published experience."
+        },
+        {
+          "id": "creativechaos-5cfc3c7a9d-r2",
+          "text": "Strong Python and SQL/NoSQL",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "MongoDB is reported; Python and SQL depth are unverified."
+        },
+        {
+          "id": "creativechaos-5cfc3c7a9d-r3",
+          "text": "Related bachelor degree and CI/CD",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "No degree or detailed CI/CD evidence supplied."
+        }
+      ],
+      "tags": [
+        "Node.js",
+        "Python",
+        "React",
+        "Remote Pakistan"
+      ],
+      "notes": "Older publication date retained honestly; current listing may represent evergreen hiring. Review degree/equivalent and evidence before applying. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://creativechaos.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "creativechaos-5cfc3c7a9d-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://apply.workable.com/creativechaos/j/5CFC3C7A9D/",
+            "text": "Build frontend and backend applications with Node, Python and React. Work includes database design, API integration, debugging, reviews and secure feature delivery. Requires a related bachelor degree, four years of development, both Node and Python, React, SQL/NoSQL, Git and CI/CD understanding.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "cc-5CFC3C7A9D-state",
+            "label": "Current ATS status and original publication date",
+            "url": "https://apply.workable.com/api/v2/accounts/creativechaos/jobs/5CFC3C7A9D",
+            "text": "At verification the public endpoint returned state=published, remote Pakistan, and original published timestamp 2025-04-10T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": "2025-04-10T00:00:00.000Z",
+        "publishedAtNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "method": "Public official Workable job detail GET returned HTTP 200, state=published; job also present in current account widget feed. Employer page itself needs JavaScript.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Node/Mongo; end-to-end feature ownership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Python is required alongside Node; degree, SQL and CI/CD evidence.",
+          "Required degree is not held; confirmed candidate fact."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "excluded_degree_requirement"
+      }
+    },
+    {
+      "id": "educative-experienced-5ddd53be",
+      "company": "Educative",
+      "title": "Software Engineer (Experienced)",
+      "url": "https://jobs.lever.co/educative/5ddd53be-d3fa-4c87-9402-bcf2fbcf65df",
+      "location": "Lahore, Pakistan \u2014 onsite",
+      "salary": "Not disclosed",
+      "description": "Own education-platform features from design through production, improve architecture and reliability, investigate failures and mentor teammates. Requires a computer-science degree, algorithms/data structures, multithreading, one of Python/JavaScript/TypeScript, Git and independent collaboration. Node, React, React Native, Next.js and cloud/container skills are useful.",
+      "source": "Lever \u2014 official employer ATS",
+      "sourceId": "educative-experienced-5ddd53be",
+      "discoveredAt": "2026-10-15T14:50:44Z",
+      "updatedAt": "2026-10-15T14:50:44Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "ineligible",
+      "eligibilityEvidence": "Mandatory degree requirement conflicts with candidate-confirmed no degree.",
+      "requirements": [
+        {
+          "id": "educative-experienced-5ddd53be-r1",
+          "text": "JavaScript/TypeScript and product ownership",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-product"
+          ],
+          "explanation": "Lead education-product delivery and React/Node work reported."
+        },
+        {
+          "id": "educative-experienced-5ddd53be-r2",
+          "text": "CS degree, data structures and multithreading",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Degree and multithreading are not established."
+        },
+        {
+          "id": "educative-experienced-5ddd53be-r3",
+          "text": "Work onsite in Lahore",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Candidate lives in Rahim Yar Khan; Pakistan onsite allowed but move/commute needs confirmation."
+        }
+      ],
+      "tags": [
+        "Edtech",
+        "React",
+        "Node.js",
+        "Onsite Pakistan"
+      ],
+      "notes": "Availability confirmed at listing API level with inconsistent direct page retrieval. No submission until application form works. Contact profiles are public leadership pages, not established referrals. Candidate evidence is self-published and remains unverified; no requirement is marked met. Candidate now confirms no degree and immediate availability; do not invent educational credentials.",
+      "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.educative.io/",
+        "contacts": [
+          {
+            "id": "educative-naeem",
+            "name": "Naeem Ul Haq",
+            "role": "Co-Founder / CTO",
+            "profileUrl": "https://www.educative.io/team",
+            "sourceUrl": "https://www.educative.io/team",
+            "referralRoute": "Official team page; no referral relationship or willingness established.",
+            "notes": "Public professional team listing only. No outreach.",
+            "capturedAt": "2026-10-15T14:50:44Z"
+          },
+          {
+            "id": "educative-fahim",
+            "name": "Fahim Ul Haq",
+            "role": "Co-Founder / CEO",
+            "profileUrl": "https://www.educative.io/team",
+            "sourceUrl": "https://www.educative.io/team",
+            "referralRoute": "Official team page; no referral relationship or willingness established.",
+            "notes": "Public professional team listing only. No outreach.",
+            "capturedAt": "2026-10-15T14:50:44Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "educative-experienced-5ddd53be-posting",
+            "label": "Official vacancy \u2014 paraphrased description",
+            "url": "https://jobs.lever.co/educative/5ddd53be-d3fa-4c87-9402-bcf2fbcf65df",
+            "text": "Own education-platform features from design through production, improve architecture and reliability, investigate failures and mentor teammates. Requires a computer-science degree, algorithms/data structures, multithreading, one of Python/JavaScript/TypeScript, Git and independent collaboration. Node, React, React Native, Next.js and cloud/container skills are useful.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "educative-api",
+            "label": "Current employer ATS listing",
+            "url": "https://api.lever.co/v0/postings/educative?mode=json",
+            "text": "Current API includes exact job ID and Full-time Lahore listing. createdAt is 2021-07-06, not a verified publication date.",
+            "capturedAt": "2026-10-15T14:50:44Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T14:50:44Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Official public Lever list API HTTP 200 includes exact ID; web tool rendered application page. Direct HTML GET returned 404, so application route must be rechecked before submission.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Education-product leadership; JS/TS/React/Node; app delivery."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Degree, multithreading depth and ability to work in Lahore.",
+          "Required degree is not held; confirmed candidate fact."
+        ],
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "excluded_degree_requirement"
+      }
+    }
+  ],
+  "candidateConfirmedFacts": [
+    "No degree",
+    "Immediate availability",
+    "4+ years; do not rewrite as five complete years"
+  ]
+}

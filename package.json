@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
-    "profile:build": "node scripts/build.mjs"
+    "profile:build": "node scripts/build.mjs",
+    "prebuild": "tsx scripts/avatar/build-site-index.ts"
   },
   "engines": {
     "node": ">=22"
@@ -22,6 +23,10 @@
     "@radix-ui/react-accordion": "^1.2.21",
     "@radix-ui/react-dialog": "^1.2.0",
     "@radix-ui/react-tabs": "^1.1.22",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.117.3",
     "@upstash/redis": "^1.39.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -33,7 +38,9 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "server-only": "^0.0.1",
-    "tailwind-merge": "^3.7.0"
+    "tailwind-merge": "^3.7.0",
+    "three": "^0.186.1",
+    "three-stdlib": "^2.36.1"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
@@ -42,8 +49,10 @@
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
     "eslint": "^9.39.5",
     "eslint-config-next": "^16.4.0",
+    "gltf-validator": "^2.0.0-dev.3.10",
     "lighthouse": "^13.5.0",
     "prettier": "^3.9.10",
     "sharp": "^0.35.5",

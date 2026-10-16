@@ -1,0 +1,106 @@
+Identity rebuild source and method record
+
+The 27 private reference photographs were supplied by Ubaidullah Omer for his
+own character. They remain local reference inputs. No reference photograph is
+included as a camera-projected texture in the exported character.
+
+Editable body topology, anatomical targets, clothing, eyeball reference
+geometry, teeth, tongue, eyebrows, skin atlas and initial hair:
+MakeHuman Community / MPFB system assets, CC0.
+https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html
+https://static.makehumancommunity.org/makehuman/faq/are_makehuman_files_free.html
+MPFB tool source: https://github.com/makehumancommunity/mpfb2
+
+Blender 5.2.2 LTS performs actual mesh deformation, fitting, material baking,
+rigging and rendering. Scripts do not imply that a human sculptor operated the
+mouse or that the result is a scan.
+
+The initial landmark-informed sculpt used MediaPipe's estimated depth. Review
+identified that as insufficiently camera-independent. The newer camera-fit
+study uses only 2D observations with a separate perspective camera for each
+reference, symmetric surface changes, bounded displacements and regularization.
+Its reprojection residual is not an identity accuracy percentage. Eye/globe
+contact is evaluated separately rather than altered by uncertain depth fitting.
+
+The continuous eye surfaces are authored geometry. The skin uses a complete
+CC0 UV albedo atlas with a warm pigment adjustment and local beard-root shading.
+The facial hair consists of surface-conforming curves; export may bake these
+into the body's UV maps to avoid excessive geometry and morph-target memory.
+This is ordinary material baking, not a front-portrait illusion.
+
+Hair candidates are independent studies. Elvaerwyn's Maxwell mesh carries
+CC-BY attribution and is documented separately by the reviewer. Its source
+license and required credit must accompany any distributed derived asset.
+
+All character renders in this directory remain studies until an independent
+visual review explicitly records acceptance. Technical tests do not constitute
+approval of likeness, natural motion or suitability for the public website.
+
+FaceBuilder replacement-head study (2026-10-12)
+----------------------------------------------
+The preceding MPFB face remains a rejected likeness foundation. The user's
+latest feedback explicitly confirms it does not represent him.
+
+The isolated facebuilder-study directory uses the official KeenTools Blender
+add-on 2026.3.1 and its built-in 15-day trial, activated locally without a paid
+subscription, account login, card, or license modification. The fitted geometry
+and exported files remain ordinary editable Blender/glTF assets. Further use
+of FaceBuilder's fitting tools after its trial ends would require a license;
+ordinary Blender editing of the exported result does not.
+https://keentools.io/products/facebuilder-for-blender
+https://keentools.io/download/facebuilder-for-blender
+https://keentools.s3.us-east-2.amazonaws.com/web/docs/keentools-eula.pdf
+Add-on source: https://github.com/KeenTools/keentools-blender
+
+Three local photographs (27, 25, 14) currently constrain a shared full 3D head,
+with independent fitted cameras and per-view expressions. The neutral geometry
+is saved independently. Clay renders are geometry-only evidence. The separate
+textured-study uses FaceBuilder's multi-view UV texture bake as a registration
+diagnostic. It includes photographic hair, eyes, lighting and clothing artifacts
+and MUST NOT be described as a finished groom, eye system or final albedo.
+No photos were sent to a cloud inference service. Source photos are referenced
+locally, not copied into the website's public folder.
+
+The first broad-lock groom on that head is rejected. Fine-fiber grooming is a
+separate Blender geometry study. Neither changes the fitted-head source.
+Official Create ARKit Blendshapes produced 51 actual nonzero facial channels
+on the fitted topology. These are separate from the old 67-channel MPFB rig.
+An automatic pin residual is a fitting diagnostic, never a likeness percentage.
+
+Fitted-head anatomy, grooming and body study
+-----------------------------------------
+The replacement head uses separate continuous eye globes with authored brown
+iris pigmentation and portable PBR clearcoat. The original flat eye and mouth
+closure faces are removed. Upper eyelashes and wetlines are real meshes,
+reconstructed from the fitted lid boundary for every facial target. Teeth,
+gum arches, palate, cavity and tongue are authored geometry; dental-v4 is the
+current independently preferred oral refinement, not a dental scan.
+
+Fifteen English speech shapes are authored geometric combinations of the
+fitted head's facial channels, with a real tongueOut target on oral geometry.
+These shapes alone do not imply automatic phoneme/audio alignment.
+
+Facial eyebrows/moustache/chin hair are fine Blender curves rooted in actual
+surface triangles. Photo27 provides observed placement through its solved
+camera, not a photographic facial texture. The same triangle frames attach
+the fibers to every fitted-head target. Skin and lip pigmentation is authored
+vertex color. Browser PBR maps bake that pigmentation and the real fibers
+into the head's UV layout; dense editable fibers remain in the source .blend.
+
+The ear-breadth augmentation is an independently reviewed, local geometric
+offset applied identically to the neutral and all facial targets. It preserves
+the ear attachment boundary. Global facial dimensions have not been changed
+to compensate for differences in camera, lighting or expression.
+
+Body integration uses a documented uniform scale and translation derived from
+the existing rig's eye spacing, not a measured biometric scale. Lower neck
+vertices are fitted below the collar; facial topology and target ordering stay
+intact. Source scalp/facial curves follow the head bone and facial targets.
+The body retains 34 authored gesture/idle clips. The public hero still uses the
+approved static image; none of these fitted-head studies is a published final.
+
+The first re-compressed tangent export was rejected after visual QA found eye
+position changes from repeated quantization. Final skin-study packing uses
+lossless Meshopt encoding after quantization, with all-node world-position
+comparison and decoded glTF validation. Technical validation is separate from
+visual approval, which remains outstanding for the complete character.

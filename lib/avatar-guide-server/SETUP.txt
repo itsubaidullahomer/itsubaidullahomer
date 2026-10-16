@@ -1,0 +1,80 @@
+AVATAR GUIDE SERVER — 2026-10-12
+
+What runs now
+GET /api/avatar returns the generated site targets and capability flags.
+POST /api/avatar with {"message":"Show me Tututor","mode":"demo"} streams an authored timeline. It makes no AI or TTS request. The browser voice is a standard device voice, not a clone.
+The checked local environment reports liveConfigured=false, voiceConfigured=false and transcriptionConfigured=false.
+
+Data and navigation
+Run: npx tsx scripts/avatar/build-site-index.ts
+Verify freshness: npx tsx scripts/avatar/build-site-index.ts --check
+The generator reads published project, stack, experience, FAQ, pricing, writing and workbench content; service/process copy is extracted from component literals. Its 70 entries contain sectionId, selector, path, title, summary, keyFacts and kind. Targets are an allowlist; the AI cannot supply a URL, script, arbitrary selector or external navigation. Route-specific pointing must follow navigation to the same indexed path.
+The source is the existing portfolio, not the new private identity/reference photographs.
+
+Free plan-backed text inference
+Set AVATAR_GUIDE_PROVIDER=chatgpt only after the existing hosted ChatGPT client is approved and its CHATGPT_* environment configuration is complete. Do not fake CHATGPT_PLAN_USAGE_APPROVED.
+Existing login is untouched. Its cookie has /api/chatgpt scope. POST /api/chatgpt/avatar-session after login creates a short-lived, opaque /api/avatar cookie referring to the original encrypted server session. Disconnecting the original session immediately removes the guide's access. The bridge returns the visitor's available models. AVATAR_GUIDE_MODEL can choose a default from that catalog; the client can choose another listed model.
+Live turn: POST /api/avatar {"message":"Show me Tututor","mode":"live","model":"an-account-listed-model"}.
+No owner-paid API-key fallback occurs on plan exhaustion or errors. The guide has a separate 24-turn cap, per-IP limits and owner-checked locks; repeated bridge calls do not reset the underlying ChatGPT session's guide turn counter.
+
+Optional invitation-only owner-paid text inference
+These are deliberately OFF by default. Set ALL required values before enabling:
+AVATAR_GUIDE_PROVIDER=openai
+AVATAR_GUIDE_PAID_ENABLED=true
+OPENAI_API_KEY=<server secret>
+AVATAR_GUIDE_MODEL=<eligible Responses model selected by owner>
+AVATAR_GUIDE_INVITE_CODE=<random secret of at least 24 characters>
+AVATAR_GUIDE_SESSION_SECRET=<32-byte key as 64 hex characters, or reuse existing CHATGPT_SESSION_SECRET>
+UPSTASH_REDIS_REST_URL=<server value>
+UPSTASH_REDIS_REST_TOKEN=<server secret>
+AVATAR_GUIDE_INPUT_USD_PER_MILLION=<current uncached input price for that model>
+AVATAR_GUIDE_OUTPUT_USD_PER_MILLION=<current output price for that model>
+AVATAR_GUIDE_SESSION_USD=<positive session reservation limit>
+AVATAR_GUIDE_DAILY_USD=<positive daily reservation limit, max 10, at least session limit>
+A visitor enters the invitation through POST /api/avatar {"operation":"connect","inviteCode":"..."}. Never bundle this invitation or API key in NEXT_PUBLIC_* configuration. Invitation attempts are rate limited.
+
+Voice adapters: additional, explicit paid opt-in
+Requires an invited owner-paid session. A ChatGPT session is NEVER enough to trigger owner-funded speech/transcription.
+AVATAR_GUIDE_PAID_VOICE_ENABLED=true
+AVATAR_GUIDE_TTS_PROVIDER=openai OR elevenlabs
+AVATAR_GUIDE_TTS_MODEL=<provider model ID>
+AVATAR_GUIDE_TTS_VOICE=<built-in or custom voice ID>
+AVATAR_GUIDE_TTS_RESERVE_USD=<conservative per-call reservation for <=900 characters, >0 and <=1>
+For ElevenLabs also ELEVENLABS_API_KEY=<server secret>.
+For an already-created, consented custom voice also set AVATAR_GUIDE_CUSTOM_VOICE=true and AVATAR_GUIDE_VOICE_CONSENT_CONFIRMED=true. This application does not create a clone or upload reference/consent recordings.
+POST /api/avatar {"operation":"speech","text":"One sentence."} returns audioBase64, mimeType, wordTimings, visemes, timingQuality, voiceKind and spokenText. Each sentence can be synthesized while later timeline actions are still arriving. It currently waits for that sentence's complete audio before playback; this is not realtime audio streaming.
+OpenAI WAV audio supplies its true duration but no alignment, so word and phoneme timing is estimated. ElevenLabs supplies character timing; words are grouped from that alignment and phoneme durations are estimated within each word. Neither is forced phoneme alignment. CMUdict pronunciation data gives actual English phoneme sequences; unknown words have no invented mouth cues. No voice clone or live lip-sync quality has been verified.
+
+Transcription
+AVATAR_GUIDE_STT_MODEL=<OpenAI transcription model ID>
+AVATAR_GUIDE_STT_RESERVE_USD=<conservative reservation for a <=30-second recording, >0 and <=1>
+POST /api/avatar {"operation":"transcribe","audioBase64":"..."} accepts only mono 16-bit PCM WAV at 16 kHz, at most 30 seconds. The server validates duration from PCM bytes, not a client-provided duration. It returns {text}. Recordings are forwarded only after the paid-session and quota checks; they are not saved in this repository or server history. The microphone is optional and must be initiated by the visitor.
+
+Budgets and limitations
+Redis atomically reserves a cost allowance before every paid call; speech/transcription share the same session and daily ledger as text. Failed or interrupted calls retain their reservation because providers may already have billed work. Reservations are accounting estimates, not a guarantee of the provider's final invoice: set current conservative prices/reservations and provider/project billing controls before enabling production. Models are never chosen or upgraded silently.
+Demo throttling is in-process and costs no provider credits. All live quota enforcement requires Redis and fails closed if Redis is unavailable.
+Only Vercel's overwritten forwarding header is trusted for production IP buckets. Other deployments deliberately share a conservative bucket until their trusted proxy integration is configured.
+No live model, voice or transcription requests were run during development. Hosted approval, account eligibility, credentials, voice quality, actual latency and production billing remain unverified.
+
+Verification
+npx tsx --test tests/avatar-guide-server*.test.ts
+npx eslint lib/avatar-guide-server scripts/avatar/build-site-index.ts app/api/avatar/route.ts app/api/chatgpt/avatar-session/route.ts tests/avatar-guide-server*.test.ts
+npx tsc --noEmit
+The budget concurrency test uses an isolated, temporary local redis-server Unix socket when redis-server and redis-cli are installed; otherwise only that integration test skips. It never contacts production Redis.
+
+Official documentation checked
+https://developers.openai.com/siwc/quickstart
+https://developers.openai.com/siwc/token-sharing-open-source
+https://developers.openai.com/siwc/token-sharing-open-source/models-and-inference
+https://developers.openai.com/siwc/token-sharing-open-source/preview-limitations
+The preview requires stream:true/store:false and does not support audio/video input or transcription. The published open-source/local flow is not a substitute for hosted-app approval. These sources do not establish a free Realtime, cloned voice or Decisions entitlement for this website.
+https://developers.openai.com/api/docs/guides/structured-outputs
+https://developers.openai.com/api/docs/guides/streaming-responses
+https://developers.openai.com/api/docs/guides/text-to-speech
+https://developers.openai.com/api/docs/guides/speech-to-text
+https://developers.openai.com/api/reference/resources/audio/subresources/speech/methods/create
+https://elevenlabs.io/docs/api-reference/text-to-speech/convert-with-timestamps/
+
+Free pronunciation data
+cmudict.dict downloaded from https://github.com/cmusphinx/cmudict on 2026-10-12.
+Original license is retained as CMUDICT-LICENSE.txt. This dictionary is read on the server only and is not an avatar texture, model or audio recording.

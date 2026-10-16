@@ -1,0 +1,14 @@
+{
+  "source": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/assets/avatar/identity-rebuild/facebuilder-study/groom-refinement/fiber-lod/true-fiber-lod-study.glb",
+  "output": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/assets/avatar/identity-rebuild/facebuilder-study/groom-refinement/fiber-lod/true-fiber-lod-study-packed.glb",
+  "triangles": 177468,
+  "images": 0,
+  "rawBytes": 4565980,
+  "packedBytes": 2423208,
+  "vertexPositionsUnchangedExactly": true,
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "status": "Unapproved desktop geometry study; final production triangle budget intentionally not met."
+}

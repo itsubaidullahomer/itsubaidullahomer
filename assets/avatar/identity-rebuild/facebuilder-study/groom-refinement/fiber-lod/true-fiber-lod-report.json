@@ -1,0 +1,28 @@
+{
+  "source": "assets/avatar/identity-rebuild/facebuilder-study/groom-refinement/fiber-groom-refined-v19.blend",
+  "strands": {
+    "long": {
+      "source": 7600,
+      "selected": 1600,
+      "segments": 12,
+      "radiusMultiplier": 1.65
+    },
+    "undercoat": {
+      "source": 5105,
+      "selected": 1200,
+      "segments": 4,
+      "radiusMultiplier": 1.5
+    },
+    "short": {
+      "source": 13727,
+      "selected": 1500,
+      "segments": 2,
+      "radiusMultiplier": 1.5
+    }
+  },
+  "fiberTriangles": 170564,
+  "capTriangles": 6904,
+  "images": false,
+  "crossSection": "closed triangular tubes per physical strand; adaptive curvature samples",
+  "status": "Unapproved desktop geometry study exceeding final hair budget; compare visible quality before any integration."
+}

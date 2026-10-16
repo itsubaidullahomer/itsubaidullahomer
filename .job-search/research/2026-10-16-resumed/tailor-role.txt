@@ -1,0 +1,41 @@
+Browser tab: 1035063, Title: "Full-Stack Software Engineer (Remote, US West Timezone Overlap) @ Tailor", URL: "https://jobs.ashbyhq.com/tailor/08796053-4fa8-48db-9a73-a977ae2c5434?jr_id=6a55ee2610c4d945d8645c75".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
++	128 container jobright-helper-root
++		129 container
++			130 container jobright-helper-id
++				131 container
++					132 image turbo
++					133 text Upgrade to Turbo: Get Hired Faster! 40 %Off
++					134 button
++						135 image
++				136 image logo-image
++				137 button logo-image Feedback, ID: feedback-entry
++					138 image logo-image
++					139 text Feedback
++				140 button logo-image
++					141 image logo-image
++				142 button logo-image
++					143 image logo-image
++				144 container
++					145 image
++					146 text Tailor Consulting
++					147 image
++					148 container
++						149 text 86 %
++					150 link Description: Full-Stack Software Engineer (Remote, US West Timezone Overlap), Value: jobright.ai/jobs/info/6a55ee2610c4d945d8645c75
++					151 text 1 week ago  •  25  applicants
++					152 button Autofill
++					153 image credits
++					154 text 4  Credits Left Get Unlimited
++					155 button Your Autofill Information
++						156 text Your Autofill Information
++					157 button Upload Resume
++						158 text Upload Resume
++					159 text Ubaidullah-FlowCV-Resume-20260907
++					160 button Generate Custom Resume
++						161 text Generate Custom Resume
++					162 text Upload Cover Letter
++					163 button Generate Cover Letter
++						164 text Generate Cover Letter
++					165 button Autofill for Another Job
+The focused UI element is 0 AXWebArea Full-Stack Software Engineer (Remote, US West Timezone Overlap) @ Tailor, URL: jobs.ashbyhq.com/tailor/08796053-4fa8-48db-9a73-a977ae2c5434?jr_id=6a55ee2610c4d945d8645c75

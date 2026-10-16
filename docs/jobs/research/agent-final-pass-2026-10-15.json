@@ -1,0 +1,1214 @@
+{
+  "researchedAt": "2026-10-15T15:28:05.600669Z",
+  "scope": "Public read-only employer research. No applications or outreach.",
+  "candidateSources": [
+    "content/site.ts",
+    "lib/jobs/seed.ts",
+    ".job-search/flowcv-resume-source.txt"
+  ],
+  "candidateConfirmedFacts": [
+    "No degree",
+    "Immediate availability",
+    "4+ years; no five-year claim"
+  ],
+  "jobs": [
+    {
+      "id": "yc-furtherai-zrn2j29",
+      "company": "FurtherAI",
+      "title": "Frontend Engineer - Web",
+      "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+      "location": "San Francisco, onsite; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Build frontend systems for an insurance AI product. Requires at least three years and evidence of taking React interfaces from an initial idea to a shipped product. Ownership, clear communication and independent delivery matter; B2B software experience is useful.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-furtherai-zrn2j29",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-furtherai-zrn2j29-r1",
+          "text": "Three years of frontend delivery and React",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-furtherai-zrn2j29-r2",
+          "text": "Built new product interfaces from initial concept",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-furtherai-zrn2j29-r3",
+          "text": "Independent ownership, communication and San Francisco relocation",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.furtherai.com/",
+        "contacts": [
+          {
+            "id": "yc-furtherai-zrn2j29-person-1",
+            "name": "Sashank Gondala",
+            "role": "Co-founder / CTO",
+            "profileUrl": "https://linkedin.com/in/sashank-gondala-083132a0",
+            "sourceUrl": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          },
+          {
+            "id": "yc-furtherai-zrn2j29-person-2",
+            "name": "Aman Gour",
+            "role": "Co-founder / CEO",
+            "profileUrl": "https://linkedin.com/in/amangour",
+            "sourceUrl": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-furtherai-zrn2j29-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "text": "Build frontend systems for an insurance AI product. Requires at least three years and evidence of taking React interfaces from an initial idea to a shipped product. Ownership, clear communication and independent delivery matter; B2B software experience is useful.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-furtherai-zrn2j29-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-01-27T20:31:27Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:06.391523Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:06.391523Z",
+        "publishedAt": "2025-01-27T20:31:27Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/TypeScript, reusable UI and shipped AI education and analytics products."
+        ],
+        "candidateGapsOrUnknowns": [
+          "B2B insurance workflows; design/architecture examples; relocation and visa feasibility."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-diligencesquared-inc-rjpu8px",
+      "company": "DiligenceSquared",
+      "title": "Engineer - Frontend",
+      "url": "https://www.ycombinator.com/companies/diligencesquared-inc/jobs/RJPu8pX-engineer-frontend",
+      "location": "New York City; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Build interfaces for AI-supported commercial diligence. Requires three years with React, TypeScript and Next.js, strong state and component architecture, and thoughtful presentation of complex information. Realtime or voice interfaces and data visualization are useful adjacent experience.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-diligencesquared-inc-rjpu8px",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-diligencesquared-inc-rjpu8px-r1",
+          "text": "Three years of React/TypeScript frontend engineering",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-diligencesquared-inc-rjpu8px-r2",
+          "text": "Next.js, state architecture and data-heavy interfaces",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-diligencesquared-inc-rjpu8px-r3",
+          "text": "Independent product ownership and New York relocation",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://diligencesquared.com/",
+        "contacts": [
+          {
+            "id": "yc-diligencesquared-inc-rjpu8px-person-1",
+            "name": "Frederik Kofoed Hansen",
+            "role": "Co-founder / CEO",
+            "profileUrl": "https://www.linkedin.com/in/frederik-kofoed-hansen/",
+            "sourceUrl": "https://www.ycombinator.com/companies/diligencesquared-inc/jobs/RJPu8pX-engineer-frontend",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-diligencesquared-inc-rjpu8px-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/diligencesquared-inc/jobs/RJPu8pX-engineer-frontend",
+            "text": "Build interfaces for AI-supported commercial diligence. Requires three years with React, TypeScript and Next.js, strong state and component architecture, and thoughtful presentation of complex information. Realtime or voice interfaces and data visualization are useful adjacent experience.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-diligencesquared-inc-rjpu8px-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/diligencesquared-inc/jobs/RJPu8pX-engineer-frontend",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-11-27T07:28:44Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:06.375756Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:06.375756Z",
+        "publishedAt": "2025-11-27T07:28:44Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Joinillume analytics with D3/Chart.js; React/Next, real-time messaging and AI product work."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Large data-heavy UI samples and architectural testing; voice interfaces; visa feasibility."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-finni-health-ph1y4dp",
+      "company": "Finni Health",
+      "title": "Full-Stack Software Developer 2",
+      "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+      "location": "San Francisco / Toronto / remote US or Canada; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Own product features for an autism-care platform across web, mobile and backend. Requires at least one year, practical frontend and backend fundamentals, and independent delivery. The listed stack includes React, React Native, Node and TypeScript, with Firebase and Google Cloud.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-finni-health-ph1y4dp",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-finni-health-ph1y4dp-r1",
+          "text": "At least one year and end-to-end feature ownership",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-finni-health-ph1y4dp-r2",
+          "text": "JavaScript frontend and backend fundamentals",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-finni-health-ph1y4dp-r3",
+          "text": "Relocation to an advertised country; remote is US/Canada",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.finnihealth.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "yc-finni-health-ph1y4dp-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+            "text": "Own product features for an autism-care platform across web, mobile and backend. Requires at least one year, practical frontend and backend fundamentals, and independent delivery. The listed stack includes React, React Native, Node and TypeScript, with Firebase and Google Cloud.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-finni-health-ph1y4dp-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-05-02T18:33:36Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:06.408474Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:06.408474Z",
+        "publishedAt": "2025-05-02T18:33:36Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React Native apps, React/Next/Node/TypeScript product delivery and healthcare analytics experience."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Firebase/Google Cloud not evidenced; healthcare domain and relocation terms; remote Pakistan not advertised."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-empirical-health-nzfqwlw",
+      "company": "Empirical Health",
+      "title": "Design Engineer",
+      "url": "https://www.ycombinator.com/companies/empirical-health/jobs/nZFQWLW-design-engineer",
+      "location": "New York City, five days onsite; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Create healthcare interfaces and data visualizations across React and React Native. The role combines interaction design, usability, implementation and testing, with at least three years of relevant experience. Prior healthcare experience is optional; New York office attendance is expected.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-empirical-health-nzfqwlw",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-empirical-health-nzfqwlw-r1",
+          "text": "Three years of product engineering/design experience",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-empirical-health-nzfqwlw-r2",
+          "text": "React/React Native and strong interaction design",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-empirical-health-nzfqwlw-r3",
+          "text": "Testing and full-time New York office presence",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://empirical.health",
+        "contacts": [
+          {
+            "id": "yc-empirical-health-nzfqwlw-person-1",
+            "name": "Brandon Ballinger",
+            "role": "Co-founder",
+            "profileUrl": "https://linkedin.com/in/brandonballinger",
+            "sourceUrl": "https://www.ycombinator.com/companies/empirical-health/jobs/nZFQWLW-design-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-empirical-health-nzfqwlw-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/empirical-health/jobs/nZFQWLW-design-engineer",
+            "text": "Create healthcare interfaces and data visualizations across React and React Native. The role combines interaction design, usability, implementation and testing, with at least three years of relevant experience. Prior healthcare experience is optional; New York office attendance is expected.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-empirical-health-nzfqwlw-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/empirical-health/jobs/nZFQWLW-design-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-02-11T20:33:50Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:06.425723Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:06.425723Z",
+        "publishedAt": "2025-02-11T20:33:50Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React Native shipped apps, frontend UI delivery, Joinillume healthcare analytics and D3/Chart.js."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Interaction-design portfolio and usability decisions need evidence; full-time onsite preference and visa feasibility."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-clearest-health-9jzovps",
+      "company": "Clearest Health",
+      "title": "Senior Software Engineer",
+      "url": "https://www.ycombinator.com/companies/clearest-health/jobs/9JzoVPS-founding-engineer",
+      "location": "New York City; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Own a healthcare-payments platform with a rapid path toward engineering leadership. The current role asks for four years and full-stack ownership, then substantial AI dispute-processing, data pipelines and architecture leadership. React and Node are relevant, while Go, AWS, compliance and hiring enlarge the scope.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-clearest-health-9jzovps",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-clearest-health-9jzovps-r1",
+          "text": "Four years and end-to-end full-stack ownership",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-clearest-health-9jzovps-r2",
+          "text": "Data-heavy product architecture and AI workflows",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-clearest-health-9jzovps-r3",
+          "text": "Team building and CTO-level responsibility within the first months",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://clearesthealth.com/",
+        "contacts": [
+          {
+            "id": "yc-clearest-health-9jzovps-person-1",
+            "name": "Nicolas Raga",
+            "role": "Founder / CEO",
+            "profileUrl": "https://www.linkedin.com/in/nraga",
+            "sourceUrl": "https://www.ycombinator.com/companies/clearest-health/jobs/9JzoVPS-founding-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-clearest-health-9jzovps-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/clearest-health/jobs/9JzoVPS-founding-engineer",
+            "text": "Own a healthcare-payments platform with a rapid path toward engineering leadership. The current role asks for four years and full-stack ownership, then substantial AI dispute-processing, data pipelines and architecture leadership. React and Node are relevant, while Go, AWS, compliance and hiring enlarge the scope.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-clearest-health-9jzovps-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/clearest-health/jobs/9JzoVPS-founding-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2024-10-14T16:00:31Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:06.636773Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:06.636773Z",
+        "publishedAt": "2024-10-14T16:00:31Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Node/TypeScript, healthcare analytics, AI integration and product ownership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "CTO/team management, large data pipelines, Go/AWS and HIPAA architecture are not established. Current title changed from cached Founding Engineer."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "stretch_review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-simple-ai-byegx5m",
+      "company": "Simple AI",
+      "title": "Founding Software Engineer",
+      "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+      "location": "San Francisco, onsite; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Join a small voice-AI team building customer-facing systems and helping customers implement them. Requires two years, strong problem solving, product judgment, communication and self-directed work. React, TypeScript, Python, Rails, cloud and prior LLM experience are explicitly optional advantages.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-simple-ai-byegx5m",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-simple-ai-byegx5m-r1",
+          "text": "Two years and independent full-stack problem solving",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-simple-ai-byegx5m-r2",
+          "text": "Customer communication and product prioritization",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-simple-ai-byegx5m-r3",
+          "text": "Interest in AI and San Francisco onsite work",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.usesimple.ai",
+        "contacts": [
+          {
+            "id": "yc-simple-ai-byegx5m-person-1",
+            "name": "Zach Kamran",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/zach-kamran/",
+            "sourceUrl": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          },
+          {
+            "id": "yc-simple-ai-byegx5m-person-2",
+            "name": "Catheryn Li",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/catherynli/",
+            "sourceUrl": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-simple-ai-byegx5m-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "text": "Join a small voice-AI team building customer-facing systems and helping customers implement them. Requires two years, strong problem solving, product judgment, communication and self-directed work. React, TypeScript, Python, Rails, cloud and prior LLM experience are explicitly optional advantages.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-simple-ai-byegx5m-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-03-19T19:06:27Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:07.026700Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:07.026700Z",
+        "publishedAt": "2025-03-19T19:06:27Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/TypeScript, production AI integrations, customer product ownership and startup shipping."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Voice evaluation/deployment depth; required in-person relocation and visa feasibility. Python/Rails/AWS are not claimed."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-david-ai-nbfcaze",
+      "company": "David AI",
+      "title": "Product Engineer",
+      "url": "https://www.ycombinator.com/companies/david-ai/jobs/nBFCaze-product-engineer",
+      "location": "San Francisco; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Build internal and customer-facing products for audio data operations. Requires two years of product engineering, fast prototypes, polished production delivery and direct customer understanding. React/Next, TypeScript and Node appear in the stack; previous AI or audio expertise is not required.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-david-ai-nbfcaze",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-david-ai-nbfcaze-r1",
+          "text": "Two years of full-stack product engineering",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-david-ai-nbfcaze-r2",
+          "text": "Rapid prototypes with production-quality interfaces",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-david-ai-nbfcaze-r3",
+          "text": "Customer understanding and San Francisco work",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.withdavid.ai/",
+        "contacts": [
+          {
+            "id": "yc-david-ai-nbfcaze-person-1",
+            "name": "Tomer Cohen",
+            "role": "Co-founder / CEO",
+            "profileUrl": "https://www.linkedin.com/in/cohen-tomer/",
+            "sourceUrl": "https://www.ycombinator.com/companies/david-ai/jobs/nBFCaze-product-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          },
+          {
+            "id": "yc-david-ai-nbfcaze-person-2",
+            "name": "Ben Wiley",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/benwileymn",
+            "sourceUrl": "https://www.ycombinator.com/companies/david-ai/jobs/nBFCaze-product-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-david-ai-nbfcaze-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/david-ai/jobs/nBFCaze-product-engineer",
+            "text": "Build internal and customer-facing products for audio data operations. Requires two years of product engineering, fast prototypes, polished production delivery and direct customer understanding. React/Next, TypeScript and Node appear in the stack; previous AI or audio expertise is not required.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-david-ai-nbfcaze-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/david-ai/jobs/nBFCaze-product-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2024-11-07T23:10:45Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:06.965949Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:06.965949Z",
+        "publishedAt": "2024-11-07T23:10:45Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Next/React/Node/TypeScript, AI APIs, product launches and frontend polish."
+        ],
+        "candidateGapsOrUnknowns": [
+          "PostgreSQL, audio/WebRTC infrastructure and scale; relocation and visa feasibility."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-circleback-celqqko",
+      "company": "Circleback",
+      "title": "Design Engineer",
+      "url": "https://www.ycombinator.com/companies/circleback/jobs/cELqQKO-design-engineer",
+      "location": "San Francisco; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Translate product ideas and design systems into polished AI meeting interfaces. The role combines Figma and interaction design with React/Next, data tables, charts and reusable components. It also spans desktop and mobile surfaces and expects effective use of AI coding tools.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-circleback-celqqko",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-circleback-celqqko-r1",
+          "text": "Three years and exceptional interface/design judgment",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-circleback-celqqko-r2",
+          "text": "Figma-to-code, design systems and React/Next",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-circleback-celqqko-r3",
+          "text": "Polished interaction details across web and mobile",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.circleback.ai/",
+        "contacts": [
+          {
+            "id": "yc-circleback-celqqko-person-1",
+            "name": "Ali Haghani",
+            "role": "Co-founder / CEO",
+            "profileUrl": "https://linkedin.com/in/alihaghani",
+            "sourceUrl": "https://www.ycombinator.com/companies/circleback/jobs/cELqQKO-design-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          },
+          {
+            "id": "yc-circleback-celqqko-person-2",
+            "name": "Kevin Jacyna",
+            "role": "Co-founder / CPO",
+            "profileUrl": "https://linkedin.com/in/kevinjacyna",
+            "sourceUrl": "https://www.ycombinator.com/companies/circleback/jobs/cELqQKO-design-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-circleback-celqqko-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/circleback/jobs/cELqQKO-design-engineer",
+            "text": "Translate product ideas and design systems into polished AI meeting interfaces. The role combines Figma and interaction design with React/Next, data tables, charts and reusable components. It also spans desktop and mobile surfaces and expects effective use of AI coding tools.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-circleback-celqqko-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/circleback/jobs/cELqQKO-design-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2026-04-03T17:41:57Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:07.302004Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:07.302004Z",
+        "publishedAt": "2026-04-03T17:41:57Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next, React Native, reusable components and analytics UI."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Exceptional visual-design portfolio, Figma proficiency and cross-platform design-system ownership need confirmation."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "adjacent_review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-readily-vrusoy7",
+      "company": "Readily",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://www.ycombinator.com/companies/readily/jobs/vrUSOY7-senior-full-stack-engineer",
+      "location": "San Francisco; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Build an AI product from customer conversations through shipped frontend and backend features. The role asks for three years, product ownership and practical full-stack engineering. React, Node or Python, PostgreSQL and AI integrations form the technical scope.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-readily-vrusoy7",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-readily-vrusoy7-r1",
+          "text": "Three years of full-stack product delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-readily-vrusoy7-r2",
+          "text": "React and backend development using Node or Python",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-readily-vrusoy7-r3",
+          "text": "Customer discovery, SQL and independent delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://readily.ai",
+        "contacts": [
+          {
+            "id": "yc-readily-vrusoy7-person-1",
+            "name": "Edward Tiong",
+            "role": "Co-founder",
+            "profileUrl": "https://linkedin.com/in/edwardtiong",
+            "sourceUrl": "https://www.ycombinator.com/companies/readily/jobs/vrUSOY7-senior-full-stack-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-readily-vrusoy7-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/readily/jobs/vrUSOY7-senior-full-stack-engineer",
+            "text": "Build an AI product from customer conversations through shipped frontend and backend features. The role asks for three years, product ownership and practical full-stack engineering. React, Node or Python, PostgreSQL and AI integrations form the technical scope.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-readily-vrusoy7-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/readily/jobs/vrUSOY7-senior-full-stack-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2026-03-24T06:54:48Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:07.261791Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:07.261791Z",
+        "publishedAt": "2026-03-24T06:54:48Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Node/TypeScript, AI integration, customer workflows and product ownership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "PostgreSQL depth, customer-discovery examples and relocation feasibility; no Python claim."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-demodesk-dbgjyijba",
+      "company": "Demodesk",
+      "title": "Full-Stack Engineer in Assistant Team",
+      "url": "https://www.ycombinator.com/companies/demodesk/jobs/dbgjyIjba-full-stack-engineer-in-assistant-team",
+      "location": "Munich / remote; sponsorship advertised",
+      "salary": "Not disclosed",
+      "description": "Build sales-assistant interfaces and integrations in a mixed frontend/backend role. Three years, commercial product work, testing and high-quality delivery are requested. Node backend and React experience are accepted, but the team primarily uses Rails and Vue and also asks for Ruby or Python fundamentals.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-demodesk-dbgjyijba",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-demodesk-dbgjyijba-r1",
+          "text": "Three years of commercial full-stack web development",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-demodesk-dbgjyijba-r2",
+          "text": "Frontend testing and structured code review",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-demodesk-dbgjyijba-r3",
+          "text": "Dynamic-language fundamentals; Node/React accepted with framework learning",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://demodesk.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "yc-demodesk-dbgjyijba-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/demodesk/jobs/dbgjyIjba-full-stack-engineer-in-assistant-team",
+            "text": "Build sales-assistant interfaces and integrations in a mixed frontend/backend role. Three years, commercial product work, testing and high-quality delivery are requested. Node backend and React experience are accepted, but the team primarily uses Rails and Vue and also asks for Ruby or Python fundamentals.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-demodesk-dbgjyijba-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/demodesk/jobs/dbgjyIjba-full-stack-engineer-in-assistant-team",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2020-10-27T13:47:48Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:07.212906Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:07.212906Z",
+        "publishedAt": "2020-10-27T13:47:48Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Node, real-time messaging, CRM integrations and remote product collaboration."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Ruby/Python fundamentals not established; requisition originally dated 2020; current headcount and Pakistan contract terms need clarification."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "hold_current_headcount_and_stack",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "yc-agave-unmv0mv",
+      "company": "Agave",
+      "title": "Full-Stack Software Engineer",
+      "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+      "location": "San Francisco / remote US; sponsorship and relocation advertised",
+      "salary": "Not disclosed",
+      "description": "Build integrations and product features for construction financial operations. The role targets early-career full-stack or backend engineers and requires cloud familiarity. TypeScript, React, Redis and PostgreSQL are used, but previous experience with that stack is not required. Visa and relocation support are explicitly offered.",
+      "source": "YC — employer job listing",
+      "sourceId": "yc-agave-unmv0mv",
+      "discoveredAt": "2026-10-15T15:28:05.600669Z",
+      "updatedAt": "2026-10-15T15:28:05.600669Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "requirements": [
+        {
+          "id": "yc-agave-unmv0mv-r1",
+          "text": "Backend/full-stack experience, ideally one to four years",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-agave-unmv0mv-r2",
+          "text": "Familiarity with cloud infrastructure",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "yc-agave-unmv0mv-r3",
+          "text": "Product/API integration ownership and advertised-country work",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.useagave.com",
+        "contacts": [
+          {
+            "id": "yc-agave-unmv0mv-person-1",
+            "name": "Pooria Azimi",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/pooria-azimi/",
+            "sourceUrl": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          },
+          {
+            "id": "yc-agave-unmv0mv-person-2",
+            "name": "Tom Reno",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/tomreno/",
+            "sourceUrl": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-agave-unmv0mv-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "text": "Build integrations and product features for construction financial operations. The role targets early-career full-stack or backend engineers and requires cloud familiarity. TypeScript, React, Redis and PostgreSQL are used, but previous experience with that stack is not required. Visa and relocation support are explicitly offered.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-agave-unmv0mv-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-06-25T18:43:05Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:07.498460Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:21:07.498460Z",
+        "publishedAt": "2025-06-25T18:43:05Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Node integrations, Stripe, Redis, backend product delivery, Vercel/DigitalOcean deployments."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Cloud architecture depth, on-prem systems and PostgreSQL; remote Pakistan not established; visa eligibility unconfirmed."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200
+      }
+    }
+  ],
+  "excludedOrDeferred": [
+    {
+      "company": "Relari",
+      "url": "https://www.ycombinator.com/companies/relari/jobs/MWXDJx2-frontend-engineer",
+      "reason": "Current employer page returned HTTP 404 despite indexed cached description."
+    },
+    {
+      "company": "Prohost AI / Zip Frontend",
+      "reason": "Mandatory degree or incompatible US-work-authorization restrictions."
+    },
+    {
+      "company": "Guac / Campfire / Mem0 / Superset",
+      "reason": "Essential Python, tenure or specialized agent infrastructure requirements not evidenced."
+    }
+  ]
+}

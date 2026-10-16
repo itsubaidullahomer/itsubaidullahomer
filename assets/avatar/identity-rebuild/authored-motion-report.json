@@ -1,0 +1,216 @@
+{
+  "stage": "Authored motion studies; visual acceptance pending",
+  "fps": 30,
+  "clips": [
+    {
+      "name": "idle_breathe",
+      "duration": 6.8,
+      "keyframes": 69,
+      "bones": 51
+    },
+    {
+      "name": "idle_glance_left",
+      "duration": 7.5,
+      "keyframes": 76,
+      "bones": 51
+    },
+    {
+      "name": "idle_glance_right",
+      "duration": 6.2,
+      "keyframes": 63,
+      "bones": 51
+    },
+    {
+      "name": "idle_shoulders",
+      "duration": 5.8,
+      "keyframes": 59,
+      "bones": 51
+    },
+    {
+      "name": "idle_settle",
+      "duration": 7.8,
+      "keyframes": 79,
+      "bones": 51
+    },
+    {
+      "name": "idle_collar",
+      "duration": 7.2,
+      "keyframes": 73,
+      "bones": 51
+    },
+    {
+      "name": "wave_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "wave_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "open_palm_present_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "open_palm_present_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "welcome_open_arms_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "welcome_open_arms_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "shrug_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "shrug_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "count_on_fingers_1",
+      "duration": 4.5,
+      "keyframes": 46,
+      "bones": 51
+    },
+    {
+      "name": "count_on_fingers_2",
+      "duration": 4.5,
+      "keyframes": 46,
+      "bones": 51
+    },
+    {
+      "name": "beat_small_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "beat_small_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "beat_big_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "beat_big_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "hand_to_chin_1",
+      "duration": 4.5,
+      "keyframes": 46,
+      "bones": 51
+    },
+    {
+      "name": "hand_to_chin_2",
+      "duration": 4.5,
+      "keyframes": 46,
+      "bones": 51
+    },
+    {
+      "name": "arms_crossed_1",
+      "duration": 4.5,
+      "keyframes": 46,
+      "bones": 51
+    },
+    {
+      "name": "arms_crossed_2",
+      "duration": 4.5,
+      "keyframes": 46,
+      "bones": 51
+    },
+    {
+      "name": "thumbs_up_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "thumbs_up_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "nod_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "nod_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "head_shake_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "head_shake_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "head_tilt_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "head_tilt_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "laugh_body_1",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    },
+    {
+      "name": "laugh_body_2",
+      "duration": 3.5,
+      "keyframes": 36,
+      "bones": 51
+    }
+  ],
+  "notes": [
+    "No facial morphs or voice keyed. Runtime facial and speech layers remain independent.",
+    "Six different idles and two variants of all fourteen fixed gestures.",
+    "First/last frames share a relaxed arms-down reference pose. No root translation.",
+    "No dynamics or motion capture; shoulder/hand collisions still require visual review."
+  ]
+}

@@ -1,0 +1,805 @@
+[
+  {
+    "sectionId": "home",
+    "selector": ".hero",
+    "path": "/",
+    "title": "Ubaidullah Omer",
+    "summary": "I build AI products people actually use. AI Product Engineer behind Tututor.ai: eight products on one backend, used by 20k+ students, teachers and families.",
+    "keyFacts": [
+      "AI Product Engineer",
+      "Rahim Yar Khan, Pakistan"
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "work",
+    "selector": "#work",
+    "path": "/",
+    "title": "Selected work",
+    "summary": "Real products, with the decisions and engineering behind them.",
+    "keyFacts": [
+      "Tututor.ai",
+      "Illume",
+      "Viloi",
+      "Ali Foodies"
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "process",
+    "selector": "#process",
+    "path": "/",
+    "title": "Working together",
+    "summary": "Working previews, clear communication, and care beyond launch.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "process-understand",
+    "selector": "#process-understand",
+    "path": "/",
+    "title": "Your product handles the unexpected.",
+    "summary": "I plan for loading, errors and retries, so people know what’s happening and can keep going when something fails.",
+    "keyFacts": [
+      "Recovering from an interrupted AI reply"
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "process-collaborate",
+    "selector": "#process-collaborate",
+    "path": "/",
+    "title": "You see progress as it happens.",
+    "summary": "You get regular updates and working previews. We review the product together and use your feedback to decide what comes next.",
+    "keyFacts": [
+      "Turning your feedback into a working preview"
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "process-ship",
+    "selector": "#process-ship",
+    "path": "/",
+    "title": "You get a product ready for real users.",
+    "summary": "I test the important flows, check performance and handle deployment, so the product works beyond the demo.",
+    "keyFacts": [
+      "Checking the essentials before launch"
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "process-care",
+    "selector": "#process-care",
+    "path": "/",
+    "title": "You have support after launch.",
+    "summary": "After launch, I help improve the flows people use every day, with attention to feedback, real devices and changing needs.",
+    "keyFacts": [
+      "Improving the everyday experience on mobile"
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "services",
+    "selector": "#services",
+    "path": "/",
+    "title": "One engineer. The whole product.",
+    "summary": "Bring me an idea, a difficult feature, or a product that needs a fresh start.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "service-ai",
+    "selector": "#services .service-tile:nth-child(1)",
+    "path": "/",
+    "title": "AI features, end to end.",
+    "summary": "The model, the streaming, the failures. All the parts that make it work.",
+    "keyFacts": [],
+    "kind": "service"
+  },
+  {
+    "sectionId": "service-web",
+    "selector": "#services .service-tile:nth-child(2)",
+    "path": "/",
+    "title": "Full-stack web apps.",
+    "summary": "A solid data model. An interface that makes sense. Built to grow.",
+    "keyFacts": [],
+    "kind": "service"
+  },
+  {
+    "sectionId": "service-mobile",
+    "selector": "#services .service-tile:nth-child(3)",
+    "path": "/",
+    "title": "Mobile apps.",
+    "summary": "React Native and native apps, from the first screen to the stores.",
+    "keyFacts": [],
+    "kind": "service"
+  },
+  {
+    "sectionId": "service-landing",
+    "selector": "#services .service-tile:nth-child(4)",
+    "path": "/",
+    "title": "Landing pages with life.",
+    "summary": "Clear copy, considered motion, and the performance to match.",
+    "keyFacts": [],
+    "kind": "service"
+  },
+  {
+    "sectionId": "service-voice",
+    "selector": "#services .service-tile:nth-child(5)",
+    "path": "/",
+    "title": "Voice & calling agents.",
+    "summary": "Conversations that handle pauses, interruptions and the real world.",
+    "keyFacts": [],
+    "kind": "service"
+  },
+  {
+    "sectionId": "service-rescue",
+    "selector": "#services .service-tile:nth-child(6)",
+    "path": "/",
+    "title": "Rescue & rebuild.",
+    "summary": "Untangle the fragile parts. Keep what works. Ship what’s next.",
+    "keyFacts": [],
+    "kind": "service"
+  },
+  {
+    "sectionId": "experience",
+    "selector": ".experience-list",
+    "path": "/",
+    "title": "Experience",
+    "summary": "Four years of building, learning, and taking on the next hard thing.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "experience-1",
+    "selector": ".experience-item:nth-child(1)",
+    "path": "/",
+    "title": "Tututor.ai / EduNova",
+    "summary": "One bug fix became three rebuilds, eight products, and a platform used by 20k+ students, teachers and families.",
+    "keyFacts": [
+      "Lead Engineer",
+      "Nov 2023 — Present",
+      "Murcia, Spain · Remote",
+      "Designed an Express and MongoDB backend with ~1,000 endpoints on ~90 models. Moved every AI call and API key off the client.",
+      "Built school-scoped data, Socket.io + Redis messaging, R2 storage, Stripe and SEPA billing. Golden-tested the Plumier XXI export: 1,833 of 1,833 matched.",
+      "Shipped three React Native apps to both stores. Started a Kotlin Multiplatform core with SwiftUI and Jetpack Compose.",
+      "Led three app developers and a couple of web developers. Taught the founder to code; today the two of us run the product."
+    ],
+    "kind": "experience"
+  },
+  {
+    "sectionId": "experience-2",
+    "selector": ".experience-item:nth-child(2)",
+    "path": "/",
+    "title": "Danzee Tech",
+    "summary": "Joined as a junior. Became the person the team handed new features to, from shared frontend components to auth and payments.",
+    "keyFacts": [
+      "React Developer",
+      "Jan 2022 — Jan 2024",
+      "Viby, Denmark · Remote",
+      "Built the reusable component and hooks library used across new screens.",
+      "Shipped Jurri’s file uploads, unified inbox and password vault. Cut initial load by about 40% with code splitting and lazy loading.",
+      "Fixed query and indexing hotspots, and built Node and Express integrations."
+    ],
+    "kind": "experience"
+  },
+  {
+    "sectionId": "pricing",
+    "selector": ".pricing-grid",
+    "path": "/",
+    "title": "Scope and pricing",
+    "summary": "Scope first, quote second. Fixed scope and clear milestones; prices depend on the agreed work.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "pricing-1",
+    "selector": ".price-card:nth-child(1)",
+    "path": "/",
+    "title": "Landing page",
+    "summary": "A clear story. A fast page. Details that feel considered.",
+    "keyFacts": [
+      "Design and development",
+      "Responsive layouts and motion",
+      "SEO and deployment",
+      "No fixed starting price published."
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "pricing-2",
+    "selector": ".price-card:nth-child(2)",
+    "path": "/",
+    "title": "Product build",
+    "summary": "From the first data model to the feature your customers use.",
+    "keyFacts": [
+      "Full-stack product engineering",
+      "AI, payments and integrations",
+      "Production handoff",
+      "No fixed starting price published."
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "pricing-3",
+    "selector": ".price-card:nth-child(3)",
+    "path": "/",
+    "title": "Ongoing engineering",
+    "summary": "An engineer who knows the product and keeps moving it forward.",
+    "keyFacts": [
+      "Features and product iterations",
+      "Performance and reliability",
+      "A direct working relationship",
+      "No fixed starting price published."
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "faq",
+    "selector": ".faq-section",
+    "path": "/",
+    "title": "Frequently asked questions",
+    "summary": "Tools, remote work, communication, timescales, support and payments.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "faq-1",
+    "selector": ".faq-item:nth-child(1)",
+    "path": "/",
+    "title": "What do you build with?",
+    "summary": "Usually React, Next.js and TypeScript on the frontend; Node, Express and MongoDB on the backend. For AI, I use OpenAI, Claude, Gemini and ElevenLabs according to the job. Mobile work spans React Native and native interfaces.",
+    "keyFacts": [],
+    "kind": "faq"
+  },
+  {
+    "sectionId": "faq-2",
+    "selector": ".faq-item:nth-child(2)",
+    "path": "/",
+    "title": "Can you work with a team in Europe or the US?",
+    "summary": "I’m in Pakistan, UTC+5, and already work remotely with teams in Spain and Denmark. We can agree on overlap with your working day, including US hours, before we start.",
+    "keyFacts": [],
+    "kind": "faq"
+  },
+  {
+    "sectionId": "faq-3",
+    "selector": ".faq-item:nth-child(3)",
+    "path": "/",
+    "title": "How will we stay in touch?",
+    "summary": "Directly with me. We’ll agree on a shared channel, keep decisions in writing, and review working previews as the project develops.",
+    "keyFacts": [],
+    "kind": "faq"
+  },
+  {
+    "sectionId": "faq-4",
+    "selector": ".faq-item:nth-child(4)",
+    "path": "/",
+    "title": "How long does a project take?",
+    "summary": "That depends on the scope and the state of the existing product. Send me what you have and what needs to change; I’ll propose milestones before we commit to a timeline.",
+    "keyFacts": [],
+    "kind": "faq"
+  },
+  {
+    "sectionId": "faq-5",
+    "selector": ".faq-item:nth-child(5)",
+    "path": "/",
+    "title": "Can you take over an existing app?",
+    "summary": "Yes. I’ve rebuilt Tututor three times and worked through migrations, slow APIs and fragile AI flows. I start by understanding what already works and where the real constraints are.",
+    "keyFacts": [],
+    "kind": "faq"
+  },
+  {
+    "sectionId": "faq-6",
+    "selector": ".faq-item:nth-child(6)",
+    "path": "/",
+    "title": "What happens after launch?",
+    "summary": "We can include handoff, documentation and a defined support period in the scope, or work together on ongoing engineering. We’ll agree on this before the build.",
+    "keyFacts": [],
+    "kind": "faq"
+  },
+  {
+    "sectionId": "faq-7",
+    "selector": ".faq-item:nth-child(7)",
+    "path": "/",
+    "title": "How do pricing and payments work?",
+    "summary": "I quote against an agreed scope. Payment milestones and any ongoing work are agreed before we start. If the scope changes, we discuss the effect on cost and timing first.",
+    "keyFacts": [],
+    "kind": "faq"
+  },
+  {
+    "sectionId": "contact",
+    "selector": ".contact-grid",
+    "path": "/contact",
+    "title": "Contact Ubaid",
+    "summary": "Tell me what you’re building. We can talk through the problem and the scope.",
+    "keyFacts": [
+      "itsubaidullahomer@gmail.com",
+      "Rahim Yar Khan, Pakistan",
+      "UTC+5",
+      "Remote work with teams in Europe and beyond."
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "about",
+    "selector": ".about-grid",
+    "path": "/about",
+    "title": "About Ubaid",
+    "summary": "I’m a self-taught AI Product Engineer based in Rahim Yar Khan, Pakistan.",
+    "keyFacts": [
+      "Started at Danzee Tech in 2022.",
+      "Lead engineer behind Tututor.ai."
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "principles",
+    "selector": ".principles",
+    "path": "/about",
+    "title": "Engineering principles",
+    "summary": "I care about reliability, design, speed, and the work around an AI model.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "principle-1",
+    "selector": ".principles > article:nth-child(1)",
+    "path": "/about",
+    "title": "Ship it. Then keep it running.",
+    "summary": "A demo is a beginning. I care about the version people depend on six months later.",
+    "keyFacts": [],
+    "kind": "principle"
+  },
+  {
+    "sectionId": "principle-2",
+    "selector": ".principles > article:nth-child(2)",
+    "path": "/about",
+    "title": "The prompt is rarely the hard part.",
+    "summary": "Streaming, data models, failure modes, latency. That is where an AI feature becomes a product.",
+    "keyFacts": [],
+    "kind": "principle"
+  },
+  {
+    "sectionId": "principle-3",
+    "selector": ".principles > article:nth-child(3)",
+    "path": "/about",
+    "title": "Design is part of the job.",
+    "summary": "I think through the flow before I reach for a component. A useful feature should feel obvious.",
+    "keyFacts": [],
+    "kind": "principle"
+  },
+  {
+    "sectionId": "principle-4",
+    "selector": ".principles > article:nth-child(4)",
+    "path": "/about",
+    "title": "Speed is part of the product.",
+    "summary": "The bundle, the query, the layout shift. People feel all of them, even when they cannot name them.",
+    "keyFacts": [],
+    "kind": "principle"
+  },
+  {
+    "sectionId": "skills",
+    "selector": ".stack-list",
+    "path": "/about",
+    "title": "Tools and skills",
+    "summary": "The product decides what belongs in the stack.",
+    "keyFacts": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redis",
+      "Postgres",
+      "React Native",
+      "Kotlin Multiplatform",
+      "SwiftUI",
+      "OpenAI",
+      "Claude",
+      "Gemini",
+      "ElevenLabs",
+      "Stripe"
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "skill-1",
+    "selector": ".stack-list > span:nth-child(1)",
+    "path": "/about",
+    "title": "React",
+    "summary": "React is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-2",
+    "selector": ".stack-list > span:nth-child(2)",
+    "path": "/about",
+    "title": "Next.js",
+    "summary": "Next.js is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-3",
+    "selector": ".stack-list > span:nth-child(3)",
+    "path": "/about",
+    "title": "TypeScript",
+    "summary": "TypeScript is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-4",
+    "selector": ".stack-list > span:nth-child(4)",
+    "path": "/about",
+    "title": "Node.js",
+    "summary": "Node.js is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-5",
+    "selector": ".stack-list > span:nth-child(5)",
+    "path": "/about",
+    "title": "Express",
+    "summary": "Express is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-6",
+    "selector": ".stack-list > span:nth-child(6)",
+    "path": "/about",
+    "title": "MongoDB",
+    "summary": "MongoDB is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-7",
+    "selector": ".stack-list > span:nth-child(7)",
+    "path": "/about",
+    "title": "Redis",
+    "summary": "Redis is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-8",
+    "selector": ".stack-list > span:nth-child(8)",
+    "path": "/about",
+    "title": "Postgres",
+    "summary": "Postgres is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-9",
+    "selector": ".stack-list > span:nth-child(9)",
+    "path": "/about",
+    "title": "React Native",
+    "summary": "React Native is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-10",
+    "selector": ".stack-list > span:nth-child(10)",
+    "path": "/about",
+    "title": "Kotlin Multiplatform",
+    "summary": "Kotlin Multiplatform is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-11",
+    "selector": ".stack-list > span:nth-child(11)",
+    "path": "/about",
+    "title": "SwiftUI",
+    "summary": "SwiftUI is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-12",
+    "selector": ".stack-list > span:nth-child(12)",
+    "path": "/about",
+    "title": "OpenAI",
+    "summary": "OpenAI is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-13",
+    "selector": ".stack-list > span:nth-child(13)",
+    "path": "/about",
+    "title": "Claude",
+    "summary": "Claude is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-14",
+    "selector": ".stack-list > span:nth-child(14)",
+    "path": "/about",
+    "title": "Gemini",
+    "summary": "Gemini is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-15",
+    "selector": ".stack-list > span:nth-child(15)",
+    "path": "/about",
+    "title": "ElevenLabs",
+    "summary": "ElevenLabs is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "skill-16",
+    "selector": ".stack-list > span:nth-child(16)",
+    "path": "/about",
+    "title": "Stripe",
+    "summary": "Stripe is part of my published toolset.",
+    "keyFacts": [],
+    "kind": "skill"
+  },
+  {
+    "sectionId": "project-tututor",
+    "selector": "#project-tututor",
+    "path": "/",
+    "title": "Tututor.ai",
+    "summary": "I helped an AI teaching tool grow into a school platform by bringing eight products onto one shared backend and AI into teachers’ everyday work. Now used by 20k+ students, teachers and families.",
+    "keyFacts": [
+      "Lead engineer, from first rebuild to today",
+      "Nov 2023 – Present",
+      "Status: Live",
+      "React",
+      "Redux Toolkit / RTK Query",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.io + Redis",
+      "React Native",
+      "Kotlin Multiplatform",
+      "SwiftUI",
+      "OpenAI",
+      "Claude",
+      "Gemini",
+      "Stripe",
+      "Cloudflare R2",
+      "Firebase Cloud Messaging"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "project-insight-x",
+    "selector": "#project-insight-x",
+    "path": "/",
+    "title": "Illume",
+    "summary": "I built adaptive dashboards that turn MedSpa booking data into useful business insights, so operators can understand revenue, bookings and retention without writing queries or configuring charts.",
+    "keyFacts": [
+      "Full-Stack Engineer (part-time)",
+      "Dec 2024 – Jun 2025",
+      "Status: Live",
+      "React",
+      "Tailwind CSS",
+      "Chart.js",
+      "D3.js",
+      "OpenAI API",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "project-ai-humanizer",
+    "selector": "#project-ai-humanizer",
+    "path": "/",
+    "title": "Viloi",
+    "summary": "I built Viloi from the writing experience through to subscription billing, using model fallbacks to handle varied AI output and automated billing to support a product with paying customers.",
+    "keyFacts": [
+      "Full-Stack Engineer",
+      "Side project",
+      "Status: Live",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "OpenAI",
+      "Anthropic",
+      "Gemini",
+      "Stripe",
+      "JWT"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "project-ali-foodies",
+    "selector": "#project-ali-foodies",
+    "path": "/",
+    "title": "Ali Foodies",
+    "summary": "A small website rebuild that brings product design, UX, and development together through thoughtful decisions about the customer experience.",
+    "keyFacts": [
+      "Product design, UX & development",
+      "2026 – present",
+      "Status: Building"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "project-jurri",
+    "selector": ".archive-link[href=\"/work/jurri\"]",
+    "path": "/work",
+    "title": "Jurri",
+    "summary": "I brought files, email and a password vault into a consistent frontend, with shared components that made new screens easier for the team to build and familiar for people to use.",
+    "keyFacts": [
+      "Frontend Engineer",
+      "Sep 2023 – Apr 2024",
+      "Status: Live",
+      "React",
+      "Redux Toolkit",
+      "RTK Query",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "project-yaksport",
+    "selector": ".archive-link[href=\"/work/yaksport\"]",
+    "path": "/work",
+    "title": "Yaksport",
+    "summary": "I built the search and booking experience around how sports clubs compare camps, keeping their choices intact as they explore options. The platform serves over 100 clubs in Danish and English.",
+    "keyFacts": [
+      "Frontend Engineer",
+      "Jan 2023 – Aug 2023",
+      "Status: Live",
+      "React",
+      "Tailwind CSS",
+      "i18next",
+      "React Router",
+      "REST APIs"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "project-crown-kabab",
+    "selector": ".archive-link[href=\"/work/crown-kabab\"]",
+    "path": "/work",
+    "title": "Crown Kabab",
+    "summary": "I built a direct ordering experience that connects the customer’s cart, payment and order status, giving the restaurant its own sales channel and customers a clear path from choosing food to tracking it.",
+    "keyFacts": [
+      "Full-Stack Engineer",
+      "Nov 2022 – May 2023",
+      "Status: Shipped",
+      "React",
+      "Redux Toolkit",
+      "RTK Query",
+      "Stripe",
+      "Google OAuth",
+      "i18next"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "project-animated-landing",
+    "selector": ".archive-link[href=\"/work/animated-landing\"]",
+    "path": "/work",
+    "title": "Animated Landing",
+    "summary": "I explored how motion could give a landing page character while keeping it responsive, choosing animation techniques around a performance budget and checking their cost as I built.",
+    "keyFacts": [
+      "Frontend Engineer",
+      "Side project",
+      "Status: Shipped",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "GSAP"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "project-toolkitjar",
+    "selector": ".archive-link[href=\"/work/toolkitjar\"]",
+    "path": "/work",
+    "title": "ToolkitJar",
+    "summary": "I made everyday text, code and image tasks quick to find and private to use, with free tools grouped by purpose and processing kept in the browser so content doesn’t need to be uploaded.",
+    "keyFacts": [
+      "Developer",
+      "Side project",
+      "Status: Live"
+    ],
+    "kind": "project"
+  },
+  {
+    "sectionId": "experiments",
+    "selector": ".experiment-index",
+    "path": "/playground",
+    "title": "Experiments",
+    "summary": "Interactive browser experiments in streaming, interruptions, and system architecture.",
+    "keyFacts": [
+      "These experiments run locally in the browser."
+    ],
+    "kind": "section"
+  },
+  {
+    "sectionId": "streaming-lab",
+    "selector": "#streaming-lab",
+    "path": "/playground",
+    "title": "Break a stream",
+    "summary": "Explore latency and recovery from interrupted streaming.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "voice-lab",
+    "selector": "#voice-lab",
+    "path": "/playground",
+    "title": "Interrupt a call",
+    "summary": "Explore voice interruptions and turn-taking in a browser simulation.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "architecture-lab",
+    "selector": "#architecture-lab",
+    "path": "/playground",
+    "title": "Follow a request",
+    "summary": "Explore how a request moves through a system.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "writing",
+    "selector": ".writing-list",
+    "path": "/writing",
+    "title": "Writing",
+    "summary": "Notes from building AI products, teaching clients and maintaining software.",
+    "keyFacts": [],
+    "kind": "section"
+  },
+  {
+    "sectionId": "writing-i-taught-my-client-to-code",
+    "selector": ".post-link[href=\"/writing/i-taught-my-client-to-code\"]",
+    "path": "/writing",
+    "title": "I taught my client to code",
+    "summary": "He started by translating three strings. Two years later he ships whole features, and some months he commits more than I do. Why I'd do it again.",
+    "keyFacts": [
+      "Published: 2026-09-28"
+    ],
+    "kind": "writing"
+  },
+  {
+    "sectionId": "writing-shipping-ai-features-to-real-users",
+    "selector": ".post-link[href=\"/writing/shipping-ai-features-to-real-users\"]",
+    "path": "/writing",
+    "title": "Shipping AI features to real users",
+    "summary": "Notes from a year of putting AI into a platform 17,000 people use. Most of the work had nothing to do with the model.",
+    "keyFacts": [
+      "Published: 2026-04-22"
+    ],
+    "kind": "writing"
+  },
+  {
+    "sectionId": "now",
+    "selector": ".now-grid",
+    "path": "/now",
+    "title": "What I’m working on",
+    "summary": "The published workbench and learning notes.",
+    "keyFacts": [
+      "Content last updated: 2026-05-13",
+      "Tututor.ai: Scaling past 20k users, mostly on the teacher tools. Making lesson prep boring, in a good way.",
+      "Conversation reviews: Reworking the AI chatbot session model so teachers can review student conversations more efficiently.",
+      "This little corner of the internet: Working out how to explain the work, and making space to experiment.",
+      "Going deeper on streaming and tool use with Anthropic’s API.",
+      "Reading about evals. Getting from “it answered” to “it answered well” is a different problem."
+    ],
+    "kind": "section"
+  }
+]

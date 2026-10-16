@@ -1,0 +1,23 @@
+{
+  "source": "/tmp/ubaid-avatar-tools/hair-candidates/selected/hair/elvs_maxwell_hair",
+  "author": "Elvaerwyn",
+  "license": "CC-BY, version unspecified",
+  "vertices": 765,
+  "triangles": 1468,
+  "bounds": {
+    "x": [
+      -0.09588982909917831,
+      0.09328442811965942
+    ],
+    "y": [
+      -0.1769038736820221,
+      0.05662541836500168
+    ],
+    "z": [
+      1.6352782249450684,
+      1.8597644567489624
+    ]
+  },
+  "variant": "base",
+  "accepted": false
+}

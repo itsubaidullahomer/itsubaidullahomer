@@ -1,0 +1,31 @@
+{
+  "bestDenseVisualSource": "fiber-groom-refined-v19.blend",
+  "denseSourceStatus": "Unapproved likeness study; front wave structure still too rolled and combed. v19 improves cap hairline without changing v17 wave geometry.",
+  "rejectedTests": {
+    "refined-v18": "Added frontal locks formed sharp cartoon-like flicks.",
+    "cards-v1-through-v5": "Loss of fiber detail, flat/translucent strip artifacts and coarse short patches; do not integrate.",
+    "true-fibers-v1-v2": "Low budget versions have sparse angular wire crest and exposed smooth cap."
+  },
+  "desktopCandidate": {
+    "source": "fiber-lod/true-fiber-lod-study.blend",
+    "objects": [
+      "Root-stratified true-fiber LOD",
+      "Continuous scalp substrate"
+    ],
+    "renderPrefix": "fiber-lod/true-fibers-v4-",
+    "packedAsset": "fiber-lod/true-fiber-lod-study-packed.glb",
+    "triangles": 177468,
+    "packedBytes": 2423208,
+    "images": 0,
+    "validationErrors": 0,
+    "validationWarnings": 0,
+    "limitations": [
+      "Final production geometry budget exceeded.",
+      "Crest tips remain sparse and too bright relative to dense source.",
+      "Short side hair lacks some dense-source texture.",
+      "Likeness is not approved."
+    ]
+  },
+  "rebuild": "scripts/avatar/refine-groom-study.py uses Blender core, preserved v5 source and exported ear-exclusion.json; active FaceBuilder trial is not required for groom rebuild.",
+  "productionChanged": false
+}

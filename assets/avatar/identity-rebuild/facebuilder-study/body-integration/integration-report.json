@@ -1,0 +1,431 @@
+{
+  "stage": "Isolated integration study, visual acceptance pending",
+  "sourceHead": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/assets/avatar/identity-rebuild/facebuilder-study/anatomy-detailed/head-anatomy-study.blend",
+  "sourceHeadSha256": "0d21c004d2a84954a3e283a9c138081c19f0d7b076108abaf32d9a33d9adb589",
+  "sourceBody": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/assets/avatar/identity-rebuild/identity-rig.blend",
+  "sourceBodySha256": "96c2415060a7196e1758f96c860ff113e6b7084b70a1568132eaccc9804fda65",
+  "uniformScale": 0.11324451401082267,
+  "translationMeters": [
+    -0.00033940842112894555,
+    -0.044665659761868856,
+    1.6793302610215914
+  ],
+  "alignment": "Match existing rig interocular distance, then translate eye midpoint; no head rotation or nonuniform face scaling.",
+  "sourceEyeDistanceNative": 0.5221992207524335,
+  "targetEyeDistanceMeters": 0.059136196970939636,
+  "materialUnitConversions": [
+    {
+      "material": "Plain skin - no photographic color",
+      "sourceSubsurfaceScale": 0.03999999910593033,
+      "meterSubsurfaceScale": 0.004529780242592096
+    }
+  ],
+  "eyeMidpointTargetMeters": [
+    -0.000276162289083004,
+    -0.13283121585845947,
+    1.7159361839294434
+  ],
+  "oldBodyCutPlaneMeters": 1.44,
+  "neckSeam": "Only lower neck (native Z < -1.0) extends up to 65 mm downward and conforms to source torso surface plus 0.35 mm normal offset; full contribution below native Z -1.32. All facial vertices and deltas remain unchanged. Lower edge lies beneath open shirt V. This is an overlap, not a welded final seam.",
+  "lowerNeckAdjustedVertices": 799,
+  "lowerNeckMaximumAdjustmentMeters": 0.07941517326582706,
+  "lowerNeckWeights": "Below native Z -1.14, neck skin smoothly blends to source torso surface weights, fully at -1.38, with normalized maximum four influences. This keeps the extended lower edge attached to chest during head movement.",
+  "headBoundsMeters": {
+    "min": [
+      -0.12308031251564056,
+      -0.18803251618201627,
+      1.4282851970113697
+    ],
+    "max": [
+      0.12065628128812214,
+      0.054841753864201266,
+      1.8293941107635157
+    ]
+  },
+  "removedOldMeshes": [
+    "Ubaid_Teeth",
+    "Ubaid_Tongue",
+    "Ubaid_Brows",
+    "Ubaid_Hair",
+    "Eye.L",
+    "Eye.R"
+  ],
+  "oldBodyVerticesBefore": 31177,
+  "oldBodyVerticesAfter": 13160,
+  "oldFacialTargetsRetainedOnBody": 0,
+  "preservedBodyAnimations": [
+    "idle_breathe",
+    "idle_glance_left",
+    "idle_glance_right",
+    "idle_shoulders",
+    "idle_settle",
+    "idle_collar",
+    "wave_1",
+    "wave_2",
+    "open_palm_present_1",
+    "open_palm_present_2",
+    "welcome_open_arms_1",
+    "welcome_open_arms_2",
+    "shrug_1",
+    "shrug_2",
+    "count_on_fingers_1",
+    "count_on_fingers_2",
+    "beat_small_1",
+    "beat_small_2",
+    "beat_big_1",
+    "beat_big_2",
+    "hand_to_chin_1",
+    "hand_to_chin_2",
+    "arms_crossed_1",
+    "arms_crossed_2",
+    "thumbs_up_1",
+    "thumbs_up_2",
+    "nod_1",
+    "nod_2",
+    "head_shake_1",
+    "head_shake_2",
+    "head_tilt_1",
+    "head_tilt_2",
+    "laugh_body_1",
+    "laugh_body_2"
+  ],
+  "binding": [
+    {
+      "mesh": "Upper wetline.R",
+      "vertices": 68,
+      "groups": [
+        "head"
+      ],
+      "morphs": 66
+    },
+    {
+      "mesh": "Upper wetline.L",
+      "vertices": 68,
+      "groups": [
+        "head"
+      ],
+      "morphs": 66
+    },
+    {
+      "mesh": "Upper tooth 8",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper tooth 7",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper tooth 6",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper tooth 5",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper tooth 4",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper tooth 3",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper tooth 2",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper tooth 1",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper gum",
+      "vertices": 482,
+      "groups": [
+        "head"
+      ],
+      "morphs": 0
+    },
+    {
+      "mesh": "Upper eyelashes.R",
+      "vertices": 153,
+      "groups": [
+        "head"
+      ],
+      "morphs": 66
+    },
+    {
+      "mesh": "Upper eyelashes.L",
+      "vertices": 153,
+      "groups": [
+        "head"
+      ],
+      "morphs": 66
+    },
+    {
+      "mesh": "Ubaid_FaceBuilder_Head_Study",
+      "vertices": 18024,
+      "groups": [
+        "head",
+        "neck03",
+        "neck02",
+        "spine01",
+        "neck01",
+        "spine02",
+        "clavicle.R",
+        "clavicle.L",
+        "shoulder01.R",
+        "breast.R",
+        "upperarm01.R",
+        "breast.L",
+        "shoulder01.L",
+        "upperarm01.L"
+      ],
+      "morphs": 66
+    },
+    {
+      "mesh": "Tongue",
+      "vertices": 482,
+      "groups": [
+        "head"
+      ],
+      "morphs": 20
+    },
+    {
+      "mesh": "Mouth cavity",
+      "vertices": 482,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower tooth 8",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower tooth 7",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower tooth 6",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower tooth 5",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower tooth 4",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower tooth 3",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower tooth 2",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower tooth 1",
+      "vertices": 96,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Lower gum",
+      "vertices": 482,
+      "groups": [
+        "head"
+      ],
+      "morphs": 19
+    },
+    {
+      "mesh": "Eye.R",
+      "vertices": 960,
+      "groups": [
+        "eye.R"
+      ],
+      "morphs": 4
+    },
+    {
+      "mesh": "Eye.L",
+      "vertices": 960,
+      "groups": [
+        "eye.L"
+      ],
+      "morphs": 4
+    }
+  ],
+  "rom": [
+    {
+      "pose": "blink",
+      "maximumDisplacementsMeters": {
+        "Upper wetline.R": 0.010290028640939046,
+        "Upper wetline.L": 0.010289043278313148,
+        "Upper tooth 8": 0.0,
+        "Upper tooth 7": 0.0,
+        "Upper tooth 6": 0.0,
+        "Upper tooth 5": 0.0,
+        "Upper tooth 4": 0.0,
+        "Upper tooth 3": 0.0,
+        "Upper tooth 2": 0.0,
+        "Upper tooth 1": 0.0,
+        "Upper gum": 0.0,
+        "Upper eyelashes.R": 0.011964372515734284,
+        "Upper eyelashes.L": 0.011972524974025293,
+        "Ubaid_FaceBuilder_Head_Study": 0.010288664123633886,
+        "Tongue": 0.0,
+        "Mouth cavity": 0.0,
+        "Lower tooth 8": 0.0,
+        "Lower tooth 7": 0.0,
+        "Lower tooth 6": 0.0,
+        "Lower tooth 5": 0.0,
+        "Lower tooth 4": 0.0,
+        "Lower tooth 3": 0.0,
+        "Lower tooth 2": 0.0,
+        "Lower tooth 1": 0.0,
+        "Lower gum": 0.0,
+        "Eye.R": 0.0,
+        "Eye.L": 0.0
+      }
+    },
+    {
+      "pose": "jaw",
+      "maximumDisplacementsMeters": {
+        "Upper wetline.R": 1.7388448422053509e-06,
+        "Upper wetline.L": 1.8093255985479694e-06,
+        "Upper tooth 8": 0.0,
+        "Upper tooth 7": 0.0,
+        "Upper tooth 6": 0.0,
+        "Upper tooth 5": 0.0,
+        "Upper tooth 4": 0.0,
+        "Upper tooth 3": 0.0,
+        "Upper tooth 2": 0.0,
+        "Upper tooth 1": 0.0,
+        "Upper gum": 0.0,
+        "Upper eyelashes.R": 1.8705047620431994e-06,
+        "Upper eyelashes.L": 1.9715419207783717e-06,
+        "Ubaid_FaceBuilder_Head_Study": 0.03180785954007135,
+        "Tongue": 0.01993784547821721,
+        "Mouth cavity": 0.01984835740963362,
+        "Lower tooth 8": 0.019972248749426227,
+        "Lower tooth 7": 0.02028098683024194,
+        "Lower tooth 6": 0.020507427389462898,
+        "Lower tooth 5": 0.02065132500388002,
+        "Lower tooth 4": 0.020660766913987907,
+        "Lower tooth 3": 0.020535482661854104,
+        "Lower tooth 2": 0.020324834166309386,
+        "Lower tooth 1": 0.020031385238456365,
+        "Lower gum": 0.020556753691796523,
+        "Eye.R": 0.0,
+        "Eye.L": 0.0
+      }
+    },
+    {
+      "pose": "TH",
+      "maximumDisplacementsMeters": {
+        "Upper wetline.R": 8.605420589447021e-07,
+        "Upper wetline.L": 9.41725093682108e-07,
+        "Upper tooth 8": 0.0,
+        "Upper tooth 7": 0.0,
+        "Upper tooth 6": 0.0,
+        "Upper tooth 5": 0.0,
+        "Upper tooth 4": 0.0,
+        "Upper tooth 3": 0.0,
+        "Upper tooth 2": 0.0,
+        "Upper tooth 1": 0.0,
+        "Upper gum": 0.0,
+        "Upper eyelashes.R": 9.230304161279547e-07,
+        "Upper eyelashes.L": 1.053065177539756e-06,
+        "Ubaid_FaceBuilder_Head_Study": 0.013621144825233482,
+        "Tongue": 0.011762800901631997,
+        "Mouth cavity": 0.008244659361043448,
+        "Lower tooth 8": 0.008296190988187903,
+        "Lower tooth 7": 0.008424407994240204,
+        "Lower tooth 6": 0.008518464855815448,
+        "Lower tooth 5": 0.008578274529966267,
+        "Lower tooth 4": 0.008582155949999108,
+        "Lower tooth 3": 0.008530172627151805,
+        "Lower tooth 2": 0.008442609406772808,
+        "Lower tooth 1": 0.008320700912432444,
+        "Lower gum": 0.008538961471767163,
+        "Eye.R": 0.0,
+        "Eye.L": 0.0
+      }
+    },
+    {
+      "pose": "skeletal-head-turn",
+      "headMaxDisplacementMeters": 0.07632987031752606
+    }
+  ],
+  "limitations": [
+    "Uniform scale is provisional, derived from existing rig rather than measured pupillary distance.",
+    "No final grooming/material match is included.",
+    "Neck seam is covered/overlapped rather than welded.",
+    "This output is not a production/public canonical replacement."
+  ]
+}

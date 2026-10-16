@@ -1,0 +1,11 @@
+{
+  "method": "Editable sculpt mesh; original-topology facial target transfer; independently skinned eyes; baked reference-derived skin and hair pigmentation",
+  "shapeKeys": 65,
+  "faceVertices": 18027,
+  "paidServices": false,
+  "limitations": [
+    "Single front reference; side/back are inferred",
+    "Pigment still contains lighting from the reference",
+    "This is a conversation study, not a production avatar"
+  ]
+}

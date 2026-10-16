@@ -1,0 +1,30 @@
+{
+  "stage": "Unapproved clothed likeness study",
+  "groomSource": "assets/avatar/identity-rebuild/facebuilder-study/groom-refinement/fiber-groom-refined-v13.blend",
+  "uniformScale": 0.11324451401082267,
+  "translation": [
+    -0.00033940842112894555,
+    -0.044665659761868856,
+    1.6793302610215914
+  ],
+  "earBreadthAugmentation": true,
+  "groomObjects": [
+    "Moustache fibers",
+    "Chin beard fibers",
+    "Brow R fibers",
+    "Brow L fibers",
+    "Refined asymmetric wave fibers",
+    "Continuous scalp substrate"
+  ],
+  "photoProjectedFace": false,
+  "facialAttachmentsMaxMeters": {
+    "Moustache fibers": 0.0002286429371451959,
+    "Chin beard fibers": 0.00014849154104012996,
+    "Brow R fibers": 0.00027417749515734613,
+    "Brow L fibers": 0.00024102424504235387
+  },
+  "limitations": [
+    "Dense groom requires browser optimization.",
+    "Likeness and hairstyle require independent review."
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "mimeType": "model/gltf-binary",
+  "validatorVersion": "2.0.0-dev.3.10",
+  "validatedAt": "2026-10-11T23:56:39.584Z",
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 16,
+    "numInfos": 23,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "UNSUPPORTED_EXTENSION",
+        "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+        "severity": 2,
+        "pointer": "/extensionsUsed/0"
+      },
+      {
+        "code": "UNSUPPORTED_EXTENSION",
+        "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+        "severity": 2,
+        "pointer": "/extensionsUsed/4"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/0/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/1/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/2/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/3/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/4/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/5/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/6/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/7/mimeType"
+      },
+      {
+        "code": "UNUSED_MESH_TANGENT",
+        "message": "Tangents are not used because the material has no normal texture.",
+        "severity": 2,
+        "pointer": "/meshes/4/primitives/0/attributes/TANGENT"
+      },
+      {
+        "code": "UNUSED_MESH_TANGENT",
+        "message": "Tangents are not used because the material has no normal texture.",
+        "severity": 2,
+        "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_MESH_TANGENT",
+        "message": "Tangents are not used because the material has no normal texture.",
+        "severity": 2,
+        "pointer": "/meshes/5/primitives/1/attributes/TANGENT"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/5/primitives/1/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_MESH_TANGENT",
+        "message": "Tangents are not used because the material has no normal texture.",
+        "severity": 2,
+        "pointer": "/meshes/5/primitives/2/attributes/TANGENT"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/5/primitives/2/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_MESH_TANGENT",
+        "message": "Tangents are not used because the material has no normal texture.",
+        "severity": 2,
+        "pointer": "/meshes/6/primitives/0/attributes/TANGENT"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_MESH_TANGENT",
+        "message": "Tangents are not used because the material has no normal texture.",
+        "severity": 2,
+        "pointer": "/meshes/7/primitives/0/attributes/TANGENT"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_MESH_TANGENT",
+        "message": "Tangents are not used because the material has no normal texture.",
+        "severity": 2,
+        "pointer": "/meshes/8/primitives/0/attributes/TANGENT"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/1"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/2"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/3"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/4"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/5"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/6"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/7"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/0"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/1"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/2"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/3"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/4"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/5"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/6"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/7"
+      }
+    ],
+    "truncated": false
+  },
+  "info": {
+    "version": "2.0",
+    "generator": "glTF-Transform v4.5.1",
+    "extensionsUsed": [
+      "EXT_meshopt_compression",
+      "KHR_materials_ior",
+      "KHR_materials_specular",
+      "KHR_mesh_quantization",
+      "KHR_texture_basisu"
+    ],
+    "extensionsRequired": [
+      "EXT_meshopt_compression",
+      "KHR_mesh_quantization",
+      "KHR_texture_basisu"
+    ],
+    "resources": [
+      {
+        "pointer": "/buffers/0",
+        "mimeType": "application/gltf-buffer",
+        "storage": "glb",
+        "byteLength": 4910200
+      },
+      {
+        "pointer": "/buffers/1",
+        "mimeType": "application/gltf-buffer"
+      },
+      {
+        "pointer": "/images/0",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/1",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/2",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/3",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/4",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/5",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/6",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/7",
+        "storage": "buffer-view"
+      }
+    ],
+    "animationCount": 34,
+    "materialCount": 12,
+    "hasMorphTargets": true,
+    "hasSkins": true,
+    "hasTextures": true,
+    "hasDefaultScene": true,
+    "drawCallCount": 15,
+    "totalVertexCount": 32542,
+    "totalTriangleCount": 56694,
+    "maxUVs": 1,
+    "maxInfluences": 4,
+    "maxAttributes": 6
+  }
+}

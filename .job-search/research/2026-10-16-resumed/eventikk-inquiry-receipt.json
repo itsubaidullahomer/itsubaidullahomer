@@ -1,0 +1,29 @@
+{
+  "id": "1a1439f572036ddb",
+  "threadId": "1a1439f572036ddb",
+  "sentAt": "2026-10-16T07:31:18.000Z",
+  "labels": [
+    "SENT"
+  ],
+  "headers": [
+    {
+      "name": "Subject",
+      "value": "Senior Full-Stack Developer — role details"
+    },
+    {
+      "name": "To",
+      "value": "careers@eventikk.com"
+    },
+    {
+      "name": "From",
+      "value": "itsubaidullahomer@gmail.com"
+    },
+    {
+      "name": "Message-Id",
+      "value": "<CAHF+1fb_jbWehPKzcYN-kB=ggKfK5fzw=RWPf9by0a6Q_XU2bA@mail.gmail.com>"
+    }
+  ],
+  "kind": "role_details_inquiry",
+  "applicationSubmitted": false,
+  "attachment": null
+}

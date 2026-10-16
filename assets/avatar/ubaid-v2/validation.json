@@ -1,0 +1,286 @@
+{
+  "bytes": 5869592,
+  "meshes": 24,
+  "skins": 1,
+  "facialShapes": 66,
+  "errors": 0,
+  "warnings": 24,
+  "messages": [
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/9/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/10/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/12/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/13/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/14/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/15/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/16/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/17/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/18/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/19/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/21/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/22/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/23/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/163"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/164"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/165"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/166"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/167"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/168"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/169"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/170"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/171"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/172"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/173"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/174"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/175"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/176"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/177"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/178"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/179"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/180"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/181"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/182"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/183"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/184"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/185"
+    },
+    {
+      "code": "NODE_SKINNED_MESH_NON_ROOT",
+      "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+      "severity": 1,
+      "pointer": "/nodes/186"
+    }
+  ]
+}

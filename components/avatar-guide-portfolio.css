@@ -1,0 +1,138 @@
+body.avatar-guide-enabled .page-frame {
+  max-width: calc(100% - 350px);
+  margin-left: 0;
+  margin-right: 350px;
+}
+.portfolio-guide-panel {
+  position: fixed;
+  z-index: 72;
+  right: 26px;
+  top: 22px;
+  width: 292px;
+  padding: 15px;
+  border: 1px solid #dfe6e0;
+  border-radius: 16px;
+  background: #ffffffed;
+  box-shadow: 0 10px 40px #243b280a;
+  backdrop-filter: blur(14px);
+  color: #31483a;
+}
+.portfolio-guide-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+}
+.portfolio-guide-panel p {
+  font-size: 10px;
+  color: #7b887f;
+  margin: 5px 0 12px;
+}
+.portfolio-guide-panel button {
+  font: inherit;
+  font-size: 11px;
+  border: 1px solid #dbe4dd;
+  background: white;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.portfolio-guide-panel button:hover {
+  background: #edf5ef;
+}
+.portfolio-guide-heading button {
+  border: 0;
+  padding: 0 4px;
+  font-size: 19px;
+}
+.portfolio-guide-prompts {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.portfolio-guide-panel form {
+  display: flex;
+  gap: 6px;
+  margin: 12px 0 8px;
+}
+.portfolio-guide-panel input {
+  width: 100%;
+  min-width: 0;
+  font: inherit;
+  font-size: 11px;
+  border: 1px solid #dbe4dd;
+  border-radius: 6px;
+  padding: 9px;
+}
+.portfolio-guide-panel form button {
+  background: #34553e;
+  color: white;
+}
+.portfolio-guide-panel small {
+  font-size: 9px;
+  line-height: 1.5;
+  display: block;
+  color: #718178;
+}
+.portfolio-guide-panel a {
+  display: block;
+  font-size: 10px;
+  color: #577962;
+  margin-top: 9px;
+}
+.portfolio-guide-panel :focus-visible {
+  outline: 2px solid #6b9d7f;
+  outline-offset: 3px;
+}
+.portfolio-guide .guide-caption {
+  max-height: 240px;
+  overflow: auto;
+}
+@media (max-width: 759px) {
+  body.avatar-guide-enabled {
+    height: 100dvh;
+    overflow: hidden;
+  }
+  body.avatar-guide-enabled .page-frame {
+    max-width: none;
+    margin: 0;
+    padding-bottom: 0;
+    height: calc(100dvh - 360px);
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .portfolio-guide-panel {
+    top: auto;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    padding: 12px;
+  }
+  .portfolio-guide-panel p,
+  .portfolio-guide-panel a {
+    display: none;
+  }
+  .portfolio-guide-panel form {
+    margin: 8px 0 6px;
+  }
+  .portfolio-guide-prompts {
+    margin-top: 7px;
+  }
+  .portfolio-guide .guide-caption {
+    bottom: 180px;
+    min-height: 0;
+    max-height: 150px;
+  }
+  .portfolio-guide .guide-caption p {
+    max-height: 70px;
+  }
+  .portfolio-guide .guide-poster {
+    bottom: 176px;
+    height: 140px;
+    width: 100px;
+    left: 16px;
+  }
+}

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Providers } from "@/components/providers";
+import { SiteFrame } from "@/components/site-frame";
 import { Navbar } from "@/components/shell";
 import { Footer } from "@/components/layout-parts";
 import { site } from "@/content/site";
@@ -43,46 +43,47 @@ export default function RootLayout({
         <a href="#main" className="skip-link">
           Skip to content
         </a>
-        <Providers>
-          <div className="page-frame">
-            <Navbar />
-            <main id="main">{children}</main>
-            <Footer />
-          </div>
-        </Providers>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@graph": [
-                {
-                  "@type": "Person",
-                  "@id": `${site.url}/#person`,
-                  name: site.name,
-                  url: site.url,
-                  jobTitle: site.role,
-                  image: `${site.url}/images/ubaid-portrait.jpg`,
-                  sameAs: Object.values(site.social),
-                  worksFor: { "@type": "Organization", name: "Tututor.ai" },
-                },
-                {
-                  "@type": "ProfessionalService",
-                  name: site.name,
-                  url: site.url,
-                  description: site.description,
-                  email: site.email,
-                  address: {
-                    "@type": "PostalAddress",
-                    addressLocality: "Rahim Yar Khan",
-                    addressCountry: "PK",
-                  },
-                  provider: { "@id": `${site.url}/#person` },
-                },
-              ],
-            }),
-          }}
-        />
+        <SiteFrame
+          navbar={<Navbar />}
+          footer={<Footer />}
+          structuredData={
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@graph": [
+                    {
+                      "@type": "Person",
+                      "@id": `${site.url}/#person`,
+                      name: site.name,
+                      url: site.url,
+                      jobTitle: site.role,
+                      image: `${site.url}/images/ubaid-portrait.jpg`,
+                      sameAs: Object.values(site.social),
+                      worksFor: { "@type": "Organization", name: "Tututor.ai" },
+                    },
+                    {
+                      "@type": "ProfessionalService",
+                      name: site.name,
+                      url: site.url,
+                      description: site.description,
+                      email: site.email,
+                      address: {
+                        "@type": "PostalAddress",
+                        addressLocality: "Rahim Yar Khan",
+                        addressCountry: "PK",
+                      },
+                      provider: { "@id": `${site.url}/#person` },
+                    },
+                  ],
+                }),
+              }}
+            />
+          }
+        >
+          {children}
+        </SiteFrame>
       </body>
     </html>
   );

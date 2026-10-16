@@ -1,0 +1,50 @@
+[
+  {
+    "image": 0,
+    "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+    "valid": true,
+    "messages": []
+  },
+  {
+    "image": 1,
+    "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+    "valid": true,
+    "messages": []
+  },
+  {
+    "image": 2,
+    "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+    "valid": true,
+    "messages": []
+  },
+  {
+    "image": 3,
+    "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+    "valid": true,
+    "messages": []
+  },
+  {
+    "image": 4,
+    "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+    "valid": true,
+    "messages": []
+  },
+  {
+    "image": 5,
+    "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+    "valid": true,
+    "messages": []
+  },
+  {
+    "image": 6,
+    "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+    "valid": true,
+    "messages": []
+  },
+  {
+    "image": 7,
+    "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+    "valid": true,
+    "messages": []
+  }
+]

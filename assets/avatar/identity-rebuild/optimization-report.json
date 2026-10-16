@@ -1,0 +1,13 @@
+{
+  "triangles": 56694,
+  "meshes": [
+    {
+      "mesh": "Ubaid_Body",
+      "beforeTriangles": 62000,
+      "afterTriangles": 22000,
+      "protectedVertices": 5345,
+      "positionAttributeError": 0.0005029219319112599
+    }
+  ],
+  "method": "Attribute-aware simplification of body; 9 facial extremes, all-channel unique-motion locks, dominant-joint boundary locks. Morph and skin data remapped together. Requires visual ROM verification."
+}

@@ -1,0 +1,1057 @@
+{
+  "removedEyeCapFaces": 746,
+  "removedMouthClosureFaces": 44,
+  "preservedOriginalVertexCount": 18024,
+  "headFacsCount": 51,
+  "eyeFit": {
+    "L": {
+      "centerNative": [
+        0.2616467248775832,
+        -0.7782311263097883,
+        0.3256647219082431
+      ],
+      "radiusNative": 0.1454304498594562,
+      "fitResidualRMS": 0.007133103197972155
+    },
+    "R": {
+      "centerNative": [
+        -0.260529735933094,
+        -0.7788519082826522,
+        0.3208288138636163
+      ],
+      "radiusNative": 0.14783743190186885,
+      "fitResidualRMS": 0.006866039981443789
+    }
+  },
+  "jawMotion": "Rigid best-fit transform of each fitted mandibular FACS; no prior avatar facial deltas used.",
+  "limitations": [
+    "Dental anatomy and gaze fit are a first geometry study, not final acceptance.",
+    "Fifteen authored speech poses are geometric approximations awaiting conversational playback review."
+  ],
+  "eyeRefinement": [
+    {
+      "eye": "Eye.L",
+      "vertices": 960,
+      "geometryChanged": false,
+      "colorAttribute": "EyeColor",
+      "surface": "Portable PBR clearcoat approximation"
+    },
+    {
+      "eye": "Eye.R",
+      "vertices": 960,
+      "geometryChanged": false,
+      "colorAttribute": "EyeColor",
+      "surface": "Portable PBR clearcoat approximation"
+    }
+  ],
+  "detailOffsets": "assets/avatar/identity-rebuild/facebuilder-study/detail-basis-deltas.npz",
+  "speechStudy": {
+    "stage": "Authored English viseme geometry study; audiovisual review pending",
+    "presets": {
+      "sil": {},
+      "PP": {
+        "mouthPressLeft": 0.75,
+        "mouthPressRight": 0.75,
+        "mouthRollUpper": 0.12,
+        "mouthRollLower": 0.12
+      },
+      "FF": {
+        "jawOpen": 0.08,
+        "mouthRollLower": 0.52,
+        "mouthUpperUpLeft": 0.12,
+        "mouthUpperUpRight": 0.12
+      },
+      "TH": {
+        "jawOpen": 0.27,
+        "mouthStretchLeft": 0.1,
+        "mouthStretchRight": 0.1,
+        "tongueOut": 0.95
+      },
+      "DD": {
+        "jawOpen": 0.2,
+        "mouthStretchLeft": 0.15,
+        "mouthStretchRight": 0.15
+      },
+      "kk": {
+        "jawOpen": 0.32,
+        "mouthStretchLeft": 0.1,
+        "mouthStretchRight": 0.1
+      },
+      "CH": {
+        "jawOpen": 0.22,
+        "mouthFunnel": 0.33,
+        "mouthStretchLeft": 0.08,
+        "mouthStretchRight": 0.08
+      },
+      "SS": {
+        "jawOpen": 0.12,
+        "mouthStretchLeft": 0.28,
+        "mouthStretchRight": 0.28
+      },
+      "nn": {
+        "jawOpen": 0.16,
+        "mouthStretchLeft": 0.13,
+        "mouthStretchRight": 0.13
+      },
+      "RR": {
+        "jawOpen": 0.22,
+        "mouthPucker": 0.3
+      },
+      "aa": {
+        "jawOpen": 0.66
+      },
+      "E": {
+        "jawOpen": 0.34,
+        "mouthStretchLeft": 0.42,
+        "mouthStretchRight": 0.42
+      },
+      "I": {
+        "jawOpen": 0.18,
+        "mouthStretchLeft": 0.53,
+        "mouthStretchRight": 0.53
+      },
+      "O": {
+        "jawOpen": 0.38,
+        "mouthFunnel": 0.6
+      },
+      "U": {
+        "jawOpen": 0.17,
+        "mouthPucker": 0.72
+      }
+    },
+    "checks": [
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.02157161557058187
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07280420255071385
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.05392903892645472
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.0862864622823275
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.0593219428191002
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.03235742335587284
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.04314323114116375
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.0593219428191002
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.17796582845730052
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09167936617497292
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.04853613503380918
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10246517396026393
+      },
+      {
+        "mesh": "Mouth cavity",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.045839683087486496
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.02234159991694688
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07540289971969583
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.05585399979236726
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08936639966778757
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.06143939977160397
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.03351239987542038
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.04468319983389376
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.06143939977160397
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.1843181993148119
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09495179964702435
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.05026859981313053
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10612259960549783
+      },
+      {
+        "mesh": "Lower gum",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.04747589982351218
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.02177056110273746
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07347564372173891
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.054426402756843684
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08708224441094985
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.05986904303252798
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.03265584165410622
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.04354112220547492
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.05986904303252798
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.17960712909758406
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.0925248846866342
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.04898376248115928
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10341016523800295
+      },
+      {
+        "mesh": "Lower tooth 1",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.0462624423433171
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.022089602613817864
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07455240882163504
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.05522400653454447
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08835841045527111
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.06074640718799892
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.03313440392072671
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.044179205227635555
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.06074640718799892
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.1822392215639968
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09388081110872562
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.049701605881090065
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10492561241563447
+      },
+      {
+        "mesh": "Lower tooth 2",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.04694040555436284
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.022318490656875058
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07532490596695313
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.05579622664218756
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08927396262750002
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.061375849306406285
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.03347773598531251
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.044636981313749956
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.061375849306406285
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.18412754791921887
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09485358529171879
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.05021660397796873
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.1060128306201563
+      },
+      {
+        "mesh": "Lower tooth 3",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.04742679264585934
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.022454669473098952
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07578450947170919
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.05613667368274757
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08981867789239609
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.0617503410510223
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.03368200420964846
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.04490933894619807
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.0617503410510223
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.18525102315306688
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.0954323452606708
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.0505230063144728
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10665967999722031
+      },
+      {
+        "mesh": "Lower tooth 4",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.04771617263033546
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.022444399109005152
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07574984699289246
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.056110997772512966
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08977759643602072
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.06172209754976421
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.0336665986635077
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.044888798218010305
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.06172209754976421
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.1851662926492927
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09538869621327198
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.05049989799526161
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10661089576777458
+      },
+      {
+        "mesh": "Lower tooth 5",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.04769434810663601
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.022288043734481015
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07522214760387347
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.05572010933620259
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08915217493792411
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.061292120269822815
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.03343206560172158
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.04457608746896203
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.061292120269822815
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.1838763608094684
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09472418587154435
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.05014809840258237
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10586820773878484
+      },
+      {
+        "mesh": "Lower tooth 6",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.047362092935772176
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.02204191120911175
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07439145033075208
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.055104778022779306
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08816764483644692
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.060615255825057245
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.033062866813667616
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.04408382241822343
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.060615255825057245
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.18184576747517167
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09367812263872485
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.04959430022050137
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10469907824328067
+      },
+      {
+        "mesh": "Lower tooth 7",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.04683906131936245
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.021706349547888016
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.07325892972412196
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.05426587386972
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08682539819155191
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.059692461256691996
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.03255952432183198
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.04341269909577598
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.059692461256691996
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.17907738377007593
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09225198557852392
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.04883928648274799
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10310516035246792
+      },
+      {
+        "mesh": "Lower tooth 8",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.04612599278926193
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.021668976358391365
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.10387056098648068
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.04906036538996175
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.08442932867621453
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.059589684985576284
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.032503464537587075
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.03924829231196934
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.05396640192895789
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.17876905495672887
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.09209314952316341
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.048755196806380637
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.10292763770235902
+      },
+      {
+        "mesh": "Tongue",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.04604657476158171
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "sil",
+        "maximumNativeDisplacement": 0.0
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "PP",
+        "maximumNativeDisplacement": 0.09168401299508686
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "FF",
+        "maximumNativeDisplacement": 0.04815685652729243
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "TH",
+        "maximumNativeDisplacement": 0.120280495278203
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "DD",
+        "maximumNativeDisplacement": 0.09206145764531923
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "kk",
+        "maximumNativeDisplacement": 0.14185201654317145
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "CH",
+        "maximumNativeDisplacement": 0.11707486075829139
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "SS",
+        "maximumNativeDisplacement": 0.0638240934734491
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "nn",
+        "maximumNativeDisplacement": 0.07405035387186702
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "RR",
+        "maximumNativeDisplacement": 0.09192777951144251
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "aa",
+        "maximumNativeDisplacement": 0.28519874869059053
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "E",
+        "maximumNativeDisplacement": 0.16346622482320586
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "I",
+        "maximumNativeDisplacement": 0.1012914868922198
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "O",
+        "maximumNativeDisplacement": 0.20218574765770397
+      },
+      {
+        "mesh": "Ubaid_FaceBuilder_Head_Study",
+        "viseme": "U",
+        "maximumNativeDisplacement": 0.08904922884421124
+      }
+    ],
+    "notes": [
+      "sil intentionally equals neutral.",
+      "DD/nn lift the real tongue tip; kk arches its dorsum; TH protrudes its tip.",
+      "No phoneme timing or alignment is implied by these shape keys."
+    ]
+  },
+  "lidDetails": [
+    {
+      "mesh": "Upper eyelashes.L",
+      "anchors": 17,
+      "vertexCount": 153,
+      "morphCount": 66
+    },
+    {
+      "mesh": "Upper wetline.L",
+      "anchors": 17,
+      "vertexCount": 68,
+      "morphCount": 66
+    },
+    {
+      "mesh": "Upper eyelashes.R",
+      "anchors": 17,
+      "vertexCount": 153,
+      "morphCount": 66
+    },
+    {
+      "mesh": "Upper wetline.R",
+      "anchors": 17,
+      "vertexCount": 68,
+      "morphCount": 66
+    }
+  ],
+  "glbBytes": 3068276
+}

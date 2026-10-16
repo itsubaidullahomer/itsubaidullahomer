@@ -1,0 +1,283 @@
+{
+  "stage": "Fitted head-only neutral and FACS study; likeness/material/integration review pending",
+  "source": "assets/avatar/identity-rebuild/facebuilder-study/fitted-head.blend",
+  "sourceSha256": "8f7c4e697d30d12677e19d74ea3b2792ad87e1a6cde783f1700936cf73bcca41",
+  "licenseAtGeneration": {
+    "trial": "succeed",
+    "license": "failed",
+    "trialDaysLeftAtGeneration": 14
+  },
+  "generation": "Official FaceBuilder Create ARKit Blendshapes operator, original fitted topology",
+  "neutralBasisMaximumChange": 0.0,
+  "vertices": 18024,
+  "triangles": 35954,
+  "shapeCount": 51,
+  "shapeChecks": [
+    {
+      "name": "eyeBlinkLeft",
+      "maximumNativeDisplacement": 0.09084535523930427,
+      "movingVertices": 2222
+    },
+    {
+      "name": "eyeBlinkRight",
+      "maximumNativeDisplacement": 0.09084762991480717,
+      "movingVertices": 2510
+    },
+    {
+      "name": "eyeSquintLeft",
+      "maximumNativeDisplacement": 0.024282885426404464,
+      "movingVertices": 2202
+    },
+    {
+      "name": "eyeSquintRight",
+      "maximumNativeDisplacement": 0.024288930605057307,
+      "movingVertices": 1482
+    },
+    {
+      "name": "eyeLookDownLeft",
+      "maximumNativeDisplacement": 0.027749319982730027,
+      "movingVertices": 3634
+    },
+    {
+      "name": "eyeLookDownRight",
+      "maximumNativeDisplacement": 0.027748114182819215,
+      "movingVertices": 3742
+    },
+    {
+      "name": "eyeLookInLeft",
+      "maximumNativeDisplacement": 0.02158666183696686,
+      "movingVertices": 3773
+    },
+    {
+      "name": "eyeLookInRight",
+      "maximumNativeDisplacement": 0.021582542787137247,
+      "movingVertices": 3687
+    },
+    {
+      "name": "eyeWideLeft",
+      "maximumNativeDisplacement": 0.03227614804145992,
+      "movingVertices": 3150
+    },
+    {
+      "name": "eyeWideRight",
+      "maximumNativeDisplacement": 0.03227244080083274,
+      "movingVertices": 3536
+    },
+    {
+      "name": "eyeLookOutLeft",
+      "maximumNativeDisplacement": 0.035932792329105935,
+      "movingVertices": 3759
+    },
+    {
+      "name": "eyeLookOutRight",
+      "maximumNativeDisplacement": 0.03592955484855786,
+      "movingVertices": 3748
+    },
+    {
+      "name": "eyeLookUpLeft",
+      "maximumNativeDisplacement": 0.032277475599360055,
+      "movingVertices": 2809
+    },
+    {
+      "name": "eyeLookUpRight",
+      "maximumNativeDisplacement": 0.03226939786572244,
+      "movingVertices": 7000
+    },
+    {
+      "name": "browDownLeft",
+      "maximumNativeDisplacement": 0.0926767095228615,
+      "movingVertices": 8180
+    },
+    {
+      "name": "browDownRight",
+      "maximumNativeDisplacement": 0.09267218820478546,
+      "movingVertices": 8188
+    },
+    {
+      "name": "browInnerUp",
+      "maximumNativeDisplacement": 0.11365846042618916,
+      "movingVertices": 17598
+    },
+    {
+      "name": "browOuterUpLeft",
+      "maximumNativeDisplacement": 0.11841548810788975,
+      "movingVertices": 17589
+    },
+    {
+      "name": "browOuterUpRight",
+      "maximumNativeDisplacement": 0.11840544764056753,
+      "movingVertices": 17484
+    },
+    {
+      "name": "jawOpen",
+      "maximumNativeDisplacement": 0.43211931619786453,
+      "movingVertices": 17397
+    },
+    {
+      "name": "mouthClose",
+      "maximumNativeDisplacement": 0.283168000217635,
+      "movingVertices": 17452
+    },
+    {
+      "name": "jawLeft",
+      "maximumNativeDisplacement": 0.08930772914709528,
+      "movingVertices": 17364
+    },
+    {
+      "name": "jawRight",
+      "maximumNativeDisplacement": 0.08932532440799355,
+      "movingVertices": 17237
+    },
+    {
+      "name": "jawForward",
+      "maximumNativeDisplacement": 0.09722132872422717,
+      "movingVertices": 17173
+    },
+    {
+      "name": "mouthUpperUpLeft",
+      "maximumNativeDisplacement": 0.09668894693558652,
+      "movingVertices": 17431
+    },
+    {
+      "name": "mouthUpperUpRight",
+      "maximumNativeDisplacement": 0.09669190846462718,
+      "movingVertices": 17440
+    },
+    {
+      "name": "mouthLowerDownLeft",
+      "maximumNativeDisplacement": 0.073651014848738,
+      "movingVertices": 17311
+    },
+    {
+      "name": "mouthLowerDownRight",
+      "maximumNativeDisplacement": 0.07363918884747657,
+      "movingVertices": 17058
+    },
+    {
+      "name": "mouthRollUpper",
+      "maximumNativeDisplacement": 0.1073804088154398,
+      "movingVertices": 17420
+    },
+    {
+      "name": "mouthRollLower",
+      "maximumNativeDisplacement": 0.09549992381979312,
+      "movingVertices": 17387
+    },
+    {
+      "name": "mouthSmileLeft",
+      "maximumNativeDisplacement": 0.17272181546701518,
+      "movingVertices": 17415
+    },
+    {
+      "name": "mouthSmileRight",
+      "maximumNativeDisplacement": 0.17272007955909155,
+      "movingVertices": 17412
+    },
+    {
+      "name": "mouthDimpleLeft",
+      "maximumNativeDisplacement": 0.10022352629919375,
+      "movingVertices": 17228
+    },
+    {
+      "name": "mouthDimpleRight",
+      "maximumNativeDisplacement": 0.10022524491654633,
+      "movingVertices": 17332
+    },
+    {
+      "name": "mouthStretchLeft",
+      "maximumNativeDisplacement": 0.13954654325091612,
+      "movingVertices": 17356
+    },
+    {
+      "name": "mouthStretchRight",
+      "maximumNativeDisplacement": 0.1395472570830464,
+      "movingVertices": 17333
+    },
+    {
+      "name": "mouthFrownLeft",
+      "maximumNativeDisplacement": 0.05649655035821159,
+      "movingVertices": 17161
+    },
+    {
+      "name": "mouthFrownRight",
+      "maximumNativeDisplacement": 0.056492660076407686,
+      "movingVertices": 17295
+    },
+    {
+      "name": "mouthPressLeft",
+      "maximumNativeDisplacement": 0.10546024538528273,
+      "movingVertices": 17352
+    },
+    {
+      "name": "mouthPressRight",
+      "maximumNativeDisplacement": 0.10545321456639882,
+      "movingVertices": 17309
+    },
+    {
+      "name": "mouthPucker",
+      "maximumNativeDisplacement": 0.11577395445860146,
+      "movingVertices": 17478
+    },
+    {
+      "name": "mouthFunnel",
+      "maximumNativeDisplacement": 0.13538308761920984,
+      "movingVertices": 17493
+    },
+    {
+      "name": "mouthLeft",
+      "maximumNativeDisplacement": 0.1316305461928777,
+      "movingVertices": 17520
+    },
+    {
+      "name": "mouthRight",
+      "maximumNativeDisplacement": 0.13161401026320813,
+      "movingVertices": 17512
+    },
+    {
+      "name": "mouthShrugLower",
+      "maximumNativeDisplacement": 0.07439230560249205,
+      "movingVertices": 17144
+    },
+    {
+      "name": "mouthShrugUpper",
+      "maximumNativeDisplacement": 0.050498748797944894,
+      "movingVertices": 17429
+    },
+    {
+      "name": "noseSneerLeft",
+      "maximumNativeDisplacement": 0.05482208066838994,
+      "movingVertices": 17583
+    },
+    {
+      "name": "noseSneerRight",
+      "maximumNativeDisplacement": 0.05483334385884401,
+      "movingVertices": 17599
+    },
+    {
+      "name": "cheekPuff",
+      "maximumNativeDisplacement": 0.09780382752318836,
+      "movingVertices": 17457
+    },
+    {
+      "name": "cheekSquintLeft",
+      "maximumNativeDisplacement": 0.08514147721949601,
+      "movingVertices": 16585
+    },
+    {
+      "name": "cheekSquintRight",
+      "maximumNativeDisplacement": 0.08515620297610658,
+      "movingVertices": 12153
+    }
+  ],
+  "glbBytes": 1811816,
+  "glbSha256": "4780c4112a0d5cce6fdb68a911ba9d5f7c2db5b77b79507124c50bc51d8a27c5",
+  "units": "Saved Blender remains native fitting units; head-only glTF uniformly scales0.1, +Yup/+Zforward; body alignment is not final.",
+  "visemes": "Not fabricated from old face deltas. Dedicated jaw/lip/tongue/teeth study needed before adding15 authored speech poses.",
+  "limits": [
+    "No body connection or eyes/teeth replacement in this isolated study.",
+    "51 native FACS channels do not include a working tongueOut target.",
+    "Canonical fullbody asset and existing neutral sources untouched.",
+    "No photo texture in this geometry/FACS validation asset."
+  ],
+  "paidCalls": false
+}

@@ -1,0 +1,12 @@
+{
+  "source": "assets/avatar/identity-rebuild/facebuilder-study/facial-groom-v7-study.blend",
+  "method": "UV emission/normal baking of authored mesh pigmentation and physical facial fibers; no photographic texture",
+  "maps": {
+    "Base Color": "assets/avatar/identity-rebuild/facebuilder-study/baked-skin-study/base-color.png",
+    "Roughness": "assets/avatar/identity-rebuild/facebuilder-study/baked-skin-study/roughness.png",
+    "Normal": "assets/avatar/identity-rebuild/facebuilder-study/baked-skin-study/normal.png"
+  },
+  "removedSourceFiberObjects": 4,
+  "shapeChannels": 66,
+  "glbBytes": 3549816
+}

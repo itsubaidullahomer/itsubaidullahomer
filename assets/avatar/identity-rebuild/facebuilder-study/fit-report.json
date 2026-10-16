@@ -1,0 +1,45 @@
+{
+  "license": {
+    "trial": "succeed",
+    "license": "failed",
+    "daysLeft": 14
+  },
+  "references": [
+    {
+      "reference": "27",
+      "result": [
+        "FINISHED"
+      ],
+      "pins": 24
+    },
+    {
+      "reference": "25",
+      "result": [
+        "FINISHED"
+      ],
+      "pins": 18
+    },
+    {
+      "reference": "14",
+      "result": [
+        "FINISHED"
+      ],
+      "pins": 12
+    }
+  ],
+  "vertices": 18024,
+  "polygons": 17978,
+  "bounds": [
+    [
+      -0.9639794826507568,
+      -1.2659938335418701,
+      -1.6428616046905518
+    ],
+    [
+      0.951287567615509,
+      0.928588330745697,
+      1.3251312971115112
+    ]
+  ],
+  "status": "unreviewed clay study"
+}

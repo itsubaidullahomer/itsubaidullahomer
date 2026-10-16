@@ -1,0 +1,41 @@
+{
+  "stage": "Unapproved combined neutral geometry study",
+  "photoTexture": false,
+  "groomSource": "assets/avatar/identity-rebuild/facebuilder-study/groom-refinement/fiber-groom-refined-v19.blend",
+  "groomObjects": [
+    "Refined asymmetric wave fibers",
+    "Continuous scalp substrate"
+  ],
+  "facialFiberAttachments": [
+    {
+      "object": "Brow R fibers",
+      "strands": 3800,
+      "shapeKeys": 66,
+      "maximumNativeDisplacement": 0.12590288749028508
+    },
+    {
+      "object": "Brow L fibers",
+      "strands": 4000,
+      "shapeKeys": 66,
+      "maximumNativeDisplacement": 0.11976943358361129
+    },
+    {
+      "object": "Moustache fibers",
+      "strands": 5500,
+      "shapeKeys": 66,
+      "maximumNativeDisplacement": 0.16168654026277243
+    },
+    {
+      "object": "Chin beard fibers",
+      "strands": 2400,
+      "shapeKeys": 66,
+      "maximumNativeDisplacement": 0.3842810705339808
+    }
+  ],
+  "headChannels": 66,
+  "camera": "85mm perspective, native camera distance9, neutral fixed pose",
+  "limitations": [
+    "Scalp grooming and likeness require independent visual review.",
+    "Dense source curves are not the optimized browser asset."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "Neutral review; not approved and not rigged",
+  "groomCurves": 552,
+  "faceBrushEdits": 1155,
+  "hairBrushEdits": 9406,
+  "hairBrushStrengthPreserved": 0.12,
+  "reference": "assets/avatar/ubaid-v1/master.png",
+  "method": "Native Blender face and hair brush edits, explicit volumetric modeling, reference UV pigmentation and shallow hair relief. Single-view reconstruction, not exact.",
+  "armatures": 0,
+  "shapeKeys": 0,
+  "paidServices": false,
+  "remaining": "Reference texture contains original lighting. Side and back inferred. Likeness remains a visual review decision."
+}

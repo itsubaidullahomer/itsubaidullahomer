@@ -1,0 +1,1235 @@
+{
+  "stage": "Rejected identity foundation; technical rig, export, texture and motion study only",
+  "source": "assets/avatar/identity-rebuild/identity-cage.blend",
+  "sourceSha256": "3fbe24e47c9f788ad4bd4636944eb420890e74721ad7fa8c42970affe19f2767",
+  "blender": "5.2.2 LTS",
+  "portraitProjection": false,
+  "paidServices": false,
+  "coordinateSystem": "glTF meters, +Y up, +Z forward; Blender source +Z up, -Y forward",
+  "notes": [
+    "Clips appended from saved rig in independent test and packed; rerun complete exporter on accepted future cage. No deployment."
+  ],
+  "groomSourceSha256": "3ef20f6a54476c559d0d10d8c98584c8ff2f9e8dbb10fd8716b0df77e6aef041",
+  "appendedFiberObjects": 2377,
+  "bakedAtlases": {
+    "Ubaid_Body": [
+      "assets/avatar/identity-rebuild/Ubaid_Body-base-color.png",
+      "assets/avatar/identity-rebuild/Ubaid_Body-roughness.png",
+      "assets/avatar/identity-rebuild/Ubaid_Body-normal.png"
+    ],
+    "Ubaid_Brows": [
+      "assets/avatar/identity-rebuild/Ubaid_Brows-base-color.png",
+      "assets/avatar/identity-rebuild/Ubaid_Brows-roughness.png",
+      "assets/avatar/identity-rebuild/Ubaid_Brows-normal.png"
+    ],
+    "Ubaid_Hair": [
+      "assets/avatar/identity-rebuild/Ubaid_Hair-base-color.png",
+      "assets/avatar/identity-rebuild/Ubaid_Hair-roughness.png"
+    ]
+  },
+  "facialHair": "Physical source fibers baked to existing body UV albedo/normal/roughness; no portrait projection; no separate export fiber geometry.",
+  "optimization": {
+    "triangles": 56694,
+    "meshes": [
+      {
+        "mesh": "Ubaid_Body",
+        "beforeTriangles": 62000,
+        "afterTriangles": 22000,
+        "protectedVertices": 5345,
+        "positionAttributeError": 0.0005029219319112599
+      }
+    ],
+    "clips": [
+      {
+        "name": "idle_breathe",
+        "duration": 6.800000157207251,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 2.980232238769531e-7
+      },
+      {
+        "name": "idle_glance_left",
+        "duration": 7.499999966472387,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "idle_glance_right",
+        "duration": 6.199999775737524,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "idle_shoulders",
+        "duration": 5.800000157207251,
+        "movingChannels": 8,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "idle_settle",
+        "duration": 7.800000157207251,
+        "movingChannels": 7,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "idle_collar",
+        "duration": 7.199999775737524,
+        "movingChannels": 18,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "wave_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 9,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "wave_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 9,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "open_palm_present_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 9,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "open_palm_present_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 9,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "welcome_open_arms_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 12,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "welcome_open_arms_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 12,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "shrug_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 14,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "shrug_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 14,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "count_on_fingers_1",
+        "duration": 4.499999966472387,
+        "movingChannels": 18,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "count_on_fingers_2",
+        "duration": 4.499999966472387,
+        "movingChannels": 18,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "beat_small_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 9,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "beat_small_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 9,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "beat_big_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 12,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "beat_big_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 12,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "hand_to_chin_1",
+        "duration": 4.499999966472387,
+        "movingChannels": 18,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "hand_to_chin_2",
+        "duration": 4.499999966472387,
+        "movingChannels": 18,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "arms_crossed_1",
+        "duration": 4.499999966472387,
+        "movingChannels": 36,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "arms_crossed_2",
+        "duration": 4.499999966472387,
+        "movingChannels": 36,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "thumbs_up_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 17,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "thumbs_up_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 17,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "nod_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "nod_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "head_shake_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "head_shake_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "head_tilt_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "head_tilt_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 6,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "laugh_body_1",
+        "duration": 3.4999999664723873,
+        "movingChannels": 8,
+        "maximumEndpointDifference": 0
+      },
+      {
+        "name": "laugh_body_2",
+        "duration": 3.4999999664723873,
+        "movingChannels": 8,
+        "maximumEndpointDifference": 0
+      }
+    ],
+    "method": "Attribute-aware simplification of body; 9 facial extremes, all-channel unique-motion locks, dominant-joint boundary locks. Morph and skin data remapped together. Requires visual ROM verification."
+  },
+  "compression": "glTF Transform 4.5.0 meshopt; position16/normal12/weight12; attribute-aware body simplification",
+  "bones": [
+    "breast.L",
+    "breast.R",
+    "clavicle.L",
+    "clavicle.R",
+    "eye.L",
+    "eye.R",
+    "finger1-1.L",
+    "finger1-1.R",
+    "finger1-2.L",
+    "finger1-2.R",
+    "finger1-3.L",
+    "finger1-3.R",
+    "finger2-1.L",
+    "finger2-1.R",
+    "finger2-2.L",
+    "finger2-2.R",
+    "finger2-3.L",
+    "finger2-3.R",
+    "finger3-1.L",
+    "finger3-1.R",
+    "finger3-2.L",
+    "finger3-2.R",
+    "finger3-3.L",
+    "finger3-3.R",
+    "finger4-1.L",
+    "finger4-1.R",
+    "finger4-2.L",
+    "finger4-2.R",
+    "finger4-3.L",
+    "finger4-3.R",
+    "finger5-1.L",
+    "finger5-1.R",
+    "finger5-2.L",
+    "finger5-2.R",
+    "finger5-3.L",
+    "finger5-3.R",
+    "foot.L",
+    "foot.R",
+    "head",
+    "jaw",
+    "levator02.L",
+    "levator02.R",
+    "levator03.L",
+    "levator03.R",
+    "levator04.L",
+    "levator04.R",
+    "levator05.L",
+    "levator05.R",
+    "levator06.L",
+    "levator06.R",
+    "lowerarm01.L",
+    "lowerarm01.R",
+    "lowerarm02.L",
+    "lowerarm02.R",
+    "lowerleg01.L",
+    "lowerleg01.R",
+    "lowerleg02.L",
+    "lowerleg02.R",
+    "metacarpal1.L",
+    "metacarpal1.R",
+    "metacarpal2.L",
+    "metacarpal2.R",
+    "metacarpal3.L",
+    "metacarpal3.R",
+    "metacarpal4.L",
+    "metacarpal4.R",
+    "neck01",
+    "neck02",
+    "neck03",
+    "oculi01.L",
+    "oculi01.R",
+    "oculi02.L",
+    "oculi02.R",
+    "orbicularis03.L",
+    "orbicularis03.R",
+    "orbicularis04.L",
+    "orbicularis04.R",
+    "oris01",
+    "oris02",
+    "oris03.L",
+    "oris03.R",
+    "oris04.L",
+    "oris04.R",
+    "oris05",
+    "oris06",
+    "oris06.L",
+    "oris06.R",
+    "oris07.L",
+    "oris07.R",
+    "pelvis.L",
+    "pelvis.R",
+    "risorius02.L",
+    "risorius02.R",
+    "risorius03.L",
+    "risorius03.R",
+    "root",
+    "shoulder01.L",
+    "shoulder01.R",
+    "special01",
+    "special03",
+    "special04",
+    "special05.L",
+    "special05.R",
+    "special06.L",
+    "special06.R",
+    "spine01",
+    "spine02",
+    "spine03",
+    "spine04",
+    "spine05",
+    "temporalis01.L",
+    "temporalis01.R",
+    "temporalis02.L",
+    "temporalis02.R",
+    "toe1-1.L",
+    "toe1-1.R",
+    "toe1-2.L",
+    "toe1-2.R",
+    "toe2-1.L",
+    "toe2-1.R",
+    "toe2-2.L",
+    "toe2-2.R",
+    "toe2-3.L",
+    "toe2-3.R",
+    "toe3-1.L",
+    "toe3-1.R",
+    "toe3-2.L",
+    "toe3-2.R",
+    "toe3-3.L",
+    "toe3-3.R",
+    "toe4-1.L",
+    "toe4-1.R",
+    "toe4-2.L",
+    "toe4-2.R",
+    "toe4-3.L",
+    "toe4-3.R",
+    "toe5-1.L",
+    "toe5-1.R",
+    "toe5-2.L",
+    "toe5-2.R",
+    "toe5-3.L",
+    "toe5-3.R",
+    "tongue00",
+    "tongue01",
+    "tongue02",
+    "tongue03",
+    "tongue04",
+    "tongue05.L",
+    "tongue05.R",
+    "tongue06.L",
+    "tongue06.R",
+    "tongue07.L",
+    "tongue07.R",
+    "upperarm01.L",
+    "upperarm01.R",
+    "upperarm02.L",
+    "upperarm02.R",
+    "upperleg01.L",
+    "upperleg01.R",
+    "upperleg02.L",
+    "upperleg02.R",
+    "wrist.L",
+    "wrist.R"
+  ],
+  "boneCount": 163,
+  "meshes": [
+    {
+      "name": "Ubaid_Body",
+      "vertices": 31177,
+      "triangles": 62000,
+      "morphs": [
+        "viseme_aa",
+        "viseme_CH",
+        "viseme_DD",
+        "viseme_E",
+        "viseme_FF",
+        "viseme_I",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_O",
+        "viseme_PP",
+        "viseme_RR",
+        "viseme_sil",
+        "viseme_SS",
+        "viseme_TH",
+        "viseme_U",
+        "browDownLeft",
+        "browDownRight",
+        "browInnerUp",
+        "browOuterUpLeft",
+        "browOuterUpRight",
+        "cheekPuff",
+        "cheekSquintLeft",
+        "cheekSquintRight",
+        "eyeBlinkLeft",
+        "eyeBlinkRight",
+        "eyeLookDownLeft",
+        "eyeLookDownRight",
+        "eyeLookInLeft",
+        "eyeLookInRight",
+        "eyeLookOutLeft",
+        "eyeLookOutRight",
+        "eyeLookUpLeft",
+        "eyeLookUpRight",
+        "eyeSquintLeft",
+        "eyeSquintRight",
+        "eyeWideLeft",
+        "eyeWideRight",
+        "jawForward",
+        "jawLeft",
+        "jawOpen",
+        "jawRight",
+        "mouthClose",
+        "mouthDimpleLeft",
+        "mouthDimpleRight",
+        "mouthFrownLeft",
+        "mouthFrownRight",
+        "mouthFunnel",
+        "mouthLeft",
+        "mouthLowerDownLeft",
+        "mouthLowerDownRight",
+        "mouthPressLeft",
+        "mouthPressRight",
+        "mouthPucker",
+        "mouthRight",
+        "mouthRollLower",
+        "mouthRollUpper",
+        "mouthShrugLower",
+        "mouthShrugUpper",
+        "mouthSmileLeft",
+        "mouthSmileRight",
+        "mouthStretchLeft",
+        "mouthStretchRight",
+        "mouthUpperUpLeft",
+        "mouthUpperUpRight",
+        "noseSneerLeft",
+        "noseSneerRight",
+        "tongueOut"
+      ],
+      "boneGroups": [
+        "breast.L",
+        "breast.R",
+        "clavicle.L",
+        "clavicle.R",
+        "eye.L",
+        "eye.R",
+        "finger1-1.L",
+        "finger1-1.R",
+        "finger1-2.L",
+        "finger1-2.R",
+        "finger1-3.L",
+        "finger1-3.R",
+        "finger2-1.L",
+        "finger2-1.R",
+        "finger2-2.L",
+        "finger2-2.R",
+        "finger2-3.L",
+        "finger2-3.R",
+        "finger3-1.L",
+        "finger3-1.R",
+        "finger3-2.L",
+        "finger3-2.R",
+        "finger3-3.L",
+        "finger3-3.R",
+        "finger4-1.L",
+        "finger4-1.R",
+        "finger4-2.L",
+        "finger4-2.R",
+        "finger4-3.L",
+        "finger4-3.R",
+        "finger5-1.L",
+        "finger5-1.R",
+        "finger5-2.L",
+        "finger5-2.R",
+        "finger5-3.L",
+        "finger5-3.R",
+        "foot.L",
+        "foot.R",
+        "head",
+        "jaw",
+        "levator05.L",
+        "levator05.R",
+        "levator06.L",
+        "levator06.R",
+        "lowerarm01.L",
+        "lowerarm01.R",
+        "lowerarm02.L",
+        "lowerarm02.R",
+        "lowerleg01.L",
+        "lowerleg01.R",
+        "lowerleg02.L",
+        "lowerleg02.R",
+        "metacarpal1.L",
+        "metacarpal1.R",
+        "metacarpal2.L",
+        "metacarpal2.R",
+        "metacarpal3.L",
+        "metacarpal3.R",
+        "metacarpal4.L",
+        "metacarpal4.R",
+        "neck01",
+        "neck02",
+        "neck03",
+        "oculi01.L",
+        "oculi01.R",
+        "orbicularis03.L",
+        "orbicularis03.R",
+        "orbicularis04.L",
+        "orbicularis04.R",
+        "oris01",
+        "oris03.L",
+        "oris03.R",
+        "oris05",
+        "oris07.L",
+        "oris07.R",
+        "risorius03.L",
+        "risorius03.R",
+        "shoulder01.L",
+        "shoulder01.R",
+        "spine01",
+        "spine02",
+        "upperarm01.L",
+        "upperarm01.R",
+        "wrist.L",
+        "wrist.R"
+      ],
+      "maximumInfluences": 4
+    },
+    {
+      "name": "Ubaid_Teeth",
+      "vertices": 3868,
+      "triangles": 7120,
+      "morphs": [
+        "viseme_aa",
+        "viseme_DD",
+        "viseme_E",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_O",
+        "viseme_PP",
+        "viseme_TH",
+        "jawForward",
+        "jawLeft",
+        "jawOpen",
+        "jawRight"
+      ],
+      "boneGroups": [
+        "head",
+        "jaw"
+      ],
+      "maximumInfluences": 1
+    },
+    {
+      "name": "Ubaid_Tongue",
+      "vertices": 226,
+      "triangles": 448,
+      "morphs": [
+        "viseme_aa",
+        "viseme_DD",
+        "viseme_E",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_O",
+        "viseme_PP",
+        "viseme_TH",
+        "jawForward",
+        "jawLeft",
+        "jawOpen",
+        "jawRight",
+        "tongueOut"
+      ],
+      "boneGroups": [
+        "head",
+        "tongue01",
+        "tongue02",
+        "tongue03",
+        "tongue04",
+        "tongue05.L",
+        "tongue05.R",
+        "tongue06.L",
+        "tongue06.R",
+        "tongue07.L",
+        "tongue07.R"
+      ],
+      "maximumInfluences": 4
+    },
+    {
+      "name": "Ubaid_Outfit",
+      "vertices": 8426,
+      "triangles": 16672,
+      "morphs": [],
+      "boneGroups": [
+        "breast.L",
+        "breast.R",
+        "clavicle.L",
+        "clavicle.R",
+        "finger1-1.L",
+        "finger1-1.R",
+        "foot.L",
+        "foot.R",
+        "head",
+        "lowerarm01.L",
+        "lowerarm01.R",
+        "lowerarm02.L",
+        "lowerarm02.R",
+        "lowerleg01.L",
+        "lowerleg01.R",
+        "lowerleg02.L",
+        "lowerleg02.R",
+        "metacarpal4.L",
+        "metacarpal4.R",
+        "neck01",
+        "neck02",
+        "pelvis.L",
+        "pelvis.R",
+        "shoulder01.L",
+        "shoulder01.R",
+        "spine01",
+        "spine02",
+        "spine03",
+        "spine04",
+        "spine05",
+        "upperarm01.L",
+        "upperarm01.R",
+        "upperarm02.L",
+        "upperarm02.R",
+        "upperleg01.L",
+        "upperleg01.R",
+        "upperleg02.L",
+        "upperleg02.R",
+        "wrist.L",
+        "wrist.R"
+      ],
+      "maximumInfluences": 4
+    },
+    {
+      "name": "Ubaid_Shoes",
+      "vertices": 1722,
+      "triangles": 3320,
+      "morphs": [],
+      "boneGroups": [
+        "foot.L",
+        "foot.R",
+        "lowerleg01.L",
+        "lowerleg01.R",
+        "lowerleg02.L",
+        "lowerleg02.R",
+        "toe1-1.L",
+        "toe1-1.R",
+        "toe1-2.L",
+        "toe1-2.R",
+        "toe2-1.L",
+        "toe2-1.R",
+        "toe2-2.L",
+        "toe2-2.R",
+        "toe2-3.L",
+        "toe2-3.R",
+        "toe3-1.L",
+        "toe3-1.R",
+        "toe3-2.L",
+        "toe3-2.R",
+        "toe3-3.L",
+        "toe3-3.R",
+        "toe4-1.L",
+        "toe4-1.R",
+        "toe4-2.L",
+        "toe4-2.R",
+        "toe4-3.L",
+        "toe4-3.R",
+        "toe5-1.L",
+        "toe5-1.R",
+        "toe5-2.L",
+        "toe5-2.R",
+        "toe5-3.L",
+        "toe5-3.R"
+      ],
+      "maximumInfluences": 4
+    },
+    {
+      "name": "Ubaid_Brows",
+      "vertices": 124,
+      "triangles": 192,
+      "morphs": [
+        "viseme_aa",
+        "viseme_E",
+        "viseme_I",
+        "viseme_kk",
+        "viseme_O",
+        "viseme_SS",
+        "browDownLeft",
+        "browDownRight",
+        "browInnerUp",
+        "browOuterUpLeft",
+        "browOuterUpRight",
+        "cheekPuff",
+        "cheekSquintLeft",
+        "cheekSquintRight",
+        "eyeBlinkLeft",
+        "eyeBlinkRight",
+        "eyeLookDownLeft",
+        "eyeLookDownRight",
+        "eyeLookInLeft",
+        "eyeLookInRight",
+        "eyeLookOutLeft",
+        "eyeLookOutRight",
+        "eyeLookUpLeft",
+        "eyeLookUpRight",
+        "eyeSquintLeft",
+        "eyeSquintRight",
+        "eyeWideLeft",
+        "eyeWideRight",
+        "jawForward",
+        "jawOpen",
+        "mouthClose",
+        "mouthFrownLeft",
+        "mouthFrownRight",
+        "mouthLeft",
+        "mouthPucker",
+        "mouthRight",
+        "mouthSmileLeft",
+        "mouthSmileRight",
+        "mouthStretchLeft",
+        "mouthStretchRight",
+        "noseSneerLeft",
+        "noseSneerRight"
+      ],
+      "boneGroups": [
+        "head",
+        "oculi01.L",
+        "oculi01.R",
+        "orbicularis03.L",
+        "orbicularis03.R",
+        "orbicularis04.L",
+        "orbicularis04.R",
+        "risorius03.L",
+        "risorius03.R"
+      ],
+      "maximumInfluences": 4
+    },
+    {
+      "name": "Ubaid_Hair",
+      "vertices": 2984,
+      "triangles": 3678,
+      "morphs": [],
+      "boneGroups": [
+        "head"
+      ],
+      "maximumInfluences": 1
+    },
+    {
+      "name": "Eye.L",
+      "vertices": 864,
+      "triangles": 1632,
+      "morphs": [
+        "eyeLookUpLeft",
+        "eyeLookDownLeft",
+        "eyeLookOutLeft",
+        "eyeLookInLeft"
+      ],
+      "boneGroups": [
+        "eye.L"
+      ],
+      "maximumInfluences": 1
+    },
+    {
+      "name": "Eye.R",
+      "vertices": 864,
+      "triangles": 1632,
+      "morphs": [
+        "eyeLookUpRight",
+        "eyeLookDownRight",
+        "eyeLookOutRight",
+        "eyeLookInRight"
+      ],
+      "boneGroups": [
+        "eye.R"
+      ],
+      "maximumInfluences": 1
+    }
+  ],
+  "triangleCount": 96694,
+  "arkitCount": 52,
+  "visemeCount": 15,
+  "morphCount": 67,
+  "morphChannelChecks": {
+    "browDownLeft": {
+      "changedVertices": 1865,
+      "maxDeltaMeters": 0.006732732814195468
+    },
+    "browDownRight": {
+      "changedVertices": 1864,
+      "maxDeltaMeters": 0.006732540086616621
+    },
+    "browInnerUp": {
+      "changedVertices": 2297,
+      "maxDeltaMeters": 0.004579206114058295
+    },
+    "browOuterUpLeft": {
+      "changedVertices": 1375,
+      "maxDeltaMeters": 0.006301137286889223
+    },
+    "browOuterUpRight": {
+      "changedVertices": 1375,
+      "maxDeltaMeters": 0.006301137286889223
+    },
+    "cheekPuff": {
+      "changedVertices": 7599,
+      "maxDeltaMeters": 0.01301175437973066
+    },
+    "cheekSquintLeft": {
+      "changedVertices": 2580,
+      "maxDeltaMeters": 0.008652668885204861
+    },
+    "cheekSquintRight": {
+      "changedVertices": 2580,
+      "maxDeltaMeters": 0.008663571164587963
+    },
+    "eyeBlinkLeft": {
+      "changedVertices": 2987,
+      "maxDeltaMeters": 0.012363161815143011
+    },
+    "eyeBlinkRight": {
+      "changedVertices": 2987,
+      "maxDeltaMeters": 0.012363159565666249
+    },
+    "eyeLookDownLeft": {
+      "changedVertices": 2313,
+      "maxDeltaMeters": 0.006251386191962043
+    },
+    "eyeLookDownRight": {
+      "changedVertices": 2314,
+      "maxDeltaMeters": 0.0062513752986220646
+    },
+    "eyeLookInLeft": {
+      "changedVertices": 2128,
+      "maxDeltaMeters": 0.007791825630482886
+    },
+    "eyeLookInRight": {
+      "changedVertices": 2129,
+      "maxDeltaMeters": 0.007791824973909169
+    },
+    "eyeLookOutLeft": {
+      "changedVertices": 2120,
+      "maxDeltaMeters": 0.007791826797724912
+    },
+    "eyeLookOutRight": {
+      "changedVertices": 2119,
+      "maxDeltaMeters": 0.0077918265934575695
+    },
+    "eyeLookUpLeft": {
+      "changedVertices": 3573,
+      "maxDeltaMeters": 0.007791879206711706
+    },
+    "eyeLookUpRight": {
+      "changedVertices": 3569,
+      "maxDeltaMeters": 0.007791880403126554
+    },
+    "eyeSquintLeft": {
+      "changedVertices": 1439,
+      "maxDeltaMeters": 0.003491278936085593
+    },
+    "eyeSquintRight": {
+      "changedVertices": 1441,
+      "maxDeltaMeters": 0.0034911584933061636
+    },
+    "eyeWideLeft": {
+      "changedVertices": 1324,
+      "maxDeltaMeters": 0.003607284823063891
+    },
+    "eyeWideRight": {
+      "changedVertices": 1323,
+      "maxDeltaMeters": 0.0036074122282520535
+    },
+    "jawForward": {
+      "changedVertices": 9255,
+      "maxDeltaMeters": 0.008562856106712594
+    },
+    "jawLeft": {
+      "changedVertices": 9003,
+      "maxDeltaMeters": 0.007999520934749978
+    },
+    "jawOpen": {
+      "changedVertices": 10803,
+      "maxDeltaMeters": 0.037999166042257414
+    },
+    "jawRight": {
+      "changedVertices": 9003,
+      "maxDeltaMeters": 0.007999532964949856
+    },
+    "mouthClose": {
+      "changedVertices": 7504,
+      "maxDeltaMeters": 0.0340519882520306
+    },
+    "mouthDimpleLeft": {
+      "changedVertices": 3597,
+      "maxDeltaMeters": 0.0076400680386722345
+    },
+    "mouthDimpleRight": {
+      "changedVertices": 3591,
+      "maxDeltaMeters": 0.007639978160868088
+    },
+    "mouthFrownLeft": {
+      "changedVertices": 3056,
+      "maxDeltaMeters": 0.006438161611786789
+    },
+    "mouthFrownRight": {
+      "changedVertices": 3056,
+      "maxDeltaMeters": 0.0064380450210122404
+    },
+    "mouthFunnel": {
+      "changedVertices": 6308,
+      "maxDeltaMeters": 0.010243991764729557
+    },
+    "mouthLeft": {
+      "changedVertices": 7048,
+      "maxDeltaMeters": 0.010427806410084742
+    },
+    "mouthLowerDownLeft": {
+      "changedVertices": 1311,
+      "maxDeltaMeters": 0.004477793493997497
+    },
+    "mouthLowerDownRight": {
+      "changedVertices": 1311,
+      "maxDeltaMeters": 0.004477793032234473
+    },
+    "mouthPressLeft": {
+      "changedVertices": 4143,
+      "maxDeltaMeters": 0.007980414635673675
+    },
+    "mouthPressRight": {
+      "changedVertices": 4144,
+      "maxDeltaMeters": 0.007986049352629324
+    },
+    "mouthPucker": {
+      "changedVertices": 6491,
+      "maxDeltaMeters": 0.008373805978186415
+    },
+    "mouthRight": {
+      "changedVertices": 7048,
+      "maxDeltaMeters": 0.010427721110317813
+    },
+    "mouthRollLower": {
+      "changedVertices": 1848,
+      "maxDeltaMeters": 0.006727028539322756
+    },
+    "mouthRollUpper": {
+      "changedVertices": 3585,
+      "maxDeltaMeters": 0.010359346336925016
+    },
+    "mouthShrugLower": {
+      "changedVertices": 1353,
+      "maxDeltaMeters": 0.0063894799548276674
+    },
+    "mouthShrugUpper": {
+      "changedVertices": 3151,
+      "maxDeltaMeters": 0.005201081653886165
+    },
+    "mouthSmileLeft": {
+      "changedVertices": 6270,
+      "maxDeltaMeters": 0.018175788248394817
+    },
+    "mouthSmileRight": {
+      "changedVertices": 6266,
+      "maxDeltaMeters": 0.01761441326289543
+    },
+    "mouthStretchLeft": {
+      "changedVertices": 4556,
+      "maxDeltaMeters": 0.008369809614844173
+    },
+    "mouthStretchRight": {
+      "changedVertices": 4555,
+      "maxDeltaMeters": 0.008368712419615402
+    },
+    "mouthUpperUpLeft": {
+      "changedVertices": 3031,
+      "maxDeltaMeters": 0.005686084308644066
+    },
+    "mouthUpperUpRight": {
+      "changedVertices": 3030,
+      "maxDeltaMeters": 0.005685859495532326
+    },
+    "noseSneerLeft": {
+      "changedVertices": 3898,
+      "maxDeltaMeters": 0.004594447778796736
+    },
+    "noseSneerRight": {
+      "changedVertices": 3901,
+      "maxDeltaMeters": 0.004594448607733946
+    },
+    "tongueOut": {
+      "changedVertices": 226,
+      "maxDeltaMeters": 0.027467074462863898
+    },
+    "viseme_CH": {
+      "changedVertices": 5282,
+      "maxDeltaMeters": 0.007038514578903969
+    },
+    "viseme_DD": {
+      "changedVertices": 7008,
+      "maxDeltaMeters": 0.0047690113890086795
+    },
+    "viseme_E": {
+      "changedVertices": 10330,
+      "maxDeltaMeters": 0.005748076097000323
+    },
+    "viseme_FF": {
+      "changedVertices": 5553,
+      "maxDeltaMeters": 0.005197506913319802
+    },
+    "viseme_I": {
+      "changedVertices": 5818,
+      "maxDeltaMeters": 0.008799119448061376
+    },
+    "viseme_O": {
+      "changedVertices": 9530,
+      "maxDeltaMeters": 0.006897904476319434
+    },
+    "viseme_PP": {
+      "changedVertices": 7917,
+      "maxDeltaMeters": 0.0070386766513791076
+    },
+    "viseme_RR": {
+      "changedVertices": 5569,
+      "maxDeltaMeters": 0.005702264109453876
+    },
+    "viseme_SS": {
+      "changedVertices": 7117,
+      "maxDeltaMeters": 0.004749981584927631
+    },
+    "viseme_TH": {
+      "changedVertices": 7079,
+      "maxDeltaMeters": 0.002773897385711502
+    },
+    "viseme_U": {
+      "changedVertices": 5325,
+      "maxDeltaMeters": 0.004365106634176709
+    },
+    "viseme_aa": {
+      "changedVertices": 10227,
+      "maxDeltaMeters": 0.017727637171246452
+    },
+    "viseme_kk": {
+      "changedVertices": 8715,
+      "maxDeltaMeters": 0.006907295655314269
+    },
+    "viseme_nn": {
+      "changedVertices": 8953,
+      "maxDeltaMeters": 0.00530782698146377
+    },
+    "viseme_sil": {
+      "changedVertices": 0,
+      "maxDeltaMeters": 0
+    }
+  },
+  "romChecks": [
+    {
+      "pose": "blink",
+      "changedVertices": 4938,
+      "maxDisplacementMeters": 0.012645849958062172
+    },
+    {
+      "pose": "smile",
+      "changedVertices": 9642,
+      "maxDisplacementMeters": 0.012691080570220947
+    },
+    {
+      "pose": "open",
+      "changedVertices": 8105,
+      "maxDisplacementMeters": 0.014182060025632381
+    },
+    {
+      "pose": "pucker",
+      "changedVertices": 5325,
+      "maxDisplacementMeters": 0.003492089919745922
+    },
+    {
+      "pose": "head_turn",
+      "bodyMaxDisplacementMeters": 0.0585147924721241,
+      "outfitMaxDisplacementMeters": 0.000692187633831054
+    },
+    {
+      "pose": "elbow_bend",
+      "bodyMaxDisplacementMeters": 0.47819459438323975,
+      "outfitMaxDisplacementMeters": 0.2935609817504883
+    },
+    {
+      "pose": "knee_bend",
+      "bodyMaxDisplacementMeters": 0.27923092246055603,
+      "outfitMaxDisplacementMeters": 0.34991776943206787
+    }
+  ],
+  "rawGlbBytes": 27292720,
+  "glbBytes": 6938548,
+  "glbSha256": "86840e26557568cc761d8270ebf98fb465683c3bb9549f067767c367504b020f",
+  "clips": [
+    "idle_breathe",
+    "idle_glance_left",
+    "idle_glance_right",
+    "idle_shoulders",
+    "idle_settle",
+    "idle_collar",
+    "wave_1",
+    "wave_2",
+    "open_palm_present_1",
+    "open_palm_present_2",
+    "welcome_open_arms_1",
+    "welcome_open_arms_2",
+    "shrug_1",
+    "shrug_2",
+    "count_on_fingers_1",
+    "count_on_fingers_2",
+    "beat_small_1",
+    "beat_small_2",
+    "beat_big_1",
+    "beat_big_2",
+    "hand_to_chin_1",
+    "hand_to_chin_2",
+    "arms_crossed_1",
+    "arms_crossed_2",
+    "thumbs_up_1",
+    "thumbs_up_2",
+    "nod_1",
+    "nod_2",
+    "head_shake_1",
+    "head_shake_2",
+    "head_tilt_1",
+    "head_tilt_2",
+    "laugh_body_1",
+    "laugh_body_2"
+  ],
+  "generatedMotion": "34 authored motion studies; Blender source clip module and runtime layers; visual identity rejected",
+  "exportTriangleCount": 56694,
+  "textures": "KTX2 UASTC level2, RDO 0.5, Zstandard18, full mip chain",
+  "gpuTextureValidation": [
+    {
+      "image": 0,
+      "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+      "valid": true,
+      "messages": []
+    },
+    {
+      "image": 1,
+      "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+      "valid": true,
+      "messages": []
+    },
+    {
+      "image": 2,
+      "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+      "valid": true,
+      "messages": []
+    },
+    {
+      "image": 3,
+      "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+      "valid": true,
+      "messages": []
+    },
+    {
+      "image": 4,
+      "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+      "valid": true,
+      "messages": []
+    },
+    {
+      "image": 5,
+      "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+      "valid": true,
+      "messages": []
+    },
+    {
+      "image": 6,
+      "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+      "valid": true,
+      "messages": []
+    },
+    {
+      "image": 7,
+      "$schema": "https://schema.khronos.org/ktx/validate_v0.json",
+      "valid": true,
+      "messages": []
+    }
+  ]
+}

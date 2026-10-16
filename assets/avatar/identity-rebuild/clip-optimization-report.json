@@ -1,0 +1,219 @@
+{
+  "triangles": 56694,
+  "meshes": [
+    {
+      "mesh": "Ubaid_Body",
+      "beforeTriangles": 62000,
+      "afterTriangles": 22000,
+      "protectedVertices": 5345,
+      "positionAttributeError": 0.0005029219319112599
+    }
+  ],
+  "clips": [
+    {
+      "name": "idle_breathe",
+      "duration": 6.800000157207251,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 2.980232238769531e-7
+    },
+    {
+      "name": "idle_glance_left",
+      "duration": 7.499999966472387,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "idle_glance_right",
+      "duration": 6.199999775737524,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "idle_shoulders",
+      "duration": 5.800000157207251,
+      "movingChannels": 8,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "idle_settle",
+      "duration": 7.800000157207251,
+      "movingChannels": 7,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "idle_collar",
+      "duration": 7.199999775737524,
+      "movingChannels": 18,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "wave_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 9,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "wave_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 9,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "open_palm_present_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 9,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "open_palm_present_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 9,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "welcome_open_arms_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 12,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "welcome_open_arms_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 12,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "shrug_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 14,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "shrug_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 14,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "count_on_fingers_1",
+      "duration": 4.499999966472387,
+      "movingChannels": 18,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "count_on_fingers_2",
+      "duration": 4.499999966472387,
+      "movingChannels": 18,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "beat_small_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 9,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "beat_small_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 9,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "beat_big_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 12,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "beat_big_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 12,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "hand_to_chin_1",
+      "duration": 4.499999966472387,
+      "movingChannels": 18,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "hand_to_chin_2",
+      "duration": 4.499999966472387,
+      "movingChannels": 18,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "arms_crossed_1",
+      "duration": 4.499999966472387,
+      "movingChannels": 36,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "arms_crossed_2",
+      "duration": 4.499999966472387,
+      "movingChannels": 36,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "thumbs_up_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 17,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "thumbs_up_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 17,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "nod_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "nod_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "head_shake_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "head_shake_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "head_tilt_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "head_tilt_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 6,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "laugh_body_1",
+      "duration": 3.4999999664723873,
+      "movingChannels": 8,
+      "maximumEndpointDifference": 0
+    },
+    {
+      "name": "laugh_body_2",
+      "duration": 3.4999999664723873,
+      "movingChannels": 8,
+      "maximumEndpointDifference": 0
+    }
+  ],
+  "method": "Attribute-aware simplification of body; 9 facial extremes, all-channel unique-motion locks, dominant-joint boundary locks. Morph and skin data remapped together. Requires visual ROM verification."
+}

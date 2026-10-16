@@ -233,6 +233,15 @@
       },
       "graphql": {
         "handsOn": true
+      },
+      "majorCloudPlatforms": {
+        "studied": true,
+        "productionExperience": false,
+        "specificPlatformsAndServices": [],
+        "selfReportedAbility": "Candidate says they can work with these platforms, but have no proper production working experience.",
+        "source": "Direct candidate clarification on October 16, 2026",
+        "confirmedAt": "2026-10-16T07:16:02.928560+00:00",
+        "independentlyVerified": false
       }
     },
     "english": {

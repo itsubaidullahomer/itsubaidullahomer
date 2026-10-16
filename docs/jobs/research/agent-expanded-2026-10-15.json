@@ -1,0 +1,2041 @@
+{
+  "researchedAt": "2026-10-15T15:15:13.463870Z",
+  "scope": "Public read-only research. No applications, emails, live portal imports or paid accounts.",
+  "candidateSources": [
+    "content/site.ts",
+    "lib/jobs/seed.ts",
+    ".job-search/flowcv-resume-source.txt"
+  ],
+  "candidateConfirmedFacts": [
+    "No degree",
+    "Immediate availability",
+    "4+ years based on January 2022 onward; do not claim five complete years"
+  ],
+  "candidateEvidenceStatus": "Resume/portfolio statements self-reported; all requirement assessments unknown. No fit percentage or Strong fit classification.",
+  "jobs": [
+    {
+      "id": "pavago-f280d10f6f",
+      "company": "Pavago",
+      "title": "AI Product Engineer (Full Stack)",
+      "url": "https://apply.workable.com/pavago/j/F280D10F6F/",
+      "location": "Remote Pakistan; US overlap",
+      "salary": "Not disclosed",
+      "description": "Own production AI product features and architecture across interfaces, APIs and backend data. Requires full-stack shipping experience, real LLM integrations, validation and failure handling, authentication and independent ownership. Work follows US business hours.",
+      "source": "Workable \u2014 employer ATS",
+      "sourceId": "pavago-f280d10f6f",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Current Workable role country is Pakistan and remote=true.",
+      "requirements": [
+        {
+          "id": "pavago-f280d10f6f-r1",
+          "text": "Production full-stack products and LLM integrations",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "pavago-f280d10f6f-r2",
+          "text": "Backend architecture, authorization and AI output validation",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "pavago-f280d10f6f-r3",
+          "text": "US business-hour availability",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Recruitment agency posting; end-client identity and contract terms are not independently verified. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://pavago.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "pavago-f280d10f6f-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://apply.workable.com/pavago/j/F280D10F6F/",
+            "text": "Own production AI product features and architecture across interfaces, APIs and backend data. Requires full-stack shipping experience, real LLM integrations, validation and failure handling, authentication and independent ownership. Work follows US business hours.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "pavago-f280d10f6f-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://apply.workable.com/api/v2/accounts/pavago/jobs/F280D10F6F",
+            "text": "Current public employer Workable detail API state published; exact ID also present in current career widget. Original posting date: 2026-08-13T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T15:15:14.846570Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:14.846570Z",
+        "publishedAt": "2026-08-13T00:00:00.000Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer Workable detail API state published; exact ID also present in current career widget.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/Node products, Stripe integration and AI API product delivery. Resume lists Cypress and NestJS."
+        ],
+        "candidateGapsOrUnknowns": [
+          "AI validation/guardrail examples; backend platform specifics; US schedule."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://apply.workable.com/api/v2/accounts/pavago/jobs/F280D10F6F"
+      }
+    },
+    {
+      "id": "pavago-3ddacf04af",
+      "company": "Pavago",
+      "title": "Full-Stack Developer \u2014 client portal",
+      "url": "https://apply.workable.com/pavago/j/3DDACF04AF/",
+      "location": "Remote Pakistan; US overlap",
+      "salary": "Not disclosed",
+      "description": "Build a client portal using React, TypeScript and Next.js App Router. Work includes SQL data models, secure Postgres access, resilient UI states, automated tests and cross-stack delivery. The role asks for two to four years and US working hours.",
+      "source": "Workable \u2014 employer ATS",
+      "sourceId": "pavago-3ddacf04af",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Current Workable role country is Pakistan and remote=true.",
+      "requirements": [
+        {
+          "id": "pavago-3ddacf04af-r1",
+          "text": "React/TypeScript and Next.js App Router delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "pavago-3ddacf04af-r2",
+          "text": "SQL, PostgreSQL migrations and row-level security",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "pavago-3ddacf04af-r3",
+          "text": "Automated tests and US work-hour overlap",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Recruitment agency posting; end-client identity and contract terms are not independently verified. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://pavago.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "pavago-3ddacf04af-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://apply.workable.com/pavago/j/3DDACF04AF/",
+            "text": "Build a client portal using React, TypeScript and Next.js App Router. Work includes SQL data models, secure Postgres access, resilient UI states, automated tests and cross-stack delivery. The role asks for two to four years and US working hours.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "pavago-3ddacf04af-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://apply.workable.com/api/v2/accounts/pavago/jobs/3DDACF04AF",
+            "text": "Current public employer Workable detail API state published; exact ID also present in current career widget. Original posting date: 2026-09-17T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T15:15:14.131853Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:14.131853Z",
+        "publishedAt": "2026-09-17T00:00:00.000Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer Workable detail API state published; exact ID also present in current career widget.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/Node products, Stripe integration and AI API product delivery. Resume lists Cypress and NestJS."
+        ],
+        "candidateGapsOrUnknowns": [
+          "PostgreSQL/SQL/RLS depth; monorepo experience; exact US schedule."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://apply.workable.com/api/v2/accounts/pavago/jobs/3DDACF04AF"
+      }
+    },
+    {
+      "id": "pavago-b27de28c51",
+      "company": "Pavago",
+      "title": "Full-Stack Developer \u2014 Sergio AI",
+      "url": "https://apply.workable.com/pavago/j/B27DE28C51/",
+      "location": "Remote Pakistan; US overlap",
+      "salary": "Not disclosed",
+      "description": "Own a home-services AI assistant across Next.js, TypeScript, billing and backend features. The stack includes Supabase/PostgreSQL, Stripe webhooks, LLM APIs and Vercel. Requires secure multi-tenant data design, dependable testing and four hours of US Eastern overlap.",
+      "source": "Workable \u2014 employer ATS",
+      "sourceId": "pavago-b27de28c51",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Current Workable role country is Pakistan and remote=true.",
+      "requirements": [
+        {
+          "id": "pavago-b27de28c51-r1",
+          "text": "Next.js/TypeScript, Stripe and LLM feature delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "pavago-b27de28c51-r2",
+          "text": "PostgreSQL multi-tenant RLS and automated end-to-end tests",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "pavago-b27de28c51-r3",
+          "text": "Four daily hours overlapping US Eastern",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Recruitment agency posting; end-client identity and contract terms are not independently verified. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://pavago.co/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "pavago-b27de28c51-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://apply.workable.com/pavago/j/B27DE28C51/",
+            "text": "Own a home-services AI assistant across Next.js, TypeScript, billing and backend features. The stack includes Supabase/PostgreSQL, Stripe webhooks, LLM APIs and Vercel. Requires secure multi-tenant data design, dependable testing and four hours of US Eastern overlap.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "pavago-b27de28c51-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://apply.workable.com/api/v2/accounts/pavago/jobs/B27DE28C51",
+            "text": "Current public employer Workable detail API state published; exact ID also present in current career widget. Original posting date: 2026-09-29T00:00:00.000Z.",
+            "capturedAt": "2026-10-15T15:15:14.387175Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:14.387175Z",
+        "publishedAt": "2026-09-29T00:00:00.000Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer Workable detail API state published; exact ID also present in current career widget.",
+        "employmentType": "Full-time long-term contract",
+        "candidateMatches": [
+          "React/Next/Node products, Stripe integration and AI API product delivery. Resume lists Cypress and NestJS."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Supabase/PostgreSQL/RLS production depth; AI coding workflow; schedule."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://apply.workable.com/api/v2/accounts/pavago/jobs/B27DE28C51"
+      }
+    },
+    {
+      "id": "lestolabs-product-4546260",
+      "company": "Lesto Labs",
+      "title": "Senior Full-Stack Product Engineer \u2014 React Native, Node.js, Next.js",
+      "url": "https://wellfound.com/jobs/4546260-senior-full-stack-product-engineer-react-native-node-js-next-js",
+      "location": "Remote everywhere / Palo Alto",
+      "salary": "Not disclosed",
+      "description": "Own a consumer AI product across React Native, Next.js and Node. Build APIs, media integrations and polished customer flows alongside the founder. The role values product judgment and shipped work; Firebase, Expo, Stripe and analytics appear in the stack, with flexibility to learn.",
+      "source": "Wellfound \u2014 employer listing",
+      "sourceId": "lestolabs-product-4546260",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer listing says hires everywhere and visa sponsorship available.",
+      "requirements": [
+        {
+          "id": "lestolabs-product-4546260-r1",
+          "text": "Real products shipped with JavaScript/TypeScript",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "lestolabs-product-4546260-r2",
+          "text": "Independent product decisions across mobile, web and backend",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "lestolabs-product-4546260-r3",
+          "text": "Header says five years; body describes mid-level and flexible credentials",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Keep on hold until experience flexibility is confirmed; no automatic verified-match classification. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://lestolabs.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "lestolabs-product-4546260-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://wellfound.com/jobs/4546260-senior-full-stack-product-engineer-react-native-node-js-next-js",
+            "text": "Own a consumer AI product across React Native, Next.js and Node. Build APIs, media integrations and polished customer flows alongside the founder. The role values product judgment and shipped work; Firebase, Expo, Stripe and analytics appear in the stack, with flexibility to learn.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "rendered_employer_listing_open",
+        "verifiedAt": "2026-10-15T15:15:13.463870Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current web reader rendered employer Wellfound listing, title and Apply Now on 2026-10-15. Separate direct HTTP GET returned 403; no access control bypassed.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Three mobile apps, Next/Node delivery, AI integrations, Stripe and product ownership; resume lists analytics work."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Five-year header conflicts with flexible body; candidate has 4+ years. Firebase/Expo/Mixpanel depth unknown."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "hold_tenure_clarification",
+        "httpStatus": 403
+      }
+    },
+    {
+      "id": "reframe-fullstack-v39dt3g",
+      "company": "Reframe",
+      "title": "Fullstack Engineer",
+      "url": "https://www.ycombinator.com/companies/reframe/jobs/V39dt3G-fullstack-engineer",
+      "location": "Remote / Atlanta; sponsorship available",
+      "salary": "Not disclosed",
+      "description": "Build consumer web features across React/Next.js, TypeScript and Node/Express. Three years of delivery, SQL/ORM use, testing, API integration and deployment skills are expected. GraphQL, Redis and realtime services appear in the technical scope.",
+      "source": "YC \u2014 employer job listing",
+      "sourceId": "reframe-fullstack-v39dt3g",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "YC explicitly states will sponsor; remote Pakistan contract terms remain unknown.",
+      "requirements": [
+        {
+          "id": "reframe-fullstack-v39dt3g-r1",
+          "text": "Three years of modern web-product delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "reframe-fullstack-v39dt3g-r2",
+          "text": "React/Next.js, Node/Express and SQL/ORM",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "reframe-fullstack-v39dt3g-r3",
+          "text": "Automated testing, cloud deployment and API integration",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.joinreframeapp.com/",
+        "contacts": [
+          {
+            "id": "reframe-fullstack-v39dt3g-person-1",
+            "name": "Ziyi Gao",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/ziyigao67/",
+            "sourceUrl": "https://www.ycombinator.com/companies/reframe/jobs/V39dt3G-fullstack-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z"
+          },
+          {
+            "id": "reframe-fullstack-v39dt3g-person-2",
+            "name": "Vedant Pradeep",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/vedantpradeep",
+            "sourceUrl": "https://www.ycombinator.com/companies/reframe/jobs/V39dt3G-fullstack-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "reframe-fullstack-v39dt3g-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/reframe/jobs/V39dt3G-fullstack-engineer",
+            "text": "Build consumer web features across React/Next.js, TypeScript and Node/Express. Three years of delivery, SQL/ORM use, testing, API integration and deployment skills are expected. GraphQL, Redis and realtime services appear in the technical scope.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:14.336934Z",
+        "publishedAt": "2025-04-28T19:55:12Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/Node/Express, Stripe, realtime integrations, consumer/education products."
+        ],
+        "candidateGapsOrUnknowns": [
+          "SQL/ORM, Docker/cloud specifics, GraphQL and remote-country terms."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://www.ycombinator.com/companies/reframe/jobs/V39dt3G-fullstack-engineer",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "porter-frontend-gd7hwti",
+      "company": "Porter",
+      "title": "Frontend Engineer",
+      "url": "https://www.ycombinator.com/companies/porter/jobs/GD7hwtI-frontend-engineer",
+      "location": "New York City, onsite; sponsorship available",
+      "salary": "Not disclosed",
+      "description": "Build deployment interfaces using React and TypeScript, taking responsibility for design and frontend architecture. Work includes onboarding, cloud permissions and reusable components. The role asks for three years and explicitly requires in-person New York work.",
+      "source": "YC \u2014 employer job listing",
+      "sourceId": "porter-frontend-gd7hwti",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "YC says will sponsor. Role-specific onsite requirement takes precedence over generic company remote text.",
+      "requirements": [
+        {
+          "id": "porter-frontend-gd7hwti-r1",
+          "text": "Three years and React/TypeScript frontend delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "porter-frontend-gd7hwti-r2",
+          "text": "Design judgment and independently owned components",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "porter-frontend-gd7hwti-r3",
+          "text": "Relocation to New York City",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Old requisition remains publicly open; verify active hiring immediately before submission. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://porter.run",
+        "contacts": [
+          {
+            "id": "porter-frontend-gd7hwti-person-1",
+            "name": "Justin Rhee",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/justin-rhee-61634112a/",
+            "sourceUrl": "https://www.ycombinator.com/companies/porter/jobs/GD7hwtI-frontend-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "porter-frontend-gd7hwti-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/porter/jobs/GD7hwtI-frontend-engineer",
+            "text": "Build deployment interfaces using React and TypeScript, taking responsibility for design and frontend architecture. Work includes onboarding, cloud permissions and reusable components. The role asks for three years and explicitly requires in-person New York work.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:14.614255Z",
+        "publishedAt": "2023-04-04T20:34:06Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Reusable React components, responsive UI, product ownership and frontend performance."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Infrastructure UX/design portfolio depth; relocation willingness and visa feasibility."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://www.ycombinator.com/companies/porter/jobs/GD7hwtI-frontend-engineer",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "ciro-software-c7nk9eu",
+      "company": "Ciro",
+      "title": "Software Engineer",
+      "url": "https://www.ycombinator.com/companies/ciro/jobs/c7NK9Eu-software-engineer",
+      "location": "San Francisco, onsite; sponsorship available",
+      "salary": "Not disclosed",
+      "description": "Ship product features for an AI sales platform using React, Node, GraphQL and AI APIs. The role emphasizes product decisions, customer outcomes and independent delivery. Some projects touch agent workflows and data pipelines. Three years of web engineering are requested.",
+      "source": "YC \u2014 employer job listing",
+      "sourceId": "ciro-software-c7nk9eu",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "YC explicitly states will sponsor; overseas onsite lead, not Pakistan-remote.",
+      "requirements": [
+        {
+          "id": "ciro-software-c7nk9eu-r1",
+          "text": "Three years delivering web applications",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "ciro-software-c7nk9eu-r2",
+          "text": "React/Node product work and sound product judgment",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "ciro-software-c7nk9eu-r3",
+          "text": "San Francisco onsite work; data pipeline scope requires discussion",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.ciro.io/",
+        "contacts": [
+          {
+            "id": "ciro-software-c7nk9eu-person-1",
+            "name": "Ross Geiger",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/rossgeiger1",
+            "sourceUrl": "https://www.ycombinator.com/companies/ciro/jobs/c7NK9Eu-software-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z"
+          },
+          {
+            "id": "ciro-software-c7nk9eu-person-2",
+            "name": "Richard Lee",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/zrlee",
+            "sourceUrl": "https://www.ycombinator.com/companies/ciro/jobs/c7NK9Eu-software-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "ciro-software-c7nk9eu-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/ciro/jobs/c7NK9Eu-software-engineer",
+            "text": "Ship product features for an AI sales platform using React, Node, GraphQL and AI APIs. The role emphasizes product decisions, customer outcomes and independent delivery. Some projects touch agent workflows and data pipelines. Three years of web engineering are requested.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:15.195668Z",
+        "publishedAt": "2025-01-27T21:04:51Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "AI API platform, React/Node/Mongo delivery, CRM and product ownership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "GraphQL, Elasticsearch/Spark data pipeline work; relocation and visa terms."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://www.ycombinator.com/companies/ciro/jobs/c7NK9Eu-software-engineer",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "fifthdoor-frontend-o7as4a9",
+      "company": "Fifth Door",
+      "title": "Front End Engineer",
+      "url": "https://www.ycombinator.com/companies/fifth-door/jobs/o7AS4A9-front-end-engineer",
+      "location": "San Francisco / remote US; sponsorship available",
+      "salary": "Not disclosed",
+      "description": "Build interactive web products with React and TypeScript. The role requests three years, responsive and accessible interfaces, build tools, REST/WebSocket integration and Git. Animation and backend or games experience are useful. AI coding tools are part of the workflow.",
+      "source": "YC \u2014 employer job listing",
+      "sourceId": "fifthdoor-frontend-o7as4a9",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "YC says will sponsor. Remote is limited to US; Pakistan remote is not advertised.",
+      "requirements": [
+        {
+          "id": "fifthdoor-frontend-o7as4a9-r1",
+          "text": "Three years of React/TypeScript",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "fifthdoor-frontend-o7as4a9-r2",
+          "text": "Responsive accessible UI, build tools, REST/WebSockets",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "fifthdoor-frontend-o7as4a9-r3",
+          "text": "US location or sponsored relocation",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://fifthdoor.com",
+        "contacts": [
+          {
+            "id": "fifthdoor-frontend-o7as4a9-person-1",
+            "name": "Amir Ghazvinian",
+            "role": "Co-founder / CTO",
+            "profileUrl": "https://www.linkedin.com/in/amirghazvinian/",
+            "sourceUrl": "https://www.ycombinator.com/companies/fifth-door/jobs/o7AS4A9-front-end-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z"
+          },
+          {
+            "id": "fifthdoor-frontend-o7as4a9-person-2",
+            "name": "Daniel Kan",
+            "role": "Co-founder / CEO",
+            "profileUrl": "https://www.linkedin.com/in/danielkan",
+            "sourceUrl": "https://www.ycombinator.com/companies/fifth-door/jobs/o7AS4A9-front-end-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "fifthdoor-frontend-o7as4a9-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/fifth-door/jobs/o7AS4A9-front-end-engineer",
+            "text": "Build interactive web products with React and TypeScript. The role requests three years, responsive and accessible interfaces, build tools, REST/WebSocket integration and Git. Animation and backend or games experience are useful. AI coding tools are part of the workflow.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:15.328235Z",
+        "publishedAt": "2025-06-19T16:34:34Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/TypeScript, realtime messaging, responsive UI and product delivery."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Accessibility examples, AI coding workflow, US relocation and sponsorship logistics."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://www.ycombinator.com/companies/fifth-door/jobs/o7AS4A9-front-end-engineer",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "spellbrush-frontend-6ttcv4a",
+      "company": "Spellbrush",
+      "title": "Frontend Engineer (Anime Games)",
+      "url": "https://www.ycombinator.com/companies/spellbrush/jobs/6ttCv4A-frontend-engineer-anime-games",
+      "location": "Tokyo or San Francisco preferred; visa sponsorship",
+      "salary": "Not disclosed",
+      "description": "Create React/TypeScript interfaces and tools for anime and games. Requires three years, complex single-page application experience, visual judgment and interest in the product. Graphics APIs may be learned. The employer prefers working together in Tokyo or San Francisco and offers visa support.",
+      "source": "YC \u2014 employer job listing",
+      "sourceId": "spellbrush-frontend-6ttcv4a",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Posting explicitly offers visa sponsorship for preferred overseas office locations.",
+      "requirements": [
+        {
+          "id": "spellbrush-frontend-6ttcv4a-r1",
+          "text": "Three years React/TypeScript and complex web interfaces",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "spellbrush-frontend-6ttcv4a-r2",
+          "text": "Design craft and interest in anime/games",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "spellbrush-frontend-6ttcv4a-r3",
+          "text": "Willingness to learn graphics APIs and relocate",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Old requisition; current YC page exposes Apply. Reconfirm active headcount before preparation. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://spellbrush.com",
+        "contacts": [
+          {
+            "id": "spellbrush-frontend-6ttcv4a-person-1",
+            "name": "Cory Li",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/scoryli",
+            "sourceUrl": "https://www.ycombinator.com/companies/spellbrush/jobs/6ttCv4A-frontend-engineer-anime-games",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "spellbrush-frontend-6ttcv4a-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/spellbrush/jobs/6ttCv4A-frontend-engineer-anime-games",
+            "text": "Create React/TypeScript interfaces and tools for anime and games. Requires three years, complex single-page application experience, visual judgment and interest in the product. Graphics APIs may be learned. The employer prefers working together in Tokyo or San Francisco and offers visa support.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:15.076373Z",
+        "publishedAt": "2021-10-19T19:13:06Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/TypeScript product delivery, interactive interfaces, performance work."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Anime/game interest is unknown; graphics/editor tools and relocation need discussion."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://www.ycombinator.com/companies/spellbrush/jobs/6ttCv4A-frontend-engineer-anime-games",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "axra-backend",
+      "company": "Axra",
+      "title": "Backend Engineer",
+      "url": "https://www.useaxra.com/careers/backend-engineer",
+      "location": "Remote worldwide",
+      "salary": "GBP 70,000\u201390,000 per year",
+      "description": "Build financial product APIs and backend services. Requires four years with Node or Go, strong PostgreSQL schema/query work, dependable payments integrations and resilient asynchronous systems. Own security, retries, idempotency and operational reliability.",
+      "source": "Official company careers",
+      "sourceId": "axra-backend",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Company vacancy explicitly says remote worldwide.",
+      "requirements": [
+        {
+          "id": "axra-backend-r1",
+          "text": "Four years backend work with Node or Go",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "axra-backend-r2",
+          "text": "Strong PostgreSQL modeling and queries",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "axra-backend-r3",
+          "text": "Secure payments APIs, queues and idempotency",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Employer site verified; legal entity and compensation terms require ordinary candidate review. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.useaxra.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "axra-backend-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://www.useaxra.com/careers/backend-engineer",
+            "text": "Build financial product APIs and backend services. Requires four years with Node or Go, strong PostgreSQL schema/query work, dependable payments integrations and resilient asynchronous systems. Own security, retries, idempotency and operational reliability.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:14.764795Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Node/Express/Mongo, Stripe/SEPA integration, authentication, Redis and API delivery."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Deep PostgreSQL production work and exact backend tenure; queue/idempotency implementation examples."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://www.useaxra.com/careers/backend-engineer",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "adbite-frontend",
+      "company": "Adbite",
+      "title": "Senior Frontend Engineer",
+      "url": "https://adbite.com/careers/",
+      "location": "Remote worldwide",
+      "salary": "Not disclosed",
+      "description": "Build React/TypeScript interfaces for an advertising technology platform. The current career card emphasizes data-heavy UI; D3 and WebSocket experience are useful. The public page is a brief vacancy card rather than a complete specification.",
+      "source": "Official company careers",
+      "sourceId": "adbite-frontend",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Official careers card states remote worldwide.",
+      "requirements": [
+        {
+          "id": "adbite-frontend-r1",
+          "text": "React/TypeScript and data-rich interfaces",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "adbite-frontend-r2",
+          "text": "Full seniority, education and employment requirements must be obtained",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Short listing only; not ready to apply until the full requirements are known. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://adbite.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "adbite-frontend-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://adbite.com/careers/",
+            "text": "Build React/TypeScript interfaces for an advertising technology platform. The current career card emphasizes data-heavy UI; D3 and WebSocket experience are useful. The public page is a brief vacancy card rather than a complete specification.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:15.472438Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Resume reports Joinillume analytics with D3/Chart.js, React/Tailwind, plus real-time product work."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Full job description and seniority criteria missing; employer terms unverified."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://adbite.com/careers/",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "panacea-rn-743999766171787",
+      "company": "PanaceaLogics",
+      "title": "React Native Developer (Remote)",
+      "url": "https://jobs.smartrecruiters.com/PanaceaLogics/743999766171787-react-native-developer-remote-",
+      "location": "Remote Pakistan / Rawalpindi",
+      "salary": "Not disclosed",
+      "description": "Build and release React Native applications for iOS and Android. Requires two years of React Native, complex application experience, native API use, state/routing libraries and ownership. Work includes testing, performance and submissions to both app stores.",
+      "source": "SmartRecruiters \u2014 employer ATS",
+      "sourceId": "panacea-rn-743999766171787",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Public ATS marks country pk, remote=true, active=true.",
+      "requirements": [
+        {
+          "id": "panacea-rn-743999766171787-r1",
+          "text": "Two years React Native and complex application work",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "panacea-rn-743999766171787-r2",
+          "text": "Native APIs, state/routing and automated testing",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "panacea-rn-743999766171787-r3",
+          "text": "Both-store release ownership",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Original release is 2021; active public ATS response verified today, but reconfirm actual headcount before applying. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://panacealogics.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "panacea-rn-743999766171787-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://jobs.smartrecruiters.com/PanaceaLogics/743999766171787-react-native-developer-remote-",
+            "text": "Build and release React Native applications for iOS and Android. Requires two years of React Native, complex application experience, native API use, state/routing libraries and ownership. Work includes testing, performance and submissions to both app stores.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "panacea-rn-743999766171787-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://api.smartrecruiters.com/v1/companies/PanaceaLogics/postings/743999766171787",
+            "text": "Current public employer SmartRecruiters API active true, visibility PUBLIC and location remote Pakistan. Original posting date: 2021-08-11T05:59:40.000Z.",
+            "capturedAt": "2026-10-15T15:15:15.505172Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:15.505172Z",
+        "publishedAt": "2021-08-11T05:59:40.000Z",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer SmartRecruiters API active true, visibility PUBLIC and location remote Pakistan.",
+        "employmentType": "Part-time",
+        "candidateMatches": [
+          "Three React Native apps shipped to both stores and mobile product leadership."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Exact React Native tenure; native-module and automated mobile-testing depth."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://api.smartrecruiters.com/v1/companies/PanaceaLogics/postings/743999766171787"
+      }
+    },
+    {
+      "id": "codenzy-react",
+      "company": "Codenzy",
+      "title": "React Developer (TypeScript)",
+      "url": "https://www.codenzy.com/careers/react-developer/",
+      "location": "Lahore, Pakistan; onsite",
+      "salary": "Not disclosed",
+      "description": "Build and improve React/Next.js interfaces for US clients. Requires three years, TypeScript, hooks/state, responsive CSS, API integration and tests. A degree or equivalent experience is explicitly accepted. Tailwind and CI/CD are useful.",
+      "source": "Official company careers; employer LinkedIn corroborates",
+      "sourceId": "codenzy-react",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Pakistan onsite accepted; employer explicitly permits equivalent experience instead of degree.",
+      "requirements": [
+        {
+          "id": "codenzy-react-r1",
+          "text": "Three years React, TypeScript and Next.js",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "codenzy-react-r2",
+          "text": "REST/GraphQL familiarity and frontend tests",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "codenzy-react-r3",
+          "text": "English communication; degree or equivalent experience",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.codenzy.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "codenzy-react-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://www.codenzy.com/careers/react-developer/",
+            "text": "Build and improve React/Next.js interfaces for US clients. Requires three years, TypeScript, hooks/state, responsive CSS, API integration and tests. A degree or equivalent experience is explicitly accepted. Tailwind and CI/CD are useful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:15.571000Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/TypeScript, reusable components, frontend performance; resume lists Cypress and international remote clients."
+        ],
+        "candidateGapsOrUnknowns": [
+          "GraphQL, Jest/React Testing Library depth; Lahore relocation and client schedule."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://www.codenzy.com/careers/react-developer/",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "stackonn-stk-eng-001",
+      "company": "STACKONN",
+      "title": "Full Stack Developer (Next.js + Node.js)",
+      "url": "https://stackonn.com/careers/STK-ENG-001",
+      "location": "Lahore, Pakistan; hybrid",
+      "salary": "PKR 250,000\u2013450,000 per month",
+      "description": "Own web features from Next.js/React interfaces through Node APIs, data modeling, testing and production operations. Requires four to five-plus years, TypeScript, authorization, Git and communication. PostgreSQL is preferred; startup delivery, Stripe and Redis are useful.",
+      "source": "Official company careers",
+      "sourceId": "stackonn-stk-eng-001",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Role explicitly states Lahore hybrid and allows candidates able to work from Lahore.",
+      "requirements": [
+        {
+          "id": "stackonn-stk-eng-001-r1",
+          "text": "Four to five-plus years and React/Next/Node production work",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "stackonn-stk-eng-001-r2",
+          "text": "Database migrations/indexing, authentication and meaningful tests",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "stackonn-stk-eng-001-r3",
+          "text": "Lahore hybrid: three office days and two remote",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://stackonn.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "stackonn-stk-eng-001-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://stackonn.com/careers/STK-ENG-001",
+            "text": "Own web features from Next.js/React interfaces through Node APIs, data modeling, testing and production operations. Requires four to five-plus years, TypeScript, authorization, Git and communication. PostgreSQL is preferred; startup delivery, Stripe and Redis are useful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:16.274977Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/Node/TypeScript, startup shipping, responsive UI, auth and payment integrations; resume lists Cypress."
+        ],
+        "candidateGapsOrUnknowns": [
+          "PostgreSQL migrations/indexing; testing examples; Lahore hybrid availability."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://stackonn.com/careers/STK-ENG-001",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "stackonn-stk-eng-002",
+      "company": "STACKONN",
+      "title": "Frontend Developer (React + Next.js)",
+      "url": "https://stackonn.com/careers/STK-ENG-002",
+      "location": "Lahore, Pakistan; hybrid",
+      "salary": "PKR 200,000\u2013350,000 per month",
+      "description": "Own polished React/Next.js interfaces, API states, frontend performance and accessibility. Requires four to five-plus years, TypeScript, CSS and a shipped-product portfolio. Work includes Figma implementation and shared UI standards. Cypress, animations and SEO are useful.",
+      "source": "Official company careers",
+      "sourceId": "stackonn-stk-eng-002",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Role explicitly states Lahore hybrid and allows candidates able to work from Lahore.",
+      "requirements": [
+        {
+          "id": "stackonn-stk-eng-002-r1",
+          "text": "Four to five-plus years React, TypeScript and Next.js",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "stackonn-stk-eng-002-r2",
+          "text": "Responsive CSS, accessibility, API states and performance",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "stackonn-stk-eng-002-r3",
+          "text": "Lahore hybrid: three office days and two remote",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://stackonn.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "stackonn-stk-eng-002-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://stackonn.com/careers/STK-ENG-002",
+            "text": "Own polished React/Next.js interfaces, API states, frontend performance and accessibility. Requires four to five-plus years, TypeScript, CSS and a shipped-product portfolio. Work includes Figma implementation and shared UI standards. Cypress, animations and SEO are useful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:16.432740Z",
+        "publishedAt": null,
+        "publishedAtNote": "Not exposed by primary source",
+        "method": "Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/Node/TypeScript, startup shipping, responsive UI, auth and payment integrations; resume lists Cypress."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Accessibility testing evidence; exact frontend tenure; Lahore hybrid availability."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://stackonn.com/careers/STK-ENG-002",
+        "titlePresent": true
+      }
+    },
+    {
+      "id": "eventmobi-frontend-458",
+      "company": "EventMobi",
+      "title": "Front End Engineer - Remote",
+      "url": "https://eventmobi.bamboohr.com/careers/458",
+      "location": "Remote Pakistan; Eastern work hours",
+      "salary": "CAD 40,000\u201365,000 per year",
+      "description": "Develop React/TypeScript features for an event platform with offline and cross-device concerns. Requires three to five years of web work, two years React/TypeScript, APIs, debugging, testing and written communication. Work follows Eastern hours and needs a quiet workspace and reliable 30 Mbps internet.",
+      "source": "BambooHR \u2014 employer ATS",
+      "sourceId": "eventmobi-frontend-458",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "ATS explicitly lists Pakistan and description focuses on Pakistan among eligible countries.",
+      "requirements": [
+        {
+          "id": "eventmobi-frontend-458-r1",
+          "text": "Three to five years web work; two years React/TypeScript",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "eventmobi-frontend-458-r2",
+          "text": "API integration, debugging, unit/end-to-end tests",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "eventmobi-frontend-458-r3",
+          "text": "Eastern hours; private workspace and 30 Mbps download",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Distinct mid-level role; senior role 459 requires eight years and is excluded. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.eventmobi.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "eventmobi-frontend-458-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://eventmobi.bamboohr.com/careers/458",
+            "text": "Develop React/TypeScript features for an event platform with offline and cross-device concerns. Requires three to five years of web work, two years React/TypeScript, APIs, debugging, testing and written communication. Work follows Eastern hours and needs a quiet workspace and reliable 30 Mbps internet.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "eventmobi-frontend-458-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://eventmobi.bamboohr.com/careers/458/detail",
+            "text": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list. Original posting date: 2026-03-26.",
+            "capturedAt": "2026-10-15T15:15:17.781261Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:17.781261Z",
+        "publishedAt": "2026-03-26",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list.",
+        "employmentType": "Full-time contract",
+        "candidateMatches": [
+          "React/TypeScript delivery, API integration, remote collaboration, cross-platform apps; resume lists Cypress."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Testing depth, exact Eastern availability, private workspace and internet speed."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://eventmobi.bamboohr.com/careers/458/detail"
+      }
+    },
+    {
+      "id": "zoftify-41",
+      "company": "Zoftify",
+      "title": "Full Stack Developer (React + Node.js)",
+      "url": "https://zoftify.bamboohr.com/careers/41",
+      "location": "Remote worldwide",
+      "salary": "Not disclosed",
+      "description": "Build travel software interfaces from Figma and dependable backend services. Requires two years, React/Node, TypeScript, REST, SQL and spoken English. Next, Nest, Tailwind, NoSQL and mobile experience are useful.",
+      "source": "BambooHR \u2014 employer ATS",
+      "sourceId": "zoftify-41",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer description explicitly permits working from anywhere worldwide.",
+      "requirements": [
+        {
+          "id": "zoftify-41-r1",
+          "text": "Two years; React/Node, TypeScript, REST",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-41-r2",
+          "text": "SQL databases and from-scratch product delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-41-r3",
+          "text": "Precise UI implementation and spoken English",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Current employer list contains this exact requisition and detail status is Open. Older original date means this may be evergreen; do not label newly posted. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://zoftify.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "zoftify-41-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://zoftify.bamboohr.com/careers/41",
+            "text": "Build travel software interfaces from Figma and dependable backend services. Requires two years, React/Node, TypeScript, REST, SQL and spoken English. Next, Nest, Tailwind, NoSQL and mobile experience are useful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "zoftify-41-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://zoftify.bamboohr.com/careers/41/detail",
+            "text": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list. Original posting date: 2025-11-13.",
+            "capturedAt": "2026-10-15T15:15:17.677473Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:17.677473Z",
+        "publishedAt": "2025-11-13",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/Node, TypeScript, API integrations, product ownership; Yaksport travel booking portfolio."
+        ],
+        "candidateGapsOrUnknowns": [
+          "SQL/PostgreSQL production examples; pixel-accurate Figma examples."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://zoftify.bamboohr.com/careers/41/detail"
+      }
+    },
+    {
+      "id": "zoftify-29",
+      "company": "Zoftify",
+      "title": "Frontend Developer (React)",
+      "url": "https://zoftify.bamboohr.com/careers/29",
+      "location": "Remote worldwide",
+      "salary": "Not disclosed",
+      "description": "Create web applications from Figma for international travel clients. Requires two years, React, TypeScript, REST integration, from-scratch application delivery and strong English. Next.js, Tailwind and animation experience are useful.",
+      "source": "BambooHR \u2014 employer ATS",
+      "sourceId": "zoftify-29",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer description explicitly permits working from anywhere worldwide.",
+      "requirements": [
+        {
+          "id": "zoftify-29-r1",
+          "text": "Two years React/TypeScript and REST",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-29-r2",
+          "text": "Applications built from scratch and precise UI",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-29-r3",
+          "text": "Good spoken English",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Current employer list contains this exact requisition and detail status is Open. Older original date means this may be evergreen; do not label newly posted. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://zoftify.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "zoftify-29-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://zoftify.bamboohr.com/careers/29",
+            "text": "Create web applications from Figma for international travel clients. Requires two years, React, TypeScript, REST integration, from-scratch application delivery and strong English. Next.js, Tailwind and animation experience are useful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "zoftify-29-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://zoftify.bamboohr.com/careers/29/detail",
+            "text": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list. Original posting date: 2023-07-18.",
+            "capturedAt": "2026-10-15T15:15:17.764689Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:17.764689Z",
+        "publishedAt": "2023-07-18",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "React/Next/TypeScript, Tailwind, interactive UI, international client work and travel booking product."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Figma-to-UI samples and detailed ownership evidence."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://zoftify.bamboohr.com/careers/29/detail"
+      }
+    },
+    {
+      "id": "zoftify-30",
+      "company": "Zoftify",
+      "title": "Backend Developer (Node)",
+      "url": "https://zoftify.bamboohr.com/careers/30",
+      "location": "Remote worldwide",
+      "salary": "Not disclosed",
+      "description": "Build backend services for web and mobile travel products. Requires three years of Node, TypeScript, REST design, Express or Nest, PostgreSQL and spoken English. NoSQL, mobile, containers and major clouds are helpful.",
+      "source": "BambooHR \u2014 employer ATS",
+      "sourceId": "zoftify-30",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer description explicitly permits working from anywhere worldwide.",
+      "requirements": [
+        {
+          "id": "zoftify-30-r1",
+          "text": "Three years Node; TypeScript; Express or Nest",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-30-r2",
+          "text": "REST practices and PostgreSQL",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-30-r3",
+          "text": "Good spoken English",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Current employer list contains this exact requisition and detail status is Open. Older original date means this may be evergreen; do not label newly posted. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://zoftify.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "zoftify-30-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://zoftify.bamboohr.com/careers/30",
+            "text": "Build backend services for web and mobile travel products. Requires three years of Node, TypeScript, REST design, Express or Nest, PostgreSQL and spoken English. NoSQL, mobile, containers and major clouds are helpful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "zoftify-30-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://zoftify.bamboohr.com/careers/30/detail",
+            "text": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list. Original posting date: 2024-01-03.",
+            "capturedAt": "2026-10-15T15:15:17.666624Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:17.666624Z",
+        "publishedAt": "2024-01-03",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Node/Express/Mongo, API ownership, integrations; resume lists NestJS."
+        ],
+        "candidateGapsOrUnknowns": [
+          "PostgreSQL depth and exact backend tenure."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://zoftify.bamboohr.com/careers/30/detail"
+      }
+    },
+    {
+      "id": "zoftify-32",
+      "company": "Zoftify",
+      "title": "React Native Developer",
+      "url": "https://zoftify.bamboohr.com/careers/32",
+      "location": "Remote worldwide",
+      "salary": "Not disclosed",
+      "description": "Build mobile travel products from Figma using React Native. Requires two years commercial experience, one year React Native, TypeScript, REST, native plugins and from-scratch apps. Store distribution and mobile CI/CD are useful.",
+      "source": "BambooHR \u2014 employer ATS",
+      "sourceId": "zoftify-32",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer description explicitly permits working from anywhere worldwide.",
+      "requirements": [
+        {
+          "id": "zoftify-32-r1",
+          "text": "Two years commercial; one year React Native",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-32-r2",
+          "text": "TypeScript, REST and native plugins",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-32-r3",
+          "text": "Precise mobile UI and spoken English",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Current employer list contains this exact requisition and detail status is Open. Older original date means this may be evergreen; do not label newly posted. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://zoftify.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "zoftify-32-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://zoftify.bamboohr.com/careers/32",
+            "text": "Build mobile travel products from Figma using React Native. Requires two years commercial experience, one year React Native, TypeScript, REST, native plugins and from-scratch apps. Store distribution and mobile CI/CD are useful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "zoftify-32-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://zoftify.bamboohr.com/careers/32/detail",
+            "text": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list. Original posting date: 2024-01-16.",
+            "capturedAt": "2026-10-15T15:15:17.448400Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:17.448400Z",
+        "publishedAt": "2024-01-16",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list.",
+        "employmentType": "Full-time",
+        "candidateMatches": [
+          "Three React Native apps released in both stores; mobile architecture and international product delivery."
+        ],
+        "candidateGapsOrUnknowns": [
+          "Camera/maps/push native-plugin examples; mobile CI/CD."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://zoftify.bamboohr.com/careers/32/detail"
+      }
+    },
+    {
+      "id": "zoftify-40",
+      "company": "Zoftify",
+      "title": "Backend Developer (Node) Part-time",
+      "url": "https://zoftify.bamboohr.com/careers/40",
+      "location": "Remote worldwide",
+      "salary": "Not disclosed",
+      "description": "Build Node backend services for international travel projects. Requires two years of Node, TypeScript, Express or Nest, REST design, PostgreSQL and spoken English. NoSQL and native mobile knowledge are useful.",
+      "source": "BambooHR \u2014 employer ATS",
+      "sourceId": "zoftify-40",
+      "discoveredAt": "2026-10-15T15:15:13.463870Z",
+      "updatedAt": "2026-10-15T15:15:13.463870Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer description explicitly permits working from anywhere worldwide.",
+      "requirements": [
+        {
+          "id": "zoftify-40-r1",
+          "text": "Two years Node; TypeScript; Express or Nest",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-40-r2",
+          "text": "REST design and PostgreSQL",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        },
+        {
+          "id": "zoftify-40-r3",
+          "text": "Part-time availability and spoken English",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Review actual work samples or ask the candidate; similarity is not verification."
+        }
+      ],
+      "tags": [],
+      "notes": "Current employer list contains this exact requisition and detail status is Open. Older original date means this may be evergreen; do not label newly posted. Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported.",
+      "nextAction": "Review evidence, required answers and current employer terms before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://zoftify.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "zoftify-40-posting",
+            "label": "Employer job description \u2014 concise paraphrase",
+            "url": "https://zoftify.bamboohr.com/careers/40",
+            "text": "Build Node backend services for international travel projects. Requires two years of Node, TypeScript, Express or Nest, REST design, PostgreSQL and spoken English. NoSQL and native mobile knowledge are useful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "zoftify-40-status",
+            "label": "Public employer ATS availability verification",
+            "url": "https://zoftify.bamboohr.com/careers/40/detail",
+            "text": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list. Original posting date: 2025-03-18.",
+            "capturedAt": "2026-10-15T15:15:17.550721Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "researchVerification": {
+        "availability": "published_or_open_on_employer_source",
+        "verifiedAt": "2026-10-15T15:15:17.550721Z",
+        "publishedAt": "2025-03-18",
+        "publishedAtNote": "Employer original date; current availability is checked separately. May be evergreen.",
+        "method": "Current public employer BambooHR detail API: jobOpeningStatus Open; exact ID also present in current career list.",
+        "employmentType": "Part-time",
+        "candidateMatches": [
+          "Node/Express/Mongo and API integrations; NestJS listed in actual resume."
+        ],
+        "candidateGapsOrUnknowns": [
+          "PostgreSQL depth; desired part-time hours and contract terms."
+        ],
+        "degreePolicy": "No mandatory degree-only requirement found in captured role text.",
+        "descriptionCaptureType": "concise_paraphrase",
+        "applicationReady": false,
+        "selectionTier": "review",
+        "httpStatus": 200,
+        "verificationUrl": "https://zoftify.bamboohr.com/careers/40/detail"
+      }
+    }
+  ],
+  "excludedOrDeferred": [
+    {
+      "company": "EventMobi",
+      "role": "Senior Front End Engineer 459",
+      "reason": "Eight years required; candidate has 4+."
+    },
+    {
+      "company": "Exynex",
+      "role": "Mobile Engineer",
+      "reason": "Five mobile years, advanced native/architecture/offline requirements unsupported."
+    },
+    {
+      "company": "xHost",
+      "role": "Full-stack/Founding/Frontend",
+      "reason": "Requires deployment to its platform before application; full-stack compute may require paid plan. Not used to pad shortlist."
+    },
+    {
+      "company": "Deel / Everis / Kyan Health",
+      "role": "Cached full-stack / frontend ads",
+      "reason": "Promising indexed roles absent from current public Ashby boards."
+    },
+    {
+      "company": "Technisia / Alpha Mu",
+      "role": "MERN/full-stack",
+      "reason": "Mandatory degree requirement."
+    },
+    {
+      "company": "Openprovider / Sortitt",
+      "role": "Cached full-stack ads",
+      "reason": "Current indexed employer LinkedIn route says no longer accepting."
+    },
+    {
+      "company": "Codenzy",
+      "role": "Full-stack and Node",
+      "reason": "Other roles require substantial AWS/SQL/container scope; React opening is the tighter match."
+    },
+    {
+      "company": "Axra / Trust Wallet",
+      "role": "Senior frontend / Senior React Native",
+      "reason": "Five-year minimum is not established."
+    }
+  ]
+}
