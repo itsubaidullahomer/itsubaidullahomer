@@ -1,0 +1,83 @@
+{
+  "type": "update_job",
+  "id": "tbox-fullstack",
+  "patch": {
+    "fit": "strong",
+    "status": "drafting",
+    "priority": "high",
+    "eligibility": "confirmed",
+    "eligibilityEvidence": "Current employer page explicitly lists Remote / Lahore; candidate lives in Pakistan and is available immediately.",
+    "requirements": [
+      {
+        "id": "tbox-fullstack-r1",
+        "text": "At least two years with React, Node.js and strong TypeScript",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-react",
+          "ev-backend",
+          "ev-experience",
+          "ev-confirmed-ts-next"
+        ],
+        "explanation": "Four-plus calendar years of source-reported development work; user directly confirms four years TypeScript. React/Node delivery described in portfolio. Candidate-reported, not independently assessed."
+      },
+      {
+        "id": "tbox-fullstack-r2",
+        "text": "End-to-end product features, interface quality and ownership",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-product",
+          "ev-react",
+          "ev-backend",
+          "ev-performance",
+          "ev-confirmed-components"
+        ],
+        "explanation": "Founder-facing product and engineering ownership, APIs, reusable client interfaces and performance work support the role. Several concurrent client projects are ordinary described job scope; prior simultaneous-client capacity is not claimed."
+      },
+      {
+        "id": "tbox-fullstack-r3",
+        "text": "PostgreSQL, REST or GraphQL, and Git",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-confirmed-postgresql",
+          "ev-confirmed-graphql",
+          "ev-backend",
+          "ev-git-deploy"
+        ],
+        "explanation": "User directly confirmed production PostgreSQL and hands-on GraphQL; REST and Git are source-reported. SQL has 3+ years, while PostgreSQL-specific tenure remains unspecified."
+      }
+    ],
+    "description": "Full-time Remote/Lahore role for an engineer with at least two years of experience. Own client features across APIs and interfaces using React, Node.js and TypeScript. PostgreSQL, REST/GraphQL and Git form part of the stack. The work includes several concurrent projects and close product ownership. Apply by email with a CV, role name in the subject and a short introduction. The hiring process later includes a technical call and a compensated 4-8 hour trial.",
+    "contactEmail": "careers@tboxsolutionz.com",
+    "draft": "Hi TBox Solutionz team,\n\nI'm applying for the Full-Stack Engineer (React + Node.js) role. I build production products with React, TypeScript, Node.js and Express, and have four years of TypeScript experience, hands-on GraphQL experience and production experience with PostgreSQL.\n\nAt Tututor.ai / EduNova, I lead engineering across eight connected education products and work directly with the founder. My work includes a shared Express/MongoDB backend, real-time messaging, billing and mobile delivery. I've also built analytics integrations at Illume and reusable client interfaces at Danzee Tech.\n\nYour focus on owning features from API to UI is a good match for how I work. I'm based in Pakistan, available immediately, and interested in the remote full-time role. I'd be happy to discuss the products and how I could contribute.\n\nMy tailored CV is attached. You can see my work here:\nhttps://itsubaidullahomer.com\nhttps://github.com/itsubaidullahomer\n\nBest regards,\nUbaidullah Omer\n",
+    "notes": "Shared company careers URL also hosts mobile vacancy; deduplicate by title plus sourceId, not URL alone. Smaller employer; company and engagement terms need routine candidate review. Candidate evidence is self-published and remains unverified; individual requirements are now linked to source-reviewed candidate evidence where supported. Candidate now confirms no degree and immediate availability; do not invent educational credentials. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed, short_employer_description_full_requirements_needed. Essential unknowns: SQL/GraphQL depth and concurrent-project availability. No application or outreach has been sent.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T14:50:44Z\",\n  \"publishedAt\": null,\n  \"publishedAtNote\": \"Not exposed by primary source\",\n  \"method\": \"Current employer page rendered with application route; public HTTP GET 200.\",\n  \"employmentType\": \"Full-time\",\n  \"candidateMatches\": [\n    \"React/Node/TypeScript; end-to-end product ownership; client/remote work.\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"SQL/GraphQL depth and concurrent-project availability.\"\n  ],\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"degreePolicy\": \"No mandatory degree-only requirement found in captured role text.\",\n  \"hardEligibility\": {\n    \"degree\": \"No mandatory degree-only requirement found in captured role text.\",\n    \"geography\": \"pakistan_work_location\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\",\n    \"short_employer_description_full_requirements_needed\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nCurrent reassessment 2026-10-16T01:11:50.879232+00:00: Direct candidate confirmations now establish hands-on GraphQL and production PostgreSQL. Core published requirements have supporting candidate evidence; PostgreSQL tenure and specialist features are not inferred. End-to-end ownership is documented. The employer describes 2-3 concurrent projects as job scope; no historical simultaneous-client-capacity claim is made. The tailored introductory email does not accept the later paid trial or any offer terms. Earlier SQL/GraphQL missing-fact notes remain audit history and are superseded by this assessment. No application has been sent by this preparation task.",
+    "nextAction": "Review prepared TBox full-stack package, upload immutable tailored PDF, deduplicate mailbox and submit by official careers email. Later paid trial needs separate review.",
+    "updatedAt": "2026-10-16T01:11:50.879232+00:00",
+    "research": {
+      "sources": [
+        {
+          "id": "tbox-fullstack-posting",
+          "url": "https://tboxsolutionz.com/careers.html",
+          "text": "Own client-product features from API to UI across several projects. The opening asks for at least two years, strong TypeScript, React/Node, attention to design details and comfort with ambiguous product requirements. PostgreSQL, REST/GraphQL and Git appear in the stack. Applications go through the company careers email.",
+          "label": "Official vacancy \u2014 paraphrased description",
+          "capturedAt": "2026-10-15T14:50:44Z",
+          "screenshotUrl": "",
+          "screenshotPath": ""
+        },
+        {
+          "id": "tbox-fullstack-20261016-current",
+          "label": "Official careers and application route rechecked",
+          "url": "https://tboxsolutionz.com/careers.html",
+          "text": "Full-time Remote/Lahore role for an engineer with at least two years of experience. Own client features across APIs and interfaces using React, Node.js and TypeScript. PostgreSQL, REST/GraphQL and Git form part of the stack. The work includes several concurrent projects and close product ownership. Apply by email with a CV, role name in the subject and a short introduction. The hiring process later includes a technical call and a compensated 4-8 hour trial.",
+          "capturedAt": "2026-10-16T01:11:50.879232+00:00",
+          "screenshotUrl": "",
+          "screenshotPath": ""
+        }
+      ],
+      "contacts": [],
+      "companyUrl": "https://tboxsolutionz.com/"
+    }
+  }
+}

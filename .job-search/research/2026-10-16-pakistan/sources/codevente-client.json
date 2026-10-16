@@ -1,0 +1,18 @@
+{
+  "id": "codevente-client",
+  "url": "https://codevente.com/assets/index-BDP_4NyY.js",
+  "capturedAt": "2026-10-15T22:10:48.995068Z",
+  "captureType": "public GET metadata plus researcher paraphrase",
+  "text": "Public bundle linked by the employer page. Frontend role; form requires name, email, position, experience category, resume and motivation text. Experience categories include 3–5 and 6–10 years. Optional compensation selector uses USD ranges, unlike the advertised PKR amount. No request was submitted.",
+  "status": 200,
+  "finalUrl": "https://codevente.com/assets/index-BDP_4NyY.js",
+  "bytes": 940221,
+  "sha256": "64822e616ae775516fd77b157a1670e3d1b2167ebb70a4f2fc9e4b64debe61cc",
+  "liveChecks": {
+    "senior-frontend-developer": true,
+    "Senior Frontend Developer": true,
+    "Mid Level (3-5 years)": true,
+    "Senior Level (6-10 years)": true,
+    "Cover letter must be at least 50 characters long": true
+  }
+}

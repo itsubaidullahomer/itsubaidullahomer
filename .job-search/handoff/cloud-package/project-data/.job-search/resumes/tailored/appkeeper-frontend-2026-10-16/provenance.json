@@ -1,0 +1,24 @@
+{
+  "master": ".job-search/resumes/masters/facts.json",
+  "masterChanged": false,
+  "changes": [
+    {
+      "field": "skills",
+      "reason": "Reordered and selected existing supported skills for Appkeeper role.",
+      "sources": [
+        ".job-search/resumes/masters/facts.json: skills, projects illume stack, candidateConfirmations",
+        ".job-search/flowcv-resume-source.txt:96 Frontend, 100 DevOps & Tools"
+      ]
+    }
+  ],
+  "excludedClaims": [
+    "Formal design-system ownership",
+    "Code-review experience not explicitly sourced",
+    "CSS Grid/Flexbox proficiency not explicitly sourced",
+    "Vue 3",
+    "WCAG expertise",
+    "Storybook",
+    "Figma expertise",
+    "Completed degree"
+  ]
+}

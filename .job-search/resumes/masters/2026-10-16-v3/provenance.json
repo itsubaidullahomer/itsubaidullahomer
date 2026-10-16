@@ -1,0 +1,42 @@
+{
+  "createdAt": "2026-10-16T00:16:37.738253+00:00",
+  "baseVersion": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/2026-10-16-v2",
+  "builder": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/build_resumes.py",
+  "canonicalFactsSha256": "b8c526d52ec6bf6605aad5c032f219d59c9db305bfec3b58ecb8e43cd8149c89",
+  "canonicalFilesModified": false,
+  "oldVersionsModified": false,
+  "candidateClaimsIndependentlyVerified": false,
+  "changes": [
+    {
+      "fields": [
+        "skills",
+        "coreStack"
+      ],
+      "change": "Added CSS Grid, Flexbox, shared component-library/design-system maintenance and code reviews from direct candidate confirmation at 2026-10-15T23:26:37.018Z. No employer attribution, duration or ownership level inferred."
+    },
+    {
+      "fields": [
+        "candidateConfirmations.frontendPractices"
+      ],
+      "change": "Copied existing current canonical confirmation into version-specific snapshot."
+    }
+  ],
+  "preserved": [
+    "All v2 selected canonical experience and project text and dates",
+    "TypeScript and Next.js four years each",
+    "React Native three years",
+    "Docker and SQL three-plus years each",
+    "Advanced spoken and written English",
+    "Jest, React Testing Library, GraphQL, Cypress, Vite and Webpack evidence",
+    "Immediate availability, actual location and no-degree rule"
+  ],
+  "excluded": [
+    "Numerical self-ratings",
+    "AI opinion answers",
+    "Salary expectation",
+    "Degree claims",
+    "Relocation promise",
+    "New unsourced metrics or experience claims"
+  ],
+  "proofPoints": "Existing sourced candidate-reported product/user/app counts preserved as canonical evidence; not independent verification."
+}

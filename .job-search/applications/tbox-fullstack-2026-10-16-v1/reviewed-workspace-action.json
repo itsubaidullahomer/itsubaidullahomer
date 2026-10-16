@@ -1,0 +1,81 @@
+{
+  "type": "update_job",
+  "id": "tbox-fullstack",
+  "patch": {
+    "fit": "strong",
+    "status": "drafting",
+    "priority": "high",
+    "eligibility": "confirmed",
+    "eligibilityEvidence": "Current employer page explicitly lists Remote / Lahore; candidate lives in Pakistan and is available immediately.",
+    "requirements": [
+      {
+        "id": "tbox-fullstack-r1",
+        "text": "At least two years with React, Node.js and strong TypeScript",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-react",
+          "ev-backend",
+          "ev-experience",
+          "ev-confirmed-ts-next"
+        ],
+        "explanation": "Four-plus calendar years of source-reported development work; user directly confirms four years TypeScript. React/Node delivery described in portfolio. Candidate-reported, not independently assessed."
+      },
+      {
+        "id": "tbox-fullstack-r2",
+        "text": "End-to-end product features, interface quality and ownership",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-product",
+          "ev-react",
+          "ev-backend",
+          "ev-performance",
+          "ev-confirmed-components"
+        ],
+        "explanation": "Founder-facing product and engineering ownership, APIs, reusable client interfaces and performance work support the role. Several concurrent client projects are ordinary described job scope; prior simultaneous-client capacity is not claimed."
+      },
+      {
+        "id": "tbox-fullstack-r3",
+        "text": "PostgreSQL, REST or GraphQL, and Git",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-confirmed-postgresql",
+          "ev-confirmed-graphql",
+          "ev-backend",
+          "ev-git-deploy"
+        ],
+        "explanation": "User directly confirmed production PostgreSQL and hands-on GraphQL; REST and Git are source-reported. SQL has 3+ years, while PostgreSQL-specific tenure remains unspecified."
+      }
+    ],
+    "contactEmail": "careers@tboxsolutionz.com",
+    "draft": "Hi TBox Solutionz team,\n\nI'm applying for the Full-Stack Engineer (React + Node.js) role. I build production products with React, TypeScript, Node.js and Express, and have four years of TypeScript experience, hands-on GraphQL experience and production experience with PostgreSQL.\n\nAt Tututor.ai / EduNova, I lead engineering across eight connected education products and work directly with the founder. My work includes a shared Express/MongoDB backend, real-time messaging, billing and mobile delivery. I've also built analytics integrations at Illume and reusable client interfaces at Danzee Tech.\n\nYour focus on owning features from API to UI is a good match for how I work. I'm based in Pakistan, available immediately, and interested in the remote full-time role. I'd be happy to discuss the products and how I could contribute.\n\nMy tailored CV is attached. You can see my work here:\nhttps://itsubaidullahomer.com\nhttps://github.com/itsubaidullahomer\n\nBest regards,\nUbaidullah Omer\n",
+    "notes": "Rechecked official employer careers page on October 16, 2026. Full-time Remote/Lahore role. Candidate confirms production PostgreSQL and hands-on GraphQL, supplementing React/Node/TypeScript and end-to-end product delivery evidence. At least two years required; candidate reports four-plus overall years. Core published requirements are matched to candidate evidence, not independent assessment. No degree claimed. Ordinary scope includes several concurrent projects; no historical simultaneous-client count is asserted. Exact compensation and hours require later employer discussion. A later paid 4–8 hour trial is advertised, but this initial application does not accept trial terms. Careers email is official. Older missing-PostgreSQL/GraphQL notes are superseded and retained in private audit files.",
+    "nextAction": "Review prepared TBox full-stack package, upload immutable tailored PDF, deduplicate mailbox and submit by official careers email. Later paid trial needs separate review.",
+    "research": {
+      "sources": [
+        {
+          "id": "tbox-fullstack-posting",
+          "url": "https://tboxsolutionz.com/careers.html",
+          "text": "Own client-product features from API to UI across several projects. The opening asks for at least two years, strong TypeScript, React/Node, attention to design details and comfort with ambiguous product requirements. PostgreSQL, REST/GraphQL and Git appear in the stack. Applications go through the company careers email.",
+          "label": "Official vacancy — paraphrased description",
+          "capturedAt": "2026-10-15T14:50:44Z",
+          "screenshotUrl": "",
+          "screenshotPath": ""
+        },
+        {
+          "id": "tbox-fullstack-20261016-current",
+          "label": "Official careers and application route rechecked",
+          "url": "https://tboxsolutionz.com/careers.html",
+          "text": "Full-time Remote/Lahore role for an engineer with at least two years of experience. Own client features across APIs and interfaces using React, Node.js and TypeScript. PostgreSQL, REST/GraphQL and Git form part of the stack. The work includes several concurrent projects and close product ownership. Apply by email with a CV, role name in the subject and a short introduction. The hiring process later includes a technical call and a compensated 4-8 hour trial.",
+          "capturedAt": "2026-10-16T01:11:50.879232+00:00",
+          "screenshotUrl": "",
+          "screenshotPath": ""
+        }
+      ],
+      "contacts": [],
+      "companyUrl": "https://tboxsolutionz.com/"
+    }
+  }
+}

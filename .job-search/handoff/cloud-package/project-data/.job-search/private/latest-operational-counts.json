@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-16T05:43:24.101Z",
+  "jobs": 91,
+  "fit": {
+    "unknown": 78,
+    "strong": 12,
+    "gaps": 1
+  },
+  "status": {
+    "discovered": 76,
+    "drafting": 8,
+    "applied": 7
+  },
+  "strongEligible": 7,
+  "applied": 7,
+  "receipts": 7,
+  "documents": 22,
+  "applications": [
+    {
+      "id": "codenzy-react",
+      "company": "Codenzy",
+      "appliedAt": "2026-10-15 23:13:42+00",
+      "nextAction": "Await employer reply. Review for a follow-up on October 23; do not send a duplicate application.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "tbox-fullstack",
+      "company": "TBox Solutionz",
+      "appliedAt": "2026-10-16 01:16:38+00",
+      "nextAction": "Application sent to official careers inbox with exact tailored PDF. Await employer response; review October 19 after the stated 48-hour response window. Do not send a duplicate application. Review any offered paid trial separately before accepting.",
+      "nextActionDate": "2026-10-19"
+    },
+    {
+      "id": "allcancode-mid-fullstack-20261016",
+      "company": "Allcancode",
+      "appliedAt": "2026-10-16 00:37:20.327+00",
+      "nextAction": "Google Form submission confirmed from correct account. Await employer response; review October 23. This is rolling recruitment, not verified immediate headcount. No further login or rating answer is needed.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "appkeeper-frontend",
+      "company": "Appkeeper Pte. Ltd.",
+      "appliedAt": "2026-10-15 23:51:19+00",
+      "nextAction": "Await acknowledgement that the general company inbox forwarded the application to hiring; review October 23. Careers-form attempt was unconfirmed; Gmail send is confirmed.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "niyyt-fullstack-pakistan-20261016",
+      "company": "Niyyt",
+      "appliedAt": "2026-10-16 05:42:25.928+00",
+      "nextAction": "Employer form confirmed Application Submitted. Await response; review October 23 before following up. Do not duplicate. Employment contract remains subject to separate review.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+      "company": "Quirky Bit",
+      "appliedAt": "2026-10-16 00:42:43+00",
+      "nextAction": "Email fallback sent to general company inbox after CAPTCHA form failure. Await hiring-team acknowledgement/forwarding; review October 23. Web form remains unsubmitted. Do not retry or create a duplicate application without checking the email thread.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "research-pk-3b5ebae2-751f-40c4-b7e1-2fbbd6267ad7",
+      "company": "Dynamic Logix",
+      "appliedAt": "2026-10-15 23:34:55.952+00",
+      "nextAction": "Await employer reply; employer indicated 3\u20135 business days. Review on October 23 before any follow-up.",
+      "nextActionDate": "2026-10-23"
+    }
+  ]
+}

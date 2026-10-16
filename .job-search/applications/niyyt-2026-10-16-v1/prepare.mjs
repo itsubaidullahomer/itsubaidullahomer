@@ -1,0 +1,23 @@
+import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {ownerRequest} from '../../../scripts/jobs-agent-client.mjs';
+process.umask(0o077);
+const now=new Date().toISOString();
+const factPath='.job-search/private/application-facts.json';const facts=JSON.parse(await fs.readFile(factPath,'utf8'));
+facts.citizenship={country:'Pakistan',source:'Direct candidate reply October 16, 2026',confirmedAt:now};
+facts.currentEmployment={employed:true,contractEnds:'2026-10-31',wording:'Contract ends at the end of October',employerNotSpecifiedInReply:true,confirmedAt:now};
+facts.currentSalary={amount:260000,currency:'PKR',period:null,approximateUsdReported:950,source:'Direct candidate reply October 16, 2026; salary period not explicitly stated. Do not annualize.',confirmedAt:now};
+facts.updatedAt=now;await fs.writeFile(factPath,JSON.stringify(facts,null,2)+'\n');
+const dir='.job-search/applications/niyyt-2026-10-16-v1/';
+const answers={name:'Ubaidullah Omer',email:'itsubaidullahomer@gmail.com',phone:'+923292380929',portfolio:'https://itsubaidullahomer.com',github:'https://github.com/itsubaidullahomer',citizenship:'Pakistan',currentlyEmployed:'Yes',currentSalaryCurrency:'PKR',currentSalary:260000,contractEnds:'2026-10-31',submitted:false};
+await fs.writeFile(dir+'answers.json',JSON.stringify(answers,null,2));
+const metaPath='.job-search/resumes/tailored/niyyt-fullstack-2026-10-16-v1/metadata.json';const meta=JSON.parse(await fs.readFile(metaPath,'utf8'));
+meta.visualQa='passed: one-page render reviewed; no clipping or overlap; readable hierarchy and spacing';await fs.writeFile(metaPath,JSON.stringify(meta,null,2));
+const bytes=await fs.readFile(meta.path);const hash=createHash('sha256').update(bytes).digest('hex');if(hash!==meta.sha256)throw Error('PDF changed');
+const docs=await(await ownerRequest('/api/jobs/documents')).json();let document=docs.documents.find(d=>d.jobId==='niyyt-fullstack-pakistan-20261016'&&d.sha256===hash);
+if(!document){const form=new FormData();form.set('file',new Blob([bytes],{type:'application/pdf'}),'ubaidullah-omer-niyyt-fullstack-2026-10-16-v1-ats.pdf');form.set('kind','tailored_resume');form.set('jobId','niyyt-fullstack-pakistan-20261016');form.set('title','Niyyt — Full Stack Engineer — ATS v1');const result=await(await ownerRequest('/api/jobs/documents',{method:'POST',body:form})).json();document=result.document;}
+if(!document?.id)throw Error('Missing document record');
+const downloaded=Buffer.from(await(await ownerRequest('/api/jobs/documents/'+document.id)).arrayBuffer());if(createHash('sha256').update(downloaded).digest('hex')!==hash)throw Error('Downloaded hash mismatch');
+await fs.writeFile(dir+'document.json',JSON.stringify(document,null,2));
+await ownerRequest('/api/jobs/workspace',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({type:'update_job',id:'niyyt-fullstack-pakistan-20261016',patch:{nextAction:'Tailored PDF visually verified and stored. Citizenship, employment and salary confirmed; complete official employer form and record confirmation.',notes:'Australian business hours confirmed. Pakistani citizen, currently employed with contract ending October 31. Current salary PKR 260,000 (period unspecified in user reply and form). No employment contract accepted. Funding unverified.'}})});
+console.log(JSON.stringify({documentId:document.id,sha256:hash,privatePdfVerified:true}));

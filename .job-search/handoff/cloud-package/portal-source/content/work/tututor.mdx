@@ -1,0 +1,66 @@
+## Know when a fix needs a bigger decision
+
+I joined Tututor to fix one bug in an existing teaching app. Looking at the code, I could see that fixing the next ten bugs the same way would not make it a dependable product. I proposed a rebuild, the founder agreed, and my brother designed the new version.
+
+That first decision set the direction for the work that followed: understand what the product needs next, then give it a foundation that can support it. Over time, a small AI tool became eight connected products used by 20k+ students, teachers and families.
+
+## Build the foundation as the product grows
+
+I initially rebuilt the frontend in React and used Firebase for authentication and storage. It let me move the product forward with the skills I had then. As I gained backend experience, I could address the next limitation: AI calls and permanent API keys were still in the browser.
+
+I built an Express and MongoDB backend and moved authentication, AI generation, credits and Stripe billing onto it. The keys left the browser, and shared product rules had a place to live on the server.
+
+When schools started asking for attendance, grades, messaging and administration, I extended that backend with school-scoped data. The teacher tools, school administration and family apps could share a data model while each kept an interface suited to its users.
+
+## Put AI where teachers can use it
+
+The early experience generated text into a read-only box and asked the teacher to copy it elsewhere. I replaced that with a full document editor: select a passage, then ask AI to improve, expand, shorten or turn it into a table.
+
+That changed the role of AI in the product. A teacher could keep working on the actual document, using AI for a particular part of it. The toolkit also grew to 40+ tools, using curriculum data for Spanish regions, with quizzes, mind maps, games and Google Classroom export.
+
+The product decision was to bring generation and editing into the same workflow, so the output could become something a teacher was ready to use.
+
+## Fit the systems schools already depend on
+
+School software has to work with existing routines and requirements. I built infant-school report cards based on observation, a finance module for receipts and SEPA direct-debit batches, and integrations for importing rosters from Educamos and exporting grades to Plumier XXI.
+
+For the grades export, an approximately correct file was not useful. I checked the output against real exports: all 1,833 golden-test cases matched. The point of that work was to make the connection dependable for the school using it.
+
+As usage grew, I also worked on the parts people should not have to notice: database indexes and aggregations for slow queries, a Redis adapter for messaging across server instances, locks to keep scheduled jobs from running twice, and a move to Cloudflare R2 for file storage.
+
+## Help the team and founder own the product
+
+The work eventually outgrew one person. I led a small team of junior developers, set the architecture and divided the work while keeping most of the backend myself.
+
+I also started teaching the founder to make changes. His first commits were small translations and configuration edits. Over time, he moved into prompts, fields, screens and complete features across the backend, web and mobile apps.
+
+The junior team later moved on, and today the founder and I maintain the product together. Helping him understand the code made the work easier to discuss and gave him more control over his own product. I see that as part of the value I bring to a long-running project.
+
+## Carry the work through to release
+
+I shipped the Familias, Alumnos and Profesores apps to both the App Store and Google Play. That included React Native upgrades, platform requirements, Google and Apple sign-in, and working through store rejections.
+
+The next rebuild uses a Kotlin Multiplatform core with SwiftUI and Jetpack Compose interfaces. It continues the same work across web and mobile: keeping the shared product connected while giving each group an experience that fits its day.
+
+## What the work added
+
+Tututor now brings lesson preparation, classroom work, school administration and family communication onto one platform. The published project snapshot includes eight products, about 1,000 API endpoints across 90 data models, and three mobile apps on both stores.
+
+My role has covered architecture, most of the backend, web and mobile development, releases and team leadership. The value is in how those decisions work together: teachers can edit what AI produces, schools can connect their existing systems, and the founder can keep building the product alongside me.
+
+## The product family in detail
+
+These figures are the snapshot published in the original case study, not live counters.
+
+- **Core API:** 2,164 commits, about 1,000 endpoints and 90 models. Node.js, Express, MongoDB, Socket.io and Redis. Shared authentication includes 2FA and Google/Apple sign-in.
+- **Tututor.AI:** 1,552 commits and 138k lines since October 2024. React, Redux / RTK Query, Plate, TipTap and Stripe. The document editor lets teachers improve, expand, shorten or turn a selected passage into a table.
+- **EduNova for teachers:** 1,290 commits, 30 API services and 604 hooks. React 19, RTK Query, Socket.io and jsPDF. Grades, infant-school report cards, attendance, homework with AI feedback, meetings and curriculum planning.
+- **EduNova school admin:** 353 commits, 36 API services and 665 hooks. React, RTK Query, SEPA XML and XLSX. Enrolment, assignments, receipts, direct-debit batches and tax forms.
+- **Platform admin:** 76 commits and 165 wired endpoints. React 19, Vite, Tailwind 4 and Recharts. Schools, users, regional curriculum data, imports and analytics.
+- **Familias:** 182 commits; Android v1.39 and iOS v1.24. React Native 0.77, FCM / APNs, Google and Apple sign-in. Homework, attendance, grades, permission slips and messages for every child in the family.
+- **Alumnos:** 82 commits; Android v1.10 and iOS v1.5. React Native 0.77, FCM and 2FA. Homework, grades, timetable, online tests, files and the class board.
+- **Profesores:** 74 commits and 99k lines; Android v1.5. React Native 0.84, TypeScript and R8. Classroom attendance, homework, grading, family messages and AI exam correction.
+
+The frontend reached 229 files and 37,000 lines by 12 October 2024. The Express backend began on 16 October; authentication moved off Firebase three days later, and AI generation moved server-side within a month. The busiest frontend period added 870 commits in three months. School data entered the backend in March 2025, and the parent app followed in September 2025.
+
+The September 2026 native rewrite started with a Kotlin Multiplatform core and SwiftUI / Jetpack Compose interfaces, with 226 commits in its first five days. The Nova owl concept was selected for Familias. These are historical project figures, not claims about the current repository.

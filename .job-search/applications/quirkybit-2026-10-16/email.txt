@@ -1,0 +1,12 @@
+Hi Quirky Bit team,
+
+I'm applying for the Frontend Developer (React) role. The careers form returned "CAPTCHA verification failed," so I'm sending my application here. Could you please forward it to the hiring team?
+
+At Illume, I built dashboards for revenue, bookings and retention using Chart.js and D3.js. At Danzee Tech, I built reusable React components and hooks, delivered Jurri's file and inbox interfaces, and improved loading performance through code splitting and lazy loading. I now lead web and mobile delivery at Tututor.ai / EduNova.
+
+I have four years of TypeScript and Next.js experience, plus hands-on experience with Tailwind CSS, CSS Grid, Flexbox, Jest and React Testing Library.
+
+I'm based in Rahim Yar Khan, Pakistan and available immediately. My tailored resume is attached, and you can see my work at https://itsubaidullahomer.com.
+
+Best,
+Ubaidullah Omer

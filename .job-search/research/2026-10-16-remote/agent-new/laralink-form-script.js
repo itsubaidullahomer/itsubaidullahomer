@@ -1,0 +1,7 @@
+(function(){'use strict';function handle(form){var action=form.getAttribute('data-laralink-form');if(!action){return}
+form.addEventListener('submit',function(e){e.preventDefault();var btn=form.querySelector('[type="submit"]');var status=form.querySelector('.cs_form_status');var original=btn?btn.innerHTML:'';if(btn){btn.disabled=!0;btn.innerHTML=LaralinkForms.sending}
+if(status){status.textContent='';status.className='cs_form_status'}
+var data=new FormData(form);data.append('action',action);data.append('nonce',LaralinkForms.nonce);fetch(LaralinkForms.ajax_url,{method:'POST',credentials:'same-origin',body:data}).then(function(r){return r.json()}).then(function(res){var ok=res&&res.success;var msg=(res&&res.data&&res.data.message)||(ok?'OK':LaralinkForms.error);if(status){status.textContent=msg;status.className='cs_form_status '+(ok?'cs_form_success':'cs_form_error')}
+if(ok){form.reset()}}).catch(function(){if(status){status.textContent=LaralinkForms.error;status.className='cs_form_status cs_form_error'}}).finally(function(){if(btn){btn.disabled=!1;btn.innerHTML=original}})})}
+document.addEventListener('DOMContentLoaded',function(){var forms=document.querySelectorAll('[data-laralink-form]');Array.prototype.forEach.call(forms,handle)})})()
+;

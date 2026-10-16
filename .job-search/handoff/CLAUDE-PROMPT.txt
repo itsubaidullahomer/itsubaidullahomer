@@ -1,0 +1,8 @@
+Open this exact local workspace:
+/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer
+
+Read AGENTS.md, then .job-search/handoff/CLAUDE-START-HERE.md and every canonical source it identifies for initial orientation. This is my ongoing portfolio and job-search portal, not the older ubaidullah repository. The ignored .job-search records and output/pdf files contain essential application history that a Git pull alone will not include.
+
+For now, inspect read-only and give me a short readiness summary: current application counts, missing access and next three actions. Wait until I say START TAKEOVER before changing anything, registering accounts or sending applications. At takeover, make sure Codex is no longer sending so there are no duplicate submissions.
+
+Then continue the authorized work using the handoff: maintain the secure Kanban portal, complete useful profiles across the ranked 30-platform shortlist, find recently funded startups hiring for my verified React/TypeScript/Node/AI product skills, and tailor and submit eligible applications from itsubaidullahomer@gmail.com. Prioritize remote from Pakistan, truthful evidence and actual submission receipts. Preserve existing work and ask only for genuinely missing facts or required human steps. Tell me explicitly if any required local files or connectors are unavailable; do not invent their contents or claim that access transferred automatically.

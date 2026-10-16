@@ -1,0 +1,20 @@
+{
+  "messageId": "1a1422947d403cb2",
+  "threadId": "1a1422947d403cb2",
+  "labelIds": [
+    "SENT"
+  ],
+  "sentAt": "2026-10-16T00:42:43.000Z",
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "hello@quirkybit.io",
+  "subject": "Frontend Developer (React) application - Ubaidullah Omer",
+  "messageHeaderId": "<CAHF+1fYN_BXmsRFTS8MFv5X3OtN6CYy_jcpiP0Gf2p5uyuw+cA@mail.gmail.com>",
+  "attachment": {
+    "filename": "ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf",
+    "bytes": 88348,
+    "sha256": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91"
+  },
+  "route": "Published general company inbox; not a verified hiring inbox.",
+  "hiringTeamAcknowledged": false,
+  "formSubmitted": false
+}

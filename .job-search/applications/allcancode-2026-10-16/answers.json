@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-16T00:13:46.043178+00:00",
+  "jobId": "allcancode-mid-fullstack-20261016",
+  "role": "Mid-level full-stack developer",
+  "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLScTX4kn5-9IwbtIQg5nvxr5QLY-WyIL3K3mTvMNBxHQYid1CQ/viewform",
+  "questionVerification": {
+    "method": "Read-only public HTTP 200 GET; inspected Google Forms FB_PUBLIC_LOAD_DATA_ question labels, required flags, field IDs and scale options",
+    "checkedAt": "2026-10-16T00:13:46.043406+00:00",
+    "pageCountFromPriorCapture": 5,
+    "noFormPost": true
+  },
+  "candidateEmail": "itsubaidullahomer@gmail.com",
+  "fields": [
+    {
+      "key": "commitment",
+      "question": "How much time can you commit?",
+      "entryId": 1702721000,
+      "type": "choice",
+      "required": true,
+      "answer": "Full-time",
+      "source": "Existing confirmed full-time application route and availability",
+      "options": [
+        "Full-time",
+        "Part-time (partner)"
+      ]
+    },
+    {
+      "key": "firstName",
+      "question": "First name",
+      "entryId": 14228562,
+      "type": "short_text",
+      "required": true,
+      "answer": "Ubaidullah",
+      "source": "Canonical identity"
+    },
+    {
+      "key": "lastName",
+      "question": "Last name",
+      "entryId": 698090710,
+      "type": "short_text",
+      "required": true,
+      "answer": "Omer",
+      "source": "Canonical identity"
+    },
+    {
+      "key": "linkedin",
+      "question": "LinkedIn profile link",
+      "entryId": 1409899961,
+      "type": "short_text",
+      "required": true,
+      "answer": "https://www.linkedin.com/in/itsubaidullahomer/",
+      "source": "Canonical identity"
+    },
+    {
+      "key": "motivation",
+      "question": "What excites you most with software development?",
+      "entryId": 17207144,
+      "type": "paragraph",
+      "required": true,
+      "answer": "What excites me most is turning real problems into products people use. I enjoy working across interfaces, APIs and integrations, then seeing those pieces come together in a useful product. At Tututor.ai / EduNova, that has meant building education workflows for teachers, students and families. I also enjoy learning tools that help me deliver a better result.",
+      "source": "Draft grounded in canonical product-delivery experience; no company-specific enthusiasm or new technical ability invented"
+    },
+    {
+      "key": "aiReplacementOpinion",
+      "question": "Do you think AI will replace developers?",
+      "entryId": 1191779292,
+      "type": "choice",
+      "required": true,
+      "answer": "No",
+      "source": "Direct candidate answer October 16, 2026",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "key": "aiOpinionExplanation",
+      "question": "Why?",
+      "entryId": 1521250984,
+      "type": "paragraph",
+      "required": true,
+      "answer": "AI can write better code than humans and handle repetitive work, but I don't believe it will replace software developers. It cannot replace the human understanding of business logic and people's needs, or the responsibility for deciding what to build and which system-design trade-offs to make. I see AI as a powerful tool for developers, while people remain responsible for the product and its decisions.",
+      "source": "Polished candidate opinion from additionalConfirmations.allcancode.aiOpinion; preserve conviction, not an evidence claim about personal system-design proficiency",
+      "questionDescription": "Explain your answer to the previous question"
+    },
+    {
+      "key": "proudProject",
+      "question": "Describe a software project you are proud of",
+      "entryId": 901794259,
+      "type": "paragraph",
+      "required": true,
+      "answer": "One project I'm proud of is Tututor.ai / EduNova, a suite of eight connected education products used by 20,000+ students, teachers and families. It brings together web and mobile workflows, including lesson-topic chatbots, AI quiz generation, automated grading and class insights. The wider platform includes real-time messaging, file storage and billing, along with three React Native apps released on both app stores.",
+      "source": "Canonical facts: tututor_scope, tututor_ai, tututor_platform; all candidate-reported",
+      "questionDescription": "It can be open-source or private. It can be software built while working for a company, a personal project, or one built for an academic assignment."
+    },
+    {
+      "key": "roleInProject",
+      "question": "Describe your role in that project",
+      "entryId": 879987995,
+      "type": "paragraph",
+      "required": true,
+      "answer": "I am the Lead Engineer / Full-Stack Engineer. I build and maintain the shared Express and MongoDB backend, which has approximately 1,000 API endpoints and 90 models, and deliver features across the web, mobile and AI workflows. I moved AI calls and API keys server-side. I led a small team across web and mobile delivery and now work directly with the founder on product and engineering.",
+      "source": "Canonical facts: tututor_backend, tututor_ai, tututor_leadership; no sole-developer or unsupported architecture ownership claim",
+      "questionDescription": "You could be the sole developer, member or lead of the development team, etc."
+    },
+    {
+      "key": "react",
+      "question": "Your fluency with React",
+      "entryId": 1766763548,
+      "type": "linear_scale",
+      "required": true,
+      "answer": 5,
+      "source": "Direct candidate self-rating October 16, 2026",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scaleLabels": {
+        "1": "None",
+        "5": "Pro"
+      },
+      "candidateOriginalRating": 5,
+      "independentlyAssessed": false
+    },
+    {
+      "key": "reactNative",
+      "question": "Your fluency with React Native",
+      "entryId": 1033497133,
+      "type": "linear_scale",
+      "required": true,
+      "answer": 5,
+      "source": "Direct candidate self-rating October 16, 2026",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scaleLabels": {
+        "1": "None",
+        "5": "Pro"
+      },
+      "candidateOriginalRating": 4.9,
+      "independentlyAssessed": false,
+      "requiresChoiceResolution": false,
+      "nearestIntegerOption": 5,
+      "mappingNote": "The candidate explicitly confirmed 5 as the nearest integer choice. Original self-rating remains 4.9/5; this is not an independent proficiency assessment.",
+      "choiceConfirmation": {
+        "candidateOriginalRating": 4.9,
+        "formIntegerValue": 5,
+        "confirmedAt": "2026-10-16T00:25:22.041245+00:00",
+        "source": "Direct user confirmation: use 5 as the nearest available integer to the original React Native self-rating of 4.9.",
+        "independentlyAssessed": false
+      }
+    },
+    {
+      "key": "nextjs",
+      "question": "Your fluency with Next.js",
+      "entryId": 523406083,
+      "type": "linear_scale",
+      "required": true,
+      "answer": 5,
+      "source": "Direct candidate self-rating October 16, 2026",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scaleLabels": {
+        "1": "None",
+        "5": "Pro"
+      },
+      "candidateOriginalRating": 5,
+      "independentlyAssessed": false
+    },
+    {
+      "key": "documentDatabases",
+      "question": "Your fluency with document-based databases",
+      "entryId": 865172767,
+      "type": "linear_scale",
+      "required": true,
+      "answer": 5,
+      "source": "Direct candidate self-rating October 16, 2026",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scaleLabels": {
+        "1": "None",
+        "5": "Pro"
+      },
+      "candidateOriginalRating": 5,
+      "independentlyAssessed": false
+    },
+    {
+      "key": "relationalDatabases",
+      "question": "Your fluency with relational databases",
+      "entryId": 1605430748,
+      "type": "linear_scale",
+      "required": true,
+      "answer": 4,
+      "source": "Direct candidate self-rating October 16, 2026",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scaleLabels": {
+        "1": "None",
+        "5": "Pro"
+      },
+      "candidateOriginalRating": 4,
+      "independentlyAssessed": false
+    },
+    {
+      "key": "hobby",
+      "question": "Name your primary hobby",
+      "entryId": 1209169246,
+      "type": "short_text",
+      "required": false,
+      "answer": "",
+      "source": "Optional and not supplied; leave blank"
+    },
+    {
+      "key": "references",
+      "question": "Any references?",
+      "entryId": 367156732,
+      "type": "paragraph",
+      "required": false,
+      "answer": "",
+      "source": "Optional and not supplied; do not invent contacts"
+    },
+    {
+      "key": "anythingElse",
+      "question": "Anything else we should note",
+      "entryId": 1448732961,
+      "type": "paragraph",
+      "required": false,
+      "answer": "My React Native self-rating is 4.9/5; I selected 5 as the closest available whole-number option. I'm based in Rahim Yar Khan, Pakistan and available immediately. My portfolio is https://itsubaidullahomer.com.",
+      "source": "Confirmed integer mapping plus canonical location, immediate availability and public portfolio."
+    }
+  ],
+  "applicationReady": true,
+  "remainingResolution": [],
+  "sourceConfirmation": {
+    "confirmedAt": "2026-10-16T00:08:05.244Z",
+    "selfRatings": {
+      "react": 5,
+      "reactNative": 4.9,
+      "nextjs": 5,
+      "documentDatabasesMongoDB": 5,
+      "relationalDatabasesSQL": 4
+    },
+    "aiReplacementOpinion": "No",
+    "aiOpinion": "AI will not replace software developers. It can write better code than humans and handle repetitive work, but people understand business logic and human needs, create systems, and make decisions and system-design trade-offs.",
+    "source": "Direct user answer October 16, 2026. Preserve original fractional React Native rating; do not imply an independent assessment.",
+    "reactNativeFormChoice": {
+      "candidateOriginalRating": 4.9,
+      "formIntegerValue": 5,
+      "confirmedAt": "2026-10-16T00:25:22.041245+00:00",
+      "source": "Direct user confirmation: use 5 as the nearest available integer to the original React Native self-rating of 4.9.",
+      "independentlyAssessed": false
+    }
+  },
+  "resume": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-allcancode-fullstack-2026-10-16-ats.pdf",
+    "sha256": "8bcdc943d720fc72a8ce391daf37d18bd8214bcce90e8e43045c133fd6757415",
+    "pages": 1,
+    "visualQa": "PNG rendered with pdftoppm and inspected: aligned headings, legible body, no overlap or clipping, all content fits on one page.",
+    "modified": false,
+    "formUploadFieldObservedInPublicQuestionSchema": false
+  },
+  "editorialRules": [
+    "No degree claimed.",
+    "Skill ratings are candidate opinions, not independently assessed proficiency.",
+    "AI-system-design opinion is not evidence of new personal system-design proficiency.",
+    "Preserve original React Native self-rating 4.9; do not silently round.",
+    "No references, hobbies, company-specific motivations, employment dates or project metrics invented."
+  ],
+  "sources": [
+    ".job-search/private/application-facts.json#/additionalConfirmations/allcancode",
+    ".job-search/resumes/masters/facts.json",
+    ".job-search/research/2026-10-16-remote-additions/application-routes.json",
+    "https://www.allcancode.com/careers"
+  ],
+  "submissionPerformed": false,
+  "cloudWrites": false,
+  "answersUpdatedAt": "2026-10-16T00:25:22.041245+00:00",
+  "preflight": {
+    "checkedAt": "2026-10-16T00:25:02.835Z",
+    "method": "Read-only owner workspace, documents and submissions APIs",
+    "existingAllcancodeReceipts": 0,
+    "jobStatus": "drafting",
+    "appliedAt": null,
+    "documentId": "e73a3fd3-367d-4e40-880a-225db466021b",
+    "cloudMetadataSha256MatchesLocal": true,
+    "sha256": "8bcdc943d720fc72a8ce391daf37d18bd8214bcce90e8e43045c133fd6757415"
+  }
+}

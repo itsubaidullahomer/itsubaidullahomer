@@ -1,0 +1,21 @@
+{
+  "focus": "full_stack",
+  "slug": "niyyt-fullstack-2026-10-16-v1",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_backend",
+      "tututor_leadership",
+      "tututor_platform",
+      "tututor_scope"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

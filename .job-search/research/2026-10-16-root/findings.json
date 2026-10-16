@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-10-15T22:10:03.764Z",
+  "sources": [
+    {
+      "name": "turing-fullstack",
+      "url": "https://www.turingtechnologies.org/career/full-stack-developer",
+      "finalUrl": "https://www.turingtechnologies.org/career/full-stack-developer",
+      "status": 200,
+      "checkedAt": "2026-10-15T22:10:01.974Z",
+      "path": ".job-search/research/2026-10-16-root/turing-fullstack.html",
+      "sha256": "7e9d0755a308460cd2e88f72364fc1b2ab9a71a44852f3d834f7dae4ac38b6d1"
+    },
+    {
+      "name": "turing-team",
+      "url": "https://www.turingtechnologies.org/team",
+      "finalUrl": "https://www.turingtechnologies.org/team",
+      "status": 200,
+      "checkedAt": "2026-10-15T22:10:02.367Z",
+      "path": ".job-search/research/2026-10-16-root/turing-team.html",
+      "sha256": "c73f8c70b027c9b8b012a6cc4a1d0a4a2d51cb2161b2b32e073a29d6f1a874ed"
+    },
+    {
+      "name": "eprecisio-careers",
+      "url": "https://www.eprecisio.com/careers",
+      "finalUrl": "https://www.eprecisio.com/careers",
+      "status": 200,
+      "checkedAt": "2026-10-15T22:10:03.764Z",
+      "path": ".job-search/research/2026-10-16-root/eprecisio-careers.html",
+      "sha256": "fd789b7e57e635bd382d7df131f56e61bb06456978f5d7500ceddd6eeb5988e2"
+    }
+  ],
+  "leads": [
+    {
+      "company": "Turing Technologies",
+      "title": "Mid-Level Full Stack Developer",
+      "url": "https://www.turingtechnologies.org/career/full-stack-developer",
+      "eligibility": "Pakistan; employer advertises remote/hybrid/in-person. In-person attendance if on a performance improvement plan.",
+      "technicalFit": "Potentially strong core stack; not cleared",
+      "matchedFacts": [
+        "React/Node/Express/MongoDB product delivery",
+        "Reusable components and Redux",
+        "Third-party APIs and production performance"
+      ],
+      "gaps": [
+        "UI-library familiarity (Material UI/Ant/Semantic) absent from facts",
+        "GraphQL and SQL responsibility depth unconfirmed",
+        "Application form requires Google access before full required answers can be inspected"
+      ],
+      "applicationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdO8EQx6kLgqwTXrilaLmhTxFq5xVKglwe1n0Q5WvVRUDmaLA/viewform",
+      "publicContacts": [
+        {
+          "name": "Arish Ali",
+          "role": "Tech Lead / Partner",
+          "sourceUrl": "https://www.turingtechnologies.org/team",
+          "referralRoute": "Named publicly; no existing connection or referral promise. Use the official application route."
+        },
+        {
+          "name": "Mahwish Amanat",
+          "role": "Chief of Staff / Co-founder",
+          "sourceUrl": "https://www.turingtechnologies.org/team",
+          "referralRoute": "Public team listing only; do not claim a relationship."
+        }
+      ],
+      "applicationReady": false
+    },
+    {
+      "company": "Eprecisio",
+      "title": "Senior MERN Full-Stack Engineer",
+      "url": "https://www.eprecisio.com/careers",
+      "eligibility": "On-site Faisalabad, Pakistan; specific relocation willingness unknown",
+      "technicalFit": "Relevant SaaS ownership and shared stack; not cleared",
+      "matchedFacts": [
+        "End-to-end React/Node/Express/MongoDB delivery",
+        "Team leadership",
+        "Stripe and Socket.io"
+      ],
+      "gaps": [
+        "Three-year complete MERN span not separately established",
+        "Jest and Docker practical scope missing",
+        "On-call and Faisalabad attendance commitment unknown"
+      ],
+      "publicApplicationEmail": "careers@eprecisio.com",
+      "applicationReady": false
+    }
+  ],
+  "submissions": 0
+}

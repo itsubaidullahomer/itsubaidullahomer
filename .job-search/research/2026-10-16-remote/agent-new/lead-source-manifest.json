@@ -1,0 +1,62 @@
+[
+  {
+    "id": "laralink-frontend",
+    "url": "https://laralink.com/careers/react-frontend-developer/",
+    "finalUrl": "https://laralink.com/careers/react-frontend-developer/",
+    "capturedAt": "2026-10-15T22:06:13.473198+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+    "sha256": "71beda5c98e0ad720593772be1609bbf20abf551730128f0e9836b4a9752a54f",
+    "bytes": 120975
+  },
+  {
+    "id": "laralink-careers",
+    "url": "https://laralink.com/careers/",
+    "finalUrl": "https://laralink.com/careers/",
+    "capturedAt": "2026-10-15T22:06:13.448268+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-careers.html",
+    "sha256": "fe5d4b18f0e7f3692151f4478d9fb433efe87bd10386818677817f0c7566c4c0",
+    "bytes": 132614
+  },
+  {
+    "id": "laralink-about",
+    "url": "https://laralink.com/about/",
+    "finalUrl": "https://laralink.com/about/",
+    "capturedAt": "2026-10-15T22:06:13.469143+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-about.html",
+    "sha256": "17bad5c3bbc094424d0d2b047367ea5f3c441d32c918aa147aefd3b4240a828c",
+    "bytes": 139295
+  },
+  {
+    "id": "coreheight-careers",
+    "url": "https://www.coreheight.com/company/careers",
+    "finalUrl": "https://www.coreheight.com/company/careers",
+    "capturedAt": "2026-10-15T22:06:12.932562+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/coreheight-careers.html",
+    "sha256": "3b5fa7b8201c4625d9a55bb602c637626b1e1a509b606693a5681da560069017",
+    "bytes": 60911
+  },
+  {
+    "id": "coreheight-leadership",
+    "url": "https://www.coreheight.com/company/leadership",
+    "finalUrl": "https://www.coreheight.com/company/leadership",
+    "capturedAt": "2026-10-15T22:06:12.932778+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/coreheight-leadership.html",
+    "sha256": "5a6347562ed73ff2d9286a5c2d92cc822a3366e7b4f7cbc3ba24b43e8d4916f6",
+    "bytes": 56703
+  },
+  {
+    "id": "laralink-form-script",
+    "url": "https://laralink.com/wp-content/litespeed/js/86f1b0afa75a7f0e4031013f24d4fb5f.js?ver=d8465",
+    "finalUrl": "https://laralink.com/wp-content/litespeed/js/86f1b0afa75a7f0e4031013f24d4fb5f.js?ver=d8465",
+    "httpStatus": 200,
+    "capturedAt": "2026-10-15T22:06:50.195108+00:00",
+    "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-form-script.js",
+    "sha256": "671e26c5f3ffe1ba4edfbb6ac661bbe7b115d2535ee5674bb3d3fe1273404154",
+    "bytes": 1257
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "keepcoders-frontend-form",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLScsL6b-d0eWs5qtOjAWYPu6SOh9HCUpEsFtYmpzsaVltvMzzA/viewform",
+  "capturedAt": "2026-10-15T22:10:48.995068Z",
+  "captureType": "public GET metadata plus researcher paraphrase",
+  "text": "Public GET returned HTTP401 and a Google sign-in requirement. Stopped without signing in or creating an account.",
+  "status": 401,
+  "finalUrl": "https://docs.google.com/forms/d/e/1FAIpQLScsL6b-d0eWs5qtOjAWYPu6SOh9HCUpEsFtYmpzsaVltvMzzA/viewform",
+  "bytes": 9134,
+  "sha256": "9861d0c7e7ca49bcb9da86216f1069b7be3bc7d48e38ae121472f58f514b1d0c"
+}

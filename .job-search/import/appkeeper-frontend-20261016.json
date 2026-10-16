@@ -1,0 +1,217 @@
+{
+  "type": "add_job",
+  "job": {
+    "id": "appkeeper-frontend",
+    "company": "Appkeeper Pte. Ltd.",
+    "title": "Frontend Developer",
+    "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "location": "Remote (worldwide)",
+    "salary": "Not disclosed",
+    "description": "Build React/TypeScript SaaS dashboards, reusable UI foundations and data visualizations. Integrate APIs and live data, improve performance, test interfaces and collaborate with design/backend teams. The published role is full-time and worldwide remote. No degree requirement is stated.",
+    "source": "Official Appkeeper careers",
+    "sourceId": "frontend-developer",
+    "discoveredAt": "2026-10-15T23:09:01.169Z",
+    "updatedAt": "2026-10-15T23:18:02.608791+00:00",
+    "status": "shortlisted",
+    "priority": "high",
+    "fit": "unknown",
+    "eligibility": "confirmed",
+    "eligibilityEvidence": "The employer explicitly publishes Remote (worldwide) on the current vacancy. Pakistan is within that advertised geography and no country exclusion or degree requirement is shown. This confirms advertised geography, not a particular legal worker classification.",
+    "requirements": [
+      {
+        "id": "appkeeper-frontend-react-ts",
+        "text": "At least three years of professional React and TypeScript work",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-react",
+          "ev-experience",
+          "ev-confirmed-ts-next"
+        ],
+        "explanation": "React chronology begins January 2022; the candidate directly confirmed four years of TypeScript. Overlapping employment periods are not added. Candidate-reported evidence."
+      },
+      {
+        "id": "appkeeper-frontend-component-library",
+        "text": "Build and maintain a component library or design system",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [
+          "ev-react",
+          "ev-frontend-foundations"
+        ],
+        "explanation": "Reusable React components and hooks are documented. Whether these were a maintained shared component library or design system, and the candidate's specific ownership, remains unconfirmed. Await a concrete example before marking met."
+      },
+      {
+        "id": "appkeeper-frontend-visualization",
+        "text": "Build data visualizations with D3.js or comparable charting tools",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-analytics"
+        ],
+        "explanation": "Illume analytics dashboards and D3.js/Chart.js are explicitly supported by the candidate resume and portfolio."
+      },
+      {
+        "id": "appkeeper-frontend-css",
+        "text": "Strong CSS including Grid, Flexbox, animation and responsive layout",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [
+          "ev-frontend-foundations"
+        ],
+        "explanation": "CSS, Tailwind and responsive product interfaces are supported. Specific hands-on Grid/Flexbox experience and a concrete example need candidate confirmation; do not infer all required CSS capabilities from framework use."
+      },
+      {
+        "id": "appkeeper-frontend-api-state",
+        "text": "REST integration and state management with React Query, Zustand or Redux",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-backend",
+          "ev-frontend-foundations"
+        ],
+        "explanation": "REST APIs, Redux Toolkit and RTK Query are explicitly sourced. These support the stated alternatives without claiming every named library."
+      },
+      {
+        "id": "appkeeper-frontend-testing",
+        "text": "Frontend testing with Jest, React Testing Library and an E2E tool",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-confirmed-testing",
+          "ev-testing"
+        ],
+        "explanation": "The candidate directly confirmed hands-on Jest and React Testing Library; the original resume lists Cypress. No unsupplied testing duration or project example is invented."
+      },
+      {
+        "id": "appkeeper-frontend-bundlers",
+        "text": "Experience with Vite, Webpack or a comparable bundler",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-bundlers"
+        ],
+        "explanation": "Vite and Webpack explicitly listed in the candidate original resume; source reviewed and live profile evidence linked."
+      },
+      {
+        "id": "appkeeper-frontend-git-review",
+        "text": "Git workflow and participation in code reviews",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [
+          "ev-git-deploy"
+        ],
+        "explanation": "Git/GitHub/GitLab are listed. Specific code-review participation is not established by current evidence; await a concrete candidate example before marking this combined essential requirement met."
+      },
+      {
+        "id": "appkeeper-frontend-performance",
+        "text": "Optimize bundles, rendering and loading behavior",
+        "essential": true,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-performance"
+        ],
+        "explanation": "Jurri code splitting, lazy loading and bundle optimization support this central responsibility."
+      },
+      {
+        "id": "appkeeper-frontend-realtime",
+        "text": "WebSocket and real-time data handling",
+        "essential": false,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-integration"
+        ],
+        "explanation": "Candidate sources describe Socket.io/WebSocket and Redis messaging."
+      },
+      {
+        "id": "appkeeper-frontend-nextjs",
+        "text": "Next.js or Nuxt experience for server rendering",
+        "essential": false,
+        "assessment": "met",
+        "evidenceIds": [
+          "ev-confirmed-ts-next",
+          "ev-react"
+        ],
+        "explanation": "Four years of Next.js directly confirmed; no Nuxt experience is claimed."
+      },
+      {
+        "id": "appkeeper-frontend-vue",
+        "text": "Vue 3 ecosystem",
+        "essential": false,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Not explicitly established by the supplied candidate facts. Optional; not claimed."
+      },
+      {
+        "id": "appkeeper-frontend-accessibility",
+        "text": "WCAG accessibility expertise",
+        "essential": false,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Not explicitly established by the supplied candidate facts. Optional; not claimed."
+      },
+      {
+        "id": "appkeeper-frontend-storybook",
+        "text": "Storybook component documentation",
+        "essential": false,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Not explicitly established by the supplied candidate facts. Optional; not claimed."
+      },
+      {
+        "id": "appkeeper-frontend-figma",
+        "text": "Figma and design-to-code workflow familiarity",
+        "essential": false,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Not explicitly established by the supplied candidate facts. Optional; not claimed."
+      }
+    ],
+    "tags": [
+      "Frontend",
+      "React",
+      "TypeScript",
+      "Worldwide remote",
+      "Needs evidence"
+    ],
+    "notes": "Candidate resume, portfolio and direct confirmations are self-reported, not independently verified. The listing has no degree requirement; candidate has no degree. Published worldwide scope includes Pakistan; worker classification and employment terms remain to be agreed.\n\nHold before submission: essential maintained component-library/design-system experience, CSS Grid/Flexbox and code-review participation need specific candidate confirmation. These remain essential even though the application form has no questionnaire about them. Build-tool evidence also needs a precise live-profile evidence link; Vite/Webpack are already present in the original resume. Do not mark strong or submit while any essential assessment is unknown.\n\nApplication route: official vacancy web form; required name, email and CV (.pdf/.doc/.docx), optional cover. No named referral contact or application email was verified. Referral route: none verified; use the official form after fit is confirmed. No submission or outreach performed.\n\nPrepared ATS resume: /Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-appkeeper-frontend-2026-10-16-v1-ats.pdf\nSHA-256: 7ed535a1ba8828be802b55b75b40aed02f2d86ab1c19b4d047bd6cda85fd40ac\nOne page; text extraction and rendered visual QA passed. Optional cover note is saved locally and included as an unsent draft.\n\nDuplicate checks: current live workspace has no Appkeeper job; authorized candidate Gmail search in:anywhere (appkeeper OR \"appkeeper.ltd\") returned no matches. This does not rule out an unrecorded historical application.\n\nLocal source/readiness audit: .job-search/research/2026-10-16-appkeeper/readiness.json\n\nBuild-tool evidence linked October 16: original resume Vite/Webpack entries reviewed and saved as ev-bundlers. Remaining essential unknowns are the three candidate-specific questions.",
+    "nextAction": "Await candidate specifics for maintained component libraries/design systems, CSS Grid/Flexbox and code-review participation. Reassess essential requirements before submission.",
+    "nextActionDate": null,
+    "draft": "Hi Appkeeper team,\n\nI'm applying for the Frontend Developer role. I have 4+ years of React experience and 4 years with TypeScript and Next.js. I currently lead engineering at Tututor.ai / EduNova, building web and mobile products and working directly with the founder on delivery.\n\nYour focus on complex dashboards and real-time data fits my work. For Illume, I built AI analytics dashboards using Chart.js and D3.js, with integrations for revenue, bookings and retention data. At Danzee Tech, I built reusable React components and hooks and reduced Jurri's initial load time by approximately 40% through code splitting, lazy loading and bundle optimization. I also bring hands-on experience with REST APIs, WebSockets, Redux Toolkit, Jest, React Testing Library and Cypress.\n\nI'm based in Pakistan, have advanced spoken and written English, and am available immediately. My portfolio is at https://itsubaidullahomer.com, and my GitHub is https://github.com/itsubaidullahomer.\n\nBest,\nUbaidullah Omer\n",
+    "contactEmail": "",
+    "appliedAt": null,
+    "research": {
+      "companyUrl": "https://appkeeper.ltd/",
+      "contacts": [],
+      "sources": [
+        {
+          "id": "appkeeper-frontend-posting-20261016",
+          "label": "Current official vacancy and requirements",
+          "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+          "text": "Worldwide remote, full-time. Requires three-plus years React/TypeScript, maintained component libraries/design systems, data visualization, strong CSS, API/state integration, testing, bundlers and Git/code review. Optional Vue, accessibility, Storybook, Figma and SSR experience. No degree requirement.",
+          "capturedAt": "2026-10-15T23:18:02.608791+00:00",
+          "screenshotUrl": "",
+          "screenshotPath": ""
+        },
+        {
+          "id": "appkeeper-frontend-careers-20261016",
+          "label": "Company opportunity listing and application route",
+          "url": "https://appkeeper.ltd/",
+          "text": "The company opportunities section links this Frontend Developer vacancy and directs applicants to the individual vacancy page. No named referral contact was verified.",
+          "capturedAt": "2026-10-15T23:18:02.608791+00:00",
+          "screenshotUrl": "",
+          "screenshotPath": ""
+        },
+        {
+          "id": "appkeeper-frontend-form-20261016",
+          "label": "Official form and client submission behavior",
+          "url": "https://appkeeper.ltd/assets/main-BmqqyZ5s.js",
+          "text": "Vacancy form requires full name, email and CV; cover is optional. Client sends name/email/position/cover/cv as multipart data to /api/apply and checks JSON ok. No submission was performed; server acceptance has not been tested.",
+          "capturedAt": "2026-10-15T23:18:02.608791+00:00",
+          "screenshotUrl": "",
+          "screenshotPath": ""
+        }
+      ]
+    }
+  }
+}

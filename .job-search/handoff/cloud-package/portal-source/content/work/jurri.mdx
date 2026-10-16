@@ -1,0 +1,21 @@
+## Make several workflows feel like one product
+
+Jurri brings cloud storage, a unified inbox and a password vault into one app for enterprise teams. My frontend work focused on making those different surfaces feel connected, so people could move between them using familiar navigation and interactions.
+
+## The decisions behind the frontend
+
+**Share the patterns people learn.** I built reusable React components and hooks across the files, inbox and vault screens. The same library gave the team a consistent starting point for new screens and reduced repeated implementation work.
+
+**Keep the interface in step with the data.** I used RTK Query and cache invalidation to refresh server state after changes. In a product with several connected surfaces, what someone sees needs to reflect the work they have just done.
+
+**Make file handling visible.** Drag-and-drop uploads included progress for multiple files and resumable behavior. Uploading a batch needs feedback people can follow, especially when it takes time.
+
+**Load what the current screen needs.** Code splitting and lazy loading reduced the amount of the product required up front. The bundle work brought the initial load down by about 40% during the project.
+
+## My contribution
+
+As a frontend engineer, I built the shared component and hooks library, file upload experience and unified inbox, and worked on loading performance. My contribution was the interface and its connection to the underlying services.
+
+## What that made possible
+
+Teams could work with files, email and credentials in one interface. The development team could reuse established patterns when adding screens, while a lighter initial load made the app quicker to open.

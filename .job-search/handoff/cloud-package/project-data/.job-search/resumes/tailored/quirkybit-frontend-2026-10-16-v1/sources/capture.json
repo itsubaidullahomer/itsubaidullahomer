@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-10-15T23:53:44.649829+00:00",
+  "applicationUrl": "https://www.quirkybit.io/careers/apply?id=frontend-developer-react",
+  "httpStatus": 200,
+  "method": "Read-only public HTML and its linked public JavaScript; no form execution.",
+  "scripts": [
+    {
+      "url": "https://www.quirkybit.io/_next/static/chunks/100-a9932104ce8f8247.js",
+      "file": "100-a9932104ce8f8247.js",
+      "sha256": "dfbf9a550dce6ee58fb99522df92ff01c1530db9354bcebdddfcdd0b2e81e8c3"
+    },
+    {
+      "url": "https://www.quirkybit.io/_next/static/chunks/app/careers/apply/page-7e6d0bb634a7117e.js",
+      "file": "page-7e6d0bb634a7117e.js",
+      "sha256": "f101f035eac693afee476103fd55e9ccb180509167f5bcd67749b7d49b0d5be9"
+    }
+  ]
+}

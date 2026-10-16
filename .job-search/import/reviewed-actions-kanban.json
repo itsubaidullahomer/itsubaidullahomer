@@ -1,0 +1,965 @@
+[
+  {
+    "type": "update_job",
+    "id": "yc-agave-unmv0mv",
+    "patch": {
+      "requirements": [
+        {
+          "id": "yc-agave-unmv0mv-deep-1",
+          "text": "Backend or full-stack delivery; one to four years is an ideal range",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-backend"
+          ],
+          "explanation": "Danzee Jan 2022-Jan 2024 and Tututor Nov 2023-present support four-plus calendar years. The MERN resume and shared Express/Mongo backend demonstrate the requested discipline. The stated range is ideal, not a hard maximum.",
+          "essential": true
+        },
+        {
+          "id": "yc-agave-unmv0mv-deep-2",
+          "text": "Familiarity with cloud infrastructure",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-git-deploy",
+            "ev-integration"
+          ],
+          "explanation": "The resume lists DigitalOcean, Vercel and Heroku; portfolio work includes Cloudflare R2 and production messaging. This meets general familiarity, without claiming AWS/CDK/EC2 expertise.",
+          "essential": true
+        },
+        {
+          "id": "yc-agave-unmv0mv-deep-3",
+          "text": "Own production integrations, APIs and scalable product features",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration",
+            "ev-product"
+          ],
+          "explanation": "Shared APIs and school-scoped data, Stripe webhooks, Redis messaging and Illume data integrations provide directly relevant delivery examples.",
+          "essential": true
+        },
+        {
+          "id": "yc-agave-unmv0mv-deep-4",
+          "text": "Related full-stack technologies are useful; prior exact stack is not required",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-integration"
+          ],
+          "explanation": "React, TypeScript and Redis overlap. The employer expressly waives prior experience with its exact stack; PostgreSQL/AWS expertise is not invented.",
+          "essential": false
+        }
+      ],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed, sponsorship_advertised_only, relocation_and_visa_feasibility_unconfirmed, older_requisition_reconfirm_headcount. Essential unknowns: Cloud architecture depth, on-prem systems and PostgreSQL; remote Pakistan not established; visa eligibility unconfirmed. No application or outreach has been sent.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T15:21:07.498460Z\",\n  \"publishedAt\": \"2025-06-25T18:43:05Z\",\n  \"publishedAtNote\": \"Employer original date; current availability is checked separately. May be evergreen.\",\n  \"method\": \"Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.\",\n  \"employmentType\": \"Full-time\",\n  \"candidateMatches\": [\n    \"React/Node integrations, Stripe, Redis, backend product delivery, Vercel/DigitalOcean deployments.\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"Cloud architecture depth, on-prem systems and PostgreSQL; remote Pakistan not established; visa eligibility unconfirmed.\"\n  ],\n  \"degreePolicy\": \"No mandatory degree-only requirement found in captured role text.\",\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"httpStatus\": 200,\n  \"hardEligibility\": {\n    \"degree\": \"No mandatory degree-only requirement found in captured role text.\",\n    \"geography\": \"sponsorship_advertised_individual_feasibility_unknown\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\",\n    \"sponsorship_advertised_only\",\n    \"relocation_and_visa_feasibility_unconfirmed\",\n    \"older_requisition_reconfirm_headcount\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nDeep review 2026-10-15T15:44:34.000Z: Technical requirements match. Cloud familiarity is broader than AWS. The employer advertises visa and relocation support; that is not individual immigration clearance.\nDegree: No completed degree requirement is stated.\nOpen facts: Confirm a feasible sponsored US hiring route; remote listing is US-only.; Confirm travel for a paid San Francisco onsite interview and recurring office visits.; Inspect authenticated YC questions.\nApplication route: {\"route\": \"YC Work at a Startup account\", \"url\": \"https://www.workatastartup.com/application?signup_job_id=77931\", \"inspection\": \"Apply link opened and resolved to YC account authentication. Authenticated employer questions are not publicly visible.\", \"requiredQuestions\": [], \"questionsComplete\": false, \"manualCheck\": \"An existing authorized YC account/profile and the complete post-login questions must be inspected before any application.\"}\nTechnical fit and eligibility are separate. No application or outreach has been sent.",
+      "research": {
+        "companyUrl": "https://www.useagave.com",
+        "contacts": [
+          {
+            "id": "yc-agave-unmv0mv-person-1",
+            "name": "Pooria Azimi",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/pooria-azimi/",
+            "sourceUrl": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          },
+          {
+            "id": "yc-agave-unmv0mv-person-2",
+            "name": "Tom Reno",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/tomreno/",
+            "sourceUrl": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-agave-unmv0mv-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "text": "Build integrations and product features for construction financial operations. The role targets early-career full-stack or backend engineers and requires cloud familiarity. TypeScript, React, Redis and PostgreSQL are used, but previous experience with that stack is not required. Visa and relocation support are explicitly offered.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-agave-unmv0mv-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-06-25T18:43:05Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:07.498460Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-agave-unmv0mv-deep-review",
+            "label": "Full official JD and application-route review",
+            "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+            "text": "All visible qualifications were reviewed. Technical requirements match. Cloud familiarity is broader than AWS. The employer advertises visa and relocation support; that is not individual immigration clearance. No completed degree requirement is stated. Application checks: Apply link opened and resolved to YC account authentication. Authenticated employer questions are not publicly visible.",
+            "capturedAt": "2026-10-15T15:44:34.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "priority": "high",
+      "nextAction": "Confirm a feasible sponsored US hiring route; remote listing is US-only.",
+      "fit": "strong"
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "yc-finni-health-ph1y4dp",
+    "patch": {
+      "requirements": [
+        {
+          "id": "yc-finni-health-ph1y4dp-deep-1",
+          "text": "At least one year of software engineering",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience"
+          ],
+          "explanation": "Four-plus calendar years exceed the one-year minimum; overlapping dates are not added.",
+          "essential": true
+        },
+        {
+          "id": "yc-finni-health-ph1y4dp-deep-2",
+          "text": "Backend-framework experience and HTML, JavaScript, CSS foundations",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Node/Express APIs and production React interfaces directly cover the stated backend and web foundations.",
+          "essential": true
+        },
+        {
+          "id": "yc-finni-health-ph1y4dp-deep-3",
+          "text": "Take product features from specification through APIs, interfaces and improvement",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-backend",
+            "ev-react"
+          ],
+          "explanation": "Current lead-engineer scope, shared backend and shipped teacher workflows support end-to-end ownership.",
+          "essential": true
+        },
+        {
+          "id": "yc-finni-health-ph1y4dp-deep-4",
+          "text": "Product judgment, scope prioritization and independent work amid ambiguity",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-ai"
+          ],
+          "explanation": "Working directly with the founder, leading web/mobile delivery and building practical teacher workflows support this working-style assessment. This is an evidence-based judgment, not an interview guarantee.",
+          "essential": true
+        },
+        {
+          "id": "yc-finni-health-ph1y4dp-deep-5",
+          "text": "React, React Native and TypeScript overlap with the current team stack",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-mobile"
+          ],
+          "explanation": "Sources report production React products, TypeScript and three React Native apps on both stores.",
+          "essential": false
+        },
+        {
+          "id": "yc-finni-health-ph1y4dp-deep-6",
+          "text": "Firebase and Google Cloud are listed in the technology context",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-git-deploy"
+          ],
+          "explanation": "Portfolio lists Firebase Cloud Messaging, but general Firebase/GCP depth is not established. The actual requirements ask for some backend framework and web foundations, not prior Firebase mastery.",
+          "essential": false
+        }
+      ],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed, sponsorship_advertised_only, relocation_and_visa_feasibility_unconfirmed, older_requisition_reconfirm_headcount. Essential unknowns: Firebase/Google Cloud not evidenced; healthcare domain and relocation terms; remote Pakistan not advertised. No application or outreach has been sent.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T15:21:06.408474Z\",\n  \"publishedAt\": \"2025-05-02T18:33:36Z\",\n  \"publishedAtNote\": \"Employer original date; current availability is checked separately. May be evergreen.\",\n  \"method\": \"Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.\",\n  \"employmentType\": \"Full-time\",\n  \"candidateMatches\": [\n    \"React Native apps, React/Next/Node/TypeScript product delivery and healthcare analytics experience.\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"Firebase/Google Cloud not evidenced; healthcare domain and relocation terms; remote Pakistan not advertised.\"\n  ],\n  \"degreePolicy\": \"No mandatory degree-only requirement found in captured role text.\",\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"httpStatus\": 200,\n  \"hardEligibility\": {\n    \"degree\": \"No mandatory degree-only requirement found in captured role text.\",\n    \"geography\": \"sponsorship_advertised_individual_feasibility_unknown\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\",\n    \"sponsorship_advertised_only\",\n    \"relocation_and_visa_feasibility_unconfirmed\",\n    \"older_requisition_reconfirm_headcount\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nDeep review 2026-10-15T15:44:34.000Z: Core product/full-stack qualifications match. The page names its technology stack without making every vendor a mandatory prior skill.\nDegree: No completed degree requirement is stated.\nOpen facts: US/Canada remote scope does not establish permission to work from Pakistan; verify sponsored relocation/hiring route.; Inspect authenticated YC questions.\nApplication route: {\"route\": \"YC Work at a Startup account\", \"url\": \"https://www.workatastartup.com/application?signup_job_id=75960\", \"inspection\": \"Apply link opened and resolved to YC account authentication. Authenticated employer questions are not publicly visible.\", \"requiredQuestions\": [], \"questionsComplete\": false, \"manualCheck\": \"An existing authorized YC account/profile and the complete post-login questions must be inspected before any application.\"}\nTechnical fit and eligibility are separate. No application or outreach has been sent.",
+      "research": {
+        "companyUrl": "https://www.finnihealth.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "yc-finni-health-ph1y4dp-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+            "text": "Own product features for an autism-care platform across web, mobile and backend. Requires at least one year, practical frontend and backend fundamentals, and independent delivery. The listed stack includes React, React Native, Node and TypeScript, with Firebase and Google Cloud.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-finni-health-ph1y4dp-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-05-02T18:33:36Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:06.408474Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-finni-health-ph1y4dp-deep-review",
+            "label": "Full official JD and application-route review",
+            "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+            "text": "All visible qualifications were reviewed. Core product/full-stack qualifications match. The page names its technology stack without making every vendor a mandatory prior skill. No completed degree requirement is stated. Application checks: Apply link opened and resolved to YC account authentication. Authenticated employer questions are not publicly visible.",
+            "capturedAt": "2026-10-15T15:44:34.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "priority": "high",
+      "nextAction": "US/Canada remote scope does not establish permission to work from Pakistan; verify sponsored relocation/hiring route.",
+      "fit": "strong"
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "yc-furtherai-zrn2j29",
+    "patch": {
+      "requirements": [
+        {
+          "id": "yc-furtherai-zrn2j29-deep-1",
+          "text": "At least three years building early product experiences",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-react",
+            "ev-product"
+          ],
+          "explanation": "The supplied project history includes Crown Kabab Nov 2022-May 2023, Yaksport Jan-Aug 2023, Jurri Sep 2023-Apr 2024 and continuing Tututor delivery from Nov 2023. These examples support product-building work over three calendar years; this is not a claim of three separate years in each tool.",
+          "essential": true
+        },
+        {
+          "id": "yc-furtherai-zrn2j29-deep-2",
+          "text": "Build frontend systems with React",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Reusable components/hooks at Danzee and shipped React interfaces across Tututor, Illume, Viloi, Jurri and Yaksport directly match.",
+          "essential": true
+        },
+        {
+          "id": "yc-furtherai-zrn2j29-deep-3",
+          "text": "Communicate clearly in discussion and writing",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-remote",
+            "ev-product"
+          ],
+          "explanation": "The candidate works with international teams and directly with a founder, led developers, and describes written decisions and working previews in the portfolio. This supports practical collaboration; no formal English score is claimed.",
+          "essential": true
+        },
+        {
+          "id": "yc-furtherai-zrn2j29-deep-4",
+          "text": "Strong ownership and sustained product responsibility",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-backend"
+          ],
+          "explanation": "Lead-engineer responsibility across connected products, backend services and mobile releases supports ownership.",
+          "essential": true
+        },
+        {
+          "id": "yc-furtherai-zrn2j29-deep-5",
+          "text": "B2B SaaS background is a bonus",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-analytics"
+          ],
+          "explanation": "Tututor school software and Illume business analytics are relevant B2B product work.",
+          "essential": false
+        }
+      ],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed, sponsorship_advertised_only, relocation_and_visa_feasibility_unconfirmed, older_requisition_reconfirm_headcount. Essential unknowns: B2B insurance workflows; design/architecture examples; relocation and visa feasibility. No application or outreach has been sent.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T15:21:06.391523Z\",\n  \"publishedAt\": \"2025-01-27T20:31:27Z\",\n  \"publishedAtNote\": \"Employer original date; current availability is checked separately. May be evergreen.\",\n  \"method\": \"Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.\",\n  \"employmentType\": \"Full-time\",\n  \"candidateMatches\": [\n    \"React/Next/TypeScript, reusable UI and shipped AI education and analytics products.\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"B2B insurance workflows; design/architecture examples; relocation and visa feasibility.\"\n  ],\n  \"degreePolicy\": \"No mandatory degree-only requirement found in captured role text.\",\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"httpStatus\": 200,\n  \"hardEligibility\": {\n    \"degree\": \"No mandatory degree-only requirement found in captured role text.\",\n    \"geography\": \"sponsorship_advertised_individual_feasibility_unknown\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\",\n    \"sponsorship_advertised_only\",\n    \"relocation_and_visa_feasibility_unconfirmed\",\n    \"older_requisition_reconfirm_headcount\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nDeep review 2026-10-15T15:44:34.000Z: Good technical/product match. The three-year product-building assessment uses dated shipped projects plus continuing ownership, rather than treating the role as generic React keyword overlap.\nDegree: No completed degree requirement is stated.\nOpen facts: Confirm sponsored San Francisco relocation and the employer’s work-intensity expectations.; Inspect authenticated YC questions.\nApplication route: {\"route\": \"YC Work at a Startup account\", \"url\": \"https://www.workatastartup.com/application?signup_job_id=72438\", \"inspection\": \"Apply link opened and resolved to YC account authentication. Authenticated employer questions are not publicly visible.\", \"requiredQuestions\": [], \"questionsComplete\": false, \"manualCheck\": \"An existing authorized YC account/profile and the complete post-login questions must be inspected before any application.\"}\nTechnical fit and eligibility are separate. No application or outreach has been sent.",
+      "research": {
+        "companyUrl": "https://www.furtherai.com/",
+        "contacts": [
+          {
+            "id": "yc-furtherai-zrn2j29-person-1",
+            "name": "Sashank Gondala",
+            "role": "Co-founder / CTO",
+            "profileUrl": "https://linkedin.com/in/sashank-gondala-083132a0",
+            "sourceUrl": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          },
+          {
+            "id": "yc-furtherai-zrn2j29-person-2",
+            "name": "Aman Gour",
+            "role": "Co-founder / CEO",
+            "profileUrl": "https://linkedin.com/in/amangour",
+            "sourceUrl": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-furtherai-zrn2j29-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "text": "Build frontend systems for an insurance AI product. Requires at least three years and evidence of taking React interfaces from an initial idea to a shipped product. Ownership, clear communication and independent delivery matter; B2B software experience is useful.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-furtherai-zrn2j29-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-01-27T20:31:27Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:06.391523Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-furtherai-zrn2j29-deep-review",
+            "label": "Full official JD and application-route review",
+            "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+            "text": "All visible qualifications were reviewed. Good technical/product match. The three-year product-building assessment uses dated shipped projects plus continuing ownership, rather than treating the role as generic React keyword overlap. No completed degree requirement is stated. Application checks: Apply link opened and resolved to YC account authentication. Authenticated employer questions are not publicly visible.",
+            "capturedAt": "2026-10-15T15:44:34.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "priority": "high",
+      "nextAction": "Confirm sponsored San Francisco relocation and the employer’s work-intensity expectations.",
+      "fit": "strong"
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "yc-simple-ai-byegx5m",
+    "patch": {
+      "requirements": [
+        {
+          "id": "yc-simple-ai-byegx5m-deep-1",
+          "text": "Relevant professional engineering experience: body says two-plus years; header says three-plus",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-backend"
+          ],
+          "explanation": "Four-plus years satisfy both displayed thresholds. The discrepancy is retained rather than silently choosing the lower number.",
+          "essential": true
+        },
+        {
+          "id": "yc-simple-ai-byegx5m-deep-2",
+          "text": "Solve technical problems and work independently",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-performance",
+            "ev-backend"
+          ],
+          "explanation": "Lead ownership, backend delivery and specific query/frontend optimization work support independent technical problem solving.",
+          "essential": true
+        },
+        {
+          "id": "yc-simple-ai-byegx5m-deep-3",
+          "text": "Customer-focused product decisions, prioritization and communication",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-remote",
+            "ev-analytics"
+          ],
+          "explanation": "Founder collaboration and products addressing school/MedSpa operations provide evidence of practical product focus and stakeholder work.",
+          "essential": true
+        },
+        {
+          "id": "yc-simple-ai-byegx5m-deep-4",
+          "text": "Active interest in learning and building with AI",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-ai"
+          ],
+          "explanation": "Repeated production OpenAI/Claude/Gemini integrations across distinct products demonstrate applied interest. No research/model-training expertise is claimed.",
+          "essential": true
+        },
+        {
+          "id": "yc-simple-ai-byegx5m-deep-5",
+          "text": "LLM integration and startup experience are useful advantages",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-ai",
+            "ev-product"
+          ],
+          "explanation": "Tututor startup delivery, AI analytics and provider fallbacks are directly relevant.",
+          "essential": false
+        },
+        {
+          "id": "yc-simple-ai-byegx5m-deep-6",
+          "text": "Overlap with the optional language/framework stack",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "TypeScript and React are supported. Python, Rails, PostgreSQL and AWS are optional context and are not claimed as established expertise.",
+          "essential": false
+        }
+      ],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Overseas onsite lead only because sponsorship is advertised; no visa eligibility assessment or guarantee. Reconfirm active headcount and country terms before preparation. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed, sponsorship_advertised_only, relocation_and_visa_feasibility_unconfirmed, older_requisition_reconfirm_headcount. Essential unknowns: Voice evaluation/deployment depth; required in-person relocation and visa feasibility. Python/Rails/AWS are not claimed. No application or outreach has been sent.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T15:21:07.026700Z\",\n  \"publishedAt\": \"2025-03-19T19:06:27Z\",\n  \"publishedAtNote\": \"Employer original date; current availability is checked separately. May be evergreen.\",\n  \"method\": \"Direct current HTTP 200; employer JobPosting JSON-LD and application route present. Original publication date is separate from current verification.\",\n  \"employmentType\": \"Full-time\",\n  \"candidateMatches\": [\n    \"React/TypeScript, production AI integrations, customer product ownership and startup shipping.\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"Voice evaluation/deployment depth; required in-person relocation and visa feasibility. Python/Rails/AWS are not claimed.\"\n  ],\n  \"degreePolicy\": \"No mandatory degree-only requirement found in captured role text.\",\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"httpStatus\": 200,\n  \"hardEligibility\": {\n    \"degree\": \"No mandatory degree-only requirement found in captured role text.\",\n    \"geography\": \"sponsorship_advertised_individual_feasibility_unknown\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\",\n    \"sponsorship_advertised_only\",\n    \"relocation_and_visa_feasibility_unconfirmed\",\n    \"older_requisition_reconfirm_headcount\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nDeep review 2026-10-15T15:44:34.000Z: Core full-stack, product and AI qualifications match. Optional Rails/Python/cloud technologies are not promoted into hard requirements.\nDegree: No completed degree requirement is stated.\nOpen facts: Confirm sponsored San Francisco relocation and availability for the one-day onsite work trial.; Inspect authenticated YC questions.\nApplication route: {\"route\": \"YC Work at a Startup account\", \"url\": \"https://www.workatastartup.com/application?signup_job_id=74410\", \"inspection\": \"Apply link opened and resolved to YC account authentication. Authenticated employer questions are not publicly visible.\", \"requiredQuestions\": [], \"questionsComplete\": false, \"manualCheck\": \"An existing authorized YC account/profile and the complete post-login questions must be inspected before any application.\"}\nTechnical fit and eligibility are separate. No application or outreach has been sent.",
+      "research": {
+        "companyUrl": "https://www.usesimple.ai",
+        "contacts": [
+          {
+            "id": "yc-simple-ai-byegx5m-person-1",
+            "name": "Zach Kamran",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/zach-kamran/",
+            "sourceUrl": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          },
+          {
+            "id": "yc-simple-ai-byegx5m-person-2",
+            "name": "Catheryn Li",
+            "role": "Co-founder",
+            "profileUrl": "https://www.linkedin.com/in/catherynli/",
+            "sourceUrl": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "referralRoute": "Public professional profile; no existing relationship or referral is claimed.",
+            "notes": "Listed on the employer YC profile. No outreach performed.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "yc-simple-ai-byegx5m-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "text": "Join a small voice-AI team building customer-facing systems and helping customers implement them. Requires two years, strong problem solving, product judgment, communication and self-directed work. React, TypeScript, Python, Rails, cloud and prior LLM experience are explicitly optional advantages.",
+            "capturedAt": "2026-10-15T15:28:05.600669Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-simple-ai-byegx5m-status",
+            "label": "Current employer listing verification",
+            "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "text": "Employer page returned HTTP 200 with current role metadata and application route. Original date 2025-03-19T19:06:27Z. Sponsorship is advertised; immigration feasibility remains unconfirmed.",
+            "capturedAt": "2026-10-15T15:21:07.026700Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "yc-simple-ai-byegx5m-deep-review",
+            "label": "Full official JD and application-route review",
+            "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+            "text": "All visible qualifications were reviewed. Core full-stack, product and AI qualifications match. Optional Rails/Python/cloud technologies are not promoted into hard requirements. No completed degree requirement is stated. Application checks: Apply link opened and resolved to YC account authentication. Authenticated employer questions are not publicly visible.",
+            "capturedAt": "2026-10-15T15:44:34.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Employer YC vacancy explicitly advertises visa sponsorship. Pakistan remote eligibility and individual immigration feasibility are not confirmed.",
+      "priority": "high",
+      "nextAction": "Confirm sponsored San Francisco relocation and availability for the one-day onsite work trial.",
+      "fit": "strong"
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "bearplex-mern-20261015",
+    "patch": {
+      "requirements": [
+        {
+          "id": "bearplex-mern-20261015-deep-1",
+          "text": "About four to five years building and operating MERN products",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-react",
+            "ev-backend"
+          ],
+          "explanation": "The source resume explicitly describes four-plus years of MERN production work, and dated Danzee/Tututor delivery plus Node/Express integrations support it. Exact months in each individual library are not an additional employer condition.",
+          "essential": true
+        },
+        {
+          "id": "bearplex-mern-20261015-deep-2",
+          "text": "Own MongoDB, Express, React and Node features from schema through deployment",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-backend",
+            "ev-product"
+          ],
+          "explanation": "Shared APIs/data models, frontend products and lead delivery provide matching full-stack evidence.",
+          "essential": true
+        },
+        {
+          "id": "bearplex-mern-20261015-deep-3",
+          "text": "Backend API design, data models, authentication, caching and performance",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration",
+            "ev-performance"
+          ],
+          "explanation": "School-scoped data, JWT, Redis messaging and query/index optimization cover the main backend requirements.",
+          "essential": true
+        },
+        {
+          "id": "bearplex-mern-20261015-deep-4",
+          "text": "Daily AI coding-agent fluency and critical review of generated code",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-ai"
+          ],
+          "explanation": "Production AI integration is supported but differs from daily Claude Code/Cursor/Copilot coding workflows. Ask for an actual workflow example rather than assuming it.",
+          "essential": true
+        },
+        {
+          "id": "bearplex-mern-20261015-deep-5",
+          "text": "Docker, CI/CD and cloud deployment with production debugging",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-git-deploy",
+            "ev-performance"
+          ],
+          "explanation": "CI/CD, cloud tools and debugging have evidence; Docker working knowledge remains unconfirmed.",
+          "essential": true
+        },
+        {
+          "id": "bearplex-mern-20261015-deep-6",
+          "text": "TypeScript/Next.js and shipped LLM features are useful additions",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-ai"
+          ],
+          "explanation": "Both named frontend skills and deployed AI features are supported.",
+          "essential": false
+        },
+        {
+          "id": "bearplex-mern-20261015-deep-7",
+          "text": "Relational/Postgres/Supabase experience is an optional advantage",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Portfolio lists Postgres, but depth of relational modeling and row-level security is unconfirmed.",
+          "essential": false
+        }
+      ],
+      "notes": "Official role and live application form reviewed 15 October 2026. Public application route is the job page; no named employee/referral contact verified. No application or outreach sent. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed. Essential unknowns: Roughly four to five years specifically building and operating MERN products — Four-plus years overall is documented, but the sources do not date every MERN component across the full period; confirm duration of full-stack MERN work.; Daily AI coding-tool use with critical review of generated code — Production LLM integrations are documented, but daily Claude Code/Cursor/Copilot workflows are not established by the resume.; Working Docker, CI/CD and cloud deployment knowledge — CI/CD and deployment tools are listed, but Docker production knowledge is unconfirmed.; Ability to work from the Lahore office — Candidate accepts on-site work in Pakistan, but current base is Rahim Yar Khan. Confirm Lahore relocation/start arrangements before committing.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T15:26:26.000Z\",\n  \"publishedAt\": null,\n  \"publishedAtNote\": \"Not exposed in captured primary source.\",\n  \"method\": \"Current employer vacancy and application route reviewed by jobs_kanban agent.\",\n  \"employmentType\": \"Not specified in captured source\",\n  \"candidateMatches\": [\n    \"End-to-end React, Node.js, Express and MongoDB feature delivery\",\n    \"API design, data modeling, authentication and production performance\",\n    \"TypeScript and Next.js familiarity\",\n    \"Production LLM features\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"Roughly four to five years specifically building and operating MERN products — Four-plus years overall is documented, but the sources do not date every MERN component across the full period; confirm duration of full-stack MERN work.\",\n    \"Daily AI coding-tool use with critical review of generated code — Production LLM integrations are documented, but daily Claude Code/Cursor/Copilot workflows are not established by the resume.\",\n    \"Working Docker, CI/CD and cloud deployment knowledge — CI/CD and deployment tools are listed, but Docker production knowledge is unconfirmed.\",\n    \"Ability to work from the Lahore office — Candidate accepts on-site work in Pakistan, but current base is Rahim Yar Khan. Confirm Lahore relocation/start arrangements before committing.\"\n  ],\n  \"degreePolicy\": \"Explicitly no degree required.\",\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"assessmentBasis\": \"Met means supported by candidate-provided resume/portfolio, not independently employer-verified. Evidence IDs refer to prepared import profile.\",\n  \"hardEligibility\": {\n    \"degree\": \"Explicitly no degree required.\",\n    \"geography\": \"pakistan_work_location\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nDeep review 2026-10-15T15:44:34.000Z: Strong MERN overlap, with two specific technical unknowns. Pakistan presence does not satisfy the explicit Lahore-base condition by itself.\nDegree: Employer explicitly requires no degree.\nOpen facts: Confirm daily coding-agent workflow and Docker experience.; The posting requires a Lahore base; candidate is in Rahim Yar Khan. Confirm relocation before committing.; Inspect the complete manual form; public text only exposes the initial resume-upload step.\nApplication route: {\"route\": \"Employer application form\", \"url\": \"https://www.bearplex.com/careers/mern-stack-developer\", \"inspection\": \"Public page exposes PDF resume upload (up to 10MB) and a manual-entry toggle. No file uploaded; follow-on fields were not visible through the public page reader.\", \"requiredQuestions\": [\"Resume PDF or manual-entry details\"], \"questionsComplete\": false}\nTechnical fit and eligibility are separate. No application or outreach has been sent.",
+      "research": {
+        "companyUrl": "https://www.bearplex.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "bearplex-mern-20261015-source",
+            "label": "Current employer posting - paraphrased requirements",
+            "url": "https://www.bearplex.com/careers/mern-stack-developer",
+            "text": "Build full-stack features with MongoDB, Express, React and Node.js. The employer seeks roughly four to five years of MERN work, daily AI-assisted coding practice, backend/API depth and working Docker/CI/CD/cloud skills. The office is in Lahore. Degree education is not required; TypeScript, Next.js, relational data and production LLM features are useful additions.",
+            "capturedAt": "2026-10-15T15:26:26.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "bearplex-mern-20261015-deep-review",
+            "label": "Full official JD and application-route review",
+            "url": "https://www.bearplex.com/careers/mern-stack-developer",
+            "text": "All visible qualifications were reviewed. Strong MERN overlap, with two specific technical unknowns. Pakistan presence does not satisfy the explicit Lahore-base condition by itself. Employer explicitly requires no degree. Application checks: Public page exposes PDF resume upload (up to 10MB) and a manual-entry toggle. No file uploaded; follow-on fields were not visible through the public page reader.",
+            "capturedAt": "2026-10-15T15:44:34.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Official posting specifies an on-site Lahore role and explicitly says no degree is required. Candidate is in Pakistan, but the stated Lahore-base condition and relocation arrangements require confirmation.",
+      "priority": "medium",
+      "nextAction": "Confirm daily coding-agent workflow and Docker experience.",
+      "fit": "unknown"
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "codenzy-react",
+    "patch": {
+      "requirements": [
+        {
+          "id": "codenzy-react-deep-1",
+          "text": "Three-plus years of professional React work",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-react"
+          ],
+          "explanation": "React delivery begins at Danzee in Jan 2022 and continues through Tututor and other products; four-plus calendar years support the requirement.",
+          "essential": true
+        },
+        {
+          "id": "codenzy-react-deep-2",
+          "text": "TypeScript, Next.js, hooks and modern state management",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Resume names TypeScript/Next.js and portfolio describes hooks and reusable components; Redux Toolkit/RTK Query are explicitly sourced.",
+          "essential": true
+        },
+        {
+          "id": "codenzy-react-deep-3",
+          "text": "HTML/CSS and responsive interface development",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations",
+            "ev-react"
+          ],
+          "explanation": "Production frontend interfaces, Tailwind and reusable components provide practical evidence.",
+          "essential": true
+        },
+        {
+          "id": "codenzy-react-deep-4",
+          "text": "REST API integration",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Yaksport REST integration and shared Node/Express services are documented.",
+          "essential": true
+        },
+        {
+          "id": "codenzy-react-deep-5",
+          "text": "GraphQL familiarity",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "GraphQL is explicitly requested, but absent from the verified candidate source set. Do not substitute REST experience.",
+          "essential": true
+        },
+        {
+          "id": "codenzy-react-deep-6",
+          "text": "Frontend tests using Jest and React Testing Library",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-testing"
+          ],
+          "explanation": "Cypress and golden tests are sourced; Jest/React Testing Library experience remains unconfirmed.",
+          "essential": true
+        },
+        {
+          "id": "codenzy-react-deep-7",
+          "text": "Problem solving, communication and equivalent practical experience",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-performance",
+            "ev-product",
+            "ev-remote",
+            "ev-experience"
+          ],
+          "explanation": "Troubleshooting, international collaboration and four-plus professional years support the practical-experience route that the employer explicitly permits instead of a degree.",
+          "essential": true
+        },
+        {
+          "id": "codenzy-react-deep-8",
+          "text": "Tailwind and CI/CD are useful",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations",
+            "ev-git-deploy"
+          ],
+          "explanation": "Both are listed in the supplied source material.",
+          "essential": false
+        },
+        {
+          "id": "codenzy-react-deep-9",
+          "text": "Agile/Scrum and open-source contribution history are additional advantages",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Neither specific process history nor contribution history is established by the provided sources.",
+          "essential": false
+        }
+      ],
+      "notes": " Candidate confirms no degree and immediate availability. Candidate portfolio/resume claims remain self-reported. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed. Essential unknowns: GraphQL, Jest/React Testing Library depth; Lahore relocation and client schedule. No application or outreach has been sent.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T15:15:15.571000Z\",\n  \"publishedAt\": null,\n  \"publishedAtNote\": \"Not exposed by primary source\",\n  \"method\": \"Current public HTTP GET 200 plus rendered employer vacancy/Apply route; no application submitted.\",\n  \"employmentType\": \"Full-time\",\n  \"candidateMatches\": [\n    \"React/Next/TypeScript, reusable components, frontend performance; resume lists Cypress and international remote clients.\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"GraphQL, Jest/React Testing Library depth; Lahore relocation and client schedule.\"\n  ],\n  \"degreePolicy\": \"Degree or equivalent professional experience explicitly accepted.\",\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"httpStatus\": 200,\n  \"verificationUrl\": \"https://www.codenzy.com/careers/react-developer/\",\n  \"titlePresent\": true,\n  \"hardEligibility\": {\n    \"degree\": \"Degree or equivalent professional experience explicitly accepted.\",\n    \"geography\": \"pakistan_work_location\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nDeep review 2026-10-15T15:44:34.000Z: Useful frontend lead, held on two actual technical evidence gaps. The full JD does not require a formal English score.\nDegree: A degree OR equivalent experience is accepted; no degree is claimed.\nOpen facts: Confirm GraphQL and Jest/React Testing Library experience.; Confirm Lahore attendance/relocation and team-hours expectations before committing.\nApplication route: {\"route\": \"Email application\", \"url\": \"https://www.codenzy.com/careers/react-developer\", \"recipient\": \"hr@codenzy.com\", \"subject\": \"React Developer Application\", \"inspection\": \"Employer requests resume and portfolio by email. No public application questionnaire is specified.\", \"requiredQuestions\": [\"Resume\", \"Portfolio\"], \"questionsComplete\": true}\nTechnical fit and eligibility are separate. No application or outreach has been sent.",
+      "research": {
+        "companyUrl": "https://www.codenzy.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "codenzy-react-posting",
+            "label": "Employer job description — concise paraphrase",
+            "url": "https://www.codenzy.com/careers/react-developer/",
+            "text": "Build and improve React/Next.js interfaces for US clients. Requires three years, TypeScript, hooks/state, responsive CSS, API integration and tests. A degree or equivalent experience is explicitly accepted. Tailwind and CI/CD are useful.",
+            "capturedAt": "2026-10-15T15:15:13.463870Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "codenzy-react-deep-review",
+            "label": "Full official JD and application-route review",
+            "url": "https://www.codenzy.com/careers/react-developer",
+            "text": "All visible qualifications were reviewed. Useful frontend lead, held on two actual technical evidence gaps. The full JD does not require a formal English score. A degree OR equivalent experience is accepted; no degree is claimed. Application checks: Employer requests resume and portfolio by email. No public application questionnaire is specified.",
+            "capturedAt": "2026-10-15T15:44:34.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Pakistan onsite accepted; employer explicitly permits equivalent experience instead of degree.",
+      "priority": "medium",
+      "nextAction": "Confirm GraphQL and Jest/React Testing Library experience.",
+      "fit": "unknown"
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "symmetry-mern-20261015",
+    "patch": {
+      "requirements": [
+        {
+          "id": "symmetry-mern-20261015-deep-1",
+          "text": "One-plus year of MERN development",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-react",
+            "ev-backend"
+          ],
+          "explanation": "The documented MERN work exceeds one year.",
+          "essential": true
+        },
+        {
+          "id": "symmetry-mern-20261015-deep-2",
+          "text": "HTML, CSS, JavaScript, Node and database familiarity",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations",
+            "ev-backend"
+          ],
+          "explanation": "The exact stack and MongoDB are supported. The database line uses examples, so MySQL is not treated as a separate mandatory production credential.",
+          "essential": true
+        },
+        {
+          "id": "symmetry-mern-20261015-deep-3",
+          "text": "Git version control",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-git-deploy"
+          ],
+          "explanation": "Git/GitHub/GitLab are explicitly listed.",
+          "essential": true
+        },
+        {
+          "id": "symmetry-mern-20261015-deep-4",
+          "text": "Strong object-oriented programming understanding",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "OOP depth is not established merely by listing JavaScript/React. A concrete design example is needed.",
+          "essential": true
+        },
+        {
+          "id": "symmetry-mern-20261015-deep-5",
+          "text": "Clean, efficient and documented code",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-performance",
+            "ev-testing"
+          ],
+          "explanation": "Reusable components, optimization and testing provide partial quality evidence. Documentation practice is not sufficiently specific in the source set.",
+          "essential": true
+        },
+        {
+          "id": "symmetry-mern-20261015-deep-6",
+          "text": "Troubleshooting and verbal/written collaboration",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-performance",
+            "ev-product",
+            "ev-remote"
+          ],
+          "explanation": "Query/index and frontend performance work plus team leadership and remote founder collaboration support these general professional requirements.",
+          "essential": true
+        },
+        {
+          "id": "symmetry-mern-20261015-deep-7",
+          "text": "Related bachelor degree is preferred",
+          "assessment": "gap",
+          "evidenceIds": [],
+          "explanation": "The candidate confirmed no degree. This is an optional qualification gap, not a mandatory disqualifier.",
+          "essential": false
+        }
+      ],
+      "notes": "Official role and application page reviewed 15 October 2026. Apply at https://symmetrygroup.biz/careers/mern-stack-developer/apply-now . No named employee/referral contact verified. Do not use investor-complaints contact as a recruiting route. No application or outreach sent. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed, optional_degree_gap. Essential unknowns: Strong object-oriented programming principles — Professional JavaScript experience alone does not establish the requested OOP depth.; Clean documented code, troubleshooting and strong communication — Troubleshooting and international collaboration have source support; documentation quality and the full communication standard need confirmation.; Related bachelor degree preferred — Candidate confirmed no degree. The posting labels it preferred, so this is an optional qualification gap.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T15:26:26.000Z\",\n  \"publishedAt\": null,\n  \"publishedAtNote\": \"Not exposed in captured primary source.\",\n  \"method\": \"Current employer vacancy and application route reviewed by jobs_kanban agent.\",\n  \"employmentType\": \"Not specified in captured source\",\n  \"candidateMatches\": [\n    \"At least one year of MERN web development\",\n    \"HTML, CSS, JavaScript and Node.js development\",\n    \"Database familiarity including MongoDB\",\n    \"Git version control\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"Strong object-oriented programming principles — Professional JavaScript experience alone does not establish the requested OOP depth.\",\n    \"Clean documented code, troubleshooting and strong communication — Troubleshooting and international collaboration have source support; documentation quality and the full communication standard need confirmation.\",\n    \"Related bachelor degree preferred — Candidate confirmed no degree. The posting labels it preferred, so this is an optional qualification gap.\"\n  ],\n  \"degreePolicy\": \"Degree preferred only, not mandatory.\",\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"assessmentBasis\": \"Met means supported by candidate-provided resume/portfolio, not independently employer-verified. Evidence IDs refer to prepared import profile.\",\n  \"hardEligibility\": {\n    \"degree\": \"Degree preferred only, not mandatory.\",\n    \"geography\": \"pakistan_work_location\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\",\n    \"optional_degree_gap\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nDeep review 2026-10-15T15:44:34.000Z: Core stack fits. OOP and documentation remain specific unknowns; the known degree gap is optional.\nDegree: Related bachelor degree preferred, not mandatory.\nOpen facts: Confirm OOP depth and documentation examples.; Confirm Karachi relocation and 09:00–18:00 attendance.; Confirm form validation and city choices; the public text does not mark which fields are mandatory.\nApplication route: {\"route\": \"Employer form\", \"url\": \"https://symmetrygroup.biz/careers/mern-stack-developer/apply-now\", \"inspection\": \"Public form displays designation, first/last name, city, email, subject, cover letter and CV upload. Required flags and validation rules were not exposed by the reader.\", \"requiredQuestions\": [], \"visibleQuestions\": [\"Designation\", \"First name\", \"Last name\", \"City\", \"Email\", \"Subject\", \"Cover letter\", \"CV\"], \"questionsComplete\": false}\nTechnical fit and eligibility are separate. No application or outreach has been sent.",
+      "research": {
+        "companyUrl": "https://symmetrygroup.biz/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "symmetry-mern-20261015-source",
+            "label": "Current employer posting - paraphrased requirements",
+            "url": "https://symmetrygroup.biz/careers/mern-stack-developer",
+            "text": "Develop and maintain MERN web applications with the development and design team. Requirements include at least one year of relevant work, OOP understanding, HTML/CSS/JavaScript, Node.js, database familiarity, Git, clear documentation and communication. A related bachelor degree is preferred rather than mandatory. The Karachi position follows a morning shift.",
+            "capturedAt": "2026-10-15T15:26:26.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "symmetry-mern-20261015-deep-review",
+            "label": "Full official JD and application-route review",
+            "url": "https://symmetrygroup.biz/careers/mern-stack-developer",
+            "text": "All visible qualifications were reviewed. Core stack fits. OOP and documentation remain specific unknowns; the known degree gap is optional. Related bachelor degree preferred, not mandatory. Application checks: Public form displays designation, first/last name, city, email, subject, cover letter and CV upload. Required flags and validation rules were not exposed by the reader.",
+            "capturedAt": "2026-10-15T15:44:34.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "The official posting places the job in Karachi, Pakistan; there is no overseas work-authorization requirement. Confirm the 09:00-18:00 office schedule and relocation details before submission.",
+      "priority": "medium",
+      "nextAction": "Confirm OOP depth and documentation examples.",
+      "fit": "unknown"
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "10pearls-react-ember-kqdykxuh4p",
+    "patch": {
+      "requirements": [
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-deep-1",
+          "text": "Two-plus years building web applications",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-react",
+            "ev-backend"
+          ],
+          "explanation": "Four-plus calendar years of shipped web development exceed the minimum.",
+          "essential": true
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-deep-2",
+          "text": "JavaScript/React or related frontend framework experience",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "React is directly supported; the employer explicitly accepts related experience, so prior Ember is not a hidden blocker.",
+          "essential": true
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-deep-3",
+          "text": "CI/CD and GitHub or Bitbucket",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-git-deploy"
+          ],
+          "explanation": "CI/CD and GitHub are explicitly listed in the source resume.",
+          "essential": true
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-deep-4",
+          "text": "Clear collaboration with technical and nontechnical colleagues",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-remote"
+          ],
+          "explanation": "Lead-developer and founder collaboration across international product teams provide practical supporting evidence.",
+          "essential": true
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-deep-5",
+          "text": "Agile software-development methods",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Actual Scrum/Agile practice is not explicitly described. Owning shipped products alone does not establish a named process.",
+          "essential": true
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-deep-6",
+          "text": "Production APIs, performance and testable product delivery",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-performance",
+            "ev-testing"
+          ],
+          "explanation": "Backend APIs, refactoring/performance work, Cypress and golden tests are documented.",
+          "essential": true
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-deep-7",
+          "text": "Proactive documentation and constructive pull-request review practice",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-product"
+          ],
+          "explanation": "Team leadership is relevant but does not directly establish the requested documentation and PR-review habits.",
+          "essential": true
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-deep-8",
+          "text": "Customer-facing SaaS experience is beneficial",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-analytics",
+            "ev-integration"
+          ],
+          "explanation": "Tututor, Illume and the paid Viloi product match the SaaS/customer-product preference.",
+          "essential": false
+        }
+      ],
+      "notes": "Current employer career board links this exact live posting. Public application route is the job page. No named recruiter/referral contact verified. No application or outreach sent. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed, country_contract_terms_unconfirmed. Essential unknowns: Agile development methods across planning, testing and release — Shipped product ownership is documented, but the specific agile working process needs confirmation.; Tests, documentation and constructive cross-functional collaboration — Partial support exists for testing and collaboration; documentation/review practice across the complete requirement needs confirmation.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T15:26:26.000Z\",\n  \"publishedAt\": null,\n  \"publishedAtNote\": \"Not exposed in captured primary source.\",\n  \"method\": \"Current employer vacancy and application route reviewed by jobs_kanban agent.\",\n  \"employmentType\": \"Full-time\",\n  \"candidateMatches\": [\n    \"At least two years of web-application development\",\n    \"React/JavaScript or related frontend framework experience\",\n    \"CI/CD and GitHub or Bitbucket source control\",\n    \"SaaS or customer-facing product experience\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"Agile development methods across planning, testing and release — Shipped product ownership is documented, but the specific agile working process needs confirmation.\",\n    \"Tests, documentation and constructive cross-functional collaboration — Partial support exists for testing and collaboration; documentation/review practice across the complete requirement needs confirmation.\"\n  ],\n  \"degreePolicy\": \"Completed degree not listed as a requirement.\",\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"assessmentBasis\": \"Met means supported by candidate-provided resume/portfolio, not independently employer-verified. Evidence IDs refer to prepared import profile.\",\n  \"hardEligibility\": {\n    \"degree\": \"Completed degree not listed as a requirement.\",\n    \"geography\": \"remote_hiring_country_unconfirmed\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\",\n    \"country_contract_terms_unconfirmed\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.\n\nDeep review 2026-10-15T15:44:34.000Z: Relevant React/SaaS/API background. Geography and specific team-process practices remain unconfirmed.\nDegree: No completed degree requirement is stated.\nOpen facts: Confirm this remote requisition hires in Pakistan.; Confirm Agile methods, documentation and pull-request practices.; Human Check is mandatory and must be completed legitimately.\nApplication route: {\"route\": \"JazzHR form\", \"url\": \"https://10pearls.applytojob.com/apply/KqDYKxUH4p/Frontend-ReactEmber\", \"inspection\": \"Public form inspected without interaction or submission.\", \"requiredQuestions\": [\"First name\", \"Last name\", \"Email\", \"Phone\", \"Resume (up to 5MB)\", \"Human Check\"], \"optionalQuestions\": [\"Street address\", \"City\", \"State/province\", \"Postal code\"], \"questionsComplete\": true}\nTechnical fit and eligibility are separate. No application or outreach has been sent.",
+      "research": {
+        "companyUrl": "https://10pearls.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "10pearls-react-ember-kqdykxuh4p-source",
+            "label": "Current employer posting - paraphrased requirements",
+            "url": "https://10pearls.applytojob.com/apply/KqDYKxUH4p/Frontend-ReactEmber",
+            "text": "A mid-level, full-time frontend role on a fitness studio management SaaS platform. Work covers customer-facing features, APIs, code improvement, tests and documentation with product and engineering colleagues. The posting asks for two-plus years of web development, agile work, React/JavaScript or related technologies, CI/CD, GitHub/Bitbucket and clear collaboration. Related stack experience and willingness to learn are accepted; a completed degree is not listed.",
+            "capturedAt": "2026-10-15T15:26:26.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "10pearls-react-ember-kqdykxuh4p-deep-review",
+            "label": "Full official JD and application-route review",
+            "url": "https://10pearls.applytojob.com/apply/KqDYKxUH4p/Frontend-ReactEmber",
+            "text": "All visible qualifications were reviewed. Relevant React/SaaS/API background. Geography and specific team-process practices remain unconfirmed. No completed degree requirement is stated. Application checks: Public form inspected without interaction or submission.",
+            "capturedAt": "2026-10-15T15:44:34.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "eligibility": "unknown",
+      "eligibilityEvidence": "The official employer ATS labels the role Remote but does not name allowed countries. The company operating in Pakistan does not prove this specific requisition accepts Pakistan-based applicants. Confirm hiring geography.",
+      "priority": "medium",
+      "nextAction": "Confirm this remote requisition hires in Pakistan.",
+      "fit": "unknown"
+    }
+  }
+]

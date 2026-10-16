@@ -1,0 +1,16 @@
+{
+  "id": "gtsol-linkedin",
+  "url": "https://pk.linkedin.com/company/gtsol360",
+  "capturedAt": "2026-10-15T22:10:48.995068Z",
+  "captureType": "public GET metadata plus researcher paraphrase",
+  "text": "Employer-controlled company profile links the same domain and describes Karachi-based AI/web/mobile services. Some organization metadata differs across public pages; actual employment terms remain unverified.",
+  "status": 999,
+  "finalUrl": "https://pk.linkedin.com/company/gtsol360",
+  "bytes": 1530,
+  "sha256": "644031a68bde879af85bcc9cb3e6fa1e9a6b0f61d49307581974b5dbc09d3de8",
+  "webInspection": {
+    "method": "web search/open rendered text",
+    "retrieved": true,
+    "note": "Public company profile content was returned by the web tool; a later direct HTTP GET returned999. Source text is a paraphrase of the web result."
+  }
+}

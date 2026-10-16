@@ -1,0 +1,317 @@
+{
+  "capturedAt": "2026-10-16T00:14:01.060Z",
+  "job": {
+    "id": "himalayas-6dca1606cc28208c3715ce8f",
+    "fit": "unknown",
+    "url": "https://himalayas.app/companies/wise-ai/jobs/title-founding-engineer-fullstack-zoom-app",
+    "tags": [
+      "Founding-Engineer",
+      "Full-Stack-Developer",
+      "Software-Engineer",
+      "Backend-Engineer",
+      "Front-End-Developer",
+      "Founding-Fullstack-Engineer",
+      "Founding-Software-Engineer",
+      "Founding-Product-Engineer",
+      "Technical-Founding-Engineer"
+    ],
+    "draft": "",
+    "notes": "",
+    "title": "Title: Founding Engineer (Fullstack/Zoom App)",
+    "salary": "USD 12,000–24,000 / annual",
+    "source": "Himalayas",
+    "status": "discovered",
+    "company": "Wise AI",
+    "location": "Bangladesh, India, Pakistan, Sri Lanka; time zones: UTC+5, UTC+5.5, UTC+6",
+    "priority": "medium",
+    "research": {
+      "sources": [
+        {
+          "id": "himalayas-6dca1606cc28208c3715ce8f-source",
+          "url": "https://himalayas.app/companies/wise-ai/jobs/title-founding-engineer-fullstack-zoom-app",
+          "text": "Source: Himalayas\nOriginal listing: https://himalayas.app/companies/wise-ai/jobs/title-founding-engineer-fullstack-zoom-app\nCaptured: 2026-10-15T23:45:32.837Z\nPublished: 2026-10-11T23:06:11.000Z\n\nCompany Description\n\nWise AI is a Harvard-MIT-founded, VC-backed start-up focused on revolutionizing health monitoring through innovative technology. The company is developing a population-scale health monitoring solution that is accessible to anyone with a smartphone.\n\nOur core offering is a health sensing platform that measures vital signs (heart rate, HRV, stress indicators, and more) using remote photoplethysmography (rPPG) — directly from a standard camera, without any wearables or additional hardware.\n\nAt Wise AI, we aim to empower individuals worldwide by making health tracking seamless, efficient, and universally available. Join us in creating cutting-edge solutions that have the potential to transform healthcare accessibility.\n\nRole Description\n\nThis is a full-time remote role for a Founding Engineer in Fullstack Development, with a focus on ZoomApp integration. The Founding Engineer will be responsible for designing, developing, and maintaining scalable software systems, building both front-end and back-end components, and integrating third-party platforms such as Zoom. Responsibilities include collaborating with cross-functional teams, ensuring optimal system performance, and contributing to a fast-paced start-up environment with innovation and problem-solving.\n\nQualifications\n\nProficiency in fullstack development and expertise in modern programming languages/frameworks (e.g., Python, JavaScript, React, Node.js)\n\nExperience with ZoomApps (must-have)\n\nExperience with API development\n\nStrong skills in system design, database management, and performance optimization\n\nAbility to build and maintain scalable, user-friendly, and responsive web applications\n\nFamiliarity with cloud platforms (e.g., AWS, Google Cloud) and DevOps practices\n\nStrong problem-solving skills and an ability to adapt in a start-up environment\n\nExcellent collaboration and communication skills to work effectively with cross-functional teams\n\nPrior experience in health-tech or a related field is a plus\n\nBachelor’s degree in Computer Science, Software Engineering, or equivalent experience\n\nTech Stack (Flexible but Current Direction)\n\nFrontend: React / TypeScript / Zoom Apps SDK\n\nBackend: Python (FastAPI) / Node.js\n\nVision / ML: OpenCV, MediaPipe, PyTorch / TensorFlow\n\nSignal Processing: SciPy, NumPy\n\nHosting: AWS / GCP\n\nVersion Control: GitHub\n\nDesign/Docs: Figma / Notion\n\nYou will influence and evolve this stack.\n\nWhy This Is Different\n\nThis is not just another engineering job.\n\nYou will be:\n\nOne of the first technical hires\n\nA core part of product, research, and vision\n\nSolving a truly hard, meaningful problem at the intersection of: Healthcare, AI, Computer Vision\n\nEligible for significant equity\n\nBuilding a product that can help millions, including caregivers, clinicians, and the elderly\n\nIf you want your code to actually matter — this is it.\n\nWho This Role Is Perfect For\n\nThis is a great fit if you are:\n\nA builder who wants to work on something deeply technical + highly human\n\nA grad / PhD / engineer who has worked on CV or signals and wants real-world impact\n\nA high-potential engineer tired of big-company bureaucracy\n\nSomeone excited by the idea: “What if Zoom could check your vitals?”\n\nHow to Apply\n\nEmail or message with:\n\nA short intro\n\nGitHub / portfolio / papers (if any)\n\n1–2 projects (involving a ZoomApp) you're most proud of.\n\nContact:\n\nOriginally posted on Himalayas",
+          "label": "Himalayas job listing",
+          "capturedAt": "2026-10-15T23:45:32.837Z",
+          "screenshotUrl": "",
+          "screenshotPath": ""
+        }
+      ],
+      "contacts": [],
+      "companyUrl": ""
+    },
+    "sourceId": "https://himalayas.app/companies/wise-ai/jobs/title-founding-engineer-fullstack-zoom-app",
+    "appliedAt": null,
+    "updatedAt": "2026-10-15T23:45:34.887Z",
+    "nextAction": "Confirm Pakistan eligibility, then review requirements",
+    "description": "Company Description\n\nWise AI is a Harvard-MIT-founded, VC-backed start-up focused on revolutionizing health monitoring through innovative technology. The company is developing a population-scale health monitoring solution that is accessible to anyone with a smartphone.\n\nOur core offering is a health sensing platform that measures vital signs (heart rate, HRV, stress indicators, and more) using remote photoplethysmography (rPPG) — directly from a standard camera, without any wearables or additional hardware.\n\nAt Wise AI, we aim to empower individuals worldwide by making health tracking seamless, efficient, and universally available. Join us in creating cutting-edge solutions that have the potential to transform healthcare accessibility.\n\nRole Description\n\nThis is a full-time remote role for a Founding Engineer in Fullstack Development, with a focus on ZoomApp integration. The Founding Engineer will be responsible for designing, developing, and maintaining scalable software systems, building both front-end and back-end components, and integrating third-party platforms such as Zoom. Responsibilities include collaborating with cross-functional teams, ensuring optimal system performance, and contributing to a fast-paced start-up environment with innovation and problem-solving.\n\nQualifications\n\nProficiency in fullstack development and expertise in modern programming languages/frameworks (e.g., Python, JavaScript, React, Node.js)\n\nExperience with ZoomApps (must-have)\n\nExperience with API development\n\nStrong skills in system design, database management, and performance optimization\n\nAbility to build and maintain scalable, user-friendly, and responsive web applications\n\nFamiliarity with cloud platforms (e.g., AWS, Google Cloud) and DevOps practices\n\nStrong problem-solving skills and an ability to adapt in a start-up environment\n\nExcellent collaboration and communication skills to work effectively with cross-functional teams\n\nPrior experience in health-tech or a related field is a plus\n\nBachelor’s degree in Computer Science, Software Engineering, or equivalent experience\n\nTech Stack (Flexible but Current Direction)\n\nFrontend: React / TypeScript / Zoom Apps SDK\n\nBackend: Python (FastAPI) / Node.js\n\nVision / ML: OpenCV, MediaPipe, PyTorch / TensorFlow\n\nSignal Processing: SciPy, NumPy\n\nHosting: AWS / GCP\n\nVersion Control: GitHub\n\nDesign/Docs: Figma / Notion\n\nYou will influence and evolve this stack.\n\nWhy This Is Different\n\nThis is not just another engineering job.\n\nYou will be:\n\nOne of the first technical hires\n\nA core part of product, research, and vision\n\nSolving a truly hard, meaningful problem at the intersection of: Healthcare, AI, Computer Vision\n\nEligible for significant equity\n\nBuilding a product that can help millions, including caregivers, clinicians, and the elderly\n\nIf you want your code to actually matter — this is it.\n\nWho This Role Is Perfect For\n\nThis is a great fit if you are:\n\nA builder who wants to work on something deeply technical + highly human\n\nA grad / PhD / engineer who has worked on CV or signals and wants real-world impact\n\nA high-potential engineer tired of big-company bureaucracy\n\nSomeone excited by the idea: “What if Zoom could check your vitals?”\n\nHow to Apply\n\nEmail or message with:\n\nA short intro\n\nGitHub / portfolio / papers (if any)\n\n1–2 projects (involving a ZoomApp) you're most proud of.\n\nContact:\n\nOriginally posted on Himalayas",
+    "eligibility": "unknown",
+    "contactEmail": "",
+    "discoveredAt": "2026-10-15T23:45:32.837Z",
+    "requirements": [
+      {
+        "id": "himalayas-6dca1606cc28208c3715ce8f-requirement-0",
+        "text": "Proficiency in fullstack development and expertise in modern programming languages/frameworks (e.g., Python, JavaScript, React, Node.js)",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [
+          "ev-react",
+          "ev-backend",
+          "ev-frontend-foundations"
+        ],
+        "explanation": "Automatically selected passage, not an assessed requirement. Check whether it is essential and whether linked portfolio evidence supports the full requirement."
+      },
+      {
+        "id": "himalayas-6dca1606cc28208c3715ce8f-requirement-1",
+        "text": "Experience with ZoomApps (must-have)",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Automatically selected passage, not an assessed requirement. Check whether it is essential and whether linked portfolio evidence supports the full requirement."
+      },
+      {
+        "id": "himalayas-6dca1606cc28208c3715ce8f-requirement-2",
+        "text": "Experience with API development",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Automatically selected passage, not an assessed requirement. Check whether it is essential and whether linked portfolio evidence supports the full requirement."
+      },
+      {
+        "id": "himalayas-6dca1606cc28208c3715ce8f-requirement-3",
+        "text": "Familiarity with cloud platforms (e.g., AWS, Google Cloud) and DevOps practices",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Automatically selected passage, not an assessed requirement. Check whether it is essential and whether linked portfolio evidence supports the full requirement."
+      },
+      {
+        "id": "himalayas-6dca1606cc28208c3715ce8f-requirement-4",
+        "text": "Prior experience in health-tech or a related field is a plus",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Automatically selected passage, not an assessed requirement. Check whether it is essential and whether linked portfolio evidence supports the full requirement."
+      },
+      {
+        "id": "himalayas-6dca1606cc28208c3715ce8f-requirements-review",
+        "text": "Confirm the complete essential requirements from the original listing.",
+        "essential": true,
+        "assessment": "unknown",
+        "evidenceIds": [],
+        "explanation": "Rule-based discovery may miss requirements, years of experience, degrees, or location conditions. Replace this checklist item with the reviewed requirements before assigning fit."
+      }
+    ],
+    "nextActionDate": null,
+    "eligibilityEvidence": "Source location: “Bangladesh, India, Pakistan, Sri Lanka; time zones: UTC+5, UTC+5.5, UTC+6”. Pakistan eligibility is unreviewed. Check the complete employer listing for country, residency, and work-authorization conditions before confirming. Source passages to review: “At Wise AI, we aim to empower individuals worldwide by making health tracking seamless, efficient, and universally available.”"
+  },
+  "evidence": [
+    {
+      "id": "ev-react",
+      "level": "working",
+      "skill": "React / Next.js / TypeScript",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume lists React, Next.js and TypeScript. The portfolio describes React components and hooks at Danzee Tech and React-based product interfaces at Tututor.ai, Illume, Viloi, Jurri and Yaksport. Self-reported source material reviewed; independent skill assessment has not been performed."
+    },
+    {
+      "id": "ev-backend",
+      "level": "working",
+      "skill": "Node.js / Express / MongoDB / REST APIs",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The resume and portfolio describe production Node.js, Express and MongoDB work at Tututor.ai and in Illume/Viloi, including shared APIs, data modeling and school-scoped data access. Self-reported project evidence reviewed."
+    },
+    {
+      "id": "ev-ai",
+      "level": "working",
+      "skill": "OpenAI / Claude / Gemini / AI integrations",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied sources describe AI lesson-topic chatbots, quiz generation and grading at Tututor.ai; AI-generated analytics at Illume; and provider fallbacks involving OpenAI, Claude and Gemini at Viloi. This supports application integration, not model-training or ML research expertise."
+    },
+    {
+      "id": "ev-product",
+      "level": "working",
+      "skill": "Product ownership / technical leadership",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The current portfolio calls the Tututor.ai / EduNova role Lead Engineer, describes leading web and mobile developers, and states that the candidate now works directly with the founder on product and engineering. No formal product-management certification is claimed."
+    },
+    {
+      "id": "ev-integration",
+      "level": "working",
+      "skill": "Authentication / Stripe / SEPA / WebSockets / Redis",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume and portfolio describe JWT authentication, Stripe subscriptions and webhooks, SEPA billing, and Socket.io with Redis messaging in shipped products."
+    },
+    {
+      "id": "ev-mobile",
+      "level": "working",
+      "skill": "React Native / mobile app delivery",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The current portfolio reports shipping React Native apps to both Apple and Google app stores and beginning a Kotlin Multiplatform core. It does not establish five years of mobile development or deep native-platform expertise."
+    },
+    {
+      "id": "ev-experience",
+      "level": "working",
+      "skill": "Professional experience / four-plus years",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume and current portfolio agree on Danzee Tech January 2022-January 2024 and Tututor.ai November 2023-present. These overlapping periods support four-plus calendar years by October 2026; they must not be added together to inflate experience."
+    },
+    {
+      "id": "ev-remote",
+      "level": "working",
+      "skill": "Remote collaboration",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The resume identifies Tututor.ai as remote with the employer based in Murcia, Spain; the candidate is based in Pakistan. Danzee Tech is associated with Viby, Denmark. This supports international collaboration, not any particular English test score or work authorization."
+    },
+    {
+      "id": "ev-performance",
+      "level": "working",
+      "skill": "Frontend performance / query optimization",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The resume and portfolio describe code splitting, lazy loading and bundle optimization on Jurri, plus query and index hotspot work. No new quantitative performance claim has been inferred."
+    },
+    {
+      "id": "ev-frontend-foundations",
+      "level": "working",
+      "skill": "HTML / CSS / JavaScript / Redux / Tailwind CSS",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume lists JavaScript, HTML, CSS, Redux Toolkit, RTK Query and Tailwind CSS; the portfolio describes production React interfaces, reusable components and multilingual booking experiences."
+    },
+    {
+      "id": "ev-git-deploy",
+      "level": "working",
+      "skill": "Git / GitHub / CI-CD / Vercel / DigitalOcean",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume lists Git, GitHub, GitLab, CI/CD, Vercel and DigitalOcean. Specific Docker, Kubernetes, AWS, GCP or Terraform production depth is not established by these sources."
+    },
+    {
+      "id": "ev-analytics",
+      "level": "working",
+      "skill": "Data visualization / Chart.js / D3.js",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume and portfolio describe Illume dashboards for revenue, booking and retention analytics with Chart.js and D3.js, and integrations involving Boulevard, Zenoti and Vagaro."
+    },
+    {
+      "id": "ev-testing",
+      "level": "working",
+      "skill": "Cypress / golden-test validation",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume lists Cypress, and the portfolio describes golden-test validation for the Plumier XXI export. Broad ownership of every testing framework or release-governance practice is not implied."
+    },
+    {
+      "id": "ev-confirmed-ts-next",
+      "level": "working",
+      "skill": "TypeScript / Next.js — 4 years",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed 4 years of professional TypeScript and 4 years of Next.js experience on October 16, 2026. Exact start dates are not inferred. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-mobile",
+      "level": "working",
+      "skill": "React Native — 3 years",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed 3 years of professional React Native experience on October 16, 2026. No specific Expo or native-plugin experience was supplied. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-testing",
+      "level": "working",
+      "skill": "Jest / React Testing Library",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed hands-on Jest and React Testing Library experience on October 16, 2026. No duration or particular testing-project claim was supplied. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-graphql",
+      "level": "working",
+      "skill": "GraphQL",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed hands-on GraphQL experience on October 16, 2026. No exact tenure was supplied. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-docker",
+      "level": "working",
+      "skill": "Docker — 3+ years",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed 3+ years of Docker experience on October 16, 2026. This does not establish Kubernetes or named-cloud expertise. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-sql",
+      "level": "working",
+      "skill": "SQL — 3+ years",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed 3+ years of SQL experience on October 16, 2026. Database vendor and PostgreSQL-specific features remain unspecified. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-english",
+      "level": "working",
+      "skill": "English — advanced",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed advanced spoken and written English on October 16, 2026. No native status, CEFR level or test score is claimed. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-schedule",
+      "level": "working",
+      "skill": "US business hours / immediate availability",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed availability for full US business hours on October 16, 2026 and previously confirmed immediate availability. Special trials, on-call, travel and relocation commitments require separate review. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-compensation",
+      "level": "working",
+      "skill": "Salary expectation — USD 50,000 annually, negotiable",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate authorized USD 50,000 per year, negotiable, when a required application asks for salary expectation. This is not a minimum; fit remains the priority. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-bundlers",
+      "level": "working",
+      "skill": "Vite and Webpack",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "Candidate original FlowCV resume explicitly lists Vite (Frontend, line 96) and Webpack (DevOps and Tools, line 100). Source preserved privately at .job-search/flowcv-resume-source.txt. Candidate-reported, not independently assessed."
+    },
+    {
+      "id": "ev-confirmed-components",
+      "level": "working",
+      "skill": "Shared component libraries and design systems",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "Candidate directly confirmed hands-on experience maintaining a shared component library/design system on October 16, 2026. Specific project names and scope are not inferred."
+    },
+    {
+      "id": "ev-confirmed-css-layout",
+      "level": "working",
+      "skill": "CSS Grid and Flexbox",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "Candidate directly confirmed hands-on CSS Grid and Flexbox experience on October 16, 2026. No duration or specialist accessibility expertise inferred."
+    },
+    {
+      "id": "ev-confirmed-code-review",
+      "level": "working",
+      "skill": "Code review",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "Candidate directly confirmed hands-on participation in code reviews on October 16, 2026. No formal reviewer title or quantified scope inferred."
+    }
+  ]
+}

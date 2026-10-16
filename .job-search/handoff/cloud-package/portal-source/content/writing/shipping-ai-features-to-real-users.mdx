@@ -1,0 +1,23 @@
+The model is the easy part. That's the thing nobody mentions when they talk about shipping AI features.
+
+When I started on the AI tools inside Tututor I assumed prompt engineering would be the hard bit. It wasn't. The hard bit was everything around the model: keeping the teacher UI responsive while the model was thinking, storing conversations in a shape someone could actually read back later, and working out what the product should do when a response takes eight seconds instead of one.
+
+A few things that mattered more than which model I picked:
+
+Stream everything.
+
+As soon as someone sees tokens landing on screen, they'll wait. Show them a spinner for three seconds and they assume it's broken. It's less a performance trick than a way of telling the user the product is still with them.
+
+Store the conversation, not just the answer.
+
+Teachers read back every student conversation to work out where someone got stuck, and that's only possible because each turn is its own row rather than a JSON blob. The shape you pick early decides which features are even available to you six months later.
+
+Put the AI calls in their own service.
+
+Not for architectural purity. Because when OpenAI is having a bad day, you don't want your main API having one too.
+
+Decide what failure looks like.
+
+When the model can't answer, what does the screen say? Most teams fall back to a generic error. That's the one moment where a specific response is worth the effort: an older answer, a related action, anything other than "Something went wrong."
+
+The model gets the attention. The plumbing is what keeps people using it.

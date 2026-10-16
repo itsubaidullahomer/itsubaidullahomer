@@ -1,0 +1,103 @@
+{
+  "submissions": [
+    {
+      "id": "9f880206-ed5d-4be9-85c2-6ade8a065204",
+      "jobId": "niyyt-fullstack-pakistan-20261016",
+      "documentId": "2dbd363b-5349-4edf-ad86-192ebd1f8a1c",
+      "channel": "employer_form",
+      "destination": "https://niyyt.com/apply-as-developer",
+      "submittedAt": "2026-10-16T05:42:25.928+00:00",
+      "confirmation": "Application Submitted! Thank you for applying. We'll review your application and get back to you soon. Screenshot and required form answers retained privately.",
+      "receiptUrl": "",
+      "actor": "agent",
+      "resumeSha256": "59450dd24e2cf3fc50fc7de87e971817e03235e3f5e1bce91876715f78e3ebd7",
+      "resumeFilename": "ubaidullah-omer-niyyt-fullstack-2026-10-16-v1-ats.pdf",
+      "recordedAt": "2026-10-16T05:43:11.209171+00:00"
+    },
+    {
+      "id": "ca31ba7a-1594-453d-83b2-c213f802d7ad",
+      "jobId": "tbox-fullstack",
+      "documentId": "f03b550b-95b4-4ad4-bb87-0a1b221bd115",
+      "channel": "email",
+      "destination": "careers@tboxsolutionz.com",
+      "submittedAt": "2026-10-16T01:16:38+00:00",
+      "confirmation": "Gmail SENT read-back verified message 1a1424855b3935a3 from itsubaidullahomer@gmail.com to the official careers inbox careers@tboxsolutionz.com. Exact tailored PDF attachment filename and 88,527-byte size verified. Initial application only; no acceptance of the later paid trial or other employer terms. No employer reply yet.",
+      "receiptUrl": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#sent/1a1424855b3935a3",
+      "actor": "agent",
+      "resumeSha256": "fca2776a5ea23821827f5c2da6826e81b9f8bee8344a9be70a9b37c143ecc639",
+      "resumeFilename": "ubaidullah-omer-tbox-fullstack-2026-10-16-v1-ats.pdf",
+      "recordedAt": "2026-10-16T01:17:42.712747+00:00"
+    },
+    {
+      "id": "14812112-7a10-4ec5-bbe2-3dce226e9633",
+      "jobId": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+      "documentId": "004c0f22-b2f6-40ac-a03f-1939d8bc4e64",
+      "channel": "email",
+      "destination": "hello@quirkybit.io",
+      "submittedAt": "2026-10-16T00:42:43+00:00",
+      "confirmation": "Gmail SENT read-back verified message 1a1422947d403cb2 from itsubaidullahomer@gmail.com to the published general company inbox hello@quirkybit.io. Exact tailored PDF attachment filename and 88,348-byte size verified. Email explains CAPTCHA form failure and asks forwarding to hiring. Employer web form is NOT submitted; hiring-team acknowledgement is NOT confirmed.",
+      "receiptUrl": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#sent/1a1422947d403cb2",
+      "actor": "agent",
+      "resumeSha256": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91",
+      "resumeFilename": "ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf",
+      "recordedAt": "2026-10-16T00:44:06.217669+00:00"
+    },
+    {
+      "id": "0fa1b224-eccb-45f1-bda7-3cc2309b72a8",
+      "jobId": "allcancode-mid-fullstack-20261016",
+      "documentId": "e73a3fd3-367d-4e40-880a-225db466021b",
+      "channel": "employer_form",
+      "destination": "https://docs.google.com/forms/d/e/1FAIpQLScTX4kn5-9IwbtIQg5nvxr5QLY-WyIL3K3mTvMNBxHQYid1CQ/viewform",
+      "submittedAt": "2026-10-16T00:37:20.327+00:00",
+      "confirmation": "Google Form for Mid-level developer at Allcancode displayed \u201cYour response has been recorded\u201d after submission from itsubaidullahomer@gmail.com. The form accepted application answers and LinkedIn/portfolio links; it did not offer a r\u00e9sum\u00e9 upload. The linked immutable tailored PDF is the prepared private application version, not an uploaded attachment.",
+      "receiptUrl": "https://docs.google.com/forms/u/1/d/e/1FAIpQLScTX4kn5-9IwbtIQg5nvxr5QLY-WyIL3K3mTvMNBxHQYid1CQ/formResponse?pli=1",
+      "actor": "agent",
+      "resumeSha256": "8bcdc943d720fc72a8ce391daf37d18bd8214bcce90e8e43045c133fd6757415",
+      "resumeFilename": "ubaidullah-omer-allcancode-fullstack-2026-10-16-ats.pdf",
+      "recordedAt": "2026-10-16T00:38:01.740945+00:00"
+    },
+    {
+      "id": "84036ccd-d913-4532-af57-77e02535be6c",
+      "jobId": "appkeeper-frontend",
+      "documentId": "08674e7d-6186-4301-90c3-e372c79d16cc",
+      "channel": "email",
+      "destination": "hello@appkeeper.ltd",
+      "submittedAt": "2026-10-15T23:51:19+00:00",
+      "confirmation": "Gmail SENT message 1a141fa39f65277c verified from itsubaidullahomer@gmail.com to hello@appkeeper.ltd with the 88,236-byte tailored v2 PDF attached. Fallback sent to a published general company contact after the careers form failed; hiring-team receipt not confirmed.",
+      "receiptUrl": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#sent/1a141fa39f65277c",
+      "actor": "agent",
+      "resumeSha256": "fe8d2f13198a14bd8e560c7ce0b0ca5d13b260a301bd1a9dbd4f9bcd4a3fd4a0",
+      "resumeFilename": "ubaidullah-omer-appkeeper-frontend-2026-10-16-v2-ats.pdf",
+      "recordedAt": "2026-10-15T23:52:22.811277+00:00"
+    },
+    {
+      "id": "d4e439bd-c0f5-4e36-a7bb-8ea5ceed658d",
+      "jobId": "research-pk-3b5ebae2-751f-40c4-b7e1-2fbbd6267ad7",
+      "documentId": "d449a60d-31f0-4c25-9b96-e5e5091c668c",
+      "channel": "employer_form",
+      "destination": "https://dynamiclogix.com/careers",
+      "submittedAt": "2026-10-15T23:34:55.952+00:00",
+      "confirmation": "Application Submitted Successfully! Thank you for your interest in joining Dynamic Logix. We will review your application and get back to you soon. We typically respond within 3-5 business days.",
+      "receiptUrl": "",
+      "actor": "agent",
+      "resumeSha256": "04c7aa94a3aa6c6fc3965a2d4a50f618bac904dcb634ccbd09753757f3c95ff1",
+      "resumeFilename": "ubaidullah-omer-dynamic-logix-frontend-2026-10-16-v1-ats.pdf",
+      "recordedAt": "2026-10-15T23:35:35.897238+00:00"
+    },
+    {
+      "id": "0261aa2a-c43a-4451-a1fa-65a246b9c6db",
+      "jobId": "codenzy-react",
+      "documentId": "23fab630-f8b8-4f95-b183-6c61c859ce4c",
+      "channel": "email",
+      "destination": "hr@codenzy.com",
+      "submittedAt": "2026-10-15T23:13:42+00:00",
+      "confirmation": "Gmail send succeeded. Sent message 1a141d7cf6797942 was read back with SENT label; From itsubaidullahomer@gmail.com, To hr@codenzy.com, subject React Developer Application, and tailored PDF attachment 88383 bytes.",
+      "receiptUrl": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#sent/1a141d7cf6797942",
+      "actor": "agent",
+      "resumeSha256": "0abf77612bc5b5ded9a75d9952d8b1a638c13794b40f60d7cc69937e732f5d97",
+      "resumeFilename": "ubaidullah-omer-codenzy-react-2026-10-16-v1-ats.pdf",
+      "recordedAt": "2026-10-15T23:14:41.719937+00:00"
+    }
+  ],
+  "hasMore": false
+}

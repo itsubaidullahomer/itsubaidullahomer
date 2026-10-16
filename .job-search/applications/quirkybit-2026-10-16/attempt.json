@@ -1,0 +1,14 @@
+{
+  "attemptedAt": "2026-10-16T00:03:36.514Z",
+  "jobId": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+  "documentId": "004c0f22-b2f6-40ac-a03f-1939d8bc4e64",
+  "formUrl": "https://www.quirkybit.io/careers/apply?id=frontend-developer-react",
+  "filename": "ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf",
+  "resumeSha256": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91",
+  "attachmentFilenameVerified": true,
+  "cloudPdfHashVerified": true,
+  "duplicateMailSearch": 0,
+  "formFields": "Name, authorized email, LinkedIn and tailored cover; optional phone omitted. Ordinary application processing consent selected.",
+  "state": "Submission failed: CAPTCHA verification failed. User corrected earlier success report and confirmed it was NOT submitted. No receipt exists.",
+  "updatedAt": "2026-10-16T00:08:05.246Z"
+}

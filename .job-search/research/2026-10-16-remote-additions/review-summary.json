@@ -1,0 +1,61 @@
+{
+  "capturedAt": "2026-10-15T23:21:46.878866Z",
+  "included": [
+    {
+      "id": "allcancode-mid-fullstack-20261016",
+      "company": "Allcancode",
+      "fit": "strong",
+      "eligibility": "confirmed",
+      "url": "https://www.allcancode.com/careers"
+    },
+    {
+      "id": "lit8-fullstack-20261016",
+      "company": "Lit8",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "url": "https://hr.lit8.com/profiles/fullstack-developer/"
+    },
+    {
+      "id": "signx-senior-fullstack-20261016",
+      "company": "SignX Solutions",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "url": "https://www.signxsolutions.com/career"
+    },
+    {
+      "id": "omkar-frontend-20261016",
+      "company": "Omkar Universe",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "url": "https://omkaruniverse.com/careers/frontend-engineer"
+    }
+  ],
+  "excluded": [
+    {
+      "company": "Toggl",
+      "reason": "Main location restricted to UTC-4..UTC+4; Pakistan UTC+5 is outside."
+    },
+    {
+      "company": "Yooli",
+      "reason": "Requires 7 years React and 5 years NestJS; chronology and NestJS evidence do not match."
+    },
+    {
+      "company": "Quinncia / HelloTrace / Choiceful",
+      "reason": "Direct Wellfound role URLs returned 410; snippets alone not accepted as open proof."
+    },
+    {
+      "company": "Aurity",
+      "reason": "Official worldwide listing has sparse reused role text and unspecified GraphQL tenure; selected more detailed alternatives."
+    },
+    {
+      "company": "Frenely",
+      "reason": "Employer fetch blocked (403), so live role/application verification not completed."
+    },
+    {
+      "company": "Axra frontend",
+      "reason": "5+ years production web requirement exceeds supported calendar experience."
+    }
+  ],
+  "portalWrites": 0,
+  "submissions": 0
+}

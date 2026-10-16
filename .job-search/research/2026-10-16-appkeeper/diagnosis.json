@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-15T23:43:48.330038Z",
+  "scope": "Read-only diagnostic research. Local offline script execution only; no form submission, API POST, email send, portal update or employer-code mutation.",
+  "evidence": {
+    "sourceManifest": "source-manifest.json",
+    "capturedPublicJsSha256": "347e4df37e8326b1f69c63669ff724ed16d52559ec6f2ec32ad0118026f417df",
+    "capturedJobHtmlSha256": "07668f7012e94da540104df206db88d0d9d52a9a291edfd174d33e5a8b25f2d4",
+    "offlineReproducer": "diagnose-bootstrap.mjs",
+    "offlineResult": "diagnosis-bootstrap-result.json",
+    "liveFetch": "Web open again returned current job/home content. Raw Python job GET returned 403; JS refresh unavailable via web tool. Diagnosis uses previously captured public asset with documented HTTP 200 at 2026-10-15T23:09:32.073Z."
+  },
+  "findings": [
+    {
+      "fact": "The job HTML contains neither .nav__toggle nor #stats; the shared script accesses both without guards before the application handler block.",
+      "evidence": "job.html and application.js"
+    },
+    {
+      "fact": "Offline execution throws at the missing nav toggle and never registers application submit. Simulating that node reveals a second failure at stats. Simulating both allows registration.",
+      "evidence": "diagnosis-bootstrap-result.json"
+    },
+    {
+      "fact": "The form has no action or method attributes. Without the JavaScript handler, native submission uses GET to the document address.",
+      "evidence": "job.html line 116",
+      "interpretation": "This matches the parent-observed same-page navigation with query fields and cleared form. No backend acceptance is evidenced."
+    },
+    {
+      "fact": "The public JavaScript intends a multipart POST to /api/apply and checks response JSON ok before displaying success.",
+      "limit": "This is client-code intent only. No official API documentation, verified backend result or successful intake receipt was found; no request was made to this endpoint during diagnosis."
+    }
+  ],
+  "publishedFallbackContacts": [
+    {
+      "email": "contact@appkeeper.ltd",
+      "context": "About section company email",
+      "sourceUrl": "https://appkeeper.ltd/",
+      "sourceFile": "home.html",
+      "method": "Decoded public Cloudflare data-cfemail representation",
+      "recruitingMailboxVerified": false
+    },
+    {
+      "email": "hello@appkeeper.ltd",
+      "context": "Contact section company email",
+      "sourceUrl": "https://appkeeper.ltd/",
+      "sourceFile": "home.html",
+      "method": "Decoded public Cloudflare data-cfemail representation",
+      "recruitingMailboxVerified": false
+    }
+  ],
+  "conclusion": "Do not mark applied. The captured frontend fails during initialization before application interception. General employer email may be a fallback route to inquire about the form, but no recruitment-specific email or guaranteed intake channel is confirmed."
+}

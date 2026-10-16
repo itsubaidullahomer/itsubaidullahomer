@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-15T15:57:00.386Z",
+  "candidateFactsPath": ".job-search/resumes/masters/facts.json",
+  "candidateFactsSha256": "63c6a356017e9d1893bb8867aea5a17a4f8d478d3888e3ae2d4fe03ef43146e9",
+  "builderPath": ".job-search/resumes/masters/build_resumes.py",
+  "builderSha256": "f0c91da8ab1a1f9640912d4dda9065e501398776f8f8df5a9e280db9c146ba5d",
+  "selectionPolicy": "Select and reorder approved fact IDs only. Exact dates, claims and existing skill blocks stay unchanged. No degree, proficiency, duration or schedule facts are added. This is a resume selection audit, not application approval.",
+  "builderConstraints": [
+    "Only focus, slug, projects and experienceBullets can be passed as builder config. Extract builderConfig from each review; do not pass review metadata to the builder.",
+    "Both formats retain the fixed skill block; the builder cannot reorder or tailor individual skills through allowed config.",
+    "Outreach always includes all three proof points and skips tututor_scope as a duplicate experience bullet. Selected ATS bullets remain fact-backed even if outreach does not show the scope bullet.",
+    "Project stack appears in editable Markdown but current PDF project rows render only name/descriptor/text. Therefore Chart.js/D3.js remains sourced in masters but will not become a visible PDF keyword through project selection alone. Do not claim the Metabase PDF explicitly includes D3 unless separately authorized, source-backed builder changes add it.",
+    "Generating a resume does not resolve the factual/application blockers listed here. Remove only the exact-version blocker once generated and visually checked."
+  ],
+  "reviews": [
+    {
+      "jobId": "zoftify-29",
+      "focus": "frontend",
+      "slug": "zoftify-frontend",
+      "projects": [
+        "yaksport",
+        "viloi",
+        "illume"
+      ],
+      "experienceBullets": {
+        "tututor": [
+          "tututor_scope",
+          "tututor_backend",
+          "tututor_leadership",
+          "tututor_ai"
+        ],
+        "danzee": [
+          "danzee_components",
+          "danzee_jurri"
+        ]
+      },
+      "reasons": {
+        "positioning": "Lead with travel-product UI relevance and reusable React components.",
+        "projects": {
+          "yaksport": "First: direct travel booking, bilingual UI, search/filtering, Tailwind and REST evidence.",
+          "viloi": "Second: a delivered paid web product supports broad product-build ownership; do not call it from-scratch or Figma-perfect without confirmation.",
+          "illume": "Third: complex data-rich interfaces and API-backed client work."
+        },
+        "experienceBullets": {
+          "tututor_scope": "Scale and actual shipped-product scope establish commercial work.",
+          "tututor_backend": "Shows API contract/backend fluency relevant to frontend REST integration.",
+          "tututor_leadership": "Supports collaboration and product-delivery ownership.",
+          "tututor_ai": "Adds concrete shipped application workflows, without claiming AI coding-tool experience.",
+          "danzee_components": "Lead historical role with reusable components/hooks and integrations.",
+          "danzee_jurri": "Follow with a concrete frontend performance outcome."
+        }
+      },
+      "unsupportedkeywords": [
+        "pixel-perfect Figma implementation",
+        "verified from-scratch ownership for every product",
+        "precise Next.js or TypeScript tenure",
+        "spoken-English fluency",
+        "professional SSR/Pages Router expertise not established by listed skill alone"
+      ],
+      "remainingblockers": [
+        "Desired salary with currency and period",
+        "Spoken-English level",
+        "Exact Next.js duration",
+        "Candidate answers to Redux/SSR/Pages Router/TypeScript screening",
+        "Figma-to-implementation and from-scratch examples",
+        "Exact tailored resume file/version and reviewed job-specific answers not yet saved."
+      ],
+      "sourceMetadata": [
+        {
+          "kind": "public_employer_ATS_detail_and_form_schema",
+          "url": "https://zoftify.bamboohr.com/careers/29/detail",
+          "sha256": "72e64aa7451cf2d657c893e06d30721f72f50c2f2393899c37a62b254fbc81fb"
+        },
+        {
+          "kind": "public_employer_current_jobs",
+          "url": "https://zoftify.bamboohr.com/careers/list"
+        },
+        {
+          "kind": "employer_canonical_page",
+          "url": "https://zoftify.bamboohr.com/careers/29"
+        }
+      ],
+      "builderConfig": {
+        "focus": "frontend",
+        "slug": "zoftify-frontend",
+        "projects": [
+          "yaksport",
+          "viloi",
+          "illume"
+        ],
+        "experienceBullets": {
+          "tututor": [
+            "tututor_scope",
+            "tututor_backend",
+            "tututor_leadership",
+            "tututor_ai"
+          ],
+          "danzee": [
+            "danzee_components",
+            "danzee_jurri"
+          ]
+        }
+      },
+      "validatedAgainstExistingSelector": true
+    },
+    {
+      "jobId": "eventmobi-frontend-458",
+      "focus": "frontend",
+      "slug": "eventmobi-frontend",
+      "projects": [
+        "yaksport",
+        "illume",
+        "viloi"
+      ],
+      "experienceBullets": {
+        "tututor": [
+          "tututor_scope",
+          "tututor_platform",
+          "tututor_backend",
+          "tututor_export",
+          "tututor_leadership"
+        ],
+        "danzee": [
+          "danzee_jurri",
+          "danzee_components"
+        ]
+      },
+      "reasons": {
+        "positioning": "Emphasize reliable end-user interfaces, cross-device delivery, integrations and debugging.",
+        "projects": {
+          "yaksport": "First: customer-facing booking flow and multilingual interface align with event attendee journeys. This is relevance, not event-industry experience.",
+          "illume": "Second: dashboard/UI complexity and data integrations.",
+          "viloi": "Third: production SaaS with authentication and billing."
+        },
+        "experienceBullets": {
+          "tututor_scope": "Opens with sustained production end-user software delivery.",
+          "tututor_platform": "Cross-device app releases, real-time messaging and integrations are relevant to the platform; do not infer offline architecture.",
+          "tututor_backend": "Concrete API scale and access-control work.",
+          "tututor_export": "Only approved testing outcome; its golden-test context must remain explicit and must not be relabeled as frontend unit/E2E coverage.",
+          "tututor_leadership": "Supports team collaboration without inventing an assessed writing level.",
+          "danzee_jurri": "First historical bullet foregrounds debugging and performance improvement.",
+          "danzee_components": "Then show reusable React and integration fundamentals."
+        }
+      },
+      "unsupportedkeywords": [
+        "offline-first/PWA architecture",
+        "frontend unit/E2E ownership inferred from golden tests",
+        "daily AI coding-tool use",
+        "Eastern-hours availability",
+        "30 Mbps internet/private workspace",
+        "precise TypeScript tenure",
+        "professional event-platform experience"
+      ],
+      "remainingblockers": [
+        "Eastern hours acceptance",
+        "Salary expectation in CAD",
+        "AI-development tools/opinion answer",
+        "Testing examples and writing sample",
+        "Workspace/internet confirmation",
+        "Candidate preference for individual-contributor growth role despite current Lead title",
+        "Required Address is not recorded in approved facts.json.",
+        "Required State is not recorded in approved facts.json.",
+        "Required ZIP is not recorded in approved facts.json.",
+        "Exact tailored resume file/version and reviewed job-specific answers not yet saved."
+      ],
+      "sourceMetadata": [
+        {
+          "kind": "public_employer_ATS_detail_and_form_schema",
+          "url": "https://eventmobi.bamboohr.com/careers/458/detail",
+          "sha256": "e943033104741aae8ae57bc557067c2484bf5789b666962d0efea01597dd2539"
+        },
+        {
+          "kind": "public_employer_current_jobs",
+          "url": "https://eventmobi.bamboohr.com/careers/list"
+        },
+        {
+          "kind": "employer_canonical_page",
+          "url": "https://eventmobi.bamboohr.com/careers/458"
+        }
+      ],
+      "builderConfig": {
+        "focus": "frontend",
+        "slug": "eventmobi-frontend",
+        "projects": [
+          "yaksport",
+          "illume",
+          "viloi"
+        ],
+        "experienceBullets": {
+          "tututor": [
+            "tututor_scope",
+            "tututor_platform",
+            "tututor_backend",
+            "tututor_export",
+            "tututor_leadership"
+          ],
+          "danzee": [
+            "danzee_jurri",
+            "danzee_components"
+          ]
+        }
+      },
+      "validatedAgainstExistingSelector": true
+    },
+    {
+      "jobId": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "focus": "frontend",
+      "slug": "metabase-frontend",
+      "projects": [
+        "illume",
+        "yaksport"
+      ],
+      "experienceBullets": {
+        "tututor": [
+          "tututor_backend",
+          "tututor_scope",
+          "tututor_export",
+          "tututor_leadership"
+        ],
+        "danzee": [
+          "danzee_jurri",
+          "danzee_components"
+        ]
+      },
+      "reasons": {
+        "positioning": "Prioritize analytical interfaces, performance, reusable React components and maintaining a sizeable existing product. Two projects keep this version focused.",
+        "projects": {
+          "illume": "First: analytics dashboards and data integrations are the closest product match; the existing project stack records Chart.js/D3.js.",
+          "yaksport": "Second: filtering/search and reusable customer-facing UI broaden frontend evidence without repeating another AI SaaS case.",
+          "viloi": "Omit: less direct than analytics and filtering for this particular role."
+        },
+        "experienceBullets": {
+          "tututor_backend": "Large shared API/model surface supports experience navigating an established system; do not equate model counts with algorithm/data-structure expertise.",
+          "tututor_scope": "Adds multi-product scale and user context.",
+          "tututor_export": "Keeps the precise available test outcome visible without calling it frontend coverage.",
+          "tututor_leadership": "Evidence of cross-team/product ownership, not proof of formal technical proposals.",
+          "danzee_jurri": "Lead with performance and complex interfaces.",
+          "danzee_components": "Then reusable components/hooks and integrations."
+        }
+      },
+      "unsupportedkeywords": [
+        "Clojure",
+        "SQL/PostgreSQL expertise",
+        "formal data-structure/algorithm expertise",
+        "technical-proposal writing or code-review practice without examples",
+        "frontend test coverage inferred from export tests",
+        "D3 expert-level claim",
+        "guaranteed Pakistan payroll arrangement"
+      ],
+      "remainingblockers": [
+        "Manual employer robot-filter question",
+        "Concrete frontend test, code-review and technical-proposal examples",
+        "Exact tailored resume version",
+        "Employer-specific Pakistan contract/payroll terms are undisclosed; do not state them as guaranteed",
+        "Specific data-structure work sample remains unconfirmed."
+      ],
+      "sourceMetadata": [
+        {
+          "url": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+          "capturedAt": "2026-10-15T15:38:53.057205Z",
+          "method": "Current official page read using web tool"
+        },
+        {
+          "url": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9/apply",
+          "capturedAt": "2026-10-15T15:38:53.057205Z",
+          "method": "Current Lever application form read without filling or submitting"
+        }
+      ],
+      "builderConfig": {
+        "focus": "frontend",
+        "slug": "metabase-frontend",
+        "projects": [
+          "illume",
+          "yaksport"
+        ],
+        "experienceBullets": {
+          "tututor": [
+            "tututor_backend",
+            "tututor_scope",
+            "tututor_export",
+            "tututor_leadership"
+          ],
+          "danzee": [
+            "danzee_jurri",
+            "danzee_components"
+          ]
+        }
+      },
+      "validatedAgainstExistingSelector": true
+    },
+    {
+      "jobId": "whippy-frontend-da02ad44",
+      "focus": "frontend",
+      "slug": "whippy-frontend",
+      "projects": [
+        "illume",
+        "viloi",
+        "yaksport"
+      ],
+      "experienceBullets": {
+        "tututor": [
+          "tututor_platform",
+          "tututor_leadership",
+          "tututor_scope",
+          "tututor_ai",
+          "tututor_export"
+        ],
+        "danzee": [
+          "danzee_components",
+          "danzee_jurri"
+        ]
+      },
+      "reasons": {
+        "positioning": "Foreground communication-oriented product delivery, independent ownership, real-time/mobile work and interactive data interfaces.",
+        "projects": {
+          "illume": "First: data visualization and analytics directly relate to rich frontend data workflows. This does not establish product-event instrumentation.",
+          "viloi": "Second: production AI API integration and SaaS delivery connect to an AI communications product.",
+          "yaksport": "Third: usable search/filtering and frontend implementation."
+        },
+        "experienceBullets": {
+          "tututor_platform": "First: the strongest concrete connection to messaging, integrations and a React Native product surface.",
+          "tututor_leadership": "Second: founder collaboration and delivery ownership.",
+          "tututor_scope": "Then establishes production context and user reach.",
+          "tututor_ai": "Adds actual chatbot/AI workflow implementation without claiming voice-agent expertise.",
+          "tututor_export": "Includes a factual testing outcome while preserving its exact backend/export context.",
+          "danzee_components": "Supports frontend architecture and integration fundamentals.",
+          "danzee_jurri": "Adds measurable interface/performance work."
+        }
+      },
+      "unsupportedkeywords": [
+        "fluent written English",
+        "Radix UI",
+        "Stitches",
+        "unit/E2E suite ownership",
+        "product-event analytics instrumentation",
+        "voice AI/telephony expertise",
+        "paid-trial acceptance",
+        "Monday/Friday 19:30 PKT commitment"
+      ],
+      "remainingblockers": [
+        "Written-English fluency",
+        "Unit/E2E suite ownership and product analytics instrumentation",
+        "Availability for Monday/Friday 19:30 PKT meetings",
+        "Acceptance of the specified paid work trial",
+        "Complete dynamic application question set is not yet inspected.",
+        "Exact rendered resume version still needs generation and QA."
+      ],
+      "sourceMetadata": [
+        {
+          "sourceUrl": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b/",
+          "capturedAt": "2026-10-15T15:55:26.257Z",
+          "httpStatus": 200,
+          "title": "Software Engineer: Frontend",
+          "postingId": "da02ad44-9668-4f93-94e3-bf1a6e09ad8b",
+          "isListed": true,
+          "sourceHash": "f8cffe2a48bb4141f9b7248db82f5accf1fd25ab21602fd2328533b858e9724a",
+          "sourceHashScope": "UTF-8 bytes of posting.descriptionHtml extracted from public window.__appData JSON; exact complete employer job description, not a local paraphrase.",
+          "htmlResponseSha256": "822bf5578ad8e5201dd2e5665ffae394fb5aa26283da8eaacbb20c6bcdb8fc64",
+          "rawResponseByteCount": 41904,
+          "descriptionByteCount": 6340,
+          "method": "Read-only urllib GET with Mozilla/5.0 user-agent, public unauthenticated page; JSONDecoder on server-provided appData.",
+          "storedContent": "Exact employer posting.descriptionHtml saved privately for reproducible provenance; hash verified against prior reviewed fetch.",
+          "exactDescriptionPath": ".job-search/resumes/tailored/provenance/whippy-description.html",
+          "descriptionSavedAt": "2026-10-15T15:57:30.709Z"
+        }
+      ],
+      "builderConfig": {
+        "focus": "frontend",
+        "slug": "whippy-frontend",
+        "projects": [
+          "illume",
+          "viloi",
+          "yaksport"
+        ],
+        "experienceBullets": {
+          "tututor": [
+            "tututor_platform",
+            "tututor_leadership",
+            "tututor_scope",
+            "tututor_ai",
+            "tututor_export"
+          ],
+          "danzee": [
+            "danzee_components",
+            "danzee_jurri"
+          ]
+        }
+      },
+      "validatedAgainstExistingSelector": true
+    }
+  ],
+  "validation": {
+    "reviewCount": 4,
+    "uniqueJobIds": true,
+    "allConfigsPassedExistingSelect": true,
+    "allProjectOrdersDistinct": true,
+    "allExperienceSelectionsDistinct": true,
+    "pdfsCreated": false,
+    "builderModified": false,
+    "cloudWrites": false
+  }
+}

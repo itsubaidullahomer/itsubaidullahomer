@@ -1,0 +1,17 @@
+## Give motion a performance budget
+
+This was a side project to explore how much character I could bring to a landing page while keeping loading and scrolling responsive. I wanted reveals, parallax and depth to feel like part of the interface, with their performance cost considered from the start.
+
+## The decisions behind the motion
+
+**Choose effects that avoid extra layout work.** I used composited transforms for movement and avoided effects that force layout changes during scrolling. That choice shaped the visuals before I started tuning them.
+
+**Give each animation tool a clear job.** Framer Motion handled orchestration, while GSAP handled the more involved timelines. Scroll updates used requestAnimationFrame to coordinate work with browser frames.
+
+**Check the cost as part of the build.** I prioritized critical CSS and tuned loading alongside the animation work. Performance was a constraint on the design throughout the project.
+
+## What the experiment showed
+
+The original build reached a 95+ Lighthouse score while keeping its reveals, parallax and glass panels. That is the result recorded during the project, rather than a live benchmark for this portfolio.
+
+The value of the exercise was learning to make visual choices with a rendering cost in mind, then checking whether the result still felt fast to use.

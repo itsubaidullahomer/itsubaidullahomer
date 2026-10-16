@@ -1,0 +1,192 @@
+[
+  {
+    "id": "appkeeper-frontend",
+    "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "finalUrl": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "path": ".job-search/research/2026-10-16-remote/appkeeper-frontend.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.881548+00:00",
+    "sha256": "8615b2d8ce33efe5bbeed28466cc1d764ff9f6838850d137fb861b2178df01f6",
+    "bytes": 7447
+  },
+  {
+    "id": "appkeeper-home",
+    "url": "https://appkeeper.ltd/",
+    "finalUrl": "https://appkeeper.ltd/",
+    "path": ".job-search/research/2026-10-16-remote/appkeeper-home.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.881861+00:00",
+    "sha256": "c1b7c0bf277ea9bebe3cbc746fe25991961c345563cb3f011ccd93112d4586f8",
+    "bytes": 24513
+  },
+  {
+    "id": "mechabits-fullstack",
+    "url": "https://www.mechabits.com/careers/full-stack-engineer",
+    "finalUrl": "https://www.mechabits.com/careers/full-stack-engineer",
+    "path": ".job-search/research/2026-10-16-remote/mechabits-fullstack.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.881993+00:00",
+    "sha256": "540c421f8802c92c73ac1e97dc812618eac1bd5688027507ae31ea5dca2cc08d",
+    "bytes": 83468
+  },
+  {
+    "id": "mechabits-form",
+    "url": "https://www.mechabits.com/careers/full-stack-engineer/readiness",
+    "finalUrl": "https://www.mechabits.com/careers/full-stack-engineer/readiness",
+    "path": ".job-search/research/2026-10-16-remote/mechabits-form.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.882088+00:00",
+    "sha256": "c12582707ebd8bc1293c2b3caf648fb2d95cbc87dbc1d7708429278f59964650",
+    "bytes": 74395
+  },
+  {
+    "id": "highlevel-fullstack",
+    "url": "https://jobs.lever.co/gohighlevel/ce928065-f2cf-4412-a5e7-32677e6f4e4b",
+    "finalUrl": "https://jobs.lever.co/gohighlevel/ce928065-f2cf-4412-a5e7-32677e6f4e4b",
+    "path": ".job-search/research/2026-10-16-remote/highlevel-fullstack.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.882179+00:00",
+    "sha256": "35d8f42315cbbe8f9797d56b0619b22d2c5a0537a6f867a2b3c01a27daf4215c",
+    "bytes": 726512
+  },
+  {
+    "id": "chilipiper-board",
+    "url": "https://jobs.ashbyhq.com/chilipiper",
+    "finalUrl": "https://jobs.ashbyhq.com/chilipiper",
+    "path": ".job-search/research/2026-10-16-remote/chilipiper-board.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.882278+00:00",
+    "sha256": "ec525986b2b93618b5599123ab45d653037606ec575b5d83e3acdd95f955942c",
+    "bytes": 13895
+  },
+  {
+    "id": "supabase-frontend",
+    "url": "https://jobs.ashbyhq.com/supabase/f048dd68-63f8-4f98-9860-3d5a43c09a01",
+    "finalUrl": "https://jobs.ashbyhq.com/supabase/f048dd68-63f8-4f98-9860-3d5a43c09a01",
+    "path": ".job-search/research/2026-10-16-remote/supabase-frontend.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.882437+00:00",
+    "sha256": "d5b6c9a8af3da0348d1083d7edb74a863b52390829952650bff4fc2c882724f6",
+    "bytes": 9144
+  },
+  {
+    "id": "appkeeper-main",
+    "url": "https://appkeeper.ltd/assets/main-BmqqyZ5s.js",
+    "path": ".job-search/research/2026-10-16-remote/appkeeper-main.js",
+    "capturedAt": "2026-10-15T22:06:50.138401+00:00",
+    "sha256": "347e4df37e8326b1f69c63669ff724ed16d52559ec6f2ec32ad0118026f417df",
+    "status": 200
+  },
+  {
+    "id": "qtodev-careers",
+    "url": "https://qtodev.com/careers",
+    "path": ".job-search/research/2026-10-16-remote/qtodev-careers.html",
+    "sha256": "8896e3f5a5bc88260943ae5d3d5d6f8761f376ac1c4f2671a82f8fdb5f20e842",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:07:35.182640+00:00"
+  },
+  {
+    "id": "mechabits-team",
+    "url": "https://www.mechabits.com/team",
+    "path": ".job-search/research/2026-10-16-remote/mechabits-team.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:09:58.042297+00:00",
+    "sha256": "2f50a893d8007c937fc53cf38763cdbbfdeef1e88b856237980fc5588ab65097"
+  },
+  {
+    "id": "laralink-frontend",
+    "url": "https://laralink.com/careers/react-frontend-developer/",
+    "finalUrl": "https://laralink.com/careers/react-frontend-developer/",
+    "capturedAt": "2026-10-15T22:06:13.473198+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+    "sha256": "71beda5c98e0ad720593772be1609bbf20abf551730128f0e9836b4a9752a54f",
+    "bytes": 120975
+  },
+  {
+    "id": "laralink-careers",
+    "url": "https://laralink.com/careers/",
+    "finalUrl": "https://laralink.com/careers/",
+    "capturedAt": "2026-10-15T22:06:13.448268+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-careers.html",
+    "sha256": "fe5d4b18f0e7f3692151f4478d9fb433efe87bd10386818677817f0c7566c4c0",
+    "bytes": 132614
+  },
+  {
+    "id": "laralink-about",
+    "url": "https://laralink.com/about/",
+    "finalUrl": "https://laralink.com/about/",
+    "capturedAt": "2026-10-15T22:06:13.469143+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-about.html",
+    "sha256": "17bad5c3bbc094424d0d2b047367ea5f3c441d32c918aa147aefd3b4240a828c",
+    "bytes": 139295
+  },
+  {
+    "id": "coreheight-careers",
+    "url": "https://www.coreheight.com/company/careers",
+    "finalUrl": "https://www.coreheight.com/company/careers",
+    "capturedAt": "2026-10-15T22:06:12.932562+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/coreheight-careers.html",
+    "sha256": "3b5fa7b8201c4625d9a55bb602c637626b1e1a509b606693a5681da560069017",
+    "bytes": 60911
+  },
+  {
+    "id": "coreheight-leadership",
+    "url": "https://www.coreheight.com/company/leadership",
+    "finalUrl": "https://www.coreheight.com/company/leadership",
+    "capturedAt": "2026-10-15T22:06:12.932778+00:00",
+    "httpStatus": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/coreheight-leadership.html",
+    "sha256": "5a6347562ed73ff2d9286a5c2d92cc822a3366e7b4f7cbc3ba24b43e8d4916f6",
+    "bytes": 56703
+  },
+  {
+    "id": "laralink-form-script",
+    "url": "https://laralink.com/wp-content/litespeed/js/86f1b0afa75a7f0e4031013f24d4fb5f.js?ver=d8465",
+    "finalUrl": "https://laralink.com/wp-content/litespeed/js/86f1b0afa75a7f0e4031013f24d4fb5f.js?ver=d8465",
+    "httpStatus": 200,
+    "capturedAt": "2026-10-15T22:06:50.195108+00:00",
+    "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-form-script.js",
+    "sha256": "671e26c5f3ffe1ba4edfbb6ac661bbe7b115d2535ee5674bb3d3fe1273404154",
+    "bytes": 1257
+  },
+  {
+    "slug": "todoist-board",
+    "url": "https://www.todoist.com/careers",
+    "finalUrl": "https://www.todoist.com/careers",
+    "capturedAt": "2026-10-15T22:02:33.493Z",
+    "status": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/todoist-board.html",
+    "sha256": "13b785d2be45a9ac4fa776790a6992f8c82e936e2b2847f3fc7404bef1525b1c"
+  },
+  {
+    "slug": "float-board",
+    "url": "https://www.float.com/careers",
+    "finalUrl": "https://www.float.com/careers",
+    "capturedAt": "2026-10-15T22:02:36.584Z",
+    "status": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/float-board.html",
+    "sha256": "9857fd558ca58ade18f5e3624e125ab1b3be00f8a0d388df3b68a6de006a6dd8"
+  },
+  {
+    "slug": "ghost-board",
+    "url": "https://careers.ghost.org/",
+    "finalUrl": "https://careers.ghost.org/",
+    "capturedAt": "2026-10-15T22:02:37.129Z",
+    "status": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/ghost-board.html",
+    "sha256": "bce17bad80869ed76696355cb9d3c333567b69546b5c9df55da1b2721b5cda22"
+  },
+  {
+    "slug": "buffer-board",
+    "url": "https://buffer.com/journey",
+    "finalUrl": "https://buffer.com/journey",
+    "capturedAt": "2026-10-15T22:02:38.189Z",
+    "status": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/buffer-board.html",
+    "sha256": "ad96395c9811ccc6df2401ae20535f0aa0f353394d6b5774662503b15bf83432"
+  }
+]

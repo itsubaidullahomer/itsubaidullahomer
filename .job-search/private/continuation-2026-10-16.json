@@ -1,0 +1,429 @@
+{
+  "checkedAt": "2026-10-16T05:43:24.101Z",
+  "anonymous": [
+    {
+      "path": "/admin",
+      "status": 307,
+      "location": "/admin/login",
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/admin/preview",
+      "status": 404,
+      "location": null,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/api/jobs/workspace",
+      "status": 401,
+      "location": null,
+      "cacheControl": "private, no-store",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/api/jobs/documents",
+      "status": 401,
+      "location": null,
+      "cacheControl": "private, no-store",
+      "robots": "noindex, nofollow"
+    },
+    {
+      "path": "/api/jobs/submissions",
+      "status": 401,
+      "location": null,
+      "cacheControl": "private, no-store",
+      "robots": "noindex, nofollow"
+    }
+  ],
+  "counts": {
+    "jobs": 91,
+    "strongTechnicalFit": 12,
+    "strongAndEligible": 7,
+    "applied": 7,
+    "documents": 22
+  },
+  "receiptCount": 7,
+  "applications": [
+    {
+      "id": "codenzy-react",
+      "company": "Codenzy",
+      "appliedAt": "2026-10-15 23:13:42+00",
+      "nextAction": "Await employer reply. Review for a follow-up on October 23; do not send a duplicate application.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "tbox-fullstack",
+      "company": "TBox Solutionz",
+      "appliedAt": "2026-10-16 01:16:38+00",
+      "nextAction": "Application sent to official careers inbox with exact tailored PDF. Await employer response; review October 19 after the stated 48-hour response window. Do not send a duplicate application. Review any offered paid trial separately before accepting.",
+      "nextActionDate": "2026-10-19"
+    },
+    {
+      "id": "allcancode-mid-fullstack-20261016",
+      "company": "Allcancode",
+      "appliedAt": "2026-10-16 00:37:20.327+00",
+      "nextAction": "Google Form submission confirmed from correct account. Await employer response; review October 23. This is rolling recruitment, not verified immediate headcount. No further login or rating answer is needed.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "appkeeper-frontend",
+      "company": "Appkeeper Pte. Ltd.",
+      "appliedAt": "2026-10-15 23:51:19+00",
+      "nextAction": "Await acknowledgement that the general company inbox forwarded the application to hiring; review October 23. Careers-form attempt was unconfirmed; Gmail send is confirmed.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "niyyt-fullstack-pakistan-20261016",
+      "company": "Niyyt",
+      "appliedAt": "2026-10-16 05:42:25.928+00",
+      "nextAction": "Employer form confirmed Application Submitted. Await response; review October 23 before following up. Do not duplicate. Employment contract remains subject to separate review.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+      "company": "Quirky Bit",
+      "appliedAt": "2026-10-16 00:42:43+00",
+      "nextAction": "Email fallback sent to general company inbox after CAPTCHA form failure. Await hiring-team acknowledgement/forwarding; review October 23. Web form remains unsubmitted. Do not retry or create a duplicate application without checking the email thread.",
+      "nextActionDate": "2026-10-23"
+    },
+    {
+      "id": "research-pk-3b5ebae2-751f-40c4-b7e1-2fbbd6267ad7",
+      "company": "Dynamic Logix",
+      "appliedAt": "2026-10-15 23:34:55.952+00",
+      "nextAction": "Await employer reply; employer indicated 3–5 business days. Review on October 23 before any follow-up.",
+      "nextActionDate": "2026-10-23"
+    }
+  ],
+  "pending": [
+    {
+      "id": "appkeeper-frontend",
+      "note": "Application sent to general company inbox; no hiring-team acknowledgement yet."
+    },
+    {
+      "id": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+      "note": "Web form NOT submitted after CAPTCHA failure. Later email fallback SENT verified to general company inbox; no hiring-team acknowledgement yet."
+    }
+  ],
+  "mail": {
+    "email": "itsubaidullahomer@gmail.com",
+    "linkId": "link_6ad15b33dabc8191a6af53049b344daf",
+    "connectorReadAndSendVerified": true,
+    "portalServerSync": false,
+    "lastRelevantReplySearchResult": 0,
+    "lastRelevantReplySearchAt": "2026-10-16T01:23:49.699Z"
+  },
+  "currentMasters": [
+    {
+      "id": "f7b324cb-40f0-439f-9ae4-cb1e014d4422",
+      "jobId": null,
+      "kind": "master_outreach",
+      "title": "Master résumé — outreach — October 16 v3",
+      "filename": "ubaidullah-omer-master-2026-10-16-v3-outreach.pdf",
+      "mime": "application/pdf",
+      "size": 75130,
+      "sha256": "cf4bb2361edfca09dda0c3e4497f90d11ece83968bf95bd8240cbcc4187a47a4",
+      "createdAt": "2026-10-16T00:19:04.631098+00:00"
+    },
+    {
+      "id": "e0df3e4b-d170-4ae4-8f93-6afc6ae676a3",
+      "jobId": null,
+      "kind": "master_ats",
+      "title": "Master résumé — ATS — October 16 v3",
+      "filename": "ubaidullah-omer-master-2026-10-16-v3-ats.pdf",
+      "mime": "application/pdf",
+      "size": 88606,
+      "sha256": "989c6e492a976927745e432b898bbd76d18c1e649d97d0bd053d505e86376a88",
+      "createdAt": "2026-10-16T00:18:57.054229+00:00"
+    }
+  ],
+  "verifiedDocuments": [
+    {
+      "id": "f7b324cb-40f0-439f-9ae4-cb1e014d4422",
+      "jobId": null,
+      "kind": "master_outreach",
+      "title": "Master résumé — outreach — October 16 v3",
+      "sha256": "cf4bb2361edfca09dda0c3e4497f90d11ece83968bf95bd8240cbcc4187a47a4"
+    },
+    {
+      "id": "e0df3e4b-d170-4ae4-8f93-6afc6ae676a3",
+      "jobId": null,
+      "kind": "master_ats",
+      "title": "Master résumé — ATS — October 16 v3",
+      "sha256": "989c6e492a976927745e432b898bbd76d18c1e649d97d0bd053d505e86376a88"
+    },
+    {
+      "id": "e73a3fd3-367d-4e40-880a-225db466021b",
+      "jobId": "allcancode-mid-fullstack-20261016",
+      "kind": "tailored_resume",
+      "title": "Allcancode — Mid-level Full-stack Developer — ATS",
+      "sha256": "8bcdc943d720fc72a8ce391daf37d18bd8214bcce90e8e43045c133fd6757415"
+    },
+    {
+      "id": "004c0f22-b2f6-40ac-a03f-1939d8bc4e64",
+      "jobId": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+      "kind": "tailored_resume",
+      "title": "Quirky Bit — Frontend Developer (React) — ATS v1",
+      "sha256": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91"
+    },
+    {
+      "id": "08674e7d-6186-4301-90c3-e372c79d16cc",
+      "jobId": "appkeeper-frontend",
+      "kind": "tailored_resume",
+      "title": "Appkeeper Frontend Developer — ATS — 16 Oct 2026 v2",
+      "sha256": "fe8d2f13198a14bd8e560c7ce0b0ca5d13b260a301bd1a9dbd4f9bcd4a3fd4a0"
+    },
+    {
+      "id": "5e711f3a-3806-4bce-9ac8-1da5f044a9ee",
+      "jobId": null,
+      "kind": "master_outreach",
+      "title": "Outreach Master — 16 Oct 2026 v2",
+      "sha256": "24d2a7873bcd50da636b5f63e6c85f29f12cf82b737f28ba3a0c8ce8890ce193"
+    },
+    {
+      "id": "6ac5c57b-2d83-441a-b437-892639adefa5",
+      "jobId": null,
+      "kind": "master_ats",
+      "title": "ATS Master — 16 Oct 2026 v2",
+      "sha256": "984d78758249f7d695c205ca368633f7ee150836ef96863e9ed0bed8d5118eac"
+    },
+    {
+      "id": "d449a60d-31f0-4c25-9b96-e5e5091c668c",
+      "jobId": "research-pk-3b5ebae2-751f-40c4-b7e1-2fbbd6267ad7",
+      "kind": "tailored_resume",
+      "title": "Dynamic Logix Senior Frontend Developer — ATS — 16 Oct 2026 v1",
+      "sha256": "04c7aa94a3aa6c6fc3965a2d4a50f618bac904dcb634ccbd09753757f3c95ff1"
+    },
+    {
+      "id": "ab74e8a9-7627-4935-bd93-21607e8810c0",
+      "jobId": "appkeeper-frontend",
+      "kind": "tailored_resume",
+      "title": "Appkeeper Frontend Developer — ATS — 16 Oct 2026 v1",
+      "sha256": "7ed535a1ba8828be802b55b75b40aed02f2d86ab1c19b4d047bd6cda85fd40ac"
+    },
+    {
+      "id": "23fab630-f8b8-4f95-b183-6c61c859ce4c",
+      "jobId": "codenzy-react",
+      "kind": "tailored_resume",
+      "title": "Codenzy React Developer — ATS — 16 Oct 2026 v1",
+      "sha256": "0abf77612bc5b5ded9a75d9952d8b1a638c13794b40f60d7cc69937e732f5d97"
+    },
+    {
+      "id": "2f55a9da-8e37-4d15-badd-61806478b8b2",
+      "jobId": "whippy-frontend-da02ad44",
+      "kind": "tailored_resume",
+      "title": "Whippy - Software Engineer: Frontend - tailored ATS resume",
+      "sha256": "b2b1a7e33363947c9e1a936ab5813f51011b69925c6bcc1f98c43788fcad8368"
+    },
+    {
+      "id": "20d5f87e-e95c-403a-ba59-6642e518e825",
+      "jobId": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "kind": "tailored_resume",
+      "title": "Metabase - Software Engineer (Frontend) - tailored ATS resume",
+      "sha256": "970044a2bf5a7bd6eb6a614f05e8385cc463f2ee18082c31d22be2348dafc30b"
+    },
+    {
+      "id": "1ddc67b7-8077-40f9-804c-0395dae1c9f4",
+      "jobId": "eventmobi-frontend-458",
+      "kind": "tailored_resume",
+      "title": "EventMobi - Front End Engineer - Remote - tailored ATS resume",
+      "sha256": "d86c871a68df5bba6edb7edd1449e3473eeeb0e2ff6ebe1aa13f558bd2050de2"
+    },
+    {
+      "id": "d98b4d6c-364c-490e-b899-feea22e19f64",
+      "jobId": "zoftify-29",
+      "kind": "tailored_resume",
+      "title": "Zoftify - Frontend Developer (React) - tailored ATS resume",
+      "sha256": "b2583ab55cb5c400454e2990041e2800fd7468d816a6f62e5de5b3cc0fad832e"
+    },
+    {
+      "id": "2ad6e6b0-1506-4bae-a6b6-523e0b01b67a",
+      "jobId": "yc-simple-ai-byegx5m",
+      "kind": "tailored_resume",
+      "title": "Simple AI - Founding Software Engineer - tailored ATS resume",
+      "sha256": "6ec65c7f6b8787c867ac2c65c01d85098b47cb92fd2b1384a44a11ac78f77f1b"
+    },
+    {
+      "id": "af354dcc-8687-4a02-9ba3-1f4e7292eb9a",
+      "jobId": "yc-furtherai-zrn2j29",
+      "kind": "tailored_resume",
+      "title": "FurtherAI - Frontend Engineer - Web - tailored ATS resume",
+      "sha256": "ee11737b4005c83832fa671eeb9f197c8b45400dea7b131aa644e3727636c59d"
+    },
+    {
+      "id": "e4fe6f8d-f402-4a52-84ae-1fc296e88d2a",
+      "jobId": "yc-finni-health-ph1y4dp",
+      "kind": "tailored_resume",
+      "title": "Finni Health - Full-Stack Software Developer 2 - tailored ATS resume",
+      "sha256": "bf6e3d2fc4030009be66854cbdad400cb0c3474af681b88c26f8411b95cc097b"
+    },
+    {
+      "id": "1157a0c2-3831-46d1-abb5-dd6fb11039f7",
+      "jobId": "yc-agave-unmv0mv",
+      "kind": "tailored_resume",
+      "title": "Agave - Full-Stack Software Engineer - tailored ATS resume",
+      "sha256": "f940d2801cc7afd82739c9616c60261ce95355c557b22563d7bbdde7ac706fe1"
+    },
+    {
+      "id": "029e1102-efd1-40c7-919e-8b18d9e58043",
+      "jobId": null,
+      "kind": "master_outreach",
+      "title": "Ubaidullah Omer — outreach master",
+      "sha256": "d6d2a57d4ad964d3f7870c15da866463020682c0328054048dc53d622b9ad3c5"
+    },
+    {
+      "id": "46147e94-8189-40c1-9326-72a230a0c139",
+      "jobId": null,
+      "kind": "master_ats",
+      "title": "Ubaidullah Omer — ATS master",
+      "sha256": "f4863414a9108e695551a61954e6853b73007046173660768aa795341f3bee2a"
+    },
+    {
+      "id": "f03b550b-95b4-4ad4-bb87-0a1b221bd115",
+      "jobId": "tbox-fullstack",
+      "kind": "tailored_resume",
+      "title": "TBox Solutionz — Full-Stack Engineer — ATS v1",
+      "sha256": "fca2776a5ea23821827f5c2da6826e81b9f8bee8344a9be70a9b37c143ecc639"
+    }
+  ],
+  "previousOperationalChecks": [
+    {
+      "checkedAt": "2026-10-16T00:20:29.887Z",
+      "counts": {
+        "jobs": 90,
+        "strongTechnicalFit": 10,
+        "strongAndEligible": 5,
+        "applied": 4,
+        "documents": 20
+      },
+      "receiptCount": 3,
+      "applications": [
+        {
+          "id": "allcancode-mid-fullstack-20261016",
+          "company": "Allcancode",
+          "appliedAt": "2026-10-16 00:37:20.327+00"
+        },
+        {
+          "id": "codenzy-react",
+          "company": "Codenzy",
+          "appliedAt": "2026-10-15 23:13:42+00"
+        },
+        {
+          "id": "appkeeper-frontend",
+          "company": "Appkeeper Pte. Ltd.",
+          "appliedAt": "2026-10-15 23:51:19+00"
+        },
+        {
+          "id": "research-pk-3b5ebae2-751f-40c4-b7e1-2fbbd6267ad7",
+          "company": "Dynamic Logix",
+          "appliedAt": "2026-10-15 23:34:55.952+00"
+        }
+      ],
+      "pending": [
+        {
+          "id": "appkeeper-frontend",
+          "note": "Application sent to general company inbox; no hiring-team acknowledgement yet."
+        },
+        {
+          "id": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+          "note": "Not submitted. CAPTCHA failed; user corrected the earlier success report. Possible general-company-inbox fallback has no send evidence at this check."
+        },
+        {
+          "id": "allcancode-mid-fullstack-20261016",
+          "note": "Awaiting correct-account Google browser passkey and integer React Native rating selection; prepared answers and tailoredPDF."
+        }
+      ]
+    },
+    {
+      "checkedAt": "2026-10-16T00:41:36.308Z",
+      "counts": {
+        "jobs": 90,
+        "strongTechnicalFit": 10,
+        "strongAndEligible": 5,
+        "applied": 5,
+        "documents": 20
+      },
+      "receiptCount": 4
+    },
+    {
+      "checkedAt": "2026-10-16T00:57:57.454Z",
+      "counts": {
+        "jobs": 90,
+        "strongTechnicalFit": 10,
+        "strongAndEligible": 5,
+        "applied": 5,
+        "documents": 20
+      },
+      "receiptCount": 5
+    }
+  ],
+  "anonymousCheckedAt": "2026-10-16T00:16:46.933Z",
+  "checkMethod": "Read-only owner workspace, documents and submissions GETs; anonymous/security checks were not rerun.",
+  "statusCounts": {
+    "discovered": 76,
+    "drafting": 8,
+    "applied": 7
+  },
+  "documentsHasMore": false,
+  "submissionsHasMore": false,
+  "allcancode": {
+    "jobId": "allcancode-mid-fullstack-20261016",
+    "submittedAt": "2026-10-16T00:37:20.327Z",
+    "account": "itsubaidullahomer@gmail.com",
+    "confirmation": "Your response has been recorded",
+    "receiptId": "0fa1b224-eccb-45f1-bda7-3cc2309b72a8",
+    "documentId": "e73a3fd3-367d-4e40-880a-225db466021b",
+    "resumeSha256": "8bcdc943d720fc72a8ce391daf37d18bd8214bcce90e8e43045c133fd6757415",
+    "resumeUploadedToEmployer": false,
+    "resumeRole": "Prepared private application version; employer form had no resume upload field.",
+    "reactNativeRating": {
+      "original": 4.9,
+      "formIntegerValue": 5,
+      "candidateConfirmedAt": "2026-10-16T00:25:22.041245+00:00",
+      "independentlyAssessed": false
+    },
+    "evidenceFiles": [
+      ".job-search/applications/allcancode-2026-10-16/form-confirmation.json",
+      ".job-search/applications/allcancode-2026-10-16/portal-submission-receipt.json"
+    ]
+  },
+  "quirkyBit": {
+    "webFormSubmitted": false,
+    "emailSent": true,
+    "gmailMessageId": "1a1422947d403cb2",
+    "sentAt": "2026-10-16T00:42:43Z",
+    "hiringTeamAcknowledged": false,
+    "receiptId": "14812112-7a10-4ec5-bbe2-3dce226e9633"
+  },
+  "fitCounts": {
+    "unknown": 78,
+    "strong": 12,
+    "gaps": 1
+  },
+  "researchReview": {
+    "path": ".job-search/research/2026-10-16-next-remote-review/import-result.json",
+    "reviewed": 5,
+    "newApplicationReady": 0
+  },
+  "tbox": {
+    "messageId": "1a1424855b3935a3",
+    "receiptId": "ca31ba7a-1594-453d-83b2-c213f802d7ad",
+    "documentId": "f03b550b-95b4-4ad4-bb87-0a1b221bd115",
+    "sha256": "fca2776a5ea23821827f5c2da6826e81b9f8bee8344a9be70a9b37c143ecc639",
+    "paidTrialAccepted": false
+  },
+  "niyyt": {
+    "id": "9f880206-ed5d-4be9-85c2-6ade8a065204",
+    "jobId": "niyyt-fullstack-pakistan-20261016",
+    "documentId": "2dbd363b-5349-4edf-ad86-192ebd1f8a1c",
+    "channel": "employer_form",
+    "destination": "https://niyyt.com/apply-as-developer",
+    "submittedAt": "2026-10-16T05:42:25.928Z",
+    "confirmation": "Application Submitted! Thank you for applying. We'll review your application and get back to you soon. Screenshot and required form answers retained privately.",
+    "receiptUrl": "",
+    "actor": "agent",
+    "resumeSha256": "59450dd24e2cf3fc50fc7de87e971817e03235e3f5e1bce91876715f78e3ebd7",
+    "proofDirectory": ".job-search/applications/niyyt-2026-10-16-v1/"
+  }
+}

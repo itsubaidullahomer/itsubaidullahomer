@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-10-16T01:09:50.001928+00:00",
+  "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-tbox-fullstack-2026-10-16-v1-ats.pdf",
+  "sha256": "fca2776a5ea23821827f5c2da6826e81b9f8bee8344a9be70a9b37c143ecc639",
+  "bytes": 88527,
+  "pages": 1,
+  "searchableWords": 366,
+  "links": 7,
+  "contentBottomPt": 76.78976377952765,
+  "charactersOutsideSafeArea": 0,
+  "sourceFactsPreserved": true,
+  "visualQa": "passed: rendered 1700px PNG inspected; clear single-column typography, readable skills, no overlap, clipping or missing glyphs",
+  "cloudWrites": false,
+  "qaCompletedAt": "2026-10-16T01:11:50.879232+00:00",
+  "readyForUpload": true
+}

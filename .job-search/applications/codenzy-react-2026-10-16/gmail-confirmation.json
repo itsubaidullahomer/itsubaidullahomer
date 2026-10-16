@@ -1,0 +1,38 @@
+{
+  "messageId": "1a141d7cf6797942",
+  "threadId": "1a141d7cf6797942",
+  "labels": [
+    "SENT"
+  ],
+  "submittedAt": "2026-10-15T23:13:42.000Z",
+  "headers": [
+    {
+      "name": "Subject",
+      "value": "React Developer Application"
+    },
+    {
+      "name": "To",
+      "value": "hr@codenzy.com"
+    },
+    {
+      "name": "From",
+      "value": "itsubaidullahomer@gmail.com"
+    },
+    {
+      "name": "Date",
+      "value": "Thu, 15 Oct 2026 18:13:42 -0500"
+    },
+    {
+      "name": "Message-Id",
+      "value": "<CAHF+1fa=6=gW0vg8=ZrCjMZ7rAcN1vgkh_P_YCA7TqJOhVWFRw@mail.gmail.com>"
+    }
+  ],
+  "attachment": [
+    {
+      "filename": "ubaidullah-omer-codenzy-react-2026-10-16-v1-ats.pdf",
+      "mime": "application/pdf",
+      "size": 88383
+    }
+  ],
+  "receiptUrl": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#sent/1a141d7cf6797942"
+}

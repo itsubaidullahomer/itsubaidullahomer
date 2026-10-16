@@ -1,0 +1,22 @@
+{
+  "focus": "full_stack",
+  "slug": "finni-health-full-stack",
+  "projects": [
+    "illume",
+    "yaksport",
+    "viloi"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_platform",
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_leadership",
+      "tututor_ai"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

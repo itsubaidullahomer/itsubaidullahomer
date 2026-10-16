@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-10-16",
+  "capturedAt": "2026-10-15T22:10:14.898882+00:00",
+  "timeNote": "Oct16 Asia/Karachi research; raw HTTP captures are timestamped Oct15 UTC, correctly retained.",
+  "outcome": "One new close match with eligibility unresolved; one reserve with insufficient public JD. Zero newly confirmed application-ready strong matches.",
+  "scope": "Read-only public employer research and local evidence files; no browser, accounts, applications, uploads, messaging or cloud writes.",
+  "jobs": [
+    {
+      "id": "laralink-react-frontend-36",
+      "company": "Laralink",
+      "title": "React Frontend Developer",
+      "url": "https://laralink.com/careers/react-frontend-developer/",
+      "location": "Remote; careers page says work from anywhere, Pakistan contract eligibility unconfirmed",
+      "salary": "Competitive; no numeric range published",
+      "description": "Frontend product role covering responsive and accessible React interfaces, Figma implementation, REST/state integration, reusable components, testing, performance and work with design/backend colleagues. The full public JD is preserved in laralink-frontend.html. It asks for 3+ years of React, frontend foundations, Redux/Zustand, careful UI work, Git/CI-CD and communication; Next/TypeScript, Jest/RTL and open-source work are optional. Degree requirement absent from this complete public posting.",
+      "source": "Official employer careers page",
+      "sourceId": "laralink-job-36",
+      "discoveredAt": "2026-10-15T22:06:13.473198+00:00",
+      "updatedAt": "2026-10-15T22:10:14.898882+00:00",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "strong",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "The current React listing says remote and flexible hours; the parent careers page says work from anywhere with async-friendly collaboration. Its title mentions Dhaka, the company gives Bangladesh addresses, and neither page explicitly confirms contracting/employing Pakistan residents. Treat this as promising geographic language, not final cross-border permission.",
+      "requirements": [
+        {
+          "id": "laralink-react-tenure",
+          "text": "At least three years of professional React work.",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-experience"
+          ],
+          "explanation": "Danzee React Developer Jan2022–Jan2024 plus React product work at Tututor Nov2023–present establish more than three calendar years; overlap is not added."
+        },
+        {
+          "id": "laralink-frontend-foundations",
+          "text": "Strong HTML, CSS and current JavaScript skills.",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Original resume explicitly lists HTML, CSS, JavaScript and Tailwind; reusable components and production booking/interfaces provide applied evidence. No unreported CSS specialty is claimed."
+        },
+        {
+          "id": "laralink-state",
+          "text": "State-management experience using Redux or Zustand.",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Redux Toolkit and RTK Query are explicitly listed. Zustand is an alternative, not a missing mandatory second tool."
+        },
+        {
+          "id": "laralink-ui-detail",
+          "text": "Demonstrate attention to interface detail and clean UI.",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-performance"
+          ],
+          "explanation": "Reusable React components and hooks, Jurri file/inbox/vault interfaces, and Yaksport search/filter booking UI provide reasonable candidate-reported evidence of careful product-interface delivery. This does not claim Figma expertise, an independent visual assessment, or accessibility specialization."
+        },
+        {
+          "id": "laralink-git-ci",
+          "text": "Familiarity with Git and CI/CD.",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-git-deploy"
+          ],
+          "explanation": "Git, GitHub, GitLab and CI/CD are explicitly in the original resume; no named cloud expertise or pipeline ownership has been invented."
+        },
+        {
+          "id": "laralink-communication",
+          "text": "Communicate clearly with colleagues.",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-remote"
+          ],
+          "explanation": "Reported leadership of web/mobile delivery and direct product/engineering collaboration with the founder support this general collaboration requirement. This is not evidence of an English test level, fluency assertion or future time-zone commitment."
+        },
+        {
+          "id": "laralink-next-ts",
+          "text": "Optional: experience with Next.js or TypeScript.",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "Both tools are explicitly listed; no exact TypeScript tenure is claimed."
+        },
+        {
+          "id": "laralink-testing",
+          "text": "Optional: testing knowledge, illustrated by Jest or React Testing Library.",
+          "essential": false,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-testing"
+          ],
+          "explanation": "Cypress is listed and export golden tests are documented, but Jest/RTL use is not. Do not relabel these as React unit-test evidence."
+        },
+        {
+          "id": "laralink-open-source",
+          "text": "Optional: contributions to open-source projects.",
+          "essential": false,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "A public GitHub profile alone does not establish a particular open-source contribution."
+        }
+      ],
+      "tags": [
+        "React",
+        "frontend",
+        "remote",
+        "Pakistan-eligibility-unconfirmed",
+        "close-match"
+      ],
+      "notes": "Research-only close match; not application-ready. Initial public form fully inspected via HTML and client JS. No login needed on the inspected page. Full source, capture timestamps, SHA256 and exact HTML field attributes saved under .job-search/research/2026-10-16-remote/agent-new/. Optional Jest/RTL and open-source experience remain unconfirmed. No English level, schedule, work authorization or salary answer inferred.",
+      "nextAction": "Confirm Pakistan hiring/contract eligibility and expected schedule before deciding whether to apply; use Jurri/Yaksport as UI examples.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "laralink007@gmail.com",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://laralink.com/",
+        "contacts": [
+          {
+            "id": "laralink-founder",
+            "name": "Md Tamjid Bin Murtoza",
+            "role": "Founder & CEO",
+            "profileUrl": "",
+            "sourceUrl": "https://laralink.com/about/",
+            "referralRoute": "Official site identifies this founder; use the published general company contact laralink007@gmail.com or company LinkedIn page to ask for the appropriate hiring contact. No personal connection or referral commitment exists.",
+            "notes": "No individual profile URL was published in the captured team section. Company LinkedIn: https://www.linkedin.com/company/laralink. No outreach sent.",
+            "capturedAt": "2026-10-15T22:06:13.469143+00:00"
+          },
+          {
+            "id": "laralink-cto",
+            "name": "Mehedi Hassan",
+            "role": "Chief Technology Officer",
+            "profileUrl": "",
+            "sourceUrl": "https://laralink.com/about/",
+            "referralRoute": "Potential technical hiring contact identified on the official team page; only general company routes are confirmed.",
+            "notes": "No inferred personal email or LinkedIn identity. No outreach sent.",
+            "capturedAt": "2026-10-15T22:06:13.469143+00:00"
+          }
+        ],
+        "sources": [
+          {
+            "id": "laralink-jd",
+            "label": "Current official frontend JD and public application form",
+            "url": "https://laralink.com/careers/react-frontend-developer/",
+            "text": "Complete public JD and initial application fields reviewed. Role remains linked under open positions. Source snapshot: .job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html; SHA256 71beda5c98e0ad720593772be1609bbf20abf551730128f0e9836b4a9752a54f.",
+            "capturedAt": "2026-10-15T22:06:13.473198+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "laralink-board",
+            "label": "Current official careers board and remote policy",
+            "url": "https://laralink.com/careers/",
+            "text": "Remote-first policy uses work-from-anywhere language. Frontend vacancy is currently linked. Hiring stages: application, intro call, practical task or past-work discussion, offer. Pakistan contract eligibility is not explicit.",
+            "capturedAt": "2026-10-15T22:06:13.448268+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "laralink-team",
+            "label": "Official team and published contact route",
+            "url": "https://laralink.com/about/",
+            "text": "Official team names founder Md Tamjid Bin Murtoza and CTO Mehedi Hassan. General email decoded from the publicly rendered Cloudflare email element: laralink007@gmail.com. Named roles are employer assertions; no personal relationship inferred.",
+            "capturedAt": "2026-10-15T22:06:13.469143+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "jobId": "laralink-react-frontend-36",
+      "classification": "close_match_not_application_ready",
+      "fullJdReviewed": true,
+      "currentOpeningEvidence": "Current official careers board links this job; job page contains complete public JD and application form. Captured HTTP200. Page states posted June2026; no closing date.",
+      "requirements": [
+        {
+          "requirementId": "laralink-react-tenure",
+          "requirement": "At least three years of professional React work.",
+          "essential": true,
+          "assessment": "met",
+          "factIds": [
+            "danzee_components",
+            "tututor_scope"
+          ],
+          "candidateEvidenceIds": [
+            "ev-react",
+            "ev-experience"
+          ],
+          "candidateSourceReferences": [
+            ".job-search/resumes/masters/facts.json#/experience/0",
+            ".job-search/resumes/masters/facts.json#/experience/1"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "What we are looking for, bullet 1",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "Danzee React Developer Jan2022–Jan2024 plus React product work at Tututor Nov2023–present establish more than three calendar years; overlap is not added."
+        },
+        {
+          "requirementId": "laralink-frontend-foundations",
+          "requirement": "Strong HTML, CSS and current JavaScript skills.",
+          "essential": true,
+          "assessment": "met",
+          "factIds": [
+            "danzee_components",
+            "danzee_jurri",
+            "yaksport"
+          ],
+          "candidateEvidenceIds": [
+            "ev-frontend-foundations"
+          ],
+          "candidateSourceReferences": [
+            ".job-search/flowcv-resume-source.txt:96",
+            ".job-search/resumes/masters/facts.json#/projects/2"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "What we are looking for, bullet 2",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "Original resume explicitly lists HTML, CSS, JavaScript and Tailwind; reusable components and production booking/interfaces provide applied evidence. No unreported CSS specialty is claimed."
+        },
+        {
+          "requirementId": "laralink-state",
+          "requirement": "State-management experience using Redux or Zustand.",
+          "essential": true,
+          "assessment": "met",
+          "factIds": [],
+          "candidateEvidenceIds": [
+            "ev-frontend-foundations"
+          ],
+          "candidateSourceReferences": [
+            ".job-search/flowcv-resume-source.txt:96",
+            ".job-search/resumes/masters/facts.json#/skills/0"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "What we are looking for, bullet 3",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "Redux Toolkit and RTK Query are explicitly listed. Zustand is an alternative, not a missing mandatory second tool."
+        },
+        {
+          "requirementId": "laralink-ui-detail",
+          "requirement": "Demonstrate attention to interface detail and clean UI.",
+          "essential": true,
+          "assessment": "met",
+          "factIds": [
+            "danzee_components",
+            "danzee_jurri",
+            "yaksport"
+          ],
+          "candidateEvidenceIds": [
+            "ev-react",
+            "ev-performance"
+          ],
+          "candidateSourceReferences": [
+            ".job-search/resumes/masters/facts.json#/experience/1/bullets/1",
+            ".job-search/resumes/masters/facts.json#/projects/2"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "What we are looking for, bullet 4",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "Reusable React components and hooks, Jurri file/inbox/vault interfaces, and Yaksport search/filter booking UI provide reasonable candidate-reported evidence of careful product-interface delivery. This does not claim Figma expertise, an independent visual assessment, or accessibility specialization."
+        },
+        {
+          "requirementId": "laralink-git-ci",
+          "requirement": "Familiarity with Git and CI/CD.",
+          "essential": true,
+          "assessment": "met",
+          "factIds": [],
+          "candidateEvidenceIds": [
+            "ev-git-deploy"
+          ],
+          "candidateSourceReferences": [
+            ".job-search/flowcv-resume-source.txt:100"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "What we are looking for, bullet 5",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "Git, GitHub, GitLab and CI/CD are explicitly in the original resume; no named cloud expertise or pipeline ownership has been invented."
+        },
+        {
+          "requirementId": "laralink-communication",
+          "requirement": "Communicate clearly with colleagues.",
+          "essential": true,
+          "assessment": "met",
+          "factIds": [
+            "tututor_leadership"
+          ],
+          "candidateEvidenceIds": [
+            "ev-product",
+            "ev-remote"
+          ],
+          "candidateSourceReferences": [
+            ".job-search/resumes/masters/facts.json#/experience/0/bullets/4",
+            ".job-search/resumes/masters/facts.json#/experience/0/location"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "What we are looking for, bullet 6",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "Reported leadership of web/mobile delivery and direct product/engineering collaboration with the founder support this general collaboration requirement. This is not evidence of an English test level, fluency assertion or future time-zone commitment."
+        },
+        {
+          "requirementId": "laralink-next-ts",
+          "requirement": "Optional: experience with Next.js or TypeScript.",
+          "essential": false,
+          "assessment": "met",
+          "factIds": [],
+          "candidateEvidenceIds": [
+            "ev-react"
+          ],
+          "candidateSourceReferences": [
+            ".job-search/resumes/masters/facts.json#/skills/0"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "Nice to have, bullet 1",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "Both tools are explicitly listed; no exact TypeScript tenure is claimed."
+        },
+        {
+          "requirementId": "laralink-testing",
+          "requirement": "Optional: testing knowledge, illustrated by Jest or React Testing Library.",
+          "essential": false,
+          "assessment": "unknown",
+          "factIds": [
+            "tututor_export"
+          ],
+          "candidateEvidenceIds": [
+            "ev-testing"
+          ],
+          "candidateSourceReferences": [
+            ".job-search/flowcv-resume-source.txt:96",
+            ".job-search/resumes/masters/facts.json#/experience/0/bullets/5"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "Nice to have, bullet 2",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "Cypress is listed and export golden tests are documented, but Jest/RTL use is not. Do not relabel these as React unit-test evidence."
+        },
+        {
+          "requirementId": "laralink-open-source",
+          "requirement": "Optional: contributions to open-source projects.",
+          "essential": false,
+          "assessment": "unknown",
+          "factIds": [],
+          "candidateEvidenceIds": [],
+          "candidateSourceReferences": [
+            ".job-search/resumes/masters/facts.json#/identity/github"
+          ],
+          "sourceId": "laralink-frontend",
+          "sourceLocator": "Nice to have, bullet 3",
+          "originalRequirementSource": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+          "rationale": "A public GitHub profile alone does not establish a particular open-source contribution."
+        }
+      ],
+      "responsibilityEvidence": [
+        {
+          "responsibility": "React interfaces, reusable components and frontend performance",
+          "factIds": [
+            "danzee_components",
+            "danzee_jurri",
+            "yaksport"
+          ]
+        },
+        {
+          "responsibility": "REST/state integration and backend collaboration",
+          "factIds": [
+            "danzee_components",
+            "tututor_backend"
+          ],
+          "additionalSource": ".job-search/flowcv-resume-source.txt:96"
+        },
+        {
+          "responsibility": "Figma translation, accessibility and thoroughly tested React components",
+          "assessment": "not established for all named practices",
+          "factIds": [],
+          "note": "These are duties in the posting; ask for truthful examples rather than add invented experience."
+        }
+      ],
+      "eligibility": {
+        "status": "unknown",
+        "support": "Official board says work from anywhere; role is remote.",
+        "unresolved": [
+          "Does Laralink employ or contract residents of Pakistan?",
+          "What regular hours, workweek and overlap are required? Footer office hours are not treated as employee schedule."
+        ],
+        "degree": "No degree requirement appears in the reviewed complete public JD.",
+        "language": "No specific English level required in public JD. No fluency claim inferred."
+      },
+      "application": {
+        "url": "https://laralink.com/careers/react-frontend-developer/#apply",
+        "publicFormReviewed": true,
+        "formSnapshot": ".job-search/research/2026-10-16-remote/agent-new/laralink-public-form.json",
+        "initialPageAccountRequired": false,
+        "questions": [
+          {
+            "label": "Full Name",
+            "required": true,
+            "answerStatus": "known",
+            "source": ".job-search/resumes/masters/facts.json#/identity/name"
+          },
+          {
+            "label": "Email Address",
+            "required": true,
+            "answerStatus": "known",
+            "source": ".job-search/resumes/masters/facts.json#/identity/email"
+          },
+          {
+            "label": "Phone Number",
+            "required": false,
+            "answerStatus": "known",
+            "source": ".job-search/resumes/masters/facts.json#/identity/phone"
+          },
+          {
+            "label": "Position",
+            "required": true,
+            "answerStatus": "known",
+            "answer": "React Frontend Developer"
+          },
+          {
+            "label": "Years of Experience",
+            "required": true,
+            "answerStatus": "known",
+            "answer": "3 – 5 years",
+            "note": "Four-plus calendar years from Jan2022; do not sum overlap."
+          },
+          {
+            "label": "Portfolio / LinkedIn / GitHub URL",
+            "required": false,
+            "answerStatus": "known",
+            "source": ".job-search/resumes/masters/facts.json#/identity/website"
+          },
+          {
+            "label": "Why are you a great fit for this role?",
+            "required": false,
+            "answerStatus": "not drafted",
+            "note": "Prepare only from mapped career facts; no new claims."
+          },
+          {
+            "label": "CV",
+            "required": true,
+            "answerStatus": "existing resume available; no role-specific artifact generated here",
+            "constraints": "Displayed limit5MB; HTML accepts .pdf,.doc,.docx."
+          }
+        ],
+        "hiddenFields": [
+          "website: empty honeypot",
+          "job_id:36",
+          "action and public nonce appended by client handler"
+        ],
+        "noFurtherQuestionsProven": false,
+        "submissionAttempted": false
+      },
+      "publicReferralRoutes": [
+        {
+          "id": "laralink-founder",
+          "name": "Md Tamjid Bin Murtoza",
+          "role": "Founder & CEO",
+          "profileUrl": "",
+          "sourceUrl": "https://laralink.com/about/",
+          "referralRoute": "Official site identifies this founder; use the published general company contact laralink007@gmail.com or company LinkedIn page to ask for the appropriate hiring contact. No personal connection or referral commitment exists.",
+          "notes": "No individual profile URL was published in the captured team section. Company LinkedIn: https://www.linkedin.com/company/laralink. No outreach sent.",
+          "capturedAt": "2026-10-15T22:06:13.469143+00:00"
+        },
+        {
+          "id": "laralink-cto",
+          "name": "Mehedi Hassan",
+          "role": "Chief Technology Officer",
+          "profileUrl": "",
+          "sourceUrl": "https://laralink.com/about/",
+          "referralRoute": "Potential technical hiring contact identified on the official team page; only general company routes are confirmed.",
+          "notes": "No inferred personal email or LinkedIn identity. No outreach sent.",
+          "capturedAt": "2026-10-15T22:06:13.469143+00:00"
+        }
+      ],
+      "missingAnswers": [
+        "Pakistan contract/employment eligibility",
+        "Regular schedule and workweek if imposed",
+        "Jest/RTL and open-source examples, only if candidate has them; optional",
+        "Role-specific fit note remains unwritten; optional initial field"
+      ],
+      "recommendation": "Technical fit is strong against the six stated essentials using the candidate-reported evidence; eligibility remains unknown. Confirm Pakistan hiring and any schedule constraints before application. Optional unknowns remain truthful, without inventing Jest/RTL or open-source claims.",
+      "fitAssessmentBasis": "All six stated essentials supported by direct skills/tenure evidence or reasonable role-specific evidence for UI care and communication. This is an evidence-based fit judgment, not independent skill verification. Geography is a separate unresolved gate.",
+      "applicationReady": false
+    }
+  ],
+  "reserves": [
+    {
+      "id": "coreheight-senior-frontend-reserve",
+      "company": "CoreHeight",
+      "title": "Senior Frontend Engineer",
+      "url": "https://www.coreheight.com/company/careers",
+      "classification": "reserve_insufficient_public_jd",
+      "eligibility": "confirmed_geography_only",
+      "location": "Remote anywhere Pakistan",
+      "salary": "PKR180,000–350,000/month",
+      "currentOpeningEvidence": "Official careers page lists this vacancy and email Apply route; HTTP200 captured.",
+      "fullJdReviewed": false,
+      "publicRequirementsComplete": false,
+      "requirements": [
+        {
+          "text": "At least four years of experience",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience"
+          ],
+          "factIds": [
+            "danzee_components",
+            "tututor_scope"
+          ],
+          "rationale": "Jan2022–present spans four-plus calendar years; overlapping roles not summed."
+        },
+        {
+          "text": "React18 and TypeScript for complex interfaces",
+          "assessment": "partially_supported",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "factIds": [
+            "danzee_components",
+            "danzee_jurri"
+          ],
+          "rationale": "React and TypeScript are documented; exact React18 usage/version history is not."
+        },
+        {
+          "text": "Enterprise dashboards with real-time updates",
+          "assessment": "supported_by_related_work",
+          "evidenceIds": [
+            "ev-analytics",
+            "ev-integration"
+          ],
+          "factIds": [
+            "illume",
+            "tututor_platform"
+          ],
+          "rationale": "Illume dashboards and Socket.io/Redis messaging support relevant work, but the employer has not provided a full definition of required scope."
+        }
+      ],
+      "degree": "Unstated in short summary; cannot treat as cleared without full requirements.",
+      "application": {
+        "kind": "email",
+        "publishedEmail": "careers@coreheight.com",
+        "publishedSubject": "Senior Frontend Engineer",
+        "questions": [],
+        "publicFormFound": false,
+        "note": "Apply link resolves to a Cloudflare-protected mailto. Decoded published address and subject from preserved HTML; no email composed/sent. Newsletter form is not an application form."
+      },
+      "publicReferralRoutes": [
+        {
+          "name": "Farrukh Shahid",
+          "role": "Co-Founder & Co-CEO",
+          "publishedEmail": "farrukh@coreheight.com",
+          "sourceUrl": "https://www.coreheight.com/company/leadership",
+          "note": "Email appears in official public leadership page. LinkedIn link is generic linkedin.com; no verified individual profile or personal relationship."
+        },
+        {
+          "name": "Muhammad Ahsan",
+          "role": "Co-Founder & Co-CEO",
+          "publishedEmail": "ahsan@coreheight.com",
+          "sourceUrl": "https://www.coreheight.com/company/leadership",
+          "note": "Email appears in official public leadership page. LinkedIn link is generic linkedin.com; no verified individual profile or personal relationship."
+        }
+      ],
+      "missingAnswers": [
+        "Complete role responsibilities and must-have requirements",
+        "Whether degree/English/testing/cloud requirements exist",
+        "Employment terms and regular schedule",
+        "Exact React version experience if material"
+      ],
+      "recommendation": "Reserve only. Obtain a full JD before fit scoring, tailoring, or an application.",
+      "applicationReady": false
+    }
+  ],
+  "excluded": [
+    {
+      "company": "Buffer",
+      "url": "https://buffer.com/journey",
+      "reason": "Current board lists Senior Infrastructure Engineer; infrastructure specialty does not match supported candidate evidence.",
+      "sourceSnapshot": "buffer-board.html"
+    },
+    {
+      "company": "Ghost",
+      "url": "https://careers.ghost.org/",
+      "reason": "Board surfaced Staff Product Engineer. Not advanced as a better-supported new match; full JD not fully audited here.",
+      "sourceSnapshot": "ghost-board.html"
+    },
+    {
+      "company": "Todoist / Doist",
+      "url": "https://www.todoist.com/careers",
+      "reason": "No current role validated from the reviewed public board; no vacancy invented.",
+      "sourceSnapshot": "todoist-board.html"
+    },
+    {
+      "company": "Float",
+      "url": "https://www.float.com/careers",
+      "reason": "No matching current role validated from the reviewed board embed; no vacancy invented.",
+      "sourceSnapshot": "float-board.html"
+    },
+    {
+      "company": "Appkeeper",
+      "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+      "reason": "Promising worldwide role handed to parent agent for independent complete review to avoid duplicate research record."
+    }
+  ],
+  "sourceManifest": [
+    {
+      "id": "laralink-frontend",
+      "url": "https://laralink.com/careers/react-frontend-developer/",
+      "finalUrl": "https://laralink.com/careers/react-frontend-developer/",
+      "capturedAt": "2026-10-15T22:06:13.473198+00:00",
+      "httpStatus": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-frontend.html",
+      "sha256": "71beda5c98e0ad720593772be1609bbf20abf551730128f0e9836b4a9752a54f",
+      "bytes": 120975
+    },
+    {
+      "id": "laralink-careers",
+      "url": "https://laralink.com/careers/",
+      "finalUrl": "https://laralink.com/careers/",
+      "capturedAt": "2026-10-15T22:06:13.448268+00:00",
+      "httpStatus": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-careers.html",
+      "sha256": "fe5d4b18f0e7f3692151f4478d9fb433efe87bd10386818677817f0c7566c4c0",
+      "bytes": 132614
+    },
+    {
+      "id": "laralink-about",
+      "url": "https://laralink.com/about/",
+      "finalUrl": "https://laralink.com/about/",
+      "capturedAt": "2026-10-15T22:06:13.469143+00:00",
+      "httpStatus": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-about.html",
+      "sha256": "17bad5c3bbc094424d0d2b047367ea5f3c441d32c918aa147aefd3b4240a828c",
+      "bytes": 139295
+    },
+    {
+      "id": "coreheight-careers",
+      "url": "https://www.coreheight.com/company/careers",
+      "finalUrl": "https://www.coreheight.com/company/careers",
+      "capturedAt": "2026-10-15T22:06:12.932562+00:00",
+      "httpStatus": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/coreheight-careers.html",
+      "sha256": "3b5fa7b8201c4625d9a55bb602c637626b1e1a509b606693a5681da560069017",
+      "bytes": 60911
+    },
+    {
+      "id": "coreheight-leadership",
+      "url": "https://www.coreheight.com/company/leadership",
+      "finalUrl": "https://www.coreheight.com/company/leadership",
+      "capturedAt": "2026-10-15T22:06:12.932778+00:00",
+      "httpStatus": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/coreheight-leadership.html",
+      "sha256": "5a6347562ed73ff2d9286a5c2d92cc822a3366e7b4f7cbc3ba24b43e8d4916f6",
+      "bytes": 56703
+    },
+    {
+      "id": "laralink-form-script",
+      "url": "https://laralink.com/wp-content/litespeed/js/86f1b0afa75a7f0e4031013f24d4fb5f.js?ver=d8465",
+      "finalUrl": "https://laralink.com/wp-content/litespeed/js/86f1b0afa75a7f0e4031013f24d4fb5f.js?ver=d8465",
+      "httpStatus": 200,
+      "capturedAt": "2026-10-15T22:06:50.195108+00:00",
+      "path": ".job-search/research/2026-10-16-remote/agent-new/laralink-form-script.js",
+      "sha256": "671e26c5f3ffe1ba4edfbb6ac661bbe7b115d2535ee5674bb3d3fe1273404154",
+      "bytes": 1257
+    }
+  ],
+  "boardSourceManifest": [
+    {
+      "slug": "todoist-board",
+      "url": "https://www.todoist.com/careers",
+      "finalUrl": "https://www.todoist.com/careers",
+      "capturedAt": "2026-10-15T22:02:33.493Z",
+      "status": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/todoist-board.html",
+      "sha256": "13b785d2be45a9ac4fa776790a6992f8c82e936e2b2847f3fc7404bef1525b1c"
+    },
+    {
+      "slug": "float-board",
+      "url": "https://www.float.com/careers",
+      "finalUrl": "https://www.float.com/careers",
+      "capturedAt": "2026-10-15T22:02:36.584Z",
+      "status": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/float-board.html",
+      "sha256": "9857fd558ca58ade18f5e3624e125ab1b3be00f8a0d388df3b68a6de006a6dd8"
+    },
+    {
+      "slug": "ghost-board",
+      "url": "https://careers.ghost.org/",
+      "finalUrl": "https://careers.ghost.org/",
+      "capturedAt": "2026-10-15T22:02:37.129Z",
+      "status": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/ghost-board.html",
+      "sha256": "bce17bad80869ed76696355cb9d3c333567b69546b5c9df55da1b2721b5cda22"
+    },
+    {
+      "slug": "buffer-board",
+      "url": "https://buffer.com/journey",
+      "finalUrl": "https://buffer.com/journey",
+      "capturedAt": "2026-10-15T22:02:38.189Z",
+      "status": 200,
+      "path": ".job-search/research/2026-10-16-remote/agent-new/buffer-board.html",
+      "sha256": "ad96395c9811ccc6df2401ae20535f0aa0f353394d6b5774662503b15bf83432"
+    }
+  ],
+  "candidateFacts": {
+    "path": ".job-search/resumes/masters/facts.json",
+    "sha256": "63c6a356017e9d1893bb8867aea5a17a4f8d478d3888e3ae2d4fe03ef43146e9",
+    "claimStatus": "Candidate-provided career evidence; not independently employer-verified."
+  },
+  "deduplication": [
+    {
+      "path": "docs/jobs/research/consolidated-2026-10-15.json",
+      "sha256": "fc610e07762bac26c5d80fce011482792c21564f4d5c211721868aae3d37a320",
+      "laralinkFound": false,
+      "coreheightFound": false
+    },
+    {
+      "path": ".job-search/import/workspace-actions.json",
+      "sha256": "44349f09ef8296c64842c426ee3c11029b9b7a7f3947f8874651484f9c49561e",
+      "laralinkFound": false,
+      "coreheightFound": false
+    },
+    {
+      "path": ".job-search/import/new-leads-kanban.json",
+      "sha256": "9e0ebf4dfb67c3076d2e780d78991add55654475b980f2a13a30d6e1f27f0c39",
+      "laralinkFound": false,
+      "coreheightFound": false
+    }
+  ]
+}

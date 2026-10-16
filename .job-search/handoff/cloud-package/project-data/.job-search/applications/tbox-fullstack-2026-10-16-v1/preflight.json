@@ -1,0 +1,35 @@
+{
+  "preparedAt": "2026-10-16T01:11:50.879232+00:00",
+  "jobId": "tbox-fullstack",
+  "company": "TBox Solutionz",
+  "role": "Full-Stack Engineer (React + Node.js)",
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "careers@tboxsolutionz.com",
+  "subject": "Full-Stack Engineer (React + Node.js) - Ubaidullah Omer",
+  "destinationSource": "https://tboxsolutionz.com/careers.html",
+  "destinationVerifiedAt": "2026-10-16T01:11:50.879232+00:00",
+  "sourceSnapshot": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/official-careers.html",
+  "sourceSha256": "51faf62e3b09a446b49a81889d968ebcf95f3c16203865fe5eb6b00e4d2ec496",
+  "resumePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-tbox-fullstack-2026-10-16-v1-ats.pdf",
+  "resumeSha256": "fca2776a5ea23821827f5c2da6826e81b9f8bee8344a9be70a9b37c143ecc639",
+  "resumeBytes": 88527,
+  "resumeQa": "passed",
+  "emailTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/applications/tbox-fullstack-2026-10-16-v1/email.txt",
+  "emailHtmlPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/applications/tbox-fullstack-2026-10-16-v1/email.html",
+  "requiredAnswersKnown": true,
+  "eligibility": "Remote/Lahore Pakistan employer posting; candidate based in Pakistan and accepts Pakistan onsite, prefers remote. No overseas work authorization implied.",
+  "missingRequiredFacts": [],
+  "unknownsNotClaimed": [
+    "Specific prior 2-3 concurrent-client workload",
+    "PostgreSQL-specific tenure, migration ownership, tuning or RLS",
+    "Compensation, contract type and exact working schedule not published"
+  ],
+  "specialCommitments": [
+    "Employer describes a later compensated 4-8 hour trial; this introductory application does not accept that trial or any pay terms. Review an actual trial invitation before commitment."
+  ],
+  "candidateEvidence": "Candidate-reported portfolio and direct confirmations; not independent employment or skill verification.",
+  "externalWrites": false,
+  "uploaded": false,
+  "sent": false,
+  "nextStep": "Root to review, upload immutable PDF, verify stored hash, deduplicate Sent mailbox, send once and record only actual Gmail confirmation."
+}

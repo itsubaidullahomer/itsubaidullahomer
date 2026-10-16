@@ -1,0 +1,178 @@
+{
+  "id": "laralink-react-frontend-36",
+  "company": "Laralink",
+  "title": "React Frontend Developer",
+  "url": "https://laralink.com/careers/react-frontend-developer/",
+  "location": "Remote; careers page says work from anywhere, Pakistan contract eligibility unconfirmed",
+  "salary": "Competitive; no numeric range published",
+  "description": "Frontend product role covering responsive and accessible React interfaces, Figma implementation, REST/state integration, reusable components, testing, performance and work with design/backend colleagues. The full public JD is preserved in laralink-frontend.html. It asks for 3+ years of React, frontend foundations, Redux/Zustand, careful UI work, Git/CI-CD and communication; Next/TypeScript, Jest/RTL and open-source work are optional. Degree requirement absent from this complete public posting.",
+  "source": "Official employer careers page",
+  "sourceId": "laralink-job-36",
+  "discoveredAt": "2026-10-15T22:06:13.473198+00:00",
+  "updatedAt": "2026-10-15T22:12:24.237174+00:00",
+  "status": "discovered",
+  "priority": "medium",
+  "fit": "strong",
+  "eligibility": "unknown",
+  "eligibilityEvidence": "Remote is explicitly advertised for this frontend role, and the official careers page says work from anywhere. Other vacancies expressly say Remote / Dhaka; this one does not. No Bangladesh-only restriction, Bangla requirement or other local-language condition appears in the full JD or public form. Pakistan employment/contracting is not explicitly confirmed; the site has Bangladesh offices. The generic footer office hours are not treated as the role schedule.",
+  "requirements": [
+    {
+      "id": "laralink-react-tenure",
+      "text": "At least three years of professional React work.",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-react",
+        "ev-experience"
+      ],
+      "explanation": "Danzee React Developer Jan2022–Jan2024 plus React product work at Tututor Nov2023–present establish more than three calendar years; overlap is not added."
+    },
+    {
+      "id": "laralink-frontend-foundations",
+      "text": "Strong HTML, CSS and current JavaScript skills.",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-frontend-foundations"
+      ],
+      "explanation": "Original resume explicitly lists HTML, CSS, JavaScript and Tailwind; reusable components and production booking/interfaces provide applied evidence. No unreported CSS specialty is claimed."
+    },
+    {
+      "id": "laralink-state",
+      "text": "State-management experience using Redux or Zustand.",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-frontend-foundations"
+      ],
+      "explanation": "Redux Toolkit and RTK Query are explicitly listed. Zustand is an alternative, not a missing mandatory second tool."
+    },
+    {
+      "id": "laralink-ui-detail",
+      "text": "Demonstrate attention to interface detail and clean UI.",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-react",
+        "ev-performance"
+      ],
+      "explanation": "Reusable React components and hooks, Jurri file/inbox/vault interfaces, and Yaksport search/filter booking UI provide reasonable candidate-reported evidence of careful product-interface delivery. This does not claim Figma expertise, an independent visual assessment, or accessibility specialization."
+    },
+    {
+      "id": "laralink-git-ci",
+      "text": "Familiarity with Git and CI/CD.",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-git-deploy"
+      ],
+      "explanation": "Git, GitHub, GitLab and CI/CD are explicitly in the original resume; no named cloud expertise or pipeline ownership has been invented."
+    },
+    {
+      "id": "laralink-communication",
+      "text": "Communicate clearly with colleagues.",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-product",
+        "ev-remote"
+      ],
+      "explanation": "Reported leadership of web/mobile delivery and direct product/engineering collaboration with the founder support this general collaboration requirement. This is not evidence of an English test level, fluency assertion or future time-zone commitment."
+    },
+    {
+      "id": "laralink-next-ts",
+      "text": "Optional: experience with Next.js or TypeScript.",
+      "essential": false,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-react"
+      ],
+      "explanation": "Both tools are explicitly listed; no exact TypeScript tenure is claimed."
+    },
+    {
+      "id": "laralink-testing",
+      "text": "Optional: testing knowledge, illustrated by Jest or React Testing Library.",
+      "essential": false,
+      "assessment": "unknown",
+      "evidenceIds": [
+        "ev-testing"
+      ],
+      "explanation": "Cypress is listed and export golden tests are documented, but Jest/RTL use is not. Do not relabel these as React unit-test evidence."
+    },
+    {
+      "id": "laralink-open-source",
+      "text": "Optional: contributions to open-source projects.",
+      "essential": false,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "A public GitHub profile alone does not establish a particular open-source contribution."
+    }
+  ],
+  "tags": [
+    "React",
+    "frontend",
+    "remote",
+    "Pakistan-eligibility-unconfirmed",
+    "close-match"
+  ],
+  "notes": "Technical fit strong: all six stated essentials are supported by the existing candidate evidence, with no new claims. Country eligibility remains unknown, application not ready. Full official JD and initial form verified at 2026-10-15T22:06Z (2026-10-16 Pakistan). Form requires name, email, position, experience range and CV; optional phone, portfolio and fit note. Existing four-plus calendar years map to 3–5 years. No required salary, degree or local-language question is displayed. No login on the initial form. CV max5MB, PDF/DOC/DOCX; public WordPress AJAX handler inspected without POST. Figma/accessibility duties, optional Jest/RTL and open-source contributions are not added to candidate skills. Confirm Pakistan hiring and any actual schedule constraints before submission. No application, upload or outreach. Full audit: .job-search/research/2026-10-16-remote/findings.json.",
+  "nextAction": "Confirm Pakistan hiring/contract eligibility and expected schedule before deciding whether to apply; use Jurri/Yaksport as UI examples.",
+  "nextActionDate": null,
+  "draft": "",
+  "contactEmail": "laralink007@gmail.com",
+  "appliedAt": null,
+  "research": {
+    "companyUrl": "https://laralink.com/",
+    "contacts": [
+      {
+        "id": "laralink-founder",
+        "name": "Md Tamjid Bin Murtoza",
+        "role": "Founder & CEO",
+        "profileUrl": "",
+        "sourceUrl": "https://laralink.com/about/",
+        "referralRoute": "Official site identifies this founder; use the published general company contact laralink007@gmail.com or company LinkedIn page to ask for the appropriate hiring contact. No personal connection or referral commitment exists.",
+        "notes": "No individual profile URL was published in the captured team section. Company LinkedIn: https://www.linkedin.com/company/laralink. No outreach sent.",
+        "capturedAt": "2026-10-15T22:06:13.469143+00:00"
+      },
+      {
+        "id": "laralink-cto",
+        "name": "Mehedi Hassan",
+        "role": "Chief Technology Officer",
+        "profileUrl": "",
+        "sourceUrl": "https://laralink.com/about/",
+        "referralRoute": "Potential technical hiring contact identified on the official team page; only general company routes are confirmed.",
+        "notes": "No inferred personal email or LinkedIn identity. No outreach sent.",
+        "capturedAt": "2026-10-15T22:06:13.469143+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "id": "laralink-jd",
+        "label": "Current official frontend JD and public application form",
+        "url": "https://laralink.com/careers/react-frontend-developer/",
+        "text": "The official posting seeks a frontend engineer for React product interfaces, API/state integration, reusable components and performance. Its six essentials are three-plus years of React, HTML/CSS/JavaScript, Redux or Zustand, careful UI work, Git/CI and clear collaboration. Next.js/TypeScript, Jest/RTL and open-source contributions are optional. No degree or local-language requirement appears. Required public form fields: name, email, role, experience and CV. No required salary or degree field is displayed. The original JD and form HTML are stored locally with SHA256 71beda5c98e0ad720593772be1609bbf20abf551730128f0e9836b4a9752a54f.",
+        "capturedAt": "2026-10-15T22:06:13.473198+00:00",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      },
+      {
+        "id": "laralink-board",
+        "label": "Current official careers board and remote policy",
+        "url": "https://laralink.com/careers/",
+        "text": "Current careers board links this frontend vacancy as Remote, Full-time. It advertises work from anywhere and flexible async collaboration. Other roles explicitly mention Dhaka; this role does not. The site does not explicitly confirm Pakistan payroll/contracting. No Bangladesh-only or local-language restriction was found. General office hours in the footer are not assumed to be required remote employee hours.",
+        "capturedAt": "2026-10-15T22:06:13.448268+00:00",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      },
+      {
+        "id": "laralink-team",
+        "label": "Official team and published contact route",
+        "url": "https://laralink.com/about/",
+        "text": "Official team names founder Md Tamjid Bin Murtoza and CTO Mehedi Hassan. General email decoded from the publicly rendered Cloudflare email element: laralink007@gmail.com. Named roles are employer assertions; no personal relationship inferred.",
+        "capturedAt": "2026-10-15T22:06:13.469143+00:00",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      }
+    ]
+  }
+}

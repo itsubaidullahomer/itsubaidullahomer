@@ -1,0 +1,135 @@
+[
+  {
+    "type": "add_job",
+    "job": {
+      "id": "whippy-frontend-da02ad44",
+      "company": "Whippy",
+      "title": "Software Engineer: Frontend",
+      "url": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b/",
+      "location": "Remote - Worldwide",
+      "salary": "USD 60,000-80,000/year",
+      "description": "Build interactive frontend experiences for an AI communications platform. Live official ATS posting verified; no degree minimum stated.",
+      "source": "Official employer ATS (Ashby)",
+      "sourceId": "da02ad44-9668-4f93-94e3-bf1a6e09ad8b",
+      "discoveredAt": "2026-10-15T15:47:36.574Z",
+      "updatedAt": "2026-10-15T15:47:36.574Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "The employer explicitly hires globally regardless of time zone. Pakistan is geographically covered; meeting/trial acceptance remains unresolved in requirements.",
+      "requirements": [
+        {
+          "id": "whippy-frontend-architecture",
+          "text": "Frontend architecture for interactive data interfaces.",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations",
+            "ev-backend",
+            "ev-analytics"
+          ],
+          "explanation": "Production React interfaces, Redux Toolkit/RTK Query, shared APIs and Illume analytics provide direct evidence of data fetching, state and rendering work."
+        },
+        {
+          "id": "whippy-product-ownership",
+          "text": "Own the product lifecycle and manage asynchronous remote work.",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-remote",
+            "ev-performance"
+          ],
+          "explanation": "Tututor product/engineering ownership, leading developers, direct founder work and sustained remote delivery support this expectation."
+        },
+        {
+          "id": "whippy-written-english",
+          "text": "Clear asynchronous communication and fluent written English.",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-remote",
+            "ev-product"
+          ],
+          "explanation": "International collaboration and leadership support communication experience, but the supplied facts do not confirm written-English fluency. Ask the candidate rather than inferring a language level."
+        },
+        {
+          "id": "whippy-quality-ownership",
+          "text": "Build unit/E2E suites and measure shipped features with analytics.",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-testing",
+            "ev-analytics"
+          ],
+          "explanation": "Cypress, golden tests and analytics dashboards are relevant evidence. Ownership of both unit and end-to-end suites plus product instrumentation is not explicit. This is a role responsibility, included to expose the remaining scope question, not an invented framework requirement."
+        },
+        {
+          "id": "whippy-paid-trial",
+          "text": "Commit to a paid two-week full-time or four-week part-time trial.",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Immediate availability does not establish acceptance of this particular commitment. Candidate confirmation is required."
+        },
+        {
+          "id": "whippy-meeting-times",
+          "text": "Attend Monday and Friday meetings at 14:30 GMT.",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "This is 19:30 Pakistan time. The candidate has not confirmed these recurring hours."
+        }
+      ],
+      "tags": [
+        "React",
+        "frontend",
+        "AI product",
+        "remote worldwide",
+        "no degree minimum",
+        "needs factual answers"
+      ],
+      "notes": "Source reviewed against candidate-provided resume/portfolio evidence. Strong technical potential, with specific unresolved items above. Not application-ready. Employer identity is corroborated by whippy.ai linking this Ashby board. No named referral contact was verified. The public application route requires JavaScript; its complete question set was not inspected. No submission was made.",
+      "nextAction": "Confirm written English, testing/instrumentation scope, meeting hours and paid-trial commitment; then inspect every application question before preparing submission.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.whippy.ai/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "whippy-live-jd",
+            "label": "Live official job description and listing state",
+            "url": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b/",
+            "text": "Read the complete employer JD from the public Ashby page. Embedded posting.id matched this role and isListed was true. Frontend architecture and lifecycle ownership are central. Written English, trial participation and meeting attendance are explicit requirements. No degree requirement appears.",
+            "capturedAt": "2026-10-15T15:47:36.574Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "whippy-company-board",
+            "label": "Employer website links this hiring board",
+            "url": "https://www.whippy.ai/",
+            "text": "The company website Careers link points to https://jobs.ashbyhq.com/whippy.",
+            "capturedAt": "2026-10-15T15:47:36.574Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "whippy-form-limitation",
+            "label": "Application form inspection boundary",
+            "url": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b/application",
+            "text": "Read-only request returned the JavaScript application shell. No answers were guessed and no candidate data was sent.",
+            "capturedAt": "2026-10-15T15:47:36.574Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  }
+]

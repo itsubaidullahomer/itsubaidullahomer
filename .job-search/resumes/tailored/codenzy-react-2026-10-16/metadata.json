@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-15T22:50:18.787692+00:00",
+  "jobId": "codenzy-react",
+  "jobUrl": "https://www.codenzy.com/careers/react-developer/",
+  "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/codenzy-react-2026-10-16/config.json",
+  "factsPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/facts.json",
+  "factsSha256": "54d491cd0c49e05baf1fb4205947e6555048c247fe090ffe7c5569b6ecba6231",
+  "pdfPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-codenzy-react-2026-10-16-v1-ats.pdf",
+  "sha256": "0abf77612bc5b5ded9a75d9952d8b1a638c13794b40f60d7cc69937e732f5d97",
+  "bytes": 88383,
+  "pageCount": 1,
+  "searchableWords": 331,
+  "contentBottomPt": 133.1897637795277,
+  "textQa": "pass",
+  "visualQa": "pass",
+  "notes": [
+    "Only selected and reordered existing facts.",
+    "No degree, Lahore residency or relocation promise.",
+    "GraphQL and Jest/React Testing Library use direct candidate confirmations.",
+    "Original master and previous PDFs untouched."
+  ],
+  "visualQaCheckedAt": "2026-10-15T22:50:51.100272+00:00",
+  "visualQaMethod": "Rendered complete A4 page with Poppler at 1800 px, inspected actual PNG; no clipping, overlap, missing glyphs or page spill. Header, date order, skill lines and link labels readable.",
+  "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/codenzy-react-2026-10-16/page-1.png",
+  "pageCountToolAgreement": "pypdf and pdfinfo both report 1 page"
+}

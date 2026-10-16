@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-15T23:22:50.078480Z",
+  "pdf": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-allcancode-fullstack-2026-10-16-ats.pdf",
+  "sha256": "8bcdc943d720fc72a8ce391daf37d18bd8214bcce90e8e43045c133fd6757415",
+  "pages": 1,
+  "wordCount": 335,
+  "textChecks": "Identity, contact, exact employment dates, links, immediate availability and absence of degree/unsupported claims passed builder checks.",
+  "visualCheck": "PNG rendered with pdftoppm and inspected: aligned headings, legible body, no overlap or clipping, all content fits on one page.",
+  "source": "Canonical .job-search/resumes/masters/facts.json; selection-only config; employer skills match does not add claims.",
+  "noSubmission": true,
+  "noCloudUpload": true
+}

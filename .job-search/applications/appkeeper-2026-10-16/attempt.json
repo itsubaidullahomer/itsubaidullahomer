@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-15T23:42:22.405Z",
+  "jobId": "appkeeper-frontend",
+  "documentId": "08674e7d-6186-4301-90c3-e372c79d16cc",
+  "page": "https://appkeeper.ltd/jobs/frontend-developer.html",
+  "result": "unconfirmed",
+  "observation": "Submit navigated to the vacancy with form field names in a GET query and reset fields. No success message or application receipt. Not counted as submitted."
+}

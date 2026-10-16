@@ -1,0 +1,14 @@
+{
+  "createdAt": "2026-10-16T05:35:16.688653+00:00",
+  "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-niyyt-fullstack-2026-10-16-v1-ats.pdf",
+  "sha256": "59450dd24e2cf3fc50fc7de87e971817e03235e3f5e1bce91876715f78e3ebd7",
+  "bytes": 88567,
+  "pages": 1,
+  "searchableWords": 372,
+  "links": 7,
+  "contentBottomPt": 76.78976377952765,
+  "charactersOutsideSafeArea": 0,
+  "sourceFactsPreserved": true,
+  "visualQa": "passed: one-page render reviewed; no clipping or overlap; readable hierarchy and spacing",
+  "cloudWrites": false
+}

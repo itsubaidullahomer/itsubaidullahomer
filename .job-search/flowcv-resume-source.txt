@@ -1,0 +1,109 @@
+Upgrade to Pro
+Student Benefits
+My account
+Resume
+Cover Letter
+Job Tracker
+More
+My Resumes
+
+Your first resume is free forever. Need more than one resume? Upgrade your plan
+
+New resume
+Ubaidullah  Full-Stack Engineer (MERN + AI Integration)
+itsubaidullahomer@gmail.com
+ 
++92 3292380929
+ 
+Pakistan
+ 
+itsubaidullahomer.com
+ 
+itsubaidullahomer
+ 
+
+I’m a MERN stack developer with around 4+ years of experience building and maintaining production web applications. Currently I work as the Full Stack Developer at Tututor.ai⁠, where I’ve been involved in building an AI-based education platform used by several schools in Murcia, Spain. My main stack is React, Node js, Express js, and MongoDB. Most of my work focuses on building practical features tools for teachers, automation for repetitive tasks, and systems that make the learning experience smoother for students.
+
+Professional Experience
+MERN Developer (SaaS Startup), Remote at Tututor Ai⁠
+Nov 2023 – Present
+ | 
+Murcia, Spain
+
+I worked on building an AI-based education platform used by several schools in Murcia, Spain. The system helps teachers create learning material much faster and is used daily by thousands of students. One of the main improvements was reducing the time teachers spend creating lesson content, in some cases by around 90–95% using AI-generated material. Alongside the learning tools, I also built a CRM system for school management, so teachers and administrators could manage students, classes, and content from the same platform.
+
+Some of the features I built:
+
+• AI chatbot for lessons – teachers can create bots for specific topics and share them with students. Teachers can also review conversations to see where students are struggling.
+
+• AI quiz generator with automatic grading – teachers can generate quizzes from lesson content, customize questions, and get automatic grading and performance insights for their classes.
+
+Tech stack: React, Node.js, Express, MongoDB, WebSockets, microservices architecture, OpenAI API, ElevenLabs API.
+
+Front End developer, Danzee Tech⁠
+Jan 2022 – Jan 2024
+ | 
+Viby, Danmark
+
+Started as a Junior Dev, mostly doing UI work — over two years that slowly turned into owning full features and being the go-to for newer teammates.
+
+•Backend was Node/Express stuff — JWT auth, payments, third-party APIs. Spent some time chasing down slow queries and fixing indexing when the app started crawling.
+•Built a bunch of React components and hooks over time, and they kind of naturally became an internal library. Saved the team a lot of back-and-forth when shipping new screens.
+Projects
+Joinillume⁠, AI Business Analytics Platform (Part-time)
+Dec 2024 – May 2025
+
+Built a business intelligence platform for MedSpas that uses AI to generate custom JavaScript analytics from different data structures, so the client didn’t need a data analyst to write queries or reporting logic manually. The platform helped the company demonstrate traction and eventually secure $250K in funding.
+
+What I worked on:
+
+• AI analytics engine – built a system that generates chart logic in JavaScript based on the incoming data structure, so dashboards can adapt to different datasets without manual configuration.
+
+• Real-time dashboards – implemented dashboards for revenue tracking, booking analytics, provider performance, and client retention in a single interface.
+
+• Integrations with MedSpa platforms – connected the system with tools like Boulevard, Zenoti, and Vagaro to import operational data automatically.
+
+Stack: React, Tailwind CSS, Chart.js, D3.js, OpenAI API, Node.js, Express, MongoDB.
+
+Viloi⁠, AI Text Humanization SaaS
+Mar 2024 – Jun 2024
+
+Developed AI text humanization SaaS platform bypassing ZeroGPT detection with Stripe payment integration and glassmorphism UI design.
+
+• Multi-LLM Pipeline - Integrated GPT-4, Claude, and Gemini APIs with intelligent fallback logic for content transformation
+
+• Subscription System - Implemented Stripe billing with webhook automation and JWT-based user authentication. 
+
+Jurri⁠, Cloud Storage & Email Management System at Danzee Tech
+Sep 2023 – Apr 2024
+
+Developed frontend for enterprise cloud storage and multi-email management platform featuring drag-and-drop file uploads, unified inbox, and password vault.
+
+• Component Architecture - Created reusable React components and custom hooks reducing code duplication by 30%
+
+• Performance Engineering - Implemented code splitting, lazy loading, and bundle optimization improving load time by 40%. 
+
+Stack: React, Redux Toolkit, RTK Query, Node.js, MongoDB
+
+Yaksport⁠, Sports Travel Booking Platform
+Jan 2023 – Aug 2023
+
+Built sports training camp booking platform for Danish travel agency serving 100+ sports clubs with multi-language support and advanced search filtering.
+
+Stack: React, Tailwind CSS, I18next, React Router, RESTful APIs
+
+Skills
+Frontend: TypeScript, React, Next.js, Cypress, Redux Toolkit, RTK Query, Tailwind CSS, React Native, Chart.js, D3.js, Vite, Javascript, Html, Css, Framer Motion
+Backend: Node.js, Express.js, NestJS, REST APIs, WebSockets, JWT, Microservices
+Databases: MongoDB, Mongoose
+AI / Large Language Models Integration: OpenAI API, Claude, Gemini, ElevenLabs
+DevOps & Tools: Git, GitHub, GitLab, CI/CD, Vercel, DigitalOcean, Heroku, Cloudinary, Webpack, NPM
+Other: Stripe Payments, Authentication, Data Visualization, CRM Systems, Performance Optimization
+
+VIEW RESUME
+
+DUPLICATE
+
+Ubaidullah
+
+edited 12 days ago • US Letter

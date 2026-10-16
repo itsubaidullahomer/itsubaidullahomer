@@ -1,0 +1,22 @@
+{
+  "focus": "ai_product",
+  "slug": "ai-product",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_ai",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+Hi Quirky Bit team,
+
+I'm applying for the Frontend Developer (React) role. Your focus on data-rich interfaces and performance matches my work on analytics and product applications.
+
+At Illume, I built dashboards for revenue, bookings and retention using Chart.js and D3.js. At Danzee Tech, I built reusable React components and hooks, delivered Jurri's file and inbox interfaces, and improved loading performance through code splitting and lazy loading. I now lead web and mobile delivery at Tututor.ai / EduNova.
+
+I have four years of TypeScript and Next.js experience, plus hands-on experience with Tailwind CSS, CSS Grid, Flexbox, shared component libraries, code reviews, Jest and React Testing Library.
+
+I'm based in Rahim Yar Khan, Pakistan and available immediately. You can see my work at https://itsubaidullahomer.com.
+
+Ubaidullah Omer

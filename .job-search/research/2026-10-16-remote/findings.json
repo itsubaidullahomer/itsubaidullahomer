@@ -1,0 +1,954 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-15T22:12:58.442989+00:00",
+  "researchDatePakistan": "2026-10-16",
+  "scope": "Read-only heartbeat research. No application, account, upload, outreach, cloud mutation or live portal import.",
+  "candidateFactsPath": ".job-search/resumes/masters/facts.json",
+  "candidateFactsSha256": "63c6a356017e9d1893bb8867aea5a17a4f8d478d3888e3ae2d4fe03ef43146e9",
+  "candidateInterpretation": "Candidate-provided resume/portfolio evidence is not independent verification. No degree; immediate availability. No salary, hours, language proficiency or skill tenure was invented.",
+  "shortlist": [
+    {
+      "id": "laralink-react-frontend-36",
+      "company": "Laralink",
+      "title": "React Frontend Developer",
+      "companyUrl": "https://laralink.com/",
+      "jobUrl": "https://laralink.com/careers/react-frontend-developer/",
+      "disposition": "strong_technical_match_eligibility_unconfirmed",
+      "fit": "strong",
+      "applicationReady": false,
+      "whyCloser": "Six essentials align with the existing React career, frontend foundation, Redux, Git/CI and product collaboration evidence. TypeScript and named test frameworks are optional, so no unreported tenure, SQL or infrastructure specialization is needed.",
+      "availability": {
+        "status": "Open on official site",
+        "checkedAt": "2026-10-15T22:06:13.473198+00:00",
+        "evidence": "Current official careers board links this job; job page contains complete public JD and application form. Captured HTTP200. Page states posted June2026; no closing date."
+      },
+      "location": {
+        "status": "unknown",
+        "support": "Official board says work from anywhere; role is remote.",
+        "unresolved": [
+          "Does Laralink employ or contract residents of Pakistan?",
+          "What regular hours, workweek and overlap are required? Footer office hours are not treated as employee schedule."
+        ],
+        "degree": "No degree requirement appears in the reviewed complete public JD.",
+        "language": "No specific English level required in public JD. No fluency claim inferred.",
+        "unrestrictedLanguage": "No Bangladesh-only or local-language requirement found. Role says Remote; other roles explicitly say Remote / Dhaka."
+      },
+      "degreeRequirement": "No degree requirement appears in the reviewed complete public JD.",
+      "requirements": [
+        {
+          "id": "laralink-react-tenure",
+          "text": "At least three years of professional React work.",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1"
+            }
+          ],
+          "reason": "Danzee React Developer Jan2022–Jan2024 plus React product work at Tututor Nov2023–present establish more than three calendar years; overlap is not added.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "What we are looking for, bullet 1"
+        },
+        {
+          "id": "laralink-frontend-foundations",
+          "text": "Strong HTML, CSS and current JavaScript skills.",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "96"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/2"
+            }
+          ],
+          "reason": "Original resume explicitly lists HTML, CSS, JavaScript and Tailwind; reusable components and production booking/interfaces provide applied evidence. No unreported CSS specialty is claimed.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "What we are looking for, bullet 2"
+        },
+        {
+          "id": "laralink-state",
+          "text": "State-management experience using Redux or Zustand.",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "96"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0"
+            }
+          ],
+          "reason": "Redux Toolkit and RTK Query are explicitly listed. Zustand is an alternative, not a missing mandatory second tool.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "What we are looking for, bullet 3"
+        },
+        {
+          "id": "laralink-ui-detail",
+          "text": "Demonstrate attention to interface detail and clean UI.",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/1"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/2"
+            }
+          ],
+          "reason": "Reusable React components and hooks, Jurri file/inbox/vault interfaces, and Yaksport search/filter booking UI provide reasonable candidate-reported evidence of careful product-interface delivery. This does not claim Figma expertise, an independent visual assessment, or accessibility specialization.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "What we are looking for, bullet 4"
+        },
+        {
+          "id": "laralink-git-ci",
+          "text": "Familiarity with Git and CI/CD.",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "100"
+            }
+          ],
+          "reason": "Git, GitHub, GitLab and CI/CD are explicitly in the original resume; no named cloud expertise or pipeline ownership has been invented.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "What we are looking for, bullet 5"
+        },
+        {
+          "id": "laralink-communication",
+          "text": "Communicate clearly with colleagues.",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/4"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/location"
+            }
+          ],
+          "reason": "Reported leadership of web/mobile delivery and direct product/engineering collaboration with the founder support this general collaboration requirement. This is not evidence of an English test level, fluency assertion or future time-zone commitment.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "What we are looking for, bullet 6"
+        },
+        {
+          "id": "laralink-next-ts",
+          "text": "Optional: experience with Next.js or TypeScript.",
+          "essential": false,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0"
+            }
+          ],
+          "reason": "Both tools are explicitly listed; no exact TypeScript tenure is claimed.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "Nice to have, bullet 1"
+        },
+        {
+          "id": "laralink-testing",
+          "text": "Optional: testing knowledge, illustrated by Jest or React Testing Library.",
+          "essential": false,
+          "assessment": "unknown",
+          "evidence": [
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "96"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/5"
+            }
+          ],
+          "reason": "Cypress is listed and export golden tests are documented, but Jest/RTL use is not. Do not relabel these as React unit-test evidence.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "Nice to have, bullet 2"
+        },
+        {
+          "id": "laralink-open-source",
+          "text": "Optional: contributions to open-source projects.",
+          "essential": false,
+          "assessment": "unknown",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/identity/github"
+            }
+          ],
+          "reason": "A public GitHub profile alone does not establish a particular open-source contribution.",
+          "employerSourceId": "laralink-frontend",
+          "employerSourceLocator": "Nice to have, bullet 3"
+        }
+      ],
+      "application": {
+        "url": "https://laralink.com/careers/react-frontend-developer/#apply",
+        "publicFormReviewed": true,
+        "formSnapshot": ".job-search/research/2026-10-16-remote/agent-new/laralink-public-form.json",
+        "initialPageAccountRequired": false,
+        "questions": [
+          {
+            "label": "Full Name",
+            "required": true,
+            "answerStatus": "known",
+            "source": ".job-search/resumes/masters/facts.json#/identity/name"
+          },
+          {
+            "label": "Email Address",
+            "required": true,
+            "answerStatus": "known",
+            "source": ".job-search/resumes/masters/facts.json#/identity/email"
+          },
+          {
+            "label": "Phone Number",
+            "required": false,
+            "answerStatus": "known",
+            "source": ".job-search/resumes/masters/facts.json#/identity/phone"
+          },
+          {
+            "label": "Position",
+            "required": true,
+            "answerStatus": "known",
+            "answer": "React Frontend Developer"
+          },
+          {
+            "label": "Years of Experience",
+            "required": true,
+            "answerStatus": "known",
+            "answer": "3 – 5 years",
+            "note": "Four-plus calendar years from Jan2022; do not sum overlap."
+          },
+          {
+            "label": "Portfolio / LinkedIn / GitHub URL",
+            "required": false,
+            "answerStatus": "known",
+            "source": ".job-search/resumes/masters/facts.json#/identity/website"
+          },
+          {
+            "label": "Why are you a great fit for this role?",
+            "required": false,
+            "answerStatus": "not drafted",
+            "note": "Prepare only from mapped career facts; no new claims."
+          },
+          {
+            "label": "CV",
+            "required": true,
+            "answerStatus": "existing resume available; no role-specific artifact generated here",
+            "constraints": "Displayed limit5MB; HTML accepts .pdf,.doc,.docx."
+          }
+        ],
+        "hiddenFields": [
+          "website: empty honeypot",
+          "job_id:36",
+          "action and public nonce appended by client handler"
+        ],
+        "noFurtherQuestionsProven": false,
+        "submissionAttempted": false
+      },
+      "publicRoutes": [
+        {
+          "id": "laralink-founder",
+          "name": "Md Tamjid Bin Murtoza",
+          "role": "Founder & CEO",
+          "profileUrl": "",
+          "sourceUrl": "https://laralink.com/about/",
+          "referralRoute": "Official site identifies this founder; use the published general company contact laralink007@gmail.com or company LinkedIn page to ask for the appropriate hiring contact. No personal connection or referral commitment exists.",
+          "notes": "No individual profile URL was published in the captured team section. Company LinkedIn: https://www.linkedin.com/company/laralink. No outreach sent.",
+          "capturedAt": "2026-10-15T22:06:13.469143+00:00"
+        },
+        {
+          "id": "laralink-cto",
+          "name": "Mehedi Hassan",
+          "role": "Chief Technology Officer",
+          "profileUrl": "",
+          "sourceUrl": "https://laralink.com/about/",
+          "referralRoute": "Potential technical hiring contact identified on the official team page; only general company routes are confirmed.",
+          "notes": "No inferred personal email or LinkedIn identity. No outreach sent.",
+          "capturedAt": "2026-10-15T22:06:13.469143+00:00"
+        }
+      ],
+      "missingAnswers": [
+        "Pakistan contract/employment eligibility",
+        "Regular schedule and workweek if imposed",
+        "Jest/RTL and open-source examples, only if candidate has them; optional",
+        "Role-specific fit note remains unwritten; optional initial field"
+      ],
+      "responsibilityEvidence": [
+        {
+          "responsibility": "React interfaces, reusable components and frontend performance",
+          "factIds": [
+            "danzee_components",
+            "danzee_jurri",
+            "yaksport"
+          ]
+        },
+        {
+          "responsibility": "REST/state integration and backend collaboration",
+          "factIds": [
+            "danzee_components",
+            "tututor_backend"
+          ],
+          "additionalSource": ".job-search/flowcv-resume-source.txt:96"
+        },
+        {
+          "responsibility": "Figma translation, accessibility and thoroughly tested React components",
+          "assessment": "not established for all named practices",
+          "factIds": [],
+          "note": "These are duties in the posting; ask for truthful examples rather than add invented experience."
+        }
+      ],
+      "nextAction": "Confirm Pakistan hiring/contract eligibility and expected schedule before deciding whether to apply; use Jurri/Yaksport as UI examples.",
+      "sourceIds": [
+        "laralink-frontend",
+        "laralink-careers",
+        "laralink-about",
+        "laralink-form-script"
+      ],
+      "jobSchemaRecord": "laralink-job.json"
+    },
+    {
+      "id": "appkeeper-frontend-20261016",
+      "company": "Appkeeper Pte. Ltd.",
+      "companyUrl": "https://appkeeper.ltd/",
+      "title": "Frontend Developer",
+      "jobUrl": "https://appkeeper.ltd/jobs/frontend-developer.html",
+      "disposition": "close_match_needs_specific_evidence",
+      "applicationReady": false,
+      "fit": "unknown",
+      "whyCloser": "The role specifically combines React interfaces, reusable components, analytics visualizations, Redux, Cypress and frontend performance. These overlap with Danzee/Jurri, Illume and the original resume rather than requiring an unreported SQL, Python or infrastructure specialization.",
+      "availability": {
+        "status": "Open on official site",
+        "checkedAt": "2026-10-15T22:06:09.881548+00:00",
+        "evidence": "Official homepage links this role; detail returns HTTP 200 with active public application form. No deadline or publication date is stated.",
+        "dateListed": null
+      },
+      "location": {
+        "advertised": "Remote (worldwide)",
+        "pakistanPolicy": "Worldwide advertisement supports applying from Pakistan. Contract/payroll mechanism and hours are not stated.",
+        "eligibility": "eligible_by_advertised_geography",
+        "sponsorshipNeededForAdvertisedArrangement": false
+      },
+      "degreeRequirement": "No degree requirement appears in the full public JD or public first-stage form. Candidate has no degree.",
+      "requirements": [
+        {
+          "id": "appkeeper-r1",
+          "text": "At least three years of professional React and TypeScript work",
+          "essential": true,
+          "assessment": "unknown",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/dates",
+              "note": "React Developer Jan 2022-Jan 2024"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/dates",
+              "note": "Full-stack Nov 2023-present"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0/text",
+              "note": "TypeScript listed"
+            }
+          ],
+          "reason": "React career duration is supported. TypeScript start date and continuous professional duration are not established; do not assign all React years to TypeScript."
+        },
+        {
+          "id": "appkeeper-r2",
+          "text": "Build and maintain component libraries or design systems",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/0",
+              "note": "Reusable React components and hooks"
+            },
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "51",
+              "note": "Components/hooks became an internal library"
+            }
+          ],
+          "reason": "The employer permits component-library experience; the original resume gives a concrete internal React-library example. No formal design-system ownership is claimed."
+        },
+        {
+          "id": "appkeeper-r3",
+          "text": "Data visualizations using D3, Recharts, ECharts or an equivalent",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/0/text",
+              "note": "AI analytics dashboards"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/0/stack",
+              "note": "Chart.js and D3.js"
+            }
+          ],
+          "reason": "Illume provides a direct charting and data-rich product example."
+        },
+        {
+          "id": "appkeeper-r4",
+          "text": "Strong CSS including Grid, Flexbox, animation and responsive layout",
+          "essential": true,
+          "assessment": "unknown",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0/text",
+              "note": "Tailwind CSS"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/2/stack",
+              "note": "Tailwind booking interface"
+            },
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "96",
+              "note": "HTML, CSS and Framer Motion listed"
+            }
+          ],
+          "reason": "CSS and animation tooling are supported, but concrete Grid/Flexbox/responsive-layout depth is not recorded. Do not convert a tool list into the full requested proficiency."
+        },
+        {
+          "id": "appkeeper-r5",
+          "text": "REST API integration and a modern state manager such as Redux",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0/text",
+              "note": "Redux Toolkit"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/2/stack",
+              "note": "REST APIs"
+            },
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "86",
+              "note": "Jurri uses Redux Toolkit and RTK Query"
+            }
+          ],
+          "reason": "Direct overlap with shipped booking and file-management products."
+        },
+        {
+          "id": "appkeeper-r6",
+          "text": "Frontend testing with one of Jest, React Testing Library, Cypress or Playwright",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "96",
+              "note": "Cypress explicitly listed"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/5",
+              "note": "A separate export workflow has golden-test evidence"
+            }
+          ],
+          "reason": "Cypress is explicitly in the candidate source and is one accepted alternative. Do not claim Jest/RTL/Playwright or that the export tests are browser E2E tests; a frontend-test example remains useful for interview verification."
+        },
+        {
+          "id": "appkeeper-r7",
+          "text": "Vite, Webpack or a comparable bundler",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "96",
+              "note": "Vite listed"
+            },
+            {
+              "path": ".job-search/flowcv-resume-source.txt",
+              "lines": "100",
+              "note": "Webpack listed"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/1",
+              "note": "Bundle optimization and lazy loading"
+            }
+          ],
+          "reason": "The named alternatives and a relevant performance example are in the source."
+        },
+        {
+          "id": "appkeeper-r8",
+          "text": "Git workflow and code-review experience",
+          "essential": true,
+          "assessment": "unknown",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/2/text",
+              "note": "Git listed"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/4",
+              "note": "Small-team and founder collaboration"
+            }
+          ],
+          "reason": "Git is documented. Leadership alone does not establish a concrete peer-review workflow; ask for an actual review example."
+        }
+      ],
+      "niceToHave": {
+        "supported": [
+          "WebSockets / real-time messaging via Tututor",
+          "Next.js listed, without claimed SSR expertise"
+        ],
+        "unconfirmed": [
+          "Vue 3",
+          "WCAG expertise",
+          "Storybook",
+          "Figma design-to-code workflow",
+          "SSR depth"
+        ]
+      },
+      "application": {
+        "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+        "questionsCompleteForPublicFirstStage": true,
+        "accountRequired": false,
+        "inspection": "Read HTML form and linked public client script; no request sent to submission endpoint.",
+        "submissionEndpoint": "https://appkeeper.ltd/api/apply",
+        "method": "POST multipart",
+        "requiredFields": [
+          {
+            "name": "name",
+            "label": "Full name",
+            "knownAnswer": "Ubaidullah Omer"
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "knownAnswer": "itsubaidullahomer@gmail.com"
+          },
+          {
+            "name": "cv",
+            "label": "CV",
+            "allowedExtensions": [
+              ".pdf",
+              ".doc",
+              ".docx"
+            ],
+            "knownAnswer": null,
+            "note": "A role-specific PDF would need to be selected/prepared before an authorized application."
+          }
+        ],
+        "optionalFields": [
+          {
+            "name": "cover",
+            "label": "Cover letter"
+          }
+        ],
+        "salaryAsked": false,
+        "degreeAsked": false,
+        "experienceAsked": false,
+        "hiddenRoleValue": "Frontend Developer",
+        "maximumFileSize": "Not stated in public form; server not probed.",
+        "laterQuestions": "Any later recruiter/interview questions are unknown."
+      },
+      "publicRoutes": [
+        {
+          "type": "official_application_form",
+          "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+          "note": "Preferred vacancy-specific route."
+        },
+        {
+          "type": "general_company_contact",
+          "email": "contact@appkeeper.ltd",
+          "url": "https://appkeeper.ltd/#about",
+          "note": "Public general business contact; not a verified recruiter or referral. No message sent."
+        },
+        {
+          "type": "general_company_contact",
+          "email": "hello@appkeeper.ltd",
+          "url": "https://appkeeper.ltd/#contact",
+          "note": "Public general contact; no named employee relationship or referral promise."
+        }
+      ],
+      "companyEvidence": "Employer site identifies Singapore registration 202321930C, founded 2023, and links product case studies. These are employer self-descriptions, not independent company verification. No named employee/profile referral was verified.",
+      "missingAnswers": [
+        "Actual professional TypeScript duration meeting the three-year requirement",
+        "Concrete CSS Grid/Flexbox/responsive/animation example",
+        "Concrete peer code-review workflow example"
+      ],
+      "nextAction": "Resolve the three essential evidence questions; then prepare a truthful frontend/analytics-focused CV and use the verified form if all requirements and later commitments are satisfied.",
+      "sourceIds": [
+        "appkeeper-frontend",
+        "appkeeper-home",
+        "appkeeper-main"
+      ],
+      "sourceExcerpts": [
+        {
+          "id": "appkeeper-frontend",
+          "text": "Remote (worldwide)"
+        },
+        {
+          "id": "appkeeper-frontend",
+          "text": "3+ years of professional experience with React and TypeScript"
+        },
+        {
+          "id": "appkeeper-frontend",
+          "text": "Experience building and maintaining design systems or component libraries"
+        }
+      ]
+    }
+  ],
+  "reserves": [
+    {
+      "id": "mechabits-fullstack-20261016",
+      "company": "Mechabits",
+      "title": "Full-stack engineer",
+      "jobUrl": "https://www.mechabits.com/careers/full-stack-engineer",
+      "companyUrl": "https://www.mechabits.com/",
+      "disposition": "reserve_required_cloud_skill_unknown",
+      "fit": "unknown",
+      "applicationReady": false,
+      "availability": {
+        "status": "Open",
+        "posted": "2026-10-13",
+        "deadline": "2026-10-20",
+        "checkedAt": "2026-10-15T22:06:09.881993+00:00"
+      },
+      "location": {
+        "advertised": "Full-time, remote worldwide; company footer remote-first from Pakistan",
+        "eligibility": "eligible_by_advertised_geography"
+      },
+      "degreeRequirement": "No degree stated in the full JD or first-stage public form.",
+      "requirements": [
+        {
+          "id": "mechabits-r1",
+          "text": "Several years shipping production web applications",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0",
+              "note": "Tututor production ownership"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1",
+              "note": "Danzee React role Jan2022-Jan2024"
+            }
+          ],
+          "reason": "Four-plus years are supported without adding overlapping tenures together."
+        },
+        {
+          "id": "mechabits-r2",
+          "text": "Strong TypeScript, React and Node.js",
+          "essential": true,
+          "assessment": "met",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0/text",
+              "note": "React/TypeScript"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/1/text",
+              "note": "Node.js/Express"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/1",
+              "note": "Shared production backend"
+            }
+          ],
+          "reason": "Core stack and production delivery align; no exact TypeScript tenure minimum is specified."
+        },
+        {
+          "id": "mechabits-r3",
+          "text": "Comfort with AWS, Azure or GCP",
+          "essential": true,
+          "assessment": "unknown",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/2/text",
+              "note": "Vercel and DigitalOcean only"
+            }
+          ],
+          "reason": "A mandatory named major-cloud requirement is not established by the source; do not substitute other hosting vendors."
+        },
+        {
+          "id": "mechabits-r4",
+          "text": "Clear written English for async collaboration",
+          "essential": true,
+          "assessment": "unknown",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/location",
+              "note": "Remote Spanish team"
+            }
+          ],
+          "reason": "Remote work is real evidence of collaboration, but a written-English proficiency confirmation/sample is not an approved fact."
+        }
+      ],
+      "application": {
+        "url": "https://www.mechabits.com/careers/full-stack-engineer/readiness",
+        "questionsCompleteForPublicFirstStage": true,
+        "accountRequired": false,
+        "inspection": "Saved rendered HTML only. Uploading a CV to this matching page submits an application; no upload or submission occurred.",
+        "requiredFields": [
+          "Full name",
+          "Email",
+          "PDF CV (text-based, max4MB and12pages)",
+          "Explicit consent to CV analysis and application email"
+        ],
+        "fieldsWithoutHtmlRequiredFlag": [
+          "Years of experience",
+          "Top skills",
+          "Notice period"
+        ],
+        "optionalFields": [
+          "Anything else we should know (500characters)"
+        ],
+        "honeypot": "Company website: leave empty",
+        "salaryAsked": false,
+        "degreeAsked": false,
+        "submissionConsequence": "CV match immediately sends PDF and match summary to careers@mechabits.com.",
+        "serverValidation": "Not tested."
+      },
+      "publicRoutes": [
+        {
+          "type": "careers_email",
+          "email": "careers@mechabits.com",
+          "url": "https://www.mechabits.com/careers/full-stack-engineer",
+          "note": "Explicit alternative application route; no email sent."
+        }
+      ],
+      "companyEvidence": "Employer describes a Pakistan-based remote software house. Its team page provides practice descriptions but no named staff in the inspected page; no individual referral verified.",
+      "missingAnswers": [
+        "Actual AWS/Azure/GCP experience or confirmation of a gap",
+        "Written-English capability",
+        "Any proposed schedule or compensation commitments later in hiring"
+      ],
+      "sourceIds": [
+        "mechabits-fullstack",
+        "mechabits-form",
+        "mechabits-team"
+      ],
+      "reasonNotShortlisted": "Strong MERN overlap, but mandatory unreported major-cloud experience makes it weaker than the two frontend leads."
+    },
+    {
+      "id": "coreheight-senior-frontend-reserve",
+      "company": "CoreHeight",
+      "title": "Senior Frontend Engineer",
+      "url": "https://www.coreheight.com/company/careers",
+      "classification": "reserve_insufficient_public_jd",
+      "eligibility": "confirmed_geography_only",
+      "location": "Remote anywhere Pakistan",
+      "salary": "PKR180,000–350,000/month",
+      "currentOpeningEvidence": "Official careers page lists this vacancy and email Apply route; HTTP200 captured.",
+      "fullJdReviewed": false,
+      "publicRequirementsComplete": false,
+      "requirements": [
+        {
+          "text": "At least four years of experience",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience"
+          ],
+          "factIds": [
+            "danzee_components",
+            "tututor_scope"
+          ],
+          "rationale": "Jan2022–present spans four-plus calendar years; overlapping roles not summed."
+        },
+        {
+          "text": "React18 and TypeScript for complex interfaces",
+          "assessment": "partially_supported",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "factIds": [
+            "danzee_components",
+            "danzee_jurri"
+          ],
+          "rationale": "React and TypeScript are documented; exact React18 usage/version history is not."
+        },
+        {
+          "text": "Enterprise dashboards with real-time updates",
+          "assessment": "supported_by_related_work",
+          "evidenceIds": [
+            "ev-analytics",
+            "ev-integration"
+          ],
+          "factIds": [
+            "illume",
+            "tututor_platform"
+          ],
+          "rationale": "Illume dashboards and Socket.io/Redis messaging support relevant work, but the employer has not provided a full definition of required scope."
+        }
+      ],
+      "degree": "Unstated in short summary; cannot treat as cleared without full requirements.",
+      "application": {
+        "kind": "email",
+        "publishedEmail": "careers@coreheight.com",
+        "publishedSubject": "Senior Frontend Engineer",
+        "questions": [],
+        "publicFormFound": false,
+        "note": "Apply link resolves to a Cloudflare-protected mailto. Decoded published address and subject from preserved HTML; no email composed/sent. Newsletter form is not an application form."
+      },
+      "publicReferralRoutes": [
+        {
+          "name": "Farrukh Shahid",
+          "role": "Co-Founder & Co-CEO",
+          "publishedEmail": "farrukh@coreheight.com",
+          "sourceUrl": "https://www.coreheight.com/company/leadership",
+          "note": "Email appears in official public leadership page. LinkedIn link is generic linkedin.com; no verified individual profile or personal relationship."
+        },
+        {
+          "name": "Muhammad Ahsan",
+          "role": "Co-Founder & Co-CEO",
+          "publishedEmail": "ahsan@coreheight.com",
+          "sourceUrl": "https://www.coreheight.com/company/leadership",
+          "note": "Email appears in official public leadership page. LinkedIn link is generic linkedin.com; no verified individual profile or personal relationship."
+        }
+      ],
+      "missingAnswers": [
+        "Complete role responsibilities and must-have requirements",
+        "Whether degree/English/testing/cloud requirements exist",
+        "Employment terms and regular schedule",
+        "Exact React version experience if material"
+      ],
+      "recommendation": "Reserve only. Obtain a full JD before fit scoring, tailoring, or an application.",
+      "applicationReady": false,
+      "fit": "unknown"
+    }
+  ],
+  "excluded": [
+    {
+      "company": "HighLevel",
+      "title": "Full Stack Builder (Team of One)",
+      "url": "https://jobs.lever.co/gohighlevel/ce928065-f2cf-4412-a5e7-32677e6f4e4b",
+      "reason": "Actual ATS header says India / Employee India / Remote. Generic work-anywhere benefits do not override India employment location.",
+      "sourceIds": [
+        "highlevel-fullstack"
+      ]
+    },
+    {
+      "company": "Chili Piper",
+      "title": "Engineering search",
+      "url": "https://jobs.ashbyhq.com/chilipiper",
+      "reason": "Current official Ashby board contains Events Marketing Manager and General Interest only. A legacy frontend advertisement is not a verified current opening.",
+      "sourceIds": [
+        "chilipiper-board"
+      ]
+    },
+    {
+      "company": "Supabase",
+      "title": "Frontend Engineer",
+      "url": "https://jobs.ashbyhq.com/supabase/f048dd68-63f8-4f98-9860-3d5a43c09a01",
+      "reason": "Search indexed a relevant description, but current public page state has organization/posting/jobBoard null. Current vacancy and form could not be verified; not counted.",
+      "sourceIds": [
+        "supabase-frontend"
+      ]
+    },
+    {
+      "company": "QTO Dev",
+      "title": "Senior Frontend Engineer",
+      "url": "https://qtodev.com/careers",
+      "reason": "Pakistan remote policy fits, but SSR/SSG/caching and written English remain unconfirmed. This pass captured four full requirements in public Next data but not the actual final form, so not counted as a fully inspected stronger lead.",
+      "sourceIds": [
+        "qtodev-careers"
+      ]
+    },
+    {
+      "company": "Buffer",
+      "url": "https://buffer.com/journey",
+      "reason": "Current board lists Senior Infrastructure Engineer; infrastructure specialty does not match supported candidate evidence.",
+      "sourceSnapshot": "buffer-board.html"
+    },
+    {
+      "company": "Ghost",
+      "url": "https://careers.ghost.org/",
+      "reason": "Board surfaced Staff Product Engineer. Not advanced as a better-supported new match; full JD not fully audited here.",
+      "sourceSnapshot": "ghost-board.html"
+    },
+    {
+      "company": "Todoist / Doist",
+      "url": "https://www.todoist.com/careers",
+      "reason": "No current role validated from the reviewed public board; no vacancy invented.",
+      "sourceSnapshot": "todoist-board.html"
+    },
+    {
+      "company": "Float",
+      "url": "https://www.float.com/careers",
+      "reason": "No matching current role validated from the reviewed board embed; no vacancy invented.",
+      "sourceSnapshot": "float-board.html"
+    }
+  ],
+  "sourceManifest": "all-source-manifest.json",
+  "childFindings": "agent-new/research.json",
+  "validation": {
+    "sourceHashesVerified": 20,
+    "factsJsonPointersVerified": 32,
+    "deduplication": [
+      {
+        "path": "docs/jobs/research/consolidated-2026-10-15.json",
+        "sha256": "fc610e07762bac26c5d80fce011482792c21564f4d5c211721868aae3d37a320",
+        "companyOrUrlOverlap": []
+      },
+      {
+        "path": ".job-search/import/workspace-actions.json",
+        "sha256": "44349f09ef8296c64842c426ee3c11029b9b7a7f3947f8874651484f9c49561e",
+        "companyOrUrlOverlap": []
+      },
+      {
+        "path": ".job-search/import/new-leads-kanban.json",
+        "sha256": "9e0ebf4dfb67c3076d2e780d78991add55654475b980f2a13a30d6e1f27f0c39",
+        "companyOrUrlOverlap": []
+      },
+      {
+        "path": ".job-search/import/reviewed-preview-readiness.json",
+        "sha256": "1bfb43325eee1abf3e30e08ae68915d6b8b9d15e0a5f3d87fa5d2b0cd759eeca",
+        "companyOrUrlOverlap": []
+      },
+      {
+        "path": ".job-search/heartbeat/workspace-2026-10-16.json",
+        "sha256": "dba75f50e7e443433d1372c9bf928091f85231dd2eca0a6045eabc42a297c77d",
+        "companyOrUrlOverlap": []
+      }
+    ],
+    "candidateFactsUnchanged": true
+  },
+  "counts": {
+    "shortlisted": 2,
+    "strongTechnicalFit": 1,
+    "unknownTechnicalFit": 1,
+    "applicationReady": 0,
+    "reservesNotShortlisted": 2,
+    "excludedOrNotAdvanced": 8
+  }
+}

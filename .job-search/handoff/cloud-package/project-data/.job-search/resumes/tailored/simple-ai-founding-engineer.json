@@ -1,0 +1,21 @@
+{
+  "focus": "ai_product",
+  "slug": "simple-ai-founding-engineer",
+  "projects": [
+    "viloi",
+    "illume"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_ai",
+      "tututor_leadership",
+      "tututor_platform",
+      "tututor_backend",
+      "tututor_scope"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

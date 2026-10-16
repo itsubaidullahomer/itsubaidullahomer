@@ -1,0 +1,22 @@
+{
+  "focus": "frontend",
+  "slug": "whippy-frontend",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_platform",
+      "tututor_leadership",
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_export"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

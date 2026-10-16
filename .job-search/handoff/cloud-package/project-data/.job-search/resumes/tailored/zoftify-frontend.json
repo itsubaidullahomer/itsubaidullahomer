@@ -1,0 +1,21 @@
+{
+  "focus": "frontend",
+  "slug": "zoftify-frontend",
+  "projects": [
+    "yaksport",
+    "viloi",
+    "illume"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_leadership",
+      "tututor_ai"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

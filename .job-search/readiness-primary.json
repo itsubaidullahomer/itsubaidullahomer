@@ -1,0 +1,1344 @@
+{
+  "researchedAt": "2026-10-15T15:38:53.057205Z",
+  "jobs": [
+    {
+      "jobId": "tether-frontend-desktop",
+      "company": "Tether / Holepunch",
+      "title": "Frontend Desktop Engineer (100% remote - Worldwide)",
+      "jobUrl": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide",
+      "finalApplyUrl": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide",
+      "verifiedAt": "2026-10-15T15:38:53.057205Z",
+      "availability": {
+        "status": "live_official_job_and_application_form",
+        "lastSuccessfulVerification": "2026-10-15T15:38:53.057205Z",
+        "publishedAt": "2026-10-12",
+        "publicationNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "sources": [
+          {
+            "url": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide",
+            "capturedAt": "2026-10-15T15:38:53.057205Z",
+            "method": "Current official page read using web tool"
+          }
+        ]
+      },
+      "candidateFactsSource": ".job-search/resumes/masters/facts.json",
+      "evidencePolicy": "Candidate-provided facts, not independent employer verification. Do not add skills, durations, salary or legal claims not in facts.json.",
+      "eligibility": {
+        "geography": "Pakistan explicitly advertised",
+        "degree": "No degree requirement in current job or form",
+        "workAuthorization": "No separate authorization question shown; do not infer citizenship"
+      },
+      "salary": {
+        "employerRange": null,
+        "candidateExpectationKnown": false,
+        "requiredQuestion": "Expected annual amount in USD; candidate has not supplied an amount."
+      },
+      "specialCommitments": [
+        "Fully remote global team; strong English communication.",
+        "Salary expectation and any contract terms require candidate confirmation."
+      ],
+      "aiAnswerPolicy": {
+        "status": "explicit_ai_authored_answers_prohibited",
+        "sourceUrl": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide",
+        "action": "Candidate must personally author all application responses. Do not generate or submit AI-written answers."
+      },
+      "requirements": [
+        {
+          "requirement": "Production React/TypeScript and Redux-like state",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0",
+              "factId": "frontend_skills",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/0",
+              "factId": "danzee_components",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        },
+        {
+          "requirement": "Maintainable code, frontend testing and debugging",
+          "assessment": "partially_supported",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/1",
+              "factId": "danzee_jurri",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/5",
+              "factId": "tututor_export",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": "Golden export tests do not establish complex frontend testing depth."
+        },
+        {
+          "requirement": "P2P or distributed-systems interest/experience",
+          "assessment": "not_established",
+          "evidence": [],
+          "missingFact": "Candidate must personally state actual interest/experience."
+        },
+        {
+          "requirement": "Remote collaboration and performance care",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/4",
+              "factId": "tututor_leadership",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/1",
+              "factId": "danzee_jurri",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "questionSummary": "Applicant name",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/name"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Email",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/email"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Telephone",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/phone"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Tailored resume file",
+          "required": true,
+          "answerStatus": "tailoring_required",
+          "answerSource": null,
+          "notes": "Save the exact job-specific resume version before any submission."
+        },
+        {
+          "questionSummary": "LinkedIn URL",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/linkedin"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "GitHub URL",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/github"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Country where work will be performed",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/location"
+          },
+          "notes": "Known country is Pakistan; use exact current city when requested."
+        },
+        {
+          "questionSummary": "Optional cover letter",
+          "required": false,
+          "answerStatus": "candidate_authored_only",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Personal reasons for choosing Tether",
+          "required": true,
+          "answerStatus": "candidate_authored_only",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Expected annual USD pay",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "React/Preact plus JS/TS duration category",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": "React chronology supports 4+ years; exact TypeScript/combined category duration is not dated."
+        },
+        {
+          "questionSummary": "State-management duration category",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Electron/Tauri or comparable desktop duration category",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "P2P/distributed-systems experience category",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Preferred advertised work location",
+          "required": true,
+          "answerStatus": "needs_candidate_confirmation",
+          "answerSource": null,
+          "notes": "Pakistan option is Islamabad, while actual residence is Rahim Yar Khan. Do not claim residence in Islamabad."
+        }
+      ],
+      "missingFacts": [
+        "Candidate-authored motivation and all responses due employer policy",
+        "Annual USD salary expectation",
+        "Precise TypeScript and state-management durations",
+        "Desktop runtime experience, if any",
+        "P2P/distributed-systems interest or experience",
+        "Frontend test examples",
+        "Preference among listed work-location offices versus actual home city"
+      ],
+      "readiness": {
+        "applicationReady": false,
+        "stage": "candidate_authored_answers_required",
+        "reason": "Employer explicitly prohibits AI-written application answers, plus missing salary and experience details."
+      },
+      "resume": {
+        "variant": "frontend",
+        "exactTailoredVersion": null,
+        "status": "not_yet_created_for_this_job"
+      },
+      "requirementAssessmentUpdates": [
+        {
+          "id": "tether-frontend-desktop-r1",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "React, TypeScript and Redux Toolkit are reported in master facts; exact year counts remain unknown."
+        },
+        {
+          "id": "tether-frontend-desktop-r2",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-performance",
+            "ev-testing"
+          ],
+          "explanation": "Performance and export tests are reported, but frontend testing/debugging depth is only partially supported."
+        },
+        {
+          "id": "tether-frontend-desktop-r3",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "No personal P2P interest or relevant project is established by facts.json."
+        }
+      ],
+      "submitted": false,
+      "outreachSent": false
+    },
+    {
+      "jobId": "tether-mobile-pk-2784265",
+      "company": "Tether / Holepunch",
+      "title": "Mobile Engineer - React Native (100% Remote)",
+      "jobUrl": "https://careers.tether.io/o/mobile-engineer-react-native-100-remote-3",
+      "finalApplyUrl": "https://careers.tether.io/o/mobile-engineer-react-native-100-remote-3",
+      "verifiedAt": "2026-10-15T15:38:53.057205Z",
+      "availability": {
+        "status": "live_official_job_and_application_form",
+        "lastSuccessfulVerification": "2026-10-15T15:38:53.057205Z",
+        "publishedAt": "2026-10-14",
+        "publicationNote": "Original employer/ATS timestamp; may be an evergreen requisition, not a new vacancy.",
+        "sources": [
+          {
+            "url": "https://careers.tether.io/o/mobile-engineer-react-native-100-remote-3",
+            "capturedAt": "2026-10-15T15:38:53.057205Z",
+            "method": "Current official page read using web tool"
+          }
+        ]
+      },
+      "candidateFactsSource": ".job-search/resumes/masters/facts.json",
+      "evidencePolicy": "Candidate-provided facts, not independent employer verification. Do not add skills, durations, salary or legal claims not in facts.json.",
+      "eligibility": {
+        "geography": "Remote role explicitly lists Lahore, Pakistan; candidate works from Rahim Yar Khan, so confirm any city-specific condition.",
+        "degree": "No degree requirement in current job or form",
+        "workAuthorization": "No separate authorization question shown; do not infer citizenship"
+      },
+      "salary": {
+        "employerRange": null,
+        "candidateExpectationKnown": false,
+        "requiredQuestion": "Expected annual amount in USD; candidate has not supplied an amount."
+      },
+      "specialCommitments": [
+        "Fully remote global team; strong English communication.",
+        "Salary expectation and any contract terms require candidate confirmation."
+      ],
+      "aiAnswerPolicy": {
+        "status": "explicit_ai_authored_answers_prohibited",
+        "sourceUrl": "https://careers.tether.io/o/mobile-engineer-react-native-100-remote-3",
+        "action": "Candidate must personally author all application responses. Do not generate or submit AI-written answers."
+      },
+      "requirements": [
+        {
+          "requirement": "Production React Native apps",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/3",
+              "factId": "tututor_platform",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0",
+              "factId": "frontend_skills",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        },
+        {
+          "requirement": "Redux and Redux-Saga",
+          "assessment": "partially_supported",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0",
+              "factId": "frontend_skills",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": "Redux Toolkit is listed; Redux-Saga is not established."
+        },
+        {
+          "requirement": "JavaScript, REST/WebSockets and remote delivery",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/1",
+              "factId": "tututor_backend",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/3",
+              "factId": "tututor_platform",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/4",
+              "factId": "tututor_leadership",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        },
+        {
+          "requirement": "Native features, mobile performance, tests and CI",
+          "assessment": "partially_supported",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/3",
+              "factId": "tututor_platform",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": "Native API ownership, mobile CI/testing, Expo and performance profiling need examples."
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "questionSummary": "Applicant name",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/name"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Email",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/email"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Telephone",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/phone"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Tailored resume file",
+          "required": true,
+          "answerStatus": "tailoring_required",
+          "answerSource": null,
+          "notes": "Save the exact job-specific resume version before any submission."
+        },
+        {
+          "questionSummary": "LinkedIn URL",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/linkedin"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "GitHub URL",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/github"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Country where work will be performed",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/location"
+          },
+          "notes": "Known country is Pakistan; use exact current city when requested."
+        },
+        {
+          "questionSummary": "Optional cover letter",
+          "required": false,
+          "answerStatus": "candidate_authored_only",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Personal reasons for choosing Tether",
+          "required": true,
+          "answerStatus": "candidate_authored_only",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Expected annual USD pay",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Duration of React Native cross-platform desktop work",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": "The form says desktop applications, even though the role is mobile. Do not silently reinterpret."
+        },
+        {
+          "questionSummary": "Duration of React/Redux cross-platform desktop work",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Duration of JavaScript/Node cross-platform desktop work",
+          "required": true,
+          "answerStatus": "missing",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Explain React fetching, Redux storage and rendering",
+          "required": true,
+          "answerStatus": "candidate_authored_only",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Recent project, challenges and solutions",
+          "required": true,
+          "answerStatus": "candidate_authored_only",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "A useful overlooked tool and personal reason",
+          "required": true,
+          "answerStatus": "candidate_authored_only",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Experience with decentralized systems, DHTs or distributed databases",
+          "required": true,
+          "answerStatus": "candidate_authored_only",
+          "answerSource": null,
+          "notes": ""
+        }
+      ],
+      "missingFacts": [
+        "Candidate-authored answers required by employer policy",
+        "Annual salary expectation in USD",
+        "Actual Redux-Saga knowledge",
+        "Exact mobile versus desktop experience durations; form wording is inconsistent",
+        "Decentralized/P2P experience or interest",
+        "Mobile test/CI/native-feature examples",
+        "Confirm remote work from Rahim Yar Khan despite Lahore listing"
+      ],
+      "readiness": {
+        "applicationReady": false,
+        "stage": "candidate_authored_answers_required",
+        "reason": "Employer explicitly prohibits AI-written application answers, plus missing salary and experience details."
+      },
+      "resume": {
+        "variant": "full_stack_mobile",
+        "exactTailoredVersion": null,
+        "status": "not_yet_created_for_this_job"
+      },
+      "requirementAssessmentUpdates": [
+        {
+          "id": "tether-mobile-pk-2784265-r1",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-mobile"
+          ],
+          "explanation": "Three React Native apps released on both stores are reported in facts.json; candidate-provided evidence, not independent verification."
+        },
+        {
+          "id": "tether-mobile-pk-2784265-r2",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "Redux Toolkit is reported; Redux-Saga is not established."
+        },
+        {
+          "id": "tether-mobile-pk-2784265-r3",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration",
+            "ev-remote"
+          ],
+          "explanation": "Shared API platform, Socket.io/Redis and remote engineering work are reported in facts.json."
+        }
+      ],
+      "submitted": false,
+      "outreachSent": false
+    },
+    {
+      "jobId": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "company": "Metabase",
+      "title": "Software Engineer (Frontend)",
+      "jobUrl": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "finalApplyUrl": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9/apply",
+      "verifiedAt": "2026-10-15T15:38:53.057205Z",
+      "availability": {
+        "status": "live_official_job_and_application_form",
+        "lastSuccessfulVerification": "2026-10-15T15:38:53.057205Z",
+        "publishedAt": null,
+        "publicationNote": "Lever createdAt is 2020-05-11; creation time is not evidence of a newly published vacancy.",
+        "sources": [
+          {
+            "url": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+            "capturedAt": "2026-10-15T15:38:53.057205Z",
+            "method": "Current official page read using web tool"
+          },
+          {
+            "url": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9/apply",
+            "capturedAt": "2026-10-15T15:38:53.057205Z",
+            "method": "Current Lever application form read without filling or submitting"
+          }
+        ]
+      },
+      "candidateFactsSource": ".job-search/resumes/masters/facts.json",
+      "evidencePolicy": "Candidate-provided facts, not independent employer verification. Do not add skills, durations, salary or legal claims not in facts.json.",
+      "eligibility": {
+        "geography": "Employer explicitly advertises global remote and location flexibility; Pakistan payroll/contract mechanism not specified.",
+        "degree": "Employer explicitly does not require a specific degree or accolade.",
+        "workAuthorization": "US E-Verify wording applies only to US hires; do not misapply it to Pakistan."
+      },
+      "salary": {
+        "employerRange": "USD110000–210000 annually is explicitly the US base range only; other locations vary.",
+        "candidateExpectationKnown": false,
+        "salaryQuestionOnForm": false
+      },
+      "specialCommitments": [
+        "Asynchronous global work; no fixed US-hour commitment stated in captured listing.",
+        "Complex existing React codebase; meaningful tests, code review and clear proposals."
+      ],
+      "aiAnswerPolicy": {
+        "status": "not_found_in_captured_form",
+        "action": "No policy conclusion beyond captured pages"
+      },
+      "requirements": [
+        {
+          "requirement": "Substantial React/Redux product delivery",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0",
+              "factId": "frontend_skills",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/0",
+              "factId": "danzee_components",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/0",
+              "factId": "tututor_scope",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        },
+        {
+          "requirement": "Performance and data structures",
+          "assessment": "partially_supported",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/1",
+              "factId": "danzee_jurri",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": "No specific data-structure work sample captured."
+        },
+        {
+          "requirement": "CSS, reusable interfaces and design systems",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0",
+              "factId": "frontend_skills",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/1/bullets/0",
+              "factId": "danzee_components",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        },
+        {
+          "requirement": "Tests, code review and clear technical proposals",
+          "assessment": "partially_supported",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/5",
+              "factId": "tututor_export",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/4",
+              "factId": "tututor_leadership",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": "Code-review examples and technical-proposal writing are not explicitly established."
+        },
+        {
+          "requirement": "Large existing JavaScript codebases",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/0",
+              "factId": "tututor_scope",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/1",
+              "factId": "tututor_backend",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        },
+        {
+          "requirement": "Optional D3/data visualization",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/0",
+              "factId": "illume",
+              "publicEvidenceUrl": "https://www.joinillume.com/",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        }
+      ],
+      "applicationQuestions": [
+        {
+          "questionSummary": "Tailored resume file",
+          "required": true,
+          "answerStatus": "tailoring_required",
+          "answerSource": null,
+          "notes": ""
+        },
+        {
+          "questionSummary": "Applicant name",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/name"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Email",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/email"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Current location",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/location"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "LinkedIn URL",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/linkedin"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "City and country",
+          "required": true,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/location"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Browser-console application code from the employer careers page",
+          "required": true,
+          "answerStatus": "manual_human_check",
+          "answerSource": null,
+          "notes": "Explicit robot-filter question. Not obtained or bypassed by this research; applicant should complete through the intended manual process."
+        },
+        {
+          "questionSummary": "Phone",
+          "required": false,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/phone"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Current company",
+          "required": false,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/experience/0/company"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "GitHub URL",
+          "required": false,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/github"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Other website",
+          "required": false,
+          "answerStatus": "known_from_facts",
+          "answerSource": {
+            "path": ".job-search/resumes/masters/facts.json",
+            "pointer": "/identity/website"
+          },
+          "notes": ""
+        },
+        {
+          "questionSummary": "Optional additional information",
+          "required": false,
+          "answerStatus": "tailoring_required",
+          "answerSource": null,
+          "notes": ""
+        }
+      ],
+      "missingFacts": [
+        "Manual employer robot-filter question",
+        "Concrete frontend test, code-review and technical-proposal examples",
+        "Exact tailored resume version",
+        "Employer-specific Pakistan contract/payroll terms are undisclosed; do not state them as guaranteed"
+      ],
+      "readiness": {
+        "applicationReady": false,
+        "stage": "promising_frontend_match_manual_check_and_evidence_review",
+        "reason": "Strong candidate-reported React/Redux/analytics overlap and no degree barrier; form has a required human check and evidence review remains."
+      },
+      "resume": {
+        "variant": "frontend",
+        "exactTailoredVersion": null,
+        "status": "not_yet_created_for_this_job"
+      },
+      "requirementAssessmentUpdates": [
+        {
+          "id": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9-r1",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-product"
+          ],
+          "explanation": "Supported by candidate-reported master resume facts; not independent verification."
+        },
+        {
+          "id": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9-r2",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-performance"
+          ],
+          "explanation": "No specific data-structure work sample captured."
+        },
+        {
+          "id": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9-r3",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Supported by candidate-reported master resume facts; not independent verification."
+        },
+        {
+          "id": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9-r4",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-testing",
+            "ev-product"
+          ],
+          "explanation": "Code-review examples and technical-proposal writing are not explicitly established."
+        },
+        {
+          "id": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9-r5",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-backend"
+          ],
+          "explanation": "Supported by candidate-reported master resume facts; not independent verification."
+        }
+      ],
+      "submitted": false,
+      "outreachSent": false
+    },
+    {
+      "jobId": "pavago-f280d10f6f",
+      "company": "Pavago",
+      "title": "AI Product Engineer (Full Stack)",
+      "jobUrl": "https://apply.workable.com/pavago/j/F280D10F6F/",
+      "finalApplyUrl": "https://apply.workable.com/pavago/j/F280D10F6F/",
+      "verifiedAt": "2026-10-15T15:38:53.057205Z",
+      "availability": {
+        "status": "earlier_today_published_latest_fetch_blocked",
+        "lastSuccessfulVerification": "2026-10-15T15:15:14.846570Z",
+        "lastAttemptedAt": "2026-10-15T15:38:53.057205Z",
+        "latestHttpStatus": 403,
+        "publishedAt": "2026-08-13T00:00:00.000Z",
+        "sources": [
+          {
+            "url": "https://apply.workable.com/api/v2/accounts/pavago/jobs/F280D10F6F",
+            "capturedAt": "2026-10-15T15:15:14.846570Z",
+            "method": "Current public employer Workable detail API state published; exact ID also present in current career widget."
+          }
+        ],
+        "limitations": "Latest HTTP requests returned403; browser inspection could not initialize due network policy service error. No workaround or bypass attempted."
+      },
+      "candidateFactsSource": ".job-search/resumes/masters/facts.json",
+      "evidencePolicy": "Candidate-provided facts, not independent employer verification. Do not add skills, durations, salary or legal claims not in facts.json.",
+      "eligibility": {
+        "geography": "Earlier current public ATS check explicitly identified Pakistan and remote=true.",
+        "degree": "No mandatory degree requirement found in earlier captured full role; current form unverified.",
+        "workAuthorization": "No claim beyond advertised Pakistan geography."
+      },
+      "salary": {
+        "employerRange": null,
+        "candidateExpectationKnown": false
+      },
+      "specialCommitments": [
+        "US working hours/overlap requires candidate commitment.",
+        "Agency/client contract, currency and salary are not yet established."
+      ],
+      "aiAnswerPolicy": {
+        "status": "unknown_form_not_accessible",
+        "action": "Do not assume AI-written responses permitted; recheck form before drafting answers."
+      },
+      "requirements": [
+        {
+          "requirement": "Full-stack product and production LLM integration",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/2",
+              "factId": "tututor_ai",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/1",
+              "factId": "tututor_backend",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/1",
+              "factId": "viloi",
+              "publicEvidenceUrl": "https://viloi.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        },
+        {
+          "requirement": "Backend architecture, auth and AI validation",
+          "assessment": "partially_supported",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/1",
+              "factId": "tututor_backend",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/1",
+              "factId": "viloi",
+              "publicEvidenceUrl": "https://viloi.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": "Concrete validation, failure-handling and guardrail examples needed."
+        },
+        {
+          "requirement": "US business-hour availability",
+          "assessment": "not_established",
+          "evidence": [],
+          "missingFact": "Immediate availability does not establish US schedule willingness."
+        }
+      ],
+      "applicationQuestions": [],
+      "missingFacts": [
+        "Reopen official form and inspect every required question",
+        "Salary expectation and contract terms",
+        "US-hour availability",
+        "Exact tailored resume version",
+        "Concrete validation, failure-handling and guardrail examples needed.",
+        "Immediate availability does not establish US schedule willingness."
+      ],
+      "readiness": {
+        "applicationReady": false,
+        "stage": "blocked_form_inspection_and_candidate_facts",
+        "reason": "Earlier live vacancy verification succeeded, but required application questions are unavailable and key schedule/technical facts are missing."
+      },
+      "resume": {
+        "variant": "ai_product",
+        "exactTailoredVersion": null,
+        "status": "not_yet_created_for_this_job"
+      },
+      "requirementAssessmentUpdates": [
+        {
+          "id": "pavago-f280d10f6f-r1",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-backend",
+            "ev-ai",
+            "ev-product"
+          ],
+          "explanation": "Master facts report full-stack production products and multiple LLM integrations."
+        },
+        {
+          "id": "pavago-f280d10f6f-r2",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Still missing: Concrete validation, failure-handling and guardrail examples needed."
+        },
+        {
+          "id": "pavago-f280d10f6f-r3",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Still missing: Immediate availability does not establish US schedule willingness."
+        }
+      ],
+      "submitted": false,
+      "outreachSent": false,
+      "finalApplyUrlStatus": "Verified employer vacancy entry; actual application form and final fields could not be inspected in this pass.",
+      "applicationQuestionsStatus": "unknown_form_not_accessible"
+    },
+    {
+      "jobId": "pavago-b27de28c51",
+      "company": "Pavago",
+      "title": "Full-Stack Developer — Sergio AI",
+      "jobUrl": "https://apply.workable.com/pavago/j/B27DE28C51/",
+      "finalApplyUrl": "https://apply.workable.com/pavago/j/B27DE28C51/",
+      "verifiedAt": "2026-10-15T15:38:53.057205Z",
+      "availability": {
+        "status": "earlier_today_published_latest_fetch_blocked",
+        "lastSuccessfulVerification": "2026-10-15T15:15:14.387175Z",
+        "lastAttemptedAt": "2026-10-15T15:38:53.057205Z",
+        "latestHttpStatus": 403,
+        "publishedAt": "2026-09-29T00:00:00.000Z",
+        "sources": [
+          {
+            "url": "https://apply.workable.com/api/v2/accounts/pavago/jobs/B27DE28C51",
+            "capturedAt": "2026-10-15T15:15:14.387175Z",
+            "method": "Current public employer Workable detail API state published; exact ID also present in current career widget."
+          }
+        ],
+        "limitations": "Latest HTTP requests returned403; browser inspection could not initialize due network policy service error. No workaround or bypass attempted."
+      },
+      "candidateFactsSource": ".job-search/resumes/masters/facts.json",
+      "evidencePolicy": "Candidate-provided facts, not independent employer verification. Do not add skills, durations, salary or legal claims not in facts.json.",
+      "eligibility": {
+        "geography": "Earlier current public ATS check explicitly identified Pakistan and remote=true.",
+        "degree": "No mandatory degree requirement found in earlier captured full role; current form unverified.",
+        "workAuthorization": "No claim beyond advertised Pakistan geography."
+      },
+      "salary": {
+        "employerRange": null,
+        "candidateExpectationKnown": false
+      },
+      "specialCommitments": [
+        "At least four daily hours overlapping US Eastern, full-time long-term contract.",
+        "Agency/client contract, currency and salary are not yet established."
+      ],
+      "aiAnswerPolicy": {
+        "status": "unknown_form_not_accessible",
+        "action": "Do not assume AI-written responses permitted; recheck form before drafting answers."
+      },
+      "requirements": [
+        {
+          "requirement": "Next/TypeScript, Stripe and LLM delivery",
+          "assessment": "supported_candidate_report",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0",
+              "factId": "frontend_skills",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/2",
+              "factId": "tututor_ai",
+              "publicEvidenceUrl": "https://tututor.ai",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            },
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/projects/1",
+              "factId": "viloi",
+              "publicEvidenceUrl": "https://viloi.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": ""
+        },
+        {
+          "requirement": "Production Postgres/RLS and end-to-end testing",
+          "assessment": "not_established",
+          "evidence": [],
+          "missingFact": "Master facts do not claim PostgreSQL, Supabase or production RLS expertise."
+        },
+        {
+          "requirement": "Four hours daily overlapping US Eastern",
+          "assessment": "not_established",
+          "evidence": [],
+          "missingFact": "Candidate has not committed to this overlap."
+        }
+      ],
+      "applicationQuestions": [],
+      "missingFacts": [
+        "Reopen official form and inspect every required question",
+        "Salary expectation and contract terms",
+        "US-hour availability",
+        "Exact tailored resume version",
+        "Master facts do not claim PostgreSQL, Supabase or production RLS expertise.",
+        "Candidate has not committed to this overlap."
+      ],
+      "readiness": {
+        "applicationReady": false,
+        "stage": "blocked_form_inspection_and_candidate_facts",
+        "reason": "Earlier live vacancy verification succeeded, but required application questions are unavailable and key schedule/technical facts are missing."
+      },
+      "resume": {
+        "variant": "ai_product",
+        "exactTailoredVersion": null,
+        "status": "not_yet_created_for_this_job"
+      },
+      "requirementAssessmentUpdates": [
+        {
+          "id": "pavago-b27de28c51-r1",
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-ai",
+            "ev-integration"
+          ],
+          "explanation": "Master facts report Next/TypeScript, Stripe subscriptions/webhooks and LLM integrations."
+        },
+        {
+          "id": "pavago-b27de28c51-r2",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Still missing: Master facts do not claim PostgreSQL, Supabase or production RLS expertise."
+        },
+        {
+          "id": "pavago-b27de28c51-r3",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Still missing: Candidate has not committed to this overlap."
+        }
+      ],
+      "submitted": false,
+      "outreachSent": false,
+      "finalApplyUrlStatus": "Verified employer vacancy entry; actual application form and final fields could not be inspected in this pass.",
+      "applicationQuestionsStatus": "unknown_form_not_accessible"
+    },
+    {
+      "jobId": "pavago-3ddacf04af",
+      "company": "Pavago",
+      "title": "Full-Stack Developer — client portal",
+      "jobUrl": "https://apply.workable.com/pavago/j/3DDACF04AF/",
+      "finalApplyUrl": "https://apply.workable.com/pavago/j/3DDACF04AF/",
+      "verifiedAt": "2026-10-15T15:38:53.057205Z",
+      "availability": {
+        "status": "earlier_today_published_latest_fetch_blocked",
+        "lastSuccessfulVerification": "2026-10-15T15:15:14.131853Z",
+        "lastAttemptedAt": "2026-10-15T15:38:53.057205Z",
+        "latestHttpStatus": 403,
+        "publishedAt": "2026-09-17T00:00:00.000Z",
+        "sources": [
+          {
+            "url": "https://apply.workable.com/api/v2/accounts/pavago/jobs/3DDACF04AF",
+            "capturedAt": "2026-10-15T15:15:14.131853Z",
+            "method": "Current public employer Workable detail API state published; exact ID also present in current career widget."
+          }
+        ],
+        "limitations": "Latest HTTP requests returned403; browser inspection could not initialize due network policy service error. No workaround or bypass attempted."
+      },
+      "candidateFactsSource": ".job-search/resumes/masters/facts.json",
+      "evidencePolicy": "Candidate-provided facts, not independent employer verification. Do not add skills, durations, salary or legal claims not in facts.json.",
+      "eligibility": {
+        "geography": "Earlier current public ATS check explicitly identified Pakistan and remote=true.",
+        "degree": "No mandatory degree requirement found in earlier captured full role; current form unverified.",
+        "workAuthorization": "No claim beyond advertised Pakistan geography."
+      },
+      "salary": {
+        "employerRange": null,
+        "candidateExpectationKnown": false
+      },
+      "specialCommitments": [
+        "US working hours/overlap requires candidate commitment.",
+        "Agency/client contract, currency and salary are not yet established."
+      ],
+      "aiAnswerPolicy": {
+        "status": "unknown_form_not_accessible",
+        "action": "Do not assume AI-written responses permitted; recheck form before drafting answers."
+      },
+      "requirements": [
+        {
+          "requirement": "React/TypeScript and Next App Router",
+          "assessment": "partially_supported",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/skills/0",
+              "factId": "frontend_skills",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": "Next.js is listed; App Router-specific work is not established."
+        },
+        {
+          "requirement": "SQL/Postgres migrations and RLS",
+          "assessment": "not_established",
+          "evidence": [],
+          "missingFact": "Master facts establish MongoDB, not PostgreSQL/RLS production depth."
+        },
+        {
+          "requirement": "Automated tests and US hours",
+          "assessment": "partially_supported",
+          "evidence": [
+            {
+              "path": ".job-search/resumes/masters/facts.json",
+              "pointer": "/experience/0/bullets/5",
+              "factId": "tututor_export",
+              "publicEvidenceUrl": "https://itsubaidullahomer.com",
+              "verification": "candidate_reported_not_independently_employer_verified"
+            }
+          ],
+          "missingFact": "Relevant end-to-end tests and US schedule willingness need confirmation."
+        }
+      ],
+      "applicationQuestions": [],
+      "missingFacts": [
+        "Reopen official form and inspect every required question",
+        "Salary expectation and contract terms",
+        "US-hour availability",
+        "Exact tailored resume version",
+        "Next.js is listed; App Router-specific work is not established.",
+        "Master facts establish MongoDB, not PostgreSQL/RLS production depth.",
+        "Relevant end-to-end tests and US schedule willingness need confirmation."
+      ],
+      "readiness": {
+        "applicationReady": false,
+        "stage": "blocked_form_inspection_and_candidate_facts",
+        "reason": "Earlier live vacancy verification succeeded, but required application questions are unavailable and key schedule/technical facts are missing."
+      },
+      "resume": {
+        "variant": "full_stack",
+        "exactTailoredVersion": null,
+        "status": "not_yet_created_for_this_job"
+      },
+      "requirementAssessmentUpdates": [
+        {
+          "id": "pavago-3ddacf04af-r1",
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "React/TypeScript/Next is supported, but App Router-specific work is not established."
+        },
+        {
+          "id": "pavago-3ddacf04af-r2",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Still missing: Master facts establish MongoDB, not PostgreSQL/RLS production depth."
+        },
+        {
+          "id": "pavago-3ddacf04af-r3",
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Still missing: Relevant end-to-end tests and US schedule willingness need confirmation."
+        }
+      ],
+      "submitted": false,
+      "outreachSent": false,
+      "finalApplyUrlStatus": "Verified employer vacancy entry; actual application form and final fields could not be inspected in this pass.",
+      "applicationQuestionsStatus": "unknown_form_not_accessible"
+    }
+  ]
+}

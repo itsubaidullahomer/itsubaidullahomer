@@ -1,0 +1,2154 @@
+{
+  "createdAt": "2026-10-16T05:58:43.515660+00:00",
+  "files": [
+    {
+      "path": "CLOUD-PROMPT.txt",
+      "bytes": 495,
+      "sha256": "75ee66ed3a5b7adb00a2a19650d915da1fa82862398e1c6cb39ab747f8592818"
+    },
+    {
+      "path": "READ-ME-FIRST.md",
+      "bytes": 4925,
+      "sha256": "ffe088db26aa6ed08cf530faf81ef599b0f6e55d511766d352d5735493979e76"
+    },
+    {
+      "path": "live-snapshot/documents.json",
+      "bytes": 10387,
+      "sha256": "ef14cda272f350e3c701f87acae5a63b6b387dc3aea41b74bc376dd4759d1d3d"
+    },
+    {
+      "path": "live-snapshot/submissions.json",
+      "bytes": 6736,
+      "sha256": "efc285d8b6dbd3560568f03bbab391178855debad9e0322e1fd04023d03cd9b8"
+    },
+    {
+      "path": "live-snapshot/workspace.json",
+      "bytes": 1870969,
+      "sha256": "346ce73571774a366289f811568934316fc33c42a38678cf19b777ca3776311c"
+    },
+    {
+      "path": "portal-source/.gitignore",
+      "bytes": 152,
+      "sha256": "c6511927173cab3ef847f0144e8f812948467b80bcf178561eecdb93dbf4b7bf"
+    },
+    {
+      "path": "portal-source/AGENTS.md",
+      "bytes": 679,
+      "sha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0"
+    },
+    {
+      "path": "portal-source/DECISIONS.md",
+      "bytes": 9858,
+      "sha256": "620a50aec9f9f39c16fdd83f91b48192ed964d2afb7d0ae176f305cb9fe4b97c"
+    },
+    {
+      "path": "portal-source/DESIGN.md",
+      "bytes": 2317,
+      "sha256": "fb01a42955b8f18846fc80984659749f24302b5c814d8b367c90e09477812868"
+    },
+    {
+      "path": "portal-source/README.md",
+      "bytes": 6160,
+      "sha256": "1d145f6d64015c70e202a474538655baed9b4fa1203520d7edbe2a9b22e1a4de"
+    },
+    {
+      "path": "portal-source/app/about/page.tsx",
+      "bytes": 4647,
+      "sha256": "d399122e5517ecffc86fe4bb71885cbfbc9dec5c756ffa94db25316a5bbe2168"
+    },
+    {
+      "path": "portal-source/app/admin/account/password/page.tsx",
+      "bytes": 1797,
+      "sha256": "7958f620a57a063b0aa0e734d7ab234bdf60eeca1f067e48693468a30d947c25"
+    },
+    {
+      "path": "portal-source/app/admin/auth/confirm/route.ts",
+      "bytes": 174,
+      "sha256": "d2ecb239b3f3e77b19633bc5cb84906c9ead0938c231b4167cc695f26b91d1d8"
+    },
+    {
+      "path": "portal-source/app/admin/auth/login/route.ts",
+      "bytes": 139,
+      "sha256": "46468a68e73ba7fbb3a9c5d1edb239397eb368f4dffbf396eb211e3f11a0b73a"
+    },
+    {
+      "path": "portal-source/app/admin/auth/logout/route.ts",
+      "bytes": 489,
+      "sha256": "3f81ab389ac5bc3acf2ab2dccdb9ca525845f6f6bc59b9f289f8bdf17ec77bc4"
+    },
+    {
+      "path": "portal-source/app/admin/auth/password/route.ts",
+      "bytes": 147,
+      "sha256": "ea33e357e41fe9981407531bce1bb8df5e9f809979930159c2f34be76769e701"
+    },
+    {
+      "path": "portal-source/app/admin/auth/request-code/route.ts",
+      "bytes": 138,
+      "sha256": "c89bebda872dea2fce09233732c24287b47ee427eb2655545abcb86b83219c41"
+    },
+    {
+      "path": "portal-source/app/admin/auth/verify/route.ts",
+      "bytes": 137,
+      "sha256": "ec1fbbbfd9560c6a367718d3ab63fe45b6c7015ec89c1eb2a55625c63dfeed96"
+    },
+    {
+      "path": "portal-source/app/admin/jobs.css",
+      "bytes": 44409,
+      "sha256": "bb569ba464ef14873617b88cd10981941635fe15f6c7652e552df7ee9d697f10"
+    },
+    {
+      "path": "portal-source/app/admin/layout.tsx",
+      "bytes": 315,
+      "sha256": "ca9fbf9078fcbcb3d344ec74fed7f71a3309b340c2dc2f8e58c4660643b645c6"
+    },
+    {
+      "path": "portal-source/app/admin/login/page.tsx",
+      "bytes": 4225,
+      "sha256": "0cc6617b40fe8762dc582515b720cdca40184e5a6592e9477460159762ae27db"
+    },
+    {
+      "path": "portal-source/app/admin/page.tsx",
+      "bytes": 2226,
+      "sha256": "95723bf07e8e294e416beb578303674b353ae2b79a25a626f67894bf40ca3833"
+    },
+    {
+      "path": "portal-source/app/admin/preview/page.tsx",
+      "bytes": 341,
+      "sha256": "51c115d824a3e47c8823544b8bf6bae42debabccb1de6a173812e76ee5dd0842"
+    },
+    {
+      "path": "portal-source/app/api/avatar/chat/route.ts",
+      "bytes": 2823,
+      "sha256": "2c239ce385c9feba7f4200e4872605e845d99597bed838eaf6d51a896e035627"
+    },
+    {
+      "path": "portal-source/app/api/avatar/decart-token/route.ts",
+      "bytes": 758,
+      "sha256": "2d2a328b3a6b411540f1633e5bddc7280bd6ec818b4c98cbe37ae7c7dc9fb138"
+    },
+    {
+      "path": "portal-source/app/api/avatar/end/route.ts",
+      "bytes": 628,
+      "sha256": "82a4100c47f7d1da2a939dd16671f2674187dd391a637f4014005820fdb84961"
+    },
+    {
+      "path": "portal-source/app/api/avatar/token/route.ts",
+      "bytes": 1950,
+      "sha256": "7430053d59d592cd8c914f231858c6a9ac07f54c60f7aa668c4e335d2d1d3579"
+    },
+    {
+      "path": "portal-source/app/api/chatgpt/callback/route.ts",
+      "bytes": 4359,
+      "sha256": "3a023fcd1623c4b8d3d66a62dc5f26b5ede02ee4650a45bfbb8c9269bd613131"
+    },
+    {
+      "path": "portal-source/app/api/chatgpt/chat/route.ts",
+      "bytes": 6782,
+      "sha256": "a779225baf9574d167809cfce5cfde27a89622a78a0655893f37c3ead4bbe55b"
+    },
+    {
+      "path": "portal-source/app/api/chatgpt/session/route.ts",
+      "bytes": 2761,
+      "sha256": "b02deedd9a65d0f7761d6c107616f72a9d4434b6246ec2afdd183a7027238449"
+    },
+    {
+      "path": "portal-source/app/api/chatgpt/start/route.ts",
+      "bytes": 1888,
+      "sha256": "05539ebcaeed70ff9ec7cbdf577dbdb7edb6e298244e0d67a29ea95462faa6a1"
+    },
+    {
+      "path": "portal-source/app/api/jobs/discover/route.ts",
+      "bytes": 832,
+      "sha256": "5f47951f2990319fd08367b94a1ed209e99f361d5bf37792fc2120d2664ff07c"
+    },
+    {
+      "path": "portal-source/app/api/jobs/documents/[id]/route.ts",
+      "bytes": 1609,
+      "sha256": "437ed37b7d8250db11a07643aec30f98377faab24ea690092cbab9ac10f4b578"
+    },
+    {
+      "path": "portal-source/app/api/jobs/documents/route.ts",
+      "bytes": 4098,
+      "sha256": "588fa7cd76d76041db51f2fcd19a3793457ed2a90475a4cb404bc05bdfb34932"
+    },
+    {
+      "path": "portal-source/app/api/jobs/submissions/route.ts",
+      "bytes": 4935,
+      "sha256": "8974c134608fff9fa44907a2d6ce62b6347c394e72b5ad20e7713926c316cd78"
+    },
+    {
+      "path": "portal-source/app/api/jobs/workspace/route.ts",
+      "bytes": 649,
+      "sha256": "72583b1245a1a628597b5c057ffd36a979ede02c7667669d67aa6bd6daeba301"
+    },
+    {
+      "path": "portal-source/app/api/og/route.tsx",
+      "bytes": 1852,
+      "sha256": "8cef54a31fb3d3195ae1040febc0faab69116e9b7225ccd7d44f6be3a08eeb6e"
+    },
+    {
+      "path": "portal-source/app/compare-slider.css",
+      "bytes": 6048,
+      "sha256": "0433a687840b51f59c06420708b04a435a53eecca43294cf8da6bd065c49eefd"
+    },
+    {
+      "path": "portal-source/app/contact/page.tsx",
+      "bytes": 1905,
+      "sha256": "bb5a886688a385f69e228861da8fa0424f595ce08e3f59faa2d6fcfea99e7acc"
+    },
+    {
+      "path": "portal-source/app/experiment-art.css",
+      "bytes": 18400,
+      "sha256": "b237e2083f92cc042dc2ce0fb2aa2f021ea6affcb011df325d87387915e6964f"
+    },
+    {
+      "path": "portal-source/app/globals.css",
+      "bytes": 56134,
+      "sha256": "6471a534718d0fbaeb19cd1b3551c9db0d0a619313a16866c3060d620917a818"
+    },
+    {
+      "path": "portal-source/app/hero-art.css",
+      "bytes": 8525,
+      "sha256": "3bdcf5de6e6704f06a7108cdaade64d0604035f2108f631d3d9d7875cb1a1f66"
+    },
+    {
+      "path": "portal-source/app/icon.svg",
+      "bytes": 259,
+      "sha256": "de2d2f958085150c5ca9fcf12b21dc4b924af95ddf21c561437ec5a26f93640d"
+    },
+    {
+      "path": "portal-source/app/layout.tsx",
+      "bytes": 2830,
+      "sha256": "f53ea7cb88d680028f5e2ed92256b08a04aec77217c12753216f47b3970b724d"
+    },
+    {
+      "path": "portal-source/app/mobile-card-details.css",
+      "bytes": 5791,
+      "sha256": "060277e9fd362a19329f4b059ebe392ee61c9852b710f72b752f9e1e94eefe0e"
+    },
+    {
+      "path": "portal-source/app/not-found.tsx",
+      "bytes": 372,
+      "sha256": "2a37d1136228abccb346f82fb2672090396e1fad6528aa5cc3b884d80fc664cc"
+    },
+    {
+      "path": "portal-source/app/now/page.tsx",
+      "bytes": 4300,
+      "sha256": "69420df33592f4145c58237ce8dd2dcdd90f1000d6d14d9ff197d9d21f5613ed"
+    },
+    {
+      "path": "portal-source/app/page.tsx",
+      "bytes": 3419,
+      "sha256": "ed4ee537679e183d4c21c16353d266a53a0068f4870e286df111df2c22f3c1be"
+    },
+    {
+      "path": "portal-source/app/playground/page.tsx",
+      "bytes": 2469,
+      "sha256": "2558e54f6ecd07f3e37e7abd806661df66d7d922f1f4189c1f2f3142a4a51ec6"
+    },
+    {
+      "path": "portal-source/app/process-art.css",
+      "bytes": 6837,
+      "sha256": "cd8e9fb0de092846f0b15bfef3885a2ac07f548b5acbcd3def4348791adba1cc"
+    },
+    {
+      "path": "portal-source/app/product-showcase.css",
+      "bytes": 8849,
+      "sha256": "8e030caab759edd1c4f0f7f538531ff518c32851fd6bbe9e625e899eedda354c"
+    },
+    {
+      "path": "portal-source/app/robots.ts",
+      "bytes": 315,
+      "sha256": "de58e8e0006b4ffe0200e12703648326f4a53358569fd3410936c48b4ae299af"
+    },
+    {
+      "path": "portal-source/app/service-art.css",
+      "bytes": 11933,
+      "sha256": "657c2c476d4b68471360dbd7b73e8a160503fd267272fadf79c471dee374b18b"
+    },
+    {
+      "path": "portal-source/app/sitemap.ts",
+      "bytes": 818,
+      "sha256": "e5b3864afb6ebcee76cc43feec59491c45e27bd6da1aba72e5fc00a58ee17910"
+    },
+    {
+      "path": "portal-source/app/tututor-showcase.css",
+      "bytes": 21045,
+      "sha256": "529dfe5aeb84d8486a82cff168d722c1f946ab92357034eb8c8d8fc8da163dba"
+    },
+    {
+      "path": "portal-source/app/work/[slug]/page.tsx",
+      "bytes": 3696,
+      "sha256": "23779ec0bfa431fbcf236113a1ca1d72034a26eb72f2fc970035181048d9b5dd"
+    },
+    {
+      "path": "portal-source/app/work/page.tsx",
+      "bytes": 1321,
+      "sha256": "503dffff4f110124fa1d089c31b01cbfbea222cc4ec4ac84ebe0a532104aa95d"
+    },
+    {
+      "path": "portal-source/app/writing/[slug]/page.tsx",
+      "bytes": 2229,
+      "sha256": "eada9ba0a7d57697e8c9207a67dd7ae06d3795813775805af646db957e83147a"
+    },
+    {
+      "path": "portal-source/app/writing/page.tsx",
+      "bytes": 1438,
+      "sha256": "7edf789e4792ef12fe7049f6bb1c72d79fa4132622e13507fce2602172e9d965"
+    },
+    {
+      "path": "portal-source/assets/activity-dark.svg",
+      "bytes": 30487,
+      "sha256": "2f98559cd18f2d17aea69c80049a6e500a59a6d0b7549ebfbfcd679dfeceb12c"
+    },
+    {
+      "path": "portal-source/assets/activity-light.svg",
+      "bytes": 30487,
+      "sha256": "b64b00fb758ffe32a3d2c74b623ae648630527b09bd613fbf0a42fede1124f26"
+    },
+    {
+      "path": "portal-source/assets/avatar/ubaid-v1/identity.json",
+      "bytes": 7433,
+      "sha256": "1a4491d0bdc85c199e478b631e43a47e755995c4b7f65b087be7ab1407ebef9a"
+    },
+    {
+      "path": "portal-source/assets/avatar/ubaid-v1/master.png",
+      "bytes": 1447045,
+      "sha256": "7f89135c5f719b83b9e5d1b895f39f93a8344937fb95ff54e8e93f005e1c674b"
+    },
+    {
+      "path": "portal-source/assets/dot-down.svg",
+      "bytes": 228,
+      "sha256": "f122b91a6973c082deeb0dfe6847db7c183b5f1bbdf2885e3724405d2a666a4b"
+    },
+    {
+      "path": "portal-source/assets/dot-unknown.svg",
+      "bytes": 239,
+      "sha256": "56e57ca75955e1771d8fa661199666341bbf99d01ed6e6f227c76ac2948c2711"
+    },
+    {
+      "path": "portal-source/assets/dot-up.svg",
+      "bytes": 226,
+      "sha256": "2df3defb11f24decde59086606b61352e6d992c17e3fbf33bb2d8c95a410072b"
+    },
+    {
+      "path": "portal-source/components/avatar-session.tsx",
+      "bytes": 16986,
+      "sha256": "a24edbef1820100f903aba703109aab799edcee5025034040017e450651ca4ec"
+    },
+    {
+      "path": "portal-source/components/avatar-visual.tsx",
+      "bytes": 924,
+      "sha256": "3f7e903db1e44043a82c2ab231c2473207e8f146d8ece3a179aecacd68c6f301"
+    },
+    {
+      "path": "portal-source/components/avatar.tsx",
+      "bytes": 2740,
+      "sha256": "1572ae1f476922916c1e1e16505394672f8083d9970a6f6a73b4e1e3b4db1b56"
+    },
+    {
+      "path": "portal-source/components/booking.tsx",
+      "bytes": 307,
+      "sha256": "0e779b68bdadfab96269d000022e4a04acf9183e4abd36c99bcccb94933d9c87"
+    },
+    {
+      "path": "portal-source/components/chatgpt-conversation.tsx",
+      "bytes": 24251,
+      "sha256": "c18c9ee44e21b55e748909966e723181c046b891f7f4d38bb61d56e9b8cf267c"
+    },
+    {
+      "path": "portal-source/components/compare-slider.tsx",
+      "bytes": 6219,
+      "sha256": "39798938d3607bddec515910f1a6c43a47fe5162748a096e720187f3a4c25529"
+    },
+    {
+      "path": "portal-source/components/experiment-visuals.tsx",
+      "bytes": 3389,
+      "sha256": "0ec81fdea5129451ef17f2b02f3f6d9995ae34d64cc2302d13ec899125b9abbb"
+    },
+    {
+      "path": "portal-source/components/hero-stage.tsx",
+      "bytes": 2252,
+      "sha256": "ec267dd44713d39c11234e62f9ca82185ee6ca34a9829d55c82e5e1be09a10fa"
+    },
+    {
+      "path": "portal-source/components/home-extras.tsx",
+      "bytes": 6749,
+      "sha256": "a8a77b3e3aa5d6bda578f0721dce08ce8bc24c89d756a00c51ea65930f277520"
+    },
+    {
+      "path": "portal-source/components/jobs/documents.tsx",
+      "bytes": 14064,
+      "sha256": "4a80d35a9c82d465aa2e733dab320236f7d26e6cf9a35c6d732fe722ab309097"
+    },
+    {
+      "path": "portal-source/components/jobs/portal.tsx",
+      "bytes": 96808,
+      "sha256": "8a7daa5d7607f4ac068576b8d0699f408d7f5523cde04dec600236395d84e78c"
+    },
+    {
+      "path": "portal-source/components/jobs/submissions.tsx",
+      "bytes": 11303,
+      "sha256": "3a7c299bed07530c6896766f61cb865d06e898e7c6a3ce3226534bd5e51519c0"
+    },
+    {
+      "path": "portal-source/components/layout-parts.tsx",
+      "bytes": 3796,
+      "sha256": "2bb3a2f1956022cab830cf196eb14c973257a5faf3bdbfbef8ac80fe3b7fc8ec"
+    },
+    {
+      "path": "portal-source/components/mobile-card-details.tsx",
+      "bytes": 1110,
+      "sha256": "7a5280094924fe1c1269c54174166ee7178290cff146b4dd8d28b72bd36361c8"
+    },
+    {
+      "path": "portal-source/components/motion.tsx",
+      "bytes": 2192,
+      "sha256": "dfcd896ef971a01fe919092aa66b5b1e1189b60945ae181db994d4b60238dbdd"
+    },
+    {
+      "path": "portal-source/components/playground.tsx",
+      "bytes": 23318,
+      "sha256": "c1fef8d8af8b62411bcdea9d9be0a24b1ab30001845132b0a5aec06156a25032"
+    },
+    {
+      "path": "portal-source/components/process.tsx",
+      "bytes": 9641,
+      "sha256": "51704164927df5231bd77a7a1f9e87d35f6fa61f04788ba2a804d249f300d2b4"
+    },
+    {
+      "path": "portal-source/components/product-showcase.tsx",
+      "bytes": 9227,
+      "sha256": "c0e475aabc5b9458b9049a8ee9747446685110b4d52b0d9440933245875268b5"
+    },
+    {
+      "path": "portal-source/components/providers.tsx",
+      "bytes": 4281,
+      "sha256": "b49651f20f7eb0f746689034228a81a24ea968de758a1bfad827e9646bc84f29"
+    },
+    {
+      "path": "portal-source/components/screenshot-viewport.tsx",
+      "bytes": 3688,
+      "sha256": "fd6a67e0be4a9ea9d5a65acde85966932caf00a83ab4b2ef0a6d43c6175323e5"
+    },
+    {
+      "path": "portal-source/components/scroll-reveals.tsx",
+      "bytes": 1286,
+      "sha256": "493b3e1e8f1abd7b43d8090b27dc5f44074155c9de983152cb6136867d1fb74d"
+    },
+    {
+      "path": "portal-source/components/service-art.tsx",
+      "bytes": 4723,
+      "sha256": "43c4993a72a34fc7d8d70ec65d977aaadc97b52f41de5f5ab2cdee3e28eac7ee"
+    },
+    {
+      "path": "portal-source/components/shell.tsx",
+      "bytes": 2611,
+      "sha256": "1812b920c228a87a1a600801e565d4e9024bb0070d0dcf8695450a98448b6f05"
+    },
+    {
+      "path": "portal-source/components/site-frame.tsx",
+      "bytes": 767,
+      "sha256": "9090967cd415e9a20062aaaf3a1bf6092db3ff4ae9219b4e59877440153f64c4"
+    },
+    {
+      "path": "portal-source/components/tututor-showcase.tsx",
+      "bytes": 12183,
+      "sha256": "33cb8689ecfe45a2b76dc3daeb9966b8bed2e7c5571eb1d2a5b7b0ff12e8eeea"
+    },
+    {
+      "path": "portal-source/components/ui/button.tsx",
+      "bytes": 630,
+      "sha256": "45ceaeb23aa10a2a85bbc2c9256e3e0367ae26ed2e14d79c5d7f4e1807690eae"
+    },
+    {
+      "path": "portal-source/components/work.tsx",
+      "bytes": 5786,
+      "sha256": "316bf66d6b4438662c5ae30cf9ca81bd476d42222c88b3fa4de334cabae0e270"
+    },
+    {
+      "path": "portal-source/content/avatar/knowledge.md",
+      "bytes": 24885,
+      "sha256": "f68ccb67db4f843a6906ea465569aafbcbe4e638142c493bf2c77c421ce5f277"
+    },
+    {
+      "path": "portal-source/content/avatar/persona.md",
+      "bytes": 3480,
+      "sha256": "818e3f794f6c45e2cca9e9a440ec47ae8ced9c59c3964c5c55511043d3f81838"
+    },
+    {
+      "path": "portal-source/content/now.ts",
+      "bytes": 914,
+      "sha256": "454a3189a5ea8406bb58ba3a8d60dacccd622d8721ac694b50ec17c56c9aa23d"
+    },
+    {
+      "path": "portal-source/content/posts.ts",
+      "bytes": 618,
+      "sha256": "9e81608c475821abdfd75bcc11ae675e8dc95b9ece60d99d55b60a2995ce2af7"
+    },
+    {
+      "path": "portal-source/content/pricing.ts",
+      "bytes": 1191,
+      "sha256": "2f9274f64afec9a6e688a46e972ee7c6b0a9be2c8f8157390e70ea6d046a57aa"
+    },
+    {
+      "path": "portal-source/content/product-showcases.ts",
+      "bytes": 7112,
+      "sha256": "87aff2a23e15c77f6e92f2af7c9996e7eb500c3baeeed163890dd192afecf433"
+    },
+    {
+      "path": "portal-source/content/projects.ts",
+      "bytes": 5240,
+      "sha256": "89f5d16974016ee68e179725ce28c4c35798699ff6c1becbc37ff6c8c66b8965"
+    },
+    {
+      "path": "portal-source/content/site.ts",
+      "bytes": 4632,
+      "sha256": "6dd38c2d9dcdd132d490aa2ce16ebbbed9d2c77ceade58130c7aebddbb2919f9"
+    },
+    {
+      "path": "portal-source/content/tututor-showcase.ts",
+      "bytes": 10537,
+      "sha256": "bfa18302223ff2f7b88cc527ae83fbda196be9b9dc57f23b32d19d6de04049ba"
+    },
+    {
+      "path": "portal-source/content/work/ai-humanizer.mdx",
+      "bytes": 1522,
+      "sha256": "85f313ff454026dc4caed9444de54c0e67e7bd4c845ebc37590a61de116848cd"
+    },
+    {
+      "path": "portal-source/content/work/ali-foodies.mdx",
+      "bytes": 1291,
+      "sha256": "a46de597abff09ee9db0ba5a92dfcd9c6756dc06514c63db404f65862f86b2fb"
+    },
+    {
+      "path": "portal-source/content/work/animated-landing.mdx",
+      "bytes": 1330,
+      "sha256": "f1bd72950ad67bd9b6dcb9697d41d86ee4a77cb462de3fa588ef70161b45a305"
+    },
+    {
+      "path": "portal-source/content/work/crown-kabab.mdx",
+      "bytes": 1533,
+      "sha256": "f1e5651b483eae027473f8c01daeb1b522aa0a574c27ec4b77258782834ef36e"
+    },
+    {
+      "path": "portal-source/content/work/insight-x.mdx",
+      "bytes": 1596,
+      "sha256": "a3e162c0e101d69028300ae0e34a578a9cb53a07a410fb21c069353662d26c1e"
+    },
+    {
+      "path": "portal-source/content/work/jurri.mdx",
+      "bytes": 1707,
+      "sha256": "6439066911a8f6b09f0a8708f7333f796572cc3abccd43dc0678fc9d07a28d68"
+    },
+    {
+      "path": "portal-source/content/work/toolkitjar.mdx",
+      "bytes": 1110,
+      "sha256": "55af7bb1aa957e483ee350f9e58efe3efdb68e207a4f5dc0227eab67c1229da1"
+    },
+    {
+      "path": "portal-source/content/work/tututor.mdx",
+      "bytes": 6978,
+      "sha256": "aa5476b487233151fb71102acef519af09bd0ddabd7e3ec9d709b34dc9e1855d"
+    },
+    {
+      "path": "portal-source/content/work/yaksport.mdx",
+      "bytes": 1375,
+      "sha256": "3db7f0f56cf307a6dcae117cf6fd1deff997a7f7eca67d2c11cf6373bf2bd4c6"
+    },
+    {
+      "path": "portal-source/content/writing/i-taught-my-client-to-code.mdx",
+      "bytes": 2871,
+      "sha256": "ee80450a856d17d907afa1a32ea256d311b948f21bf173aedb538e501ae5bd9a"
+    },
+    {
+      "path": "portal-source/content/writing/shipping-ai-features-to-real-users.mdx",
+      "bytes": 1612,
+      "sha256": "13ca11efb1d6760c9b1abf39de8761be6853b255ad66c7736e28c7a4e63a091b"
+    },
+    {
+      "path": "portal-source/data/products.json",
+      "bytes": 1182,
+      "sha256": "2a04402e9da56d370f450efdc368b0c1beb28436d20cd80d7c2680bc21660d35"
+    },
+    {
+      "path": "portal-source/data/status-history.json",
+      "bytes": 334,
+      "sha256": "56cc376398132c653dd215c289dada3c02a4272adcd3a2659c46880297ec9136"
+    },
+    {
+      "path": "portal-source/docs/API-SOURCES.md",
+      "bytes": 2345,
+      "sha256": "085673cf03c383d910f390284eca8c5b0ed2855acf5bb70258b8cd118b47a039"
+    },
+    {
+      "path": "portal-source/docs/CHATGPT.md",
+      "bytes": 11784,
+      "sha256": "b4a9463eee3ec708980f97c9f63817a0a5161102004b665aaed0b9e29da2e584"
+    },
+    {
+      "path": "portal-source/docs/QA.md",
+      "bytes": 14487,
+      "sha256": "6a48248e32ebbf2ddc96f1961ca648f67d5b1ed44fae2ef224552f85dc9c2d4e"
+    },
+    {
+      "path": "portal-source/docs/jobs/APPLE_DESIGN_REVIEW.md",
+      "bytes": 8649,
+      "sha256": "30b97ee5fb87caf3e58ac230d1e3ab82b81b8695d967a0bbfc752d8e46dedd83"
+    },
+    {
+      "path": "portal-source/docs/jobs/SETUP.md",
+      "bytes": 10580,
+      "sha256": "2793c9738260cbe77d89e01a40045058dc71e9b18438ba2384be6dd76ff9e9e0"
+    },
+    {
+      "path": "portal-source/docs/jobs/VERIFICATION.md",
+      "bytes": 7000,
+      "sha256": "b979a616fc891a1b0916250c11b0d632ba227b2a33f618cc7d5bc03bdfe964fe"
+    },
+    {
+      "path": "portal-source/docs/jobs/VERIFICATION.txt",
+      "bytes": 229,
+      "sha256": "060c32a9ebb39316a5b6ffb4951ec93e9c0e4e6cf1ddb6a73c090b980371863f"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/agent-expanded-2026-10-15.json",
+      "bytes": 101791,
+      "sha256": "68a447bac7ca4e2f7535b5d6d0e3ffdc0338e997aee503aa0e0ed0d5304daa9e"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/agent-expanded-2026-10-15.md",
+      "bytes": 9060,
+      "sha256": "3ad65024d2d644fcbbabda2aa85205d507060a512d3f81412da2e2cd00c5ac30"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/agent-final-pass-2026-10-15.json",
+      "bytes": 66512,
+      "sha256": "1e480192c39b3f4eb996386798eac9f6b8f4148eb97b40774f9174e948d02230"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/agent-pakistan-global-2026-10-15.json",
+      "bytes": 75543,
+      "sha256": "c9f957880e9b798f0b6b4e466db4b1e8243ed52bb9c0b028820655a18932e5de"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/agent-pakistan-global-2026-10-15.md",
+      "bytes": 5930,
+      "sha256": "321eba6b0e48a3656c48660518069b25de0b2eaf1cdac6e074169f993ced807e"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/agent-remote-ats-2026-10-15.json",
+      "bytes": 34785,
+      "sha256": "1e4bfda1660854ceb696ed9288124790278072b94f0ad600f15ce99d6e30d095"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/agent-remote-ats-2026-10-15.md",
+      "bytes": 6093,
+      "sha256": "97209b53eca0a61574de9ae5c5f71ce8dc7c470158494de8c80a75654b783cf3"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/consolidated-2026-10-15.json",
+      "bytes": 366004,
+      "sha256": "fc610e07762bac26c5d80fce011482792c21564f4d5c211721868aae3d37a320"
+    },
+    {
+      "path": "portal-source/docs/jobs/research/consolidated-2026-10-15.md",
+      "bytes": 14850,
+      "sha256": "62694cb5e73c14c00b5acd14985f2409de157d536a649f08b20cf17e257b1814"
+    },
+    {
+      "path": "portal-source/docs/logo-sources.json",
+      "bytes": 589,
+      "sha256": "14b199c784b21335f57dde1723b74e6f7e26b32cfaf19ddcb8dc77eb7785c935"
+    },
+    {
+      "path": "portal-source/docs/source-inventory.json",
+      "bytes": 66847,
+      "sha256": "58b38fb8f9fb88e1e5e0c43d708c09b00779b471c4b3b38b7b59d43bb6900e3a"
+    },
+    {
+      "path": "portal-source/eslint.config.mjs",
+      "bytes": 531,
+      "sha256": "30cad9da2c8dfb6cc4eb49401dd27933da8e9c7cf9a0c66867fbe3e51f96211f"
+    },
+    {
+      "path": "portal-source/lib/avatar/audio.ts",
+      "bytes": 2420,
+      "sha256": "219a769aec2ebf265b483116f19f812ea57da0a08b763c0c5b94734df140b9b6"
+    },
+    {
+      "path": "portal-source/lib/avatar/expressions.ts",
+      "bytes": 468,
+      "sha256": "f0b4de1dbcbda4568f7ff019665c9480a627d0ac558eca8975380055b32cb155"
+    },
+    {
+      "path": "portal-source/lib/avatar/policy.ts",
+      "bytes": 2629,
+      "sha256": "5402f3b701a0082e909e0b063cd420999eebbc0986b15b44a43be11a2d19a013"
+    },
+    {
+      "path": "portal-source/lib/avatar/server.ts",
+      "bytes": 5470,
+      "sha256": "4ca51ca71b7d8d7432ecd5c18970e492a3d998127cf143b57c40307a4ae67685"
+    },
+    {
+      "path": "portal-source/lib/chatgpt/security.ts",
+      "bytes": 7719,
+      "sha256": "0309d070ee6d2bae2010dfd9766ec75f61a80de50b83a652d5cecf0af8d881d3"
+    },
+    {
+      "path": "portal-source/lib/chatgpt/server.ts",
+      "bytes": 7471,
+      "sha256": "6df1708077ed5ccce9a71e835447b016adaea53482e22af3bdcb6d1a86575019"
+    },
+    {
+      "path": "portal-source/lib/chatgpt/stream.ts",
+      "bytes": 1361,
+      "sha256": "d9faae83b9aaef559c6124a431323e385ed7ad8db8f46d26cfd7f5a3006bca03"
+    },
+    {
+      "path": "portal-source/lib/github.ts",
+      "bytes": 2754,
+      "sha256": "d01a3e5a706acb1d458a6870bcaf7638effdadc91d5555150f7264c11d278751"
+    },
+    {
+      "path": "portal-source/lib/jobs/auth-server.ts",
+      "bytes": 2167,
+      "sha256": "088d64f920cd96be8da6e5866b65da30ed5192b720cc4c499451ee45d9ec9847"
+    },
+    {
+      "path": "portal-source/lib/jobs/auth.ts",
+      "bytes": 8843,
+      "sha256": "b0e91ba679544d9ecf0f6836f2c95f2a6125157f95b7cd949b7aba051966a9c6"
+    },
+    {
+      "path": "portal-source/lib/jobs/discovery.ts",
+      "bytes": 19386,
+      "sha256": "fdb145cf6bb379a54d822afea1a7ce5015192c62a139512fd6c34c18662ce1ef"
+    },
+    {
+      "path": "portal-source/lib/jobs/documents.ts",
+      "bytes": 8151,
+      "sha256": "9e0867a24a3d105d6ecba1f36d55be1da6336dcda3ed95a739e8df028d6a6b6c"
+    },
+    {
+      "path": "portal-source/lib/jobs/domain.ts",
+      "bytes": 22104,
+      "sha256": "b7269540ce4940eb5549ea2e8699f29460cc70281daab4fcbd4b47234dfcc426"
+    },
+    {
+      "path": "portal-source/lib/jobs/seed.ts",
+      "bytes": 8664,
+      "sha256": "59be611e89665ad4de2b3c50479795cf6ff11f34f0d45319aa63808a215f0c9a"
+    },
+    {
+      "path": "portal-source/lib/jobs/server.ts",
+      "bytes": 6559,
+      "sha256": "f26bf3b88413dd0768e8b568c6ef6ca9cc83f2bffad8da388b787e890e25db86"
+    },
+    {
+      "path": "portal-source/lib/jobs/submissions.ts",
+      "bytes": 5069,
+      "sha256": "9ed2fbda0f820d5dc2a7af84e947c43fa50a78a478a5c72a4a36afe0e9a43b37"
+    },
+    {
+      "path": "portal-source/lib/jobs/types.ts",
+      "bytes": 3568,
+      "sha256": "264609776867338e237d32f1ffb76b879dd444e94f844d59c0b5da0a45f4e37b"
+    },
+    {
+      "path": "portal-source/lib/jobs/validation.ts",
+      "bytes": 12501,
+      "sha256": "a95318ad71a18e467aa69b002b835d039041d8d1784324e636df103fbb5d360e"
+    },
+    {
+      "path": "portal-source/lib/mdx.tsx",
+      "bytes": 999,
+      "sha256": "8ceaaf437f2ffcdeeb0c018fefca5a5bec6180e4d00219c95cfcf862a4159cab"
+    },
+    {
+      "path": "portal-source/lib/metadata.ts",
+      "bytes": 447,
+      "sha256": "9b682370c17867938a7b3f94fee9fd681583151b91760314e8e7f0d66e3621be"
+    },
+    {
+      "path": "portal-source/lib/screenshot-swipe.ts",
+      "bytes": 3292,
+      "sha256": "1a84c7413d5518b5efa12b569571fe8b59643140e7bff0878adeaa7f8d42c6be"
+    },
+    {
+      "path": "portal-source/lib/utils.ts",
+      "bytes": 286,
+      "sha256": "50951191bbfa8021ff13b407a347c4177ec58e375cac196b3156b3ab74ae060c"
+    },
+    {
+      "path": "portal-source/next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "path": "portal-source/next.config.ts",
+      "bytes": 628,
+      "sha256": "6c6fb6d5a9018dc1ebf14444e36dfd064082673d65e5254cd6dd92e799f6b8e7"
+    },
+    {
+      "path": "portal-source/package-lock.json",
+      "bytes": 427925,
+      "sha256": "18ec0fe1373ab39df0dffcdc1af7807d45a9ab8943463efc23e73903f9ea8a02"
+    },
+    {
+      "path": "portal-source/package.json",
+      "bytes": 1574,
+      "sha256": "dc980cf4d870af53fa758a38b531d0e88f84bfc8320b381cb5e270f37a67e6bd"
+    },
+    {
+      "path": "portal-source/postcss.config.mjs",
+      "bytes": 83,
+      "sha256": "b783348d5618047d0f37e12acd15c5a2c5f02809d8711e0764c9cea52750346c"
+    },
+    {
+      "path": "portal-source/proxy.ts",
+      "bytes": 1318,
+      "sha256": "96f834d67a7ab891a67caf7eb1d4cbd55fedcc2bbf66a48b1297cff8f516e7fb"
+    },
+    {
+      "path": "portal-source/public/Ubaidullah-CV.pdf",
+      "bytes": 101203,
+      "sha256": "447abc726aa35404d62dfcb1ac68a918f346b5d2f0e77065fd32b5bf63a0709c"
+    },
+    {
+      "path": "portal-source/public/audio-capture.js",
+      "bytes": 499,
+      "sha256": "181e6e36b0fffabe476c8a0a65aa025908949ebe8b63e0576d664490423384d4"
+    },
+    {
+      "path": "portal-source/public/images/ali-foodies/compare/after-home.jpg",
+      "bytes": 363204,
+      "sha256": "d367df071e80b504c9ef5b6ca19e6ab624feeffaee48d9bce4471e0c2a4668a9"
+    },
+    {
+      "path": "portal-source/public/images/ali-foodies/compare/before-home.jpg",
+      "bytes": 241141,
+      "sha256": "58e9206fa72abf9eaaac9c7d4a1bdd0139330901a500b852304a74b1153d2351"
+    },
+    {
+      "path": "portal-source/public/images/avatar/ubaid-v1.webp",
+      "bytes": 133816,
+      "sha256": "425b4ed1e3018cc6bb14e099f00543cd67661c6d6de647673daee84aaa9f28bc"
+    },
+    {
+      "path": "portal-source/public/images/avatar.png",
+      "bytes": 66719,
+      "sha256": "ed909caa640d7867e097e488f592ba87b8c0988ff3cff506b1ec938501236cdb"
+    },
+    {
+      "path": "portal-source/public/images/brands/chatgpt-white.svg",
+      "bytes": 4214,
+      "sha256": "568ce2e8701934856aaafc0ed1c3d0300f6c2ff384d0ae743dd1dea08570e12c"
+    },
+    {
+      "path": "portal-source/public/images/illume/showcase/dashboard.png",
+      "bytes": 130282,
+      "sha256": "541cc539a3eb216f9daab7e70d8637be989385787fa268d61f16e8806cdcbe38"
+    },
+    {
+      "path": "portal-source/public/images/illume/showcase/origins.png",
+      "bytes": 1325078,
+      "sha256": "0ffa3f458c105e75a1e7a2f12da4266573c7ee3b9ba66049b1b4289044da9bf5"
+    },
+    {
+      "path": "portal-source/public/images/illume/showcase/revenue.png",
+      "bytes": 620726,
+      "sha256": "2f7beb0532f3ac1fd126da9226745ea6a1f8a95b529b96b3c0d8bbc71746f04c"
+    },
+    {
+      "path": "portal-source/public/images/screens/crownkabab.png",
+      "bytes": 360100,
+      "sha256": "fec910f4d430c7c5002795f97f3a6156daff19a2737085aee2153114692d2079"
+    },
+    {
+      "path": "portal-source/public/images/screens/enomad.png",
+      "bytes": 522287,
+      "sha256": "a036d3e99162c9e20882b4cd3dd405a823244a831507a3b9bcfcefdb948a6deb"
+    },
+    {
+      "path": "portal-source/public/images/screens/illume.jpg",
+      "bytes": 1302873,
+      "sha256": "78d8bd39aa8540e242a5f5289ca8d26baa31b7d56dfd6367e68b4975ca36580b"
+    },
+    {
+      "path": "portal-source/public/images/screens/jurri.jpg",
+      "bytes": 160618,
+      "sha256": "f4b5d92dab4f106fb60e1b2dfc03e4ecf958ac2bbc6f7ef0b52c3f76dbc17db8"
+    },
+    {
+      "path": "portal-source/public/images/screens/toolkitjar.png",
+      "bytes": 165449,
+      "sha256": "5521bdfae1b952343c0ed09bba0bc88b0e746d5ddd8d0ada5f312ec03e672777"
+    },
+    {
+      "path": "portal-source/public/images/screens/viloi.jpg",
+      "bytes": 643160,
+      "sha256": "7ef763cac0a0eee726eb637d4277a283b3d9bc9a0764e257a306ebd6bc86ab04"
+    },
+    {
+      "path": "portal-source/public/images/screens/yaksport.jpg",
+      "bytes": 996452,
+      "sha256": "0116ca60ec7b877a4d7956b6d21e48576247286e7eb24c4b269b221eccff92c8"
+    },
+    {
+      "path": "portal-source/public/images/tututor/journey/01-inherited.png",
+      "bytes": 288893,
+      "sha256": "cb81bb37f39ea8b7b45b386b040b12eb4bda2ebfc0cfab37421ca19a74c99fda"
+    },
+    {
+      "path": "portal-source/public/images/tututor/journey/02-redesign.png",
+      "bytes": 495885,
+      "sha256": "6d2c22a65331807995960aa1274536843674f35ca516b4292b714bbef6472faf"
+    },
+    {
+      "path": "portal-source/public/images/tututor/journey/03-react-rebuild.png",
+      "bytes": 551953,
+      "sha256": "e272a5a73a98f53b732156488670346809955551046d4a51c8fe757abbbf2e77"
+    },
+    {
+      "path": "portal-source/public/images/tututor/journey/editor-today.png",
+      "bytes": 315196,
+      "sha256": "69d227ecdee1f2f8f3dfdf0b538e14fe40b5dc7406c73cf51400747422b5be9c"
+    },
+    {
+      "path": "portal-source/public/images/tututor/journey/editor-v1.png",
+      "bytes": 153257,
+      "sha256": "cdff63345971edbe3cb07788b8e5f4bc52cd70e86a3b739fae65588c71b9f395"
+    },
+    {
+      "path": "portal-source/public/images/tututor/journey/native-concepts.jpg",
+      "bytes": 505185,
+      "sha256": "731b12f3e903245a441e65fd31712c6760218c2450822db173a7dffbd0b60084"
+    },
+    {
+      "path": "portal-source/public/images/tututor/mobile/alumnos-home.jpg",
+      "bytes": 167296,
+      "sha256": "8f372bd5609dd8b4f84324d589ffb311b30f6d329a0ca339cc04e2c1e0924115"
+    },
+    {
+      "path": "portal-source/public/images/tututor/mobile/alumnos-notas.jpg",
+      "bytes": 150532,
+      "sha256": "e3fd27966c47ddd46d2f387b56c01557884717ac388bea87664ada1e53805b78"
+    },
+    {
+      "path": "portal-source/public/images/tututor/mobile/familias-asistencia.jpg",
+      "bytes": 117553,
+      "sha256": "a2117ac15325b58b8896c80384dcd1de35d2e02b7f534a71c0c09d0504bbfa4e"
+    },
+    {
+      "path": "portal-source/public/images/tututor/mobile/familias-mensajes.jpg",
+      "bytes": 57494,
+      "sha256": "d9fc45fa435adeccf6e162f60fe11107c9d1eabf6b400a2df8dd7d66429af4fb"
+    },
+    {
+      "path": "portal-source/public/images/tututor/mobile/familias-tareas.jpg",
+      "bytes": 142714,
+      "sha256": "9ff248454418f93b8121b38a6d23db138f3174aecddf72a7f84060836156d945"
+    },
+    {
+      "path": "portal-source/public/images/tututor/mobile/profesores-deberes.jpg",
+      "bytes": 136266,
+      "sha256": "d38c8f6e081675276c1b4e0185f4465752916e85710e5ff260b03687ddfadfe1"
+    },
+    {
+      "path": "portal-source/public/images/tututor/mobile/profesores-home.jpg",
+      "bytes": 178105,
+      "sha256": "65bd9116a87fe2648c1b399ffa8f88aaaf70f7032a5c5927380298d2fe4e366a"
+    },
+    {
+      "path": "portal-source/public/images/tututor/mobile/profesores-horario.jpg",
+      "bytes": 142135,
+      "sha256": "d4bdc2dc0484f764103789f3130d5b26e573d7808982ea750d9f5a5a56f661af"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/editor-live.jpg",
+      "bytes": 82053,
+      "sha256": "3f72838870fac4210f5cf59cc2fc9073144594f8169e2ca8ebf5c7feb3a8b423"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/edunova-dashboard.jpg",
+      "bytes": 128429,
+      "sha256": "3440331189105272260d37826f19c8f9b6328d79ba90f0673ac78e09f6012e84"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/edunova-messages.jpg",
+      "bytes": 106333,
+      "sha256": "ab454d36f2ee8fad574d2d703ecb5f99fa7ce54504963461fa583fd55abb4ce7"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/edunova-timetable.jpg",
+      "bytes": 109126,
+      "sha256": "7135a4c265ed93747868be7a12a0a93d4b64ed3aed66e34ad70c5f34c9b434ea"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/tututor-assistant.jpg",
+      "bytes": 97926,
+      "sha256": "5d997e357f5caee9b68cc81c377659d680ad4f52c7a325b2699beaa9df22cd4a"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/tututor-catalog.jpg",
+      "bytes": 163822,
+      "sha256": "c16be89ffa7005474548310cc5ba3b580e117668950b0401a97e6b867e1e8d83"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/tututor-editor-ai.jpg",
+      "bytes": 115329,
+      "sha256": "4b312a5b5caab2ab3133052a9fb625628f1f7749256b7529cc930eaf99bcdcd2"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/tututor-editor-images.jpg",
+      "bytes": 214626,
+      "sha256": "7e3dc4789df36d20dd87314a2ee6c482029363bba0efba4f65576c9edca0b04f"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/tututor-editor-inline.jpg",
+      "bytes": 187331,
+      "sha256": "97d18aecb710bcdc0cff152b68ed4e23dac6f0b5785403b4d8b501b756d91dbd"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/tututor-mindmap.jpg",
+      "bytes": 123018,
+      "sha256": "ca36f3f5305d0fd97fff21e7651423ba6fd7f76c4d1ac194a801a655dcc5bd19"
+    },
+    {
+      "path": "portal-source/public/images/tututor/showcase/tututor-tutors.jpg",
+      "bytes": 170332,
+      "sha256": "ed21743984cfac21fc7d0fd3505980b5eafe0d659ccb6ade36bd5bd08e3cec2d"
+    },
+    {
+      "path": "portal-source/public/images/ubaid-portrait.jpg",
+      "bytes": 74981,
+      "sha256": "aef3ebba012aae49a0857b97b2d2f49b2e33cc5e3a4d0f03e12aa29882e83ddc"
+    },
+    {
+      "path": "portal-source/public/images/viloi/showcase/editor-live.jpg",
+      "bytes": 69115,
+      "sha256": "1c871dc4b49dbfe85581334bb1d61f3b5fdc519d9d45da685d8fc24cbcd89236"
+    },
+    {
+      "path": "portal-source/public/images/viloi/showcase/origins.png",
+      "bytes": 228911,
+      "sha256": "512e792616684fa1dbdf9e84d8f21e56923ce48c630d412395ed53f6fcb9de6a"
+    },
+    {
+      "path": "portal-source/public/images/viloi/showcase/plans.jpg",
+      "bytes": 66302,
+      "sha256": "770554440b8c96515e1aab80ac0587045fd7460dce97a6f2945ef6f8d4877261"
+    },
+    {
+      "path": "portal-source/public/images/viloi/showcase/tone-controls-live.jpg",
+      "bytes": 67772,
+      "sha256": "7bb578d8d6f941983bfc1d0ebca526412c71eb1d05fb1877ef472e28c4fb79f1"
+    },
+    {
+      "path": "portal-source/public/logos/ali-foodies.png",
+      "bytes": 4752,
+      "sha256": "b47bd646e7936ec845868a53ea8e0ac866fdafc2a6cd3711db9e5f9d14b5e5ca"
+    },
+    {
+      "path": "portal-source/public/logos/danzee.png",
+      "bytes": 5776,
+      "sha256": "5c7decd12b26f7af13f5f32e305fec0fdac7bf7f0edbc520412d0f19f61f6c23"
+    },
+    {
+      "path": "portal-source/public/logos/illume.png",
+      "bytes": 3391,
+      "sha256": "78e21989037969d5d6759a4396793161dfc9bd1633e2a5ded03ec97710b09c76"
+    },
+    {
+      "path": "portal-source/public/logos/tututor.png",
+      "bytes": 7658,
+      "sha256": "972fec1525961e266f70b87aeea88dfbc2d7d51480bbacab2337e825f0dd3ece"
+    },
+    {
+      "path": "portal-source/public/logos/viloi.png",
+      "bytes": 3131,
+      "sha256": "d813e3d6778d423a3e93d29344a5f0e07c11bd2e15aba7d571d4e643ffac0559"
+    },
+    {
+      "path": "portal-source/public/portrait.png",
+      "bytes": 1710138,
+      "sha256": "869e6717680a41a71951b2723a5c37821f6b57f83cf6712a27df3484712dfb8c"
+    },
+    {
+      "path": "portal-source/scripts/jobs-agent-client.mjs",
+      "bytes": 3383,
+      "sha256": "29e524a637f5e45045838a3036a721e57b73bc8532b0493b929adf2c945f209b"
+    },
+    {
+      "path": "portal-source/supabase/migrations/20261015112043_jobs_portal.sql",
+      "bytes": 10238,
+      "sha256": "d9de8bdccda42ca97284584116e377db1ba3213df2d0ae54081fc22bc25aab4c"
+    },
+    {
+      "path": "portal-source/supabase/migrations/20261015151329_jobs_documents.sql",
+      "bytes": 4093,
+      "sha256": "07d7dd954e81b933ae6869706353db7e4f9a147267f38934ca4b850339560850"
+    },
+    {
+      "path": "portal-source/supabase/migrations/20261015155637_jobs_submissions.sql",
+      "bytes": 9806,
+      "sha256": "437eeab73e967d41fd8c556b36850d55b75546d3b2c9db5ac6d0612caa97c806"
+    },
+    {
+      "path": "portal-source/supabase/tests/jobs_portal_security.sql",
+      "bytes": 4172,
+      "sha256": "372133fcadd71414994eff748910afff30960b98f0b8785c878d25f79f4bf6fb"
+    },
+    {
+      "path": "portal-source/supabase/tests/jobs_submissions_security.sql",
+      "bytes": 8574,
+      "sha256": "41c82292926b0548b19a688f06708632656b1d78b91a2732b142a4cc50c54e88"
+    },
+    {
+      "path": "portal-source/tests/avatar-policy.test.ts",
+      "bytes": 3282,
+      "sha256": "1d748d67e848cbaccc84bffa8210d8ca04e7a91a45b8c4bba8d8331aaa37ebb2"
+    },
+    {
+      "path": "portal-source/tests/chatgpt-security.test.ts",
+      "bytes": 8387,
+      "sha256": "b1cc1f26b4ef3a6a3f81bc37135774379efe72a0663d9952afc8bcc4be0c6b09"
+    },
+    {
+      "path": "portal-source/tests/jobs-auth.test.ts",
+      "bytes": 24171,
+      "sha256": "54d817cf680020e6ed89c6f4d138b24f966dd23937ef2bc4aa8194f4a61984ec"
+    },
+    {
+      "path": "portal-source/tests/jobs-discovery.test.ts",
+      "bytes": 13008,
+      "sha256": "e30d2e942dce9cfe3121acd9dd24a3aca992b08d9e8dc7d50936a36f60c85951"
+    },
+    {
+      "path": "portal-source/tests/jobs-documents.test.ts",
+      "bytes": 14177,
+      "sha256": "0d88a08cc8427ae13c7ade11d6d35b9bb3fe20ec7f27fb75a9f15891b8dd280a"
+    },
+    {
+      "path": "portal-source/tests/jobs-domain.test.ts",
+      "bytes": 14958,
+      "sha256": "e99746803629e3823b45ab51b81f6e362d3863b3174e659a67f81e9c5fcd7a2f"
+    },
+    {
+      "path": "portal-source/tests/jobs-research.test.ts",
+      "bytes": 8206,
+      "sha256": "d9510e2634808c8dfe8335c887bef4e1c7da0af4be3bf7ebd2c2effd75db0d77"
+    },
+    {
+      "path": "portal-source/tests/jobs-review.test.ts",
+      "bytes": 3461,
+      "sha256": "0e6f9d0428fc7eccc2afbd03105afc56fa6a89dca85b8ee950b2bb956ad78129"
+    },
+    {
+      "path": "portal-source/tests/jobs-security.test.ts",
+      "bytes": 4626,
+      "sha256": "51daf9d99c02d40998e4f08408617e7a0c824647fcb11334e0fd41d0f21471c5"
+    },
+    {
+      "path": "portal-source/tests/jobs-submissions.test.ts",
+      "bytes": 6470,
+      "sha256": "a466f3cb790c09420ac44e6d5901fe8758d26aaaaa3716486d6bf82911391019"
+    },
+    {
+      "path": "portal-source/tests/screenshot-swipe.test.ts",
+      "bytes": 6392,
+      "sha256": "7f01cb9dc2c9c7926169ba3a1b500f28d9ebd38495b8c882e1aef0001152962d"
+    },
+    {
+      "path": "portal-source/tsconfig.json",
+      "bytes": 614,
+      "sha256": "1e2f60e3da3dd14ae2c69a87035dc938f22f346d2fca1e6893509087f8208961"
+    },
+    {
+      "path": "project-data/.job-search/applications/allcancode-2026-10-16/answers.json",
+      "bytes": 12119,
+      "sha256": "1b3e3411a0d6d19d6690a8e8b36928b1330ebdc7e8494c447789ec6482848265"
+    },
+    {
+      "path": "project-data/.job-search/applications/allcancode-2026-10-16/confirmation.png",
+      "bytes": 26662,
+      "sha256": "3dc45e2101eeced2c2b74fddbd9cc7378914552c790b5edc6c30e72d21ae4c3f"
+    },
+    {
+      "path": "project-data/.job-search/applications/allcancode-2026-10-16/form-confirmation.json",
+      "bytes": 432,
+      "sha256": "0f1b97e9c25b0ab76cd80b9a1d748abed39ad3124fad969f91c0552005f458b4"
+    },
+    {
+      "path": "project-data/.job-search/applications/allcancode-2026-10-16/portal-submission-input.json",
+      "bytes": 898,
+      "sha256": "c5185ff933f21dc70560d6169385d0c083a04acc009ea67d38acf44f150e15ec"
+    },
+    {
+      "path": "project-data/.job-search/applications/allcancode-2026-10-16/portal-submission-receipt.json",
+      "bytes": 1120,
+      "sha256": "bcf1e0b9d66cbc3527b144c63b1e0fb9d635f1082ed734503644814c25099017"
+    },
+    {
+      "path": "project-data/.job-search/applications/appkeeper-2026-10-16/attempt.json",
+      "bytes": 402,
+      "sha256": "44e03261654d5879edf87eaeef6e07ec7747a4204f4c0086ae5158f9bad90af4"
+    },
+    {
+      "path": "project-data/.job-search/applications/appkeeper-2026-10-16/cover-letter.txt",
+      "bytes": 1002,
+      "sha256": "2c2331bd3521d71647d056e70e837aeb767e5686d339f0dd0dd102ebd8799c91"
+    },
+    {
+      "path": "project-data/.job-search/applications/appkeeper-2026-10-16/email-fallback.txt",
+      "bytes": 1194,
+      "sha256": "0dd7532121d63b43abf9f2e8b6d6cc257990150e852b36b56acf76b141697839"
+    },
+    {
+      "path": "project-data/.job-search/applications/appkeeper-2026-10-16/email-preflight.json",
+      "bytes": 578,
+      "sha256": "716d0146016712da80117e6d37357f1e9285f7c99cf651643b7ebe92411efd5e"
+    },
+    {
+      "path": "project-data/.job-search/applications/appkeeper-2026-10-16/gmail-confirmation.json",
+      "bytes": 603,
+      "sha256": "2440bbf69a5855fc1918c488a1fbb3a28a48db4b9502aa44401cbc1bcd7ada5e"
+    },
+    {
+      "path": "project-data/.job-search/applications/appkeeper-2026-10-16/portal-submission-input.json",
+      "bytes": 667,
+      "sha256": "4a7a0948f0b0fd104f7a1ebe3b0786c6bffb47364f028c22a541f6f12d63b0c2"
+    },
+    {
+      "path": "project-data/.job-search/applications/appkeeper-2026-10-16/portal-submission-receipt.json",
+      "bytes": 932,
+      "sha256": "62c88d6bb7182d4f293329c9a46bdf28d9d461d3ea9f1a347b76f52f3e2d3f16"
+    },
+    {
+      "path": "project-data/.job-search/applications/codenzy-react-2026-10-16/email.txt",
+      "bytes": 867,
+      "sha256": "9b3c4d723669d423590f9d5e660867f645cddfc3b34a2522c392ed7b7a21c46d"
+    },
+    {
+      "path": "project-data/.job-search/applications/codenzy-react-2026-10-16/gmail-confirmation.json",
+      "bytes": 878,
+      "sha256": "c43b69cc0906f2ad875dd98156ddca6348555e849caf3de0694f1a3a10087e8a"
+    },
+    {
+      "path": "project-data/.job-search/applications/codenzy-react-2026-10-16/portal-submission-input.json",
+      "bytes": 604,
+      "sha256": "53a50996c6373885a9880f1d43d242bf156efbd2faa77a82468cd7b3bcd28d14"
+    },
+    {
+      "path": "project-data/.job-search/applications/codenzy-react-2026-10-16/portal-submission-receipt.json",
+      "bytes": 818,
+      "sha256": "1172ee48c40e20d7c00cdee8f17fa2528c700ce37c3710d45f12ce097c045daa"
+    },
+    {
+      "path": "project-data/.job-search/applications/codenzy-react-2026-10-16/preflight.json",
+      "bytes": 495,
+      "sha256": "d1d0dff498848cb41cb19a11db767e14aad926280d2809d4f83bf8c7841340ea"
+    },
+    {
+      "path": "project-data/.job-search/applications/dynamic-logix-2026-10-16/confirmation.json",
+      "bytes": 512,
+      "sha256": "802724e89571dc2311deb444cf42aa1304d57fefcaed0d26217b5561006d3639"
+    },
+    {
+      "path": "project-data/.job-search/applications/dynamic-logix-2026-10-16/confirmation.png",
+      "bytes": 121412,
+      "sha256": "b7568d5ab1335ff630222775bdeca60502ce29bf62ae16507f3ede89754bc1b0"
+    },
+    {
+      "path": "project-data/.job-search/applications/dynamic-logix-2026-10-16/portal-submission-input.json",
+      "bytes": 554,
+      "sha256": "dadd9ceaf9d60f33a4e9c61097256ab09518b986425a58e2f1779a34c9a9be0f"
+    },
+    {
+      "path": "project-data/.job-search/applications/dynamic-logix-2026-10-16/portal-submission-receipt.json",
+      "bytes": 781,
+      "sha256": "b35cf46c3d7a7dba1a85e1e48bf842ff1d3527c3e3330d5f19f1db7bb953ef31"
+    },
+    {
+      "path": "project-data/.job-search/applications/niyyt-2026-10-16-v1/answers.json",
+      "bytes": 376,
+      "sha256": "624432a756b553ecdd211f7f47e047aef0d785d7d727632a5e3e60e5f32fddd8"
+    },
+    {
+      "path": "project-data/.job-search/applications/niyyt-2026-10-16-v1/availability-confirmed.json",
+      "bytes": 540,
+      "sha256": "c09d29f98457f8b65023f7259b1f6318c201afe011d5871f8e72f70df06a4115"
+    },
+    {
+      "path": "project-data/.job-search/applications/niyyt-2026-10-16-v1/confirmation.png",
+      "bytes": 24782,
+      "sha256": "e7e6524252ef509365597a4bf1a8358c2fbd59a5057776f663136ed7c952c2ba"
+    },
+    {
+      "path": "project-data/.job-search/applications/niyyt-2026-10-16-v1/document.json",
+      "bytes": 437,
+      "sha256": "8b26049d892e59096220411cc9427bb1ab3164afce2718eb76768f5b69ef3ab0"
+    },
+    {
+      "path": "project-data/.job-search/applications/niyyt-2026-10-16-v1/form-confirmation.json",
+      "bytes": 298,
+      "sha256": "e5e9d8d2d06857a7eb83897eabecd0535846edbc8960ae953a8231661d5df536"
+    },
+    {
+      "path": "project-data/.job-search/applications/niyyt-2026-10-16-v1/form-preflight.json",
+      "bytes": 1616,
+      "sha256": "81e3b1a1d1237a884f3115150a8028bcdd2b07ed208f8140eb5c30b3d6eb7249"
+    },
+    {
+      "path": "project-data/.job-search/applications/niyyt-2026-10-16-v1/portal-submission-receipt.json",
+      "bytes": 728,
+      "sha256": "db76bd3ff3da0ac8a4755e7fff8842e502bccb440121b7b89f0a255bd41844ba"
+    },
+    {
+      "path": "project-data/.job-search/applications/niyyt-2026-10-16-v1/submission-input.json",
+      "bytes": 508,
+      "sha256": "ae5d858c0c1c00759c300e468c59f35d743ce28e0772d8a76109c25e3ea6c981"
+    },
+    {
+      "path": "project-data/.job-search/applications/quirkybit-2026-10-16/attempt.json",
+      "bytes": 852,
+      "sha256": "2c1366975730756dcdcad0dd61bb7b6604c9d8b50e4b9db1b6b4ba0fa7821e74"
+    },
+    {
+      "path": "project-data/.job-search/applications/quirkybit-2026-10-16/captcha-error.png",
+      "bytes": 120841,
+      "sha256": "6859f52cf17c77071554fd280d740cd49fd86dd490d292e401af8177a220d2ad"
+    },
+    {
+      "path": "project-data/.job-search/applications/quirkybit-2026-10-16/email-preflight.json",
+      "bytes": 4294,
+      "sha256": "f9ca7954fa257e8a47ece6cd0e9626f856c9731a23994f5369b360779e9b4035"
+    },
+    {
+      "path": "project-data/.job-search/applications/quirkybit-2026-10-16/email.txt",
+      "bytes": 880,
+      "sha256": "e23785f6f66a3743f3bd44516480d24b3b8a5296668ad6f5aea04036c4ede5c9"
+    },
+    {
+      "path": "project-data/.job-search/applications/quirkybit-2026-10-16/gmail-confirmation.json",
+      "bytes": 718,
+      "sha256": "590c5c5ad3c9f0944697ad1107668018148a7abcedabc65f62901a55f503d4b8"
+    },
+    {
+      "path": "project-data/.job-search/applications/quirkybit-2026-10-16/portal-submission-input.json",
+      "bytes": 795,
+      "sha256": "dd8e2eb8686b0f03fab79f25ca0ca16a12391d836ff3575da8a359ae1dff5559"
+    },
+    {
+      "path": "project-data/.job-search/applications/quirkybit-2026-10-16/portal-submission-receipt.json",
+      "bytes": 1014,
+      "sha256": "e110cdc1e50ea32927fd341cd5c22f5b1efa2f79f56c624c814e1394984bb7ea"
+    },
+    {
+      "path": "project-data/.job-search/applications/quirkybit-2026-10-16/prepared-handoff.png",
+      "bytes": 137057,
+      "sha256": "219ad45d31776a9ffb0ec22278a0775920ff766832bf73f851536270274330a1"
+    },
+    {
+      "path": "project-data/.job-search/applications/tbox-fullstack-2026-10-16-v1/email.txt",
+      "bytes": 987,
+      "sha256": "a10529dcddc622cf3a0a05c61914a2a7abd69c7ff080e4a9e30b5d1b0275bcc5"
+    },
+    {
+      "path": "project-data/.job-search/applications/tbox-fullstack-2026-10-16-v1/gmail-confirmation.json",
+      "bytes": 525,
+      "sha256": "cf8672955245793e5b9dd479dad605434af4ed847dd81ba55b604d8bcf4e0f30"
+    },
+    {
+      "path": "project-data/.job-search/applications/tbox-fullstack-2026-10-16-v1/portal-submission-input.json",
+      "bytes": 729,
+      "sha256": "663d43139d623cb67c9e2276594c4a7d9095c057a7b6a80b36e8ec62cbfb9a2f"
+    },
+    {
+      "path": "project-data/.job-search/applications/tbox-fullstack-2026-10-16-v1/portal-submission-receipt.json",
+      "bytes": 944,
+      "sha256": "720c45da3cee578aaf1c1dee57a01d4445954a0a7f82dc8aa0457538bcfff958"
+    },
+    {
+      "path": "project-data/.job-search/applications/tbox-fullstack-2026-10-16-v1/preflight.json",
+      "bytes": 2290,
+      "sha256": "ccebb6c812c168131e8259656b00d263f48f3ac73026f4903631aaaa3817fe7d"
+    },
+    {
+      "path": "project-data/.job-search/applications/tbox-fullstack-2026-10-16-v1/proposed-workspace-action.json",
+      "bytes": 8489,
+      "sha256": "3b779f1414c0e9eac6c0d28f9f041176a5aa08045c92cb0d0dd8ac539cdba859"
+    },
+    {
+      "path": "project-data/.job-search/applications/tbox-fullstack-2026-10-16-v1/reviewed-workspace-action.json",
+      "bytes": 5703,
+      "sha256": "b29e8b639c36a35cce86bae8d9b9a3805d190b4207209f6e61016cea54176d89"
+    },
+    {
+      "path": "project-data/.job-search/applications/tbox-fullstack-2026-10-16-v1/upload-receipt.json",
+      "bytes": 616,
+      "sha256": "ab6c571929d09376616eae45006cc97aa0716f2d0be893faa298f28234bdb678"
+    },
+    {
+      "path": "project-data/.job-search/private/application-facts.json",
+      "bytes": 4416,
+      "sha256": "d3533359b76407a829764a151e8f7f0cbede7ff9bac31229ec92023230c176b5"
+    },
+    {
+      "path": "project-data/.job-search/private/continuation-2026-10-16.json",
+      "bytes": 16417,
+      "sha256": "ed3d03b8f3e2d07aedb929cec8c0389fa9238d75241c66ab0af80fe572ad1739"
+    },
+    {
+      "path": "project-data/.job-search/private/latest-mailbox-reply-check.json",
+      "bytes": 111,
+      "sha256": "c2fff2d6d6fd850fbcfc13cf40f65d647c84fc71313c8e4bb746b47ce35efea5"
+    },
+    {
+      "path": "project-data/.job-search/private/latest-operational-counts.json",
+      "bytes": 2944,
+      "sha256": "8165d3337efbe20afc4adecbea847d860771b6784c149b90c9d6b73f4a8537a8"
+    },
+    {
+      "path": "project-data/.job-search/private/postgresql-confirmation-recorded.json",
+      "bytes": 591,
+      "sha256": "9d255e9ac3c2497d5a4441aa9238d454bbbc1ad07dddb3c3191a4e73f397dc17"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-0402-heartbeat/niyyt-reviewed.json",
+      "bytes": 5349,
+      "sha256": "0d444520c5e8475bd22ff02de2b25154f99560c4cebe5013368c2adb3464fae4"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-0402-heartbeat/result.json",
+      "bytes": 766,
+      "sha256": "5809da611f7ced6153af4649cbeb49f6df510122b02e1c2e10e0de7f39600091"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-next-remote-review/dedupe.json",
+      "bytes": 2371,
+      "sha256": "e71e77bedffb43977f0b08b4f0a06999a0c54142a98544714ec48a2d241471d5"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-next-remote-review/findings.json",
+      "bytes": 31100,
+      "sha256": "5c6e75080612c4eb6d880d44d98f618747458f46a69e5b041ca8b894f4211964"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-next-remote-review/import-result.json",
+      "bytes": 655,
+      "sha256": "3870429ddfb0ad6c952ab9fd5647f6bbd497324075f56e20be8f043ce86280d4"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-next-remote-review/proposed-workspace-actions.json",
+      "bytes": 48692,
+      "sha256": "4d06718b3ff7cd1ea6ea7ea2692cfd42975fb73ca53a31a335cbdc5ca25aa731"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-next-remote-review/sources/capture-manifest.json",
+      "bytes": 984,
+      "sha256": "66477d5548dc501d8f950096fee9a1c9ebe13a8200eb56d76cb8f9a1129a7b3f"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-next-remote-review/sources/evidence-summaries.json",
+      "bytes": 5093,
+      "sha256": "d22f5bd5e682abe94ab2d30e02c8cc8928dfb52c157cfebc2c4d0a0ff057ec81"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-next-remote-review/validation.json",
+      "bytes": 2424,
+      "sha256": "0779a5ad2e694b7e0c492ec44d16e569e20a7fcf8c6c56e7a2cfbcabd27e2b7c"
+    },
+    {
+      "path": "project-data/.job-search/research/2026-10-16-next-remote-review/workspace-snapshot.json",
+      "bytes": 1662192,
+      "sha256": "d7fc00a8fc2e657dcbae7fbf4e62b58a4181fd897068017da31c7feb30b0a689"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v2/ats-upload-receipt.json",
+      "bytes": 548,
+      "sha256": "00fda32d79ab920f52ed14e8e66e6bcfe4bfac186fca74f16fdb0f0236e6e72b"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v2/config.json",
+      "bytes": 370,
+      "sha256": "2445a5189b29c42a47fd8b573bde17d178534fbe978926fa61f7b35d4e678cfb"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v2/facts.snapshot.json",
+      "bytes": 12111,
+      "sha256": "37eb944a14745389d66acaec0538bac654ffd43fc12ca084ea83a8e997b30a7c"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v2/metadata.json",
+      "bytes": 1997,
+      "sha256": "fe11501fb0bf58bc69c4bbaf848a0bcb747137373eccf69f05a037cb35578644"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v2/outreach-upload-receipt.json",
+      "bytes": 563,
+      "sha256": "920abc34d67acea57dffcc4abbf1a43ca67388f5b4e7e5060eed87791597cf29"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v2/previous-file-hashes.json",
+      "bytes": 473,
+      "sha256": "1986559d31edb507acc10e1a6973c934c173bae71e52080e0786612902b9185f"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v2/provenance.json",
+      "bytes": 1838,
+      "sha256": "3d69e4ffe6c105f4f5c27565620c849ba7bc7d911247e91bf1349edf739383ae"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v2/resume.md",
+      "bytes": 2792,
+      "sha256": "7c52d34655798609a3542b8bb2fff910d62ba386781a21c5aac9c4ca4b897ce2"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/QA.md",
+      "bytes": 1271,
+      "sha256": "ae4282104b4fa94cf08eae16b9b836f8f9761f35ca070572791a293fff3dbfca"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/canonical-facts.snapshot.json",
+      "bytes": 12177,
+      "sha256": "c11a82edd43bafb93849e3f25b76e766e7ae0d2450234b12a46a3fd535f3ca74"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/config.json",
+      "bytes": 370,
+      "sha256": "ad67e54ddc799af4a98955e1b6957e3c50c65eee7d750084384dd1dafe85774f"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/facts.snapshot.json",
+      "bytes": 12699,
+      "sha256": "9264eb02ad1fb6d463e5d22aa7d77d8963da1b71b6b0b341180f913bbebd2c89"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/manifest.json",
+      "bytes": 1944,
+      "sha256": "bbe7cb5058804aa6aff77eb9ae2826d4ef105acee1ca39cc21ea85d22f5236fd"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/metadata.json",
+      "bytes": 3081,
+      "sha256": "14d4c2d1282c6bee39fe819549eb19952d141935c37bbd62cda064571f330726"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/previous-file-hashes.json",
+      "bytes": 2447,
+      "sha256": "6e53eeea820cac08e3505ea713d6d9ddb9081deb9b8648545ded0ea4ee75a06f"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/provenance.json",
+      "bytes": 1771,
+      "sha256": "c20f4e514cfcc07089c694761a56a2d00f036b6a36cb4c7c79f4f7df5637c0c4"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/resume.md",
+      "bytes": 2901,
+      "sha256": "9ec8cd5b541c6269bf3a949d12c5df6c0d047f908b66733a2c978e4d4f15b047"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/2026-10-16-v3/upload-receipts.json",
+      "bytes": 1122,
+      "sha256": "f5faee1d9dfb99d35c6122b5e850e5fab52fd382c484ba09e4da37b10607ab83"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/QA.md",
+      "bytes": 1044,
+      "sha256": "b69ed06a6c6f0f117ce3fb683e479ddf92db3b332ccdaf18bdfa2500b54e63c0"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/README.md",
+      "bytes": 2467,
+      "sha256": "e95a9ce7c5b1b2f1cf4ed21660d477949c1bd4b71533acc87ed92ad9d8f416ed"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/build_resumes.py",
+      "bytes": 10834,
+      "sha256": "11fa5016c4841802a81f28f23cd0b2ad4ee26655c560416f6db24595faa375fa"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/facts-before-2026-10-16-confirmations.json",
+      "bytes": 9842,
+      "sha256": "63c6a356017e9d1893bb8867aea5a17a4f8d478d3888e3ae2d4fe03ef43146e9"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/facts.json",
+      "bytes": 12724,
+      "sha256": "ed3f98f5f239e874870abdfcc015c5ae73fbf74489f6c8c316e3c8a5fe50324d"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/fonts/Geist-Regular.ttf",
+      "bytes": 125956,
+      "sha256": "bde046ddd9f20be35b0bd56cc79eb752b967fb6661a3fe76cb067bb09f871d76"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/fonts/LICENSE_LIBERATION",
+      "bytes": 4414,
+      "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/fonts/LiberationSans-Bold.ttf",
+      "bytes": 137052,
+      "sha256": "361c61b82d575c5c35fd9157fda8b0194bcfcd0d88ea8521a4fb5dd53d33dddc"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/fonts/LiberationSans-Italic.ttf",
+      "bytes": 162036,
+      "sha256": "832b4406dbef23628800d3aaad21048534ac84d7e3ad955be83b8172ed8ef512"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/fonts/LiberationSans-Regular.ttf",
+      "bytes": 139512,
+      "sha256": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/tailor.example.json",
+      "bytes": 360,
+      "sha256": "e81ccda18770bb5c236054604795d2c6a161991165adae35e0ce76f1e097d67c"
+    },
+    {
+      "path": "project-data/.job-search/resumes/masters/ubaidullah-omer-master.md",
+      "bytes": 2702,
+      "sha256": "ad59f970d774ce55256addf696b64c4093ec1509b53ff0c7e301ed204ffd2cdf"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/README.md",
+      "bytes": 1955,
+      "sha256": "88f717dbf40d2ba0f5aebdc3885ac36858fd781074c53766327823d2dc387f43"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/agave-full-stack.json",
+      "bytes": 370,
+      "sha256": "1efe51b15c16ca284068e1d05a119f204708ca185439fda03976275ce5daf4f8"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/agave-full-stack.md",
+      "bytes": 2683,
+      "sha256": "911c5da1acdbec70692a7a6751ac2ecbe78d0623f8471a71105db729bc0ce5da"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/allcancode-fullstack-2026-10-16/config.json",
+      "bytes": 361,
+      "sha256": "3f239f1c040b54f13d8502ae4f70c30241a1a9f296c53bd2a062c3b2cf3e8a03"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/allcancode-fullstack-2026-10-16/facts.snapshot.json",
+      "bytes": 11834,
+      "sha256": "48dbc0cf12399f93a020c7e50bdaa28bc845b132ca8c159751407e3dc369d3ad"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/allcancode-fullstack-2026-10-16/metadata.json",
+      "bytes": 359,
+      "sha256": "8aa97f5f27a800895dfc3f06c8b3e8aa0534b1725d4d6ab3f4af6cbbda267eaa"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/allcancode-fullstack-2026-10-16/qa.json",
+      "bytes": 784,
+      "sha256": "e4a017f0fe8117052b0a2361d13840184d21e3cde307837188386dbe1e2659c4"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/allcancode-fullstack-2026-10-16/resume.md",
+      "bytes": 2619,
+      "sha256": "479302fe8bb2c041c29a2650cc0867475f3c1b250d0b0aac191846deefb070e1"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/allcancode-fullstack-2026-10-16/upload-receipt.json",
+      "bytes": 514,
+      "sha256": "404ace9ee5c721593cefaba0d3e9e8cba3a6ec797a23c33ccde2220a8122708f"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/config.json",
+      "bytes": 342,
+      "sha256": "07f115d892092824ba91cb35033a0a8f2dea5255fdc6f3cb24255d60564ad550"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/facts.snapshot.json",
+      "bytes": 11807,
+      "sha256": "ec7534259c4821633a92b7c6bf43392724f5494694db11dab40ccb74ad466e2f"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/metadata.json",
+      "bytes": 622,
+      "sha256": "4871be212381b86bcc0cd3eed3e19d593f8d82d299f119359ea6d292a4737057"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/provenance.json",
+      "bytes": 714,
+      "sha256": "9403dcb3f06461782d332e199783073976a4b7b688dcea15ba8ec8633e8aa118"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/resume.md",
+      "bytes": 2408,
+      "sha256": "a3671aa443b653b66b6d6220461ea500599b0b5317377f3b22632b8b2656a193"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/upload-receipt.json",
+      "bytes": 610,
+      "sha256": "f470c73c99378ca7a38deae9fc8e61e6a7fd1df4cbca01eb7a1ed3bc8bd20fde"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16-v2/config.json",
+      "bytes": 342,
+      "sha256": "c344a2181e1118f7e28080c44afdec3d0b9de01c2fa7d504f80393b4439dbbb2"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16-v2/facts.snapshot.json",
+      "bytes": 12344,
+      "sha256": "b99214251a23f8ae703331914e95c83a2108ae17388e848cf9f99dac0f6ae23b"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16-v2/metadata.json",
+      "bytes": 866,
+      "sha256": "d63d0104049cc5a598ad6384eef84fe969dbda9b91dce59f645cf2301ec2ec45"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16-v2/provenance.json",
+      "bytes": 1265,
+      "sha256": "cd264decb425c4f0670375f15d86ea7d93bf91bc6bb391a2c518955be8f10b94"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16-v2/resume.md",
+      "bytes": 2558,
+      "sha256": "9ac9596505424a10c84c6ba2ef56773e8d8205482403d8c67cfba9433df89ec8"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16-v2/upload-receipt.json",
+      "bytes": 610,
+      "sha256": "d026a187052741274a6c587f91e0ab9adc769f651205bc2bf9e42dffaac52f2c"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/build_tailored.py",
+      "bytes": 10661,
+      "sha256": "e27fd55d7309ec3d3304d6b48cbe3aa84cc8a1af1bfc889a1c4c6a9e6c08d1b2"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/codenzy-react-2026-10-16/QA.md",
+      "bytes": 826,
+      "sha256": "c6244daf77e55d70ce55c6dde88e2e2f42d194960beb83349cf3ca7df64e8e4b"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/codenzy-react-2026-10-16/config.json",
+      "bytes": 354,
+      "sha256": "c66288d17aa186dfd06697a23bf7b255d0296995df298dc7140ed160a8e9a4e0"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/codenzy-react-2026-10-16/metadata.json",
+      "bytes": 1608,
+      "sha256": "2ce071da291a47bb09b8e709b1e1672ae3eda87e8cfd5aefa957665ab1cb0777"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/codenzy-react-2026-10-16/resume.md",
+      "bytes": 2586,
+      "sha256": "839e78b33e7771f706cecb0692155ab63e91fa885869abcb7e4d235ab46f362e"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/codenzy-react-2026-10-16/upload-receipt.json",
+      "bytes": 595,
+      "sha256": "143dc76bad19f7acc82c93f3aa29809d667f2b33ce48ede393c068e0546bfb4c"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/QA.md",
+      "bytes": 561,
+      "sha256": "a952155ca26f813fad6c13b32d7bc706eb71c3c2e1951f192b136fb6c6b187b6"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/config.json",
+      "bytes": 363,
+      "sha256": "0779b035d793b7e60639c868fccde60a3393c4dcbc84564c9b89dc2c1f85dc64"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/facts.snapshot.json",
+      "bytes": 11834,
+      "sha256": "48dbc0cf12399f93a020c7e50bdaa28bc845b132ca8c159751407e3dc369d3ad"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/metadata.json",
+      "bytes": 1590,
+      "sha256": "7911f24f2d768c6dc14e1e39345a33a3d1aed743c94bb9dd3a1253d596be1135"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/readiness.json",
+      "bytes": 2503,
+      "sha256": "261eaa8f930faf2b1e503f15362c752dfaf373f6c048c534e88cfb479ea0e05d"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/resume.md",
+      "bytes": 2586,
+      "sha256": "0cc3047b56f3e4759f79a0b971e17140d206158fedae895e8b228ee158d7be5b"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/upload-receipt.json",
+      "bytes": 655,
+      "sha256": "eb793fc435457d123fd7f199a0e0b0c65bf469c3988cc2cf168cb7edf5776070"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/eventmobi-frontend.json",
+      "bytes": 370,
+      "sha256": "af61dce4032a4b300b6c80f059c3798845282eed39769cab80994426cfc6bc5d"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/eventmobi-frontend.md",
+      "bytes": 2716,
+      "sha256": "4a01938c7ae71cec49a45b0728acf653e6117fb01989466323f487a988f54a1b"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/finni-health-full-stack.json",
+      "bytes": 373,
+      "sha256": "c68ce68493200bb39d560c32cb01db06d91e14f61dfe4bf0c7a5ce7846d3736a"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/finni-health-full-stack.md",
+      "bytes": 2753,
+      "sha256": "dc566f3033bea3b5facd910bc4b65a006975c0e0ab3ea74e1e396d5421f32bca"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/frontend-selection-review.json",
+      "bytes": 17310,
+      "sha256": "4668abe1041cada4500b45af726ee647d594a8b20e6eaf7668404a07b8438941"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/furtherai-frontend.json",
+      "bytes": 364,
+      "sha256": "a8f6844a061633e0dde90e33faa402375e0fbc8a7202eaffd96dea85434b3282"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/furtherai-frontend.md",
+      "bytes": 2729,
+      "sha256": "c8492f29f6b5d8466820d815f943bd416259b82a2bca7a4950c4def2e3609221"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/manifest.json",
+      "bytes": 42674,
+      "sha256": "e15e8175b082a64445295a6865fbcdbdaa05a29a4cf56d340215f79f84a23519"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/metabase-frontend.json",
+      "bytes": 330,
+      "sha256": "a2756783224fc38c8c49aded46b7bc941f2ad05d9f1a5b35c3130db57bb49ef1"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/metabase-frontend.md",
+      "bytes": 2357,
+      "sha256": "cda5a197bedbc6c1bea9db02df8094cea5dbd9625b3c3be7db3d83d3457fa47c"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/niyyt-fullstack-2026-10-16-v1/build.py",
+      "bytes": 4894,
+      "sha256": "ed611e93a9893d316c1b8fe336cfcdbbaec98bfaedc7b3c5d36cac621fc8d4fc"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/niyyt-fullstack-2026-10-16-v1/config.json",
+      "bytes": 359,
+      "sha256": "add8a049bb66fe364d546a76fc85bacd934e7040bd98cd510478b0916cf42fe1"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/niyyt-fullstack-2026-10-16-v1/facts.snapshot.json",
+      "bytes": 13344,
+      "sha256": "e9a985fb18d299aa3e9b3e7839078baca3665e7decaf6c01dd45d284f768ffb3"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/niyyt-fullstack-2026-10-16-v1/metadata.json",
+      "bytes": 578,
+      "sha256": "d9ee2fb4a9d098f74a7dd5494dad600def218784c5adf3f4251d0695202054e3"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/niyyt-fullstack-2026-10-16-v1/provenance.json",
+      "bytes": 2093,
+      "sha256": "24aa955b2ed7aaac23c03cb87b852581aa028ff998858758d769e741f3e6dc6b"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/niyyt-fullstack-2026-10-16-v1/resume.md",
+      "bytes": 2883,
+      "sha256": "0fc3a4fb636d4ab2489cce79fcb24007cb4b576f5783dbd5776bfdf0a89ef2f6"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/provenance/whippy-frontend-source.json",
+      "bytes": 1116,
+      "sha256": "60a32363e4e539810eb4fa7619ce0e461a0ca6a341226b25307f45153575e0d2"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/QA.md",
+      "bytes": 1458,
+      "sha256": "497244b03b54f798a43c875c504d845a6ebc18e20b1d3dcb46af52ffa7548a45"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/candidate-confirmations.snapshot.json",
+      "bytes": 1842,
+      "sha256": "ceedf31665222657ca6058cd408120d3d380eefe233852bceb13a9469fbc465c"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/canonical-facts.snapshot.json",
+      "bytes": 12177,
+      "sha256": "c11a82edd43bafb93849e3f25b76e766e7ae0d2450234b12a46a3fd535f3ca74"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/config.json",
+      "bytes": 332,
+      "sha256": "809db37188d1530988e4f288891dd77e11150e73a02699a3d91ad960c697de1d"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/facts.rendered.snapshot.json",
+      "bytes": 12188,
+      "sha256": "7ad8af010fbc42dd45b5275c1b46d0fd2669ede854c4e6ffa428c95e8f5cc75e"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/manifest.json",
+      "bytes": 3181,
+      "sha256": "6402889cd45f01f3faa9f6e7898054d5bb03e5db2c3ec13ef60f01c85c1b685b"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/metadata.json",
+      "bytes": 2383,
+      "sha256": "dbcd2def2ef70f35a96c65d3a521d8960a6b7ac2ee55daa13578098961f53aa3"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/provenance.json",
+      "bytes": 1815,
+      "sha256": "e02255689960516cc4c48a48e8c4d2be856963b9fc5518ac0669d7ec7321bbe9"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/readiness.json",
+      "bytes": 7206,
+      "sha256": "0838caf6a7368cc9b87b6a900ddba75667dae088d95c012f0ef9075f00249f68"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/resume.md",
+      "bytes": 2557,
+      "sha256": "563172a1dd4e1ed297cff39102413e29a73278d70254dffa50f98bd940d51dee"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/capture.json",
+      "bytes": 739,
+      "sha256": "48921f30678ef78c8ce6698ca8789d710b0b159b745fec6b3643b87b0eb645e7"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/form-field-labels.json",
+      "bytes": 356,
+      "sha256": "5a26e7ecc87522ec8236632fa222b74bbc05523a1be85fb7806a8f0deb12eca6"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/upload-receipt.json",
+      "bytes": 529,
+      "sha256": "3550caf56a0202c129aa88e00109cd0f44e37ccfbdbd666657d8c4c2889be2cb"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/simple-ai-founding-engineer.json",
+      "bytes": 361,
+      "sha256": "1537a4786bab1d19a1e0ab77fcefbb9f8fbf71aec65662f01456434417c850f4"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/simple-ai-founding-engineer.md",
+      "bytes": 2487,
+      "sha256": "3fd60fa8f0bb1f1842b2b3bbb0102bd919a3f818c05fc4da0e211348dc7ce41c"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/sources/eventmobi.json",
+      "bytes": 36477,
+      "sha256": "31813efc7b4a8722092f8b58499175bf5fd0ed0a15f8e60a3d82c8475a6ec8de"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/sources/index.json",
+      "bytes": 4809,
+      "sha256": "2ce2e514f319343dd0f7a8a41be459f80f04c3a9f14e2a90362ecf07d600b638"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/sources/zoftify.json",
+      "bytes": 33576,
+      "sha256": "23c1b834e853d0f1d675aeb9964957adb5e79b478dbd3952fa71ac44efec31ae"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/QA.md",
+      "bytes": 609,
+      "sha256": "8a3c40ec1319a29438bda75b50ee76ed8f7bab5bf8322d62d4c8c68b487e6179"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/build.py",
+      "bytes": 4333,
+      "sha256": "a16fb7ea0698b64a6ca24e8f2a5ce4cc78f752ce4476bbc94c85c7486426fd9f"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/config.json",
+      "bytes": 358,
+      "sha256": "dfe531a70e827715d8706776cee8c4c2ba3da443eaeefaa7f6369fe2bf2f0f09"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/facts.snapshot.json",
+      "bytes": 13241,
+      "sha256": "c6dfcd673dc8b54f7fe0e7543647b70d8caaff171eb9c08d7e05cfb653ac7632"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/live-job-before.json",
+      "bytes": 5453,
+      "sha256": "742875a729d7d2892d737b63e2f030e6749b2ea0fd47f480827bf155eb50c808"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/metadata.json",
+      "bytes": 696,
+      "sha256": "18fe7d3222c2d230e4243d6acab156229a38f5bbc29487677ff011bc3d8940d4"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/provenance.json",
+      "bytes": 2020,
+      "sha256": "a38ba371707f255f8c0abe2be786b29d936f4cd734a48ba6917b1e1a3ebca974"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/tbox-fullstack-2026-10-16-v1/resume.md",
+      "bytes": 2833,
+      "sha256": "583b6d06fc550fb904304fd154c870f16bd1040cee08a4784f623cf175ce8b3e"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/upload-receipts.json",
+      "bytes": 2127,
+      "sha256": "a8d9183a395a6bddd55fd55df55fbbcd435b1f3ee897f3c9965ec9b9d8af07aa"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/whippy-frontend.json",
+      "bytes": 362,
+      "sha256": "396d61cf9d10216c1e7f5a263f1d6e09df6f8f1383b3eca4de9cf5ce83287d63"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/whippy-frontend.md",
+      "bytes": 2720,
+      "sha256": "056ecb26f4e45954373cb7a52b2dca7d5a751c034fb546561994c1ae0e507686"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/zoftify-frontend.json",
+      "bytes": 338,
+      "sha256": "1e145071e78a1c3b8a50fbb208da00d202ecb1003308908d81f8f5e6c8ec7116"
+    },
+    {
+      "path": "project-data/.job-search/resumes/tailored/zoftify-frontend.md",
+      "bytes": 2648,
+      "sha256": "4152ecf2cbdb93f8bafa67e7908509bff08f9efeef88c6ae4a411dd19a9296ec"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-agave-full-stack-ats.pdf",
+      "bytes": 88405,
+      "sha256": "f940d2801cc7afd82739c9616c60261ce95355c557b22563d7bbdde7ac706fe1"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-allcancode-fullstack-2026-10-16-ats.pdf",
+      "bytes": 88352,
+      "sha256": "8bcdc943d720fc72a8ce391daf37d18bd8214bcce90e8e43045c133fd6757415"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-appkeeper-frontend-2026-10-16-v1-ats.pdf",
+      "bytes": 88113,
+      "sha256": "7ed535a1ba8828be802b55b75b40aed02f2d86ab1c19b4d047bd6cda85fd40ac"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-appkeeper-frontend-2026-10-16-v2-ats.pdf",
+      "bytes": 88236,
+      "sha256": "fe8d2f13198a14bd8e560c7ce0b0ca5d13b260a301bd1a9dbd4f9bcd4a3fd4a0"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-codenzy-react-2026-10-16-v1-ats.pdf",
+      "bytes": 88383,
+      "sha256": "0abf77612bc5b5ded9a75d9952d8b1a638c13794b40f60d7cc69937e732f5d97"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-dynamic-logix-frontend-2026-10-16-v1-ats.pdf",
+      "bytes": 88375,
+      "sha256": "04c7aa94a3aa6c6fc3965a2d4a50f618bac904dcb634ccbd09753757f3c95ff1"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-eventmobi-frontend-ats.pdf",
+      "bytes": 88475,
+      "sha256": "d86c871a68df5bba6edb7edd1449e3473eeeb0e2ff6ebe1aa13f558bd2050de2"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-finni-health-full-stack-ats.pdf",
+      "bytes": 88466,
+      "sha256": "bf6e3d2fc4030009be66854cbdad400cb0c3474af681b88c26f8411b95cc097b"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-furtherai-frontend-ats.pdf",
+      "bytes": 88493,
+      "sha256": "ee11737b4005c83832fa671eeb9f197c8b45400dea7b131aa644e3727636c59d"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-master-2026-10-16-v2-ats.pdf",
+      "bytes": 88516,
+      "sha256": "984d78758249f7d695c205ca368633f7ee150836ef96863e9ed0bed8d5118eac"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-master-2026-10-16-v2-outreach.pdf",
+      "bytes": 75062,
+      "sha256": "24d2a7873bcd50da636b5f63e6c85f29f12cf82b737f28ba3a0c8ce8890ce193"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-master-2026-10-16-v3-ats.pdf",
+      "bytes": 88606,
+      "sha256": "989c6e492a976927745e432b898bbd76d18c1e649d97d0bd053d505e86376a88"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-master-2026-10-16-v3-outreach.pdf",
+      "bytes": 75130,
+      "sha256": "cf4bb2361edfca09dda0c3e4497f90d11ece83968bf95bd8240cbcc4187a47a4"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-master-ats.pdf",
+      "bytes": 88430,
+      "sha256": "f4863414a9108e695551a61954e6853b73007046173660768aa795341f3bee2a"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-master-outreach.pdf",
+      "bytes": 74945,
+      "sha256": "d6d2a57d4ad964d3f7870c15da866463020682c0328054048dc53d622b9ad3c5"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-metabase-frontend-ats.pdf",
+      "bytes": 88106,
+      "sha256": "970044a2bf5a7bd6eb6a614f05e8385cc463f2ee18082c31d22be2348dafc30b"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-niyyt-fullstack-2026-10-16-v1-ats.pdf",
+      "bytes": 88567,
+      "sha256": "59450dd24e2cf3fc50fc7de87e971817e03235e3f5e1bce91876715f78e3ebd7"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf",
+      "bytes": 88348,
+      "sha256": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-simple-ai-founding-engineer-ats.pdf",
+      "bytes": 88111,
+      "sha256": "6ec65c7f6b8787c867ac2c65c01d85098b47cb92fd2b1384a44a11ac78f77f1b"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-tbox-fullstack-2026-10-16-v1-ats.pdf",
+      "bytes": 88527,
+      "sha256": "fca2776a5ea23821827f5c2da6826e81b9f8bee8344a9be70a9b37c143ecc639"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-whippy-frontend-ats.pdf",
+      "bytes": 88493,
+      "sha256": "b2b1a7e33363947c9e1a936ab5813f51011b69925c6bcc1f98c43788fcad8368"
+    },
+    {
+      "path": "project-data/output/pdf/ubaidullah-omer-zoftify-frontend-ats.pdf",
+      "bytes": 88430,
+      "sha256": "b2583ab55cb5c400454e2990041e2800fd7468d816a6f62e5de5b3cc0fad832e"
+    },
+    {
+      "path": "reference/CLAUDE-START-HERE.md",
+      "bytes": 10998,
+      "sha256": "dcd559576da5de36c658caee44896faacaa7c9b547d10c34e007d7bcfd85ae02"
+    },
+    {
+      "path": "reference/platforms-30.md",
+      "bytes": 6473,
+      "sha256": "86ad5cad35d060a77a71d8e802f99b5690251e35248edc1aa19c83155a109664"
+    }
+  ],
+  "sessionExported": false,
+  "environmentFilesExported": false,
+  "privateCredentialsExported": false,
+  "excludedNames": []
+}

@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-15T23:22:50.078480Z",
+  "method": "Read-only web fetch and public HTTP GET. Employer role pages reviewed, no account login, form submit, email send, or portal write. No screenshots taken.",
+  "sources": [
+    {
+      "id": "allcan-role",
+      "label": "Employer role and rolling-open status",
+      "url": "https://www.allcancode.com/careers",
+      "text": "Worldwide rolling recruitment. React/Next/React Native or Node, both database categories, teamwork and adaptability are requested.",
+      "capturedAt": "2026-10-15T23:21:46.878866Z",
+      "screenshotUrl": "",
+      "screenshotPath": ""
+    },
+    {
+      "id": "allcan-form",
+      "label": "Live application form, public GET inspected",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScTX4kn5-9IwbtIQg5nvxr5QLY-WyIL3K3mTvMNBxHQYid1CQ/viewform",
+      "text": "HTTP 200; five-page questionnaire. Required identity/commitment, motivation, AI opinion, project/role narratives and technology self-ratings. Optional hobby/references.",
+      "capturedAt": "2026-10-15T23:21:46.878866Z",
+      "screenshotUrl": "",
+      "screenshotPath": ""
+    },
+    {
+      "id": "allcan-team",
+      "label": "Employer team listing",
+      "url": "https://www.allcancode.com/about",
+      "text": "Employer page names Kostas Karolemeas as CEO/cofounder and Spyros Mpampalis as software engineer. Current affiliations beyond this page are not independently established.",
+      "capturedAt": "2026-10-15T23:21:46.878866Z",
+      "screenshotUrl": "",
+      "screenshotPath": ""
+    },
+    {
+      "id": "lit8-role",
+      "label": "Employer job page",
+      "url": "https://hr.lit8.com/profiles/fullstack-developer/",
+      "text": "Worldwide full-time opening: 3\u20135 years, TypeScript/React/Node, relational data, REST/security, Git/CI-CD, ownership; PostgreSQL preferred. Email application route.",
+      "capturedAt": "2026-10-15T23:21:46.878866Z",
+      "screenshotUrl": "",
+      "screenshotPath": ""
+    },
+    {
+      "id": "lit8-index",
+      "label": "Live employer vacancy index",
+      "url": "https://hr.lit8.com/",
+      "text": "HTTP 200 index links the Fullstack Developer vacancy. Salary is TBD.",
+      "capturedAt": "2026-10-15T23:21:46.878866Z",
+      "screenshotUrl": "",
+      "screenshotPath": ""
+    },
+    {
+      "id": "signx-role",
+      "label": "Employer opening and application form",
+      "url": "https://www.signxsolutions.com/career",
+      "text": "Worldwide full-time React/Next/Node opening. Form requires given/family names, email and message; CV attachment supported up to 10 MB.",
+      "capturedAt": "2026-10-15T23:21:46.878866Z",
+      "screenshotUrl": "",
+      "screenshotPath": ""
+    },
+    {
+      "id": "signx-team",
+      "label": "Employer team page",
+      "url": "https://www.signxsolutions.com/about/team",
+      "text": "Muhammad Ansar is listed as CTO/cofounder. No personal profile or referral address is published here.",
+      "capturedAt": "2026-10-15T23:21:46.878866Z",
+      "screenshotUrl": "",
+      "screenshotPath": ""
+    },
+    {
+      "id": "omkar-role",
+      "label": "Employer role and form",
+      "url": "https://omkaruniverse.com/careers/frontend-engineer",
+      "text": "Worldwide frontend opening using React/TypeScript/Next. Three-plus years React, CSS, accessibility and browser correctness. Required form fields: name, email, CV (PDF/DOC/DOCX, up to 5 MB).",
+      "capturedAt": "2026-10-15T23:21:46.878866Z",
+      "screenshotUrl": "",
+      "screenshotPath": ""
+    }
+  ]
+}

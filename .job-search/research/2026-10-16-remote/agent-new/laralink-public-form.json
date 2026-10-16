@@ -1,0 +1,155 @@
+{
+  "capturedAt": "2026-10-15T22:06:13.473198+00:00",
+  "sourceId": "laralink-frontend",
+  "sourceSha256": "71beda5c98e0ad720593772be1609bbf20abf551730128f0e9836b4a9752a54f",
+  "forms": [
+    {
+      "attributes": {
+        "class": "cs_contact_form",
+        "data-laralink-form": "laralink_job_apply",
+        "method": "post",
+        "enctype": "multipart/form-data"
+      },
+      "fields": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "website",
+          "tabindex": "-1",
+          "autocomplete": "off",
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "job_id",
+          "value": "36",
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "name",
+          "placeholder": "Full Name",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "email",
+          "name": "email",
+          "placeholder": "Email Address",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "tel",
+          "name": "phone",
+          "placeholder": "Phone Number",
+          "required": false
+        },
+        {
+          "tag": "select",
+          "name": "position",
+          "required": true,
+          "options": [
+            {
+              "attributes": {},
+              "text": "Senior Laravel Developer"
+            },
+            {
+              "attributes": {
+                "selected": "selected"
+              },
+              "text": "React Frontend Developer"
+            },
+            {
+              "attributes": {},
+              "text": "UI/UX Designer"
+            },
+            {
+              "attributes": {},
+              "text": "DevOps Engineer"
+            },
+            {
+              "attributes": {},
+              "text": "Technical Support Specialist"
+            },
+            {
+              "attributes": {},
+              "text": "Digital Marketing Executive"
+            }
+          ]
+        },
+        {
+          "tag": "select",
+          "name": "experience",
+          "required": true,
+          "options": [
+            {
+              "attributes": {
+                "value": "",
+                "disabled": null,
+                "selected": null
+              },
+              "text": "Years of Experience"
+            },
+            {
+              "attributes": {},
+              "text": "0 – 1 years"
+            },
+            {
+              "attributes": {},
+              "text": "1 – 3 years"
+            },
+            {
+              "attributes": {},
+              "text": "3 – 5 years"
+            },
+            {
+              "attributes": {},
+              "text": "5+ years"
+            }
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "url",
+          "name": "portfolio",
+          "placeholder": "Portfolio / LinkedIn / GitHub URL",
+          "required": false
+        },
+        {
+          "tag": "textarea",
+          "name": "message",
+          "rows": "4",
+          "placeholder": "Why are you a great fit for this role?",
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "file",
+          "id": "cs_cv",
+          "name": "cv",
+          "accept": ".pdf,.doc,.docx",
+          "required": true
+        },
+        {
+          "tag": "button",
+          "type": "submit",
+          "class": "cs_contact_form_btn cs_fs_21 cs_medium cs_white_color",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "handlerSourceId": "laralink-form-script",
+  "handlerAnalysis": "Public JavaScript intercepts this form, puts all form fields into FormData, appends the laralink_job_apply action plus a public nonce and POSTs to the same-site WordPress admin-ajax.php endpoint. No submission or upload was attempted. Server-side rules and any later questions remain untested.",
+  "publicFileLabel": "PDF or DOC, max 5MB",
+  "htmlFileAccept": [
+    ".pdf",
+    ".doc",
+    ".docx"
+  ],
+  "publicApplicationQuestionsComplete": true,
+  "scope": "All public initial-page fields and published client handler. No account/browser or network POST."
+}

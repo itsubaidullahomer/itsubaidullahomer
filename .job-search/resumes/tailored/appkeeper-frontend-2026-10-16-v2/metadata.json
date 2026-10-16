@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-10-15T23:28:39.981698+00:00",
+  "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-appkeeper-frontend-2026-10-16-v2-ats.pdf",
+  "sha256": "fe8d2f13198a14bd8e560c7ce0b0ca5d13b260a301bd1a9dbd4f9bcd4a3fd4a0",
+  "bytes": 88236,
+  "pages": 1,
+  "searchableWords": 332,
+  "contentBottomPt": 154.08976377952766,
+  "visualQa": "passed: final 1600px PNG inspected; clear single-column layout, no overlap, clipping or missing glyphs",
+  "previousPdf": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-appkeeper-frontend-2026-10-16-v1-ats.pdf",
+  "previousPdfSha256": "7ed535a1ba8828be802b55b75b40aed02f2d86ab1c19b4d047bd6cda85fd40ac",
+  "previousPdfUnchanged": true,
+  "cloudWrites": false,
+  "qaCompletedAt": "2026-10-15T23:28:52.992892+00:00",
+  "readyForUpload": true
+}

@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {applyAction} from '../../lib/jobs/domain';
+import {parseAction,assertJob} from '../../lib/jobs/validation';
+import type {Workspace} from '../../lib/jobs/types';
+const d='.job-search/import/';
+let w:Workspace=JSON.parse(readFileSync(d+'validated-workspace-preview.json','utf8'));
+for(const file of ['reviewed-actions-kanban.json','new-leads-kanban-actions.json'])for(const action of JSON.parse(readFileSync(d+file,'utf8')))w=applyAction(w,parseAction(action));
+for(const j of w.jobs)assertJob(j);
+if(w.jobs.some(j=>j.appliedAt||j.status!=='discovered'))throw new Error('Status/submission mutation');
+const counts=w.jobs.reduce((a,j)=>({...a,[j.fit]:a[j.fit]+1}),{strong:0,gaps:0,unknown:0,stretch:0});
+writeFileSync(d+'combined-review-report-kanban.json',JSON.stringify({checkedAt:new Date().toISOString(),total:w.jobs.length,counts,actions:9,scope:'Local simulation of eight review updates and one new lead. No cloud calls or applications.'},null,2)+'\n');
+console.log(JSON.stringify({total:w.jobs.length,counts}));

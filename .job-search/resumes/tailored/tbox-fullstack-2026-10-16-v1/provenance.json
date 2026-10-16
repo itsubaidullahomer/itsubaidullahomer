@@ -1,0 +1,46 @@
+{
+  "createdAt": "2026-10-16T01:09:50.001928+00:00",
+  "sourceUrl": "https://tboxsolutionz.com/careers.html",
+  "sourceHtmlSha256": "51faf62e3b09a446b49a81889d968ebcf95f3c16203865fe5eb6b00e4d2ec496",
+  "sourceFacts": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/2026-10-16-v3/facts.snapshot.json",
+    "sha256": "9264eb02ad1fb6d463e5d22aa7d77d8963da1b71b6b0b341180f913bbebd2c89"
+  },
+  "confirmationSource": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/private/application-facts.json",
+    "sha256": "1e581031c28786a8fdd842ba1546765990c17b7184bb48f072f79698e2e5fe8f",
+    "postgresql": {
+      "productionExperience": true,
+      "years": null,
+      "confirmedAt": "2026-10-16T01:07:52.993Z",
+      "source": "Direct candidate answer: I have used PostgreSQL in production",
+      "independentlyVerified": false
+    }
+  },
+  "selectedFactIds": [
+    "tututor_backend",
+    "tututor_leadership",
+    "tututor_platform",
+    "tututor_scope",
+    "danzee_components",
+    "danzee_jurri",
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "tailoring": "Backend/API design and founder-facing ownership lead the experience section; shipped client interfaces, integrations and source-backed PostgreSQL/GraphQL appear without adding tenure. Existing summary and selected factual sentences remain unchanged.",
+  "boundaries": [
+    "No degree",
+    "No PostgreSQL tenure or migrations, performance tuning or row-level-security claim",
+    "No simultaneous-client availability promise",
+    "No acceptance of later paid trial",
+    "No Expo, native-module or TestFlight claim",
+    "Candidate-reported employment and project metrics, not independently verified"
+  ],
+  "renderer": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/build_resumes.py",
+    "sha256": "f0c91da8ab1a1f9640912d4dda9065e501398776f8f8df5a9e280db9c146ba5d"
+  },
+  "cloudWrites": false,
+  "submission": false
+}

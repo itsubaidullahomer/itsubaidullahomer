@@ -1,0 +1,82 @@
+{
+  "preparedAt": "2026-10-15T16:04:40.727599+00:00",
+  "source": ".job-search/application-readiness.json",
+  "baseFiles": [
+    "validated-workspace-preview.json",
+    "reviewed-actions-kanban.json",
+    "new-leads-kanban-actions.json"
+  ],
+  "overlapWithKanban": [],
+  "jobs": [
+    {
+      "id": "zoftify-29",
+      "originalNotesSha256": "bca19f8a113d9459acdbb71d801e430898f8886da5fd3e5034f659509cd39e49",
+      "originalResearchSha256": "1e0c48696898281c95704a35caeef7c81d9d7378c809926f4c30f91fd6eecf98",
+      "originalNotesLength": 2402,
+      "updatedNotesLength": 9219
+    },
+    {
+      "id": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "originalNotesSha256": "a538bd4c33d42d36e1c2e8bc1c877eced1869cd5004a2fcb6afce53295c11d4e",
+      "originalResearchSha256": "904ce249e935ec0653c596094d3471a41cd3857822b90c32371146bc9edcd08f",
+      "originalNotesLength": 2652,
+      "updatedNotesLength": 7704
+    },
+    {
+      "id": "eventmobi-frontend-458",
+      "originalNotesSha256": "906d5aae2e9a02a676cf91e03c30c9f1a2a245995a650f6a79a0fcce620e8024",
+      "originalResearchSha256": "643e1281703aff69044916f632804fcd8eb5f1c0d7c6fa559b9edae6f0841c5e",
+      "originalNotesLength": 2220,
+      "updatedNotesLength": 10297
+    },
+    {
+      "id": "pavago-f280d10f6f",
+      "originalNotesSha256": "e6e96479f4b28df518c54f9f3c585af016aa3661f17c6e8da5ee9d14ad014256",
+      "originalResearchSha256": "9ce7b5cb9817aa64ca78fb0e8ea8aa5b8175e1e6313742188223e22039121ff6",
+      "originalNotesLength": 2308,
+      "updatedNotesLength": 5809
+    },
+    {
+      "id": "zoftify-32",
+      "originalNotesSha256": "dc4bc36bcafdb86f53b0719a94ee65a429c01a00440c2c0804cc21ac2d73aacd",
+      "originalResearchSha256": "a29850fddfc5110f7a8e8dec9c38fad8cb9d6f0cc320c1c946c3a783507d6b38",
+      "originalNotesLength": 2408,
+      "updatedNotesLength": 9352
+    },
+    {
+      "id": "zoftify-41",
+      "originalNotesSha256": "ce5f240547cd412ac01b35e5b45b312817984a6240cf6379729051994b4eb96c",
+      "originalResearchSha256": "8c8c3e157c390150c1756ac530da3b161d9c7f9ecfa92b314ead38985f93c34a",
+      "originalNotesLength": 2428,
+      "updatedNotesLength": 9068
+    },
+    {
+      "id": "pavago-b27de28c51",
+      "originalNotesSha256": "2146c455e2be1789063912ed9c04efeb3ce8c52a02d391434d144e00f1803034",
+      "originalResearchSha256": "026c5630693dc42e45080b47ea796cd7f91ebd50384744caa363ac77b969ba42",
+      "originalNotesLength": 2321,
+      "updatedNotesLength": 5677
+    },
+    {
+      "id": "pavago-3ddacf04af",
+      "originalNotesSha256": "01a84f4d01bf2e7f02e26ce090e05a0b1607ef1a7aa7bee5d1c557a28c424683",
+      "originalResearchSha256": "0835afa05af1e792ea27712c1f60c2f1c994646396df79f88f5c68482e81f6ba",
+      "originalNotesLength": 2290,
+      "updatedNotesLength": 5731
+    },
+    {
+      "id": "tether-frontend-desktop",
+      "originalNotesSha256": "09bdd6d09d6eeb42abf47aa236370559b7b90e8b037df9d74364c3c2561867e8",
+      "originalResearchSha256": "fc46b6e6e3e9859ad862c2dd37c31f164f3a329978e9a4157c4733a33ebd6124",
+      "originalNotesLength": 2400,
+      "updatedNotesLength": 7279
+    },
+    {
+      "id": "tether-mobile-pk-2784265",
+      "originalNotesSha256": "7e7484012ed0f8665b790fbc46433eda6c2028c2c83af94e0d1c7ca6ff70032f",
+      "originalResearchSha256": "4ce0e6a43cf37058bfa351a521d359e270e01a0d443d560a9ca90147d5abd545",
+      "originalNotesLength": 2455,
+      "updatedNotesLength": 7574
+    }
+  ]
+}

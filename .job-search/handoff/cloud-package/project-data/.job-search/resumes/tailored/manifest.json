@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-15T15:58:31.885255+00:00",
+  "purpose": "Private per-job ATS resume versions. No applications or uploads performed.",
+  "truthPolicy": "Only selects/reorders source facts. No degree, new skill, employment tenure, legal status, language level or special commitment has been added.",
+  "sourceFacts": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/facts.json",
+    "sha256": "63c6a356017e9d1893bb8867aea5a17a4f8d478d3888e3ae2d4fe03ef43146e9"
+  },
+  "renderer": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/build_resumes.py",
+    "sha256": "f0c91da8ab1a1f9640912d4dda9065e501398776f8f8df5a9e280db9c146ba5d",
+    "method": "ATS-only renderer imported without changing master source; single-column searchable text."
+  },
+  "resumes": [
+    {
+      "jobId": "yc-agave-unmv0mv",
+      "company": "Agave",
+      "role": "Full-Stack Software Engineer",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-agave-full-stack-ats.pdf",
+      "sha256": "f940d2801cc7afd82739c9616c60261ce95355c557b22563d7bbdde7ac706fe1",
+      "bytes": 88405,
+      "kind": "tailored_resume",
+      "title": "Agave - Full-Stack Software Engineer - tailored ATS resume",
+      "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/agave-full-stack.json",
+      "editableSourcePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/agave-full-stack.md",
+      "fit": "strong",
+      "blockers": [
+        "Confirm a feasible sponsored US hiring route; remote listing is US-only.",
+        "Confirm travel for a paid San Francisco onsite interview and recurring office visits.",
+        "Inspect authenticated YC questions."
+      ],
+      "applicationReady": false,
+      "jobSource": {
+        "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+        "finalUrl": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+        "checkedAt": "2026-10-15T15:54:35.243417+00:00",
+        "httpStatus": 200,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/agave.html",
+        "sha256": "a91b7a67070b77db1a386d9a9e6c39769e8f66da25262c4bc041f9c9f939adeb",
+        "bytes": 187855,
+        "scope": "Exact public HTTP response bytes; includes full employer description and page wrapper."
+      },
+      "tailoringReason": "Lead with backend/data boundaries, integration delivery and validated exports for a financial-operations API product. Illume leads the projects for analytics and external data integrations.",
+      "jobTargetMapping": [
+        {
+          "need": "Backend/API integrations and cloud familiarity",
+          "facts": [
+            "tututor_backend",
+            "tututor_platform",
+            "illume"
+          ],
+          "boundary": "Does not claim AWS, CDK or PostgreSQL mastery."
+        },
+        {
+          "need": "Ownership and reliable shipping",
+          "facts": [
+            "tututor_leadership",
+            "tututor_export",
+            "danzee_components"
+          ],
+          "boundary": "Golden tests are described accurately; no generic test-framework expertise added."
+        }
+      ],
+      "selectedFactIds": [
+        "tututor_backend",
+        "tututor_platform",
+        "tututor_leadership",
+        "tututor_export",
+        "tututor_scope",
+        "danzee_components",
+        "danzee_jurri",
+        "illume",
+        "viloi",
+        "yaksport"
+      ],
+      "unsupportedKeywordsNotAdded": [],
+      "atsInspection": {
+        "pages": 1,
+        "searchableWords": 345,
+        "links": 7,
+        "singleColumn": true,
+        "identityContactDatesFound": true,
+        "allSelectedFactualTextPreserved": true,
+        "noForbiddenDegreeOrExcludedClaims": true,
+        "charactersOutsideSafeArea": 0,
+        "contentBottomPoints": 102.4,
+        "extractedTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-agave-full-stack-ats.txt",
+        "textSha256": "767174331e7cbc271f28b55e907fefba2ae4e3379bcb6c56ecb923ac6cdbad40",
+        "sectionReadingOrderVerified": true,
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00"
+      },
+      "visualQA": {
+        "status": "passed",
+        "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/previews/agave-full-stack-1.png",
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00",
+        "renderDpi": 110,
+        "pageCountInspected": 1,
+        "notes": "Every final page inspected individually. Header, dates, bullets, projects, skills and footer are readable; no overlap, clipping, missing glyphs or section breaks."
+      },
+      "readyForPrivateUpload": true
+    },
+    {
+      "jobId": "yc-finni-health-ph1y4dp",
+      "company": "Finni Health",
+      "role": "Full-Stack Software Developer 2",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-finni-health-full-stack-ats.pdf",
+      "sha256": "bf6e3d2fc4030009be66854cbdad400cb0c3474af681b88c26f8411b95cc097b",
+      "bytes": 88466,
+      "kind": "tailored_resume",
+      "title": "Finni Health - Full-Stack Software Developer 2 - tailored ATS resume",
+      "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/finni-health-full-stack.json",
+      "editableSourcePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/finni-health-full-stack.md",
+      "fit": "strong",
+      "blockers": [
+        "US/Canada remote scope does not establish permission to work from Pakistan; verify sponsored relocation/hiring route.",
+        "Inspect authenticated YC questions."
+      ],
+      "applicationReady": false,
+      "jobSource": {
+        "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+        "finalUrl": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+        "checkedAt": "2026-10-15T15:54:35.243801+00:00",
+        "httpStatus": 200,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/finni.html",
+        "sha256": "eb2e6033f5904bbca9c51c696c601ded61fa94bcc65d57ff1f5efcbadd6e5e6a",
+        "bytes": 151087,
+        "scope": "Exact public HTTP response bytes; includes full employer description and page wrapper."
+      },
+      "tailoringReason": "Lead with released React Native apps, connected web products and full-stack ownership. Analytics, booking and authenticated billing products show adjacent workflow experience without claiming healthcare compliance expertise.",
+      "jobTargetMapping": [
+        {
+          "need": "Web/mobile/backend product delivery",
+          "facts": [
+            "tututor_platform",
+            "tututor_backend",
+            "tututor_scope"
+          ],
+          "boundary": "Does not turn Firebase Cloud Messaging into general Firebase/GCP expertise."
+        },
+        {
+          "need": "Product judgment and end-to-end ownership",
+          "facts": [
+            "tututor_leadership",
+            "illume",
+            "yaksport",
+            "viloi"
+          ],
+          "boundary": "No autism-care or regulated-healthcare experience is invented."
+        }
+      ],
+      "selectedFactIds": [
+        "tututor_platform",
+        "tututor_scope",
+        "tututor_backend",
+        "tututor_leadership",
+        "tututor_ai",
+        "danzee_components",
+        "danzee_jurri",
+        "illume",
+        "yaksport",
+        "viloi"
+      ],
+      "unsupportedKeywordsNotAdded": [],
+      "atsInspection": {
+        "pages": 1,
+        "searchableWords": 353,
+        "links": 7,
+        "singleColumn": true,
+        "identityContactDatesFound": true,
+        "allSelectedFactualTextPreserved": true,
+        "noForbiddenDegreeOrExcludedClaims": true,
+        "charactersOutsideSafeArea": 0,
+        "contentBottomPoints": 89.0,
+        "extractedTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-finni-health-full-stack-ats.txt",
+        "textSha256": "d9897e499cd872fed2c9c6d8895491a121b00f7e39a747ac45577f754f70c45e",
+        "sectionReadingOrderVerified": true,
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00"
+      },
+      "visualQA": {
+        "status": "passed",
+        "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/previews/finni-health-full-stack-1.png",
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00",
+        "renderDpi": 110,
+        "pageCountInspected": 1,
+        "notes": "Every final page inspected individually. Header, dates, bullets, projects, skills and footer are readable; no overlap, clipping, missing glyphs or section breaks."
+      },
+      "readyForPrivateUpload": true
+    },
+    {
+      "jobId": "yc-furtherai-zrn2j29",
+      "company": "FurtherAI",
+      "role": "Frontend Engineer - Web",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-furtherai-frontend-ats.pdf",
+      "sha256": "ee11737b4005c83832fa671eeb9f197c8b45400dea7b131aa644e3727636c59d",
+      "bytes": 88493,
+      "kind": "tailored_resume",
+      "title": "FurtherAI - Frontend Engineer - Web - tailored ATS resume",
+      "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/furtherai-frontend.json",
+      "editableSourcePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/furtherai-frontend.md",
+      "fit": "strong",
+      "blockers": [
+        "Confirm sponsored San Francisco relocation and the employer\u2019s work-intensity expectations.",
+        "Inspect authenticated YC questions."
+      ],
+      "applicationReady": false,
+      "jobSource": {
+        "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+        "finalUrl": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+        "checkedAt": "2026-10-15T15:54:35.243973+00:00",
+        "httpStatus": 200,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/furtherai.html",
+        "sha256": "06437b08db2822ee3da4c224f7e441dee84d120bda83880968c7eb434ed03196",
+        "bytes": 144405,
+        "scope": "Exact public HTTP response bytes; includes full employer description and page wrapper."
+      },
+      "tailoringReason": "Pair AI product delivery and early product ownership with frontend performance. Put the paid AI product first, then data-rich analytics and multilingual interfaces.",
+      "jobTargetMapping": [
+        {
+          "need": "React systems, ownership and AI-native interfaces",
+          "facts": [
+            "tututor_ai",
+            "tututor_scope",
+            "tututor_leadership",
+            "danzee_components"
+          ],
+          "boundary": "No insurance domain expertise or model-training claim."
+        },
+        {
+          "need": "Shipped frontend/product quality",
+          "facts": [
+            "danzee_jurri",
+            "viloi",
+            "illume",
+            "tututor_export"
+          ],
+          "boundary": "Existing sourced metrics are unchanged."
+        }
+      ],
+      "selectedFactIds": [
+        "tututor_ai",
+        "tututor_scope",
+        "tututor_leadership",
+        "tututor_backend",
+        "tututor_export",
+        "danzee_jurri",
+        "danzee_components",
+        "viloi",
+        "illume",
+        "yaksport"
+      ],
+      "unsupportedKeywordsNotAdded": [],
+      "atsInspection": {
+        "pages": 1,
+        "searchableWords": 348,
+        "links": 7,
+        "singleColumn": true,
+        "identityContactDatesFound": true,
+        "allSelectedFactualTextPreserved": true,
+        "noForbiddenDegreeOrExcludedClaims": true,
+        "charactersOutsideSafeArea": 0,
+        "contentBottomPoints": 102.4,
+        "extractedTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-furtherai-frontend-ats.txt",
+        "textSha256": "e09b6c257d36b3cd5c0835b2bbf891a8405adf01b4229fc99b320a4a6e3f6afc",
+        "sectionReadingOrderVerified": true,
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00"
+      },
+      "visualQA": {
+        "status": "passed",
+        "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/previews/furtherai-frontend-1.png",
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00",
+        "renderDpi": 110,
+        "pageCountInspected": 1,
+        "notes": "Every final page inspected individually. Header, dates, bullets, projects, skills and footer are readable; no overlap, clipping, missing glyphs or section breaks."
+      },
+      "readyForPrivateUpload": true
+    },
+    {
+      "jobId": "yc-simple-ai-byegx5m",
+      "company": "Simple AI",
+      "role": "Founding Software Engineer",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-simple-ai-founding-engineer-ats.pdf",
+      "sha256": "6ec65c7f6b8787c867ac2c65c01d85098b47cb92fd2b1384a44a11ac78f77f1b",
+      "bytes": 88111,
+      "kind": "tailored_resume",
+      "title": "Simple AI - Founding Software Engineer - tailored ATS resume",
+      "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/simple-ai-founding-engineer.json",
+      "editableSourcePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/simple-ai-founding-engineer.md",
+      "fit": "strong",
+      "blockers": [
+        "Confirm sponsored San Francisco relocation and availability for the one-day onsite work trial.",
+        "Inspect authenticated YC questions."
+      ],
+      "applicationReady": false,
+      "jobSource": {
+        "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-software-engineer",
+        "finalUrl": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-software-engineer",
+        "checkedAt": "2026-10-15T15:54:35.244107+00:00",
+        "httpStatus": 200,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/simple-ai.html",
+        "sha256": "c6def79245e99f3ec1edd7c20f354f02fbf6a02edba0452aff68b7e2e1da7225",
+        "bytes": 155573,
+        "scope": "Exact public HTTP response bytes; includes full employer description and page wrapper."
+      },
+      "tailoringReason": "Prioritize production LLM integrations, founder collaboration and full-stack ownership. Use the paid multi-provider AI product and AI analytics as the two most relevant work examples.",
+      "jobTargetMapping": [
+        {
+          "need": "Customer-focused full-stack AI product building",
+          "facts": [
+            "tututor_ai",
+            "tututor_leadership",
+            "viloi",
+            "illume"
+          ],
+          "boundary": "Does not claim voice-agent design, Python, Rails, AWS or model research."
+        },
+        {
+          "need": "Self-directed delivery and problem solving",
+          "facts": [
+            "tututor_backend",
+            "tututor_platform",
+            "danzee_jurri"
+          ],
+          "boundary": "No special on-site or trial commitment appears in the resume."
+        }
+      ],
+      "selectedFactIds": [
+        "tututor_ai",
+        "tututor_leadership",
+        "tututor_platform",
+        "tututor_backend",
+        "tututor_scope",
+        "danzee_components",
+        "danzee_jurri",
+        "viloi",
+        "illume"
+      ],
+      "unsupportedKeywordsNotAdded": [],
+      "atsInspection": {
+        "pages": 1,
+        "searchableWords": 322,
+        "links": 6,
+        "singleColumn": true,
+        "identityContactDatesFound": true,
+        "allSelectedFactualTextPreserved": true,
+        "noForbiddenDegreeOrExcludedClaims": true,
+        "charactersOutsideSafeArea": 0,
+        "contentBottomPoints": 138.7,
+        "extractedTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-simple-ai-founding-engineer-ats.txt",
+        "textSha256": "d7842b2efb7781b4d9536e665374e5958fcd9033a3fc970d8cd20b41d38d64ba",
+        "sectionReadingOrderVerified": true,
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00"
+      },
+      "visualQA": {
+        "status": "passed",
+        "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/previews/simple-ai-founding-engineer-1.png",
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00",
+        "renderDpi": 110,
+        "pageCountInspected": 1,
+        "notes": "Every final page inspected individually. Header, dates, bullets, projects, skills and footer are readable; no overlap, clipping, missing glyphs or section breaks."
+      },
+      "readyForPrivateUpload": true
+    },
+    {
+      "jobId": "zoftify-29",
+      "company": "Zoftify",
+      "role": "Frontend Developer (React)",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-zoftify-frontend-ats.pdf",
+      "sha256": "b2583ab55cb5c400454e2990041e2800fd7468d816a6f62e5de5b3cc0fad832e",
+      "bytes": 88430,
+      "kind": "tailored_resume",
+      "title": "Zoftify - Frontend Developer (React) - tailored ATS resume",
+      "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/zoftify-frontend.json",
+      "editableSourcePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/zoftify-frontend.md",
+      "fit": "unknown",
+      "blockers": [
+        "Desired salary with currency and period",
+        "Spoken-English level",
+        "Exact Next.js duration",
+        "Candidate answers to Redux/SSR/Pages Router/TypeScript screening",
+        "Figma-to-implementation and from-scratch examples"
+      ],
+      "applicationReady": false,
+      "jobSource": {
+        "url": "https://zoftify.bamboohr.com/careers/29/detail",
+        "finalUrl": "https://zoftify.bamboohr.com/careers/29/detail",
+        "checkedAt": "2026-10-15T15:57:25.579608+00:00",
+        "httpStatus": 200,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/zoftify.json",
+        "sha256": "72e64aa7451cf2d657c893e06d30721f72f50c2f2393899c37a62b254fbc81fb",
+        "bytes": 15804,
+        "scope": "Exact complete public employer response bytes, including JD and page/schema wrapper."
+      },
+      "tailoringReason": {
+        "positioning": "Lead with travel-product UI relevance and reusable React components.",
+        "projects": {
+          "yaksport": "First: direct travel booking, bilingual UI, search/filtering, Tailwind and REST evidence.",
+          "viloi": "Second: a delivered paid web product supports broad product-build ownership; do not call it from-scratch or Figma-perfect without confirmation.",
+          "illume": "Third: complex data-rich interfaces and API-backed client work."
+        },
+        "experienceBullets": {
+          "tututor_scope": "Scale and actual shipped-product scope establish commercial work.",
+          "tututor_backend": "Shows API contract/backend fluency relevant to frontend REST integration.",
+          "tututor_leadership": "Supports collaboration and product-delivery ownership.",
+          "tututor_ai": "Adds concrete shipped application workflows, without claiming AI coding-tool experience.",
+          "danzee_components": "Lead historical role with reusable components/hooks and integrations.",
+          "danzee_jurri": "Follow with a concrete frontend performance outcome."
+        }
+      },
+      "jobTargetMapping": {
+        "positioning": "Lead with travel-product UI relevance and reusable React components.",
+        "projects": {
+          "yaksport": "First: direct travel booking, bilingual UI, search/filtering, Tailwind and REST evidence.",
+          "viloi": "Second: a delivered paid web product supports broad product-build ownership; do not call it from-scratch or Figma-perfect without confirmation.",
+          "illume": "Third: complex data-rich interfaces and API-backed client work."
+        },
+        "experienceBullets": {
+          "tututor_scope": "Scale and actual shipped-product scope establish commercial work.",
+          "tututor_backend": "Shows API contract/backend fluency relevant to frontend REST integration.",
+          "tututor_leadership": "Supports collaboration and product-delivery ownership.",
+          "tututor_ai": "Adds concrete shipped application workflows, without claiming AI coding-tool experience.",
+          "danzee_components": "Lead historical role with reusable components/hooks and integrations.",
+          "danzee_jurri": "Follow with a concrete frontend performance outcome."
+        }
+      },
+      "selectedFactIds": [
+        "tututor_scope",
+        "tututor_backend",
+        "tututor_leadership",
+        "tututor_ai",
+        "danzee_components",
+        "danzee_jurri",
+        "yaksport",
+        "viloi",
+        "illume"
+      ],
+      "unsupportedKeywordsNotAdded": [
+        "pixel-perfect Figma implementation",
+        "verified from-scratch ownership for every product",
+        "precise Next.js or TypeScript tenure",
+        "spoken-English fluency",
+        "professional SSR/Pages Router expertise not established by listed skill alone"
+      ],
+      "atsInspection": {
+        "pages": 1,
+        "searchableWords": 334,
+        "links": 7,
+        "singleColumn": true,
+        "identityContactDatesFound": true,
+        "allSelectedFactualTextPreserved": true,
+        "noForbiddenDegreeOrExcludedClaims": true,
+        "charactersOutsideSafeArea": 0,
+        "contentBottomPoints": 119.8,
+        "extractedTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-zoftify-frontend-ats.txt",
+        "textSha256": "336401bbf9323caea52ff8999a116105e746dff59e080ac9bab833b148c3b215",
+        "sectionReadingOrderVerified": true,
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00"
+      },
+      "visualQA": {
+        "status": "passed",
+        "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/previews/zoftify-frontend-1.png",
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00",
+        "renderDpi": 110,
+        "pageCountInspected": 1,
+        "notes": "Every final page inspected individually. Header, dates, bullets, projects, skills and footer are readable; no overlap, clipping, missing glyphs or section breaks."
+      },
+      "readyForPrivateUpload": true
+    },
+    {
+      "jobId": "eventmobi-frontend-458",
+      "company": "EventMobi",
+      "role": "Front End Engineer - Remote",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-eventmobi-frontend-ats.pdf",
+      "sha256": "d86c871a68df5bba6edb7edd1449e3473eeeb0e2ff6ebe1aa13f558bd2050de2",
+      "bytes": 88475,
+      "kind": "tailored_resume",
+      "title": "EventMobi - Front End Engineer - Remote - tailored ATS resume",
+      "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/eventmobi-frontend.json",
+      "editableSourcePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/eventmobi-frontend.md",
+      "fit": "unknown",
+      "blockers": [
+        "Eastern hours acceptance",
+        "Salary expectation in CAD",
+        "AI-development tools/opinion answer",
+        "Testing examples and writing sample",
+        "Workspace/internet confirmation",
+        "Candidate preference for individual-contributor growth role despite current Lead title",
+        "Required Address is not recorded in approved facts.json.",
+        "Required State is not recorded in approved facts.json.",
+        "Required ZIP is not recorded in approved facts.json."
+      ],
+      "applicationReady": false,
+      "jobSource": {
+        "url": "https://eventmobi.bamboohr.com/careers/458/detail",
+        "finalUrl": "https://eventmobi.bamboohr.com/careers/458/detail",
+        "checkedAt": "2026-10-15T15:57:25.580136+00:00",
+        "httpStatus": 200,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/eventmobi.json",
+        "sha256": "e943033104741aae8ae57bc557067c2484bf5789b666962d0efea01597dd2539",
+        "bytes": 22325,
+        "scope": "Exact complete public employer response bytes, including JD and page/schema wrapper."
+      },
+      "tailoringReason": {
+        "positioning": "Emphasize reliable end-user interfaces, cross-device delivery, integrations and debugging.",
+        "projects": {
+          "yaksport": "First: customer-facing booking flow and multilingual interface align with event attendee journeys. This is relevance, not event-industry experience.",
+          "illume": "Second: dashboard/UI complexity and data integrations.",
+          "viloi": "Third: production SaaS with authentication and billing."
+        },
+        "experienceBullets": {
+          "tututor_scope": "Opens with sustained production end-user software delivery.",
+          "tututor_platform": "Cross-device app releases, real-time messaging and integrations are relevant to the platform; do not infer offline architecture.",
+          "tututor_backend": "Concrete API scale and access-control work.",
+          "tututor_export": "Only approved testing outcome; its golden-test context must remain explicit and must not be relabeled as frontend unit/E2E coverage.",
+          "tututor_leadership": "Supports team collaboration without inventing an assessed writing level.",
+          "danzee_jurri": "First historical bullet foregrounds debugging and performance improvement.",
+          "danzee_components": "Then show reusable React and integration fundamentals."
+        }
+      },
+      "jobTargetMapping": {
+        "positioning": "Emphasize reliable end-user interfaces, cross-device delivery, integrations and debugging.",
+        "projects": {
+          "yaksport": "First: customer-facing booking flow and multilingual interface align with event attendee journeys. This is relevance, not event-industry experience.",
+          "illume": "Second: dashboard/UI complexity and data integrations.",
+          "viloi": "Third: production SaaS with authentication and billing."
+        },
+        "experienceBullets": {
+          "tututor_scope": "Opens with sustained production end-user software delivery.",
+          "tututor_platform": "Cross-device app releases, real-time messaging and integrations are relevant to the platform; do not infer offline architecture.",
+          "tututor_backend": "Concrete API scale and access-control work.",
+          "tututor_export": "Only approved testing outcome; its golden-test context must remain explicit and must not be relabeled as frontend unit/E2E coverage.",
+          "tututor_leadership": "Supports team collaboration without inventing an assessed writing level.",
+          "danzee_jurri": "First historical bullet foregrounds debugging and performance improvement.",
+          "danzee_components": "Then show reusable React and integration fundamentals."
+        }
+      },
+      "selectedFactIds": [
+        "tututor_scope",
+        "tututor_platform",
+        "tututor_backend",
+        "tututor_export",
+        "tututor_leadership",
+        "danzee_jurri",
+        "danzee_components",
+        "yaksport",
+        "illume",
+        "viloi"
+      ],
+      "unsupportedKeywordsNotAdded": [
+        "offline-first/PWA architecture",
+        "frontend unit/E2E ownership inferred from golden tests",
+        "daily AI coding-tool use",
+        "Eastern-hours availability",
+        "30 Mbps internet/private workspace",
+        "precise TypeScript tenure",
+        "professional event-platform experience"
+      ],
+      "atsInspection": {
+        "pages": 1,
+        "searchableWords": 349,
+        "links": 7,
+        "singleColumn": true,
+        "identityContactDatesFound": true,
+        "allSelectedFactualTextPreserved": true,
+        "noForbiddenDegreeOrExcludedClaims": true,
+        "charactersOutsideSafeArea": 0,
+        "contentBottomPoints": 102.4,
+        "extractedTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-eventmobi-frontend-ats.txt",
+        "textSha256": "b7a05d055d23106364a2bcfc11376c02639614c1d5cb993f8caa3ed5c5db090a",
+        "sectionReadingOrderVerified": true,
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00"
+      },
+      "visualQA": {
+        "status": "passed",
+        "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/previews/eventmobi-frontend-1.png",
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00",
+        "renderDpi": 110,
+        "pageCountInspected": 1,
+        "notes": "Every final page inspected individually. Header, dates, bullets, projects, skills and footer are readable; no overlap, clipping, missing glyphs or section breaks."
+      },
+      "readyForPrivateUpload": true
+    },
+    {
+      "jobId": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "company": "Metabase",
+      "role": "Software Engineer (Frontend)",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-metabase-frontend-ats.pdf",
+      "sha256": "970044a2bf5a7bd6eb6a614f05e8385cc463f2ee18082c31d22be2348dafc30b",
+      "bytes": 88106,
+      "kind": "tailored_resume",
+      "title": "Metabase - Software Engineer (Frontend) - tailored ATS resume",
+      "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/metabase-frontend.json",
+      "editableSourcePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/metabase-frontend.md",
+      "fit": "unknown",
+      "blockers": [
+        "Manual employer robot-filter question",
+        "Concrete frontend test, code-review and technical-proposal examples",
+        "Employer-specific Pakistan contract/payroll terms are undisclosed; do not state them as guaranteed"
+      ],
+      "applicationReady": false,
+      "jobSource": {
+        "url": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+        "finalUrl": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+        "checkedAt": "2026-10-15T15:57:25.580364+00:00",
+        "httpStatus": 200,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/metabase.html",
+        "sha256": "b6dbf97364b204dafbdabac3359c14454b148fe3e7d2b38e4eb32c0171cecf0d",
+        "bytes": 733087,
+        "scope": "Exact complete public employer response bytes, including JD and page/schema wrapper."
+      },
+      "tailoringReason": {
+        "positioning": "Prioritize analytical interfaces, performance, reusable React components and maintaining a sizeable existing product. Two projects keep this version focused.",
+        "projects": {
+          "illume": "First: analytics dashboards and data integrations are the closest product match; the existing project stack records Chart.js/D3.js.",
+          "yaksport": "Second: filtering/search and reusable customer-facing UI broaden frontend evidence without repeating another AI SaaS case.",
+          "viloi": "Omit: less direct than analytics and filtering for this particular role."
+        },
+        "experienceBullets": {
+          "tututor_backend": "Large shared API/model surface supports experience navigating an established system; do not equate model counts with algorithm/data-structure expertise.",
+          "tututor_scope": "Adds multi-product scale and user context.",
+          "tututor_export": "Keeps the precise available test outcome visible without calling it frontend coverage.",
+          "tututor_leadership": "Evidence of cross-team/product ownership, not proof of formal technical proposals.",
+          "danzee_jurri": "Lead with performance and complex interfaces.",
+          "danzee_components": "Then reusable components/hooks and integrations."
+        }
+      },
+      "jobTargetMapping": {
+        "positioning": "Prioritize analytical interfaces, performance, reusable React components and maintaining a sizeable existing product. Two projects keep this version focused.",
+        "projects": {
+          "illume": "First: analytics dashboards and data integrations are the closest product match; the existing project stack records Chart.js/D3.js.",
+          "yaksport": "Second: filtering/search and reusable customer-facing UI broaden frontend evidence without repeating another AI SaaS case.",
+          "viloi": "Omit: less direct than analytics and filtering for this particular role."
+        },
+        "experienceBullets": {
+          "tututor_backend": "Large shared API/model surface supports experience navigating an established system; do not equate model counts with algorithm/data-structure expertise.",
+          "tututor_scope": "Adds multi-product scale and user context.",
+          "tututor_export": "Keeps the precise available test outcome visible without calling it frontend coverage.",
+          "tututor_leadership": "Evidence of cross-team/product ownership, not proof of formal technical proposals.",
+          "danzee_jurri": "Lead with performance and complex interfaces.",
+          "danzee_components": "Then reusable components/hooks and integrations."
+        },
+        "displayedProjectStack": {
+          "factPath": "/projects/0/stack",
+          "reason": "The wrapper displays the exact existing Illume stack in this PDF so relevant Chart.js/D3.js experience is searchable. The original builder and source facts remain unchanged."
+        }
+      },
+      "selectedFactIds": [
+        "tututor_backend",
+        "tututor_scope",
+        "tututor_export",
+        "tututor_leadership",
+        "danzee_jurri",
+        "danzee_components",
+        "illume",
+        "yaksport"
+      ],
+      "unsupportedKeywordsNotAdded": [
+        "Clojure",
+        "SQL/PostgreSQL expertise",
+        "formal data-structure/algorithm expertise",
+        "technical-proposal writing or code-review practice without examples",
+        "frontend test coverage inferred from export tests",
+        "D3 expert-level claim",
+        "guaranteed Pakistan payroll arrangement"
+      ],
+      "atsInspection": {
+        "pages": 1,
+        "searchableWords": 307,
+        "links": 6,
+        "singleColumn": true,
+        "identityContactDatesFound": true,
+        "allSelectedFactualTextPreserved": true,
+        "noForbiddenDegreeOrExcludedClaims": true,
+        "charactersOutsideSafeArea": 0,
+        "contentBottomPoints": 182.5,
+        "extractedTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-metabase-frontend-ats.txt",
+        "textSha256": "c0ea5fdd447c85fcd5e6b487e66504d7a3dff46c9cd0f20368f369650bca6894",
+        "sectionReadingOrderVerified": true,
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00"
+      },
+      "visualQA": {
+        "status": "passed",
+        "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/previews/metabase-frontend-1.png",
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00",
+        "renderDpi": 110,
+        "pageCountInspected": 1,
+        "notes": "Every final page inspected individually. Header, dates, bullets, projects, skills and footer are readable; no overlap, clipping, missing glyphs or section breaks."
+      },
+      "readyForPrivateUpload": true
+    },
+    {
+      "jobId": "whippy-frontend-da02ad44",
+      "company": "Whippy",
+      "role": "Software Engineer: Frontend",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-whippy-frontend-ats.pdf",
+      "sha256": "b2b1a7e33363947c9e1a936ab5813f51011b69925c6bcc1f98c43788fcad8368",
+      "bytes": 88493,
+      "kind": "tailored_resume",
+      "title": "Whippy - Software Engineer: Frontend - tailored ATS resume",
+      "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/whippy-frontend.json",
+      "editableSourcePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/whippy-frontend.md",
+      "fit": "unknown",
+      "blockers": [
+        "Confirm written English, testing/instrumentation scope, meeting hours and paid-trial commitment",
+        "then inspect every application question before preparing submission."
+      ],
+      "applicationReady": false,
+      "jobSource": {
+        "url": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b/",
+        "checkedAt": "2026-10-15T15:55:26.257Z",
+        "httpStatus": 200,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/provenance/whippy-description.html",
+        "sha256": "f8cffe2a48bb4141f9b7248db82f5accf1fd25ab21602fd2328533b858e9724a",
+        "bytes": 6340,
+        "scope": "UTF-8 bytes of posting.descriptionHtml extracted from public window.__appData JSON; exact complete employer job description, not a local paraphrase."
+      },
+      "tailoringReason": {
+        "positioning": "Foreground communication-oriented product delivery, independent ownership, real-time/mobile work and interactive data interfaces.",
+        "projects": {
+          "illume": "First: data visualization and analytics directly relate to rich frontend data workflows. This does not establish product-event instrumentation.",
+          "viloi": "Second: production AI API integration and SaaS delivery connect to an AI communications product.",
+          "yaksport": "Third: usable search/filtering and frontend implementation."
+        },
+        "experienceBullets": {
+          "tututor_platform": "First: the strongest concrete connection to messaging, integrations and a React Native product surface.",
+          "tututor_leadership": "Second: founder collaboration and delivery ownership.",
+          "tututor_scope": "Then establishes production context and user reach.",
+          "tututor_ai": "Adds actual chatbot/AI workflow implementation without claiming voice-agent expertise.",
+          "tututor_export": "Includes a factual testing outcome while preserving its exact backend/export context.",
+          "danzee_components": "Supports frontend architecture and integration fundamentals.",
+          "danzee_jurri": "Adds measurable interface/performance work."
+        }
+      },
+      "jobTargetMapping": {
+        "positioning": "Foreground communication-oriented product delivery, independent ownership, real-time/mobile work and interactive data interfaces.",
+        "projects": {
+          "illume": "First: data visualization and analytics directly relate to rich frontend data workflows. This does not establish product-event instrumentation.",
+          "viloi": "Second: production AI API integration and SaaS delivery connect to an AI communications product.",
+          "yaksport": "Third: usable search/filtering and frontend implementation."
+        },
+        "experienceBullets": {
+          "tututor_platform": "First: the strongest concrete connection to messaging, integrations and a React Native product surface.",
+          "tututor_leadership": "Second: founder collaboration and delivery ownership.",
+          "tututor_scope": "Then establishes production context and user reach.",
+          "tututor_ai": "Adds actual chatbot/AI workflow implementation without claiming voice-agent expertise.",
+          "tututor_export": "Includes a factual testing outcome while preserving its exact backend/export context.",
+          "danzee_components": "Supports frontend architecture and integration fundamentals.",
+          "danzee_jurri": "Adds measurable interface/performance work."
+        }
+      },
+      "selectedFactIds": [
+        "tututor_platform",
+        "tututor_leadership",
+        "tututor_scope",
+        "tututor_ai",
+        "tututor_export",
+        "danzee_components",
+        "danzee_jurri",
+        "illume",
+        "viloi",
+        "yaksport"
+      ],
+      "unsupportedKeywordsNotAdded": [
+        "fluent written English",
+        "Radix UI",
+        "Stitches",
+        "unit/E2E suite ownership",
+        "product-event analytics instrumentation",
+        "voice AI/telephony expertise",
+        "paid-trial acceptance",
+        "Monday/Friday 19:30 PKT commitment"
+      ],
+      "atsInspection": {
+        "pages": 1,
+        "searchableWords": 349,
+        "links": 7,
+        "singleColumn": true,
+        "identityContactDatesFound": true,
+        "allSelectedFactualTextPreserved": true,
+        "noForbiddenDegreeOrExcludedClaims": true,
+        "charactersOutsideSafeArea": 0,
+        "contentBottomPoints": 102.4,
+        "extractedTextPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-whippy-frontend-ats.txt",
+        "textSha256": "4a0cd9b31a46c3d29f38329183909c5ce3dd2e5ab7e9fbb8aaa4cd2675226858",
+        "sectionReadingOrderVerified": true,
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00"
+      },
+      "visualQA": {
+        "status": "passed",
+        "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/previews/whippy-frontend-1.png",
+        "checkedAt": "2026-10-15T15:59:52.711292+00:00",
+        "renderDpi": 110,
+        "pageCountInspected": 1,
+        "notes": "Every final page inspected individually. Header, dates, bullets, projects, skills and footer are readable; no overlap, clipping, missing glyphs or section breaks."
+      },
+      "readyForPrivateUpload": true
+    }
+  ],
+  "qa": {
+    "completedAt": "2026-10-15T15:59:52.711292+00:00",
+    "pdfs": 8,
+    "pagesRendered": 8,
+    "pagesVisuallyInspected": 8,
+    "uniqueSearchableTextVersions": 8,
+    "noTetherVariant": true,
+    "allSourceHashesVerified": true,
+    "allFilesBelowUploadLimit": true,
+    "masterFactsUnchanged": true,
+    "masterBuilderUnchanged": true,
+    "noCloudUpload": true,
+    "noApplications": true
+  }
+}

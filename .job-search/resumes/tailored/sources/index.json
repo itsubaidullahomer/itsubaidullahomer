@@ -1,0 +1,81 @@
+{
+  "agave": {
+    "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+    "finalUrl": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+    "checkedAt": "2026-10-15T15:54:35.243417+00:00",
+    "httpStatus": 200,
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/agave.html",
+    "sha256": "a91b7a67070b77db1a386d9a9e6c39769e8f66da25262c4bc041f9c9f939adeb",
+    "bytes": 187855,
+    "scope": "Exact public HTTP response bytes; includes full employer description and page wrapper."
+  },
+  "finni": {
+    "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+    "finalUrl": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+    "checkedAt": "2026-10-15T15:54:35.243801+00:00",
+    "httpStatus": 200,
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/finni.html",
+    "sha256": "eb2e6033f5904bbca9c51c696c601ded61fa94bcc65d57ff1f5efcbadd6e5e6a",
+    "bytes": 151087,
+    "scope": "Exact public HTTP response bytes; includes full employer description and page wrapper."
+  },
+  "furtherai": {
+    "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+    "finalUrl": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+    "checkedAt": "2026-10-15T15:54:35.243973+00:00",
+    "httpStatus": 200,
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/furtherai.html",
+    "sha256": "06437b08db2822ee3da4c224f7e441dee84d120bda83880968c7eb434ed03196",
+    "bytes": 144405,
+    "scope": "Exact public HTTP response bytes; includes full employer description and page wrapper."
+  },
+  "simple-ai": {
+    "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-software-engineer",
+    "finalUrl": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-software-engineer",
+    "checkedAt": "2026-10-15T15:54:35.244107+00:00",
+    "httpStatus": 200,
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/simple-ai.html",
+    "sha256": "c6def79245e99f3ec1edd7c20f354f02fbf6a02edba0452aff68b7e2e1da7225",
+    "bytes": 155573,
+    "scope": "Exact public HTTP response bytes; includes full employer description and page wrapper."
+  },
+  "zoftify": {
+    "url": "https://zoftify.bamboohr.com/careers/29/detail",
+    "finalUrl": "https://zoftify.bamboohr.com/careers/29/detail",
+    "checkedAt": "2026-10-15T15:57:25.579608+00:00",
+    "httpStatus": 200,
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/zoftify.json",
+    "sha256": "72e64aa7451cf2d657c893e06d30721f72f50c2f2393899c37a62b254fbc81fb",
+    "bytes": 15804,
+    "scope": "Exact complete public employer response bytes, including JD and page/schema wrapper."
+  },
+  "eventmobi": {
+    "url": "https://eventmobi.bamboohr.com/careers/458/detail",
+    "finalUrl": "https://eventmobi.bamboohr.com/careers/458/detail",
+    "checkedAt": "2026-10-15T15:57:25.580136+00:00",
+    "httpStatus": 200,
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/eventmobi.json",
+    "sha256": "e943033104741aae8ae57bc557067c2484bf5789b666962d0efea01597dd2539",
+    "bytes": 22325,
+    "scope": "Exact complete public employer response bytes, including JD and page/schema wrapper."
+  },
+  "metabase": {
+    "url": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+    "finalUrl": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+    "checkedAt": "2026-10-15T15:57:25.580364+00:00",
+    "httpStatus": 200,
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/sources/metabase.html",
+    "sha256": "b6dbf97364b204dafbdabac3359c14454b148fe3e7d2b38e4eb32c0171cecf0d",
+    "bytes": 733087,
+    "scope": "Exact complete public employer response bytes, including JD and page/schema wrapper."
+  },
+  "whippy": {
+    "url": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b/",
+    "checkedAt": "2026-10-15T15:55:26.257Z",
+    "httpStatus": 200,
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/provenance/whippy-description.html",
+    "sha256": "f8cffe2a48bb4141f9b7248db82f5accf1fd25ab21602fd2328533b858e9724a",
+    "bytes": 6340,
+    "scope": "UTF-8 bytes of posting.descriptionHtml extracted from public window.__appData JSON; exact complete employer job description, not a local paraphrase."
+  }
+}

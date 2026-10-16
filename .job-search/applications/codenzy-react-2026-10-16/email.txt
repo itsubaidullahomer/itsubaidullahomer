@@ -1,0 +1,12 @@
+Hello Codenzy team,
+
+I'm applying for your React Developer role. I have 4+ years of experience building production web products, including React and TypeScript interfaces, reusable components, and API integrations.
+
+At Tututor.ai / EduNova, I lead engineering across web and mobile products and work directly with the founder. My earlier work at Danzee included reusable React components and hooks, plus frontend performance improvements for Jurri. I also work with Next.js, Redux Toolkit, REST/GraphQL, Jest and React Testing Library.
+
+I'm looking for a team where I can take ownership of features and help ship useful products. I've attached my tailored resume, and you can see my work at https://itsubaidullahomer.com.
+
+I'm based in Rahim Yar Khan, Pakistan and available immediately. Happy to discuss the role and your team's needs.
+
+Best regards,
+Ubaidullah Omer

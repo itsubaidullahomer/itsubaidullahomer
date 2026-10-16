@@ -1,0 +1,21 @@
+{
+  "focus": "full_stack",
+  "slug": "allcancode-fullstack-2026-10-16",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

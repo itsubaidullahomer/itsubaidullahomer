@@ -1,0 +1,20 @@
+{
+  "focus": "frontend",
+  "slug": "appkeeper-frontend-2026-10-16-v1",
+  "projects": [
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "capturedAt": "2026-10-15T23:49:58.461Z",
+  "auditCompletedAt": "2026-10-15T23:51:11.147413+00:00",
+  "counts": {
+    "live": 90,
+    "applied": 2,
+    "preDiscovery": 50,
+    "newDiscoveryBatch": 40,
+    "demo": 0
+  },
+  "finding": "One completed built-in feed discovery/import added 40 real-feed records. They are unreviewed leads, not independently verified live employer openings, and not demo rows. No duplicate recorded URL or company/title was found. Exact caller is not exposed by the workspace API.",
+  "run": {
+    "id": "93a6382b-180c-4aca-94f0-4f169de46394",
+    "added": 40,
+    "found": 40,
+    "status": "completed",
+    "message": "40 relevant roles found via Remotive, Jobicy, Himalayas. Source data can be delayed; Himalayas refreshes daily. Fit, requirements, and Pakistan eligibility need review; no applications were sent.",
+    "startedAt": "2026-10-15T23:45:32.837Z",
+    "completedAt": "2026-10-15T23:45:33.215Z"
+  },
+  "sourceCounts": {
+    "Himalayas": 15,
+    "Jobicy": 21,
+    "Remotive": 4
+  },
+  "fitCounts": {
+    "unknown": 40
+  },
+  "eligibilityCounts": {
+    "unknown": 40
+  },
+  "batchTimestamps": {
+    "discoveredAt": {
+      "2026-10-15T23:45:32.837Z": 40
+    },
+    "updatedAt": {
+      "2026-10-15T23:45:34.887Z": 40
+    }
+  },
+  "dedupe": {
+    "scope": "All 90 jobs; URL tracking/fragment/trailing-slash removal, www and scheme normalization; normalized company/title. Employer-destination URLs behind aggregator pages were not fetched.",
+    "duplicateIds": {},
+    "duplicateCanonicalUrls": {},
+    "duplicateCompanyTitles": {},
+    "newBatchCompaniesAlreadyInPrior50": []
+  },
+  "prior50Reconciliation": {
+    "baseSnapshotPath": ".job-search/research/2026-10-16-remote-additions/workspace-dedupe.json",
+    "baseSnapshotCount": 41,
+    "baseSnapshotCapturedAt": "2026-10-15T23:17:02.553Z",
+    "baseIdsMissingNow": [],
+    "additionalNine": [
+      {
+        "id": "research-pk-463ba37c-06ee-4f64-8c65-3d92e1683137",
+        "company": "AFNEXIS LLC",
+        "importFiles": [
+          ".job-search/import/pakistan-additions-20261016.json"
+        ]
+      },
+      {
+        "id": "appkeeper-frontend",
+        "company": "Appkeeper Pte. Ltd.",
+        "importFiles": []
+      },
+      {
+        "id": "allcancode-mid-fullstack-20261016",
+        "company": "Allcancode",
+        "importFiles": [
+          ".job-search/import/remote-additions-20261016.json"
+        ]
+      },
+      {
+        "id": "research-pk-3b5ebae2-751f-40c4-b7e1-2fbbd6267ad7",
+        "company": "Dynamic Logix",
+        "importFiles": [
+          ".job-search/import/pakistan-additions-20261016.json"
+        ]
+      },
+      {
+        "id": "omkar-frontend-20261016",
+        "company": "Omkar Universe",
+        "importFiles": [
+          ".job-search/import/remote-additions-20261016.json"
+        ]
+      },
+      {
+        "id": "lit8-fullstack-20261016",
+        "company": "Lit8",
+        "importFiles": [
+          ".job-search/import/remote-additions-20261016.json"
+        ]
+      },
+      {
+        "id": "signx-senior-fullstack-20261016",
+        "company": "SignX Solutions",
+        "importFiles": [
+          ".job-search/import/remote-additions-20261016.json"
+        ]
+      },
+      {
+        "id": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+        "company": "Quirky Bit",
+        "importFiles": [
+          ".job-search/import/pakistan-additions-20261016.json"
+        ]
+      },
+      {
+        "id": "research-pk-5a68ea84-db98-4271-95b6-e4bd6b329fd3",
+        "company": "BearPlex",
+        "importFiles": [
+          ".job-search/import/pakistan-additions-20261016.json"
+        ]
+      }
+    ]
+  },
+  "codeEvidence": [
+    {
+      "path": "app/api/jobs/discover/route.ts",
+      "lines": "8-13",
+      "fact": "Authenticated same-origin POST runs discoverJobs then persists import_jobs."
+    },
+    {
+      "path": "lib/jobs/discovery.ts",
+      "lines": "243-265",
+      "fact": "Default limit is 40 and exact run message names fulfilled Remotive/Jobicy/Himalayas feeds."
+    }
+  ],
+  "qualityCaution": "All 40 fit and eligibility values remain unknown. Feed batch includes country-restricted and unpaid listings; do not treat count increase as 40 vetted matches.",
+  "newJobs": [
+    {
+      "id": "himalayas-6dca1606cc28208c3715ce8f",
+      "company": "Wise AI",
+      "title": "Title: Founding Engineer (Fullstack/Zoom App)",
+      "url": "https://himalayas.app/companies/wise-ai/jobs/title-founding-engineer-fullstack-zoom-app",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Bangladesh, India, Pakistan, Sri Lanka; time zones: UTC+5, UTC+5.5, UTC+6"
+    },
+    {
+      "id": "himalayas-7c3a46215eeb6d194ec0c341",
+      "company": "Xperteez Technology",
+      "title": "Software Engineer - Open Source Contributions",
+      "url": "https://himalayas.app/companies/xperteez-technology/jobs/software-engineer-open-source-contributions",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-95ac584fc82780c804a0d52f",
+      "company": "Solution Community",
+      "title": "AI Full Stack Engineer (Volunteer, unpaid)",
+      "url": "https://himalayas.app/companies/solution-community/jobs/ai-full-stack-engineer-volunteer-unpaid",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-973e82e587b0a8471a6e6f0d",
+      "company": "Cority",
+      "title": "Software Engineer",
+      "url": "https://himalayas.app/companies/cority/jobs/software-engineer",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-ac100394824c4c1ecceeb4d8",
+      "company": "Spotter Labs",
+      "title": "Remote FullStack Engineer \u2013 React + Django \u2013 AI Systems",
+      "url": "https://himalayas.app/companies/spotter-labs/jobs/remote-fullstack-engineer-react-django-ai-systems-8589740143",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Argentina, Colombia, India, Mexico, Pakistan, Philippines; time zones: UTC-8, UTC-7, UTC-6, UTC-5, UTC-3, UTC+5, UTC+5.5, UTC+8"
+    },
+    {
+      "id": "himalayas-1bc34e44dc40305a64c39e0a",
+      "company": "Holiday World",
+      "title": "Software Engineer Internship (UNPAID)",
+      "url": "https://himalayas.app/companies/holiday-world/jobs/software-engineer-internship-unpaid",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-1e7ecc9cbc7d867e890ef8a7",
+      "company": "Chasi",
+      "title": "Senior Software Engineer",
+      "url": "https://himalayas.app/companies/chasi/jobs/senior-software-engineer",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-564fedeac69eed739185d28c",
+      "company": "Xperteez Technology",
+      "title": "\ud83c\udf0d Senior Software Engineer, Verifiers- Remote - Contract",
+      "url": "https://himalayas.app/companies/xperteez-technology/jobs/senior-software-engineer-verifiers-remote-contract",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-b62063861c20089812f2b0fb",
+      "company": "The Agile Monkeys",
+      "title": "Senior Fullstack Engineer with React & Team Lead",
+      "url": "https://himalayas.app/companies/the-agile-monkeys/jobs/senior-fullstack-engineer-with-react-team-lead",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-baac85cbe9258e5dcd46cf02",
+      "company": "Technology International Inc.",
+      "title": "Software Engineer",
+      "url": "https://himalayas.app/companies/technology-international-inc/jobs/software-engineer",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Pakistan; time zones: UTC+5"
+    },
+    {
+      "id": "himalayas-c64bde5d435a524ca0080d82",
+      "company": "AlmavivA de Belgique",
+      "title": "Full Stack Developer (Java - Angular) - Remote from EU - Deadline 23/10/26",
+      "url": "https://himalayas.app/companies/almaviva/jobs/full-stack-developer-java-angular-remote-from-eu-deadline-23-10-26",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "jobicy-149108",
+      "company": "Upstart",
+      "title": "Senior Software Engineer, Unsecured Installments",
+      "url": "https://jobicy.com/jobs/149108-senior-software-engineer-unsecured-installments",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "USA"
+    },
+    {
+      "id": "himalayas-c79f67f2b5f11ab85943e765",
+      "company": "Emetlab",
+      "title": "Junior Software Engineer",
+      "url": "https://himalayas.app/companies/emetlab/jobs/junior-software-engineer",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-d5fbb0096c9ded1de8c1b3d6",
+      "company": "Mimidentalclinic",
+      "title": "Senior Software Engineer",
+      "url": "https://himalayas.app/companies/mimidentalclinic/jobs/senior-software-engineer",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-e5b76a0bd73c0b10ab22f94e",
+      "company": "Emetlab",
+      "title": "Senior Software Engineer",
+      "url": "https://himalayas.app/companies/emetlab/jobs/senior-software-engineer",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Worldwide (source claim); time zones: UTC-11, UTC-10, UTC-9.5, UTC-9, UTC-8, UTC-7, UTC-6, UTC-5, UTC-4, UTC-3.5, UTC-3, UTC-2, UTC-1, UTC+0, UTC+1, UTC+2, UTC+3, UTC+3.5, UTC+4, UTC+4.5, UTC+5, UTC+5.5, UTC+5.75, UTC+6, UTC+6.5, UTC+7, UTC+8, UTC+8.75, UTC+9, UTC+9.5, UTC+10, UTC+10.5, UTC+11, UTC+12, UTC+12.75, UTC+13, UTC+14"
+    },
+    {
+      "id": "himalayas-fb60906bf4e48f501d8010b7",
+      "company": "Painter Marketing Pros",
+      "title": "Full Stack Engineer",
+      "url": "https://himalayas.app/companies/painter-marketing-pros/jobs/full-stack-engineer",
+      "source": "Himalayas",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Pakistan, Philippines; time zones: UTC+5, UTC+8"
+    },
+    {
+      "id": "jobicy-152795",
+      "company": "CentralReach",
+      "title": "Sr. Software Engineer, Ruby on Rails",
+      "url": "https://jobicy.com/jobs/152795-sr-software-engineer-ruby-on-rails",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "USA"
+    },
+    {
+      "id": "jobicy-152819",
+      "company": "Bayesian Health",
+      "title": "Software Engineer, Data Integration",
+      "url": "https://jobicy.com/jobs/152819-software-engineer-data-integration",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "USA"
+    },
+    {
+      "id": "jobicy-152938",
+      "company": "Vercel",
+      "title": "Software Engineer, Backend",
+      "url": "https://jobicy.com/jobs/152938-software-engineer-backend",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "USA"
+    },
+    {
+      "id": "jobicy-153029",
+      "company": "ExtraHop",
+      "title": "Software Engineer III | AI/ML",
+      "url": "https://jobicy.com/jobs/153029-software-engineer-iii-ai-ml",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "USA"
+    },
+    {
+      "id": "jobicy-153066",
+      "company": "CoderPad",
+      "title": "Lead Software Engineer",
+      "url": "https://jobicy.com/jobs/153066-lead-software-engineer",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "France"
+    },
+    {
+      "id": "jobicy-153088",
+      "company": "Capital on Tap",
+      "title": "Senior Software Engineer",
+      "url": "https://jobicy.com/jobs/153088-senior-software-engineer-8",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Portugal"
+    },
+    {
+      "id": "jobicy-153093",
+      "company": "Capital on Tap",
+      "title": "Team Lead Software Engineer",
+      "url": "https://jobicy.com/jobs/153093-team-lead-software-engineer",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Portugal"
+    },
+    {
+      "id": "jobicy-153108",
+      "company": "Liftoff",
+      "title": "Senior Gen AI Software Engineer",
+      "url": "https://jobicy.com/jobs/153108-senior-gen-ai-software-engineer",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "USA"
+    },
+    {
+      "id": "jobicy-153164",
+      "company": "PolicyMe",
+      "title": "Junior Software Engineer",
+      "url": "https://jobicy.com/jobs/153164-junior-software-engineer-2",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Canada"
+    },
+    {
+      "id": "jobicy-153195",
+      "company": "Palmstreet",
+      "title": "Senior+ Backend Software Engineer - Asia",
+      "url": "https://jobicy.com/jobs/153195-senior-backend-software-engineer-asia",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "China"
+    },
+    {
+      "id": "jobicy-153199",
+      "company": "Help Scout",
+      "title": "Mid/Sr. Product Engineer, Intelligence",
+      "url": "https://jobicy.com/jobs/153199-mid-sr-product-engineer-intelligence",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "USA"
+    },
+    {
+      "id": "jobicy-154967",
+      "company": "Double",
+      "title": "Senior Fullstack Engineer (BR based only)",
+      "url": "https://jobicy.com/jobs/154967-senior-fullstack-engineer-br-based-only",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Brazil"
+    },
+    {
+      "id": "jobicy-154987",
+      "company": "Mattermost",
+      "title": "Senior Full Stack Engineer",
+      "url": "https://jobicy.com/jobs/154987-senior-full-stack-engineer-6",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Canada"
+    },
+    {
+      "id": "jobicy-155050",
+      "company": "Polar",
+      "title": "Product Engineering",
+      "url": "https://jobicy.com/jobs/155050-product-engineering",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Europe, USA"
+    },
+    {
+      "id": "jobicy-155063",
+      "company": "Five9",
+      "title": "Senior Software Engineer - Frontend",
+      "url": "https://jobicy.com/jobs/155063-senior-software-engineer-frontend-2",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Portugal"
+    },
+    {
+      "id": "jobicy-155069",
+      "company": "Smartsheet",
+      "title": "Software Engineer (Remote Eligible in Bulgaria)",
+      "url": "https://jobicy.com/jobs/155069-software-engineer-remote-eligible-in-bulgaria",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Bulgaria"
+    },
+    {
+      "id": "jobicy-155172",
+      "company": "Smartsheet",
+      "title": "Sr. Software Engineer (Remote Eligible from Bulgaria)",
+      "url": "https://jobicy.com/jobs/155172-sr-software-engineer-remote-eligible-from-bulgaria",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Bulgaria"
+    },
+    {
+      "id": "jobicy-155185",
+      "company": "Mural",
+      "title": "Senior Software Engineer, Admin & IAM",
+      "url": "https://jobicy.com/jobs/155185-senior-software-engineer-admin-iam",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Argentina"
+    },
+    {
+      "id": "jobicy-155186",
+      "company": "Able",
+      "title": "Senior Software Engineer (Full-Stack, JavaScript)",
+      "url": "https://jobicy.com/jobs/155186-senior-software-engineer-full-stack-javascript",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "LATAM"
+    },
+    {
+      "id": "jobicy-155192",
+      "company": "Mural",
+      "title": "Senior Software Engineer, Canvas Core",
+      "url": "https://jobicy.com/jobs/155192-senior-software-engineer-canvas-core-3",
+      "source": "Jobicy",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Argentina, Canada, UK"
+    },
+    {
+      "id": "remotive-1919266",
+      "company": "A.Team",
+      "title": "Senior Independent AI Engineer / Architect",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
+      "source": "Remotive",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Americas, Europe, Israel"
+    },
+    {
+      "id": "remotive-2091130",
+      "company": "Lemon.io",
+      "title": "Senior .NET Full-stack Developer",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
+      "source": "Remotive",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Northern America, LATAM, Europe, APAC"
+    },
+    {
+      "id": "remotive-2091131",
+      "company": "Lemon.io",
+      "title": "Senior AI Engineer",
+      "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
+      "source": "Remotive",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Northern America, LATAM, Europe, APAC"
+    },
+    {
+      "id": "remotive-2091133",
+      "company": "Lemon.io",
+      "title": "Senior React Full-stack Developer",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
+      "source": "Remotive",
+      "discoveredAt": "2026-10-15T23:45:32.837Z",
+      "updatedAt": "2026-10-15T23:45:34.887Z",
+      "location": "Europe, USA, Canada, APAC"
+    }
+  ],
+  "portalMutations": 0
+}

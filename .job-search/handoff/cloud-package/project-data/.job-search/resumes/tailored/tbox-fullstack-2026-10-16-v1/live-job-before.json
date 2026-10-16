@@ -1,0 +1,78 @@
+{
+  "id": "tbox-fullstack",
+  "fit": "unknown",
+  "url": "https://tboxsolutionz.com/careers.html",
+  "tags": [
+    "React",
+    "Node.js",
+    "TypeScript",
+    "Remote Pakistan",
+    "Research review"
+  ],
+  "draft": "",
+  "notes": "Shared company careers URL also hosts mobile vacancy; deduplicate by title plus sourceId, not URL alone. Smaller employer; company and engagement terms need routine candidate review. Candidate evidence is self-published and remains unverified; individual requirements are now linked to source-reviewed candidate evidence where supported. Candidate now confirms no degree and immediate availability; do not invent educational credentials. Research selection: review. Hard eligibility and fit flags: candidate_evidence_self_reported, required_answers_unconfirmed, short_employer_description_full_requirements_needed. Essential unknowns: SQL/GraphQL depth and concurrent-project availability. No application or outreach has been sent.\n\nResearch audit (retained from consolidated corpus):\n{\n  \"availability\": \"published_or_open_on_employer_source\",\n  \"verifiedAt\": \"2026-10-15T14:50:44Z\",\n  \"publishedAt\": null,\n  \"publishedAtNote\": \"Not exposed by primary source\",\n  \"method\": \"Current employer page rendered with application route; public HTTP GET 200.\",\n  \"employmentType\": \"Full-time\",\n  \"candidateMatches\": [\n    \"React/Node/TypeScript; end-to-end product ownership; client/remote work.\"\n  ],\n  \"candidateGapsOrUnknowns\": [\n    \"SQL/GraphQL depth and concurrent-project availability.\"\n  ],\n  \"descriptionCaptureType\": \"concise_paraphrase\",\n  \"applicationReady\": false,\n  \"selectionTier\": \"review\",\n  \"degreePolicy\": \"No mandatory degree-only requirement found in captured role text.\",\n  \"hardEligibility\": {\n    \"degree\": \"No mandatory degree-only requirement found in captured role text.\",\n    \"geography\": \"pakistan_work_location\",\n    \"legalWorkStatus\": \"Not established by research; no legal eligibility claim.\",\n    \"candidateAvailability\": \"Immediate, confirmed by candidate\",\n    \"tenure\": \"4+ years, not five complete years\",\n    \"applicationReady\": false\n  },\n  \"fitFlags\": [\n    \"candidate_evidence_self_reported\",\n    \"required_answers_unconfirmed\",\n    \"short_employer_description_full_requirements_needed\"\n  ]\n}\n\nImport assessment: Candidate-provided evidence has been matched to individual requirements where explicit. Missing details remain unknown. No independently verified skill or employment claim is implied, and this record is not approved for submission.",
+  "title": "Full-Stack Engineer (React + Node.js)",
+  "salary": "Not disclosed",
+  "source": "Official company careers page",
+  "status": "discovered",
+  "company": "TBox Solutionz",
+  "location": "Remote / Lahore, Pakistan",
+  "priority": "high",
+  "research": {
+    "sources": [
+      {
+        "id": "tbox-fullstack-posting",
+        "url": "https://tboxsolutionz.com/careers.html",
+        "text": "Own client-product features from API to UI across several projects. The opening asks for at least two years, strong TypeScript, React/Node, attention to design details and comfort with ambiguous product requirements. PostgreSQL, REST/GraphQL and Git appear in the stack. Applications go through the company careers email.",
+        "label": "Official vacancy \u2014 paraphrased description",
+        "capturedAt": "2026-10-15T14:50:44Z",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      }
+    ],
+    "contacts": [],
+    "companyUrl": "https://tboxsolutionz.com/"
+  },
+  "sourceId": "tbox-fullstack",
+  "appliedAt": null,
+  "updatedAt": "2026-10-16T01:10:32.446Z",
+  "nextAction": "Review candidate evidence and unresolved requirements before drafting or submitting.",
+  "description": "Own client-product features from API to UI across several projects. The opening asks for at least two years, strong TypeScript, React/Node, attention to design details and comfort with ambiguous product requirements. PostgreSQL, REST/GraphQL and Git appear in the stack. Applications go through the company careers email.",
+  "eligibility": "confirmed",
+  "contactEmail": "",
+  "discoveredAt": "2026-10-15T14:50:44Z",
+  "requirements": [
+    {
+      "id": "tbox-fullstack-r1",
+      "text": "Two years, React/Node and TypeScript",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-react",
+        "ev-backend",
+        "ev-experience"
+      ],
+      "explanation": "Supported by the supplied resume and portfolio, with the source statements checked for consistency. This is a candidate-evidence match, not independent employment verification."
+    },
+    {
+      "id": "tbox-fullstack-r2",
+      "text": "Own product features and work across concurrent projects",
+      "essential": true,
+      "assessment": "unknown",
+      "evidenceIds": [
+        "ev-product"
+      ],
+      "explanation": "Ownership of multiple products is documented; current concurrent-client capacity requires confirmation."
+    },
+    {
+      "id": "tbox-fullstack-r3",
+      "text": "PostgreSQL/GraphQL",
+      "essential": true,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "Specific PostgreSQL and GraphQL production depth is not established."
+    }
+  ],
+  "nextActionDate": null,
+  "eligibilityEvidence": "Employer career page says Remote / Lahore in Pakistan, full-time."
+}

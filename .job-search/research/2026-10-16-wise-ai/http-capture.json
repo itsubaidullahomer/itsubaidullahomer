@@ -1,0 +1,34 @@
+[
+  {
+    "name": "employer-home",
+    "url": "https://www.wiseai.care/",
+    "capturedAt": "2026-10-16T00:16:04.919995+00:00",
+    "status": 200,
+    "finalUrl": "https://www.wiseai.care/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 39791
+  },
+  {
+    "name": "himalayas-job",
+    "url": "https://himalayas.app/companies/wise-ai/jobs/title-founding-engineer-fullstack-zoom-app",
+    "capturedAt": "2026-10-16T00:16:04.920435+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "wellfound-job",
+    "url": "https://wellfound.com/jobs/3641018-founding-engineer-fullstack-zoom-app",
+    "capturedAt": "2026-10-16T00:16:04.920551+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "harvard-acquisition",
+    "url": "https://hsph.harvard.edu/alumni-friends/news/alumni-news-summer-2026/",
+    "capturedAt": "2026-10-16T00:16:04.920647+00:00",
+    "status": 200,
+    "finalUrl": "https://hsph.harvard.edu/alumni-friends/news/alumni-news-summer-2026/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 287954
+  }
+]

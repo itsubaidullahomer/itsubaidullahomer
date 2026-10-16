@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-10-16T01:18:25.090Z",
+  "updated": [
+    {
+      "id": "himalayas-ac100394824c4c1ecceeb4d8",
+      "fit": "unknown",
+      "eligibility": "confirmed"
+    },
+    {
+      "id": "himalayas-fb60906bf4e48f501d8010b7",
+      "fit": "unknown",
+      "eligibility": "unknown"
+    },
+    {
+      "id": "himalayas-1e7ecc9cbc7d867e890ef8a7",
+      "fit": "gaps",
+      "eligibility": "unknown"
+    },
+    {
+      "id": "himalayas-c79f67f2b5f11ab85943e765",
+      "fit": "unknown",
+      "eligibility": "unknown"
+    },
+    {
+      "id": "himalayas-e5b76a0bd73c0b10ab22f94e",
+      "fit": "unknown",
+      "eligibility": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "0261aa2a-c43a-4451-a1fa-65a246b9c6db",
+  "jobId": "codenzy-react",
+  "documentId": "23fab630-f8b8-4f95-b183-6c61c859ce4c",
+  "channel": "email",
+  "destination": "hr@codenzy.com",
+  "submittedAt": "2026-10-15T23:13:42.000Z",
+  "confirmation": "Gmail send succeeded. Sent message 1a141d7cf6797942 was read back with SENT label; From itsubaidullahomer@gmail.com, To hr@codenzy.com, subject React Developer Application, and tailored PDF attachment 88383 bytes.",
+  "receiptUrl": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#sent/1a141d7cf6797942",
+  "actor": "agent"
+}

@@ -1,0 +1,19 @@
+## Design around a comparison, not a single search
+
+A sports club choosing a training camp has to weigh facilities, location, season and price together. The old site left too many of those questions for the agency to answer. My frontend work focused on helping clubs explore the options and carry their choices through to booking.
+
+## The decisions behind the journey
+
+**Put comparison first.** I built multi-filter search connected to camp and availability data. Results update in place as filters change, so clubs can narrow their options without a full page reload.
+
+**Let people go back without starting again.** I preserved the booking flow's state when someone returned to an earlier step. Revisiting a choice is a normal part of planning a group trip; the interface should support it.
+
+**Keep both languages on the same path.** Danish and English use the same components, with localized content and routing. That kept the search and booking behavior consistent across the two versions.
+
+## My contribution
+
+As a frontend engineer, I built the search interface and booking flow, integrated the camp and availability APIs, and implemented Danish and English support.
+
+## What that made possible
+
+The platform serves over 100 clubs. They can compare camps and move through a standard booking themselves, leaving the agency to help with requests that need a conversation.

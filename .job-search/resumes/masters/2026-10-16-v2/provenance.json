@@ -1,0 +1,44 @@
+{
+  "createdAt": "2026-10-15T23:23:55.047184+00:00",
+  "sourceMaster": ".job-search/resumes/masters/facts.json",
+  "originalMasterChanged": false,
+  "builder": ".job-search/resumes/masters/build_resumes.py",
+  "confirmedFactsSource": ".job-search/private/application-facts.json",
+  "editorialChanges": [
+    {
+      "fields": [
+        "summaries.ai_product",
+        "outreachSummaries.ai_product"
+      ],
+      "change": "Added candidate-confirmed advanced spoken/written English; retained immediate availability."
+    },
+    {
+      "fields": [
+        "skills",
+        "coreStack"
+      ],
+      "change": "Include four years TypeScript/Next.js, three years React Native, three-plus years SQL/Docker and hands-on GraphQL/Jest/React Testing Library. No extra skill depth, dated start, CEFR score or test project is inferred."
+    },
+    {
+      "fields": [
+        "skills",
+        "coreStack"
+      ],
+      "change": "Include candidate-reported Vite/Webpack from original resume lines 96/100; Cypress also sourced at line 96."
+    }
+  ],
+  "excluded": [
+    "Degree claims",
+    "Unconfirmed Appkeeper component-library ownership, Grid/Flexbox or code-review answers",
+    "Salary expectation on resume",
+    "Legal work authorization",
+    "Unsupported metrics"
+  ],
+  "previousFilesPreserved": {
+    "output/pdf/ubaidullah-omer-master-outreach.txt": "1b70b3ccf112535014aad736e8b3d5035be4c3cae0e6cd245fe41a1736b5806c",
+    "output/pdf/ubaidullah-omer-master-ats.txt": "c0fd6457c6f79cc2e6823d359478abc163c6ce8858e6b0fea34c18f2b4c2d8ab",
+    "output/pdf/ubaidullah-omer-master-ats.pdf": "f4863414a9108e695551a61954e6853b73007046173660768aa795341f3bee2a",
+    "output/pdf/ubaidullah-omer-master-outreach.pdf": "d6d2a57d4ad964d3f7870c15da866463020682c0328054048dc53d622b9ad3c5"
+  },
+  "candidateClaimsIndependentlyVerified": false
+}

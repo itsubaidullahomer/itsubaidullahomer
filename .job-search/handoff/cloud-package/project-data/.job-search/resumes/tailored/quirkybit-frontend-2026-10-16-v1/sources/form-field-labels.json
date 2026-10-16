@@ -1,0 +1,17 @@
+{
+  "fields": [
+    "Full Name *",
+    "Email *",
+    "Phone Number",
+    "LinkedIn Profile",
+    "Cover Letter *",
+    "Resume / CV (PDF) *"
+  ],
+  "maxLengthAttributes": [],
+  "fileSizeText": [
+    "Max file size: 5MB"
+  ],
+  "consent": [
+    "I consent to QuirkyBit storing and processing my personal data for the purpose of my job application *"
+  ]
+}

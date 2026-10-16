@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-10-15T23:10:24.490935+00:00",
+  "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-appkeeper-frontend-2026-10-16-v1-ats.pdf",
+  "sha256": "7ed535a1ba8828be802b55b75b40aed02f2d86ab1c19b4d047bd6cda85fd40ac",
+  "bytes": 88113,
+  "pages": 1,
+  "searchableWords": 312,
+  "contentBottomPt": 169.08976377952766,
+  "visualQa": "passed: rendered 1600px PNG inspected; clear single-column text, no overlap, clipping, or missing glyphs",
+  "builder": ".job-search/resumes/masters/build_resumes.py: render_ats",
+  "qaCompletedAt": "2026-10-15T23:11:47.792470+00:00"
+}

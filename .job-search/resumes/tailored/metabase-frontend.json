@@ -1,0 +1,20 @@
+{
+  "focus": "frontend",
+  "slug": "metabase-frontend",
+  "projects": [
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_backend",
+      "tututor_scope",
+      "tututor_export",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_jurri",
+      "danzee_components"
+    ]
+  }
+}

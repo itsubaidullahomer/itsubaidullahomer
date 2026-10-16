@@ -1,0 +1,470 @@
+{
+  "capturedAt": "2026-10-15T23:17:16.025Z",
+  "jobs": [
+    {
+      "id": "codenzy-react",
+      "company": "Codenzy",
+      "title": "React Developer (TypeScript)",
+      "url": "https://www.codenzy.com/careers/react-developer",
+      "sourceId": "codenzy-react"
+    },
+    {
+      "id": "eventikk-fullstack",
+      "company": "Eventikk",
+      "title": "Senior Full-Stack Developer",
+      "url": "https://eventikk.com/careers.html",
+      "sourceId": "eventikk-fullstack"
+    },
+    {
+      "id": "eventmobi-frontend-458",
+      "company": "EventMobi",
+      "title": "Front End Engineer - Remote",
+      "url": "https://eventmobi.bamboohr.com/careers/458",
+      "sourceId": "eventmobi-frontend-458"
+    },
+    {
+      "id": "tether-mobile-pk-2784265",
+      "company": "Tether / Holepunch",
+      "title": "Mobile Engineer - React Native (100% Remote)",
+      "url": "https://careers.tether.io/o/mobile-engineer-react-native-100-remote-3",
+      "sourceId": "tether-mobile-pk-2784265"
+    },
+    {
+      "id": "panacea-rn-743999766171787",
+      "company": "PanaceaLogics",
+      "title": "React Native Developer (Remote)",
+      "url": "https://jobs.smartrecruiters.com/PanaceaLogics/743999766171787-react-native-developer-remote-",
+      "sourceId": "panacea-rn-743999766171787"
+    },
+    {
+      "id": "pavago-f280d10f6f",
+      "company": "Pavago",
+      "title": "AI Product Engineer (Full Stack)",
+      "url": "https://apply.workable.com/pavago/j/F280D10F6F",
+      "sourceId": "pavago-f280d10f6f"
+    },
+    {
+      "id": "axra-backend",
+      "company": "Axra",
+      "title": "Backend Engineer",
+      "url": "https://www.useaxra.com/careers/backend-engineer",
+      "sourceId": "axra-backend"
+    },
+    {
+      "id": "zoftify-32",
+      "company": "Zoftify",
+      "title": "React Native Developer",
+      "url": "https://zoftify.bamboohr.com/careers/32",
+      "sourceId": "zoftify-32"
+    },
+    {
+      "id": "pavago-b27de28c51",
+      "company": "Pavago",
+      "title": "Full-Stack Developer — Sergio AI",
+      "url": "https://apply.workable.com/pavago/j/B27DE28C51",
+      "sourceId": "pavago-b27de28c51"
+    },
+    {
+      "id": "adbite-frontend",
+      "company": "Adbite",
+      "title": "Senior Frontend Engineer",
+      "url": "https://adbite.com/careers",
+      "sourceId": "adbite-frontend"
+    },
+    {
+      "id": "zoftify-30",
+      "company": "Zoftify",
+      "title": "Backend Developer (Node)",
+      "url": "https://zoftify.bamboohr.com/careers/30",
+      "sourceId": "zoftify-30"
+    },
+    {
+      "id": "pavago-3ddacf04af",
+      "company": "Pavago",
+      "title": "Full-Stack Developer — client portal",
+      "url": "https://apply.workable.com/pavago/j/3DDACF04AF",
+      "sourceId": "pavago-3ddacf04af"
+    },
+    {
+      "id": "zoftify-41",
+      "company": "Zoftify",
+      "title": "Full Stack Developer (React + Node.js)",
+      "url": "https://zoftify.bamboohr.com/careers/41",
+      "sourceId": "zoftify-41"
+    },
+    {
+      "id": "tbox-fullstack",
+      "company": "TBox Solutionz",
+      "title": "Full-Stack Engineer (React + Node.js)",
+      "url": "https://tboxsolutionz.com/careers.html",
+      "sourceId": "tbox-fullstack"
+    },
+    {
+      "id": "zoftify-29",
+      "company": "Zoftify",
+      "title": "Frontend Developer (React)",
+      "url": "https://zoftify.bamboohr.com/careers/29",
+      "sourceId": "zoftify-29"
+    },
+    {
+      "id": "tether-frontend-desktop",
+      "company": "Tether / Holepunch",
+      "title": "Frontend Desktop Engineer (100% remote - Worldwide)",
+      "url": "https://careers.tether.io/o/frontend-desktop-engineer-100-remote-worldwide",
+      "sourceId": "tether-frontend-desktop"
+    },
+    {
+      "id": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "company": "Metabase",
+      "title": "Software Engineer (Frontend)",
+      "url": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "sourceId": "8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9"
+    },
+    {
+      "id": "bearplex-mern-20261015",
+      "company": "BearPlex",
+      "title": "MERN Stack Developer",
+      "url": "https://www.bearplex.com/careers/mern-stack-developer",
+      "sourceId": "bearplex-mern-20261015"
+    },
+    {
+      "id": "remote-automattic-5862239",
+      "company": "Automattic",
+      "title": "Experienced Software Engineer",
+      "url": "https://job-boards.greenhouse.io/automatticcareers/jobs/5862239",
+      "sourceId": "5862239"
+    },
+    {
+      "id": "zoftify-40",
+      "company": "Zoftify",
+      "title": "Backend Developer (Node) Part-time",
+      "url": "https://zoftify.bamboohr.com/careers/40",
+      "sourceId": "zoftify-40"
+    },
+    {
+      "id": "stackonn-stk-eng-002",
+      "company": "STACKONN",
+      "title": "Frontend Developer (React + Next.js)",
+      "url": "https://stackonn.com/careers/STK-ENG-002",
+      "sourceId": "stackonn-stk-eng-002"
+    },
+    {
+      "id": "stackonn-stk-eng-001",
+      "company": "STACKONN",
+      "title": "Full Stack Developer (Next.js + Node.js)",
+      "url": "https://stackonn.com/careers/STK-ENG-001",
+      "sourceId": "stackonn-stk-eng-001"
+    },
+    {
+      "id": "symmetry-mern-20261015",
+      "company": "Symmetry Group",
+      "title": "MERN Stack Developer",
+      "url": "https://symmetrygroup.biz/careers/mern-stack-developer",
+      "sourceId": "symmetry-mern-20261015"
+    },
+    {
+      "id": "reframe-fullstack-v39dt3g",
+      "company": "Reframe",
+      "title": "Fullstack Engineer",
+      "url": "https://www.ycombinator.com/companies/reframe/jobs/V39dt3G-fullstack-engineer",
+      "sourceId": "reframe-fullstack-v39dt3g"
+    },
+    {
+      "id": "fifthdoor-frontend-o7as4a9",
+      "company": "Fifth Door",
+      "title": "Front End Engineer",
+      "url": "https://www.ycombinator.com/companies/fifth-door/jobs/o7AS4A9-front-end-engineer",
+      "sourceId": "fifthdoor-frontend-o7as4a9"
+    },
+    {
+      "id": "yc-empirical-health-nzfqwlw",
+      "company": "Empirical Health",
+      "title": "Design Engineer",
+      "url": "https://www.ycombinator.com/companies/empirical-health/jobs/nZFQWLW-design-engineer",
+      "sourceId": "yc-empirical-health-nzfqwlw"
+    },
+    {
+      "id": "canonical-5150422",
+      "company": "Canonical",
+      "title": "Web Frontend Engineer - JS, CSS, React, Flutter",
+      "url": "https://job-boards.greenhouse.io/canonical/jobs/5150422",
+      "sourceId": "canonical-5150422"
+    },
+    {
+      "id": "whippy-frontend-da02ad44",
+      "company": "Whippy",
+      "title": "Software Engineer: Frontend",
+      "url": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b",
+      "sourceId": "da02ad44-9668-4f93-94e3-bf1a6e09ad8b"
+    },
+    {
+      "id": "yc-finni-health-ph1y4dp",
+      "company": "Finni Health",
+      "title": "Full-Stack Software Developer 2",
+      "url": "https://www.ycombinator.com/companies/finni-health/jobs/ph1Y4Dp-full-stack-software-developer-2",
+      "sourceId": "yc-finni-health-ph1y4dp"
+    },
+    {
+      "id": "remote-railway-6ddcfe47-6cce-469b-ba6d-4f0e83440c9d",
+      "company": "Railway",
+      "title": "Senior Full-Stack Engineer - Product",
+      "url": "https://railway.com/careers/full-stack",
+      "sourceId": "6ddcfe47-6cce-469b-ba6d-4f0e83440c9d"
+    },
+    {
+      "id": "10pearls-react-ember-kqdykxuh4p",
+      "company": "10Pearls",
+      "title": "Frontend React/Ember",
+      "url": "https://10pearls.applytojob.com/apply/KqDYKxUH4p/Frontend-ReactEmber",
+      "sourceId": "10pearls-react-ember-kqdykxuh4p"
+    },
+    {
+      "id": "yc-readily-vrusoy7",
+      "company": "Readily",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://www.ycombinator.com/companies/readily/jobs/vrUSOY7-senior-full-stack-engineer",
+      "sourceId": "yc-readily-vrusoy7"
+    },
+    {
+      "id": "ciro-software-c7nk9eu",
+      "company": "Ciro",
+      "title": "Software Engineer",
+      "url": "https://www.ycombinator.com/companies/ciro/jobs/c7NK9Eu-software-engineer",
+      "sourceId": "ciro-software-c7nk9eu"
+    },
+    {
+      "id": "yc-furtherai-zrn2j29",
+      "company": "FurtherAI",
+      "title": "Frontend Engineer - Web",
+      "url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+      "sourceId": "yc-furtherai-zrn2j29"
+    },
+    {
+      "id": "laralink-react-frontend-36",
+      "company": "Laralink",
+      "title": "React Frontend Developer",
+      "url": "https://laralink.com/careers/react-frontend-developer",
+      "sourceId": "laralink-job-36"
+    },
+    {
+      "id": "spellbrush-frontend-6ttcv4a",
+      "company": "Spellbrush",
+      "title": "Frontend Engineer (Anime Games)",
+      "url": "https://www.ycombinator.com/companies/spellbrush/jobs/6ttCv4A-frontend-engineer-anime-games",
+      "sourceId": "spellbrush-frontend-6ttcv4a"
+    },
+    {
+      "id": "yc-agave-unmv0mv",
+      "company": "Agave",
+      "title": "Full-Stack Software Engineer",
+      "url": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-full-stack-software-engineer",
+      "sourceId": "yc-agave-unmv0mv"
+    },
+    {
+      "id": "yc-simple-ai-byegx5m",
+      "company": "Simple AI",
+      "title": "Founding Software Engineer",
+      "url": "https://www.ycombinator.com/companies/simple-ai/jobs/bYEgX5m-founding-engineer",
+      "sourceId": "yc-simple-ai-byegx5m"
+    },
+    {
+      "id": "yc-david-ai-nbfcaze",
+      "company": "David AI",
+      "title": "Product Engineer",
+      "url": "https://www.ycombinator.com/companies/david-ai/jobs/nBFCaze-product-engineer",
+      "sourceId": "yc-david-ai-nbfcaze"
+    },
+    {
+      "id": "porter-frontend-gd7hwti",
+      "company": "Porter",
+      "title": "Frontend Engineer",
+      "url": "https://www.ycombinator.com/companies/porter/jobs/GD7hwtI-frontend-engineer",
+      "sourceId": "porter-frontend-gd7hwti"
+    },
+    {
+      "id": "yc-diligencesquared-inc-rjpu8px",
+      "company": "DiligenceSquared",
+      "title": "Engineer - Frontend",
+      "url": "https://www.ycombinator.com/companies/diligencesquared-inc/jobs/RJPu8pX-engineer-frontend",
+      "sourceId": "yc-diligencesquared-inc-rjpu8px"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-react",
+      "level": "working",
+      "skill": "React / Next.js / TypeScript",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume lists React, Next.js and TypeScript. The portfolio describes React components and hooks at Danzee Tech and React-based product interfaces at Tututor.ai, Illume, Viloi, Jurri and Yaksport. Self-reported source material reviewed; independent skill assessment has not been performed."
+    },
+    {
+      "id": "ev-backend",
+      "level": "working",
+      "skill": "Node.js / Express / MongoDB / REST APIs",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The resume and portfolio describe production Node.js, Express and MongoDB work at Tututor.ai and in Illume/Viloi, including shared APIs, data modeling and school-scoped data access. Self-reported project evidence reviewed."
+    },
+    {
+      "id": "ev-ai",
+      "level": "working",
+      "skill": "OpenAI / Claude / Gemini / AI integrations",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied sources describe AI lesson-topic chatbots, quiz generation and grading at Tututor.ai; AI-generated analytics at Illume; and provider fallbacks involving OpenAI, Claude and Gemini at Viloi. This supports application integration, not model-training or ML research expertise."
+    },
+    {
+      "id": "ev-product",
+      "level": "working",
+      "skill": "Product ownership / technical leadership",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The current portfolio calls the Tututor.ai / EduNova role Lead Engineer, describes leading web and mobile developers, and states that the candidate now works directly with the founder on product and engineering. No formal product-management certification is claimed."
+    },
+    {
+      "id": "ev-integration",
+      "level": "working",
+      "skill": "Authentication / Stripe / SEPA / WebSockets / Redis",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume and portfolio describe JWT authentication, Stripe subscriptions and webhooks, SEPA billing, and Socket.io with Redis messaging in shipped products."
+    },
+    {
+      "id": "ev-mobile",
+      "level": "working",
+      "skill": "React Native / mobile app delivery",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The current portfolio reports shipping React Native apps to both Apple and Google app stores and beginning a Kotlin Multiplatform core. It does not establish five years of mobile development or deep native-platform expertise."
+    },
+    {
+      "id": "ev-experience",
+      "level": "working",
+      "skill": "Professional experience / four-plus years",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume and current portfolio agree on Danzee Tech January 2022-January 2024 and Tututor.ai November 2023-present. These overlapping periods support four-plus calendar years by October 2026; they must not be added together to inflate experience."
+    },
+    {
+      "id": "ev-remote",
+      "level": "working",
+      "skill": "Remote collaboration",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The resume identifies Tututor.ai as remote with the employer based in Murcia, Spain; the candidate is based in Pakistan. Danzee Tech is associated with Viby, Denmark. This supports international collaboration, not any particular English test score or work authorization."
+    },
+    {
+      "id": "ev-performance",
+      "level": "working",
+      "skill": "Frontend performance / query optimization",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The resume and portfolio describe code splitting, lazy loading and bundle optimization on Jurri, plus query and index hotspot work. No new quantitative performance claim has been inferred."
+    },
+    {
+      "id": "ev-frontend-foundations",
+      "level": "working",
+      "skill": "HTML / CSS / JavaScript / Redux / Tailwind CSS",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume lists JavaScript, HTML, CSS, Redux Toolkit, RTK Query and Tailwind CSS; the portfolio describes production React interfaces, reusable components and multilingual booking experiences."
+    },
+    {
+      "id": "ev-git-deploy",
+      "level": "working",
+      "skill": "Git / GitHub / CI-CD / Vercel / DigitalOcean",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume lists Git, GitHub, GitLab, CI/CD, Vercel and DigitalOcean. Specific Docker, Kubernetes, AWS, GCP or Terraform production depth is not established by these sources."
+    },
+    {
+      "id": "ev-analytics",
+      "level": "working",
+      "skill": "Data visualization / Chart.js / D3.js",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume and portfolio describe Illume dashboards for revenue, booking and retention analytics with Chart.js and D3.js, and integrations involving Boulevard, Zenoti and Vagaro."
+    },
+    {
+      "id": "ev-testing",
+      "level": "working",
+      "skill": "Cypress / golden-test validation",
+      "source": "https://itsubaidullahomer.com",
+      "verified": false,
+      "statement": "The supplied resume lists Cypress, and the portfolio describes golden-test validation for the Plumier XXI export. Broad ownership of every testing framework or release-governance practice is not implied."
+    },
+    {
+      "id": "ev-confirmed-ts-next",
+      "level": "working",
+      "skill": "TypeScript / Next.js — 4 years",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed 4 years of professional TypeScript and 4 years of Next.js experience on October 16, 2026. Exact start dates are not inferred. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-mobile",
+      "level": "working",
+      "skill": "React Native — 3 years",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed 3 years of professional React Native experience on October 16, 2026. No specific Expo or native-plugin experience was supplied. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-testing",
+      "level": "working",
+      "skill": "Jest / React Testing Library",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed hands-on Jest and React Testing Library experience on October 16, 2026. No duration or particular testing-project claim was supplied. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-graphql",
+      "level": "working",
+      "skill": "GraphQL",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed hands-on GraphQL experience on October 16, 2026. No exact tenure was supplied. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-docker",
+      "level": "working",
+      "skill": "Docker — 3+ years",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed 3+ years of Docker experience on October 16, 2026. This does not establish Kubernetes or named-cloud expertise. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-sql",
+      "level": "working",
+      "skill": "SQL — 3+ years",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed 3+ years of SQL experience on October 16, 2026. Database vendor and PostgreSQL-specific features remain unspecified. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-english",
+      "level": "working",
+      "skill": "English — advanced",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed advanced spoken and written English on October 16, 2026. No native status, CEFR level or test score is claimed. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-schedule",
+      "level": "working",
+      "skill": "US business hours / immediate availability",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate confirmed availability for full US business hours on October 16, 2026 and previously confirmed immediate availability. Special trials, on-call, travel and relocation commitments require separate review. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    },
+    {
+      "id": "ev-confirmed-compensation",
+      "level": "working",
+      "skill": "Salary expectation — USD 50,000 annually, negotiable",
+      "source": "https://admin.itsubaidullahomer.com/admin",
+      "verified": false,
+      "statement": "The candidate authorized USD 50,000 per year, negotiable, when a required application asks for salary expectation. This is not a minimum; fit remains the priority. Source: direct candidate reply in this chat; retained in the private application-facts record, not a public portfolio claim."
+    }
+  ]
+}

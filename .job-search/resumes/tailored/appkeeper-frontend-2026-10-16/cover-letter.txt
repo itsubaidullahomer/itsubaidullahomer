@@ -1,0 +1,10 @@
+Hi Appkeeper team,
+
+I'm applying for the Frontend Developer role. I have 4+ years of React experience and 4 years with TypeScript and Next.js. I currently lead engineering at Tututor.ai / EduNova, building web and mobile products and working directly with the founder on delivery.
+
+Your focus on complex dashboards and real-time data fits my work. For Illume, I built AI analytics dashboards using Chart.js and D3.js, with integrations for revenue, bookings and retention data. At Danzee Tech, I built reusable React components and hooks and reduced Jurri's initial load time by approximately 40% through code splitting, lazy loading and bundle optimization. I also bring hands-on experience with REST APIs, WebSockets, Redux Toolkit, Jest, React Testing Library and Cypress.
+
+I'm based in Pakistan, have advanced spoken and written English, and am available immediately. My portfolio is at https://itsubaidullahomer.com, and my GitHub is https://github.com/itsubaidullahomer.
+
+Best,
+Ubaidullah Omer

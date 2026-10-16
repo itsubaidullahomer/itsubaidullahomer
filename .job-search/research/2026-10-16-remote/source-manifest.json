@@ -1,0 +1,96 @@
+[
+  {
+    "id": "appkeeper-frontend",
+    "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "finalUrl": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "path": ".job-search/research/2026-10-16-remote/appkeeper-frontend.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.881548+00:00",
+    "sha256": "8615b2d8ce33efe5bbeed28466cc1d764ff9f6838850d137fb861b2178df01f6",
+    "bytes": 7447
+  },
+  {
+    "id": "appkeeper-home",
+    "url": "https://appkeeper.ltd/",
+    "finalUrl": "https://appkeeper.ltd/",
+    "path": ".job-search/research/2026-10-16-remote/appkeeper-home.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.881861+00:00",
+    "sha256": "c1b7c0bf277ea9bebe3cbc746fe25991961c345563cb3f011ccd93112d4586f8",
+    "bytes": 24513
+  },
+  {
+    "id": "mechabits-fullstack",
+    "url": "https://www.mechabits.com/careers/full-stack-engineer",
+    "finalUrl": "https://www.mechabits.com/careers/full-stack-engineer",
+    "path": ".job-search/research/2026-10-16-remote/mechabits-fullstack.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.881993+00:00",
+    "sha256": "540c421f8802c92c73ac1e97dc812618eac1bd5688027507ae31ea5dca2cc08d",
+    "bytes": 83468
+  },
+  {
+    "id": "mechabits-form",
+    "url": "https://www.mechabits.com/careers/full-stack-engineer/readiness",
+    "finalUrl": "https://www.mechabits.com/careers/full-stack-engineer/readiness",
+    "path": ".job-search/research/2026-10-16-remote/mechabits-form.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.882088+00:00",
+    "sha256": "c12582707ebd8bc1293c2b3caf648fb2d95cbc87dbc1d7708429278f59964650",
+    "bytes": 74395
+  },
+  {
+    "id": "highlevel-fullstack",
+    "url": "https://jobs.lever.co/gohighlevel/ce928065-f2cf-4412-a5e7-32677e6f4e4b",
+    "finalUrl": "https://jobs.lever.co/gohighlevel/ce928065-f2cf-4412-a5e7-32677e6f4e4b",
+    "path": ".job-search/research/2026-10-16-remote/highlevel-fullstack.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.882179+00:00",
+    "sha256": "35d8f42315cbbe8f9797d56b0619b22d2c5a0537a6f867a2b3c01a27daf4215c",
+    "bytes": 726512
+  },
+  {
+    "id": "chilipiper-board",
+    "url": "https://jobs.ashbyhq.com/chilipiper",
+    "finalUrl": "https://jobs.ashbyhq.com/chilipiper",
+    "path": ".job-search/research/2026-10-16-remote/chilipiper-board.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.882278+00:00",
+    "sha256": "ec525986b2b93618b5599123ab45d653037606ec575b5d83e3acdd95f955942c",
+    "bytes": 13895
+  },
+  {
+    "id": "supabase-frontend",
+    "url": "https://jobs.ashbyhq.com/supabase/f048dd68-63f8-4f98-9860-3d5a43c09a01",
+    "finalUrl": "https://jobs.ashbyhq.com/supabase/f048dd68-63f8-4f98-9860-3d5a43c09a01",
+    "path": ".job-search/research/2026-10-16-remote/supabase-frontend.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:06:09.882437+00:00",
+    "sha256": "d5b6c9a8af3da0348d1083d7edb74a863b52390829952650bff4fc2c882724f6",
+    "bytes": 9144
+  },
+  {
+    "id": "appkeeper-main",
+    "url": "https://appkeeper.ltd/assets/main-BmqqyZ5s.js",
+    "path": ".job-search/research/2026-10-16-remote/appkeeper-main.js",
+    "capturedAt": "2026-10-15T22:06:50.138401+00:00",
+    "sha256": "347e4df37e8326b1f69c63669ff724ed16d52559ec6f2ec32ad0118026f417df",
+    "status": 200
+  },
+  {
+    "id": "qtodev-careers",
+    "url": "https://qtodev.com/careers",
+    "path": ".job-search/research/2026-10-16-remote/qtodev-careers.html",
+    "sha256": "8896e3f5a5bc88260943ae5d3d5d6f8761f376ac1c4f2671a82f8fdb5f20e842",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:07:35.182640+00:00"
+  },
+  {
+    "id": "mechabits-team",
+    "url": "https://www.mechabits.com/team",
+    "path": ".job-search/research/2026-10-16-remote/mechabits-team.html",
+    "status": 200,
+    "capturedAt": "2026-10-15T22:09:58.042297+00:00",
+    "sha256": "2f50a893d8007c937fc53cf38763cdbbfdeef1e88b856237980fc5588ab65097"
+  }
+]

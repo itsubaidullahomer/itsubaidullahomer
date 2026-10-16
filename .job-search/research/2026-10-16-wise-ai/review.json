@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-16T00:17:27.023737Z",
+  "jobId": "himalayas-6dca1606cc28208c3715ce8f",
+  "conclusion": "Hold: essential ZoomApps evidence missing and present employer hiring status unconfirmed.",
+  "applicationReady": false,
+  "currentOpening": {
+    "aggregatorLive": true,
+    "employerConfirmed": false,
+    "wellfoundResult": "410 Gone via web retrieval",
+    "acquisition": "Harvard source updated July 16, 2026 reports acquisition by Theris",
+    "inference": "Board freshness cannot establish current employer headcount; do not label closed solely from acquisition."
+  },
+  "compensation": {
+    "advertisedCurrency": "USD",
+    "advertisedAnnualMin": 12000,
+    "advertisedAnnualMax": 24000,
+    "equityAdvertised": true,
+    "equityOnly": false,
+    "paidStatus": "Advertised paid role; present employer salary/contract unconfirmed",
+    "candidateExpectationNotFloor": true
+  },
+  "eligibility": {
+    "boardIncludesPakistan": true,
+    "currentEmployerConfirmation": false,
+    "assessment": "unknown"
+  },
+  "applicationRoute": {
+    "method": "Email or message per public JD",
+    "address": "founders@wiseai.care",
+    "sourceUrl": "https://himalayas.app/companies/wise-ai/jobs/title-founding-engineer-fullstack-zoom-app",
+    "officialGeneralContact": "contact@wiseai.care",
+    "requiredMaterials": [
+      "Short introduction",
+      "GitHub or portfolio; papers only if any",
+      "1\u20132 projects involving a ZoomApp"
+    ],
+    "additionalQuestions": "No employer application questionnaire verified. Himalayas Apply now redirects to job-seeker sign-up.",
+    "submitted": false
+  },
+  "missingFacts": [
+    "Does candidate have actual ZoomApps / Zoom Apps SDK experience?",
+    "Which 1\u20132 ZoomApp projects can be truthfully shared?",
+    "Is the role still hiring under Wise AI/Theris?",
+    "Current Pakistan remote eligibility and employment/contractor terms",
+    "Current salary and equity terms",
+    "Provider-specific AWS/GCP, healthtech, CV and signal-processing experience if relevant; do not infer from AI API work"
+  ],
+  "requirements": [
+    {
+      "id": "wise-review-fullstack",
+      "text": "Fullstack JavaScript / React / Node development",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-react",
+        "ev-backend",
+        "ev-confirmed-ts-next"
+      ],
+      "explanation": "Candidate reports production React, TypeScript, Node and Express work across web products; four years TypeScript and Next.js."
+    },
+    {
+      "id": "wise-review-zoom",
+      "text": "Prior ZoomApps experience",
+      "essential": true,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "The listing explicitly marks ZoomApps as mandatory. No Zoom Apps SDK or shipped ZoomApp project appears in the canonical facts or candidate confirmations. Unreported experience is not proof of absence."
+    },
+    {
+      "id": "wise-review-api",
+      "text": "API development",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-backend",
+        "ev-integration"
+      ],
+      "explanation": "Reported Express/MongoDB backend includes approximately 1,000 endpoints and third-party integrations. These are candidate-reported figures."
+    },
+    {
+      "id": "wise-review-systems",
+      "text": "System design, databases and performance optimization",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-backend",
+        "ev-performance",
+        "ev-product",
+        "ev-confirmed-sql"
+      ],
+      "explanation": "Shared backend and school-scoped data, production product ownership, MongoDB/SQL and documented query/frontend optimization provide concrete evidence for these broad requirements."
+    },
+    {
+      "id": "wise-review-ui",
+      "text": "Responsive product interfaces",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-react",
+        "ev-frontend-foundations"
+      ],
+      "explanation": "React/TypeScript product interfaces, reusable components and Tailwind work support the broad frontend requirement."
+    },
+    {
+      "id": "wise-review-cloud",
+      "text": "Cloud platforms and DevOps familiarity",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-git-deploy",
+        "ev-confirmed-docker"
+      ],
+      "explanation": "DigitalOcean/Vercel deployment, CI/CD and Docker provide evidence of general cloud/DevOps familiarity. AWS/GCP were examples in the listing; no provider-specific expertise is claimed."
+    },
+    {
+      "id": "wise-review-ownership",
+      "text": "Startup problem solving and cross-functional communication",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-product",
+        "ev-remote",
+        "ev-confirmed-english"
+      ],
+      "explanation": "Candidate reports small-team leadership, international remote delivery and direct founder collaboration; advanced English is self-reported."
+    },
+    {
+      "id": "wise-review-education",
+      "text": "Relevant degree or equivalent experience",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-experience",
+        "ev-product"
+      ],
+      "explanation": "The JD accepts equivalent experience. Candidate has no completed degree; four-plus calendar years of product delivery are the basis for this mapping, not a degree claim."
+    },
+    {
+      "id": "wise-review-health",
+      "text": "Healthtech experience",
+      "essential": false,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "The listing describes this as a plus. No healthcare-specific work is established in candidate facts."
+    },
+    {
+      "id": "wise-review-ml",
+      "text": "Computer vision and signal-processing background / current stack",
+      "essential": false,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "The advertised stack includes Python/FastAPI, OpenCV, MediaPipe, PyTorch/TensorFlow, SciPy and NumPy under a flexible current-direction heading. Candidate AI experience is product/API integration, not established CV or signal-processing research."
+    },
+    {
+      "id": "wise-review-providers",
+      "text": "AWS or GCP-specific experience",
+      "essential": false,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "No AWS/GCP experience is confirmed. Docker and DigitalOcean do not establish these provider-specific skills."
+    }
+  ],
+  "research": {
+    "companyUrl": "https://www.wiseai.care/",
+    "contacts": [
+      {
+        "id": "wise-review-annanya",
+        "name": "Annanya Panagala",
+        "role": "Cofounder (Harvard announcement); publicly listed Wise AI team member",
+        "profileUrl": "https://www.linkedin.com/in/annanya-panagala",
+        "sourceUrl": "https://www.linkedin.com/company/wiseaicare/?viewAsMember=true",
+        "referralRoute": "Public LinkedIn profile only; no personal introduction or referral relationship verified. Job board publishes founders@wiseai.care for applications.",
+        "notes": "Current recruiting ownership after the Theris acquisition is unconfirmed. Do not infer a private email or internal referral.",
+        "capturedAt": "2026-10-16T00:17:27.023737Z"
+      }
+    ],
+    "sources": [
+      {
+        "id": "wise-review-employer",
+        "label": "Official employer product site",
+        "url": "https://www.wiseai.care/",
+        "text": "Boston contactless-vitals product with a ZoomApp guide. Employer footer links the Harvard founder story and the wiseaicare LinkedIn company. Publishes contact@wiseai.care as general contact; no careers link or vacancy found on the reviewed homepage.",
+        "capturedAt": "2026-10-16T00:17:27.023737Z",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      },
+      {
+        "id": "wise-review-job",
+        "label": "Live Himalayas vacancy (secondary source)",
+        "url": "https://himalayas.app/companies/wise-ai/jobs/title-founding-engineer-fullstack-zoom-app",
+        "text": "Full-time remote; Pakistan included. Advertises USD 12,000\u201324,000 annually plus potential equity. ZoomApps is mandatory; requests an intro, portfolio/GitHub and 1\u20132 ZoomApp examples at founders@wiseai.care. Listing dates are October 11\u2013December 10, 2026; these are board dates, not employer confirmation.",
+        "capturedAt": "2026-10-16T00:17:27.023737Z",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      },
+      {
+        "id": "wise-review-wellfound",
+        "label": "Matching Wellfound vacancy unavailable",
+        "url": "https://wellfound.com/jobs/3641018-founding-engineer-fullstack-zoom-app",
+        "text": "Matching job is indexed with salary and equity, but direct web retrieval returned HTTP 410 Gone. Indexed text does not establish a current opening; original source relationship is not proven.",
+        "capturedAt": "2026-10-16T00:17:27.023737Z",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      },
+      {
+        "id": "wise-review-acquisition",
+        "label": "Harvard alumni announcement",
+        "url": "https://hsph.harvard.edu/alumni-friends/news/alumni-news-summer-2026/",
+        "text": "Page last updated July 16, 2026 reports that cofounders Annanya Panagala and Mateusz Firlej announced Wise AI was acquired by Theris. This creates a reason to re-confirm recruiting status; acquisition alone does not prove this role closed.",
+        "capturedAt": "2026-10-16T00:17:27.023737Z",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      },
+      {
+        "id": "wise-review-identity",
+        "label": "Company LinkedIn linked from employer footer",
+        "url": "https://www.linkedin.com/company/wiseaicare/?viewAsMember=true",
+        "text": "Boston health-monitoring company, with Annanya Panagala and Mateusz Firlej listed. Distinct from the similarly named Malaysian identity-verification business; Built In company profile metadata must not be combined with this employer.",
+        "capturedAt": "2026-10-16T00:17:27.023737Z",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      }
+    ]
+  },
+  "publicStaffRoute": [
+    {
+      "id": "wise-review-annanya",
+      "name": "Annanya Panagala",
+      "role": "Cofounder (Harvard announcement); publicly listed Wise AI team member",
+      "profileUrl": "https://www.linkedin.com/in/annanya-panagala",
+      "sourceUrl": "https://www.linkedin.com/company/wiseaicare/?viewAsMember=true",
+      "referralRoute": "Public LinkedIn profile only; no personal introduction or referral relationship verified. Job board publishes founders@wiseai.care for applications.",
+      "notes": "Current recruiting ownership after the Theris acquisition is unconfirmed. Do not infer a private email or internal referral.",
+      "capturedAt": "2026-10-16T00:17:27.023737Z"
+    }
+  ],
+  "noMutations": true
+}

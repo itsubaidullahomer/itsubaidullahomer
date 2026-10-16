@@ -1,0 +1,154 @@
+
+      Remote FullStack Engineer – React + Django – AI Systems - Spotter
+Skip to main content
+This website uses cookies to ensure you get the best experience.
+        Spotter and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it.
+          If you consent to it, we will also use cookies for analytics purposes.
+See our 
+Cookie Policy
+ to read more about the cookies we set.
+You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.
+Accept all cookies
+Decline all non-necessary cookies
+Cookie preferences
+Select which cookies you accept
+On this site, we always set cookies that are strictly necessary, meaning they are necessary for the site to function properly.
+If you consent to it, we will also set other types of cookies. You can provide or withdraw your consent to the different types of cookies using the toggles below. You can change or withdraw your consent at any time, by clicking the link “Manage Cookies”, that is always available at the bottom of the site.
+To learn more about what the different types of cookies do, how your data is used when they are set etc, see our 
+Cookie Policy
+.
+Strictly necessary
+These cookies are necessary to make the site work properly, and are always set when you visit the site.
+Vendors
+Teamtailor
+Analytics
+These cookies collect information to help us understand how the site is being used.
+Vendors
+Teamtailor
+Accept these cookies
+Decline all non-necessary cookies
+common--header--menu#toggle"
+    data-common--header--menu-target="button"
+  >
+Career menu
+Start
+Jobs
+        Employee
+Log in as employee
+          Candidate
+Log in to Connect
+Homepage
+spotter.ai
+Share page
+Facebook
+X
+LinkedIn
+Mail
+Software Developement
+·
+Multiple locations
+·
+    Fully Remote
+Remote FullStack Engineer – React + Django – AI Systems
+Spotter AI is a fast growing trucking startup based in the US. You will be working in a high energy environment with a diverse pool of co-workers from all around the world.
+Apply for this job
+We're a remote, product-focused startup building AI- and algorithm-driven systems. We're
+looking for a FullStack Engineer who can move fluidly between React frontends and Django
+backends.
+You'll own features end-to-end: from designing the data model, building the API, to crafting the
+UI that brings it all together. You'll work with a small distributed team across several countries,
+shipping fast and iterating based on real feedback.
+💰 
+$100 bonus
+: After successfully completing the assessment. To receive the assessment,
+please submit your resume to this job application. If your resume is approved, you'll receive the
+assessment afterwards.
+What You'll Do
+Build and ship 
+complete features
+ across React frontend and Django backend.
+Develop responsive web apps using 
+React
+ and 
+Material UI (MUI).
+Design 
+backend services and APIs
+ using 
+Python + Django
+ (DRF or similar).
+Create 
+clean, responsive UIs
+ with 
+React
+ that connect to our services.
+Implement 
+algorithmic/AI logic
+ (scoring, ranking, decision rules) and surface it in the UI.
+Write 
+pragmatic, production-ready code
+ that ships fast and iterates easily.
+What We're Looking For
+Strong proficiency in 
+React
+ and 
+Material UI.
+Attention to detail:
+ You care about alignment, spacing, and how the app feels to the user.
+Comfortable designing and building 
+RESTful APIs
+ (bonus if you’ve used DRF or similar frameworks).
+Experience working on 
+non-trivial business logic or algorithms
+ (e.g., decision flows, scoring rules, optimization logic).
+Good instincts around 
+performance
+: understanding query behavior, avoiding obvious pitfalls, and using caching when it counts.
+Ability to work 
+independently in a remote environment
+ and communicate clearly.
+Bonus Points For
+Comfortable coding with 
+AI assistants
+ (Claude Code, Cursor, etc.).
+Experience shipping complete products in startups, side projects, or hackathons.
+Background in 
+algorithms or data-heavy systems.
+Experience with 
+GCP, Redis, or Docker/Kubernetes.
+Familiarity shipping mobile apps with 
+React Native.
+This role is a 
+central piece of our product roadmap
+, and we're aiming to fill it quickly once we
+meet the right person. If it resonates with you, 
+go ahead and apply now
+. Send us your resume
+to start the assessment process (and get a chance at the $100 bonus).
+Department
+              Software Developement
+Role
+            Full Stack Developer
+Locations
+              Argentina, India, Colombia, Mexico, Pakistan, Philippines
+Remote status
+            Fully Remote
+Apply for this job
+Software Developement
+·
+Multiple locations
+·
+    Fully Remote
+Remote FullStack Engineer – React + Django – AI Systems
+Spotter AI is a fast growing trucking startup based in the US. You will be working in a high energy environment with a diverse pool of co-workers from all around the world.
+          Loading application form
+Close modal
+    Career site
+Start
+Jobs
+Data & privacy
+Manage cookies
+spotter.ai/
+Employee login
+Candidate Connect login
+Applicant tracking system
+      by Teamtailor

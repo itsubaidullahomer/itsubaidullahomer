@@ -1,0 +1,89 @@
+{
+  "capturedAt": "2026-10-16T01:05:03.120Z",
+  "jobIds": [
+    "himalayas-ac100394824c4c1ecceeb4d8",
+    "himalayas-fb60906bf4e48f501d8010b7",
+    "himalayas-1e7ecc9cbc7d867e890ef8a7",
+    "himalayas-c79f67f2b5f11ab85943e765",
+    "himalayas-e5b76a0bd73c0b10ab22f94e"
+  ],
+  "submissionCount": 5,
+  "matches": [],
+  "records": [
+    {
+      "id": "himalayas-ac100394824c4c1ecceeb4d8",
+      "status": "discovered",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "sameCompanyRows": [
+        {
+          "id": "himalayas-ac100394824c4c1ecceeb4d8",
+          "title": "Remote FullStack Engineer – React + Django – AI Systems",
+          "status": "discovered"
+        }
+      ]
+    },
+    {
+      "id": "himalayas-fb60906bf4e48f501d8010b7",
+      "status": "discovered",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "sameCompanyRows": [
+        {
+          "id": "himalayas-fb60906bf4e48f501d8010b7",
+          "title": "Full Stack Engineer",
+          "status": "discovered"
+        }
+      ]
+    },
+    {
+      "id": "himalayas-1e7ecc9cbc7d867e890ef8a7",
+      "status": "discovered",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "sameCompanyRows": [
+        {
+          "id": "himalayas-1e7ecc9cbc7d867e890ef8a7",
+          "title": "Senior Software Engineer",
+          "status": "discovered"
+        }
+      ]
+    },
+    {
+      "id": "himalayas-c79f67f2b5f11ab85943e765",
+      "status": "discovered",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "sameCompanyRows": [
+        {
+          "id": "himalayas-c79f67f2b5f11ab85943e765",
+          "title": "Junior Software Engineer",
+          "status": "discovered"
+        },
+        {
+          "id": "himalayas-e5b76a0bd73c0b10ab22f94e",
+          "title": "Senior Software Engineer",
+          "status": "discovered"
+        }
+      ]
+    },
+    {
+      "id": "himalayas-e5b76a0bd73c0b10ab22f94e",
+      "status": "discovered",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "sameCompanyRows": [
+        {
+          "id": "himalayas-c79f67f2b5f11ab85943e765",
+          "title": "Junior Software Engineer",
+          "status": "discovered"
+        },
+        {
+          "id": "himalayas-e5b76a0bd73c0b10ab22f94e",
+          "title": "Senior Software Engineer",
+          "status": "discovered"
+        }
+      ]
+    }
+  ]
+}

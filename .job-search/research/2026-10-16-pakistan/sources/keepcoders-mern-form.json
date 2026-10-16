@@ -1,0 +1,11 @@
+{
+  "id": "keepcoders-mern-form",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSdCByh-6t6HAWSdFudarFcjXWnpqDXlz3sjZi1qwiXma3yKtw/viewform",
+  "capturedAt": "2026-10-15T22:10:48.995068Z",
+  "captureType": "public GET metadata plus researcher paraphrase",
+  "text": "Public GET returned HTTP401 and a Google sign-in requirement. Stopped without signing in or creating an account.",
+  "status": 401,
+  "finalUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdCByh-6t6HAWSdFudarFcjXWnpqDXlz3sjZi1qwiXma3yKtw/viewform",
+  "bytes": 9134,
+  "sha256": "024ee15021960e9a72b73a8749ffc94d22976cfc951aa8804b73ec44822cff67"
+}

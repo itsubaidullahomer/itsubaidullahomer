@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-15T23:18:02.608791+00:00",
+  "scope": "Read-only employer research, live workspace GET, authorized Gmail reads, local preparation. No browser interactions, application POST, email send, cloud write or portal write.",
+  "job": {
+    "company": "Appkeeper Pte. Ltd.",
+    "title": "Frontend Developer",
+    "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "careersUrl": "https://appkeeper.ltd/#opportunities",
+    "employmentType": "Full-time",
+    "location": "Remote (worldwide)",
+    "availability": "Live company opportunities section links the current vacancy and its active HTML application form; server intake was not tested."
+  },
+  "eligibility": {
+    "pakistanEligibleOnPublishedWording": true,
+    "basis": "Worldwide remote with no country exclusion on the role page. No worker-classification or tax arrangement is inferred.",
+    "degreeRequired": false,
+    "degreeNote": "No published degree requirement. Candidate has no degree; none included in resume or cover.",
+    "technicalFit": "Promising core match; essential component-library, CSS and code-review evidence is incomplete. Not yet a strong fit.",
+    "requiredApplicationFactsComplete": true,
+    "strongFitConfirmed": false,
+    "submissionReady": false
+  },
+  "candidateEvidenceStatus": "Candidate-reported from current facts, portfolio and resume; employment, metrics and skills are not independently verified.",
+  "fitEvidence": [
+    {
+      "requirement": "3+ years React and TypeScript",
+      "evidence": "React role since Jan 2022; TypeScript 4 years directly confirmed."
+    },
+    {
+      "requirement": "Reusable component libraries or design systems",
+      "evidence": "Reusable React components and hooks across Danzee client products. Formal shared-library/design-system maintenance is not established."
+    },
+    {
+      "requirement": "Data visualization",
+      "evidence": "Illume analytics dashboards; D3.js and Chart.js in sourced project stack."
+    },
+    {
+      "requirement": "State, APIs, live data and performance",
+      "evidence": "Redux Toolkit/RTK Query, REST APIs, Socket.io/WebSockets, and Jurri load-time optimization."
+    },
+    {
+      "requirement": "Tests and bundlers",
+      "evidence": "Jest and React Testing Library directly confirmed; Cypress, Vite and Webpack in the original resume."
+    },
+    {
+      "requirement": "CSS, Git and code review",
+      "evidence": "Tailwind/CSS and Git supported. Specific Grid/Flexbox and code-review participation are not explicitly documented."
+    },
+    {
+      "requirement": "Next.js nice-to-have",
+      "evidence": "4 years directly confirmed."
+    }
+  ],
+  "missingFacts": {
+    "blockingForCurrentForm": [],
+    "doNotAttestWithoutConfirmation": [
+      "Formal maintained component-library or design-system ownership",
+      "Specific code-review participation",
+      "CSS Grid/Flexbox experience"
+    ],
+    "optionalNotClaimed": [
+      "Vue 3",
+      "WCAG expertise",
+      "Storybook",
+      "Figma expertise"
+    ],
+    "beforeAcceptingOffer": [
+      "Contracting or employment arrangement from Pakistan",
+      "Exact schedule, compensation and employment terms"
+    ],
+    "blockingForStrongFitAndSubmission": [
+      "Maintained component-library/design-system experience and example",
+      "CSS Grid/Flexbox hands-on experience and example",
+      "Code-review participation and example"
+    ],
+    "evidenceLinkageRequired": [
+      "Add a live profile evidence record for already-sourced Vite/Webpack before marking build-tools requirement met."
+    ]
+  },
+  "application": {
+    "channel": "Employer web form",
+    "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "fields": {
+      "name": {
+        "required": true,
+        "value": "Ubaidullah Omer"
+      },
+      "email": {
+        "required": true,
+        "value": "itsubaidullahomer@gmail.com"
+      },
+      "cv": {
+        "required": true,
+        "accept": [
+          ".pdf",
+          ".doc",
+          ".docx"
+        ],
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-appkeeper-frontend-2026-10-16-v1-ats.pdf",
+        "sha256": "7ed535a1ba8828be802b55b75b40aed02f2d86ab1c19b4d047bd6cda85fd40ac"
+      },
+      "cover": {
+        "required": false,
+        "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/cover-letter.txt"
+      }
+    },
+    "position": "Frontend Developer",
+    "formContainsBlanketRequirementsAttestation": false,
+    "handler": "POST /api/apply with multipart FormData; documented JS success checks JSON ok",
+    "handlerSource": "https://appkeeper.ltd/assets/main-BmqqyZ5s.js",
+    "serverIntakeTested": false,
+    "submissionPerformed": false,
+    "emailAlternative": "No application email confirmed; employer directs applicants to vacancy form. If later requested by employer, suggested subject: Frontend Developer application - Ubaidullah Omer"
+  },
+  "dedupe": {
+    "portal": {
+      "checkedAt": "2026-10-15T23:09:01.169Z",
+      "keys": [
+        "jobs",
+        "activities",
+        "runs",
+        "profile"
+      ],
+      "jobCount": 41,
+      "jobs": []
+    },
+    "gmail": {
+      "identityVerified": true,
+      "email": "itsubaidullahomer@gmail.com",
+      "profileId": "107883929690669461380",
+      "accountLinkId": "link_6ad15b33dabc8191a6af53049b344daf",
+      "query": "in:anywhere (appkeeper OR \"appkeeper.ltd\")",
+      "results": 0,
+      "nextPageToken": null,
+      "limitation": "No matching messages found; this does not prove absence of an unrecorded or differently named historical submission."
+    },
+    "decision": "No duplicate found in live jobs workspace or authorized candidate mailbox."
+  },
+  "resume": {
+    "createdAt": "2026-10-15T23:10:24.490935+00:00",
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-appkeeper-frontend-2026-10-16-v1-ats.pdf",
+    "sha256": "7ed535a1ba8828be802b55b75b40aed02f2d86ab1c19b4d047bd6cda85fd40ac",
+    "bytes": 88113,
+    "pages": 1,
+    "searchableWords": 312,
+    "contentBottomPt": 169.08976377952766,
+    "visualQa": "passed: rendered 1600px PNG inspected; clear single-column text, no overlap, clipping, or missing glyphs",
+    "builder": ".job-search/resumes/masters/build_resumes.py: render_ats",
+    "qaCompletedAt": "2026-10-15T23:11:47.792470+00:00"
+  },
+  "decision": "Shortlisted, fit unknown. Await candidate specifics for essential requirements and complete the factual bundler evidence linkage. Complete form answers alone do not establish strong fit or submission readiness.",
+  "sources": [
+    ".job-search/private/application-facts.json",
+    ".job-search/resumes/masters/facts.json",
+    ".job-search/flowcv-resume-source.txt:96,100",
+    ".job-search/research/2026-10-16-update-readiness.json",
+    "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "https://appkeeper.ltd/",
+    "https://appkeeper.ltd/assets/main-BmqqyZ5s.js"
+  ],
+  "files": {
+    "sourceManifest": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/research/2026-10-16-appkeeper/source-manifest.json",
+    "tailorConfig": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/config.json",
+    "provenance": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/provenance.json",
+    "editableResume": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/resume.md",
+    "render": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/page-1.png",
+    "cover": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/appkeeper-frontend-2026-10-16/cover-letter.txt"
+  },
+  "importAction": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/import/appkeeper-frontend-20261016.json"
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "codevente-careers",
+    "url": "https://codevente.com/careers",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Employer career page. Remote/Karachi frontend opening and application form. The initial HTTP response is a JavaScript shell; the current linked application bundle supplies the role and form.",
+    "status": 200,
+    "finalUrl": "https://codevente.com/careers",
+    "bytes": 3890,
+    "sha256": "d52e2918217e7182cc19dc625fdc67a4f2f1005e3431af1ad7dece7a960886e9"
+  },
+  {
+    "id": "codevente-client",
+    "url": "https://codevente.com/assets/index-BDP_4NyY.js",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Public bundle linked by the employer page. Frontend role; form requires name, email, position, experience category, resume and motivation text. Experience categories include 3–5 and 6–10 years. Optional compensation selector uses USD ranges, unlike the advertised PKR amount. No request was submitted.",
+    "status": 200,
+    "finalUrl": "https://codevente.com/assets/index-BDP_4NyY.js",
+    "bytes": 940221,
+    "sha256": "64822e616ae775516fd77b157a1670e3d1b2167ebb70a4f2fc9e4b64debe61cc",
+    "liveChecks": {
+      "senior-frontend-developer": true,
+      "Senior Frontend Developer": true,
+      "Mid Level (3-5 years)": true,
+      "Senior Level (6-10 years)": true,
+      "Cover letter must be at least 50 characters long": true
+    }
+  },
+  {
+    "id": "codevente-linkedin",
+    "url": "https://www.linkedin.com/company/codevente",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Employer-controlled company profile links to codevente.com, describes a small software company and publishes ERP/product delivery updates. This corroborates the domain, not every employer claim.",
+    "status": 999,
+    "finalUrl": "https://www.linkedin.com/company/codevente",
+    "bytes": 1530,
+    "sha256": "644031a68bde879af85bcc9cb3e6fa1e9a6b0f61d49307581974b5dbc09d3de8",
+    "webInspection": {
+      "method": "web search/open rendered text",
+      "retrieved": true,
+      "note": "Public company profile content was returned by the web tool; a later direct HTTP GET returned999. Source text is a paraphrase of the web result."
+    }
+  },
+  {
+    "id": "gtsol-careers",
+    "url": "https://www.gtsol360.com/careers",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Employer lists a full-time remote/Karachi React/Next opening. TypeScript, Tailwind and Supabase are preferred. Application route is an email with resume and a short explanation of fit. No degree, tenure, salary amount, schedule or AI-answer restriction is published.",
+    "status": 200,
+    "finalUrl": "https://www.gtsol360.com/careers",
+    "bytes": 138604,
+    "sha256": "8111597ca7d1e887d383c56894d09b2d9259f175f969d0ec5b2f74c052332325"
+  },
+  {
+    "id": "gtsol-about",
+    "url": "https://www.gtsol360.com/about",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Employer team page names Abrar Ahmed and Umaar Ahmed and links their public professional profiles. Umaar is described as leading engineering and delivery. Generic marketing statistics and unnamed team cards were not treated as verified evidence.",
+    "status": 200,
+    "finalUrl": "https://www.gtsol360.com/about",
+    "bytes": 213274,
+    "sha256": "750b97d97fb2ee654533efc9e8327d7af7b92b8f3752813d93431d044dc7d713"
+  },
+  {
+    "id": "gtsol-linkedin",
+    "url": "https://pk.linkedin.com/company/gtsol360",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Employer-controlled company profile links the same domain and describes Karachi-based AI/web/mobile services. Some organization metadata differs across public pages; actual employment terms remain unverified.",
+    "status": 999,
+    "finalUrl": "https://pk.linkedin.com/company/gtsol360",
+    "bytes": 1530,
+    "sha256": "644031a68bde879af85bcc9cb3e6fa1e9a6b0f61d49307581974b5dbc09d3de8",
+    "webInspection": {
+      "method": "web search/open rendered text",
+      "retrieved": true,
+      "note": "Public company profile content was returned by the web tool; a later direct HTTP GET returned999. Source text is a paraphrase of the web result."
+    }
+  },
+  {
+    "id": "idev-mobile",
+    "url": "https://idevnerds.com/careers/mobile-engineer/",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Remote mobile role accepts React Native/TypeScript or Flutter/Dart. It asks for at least three years of production mobile delivery; native integration and store releases are duties. Form requires identity/contact details and resume; motivation text is optional.",
+    "status": 200,
+    "finalUrl": "https://idevnerds.com/careers/mobile-engineer/",
+    "bytes": 76949,
+    "sha256": "29b906e0e685d7bd554081694c87f4828102b4d6d5467dc49277911dcb6f96d0"
+  },
+  {
+    "id": "idev-fullstack",
+    "url": "https://idevnerds.com/careers/senior-full-stack-engineer/",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Live opening requires at least five years, relational database fundamentals and cloud deployment using AWS/Azure/GCP. These are not established by the current candidate facts.",
+    "status": 200,
+    "finalUrl": "https://idevnerds.com/careers/senior-full-stack-engineer/",
+    "bytes": 77058,
+    "sha256": "4b8621bf21190a88fc1ca6cfd3576042e6149d2db397cb5f2deec171b1d76241"
+  },
+  {
+    "id": "idev-lead",
+    "url": "https://idevnerds.com/careers/mean-mern-stack-team-lead/",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Live opening requires at least five years plus Angular and PostgreSQL. Excluded from the viable shortlist against confirmed candidate experience.",
+    "status": 200,
+    "finalUrl": "https://idevnerds.com/careers/mean-mern-stack-team-lead/",
+    "bytes": 77326,
+    "sha256": "dd8512e9a8db304c9962df3ccb4fc272f7b5a82f76fccabebfa8072d7d0343de"
+  },
+  {
+    "id": "drhud-board",
+    "url": "https://emp.jobylon.com/companies/2639-dr-hud/",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Official Jobylon company board did not list an available opening during this check. A current Pakistan AI-role mirror therefore remains unverified at the employer source.",
+    "status": 200,
+    "finalUrl": "https://emp.jobylon.com/companies/2639-dr-hud/",
+    "bytes": 112383,
+    "sha256": "3428ee162d9ed1bf1bcf0da3eb562cb9855d5b9b4ef438a8ceea4f76b8961a99"
+  },
+  {
+    "id": "fasset-board",
+    "url": "https://fasset.bamboohr.com/careers/list",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Employer career listing API contains three current roles, none engineering. The React/Node role seen on mirrors is not available on this canonical board.",
+    "status": 200,
+    "finalUrl": "https://fasset.bamboohr.com/careers/list",
+    "bytes": 974,
+    "sha256": "14bee49057e5ad65d41054248e680fd400b52bb951468d2aa8eed40fdd1a0cbe",
+    "currentRoleTitles": [
+      "Legal Counsel UAE",
+      "Product Manager - Money Movement",
+      "Creative Producer, Videographer & Editor"
+    ]
+  },
+  {
+    "id": "instech-26",
+    "url": "https://instechsol.com/portal/submit_cv.php?job_id=26",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "MERN backend role is live; mandatory AWS/Azure/GCP experience is unsupported. Night schedule is 19:00–04:00 Pakistan time. Submission would create an account. No account was created.",
+    "status": 200,
+    "finalUrl": "https://instechsol.com/portal/submit_cv.php?job_id=26",
+    "bytes": 23287,
+    "sha256": "5e510bf5f6fea98eed41abfb95fcfdc93c36918fadf0bcea81628e0852a128fc"
+  },
+  {
+    "id": "keepcoders-board",
+    "url": "https://keepcoders.com/careers/",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Employer board links separate senior MERN and React/React Native forms. These require Google sign-in, so current detailed requirements and questions could not be verified anonymously.",
+    "status": 200,
+    "finalUrl": "https://keepcoders.com/careers/",
+    "bytes": 102367,
+    "sha256": "65728263b72e8faade6491f530f1b42579507b2673feaa18559fee0630adb7b1"
+  },
+  {
+    "id": "keepcoders-mern-form",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdCByh-6t6HAWSdFudarFcjXWnpqDXlz3sjZi1qwiXma3yKtw/viewform",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Public GET returned HTTP401 and a Google sign-in requirement. Stopped without signing in or creating an account.",
+    "status": 401,
+    "finalUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdCByh-6t6HAWSdFudarFcjXWnpqDXlz3sjZi1qwiXma3yKtw/viewform",
+    "bytes": 9134,
+    "sha256": "024ee15021960e9a72b73a8749ffc94d22976cfc951aa8804b73ec44822cff67"
+  },
+  {
+    "id": "keepcoders-frontend-form",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLScsL6b-d0eWs5qtOjAWYPu6SOh9HCUpEsFtYmpzsaVltvMzzA/viewform",
+    "capturedAt": "2026-10-15T22:10:48.995068Z",
+    "captureType": "public GET metadata plus researcher paraphrase",
+    "text": "Public GET returned HTTP401 and a Google sign-in requirement. Stopped without signing in or creating an account.",
+    "status": 401,
+    "finalUrl": "https://docs.google.com/forms/d/e/1FAIpQLScsL6b-d0eWs5qtOjAWYPu6SOh9HCUpEsFtYmpzsaVltvMzzA/viewform",
+    "bytes": 9134,
+    "sha256": "9861d0c7e7ca49bcb9da86216f1069b7be3bc7d48e38ae121472f58f514b1d0c"
+  }
+]

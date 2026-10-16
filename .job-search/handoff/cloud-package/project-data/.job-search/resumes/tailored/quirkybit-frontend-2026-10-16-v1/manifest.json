@@ -1,0 +1,25 @@
+{
+  "createdAt": "2026-10-15T23:56:50.370481+00:00",
+  "sha256": {
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/QA.md": "497244b03b54f798a43c875c504d845a6ebc18e20b1d3dcb46af52ffa7548a45",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/candidate-confirmations.snapshot.json": "ceedf31665222657ca6058cd408120d3d380eefe233852bceb13a9469fbc465c",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/canonical-facts.snapshot.json": "c11a82edd43bafb93849e3f25b76e766e7ae0d2450234b12a46a3fd535f3ca74",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/config.json": "809db37188d1530988e4f288891dd77e11150e73a02699a3d91ad960c697de1d",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/cover-letter.txt": "d5b57165896d2d9fb2e6760420047f30ca38c58047cb661f35b774f1505ba35a",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/facts.rendered.snapshot.json": "7ad8af010fbc42dd45b5275c1b46d0fd2669ede854c4e6ffa428c95e8f5cc75e",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/metadata.json": "dbcd2def2ef70f35a96c65d3a521d8960a6b7ac2ee55daa13578098961f53aa3",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/page-1.png": "2c08f878e564ea004aa5ec9b71b649f6604caa9fdc0855435faf87755407531a",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/provenance.json": "e02255689960516cc4c48a48e8c4d2be856963b9fc5518ac0669d7ec7321bbe9",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/readiness.json": "0838caf6a7368cc9b87b6a900ddba75667dae088d95c012f0ef9075f00249f68",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/resume.md": "563172a1dd4e1ed297cff39102413e29a73278d70254dffa50f98bd940d51dee",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/100-a9932104ce8f8247.js": "dfbf9a550dce6ee58fb99522df92ff01c1530db9354bcebdddfcdd0b2e81e8c3",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/application.html": "847bc727862544229acea7c5a6ed71a16dbb01ef74082de477ea14f70e42cd25",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/capture.json": "7db2a6b2844e3cac238ced31791c80be975cb600a5aa70a7f2ac0c2953d60dd3",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/form-field-labels.json": "b2bc8fd0c7906d6eaae24658ab7d20073454d41d90c73c6c581bc3d9634afe3f",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/page-7e6d0bb634a7117e.js": "f101f035eac693afee476103fd55e9ccb180509167f5bcd67749b7d49b0d5be9",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/role-data-snippet.txt": "0384f61a419776a526295e5b9c79d4facbce6c11bb7dddf8a9392d3b54a42930",
+    "output/pdf/ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91",
+    "output/pdf/ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.txt": "3e03927075bd3211f50bc26810f719f0485dc4ea69b7934b8efad68f3db08981"
+  },
+  "policy": "Hashes identify reviewed content; do not overwrite the PDF or cover letter. Use a new version for revisions."
+}

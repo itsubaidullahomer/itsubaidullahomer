@@ -1,0 +1,89 @@
+{
+  "validatedAt": "2026-10-15T16:05:14.874Z",
+  "actions": 10,
+  "workspaceTotal": 40,
+  "counts": {
+    "strong": 4,
+    "gaps": 0,
+    "unknown": 36,
+    "stretch": 0
+  },
+  "reviewed": [
+    {
+      "id": "eventmobi-frontend-458",
+      "fit": "unknown",
+      "met": 0,
+      "unknown": 3,
+      "notesLength": 10297
+    },
+    {
+      "id": "pavago-f280d10f6f",
+      "fit": "unknown",
+      "met": 1,
+      "unknown": 2,
+      "notesLength": 5809
+    },
+    {
+      "id": "pavago-b27de28c51",
+      "fit": "unknown",
+      "met": 1,
+      "unknown": 2,
+      "notesLength": 5677
+    },
+    {
+      "id": "pavago-3ddacf04af",
+      "fit": "unknown",
+      "met": 0,
+      "unknown": 3,
+      "notesLength": 5731
+    },
+    {
+      "id": "tether-frontend-desktop",
+      "fit": "unknown",
+      "met": 1,
+      "unknown": 2,
+      "notesLength": 7279
+    },
+    {
+      "id": "tether-mobile-pk-2784265",
+      "fit": "unknown",
+      "met": 2,
+      "unknown": 1,
+      "notesLength": 7574
+    },
+    {
+      "id": "remote-metabase-8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "fit": "unknown",
+      "met": 3,
+      "unknown": 2,
+      "notesLength": 7704
+    },
+    {
+      "id": "zoftify-29",
+      "fit": "unknown",
+      "met": 1,
+      "unknown": 2,
+      "notesLength": 9219
+    },
+    {
+      "id": "zoftify-41",
+      "fit": "unknown",
+      "met": 1,
+      "unknown": 2,
+      "notesLength": 9068
+    },
+    {
+      "id": "zoftify-32",
+      "fit": "unknown",
+      "met": 0,
+      "unknown": 3,
+      "notesLength": 9352
+    }
+  ],
+  "maxActionBytes": 11730,
+  "priorNotesPreserved": true,
+  "researchSourcesPreserved": true,
+  "statusAndEligibilityUnchanged": true,
+  "kanbanAndOtherJobsUnchanged": true,
+  "noApplicationsOrCloudWrites": true
+}

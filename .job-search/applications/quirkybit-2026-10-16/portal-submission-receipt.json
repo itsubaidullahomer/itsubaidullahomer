@@ -1,0 +1,14 @@
+{
+  "id": "14812112-7a10-4ec5-bbe2-3dce226e9633",
+  "jobId": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+  "documentId": "004c0f22-b2f6-40ac-a03f-1939d8bc4e64",
+  "channel": "email",
+  "destination": "hello@quirkybit.io",
+  "submittedAt": "2026-10-16T00:42:43+00:00",
+  "confirmation": "Gmail SENT read-back verified message 1a1422947d403cb2 from itsubaidullahomer@gmail.com to the published general company inbox hello@quirkybit.io. Exact tailored PDF attachment filename and 88,348-byte size verified. Email explains CAPTCHA form failure and asks forwarding to hiring. Employer web form is NOT submitted; hiring-team acknowledgement is NOT confirmed.",
+  "receiptUrl": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#sent/1a1422947d403cb2",
+  "actor": "agent",
+  "resumeSha256": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91",
+  "resumeFilename": "ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf",
+  "recordedAt": "2026-10-16T00:44:06.217669+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-15T23:18:15.424Z",
+  "scope": "Local parser/domain simulation only; no cloud writes",
+  "passed": true,
+  "status": "shortlisted",
+  "fit": "unknown",
+  "eligibility": "confirmed",
+  "evidenceIdsValid": true,
+  "unknownEssential": [
+    "appkeeper-frontend-component-library",
+    "appkeeper-frontend-css",
+    "appkeeper-frontend-bundlers",
+    "appkeeper-frontend-git-review"
+  ],
+  "jobCountBefore": 41,
+  "jobCountPreview": 42
+}

@@ -1,0 +1,22 @@
+{
+  "focus": "frontend",
+  "slug": "eventmobi-frontend",
+  "projects": [
+    "yaksport",
+    "illume",
+    "viloi"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_platform",
+      "tututor_backend",
+      "tututor_export",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_jurri",
+      "danzee_components"
+    ]
+  }
+}

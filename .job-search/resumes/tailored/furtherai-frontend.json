@@ -1,0 +1,22 @@
+{
+  "focus": "frontend",
+  "slug": "furtherai-frontend",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_ai",
+      "tututor_scope",
+      "tututor_leadership",
+      "tututor_backend",
+      "tututor_export"
+    ],
+    "danzee": [
+      "danzee_jurri",
+      "danzee_components"
+    ]
+  }
+}

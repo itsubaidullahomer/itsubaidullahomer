@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-15T23:56:50.370481+00:00",
+  "jobId": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+  "jobUrl": "https://www.quirkybit.io/careers/apply?id=frontend-developer-react",
+  "company": "Quirky Bit",
+  "role": "Frontend Developer (React)",
+  "status": "prepared_only",
+  "artifactReady": true,
+  "requiredCandidateFactsMissing": [],
+  "applicationReadiness": "All required text and attachment answers are prepared. Parent agent must inspect the live form and execute consent/submission within existing authorization; this subagent made no submission or consent action.",
+  "sourceCapture": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/capture.json",
+  "sourceCapturedAt": "2026-10-15T23:53:44.649829+00:00",
+  "sourceMethod": "Current public employer application HTML and linked role/form JavaScript, fetched read-only.",
+  "roleLocation": {
+    "published": "Lahore, Pakistan",
+    "remote": false,
+    "type": "Full-time",
+    "candidateLocation": "Rahim Yar Khan, Pakistan",
+    "relocationPromiseMade": false,
+    "note": "No separate city-residence or relocation question appears in current form source."
+  },
+  "degreeRequirement": {
+    "present": false,
+    "evidence": "Complete exact frontend-developer-react object has five minimum requirements and five preferred requirements; neither degree nor equivalent-education wording occurs.",
+    "source": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/sources/role-data-snippet.txt",
+    "candidateDegreeClaimMade": false
+  },
+  "requirements": [
+    {
+      "id": "q-react",
+      "text": "At least three years using React",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-react",
+        "ev-experience"
+      ],
+      "explanation": "Danzee React delivery since January 2022 and subsequent React products support more than three calendar years without adding overlapping employment."
+    },
+    {
+      "id": "q-ts",
+      "text": "TypeScript proficiency",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-confirmed-ts-next"
+      ],
+      "explanation": "Candidate directly confirmed four years of TypeScript."
+    },
+    {
+      "id": "q-data",
+      "text": "D3.js / Chart.js experience",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-analytics"
+      ],
+      "explanation": "Illume dashboard work names both libraries."
+    },
+    {
+      "id": "q-css",
+      "text": "Modern CSS experience",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-frontend-foundations",
+        "ev-confirmed-css-layout"
+      ],
+      "explanation": "Tailwind CSS is recorded in the resume and Yaksport stack. Styled Components is not claimed. CSS Grid and Flexbox were subsequently confirmed directly."
+    },
+    {
+      "id": "q-performance",
+      "text": "Web performance knowledge",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-performance"
+      ],
+      "explanation": "Jurri work includes code splitting, lazy loading and bundle optimization."
+    },
+    {
+      "id": "q-state",
+      "text": "State management familiarity",
+      "essential": false,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-frontend-foundations"
+      ],
+      "explanation": "Redux Toolkit and RTK Query are recorded; no MobX or Zustand claim."
+    },
+    {
+      "id": "q-next",
+      "text": "Next.js familiarity",
+      "essential": false,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-confirmed-ts-next"
+      ],
+      "explanation": "Candidate confirmed four years of Next.js."
+    },
+    {
+      "id": "q-testing",
+      "text": "Jest / React Testing Library",
+      "essential": false,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-confirmed-testing"
+      ],
+      "explanation": "Hands-on use confirmed directly; no duration inferred."
+    },
+    {
+      "id": "q-3d",
+      "text": "WebGL / Three.js exposure",
+      "essential": false,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "No candidate-provided experience established."
+    },
+    {
+      "id": "q-a11y",
+      "text": "Accessibility standards familiarity",
+      "essential": false,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "Specific WCAG knowledge has not been confirmed."
+    }
+  ],
+  "additionalConfirmedPractices": [
+    {
+      "practice": "Shared component libraries/design system maintenance",
+      "evidenceIds": [
+        "ev-confirmed-components"
+      ]
+    },
+    {
+      "practice": "CSS Grid and Flexbox",
+      "evidenceIds": [
+        "ev-confirmed-css-layout"
+      ]
+    },
+    {
+      "practice": "Code reviews",
+      "evidenceIds": [
+        "ev-confirmed-code-review"
+      ]
+    }
+  ],
+  "evidenceCaution": "Candidate-reported experience; not independently assessed. Evidence IDs were checked against live workspace profile.",
+  "form": {
+    "fullName": {
+      "required": true,
+      "value": "Ubaidullah Omer"
+    },
+    "email": {
+      "required": true,
+      "value": "itsubaidullahomer@gmail.com"
+    },
+    "phone": {
+      "required": false,
+      "value": "+92 3292380929"
+    },
+    "linkedIn": {
+      "required": false,
+      "value": "https://www.linkedin.com/in/itsubaidullahomer/"
+    },
+    "coverLetter": {
+      "required": true,
+      "file": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/cover-letter.txt",
+      "characters": 844,
+      "words": 125,
+      "maximumLengthAttribute": null,
+      "sha256": "d5b57165896d2d9fb2e6760420047f30ca38c58047cb661f35b774f1505ba35a"
+    },
+    "resume": {
+      "required": true,
+      "file": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf",
+      "bytes": 88348,
+      "sha256": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91",
+      "publishedMaximum": "5MB",
+      "inputAccept": [
+        ".pdf",
+        ".doc",
+        ".docx"
+      ],
+      "label": "Resume / CV (PDF)"
+    },
+    "agreeToTerms": {
+      "required": true,
+      "label": "I consent to QuirkyBit storing and processing my personal data for the purpose of my job application",
+      "actionTaken": false,
+      "note": "Root executes the actual consent control when applying within the existing authorized scope."
+    }
+  },
+  "notAskedInCurrentForm": [
+    "salary",
+    "education",
+    "relocation",
+    "onsite attendance commitment",
+    "work authorization questionnaire"
+  ],
+  "notClaimed": [
+    "Lahore residency",
+    "relocation promise",
+    "university degree",
+    "Styled Components",
+    "MobX",
+    "Zustand",
+    "WebGL",
+    "Three.js",
+    "WCAG expertise",
+    "unverified quantitative outcomes"
+  ],
+  "externalActions": {
+    "cloudWrites": false,
+    "uploads": false,
+    "emails": false,
+    "applicationSubmitted": false
+  }
+}

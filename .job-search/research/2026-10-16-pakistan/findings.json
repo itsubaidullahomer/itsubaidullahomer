@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-10-15T22:10:48.995068Z",
+  "localDate": "2026-10-16",
+  "scope": "New Pakistan-compatible React/TypeScript/full-stack leads; read-only research. No submissions, mail, account creation, or live import.",
+  "candidateFactsPath": ".job-search/resumes/masters/facts.json",
+  "candidateFactsSha256": "63c6a356017e9d1893bb8867aea5a17a4f8d478d3888e3ae2d4fe03ef43146e9",
+  "evidenceProfilePath": ".job-search/import/profile.json",
+  "candidateConstraints": {
+    "degree": "none",
+    "availability": "immediate",
+    "experience": "4+ years; do not round to5",
+    "claims": "Candidate-reported; not independently verified. No new skills inferred from agent-built portal."
+  },
+  "dedup": {
+    "importedSnapshot": ".job-search/import/reviewed-preview-readiness.json",
+    "importedJobCount": 40,
+    "alsoSearched": [
+      "docs/jobs/research/",
+      ".job-search/application-readiness.json",
+      ".job-search/readiness-primary.json",
+      ".job-search/readiness-bamboo.json"
+    ],
+    "newPrimaryLeadCount": 2,
+    "applicationReadyCount": 0,
+    "method": "Employer/title and normalized canonical URL. Neither new employer appears in prior40 or prior research text."
+  },
+  "interpretation": "Two live employer-listed leads with supported published technical scope, not verified application-ready matches. Short JDs limit eligibility certainty; holds and exclusions are not shortlist padding.",
+  "jobs": [
+    {
+      "id": "codevente-senior-frontend-20261016",
+      "company": "CodeVente",
+      "title": "Senior Frontend Developer",
+      "companyUrl": "https://codevente.com",
+      "jobUrl": "https://codevente.com/careers",
+      "finalApplyUrl": "https://codevente.com/careers",
+      "sourceBoard": "Employer careers; company LinkedIn corroboration",
+      "location": "Remote / Karachi, Pakistan",
+      "employmentType": "Full-time",
+      "employerType": "Small software/product-delivery agency; own product work is publicly described. Not established as a venture-backed product startup.",
+      "availability": {
+        "verifiedAt": "2026-10-15T22:10:48.995068Z",
+        "status": "listed_on_current_employer_page_and_public_client_bundle",
+        "publishedAt": null,
+        "closingAt": null
+      },
+      "eligibility": {
+        "pakistan": "listed",
+        "degree": "No degree condition in the short listing or visible form; no general no-degree policy established.",
+        "experience": "No minimum in listing. Form offers a truthful 3–5-year category; the Senior category means 6–10, so do not select it.",
+        "overseasVisa": "not applicable"
+      },
+      "compensation": {
+        "advertised": "PKR 150,000–250,000 per month",
+        "candidateExpectation": "unanswered",
+        "issue": "Optional form selector instead uses USD ranges. Do not infer a conversion or choose a value without the candidate."
+      },
+      "requirements": [
+        {
+          "requirement": "React, TypeScript, Next.js and Tailwind",
+          "status": "met_candidate_reported",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations"
+          ],
+          "factPointers": [
+            "/skills/0/text",
+            "/experience/1/bullets/0",
+            "/projects/2"
+          ],
+          "assessment": "All are named in approved facts; reusable React interfaces and multilingual Tailwind delivery support the match. Exact TypeScript/Next.js tenure remains unknown."
+        },
+        {
+          "requirement": "Frontend ownership and mentoring",
+          "status": "met_candidate_reported",
+          "evidenceIds": [
+            "ev-product",
+            "ev-react"
+          ],
+          "factPointers": [
+            "/experience/0/bullets/0",
+            "/experience/0/bullets/4",
+            "/experience/1/bullets/1"
+          ],
+          "assessment": "Small-team leadership, direct founder work and interface performance delivery support the published duties."
+        },
+        {
+          "requirement": "Complete seniority and employment terms",
+          "status": "unknown",
+          "evidenceIds": [],
+          "factPointers": [],
+          "assessment": "Short listing does not define a minimum, working overlap, full-time exclusivity or Karachi attendance. Obtain full terms before declaring an eligible match."
+        }
+      ],
+      "application": {
+        "method": "employer web form",
+        "requiredQuestions": [
+          "given and family name",
+          "contact email",
+          "role selection",
+          "experience bracket",
+          "resume upload: PDF/DOC/DOCX, at most 5 MB",
+          "motivation statement: at least 50 characters"
+        ],
+        "optionalQuestions": [
+          "phone",
+          "portfolio link",
+          "LinkedIn link",
+          "start-date category",
+          "expected compensation",
+          "remote preference"
+        ],
+        "aiAnswerRestriction": "None found in published role/form; this is not a blanket permission claim.",
+        "formInspected": true,
+        "inspectionMethod": "Public current client bundle linked by employer page; no form interaction or submission."
+      },
+      "technicalFit": "supported_for_published_scope",
+      "overallFit": "unknown",
+      "readyToApply": false,
+      "missingFacts": [
+        "Candidate compensation expectation",
+        "Working-hour overlap and other commitments if required",
+        "Employer confirmation of full criteria and whether 4+ years meets this senior opening",
+        "Employer confirmation of remote work from Rahim Yar Khan"
+      ],
+      "blockers": [
+        "The employer publishes only a short role summary; seniority policy is ambiguous.",
+        "Resolve the listing/form compensation mismatch if that optional field is used."
+      ],
+      "research": {
+        "companyUrl": "https://codevente.com",
+        "contacts": [
+          {
+            "id": "codevente-company",
+            "name": "CodeVente",
+            "role": "Company recruiting route",
+            "profileUrl": "https://www.linkedin.com/company/codevente",
+            "sourceUrl": "https://codevente.com/careers",
+            "referralRoute": "Public professional profile only; no relationship or referral availability established.",
+            "notes": "No specific recruiter profile established; apply via the official form.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "codevente-careers",
+            "label": "codevente-careers",
+            "url": "https://codevente.com/careers",
+            "text": "Employer career page. Remote/Karachi frontend opening and application form. The initial HTTP response is a JavaScript shell; the current linked application bundle supplies the role and form.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "codevente-client",
+            "label": "codevente-client",
+            "url": "https://codevente.com/assets/index-BDP_4NyY.js",
+            "text": "Public bundle linked by the employer page. Frontend role; form requires name, email, position, experience category, resume and motivation text. Experience categories include 3–5 and 6–10 years. Optional compensation selector uses USD ranges, unlike the advertised PKR amount. No request was submitted.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "codevente-linkedin",
+            "label": "codevente-linkedin",
+            "url": "https://www.linkedin.com/company/codevente",
+            "text": "Employer-controlled company profile links to codevente.com, describes a small software company and publishes ERP/product delivery updates. This corroborates the domain, not every employer claim.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "sourceIds": [
+        "codevente-careers",
+        "codevente-client",
+        "codevente-linkedin"
+      ]
+    },
+    {
+      "id": "gtsol360-react-next-20261016",
+      "company": "GTSol360",
+      "title": "Full-Stack Developer (React / Next.js)",
+      "companyUrl": "https://www.gtsol360.com",
+      "jobUrl": "https://www.gtsol360.com/careers",
+      "finalApplyUrl": "https://www.gtsol360.com/careers",
+      "sourceBoard": "Employer careers; company LinkedIn corroboration",
+      "location": "Remote / Karachi, Pakistan",
+      "employmentType": "Full-time",
+      "employerType": "Founder-led AI/web/mobile services agency. Product startup status is not established.",
+      "availability": {
+        "verifiedAt": "2026-10-15T22:10:48.995068Z",
+        "status": "listed_on_current_employer_page",
+        "publishedAt": null,
+        "closingAt": null
+      },
+      "eligibility": {
+        "pakistan": "Company describes remote staff across Pakistan.",
+        "degree": "No degree condition published in the short role description.",
+        "experience": "No minimum tenure published.",
+        "overseasVisa": "not applicable"
+      },
+      "compensation": {
+        "advertised": "No numerical range published",
+        "candidateExpectation": "unanswered"
+      },
+      "requirements": [
+        {
+          "requirement": "React / Next.js web product delivery",
+          "status": "met_candidate_reported",
+          "evidenceIds": [
+            "ev-react",
+            "ev-product"
+          ],
+          "factPointers": [
+            "/skills/0/text",
+            "/experience/0/bullets/0",
+            "/experience/1/bullets/0"
+          ],
+          "assessment": "Approved React/Next.js skills and shipped web-product scope support the listed work."
+        },
+        {
+          "requirement": "Responsive interface performance and engineering leadership",
+          "status": "met_candidate_reported",
+          "evidenceIds": [
+            "ev-performance",
+            "ev-product",
+            "ev-frontend-foundations"
+          ],
+          "factPointers": [
+            "/experience/1/bullets/1",
+            "/experience/0/bullets/4",
+            "/projects/2"
+          ],
+          "assessment": "Candidate reports load-time improvements, team leadership and Tailwind delivery."
+        },
+        {
+          "requirement": "Preferred TypeScript / Tailwind / Supabase",
+          "status": "partially_supported_preference",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations"
+          ],
+          "factPointers": [
+            "/skills/0/text",
+            "/projects/2"
+          ],
+          "assessment": "TypeScript and Tailwind are supported. Production Supabase experience is not in the approved facts and must not be claimed."
+        },
+        {
+          "requirement": "Complete role requirements and employment terms",
+          "status": "unknown",
+          "evidenceIds": [],
+          "factPointers": [],
+          "assessment": "The public description is brief; backend stack, seniority expectations, schedule and compensation need clarification."
+        }
+      ],
+      "application": {
+        "method": "email as instructed on employer careers page",
+        "publicRecruitingEmail": "info@gtsol360.com",
+        "requiredQuestions": [
+          "resume attachment",
+          "brief explanation of role fit"
+        ],
+        "optionalQuestions": [],
+        "aiAnswerRestriction": "None found in published application instructions.",
+        "formInspected": true,
+        "inspectionMethod": "Employer careers page explicitly specifies email; no separate application questionnaire is advertised."
+      },
+      "technicalFit": "supported_for_published_scope",
+      "overallFit": "unknown",
+      "readyToApply": false,
+      "missingFacts": [
+        "Full role criteria and backend scope",
+        "Employer confirmation of salary and contract terms",
+        "Required working overlap",
+        "Candidate compensation expectation if asked",
+        "Whether employer requires production Supabase beyond its stated preference"
+      ],
+      "blockers": [
+        "The short listing does not establish full application eligibility; keep as a research lead."
+      ],
+      "research": {
+        "companyUrl": "https://www.gtsol360.com",
+        "contacts": [
+          {
+            "id": "gtsol-umaar",
+            "name": "Umaar Ahmed",
+            "role": "AI & Full Stack Developer; engineering delivery lead",
+            "profileUrl": "https://www.linkedin.com/in/umaar-ahmed-a3b252266/",
+            "sourceUrl": "https://www.gtsol360.com/about",
+            "referralRoute": "Public professional profile only; no relationship or referral availability established.",
+            "notes": "Linked directly by official team page. LinkedIn fetch returned999; relationship and current referral availability are unverified.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z"
+          },
+          {
+            "id": "gtsol-abrar",
+            "name": "Abrar Ahmed",
+            "role": "Founder",
+            "profileUrl": "https://www.linkedin.com/in/aaawithu/",
+            "sourceUrl": "https://www.gtsol360.com/about",
+            "referralRoute": "Public professional profile only; no relationship or referral availability established.",
+            "notes": "Linked directly by official team page. LinkedIn fetch returned999; no outreach.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "gtsol-careers",
+            "label": "gtsol-careers",
+            "url": "https://www.gtsol360.com/careers",
+            "text": "Employer lists a full-time remote/Karachi React/Next opening. TypeScript, Tailwind and Supabase are preferred. Application route is an email with resume and a short explanation of fit. No degree, tenure, salary amount, schedule or AI-answer restriction is published.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "gtsol-about",
+            "label": "gtsol-about",
+            "url": "https://www.gtsol360.com/about",
+            "text": "Employer team page names Abrar Ahmed and Umaar Ahmed and links their public professional profiles. Umaar is described as leading engineering and delivery. Generic marketing statistics and unnamed team cards were not treated as verified evidence.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "gtsol-linkedin",
+            "label": "gtsol-linkedin",
+            "url": "https://pk.linkedin.com/company/gtsol360",
+            "text": "Employer-controlled company profile links the same domain and describes Karachi-based AI/web/mobile services. Some organization metadata differs across public pages; actual employment terms remain unverified.",
+            "capturedAt": "2026-10-15T22:10:48.995068Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      },
+      "sourceIds": [
+        "gtsol-careers",
+        "gtsol-about",
+        "gtsol-linkedin"
+      ]
+    }
+  ],
+  "verificationHolds": [
+    {
+      "company": "iDevNerds",
+      "title": "Mobile Engineer, Flutter & React Native",
+      "jobUrl": "https://idevnerds.com/careers/mobile-engineer/",
+      "sourceIds": [
+        "idev-mobile"
+      ],
+      "readyToApply": false,
+      "reason": "Three production mobile years are required; candidate has three shipped React Native apps but exact tenure is unknown. Remote Pakistan contracting and native-module scope also need confirmation. Do not infer 3 years from overall 4+ years.",
+      "candidateFactPointers": [
+        "/experience/0/bullets/3",
+        "/skills/0/text"
+      ],
+      "evidenceIds": [
+        "ev-mobile",
+        "ev-react"
+      ],
+      "applicationQuestions": [
+        "full name",
+        "email",
+        "phone",
+        "resume"
+      ],
+      "degree": "No degree condition published.",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15T22:10:48.995068Z"
+    },
+    {
+      "company": "Dr Hud",
+      "title": "Full-Stack AI Developer",
+      "jobUrl": "https://www.glassdoor.co.in/job-listing/full-stack-ai-developer-dr-hud-JV_IC3139539_KO0%2C23_KE24%2C30.htm?jl=1010279486532",
+      "canonicalBoard": "https://emp.jobylon.com/companies/2639-dr-hud/",
+      "sourceIds": [
+        "drhud-board"
+      ],
+      "readyToApply": false,
+      "reason": "Current-looking mirror describes a strong AI/product overlap, but no matching official opening/form was found. A separate older Dr Hud role mirror also requires a degree. Do not transfer that policy or treat the new role as verified.",
+      "candidateFactPointers": [
+        "/experience/0/bullets/2",
+        "/projects/1"
+      ],
+      "evidenceIds": [
+        "ev-ai",
+        "ev-product"
+      ],
+      "missingFacts": [
+        "Canonical role/form and degree policy",
+        "Personal real-user AI failure/fix narrative",
+        "Islamabad attendance"
+      ],
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15T22:10:48.995068Z"
+    },
+    {
+      "company": "KeepCoders",
+      "title": "Senior MERN / Frontend roles",
+      "jobUrl": "https://keepcoders.com/careers/",
+      "sourceIds": [
+        "keepcoders-board",
+        "keepcoders-mern-form",
+        "keepcoders-frontend-form"
+      ],
+      "readyToApply": false,
+      "reason": "Employer listings remain visible, but linked role-specific Google Forms require sign-in. Detailed current questions and criteria are not verified. Older LinkedIn versions are closed. No sign-in or account creation attempted.",
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15T22:10:48.995068Z"
+    },
+    {
+      "company": "Incube Technologies",
+      "title": "Full Stack Developer (Next.js & Node.js)",
+      "jobUrl": "https://pk.indeed.com/viewjob?jk=70ff7429ffd961c3",
+      "readyToApply": false,
+      "reason": "Indeed shows in-person Islamabad role with plausible 4+ years/React/Node/Stripe match, but employer canonical role/form is not located and full e-commerce cart/order ownership is not established. Do not substitute SaaS subscription work for complete e-commerce ownership.",
+      "candidateFactPointers": [
+        "/experience/0/bullets/3",
+        "/projects/1"
+      ],
+      "publishedAt": null,
+      "verifiedAt": "2026-10-15T22:10:48.995068Z"
+    }
+  ],
+  "excluded": [
+    {
+      "company": "iDevNerds",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://idevnerds.com/careers/senior-full-stack-engineer/",
+      "reason": "Mandatory5+ years; unproven relational DB and AWS/Azure/GCP."
+    },
+    {
+      "company": "iDevNerds",
+      "title": "MEAN/MERN Stack Team Lead",
+      "url": "https://idevnerds.com/careers/mean-mern-stack-team-lead/",
+      "reason": "Mandatory5+ years; unproven Angular/PostgreSQL."
+    },
+    {
+      "company": "Fasset",
+      "title": "Full-Stack Engineer React/Node",
+      "url": "https://fasset.bamboohr.com/careers",
+      "reason": "Current official board has only three unrelated roles; not a live canonical engineering opening."
+    },
+    {
+      "company": "Exora AI",
+      "title": "Full Stack Developer",
+      "url": "https://www.glassdoor.com/job-listing/full-stack-developer-exora-ai-JV_KO0%2C20_KE21%2C29.htm?jl=1010177805421",
+      "reason": "Mirror explicitly requires bachelor degree and PostgreSQL; candidate has no degree."
+    },
+    {
+      "company": "TechEmulsion",
+      "title": "Software Engineer",
+      "url": "https://www.emulsionlimited.com/careers/software-engineer",
+      "reason": "Official JD explicitly requires BS/MS; candidate has no degree."
+    },
+    {
+      "company": "InstechSol",
+      "title": "Full Stack Developer Night Shift",
+      "url": "https://instechsol.com/portal/submit_cv.php?job_id=26",
+      "reason": "Mandatory AWS/Azure/GCP not in facts; night schedule unconfirmed; submission creates account."
+    },
+    {
+      "company": "Nostro",
+      "title": "Full Stack Engineer Fintech",
+      "url": "https://pk.linkedin.com/jobs/view/full-stack-engineer-fintech-at-nostro-4478062965",
+      "reason": "Employer LinkedIn explicitly closed; required financial ledger/reconciliation and SQL experience not established."
+    },
+    {
+      "company": "Nexterse",
+      "title": "Prompt Engineer / AI Full-Stack Engineer",
+      "url": "https://pk.linkedin.com/jobs/view/prompt-engineer-ai-full-stack-engineer-at-nexterse-4469370194",
+      "reason": "Closed listing; production AWS and model-training requirements unsupported."
+    },
+    {
+      "company": "Krank",
+      "title": "React Developer",
+      "url": "https://pk.linkedin.com/jobs/view/react-developer-at-krank-4198710135",
+      "reason": "Employer LinkedIn explicitly no longer accepts applications."
+    },
+    {
+      "company": "Tecmyer",
+      "title": "Senior-Level Full Stack Software Developer",
+      "url": "https://www.rozee.pk/EN/tecmyer-senior-level-full-stack-software-developer-remote-jobs-1873483",
+      "reason": "Board deadline2026-10-09 has passed; no newer canonical role verified."
+    },
+    {
+      "company": "Xentric AI",
+      "title": "Senior Backend Developer Part-Time",
+      "url": "https://pk.indeed.com/jobs?fromage=3&q=Walk+Interview",
+      "reason": "Required PostgreSQL fluency/schema/indexing unproven. Six-day EST-overlap commitment and PKR30–50k expectation unanswered."
+    },
+    {
+      "company": "SME Careers",
+      "title": "React/Next and Node/React roles",
+      "url": "https://pk.linkedin.com/jobs/view/react-and-next-js-engineer-at-sme-careers-4424725773",
+      "reason": "Closed; also explicitly has no immediate project. Do not count a future talent pool as a current job."
+    }
+  ],
+  "sources": [
+    {
+      "id": "codevente-careers",
+      "url": "https://codevente.com/careers",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Employer career page. Remote/Karachi frontend opening and application form. The initial HTTP response is a JavaScript shell; the current linked application bundle supplies the role and form.",
+      "status": 200,
+      "finalUrl": "https://codevente.com/careers",
+      "bytes": 3890,
+      "sha256": "d52e2918217e7182cc19dc625fdc67a4f2f1005e3431af1ad7dece7a960886e9"
+    },
+    {
+      "id": "codevente-client",
+      "url": "https://codevente.com/assets/index-BDP_4NyY.js",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Public bundle linked by the employer page. Frontend role; form requires name, email, position, experience category, resume and motivation text. Experience categories include 3–5 and 6–10 years. Optional compensation selector uses USD ranges, unlike the advertised PKR amount. No request was submitted.",
+      "status": 200,
+      "finalUrl": "https://codevente.com/assets/index-BDP_4NyY.js",
+      "bytes": 940221,
+      "sha256": "64822e616ae775516fd77b157a1670e3d1b2167ebb70a4f2fc9e4b64debe61cc",
+      "liveChecks": {
+        "senior-frontend-developer": true,
+        "Senior Frontend Developer": true,
+        "Mid Level (3-5 years)": true,
+        "Senior Level (6-10 years)": true,
+        "Cover letter must be at least 50 characters long": true
+      }
+    },
+    {
+      "id": "codevente-linkedin",
+      "url": "https://www.linkedin.com/company/codevente",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Employer-controlled company profile links to codevente.com, describes a small software company and publishes ERP/product delivery updates. This corroborates the domain, not every employer claim.",
+      "status": 999,
+      "finalUrl": "https://www.linkedin.com/company/codevente",
+      "bytes": 1530,
+      "sha256": "644031a68bde879af85bcc9cb3e6fa1e9a6b0f61d49307581974b5dbc09d3de8",
+      "webInspection": {
+        "method": "web search/open rendered text",
+        "retrieved": true,
+        "note": "Public company profile content was returned by the web tool; a later direct HTTP GET returned999. Source text is a paraphrase of the web result."
+      }
+    },
+    {
+      "id": "gtsol-careers",
+      "url": "https://www.gtsol360.com/careers",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Employer lists a full-time remote/Karachi React/Next opening. TypeScript, Tailwind and Supabase are preferred. Application route is an email with resume and a short explanation of fit. No degree, tenure, salary amount, schedule or AI-answer restriction is published.",
+      "status": 200,
+      "finalUrl": "https://www.gtsol360.com/careers",
+      "bytes": 138604,
+      "sha256": "8111597ca7d1e887d383c56894d09b2d9259f175f969d0ec5b2f74c052332325"
+    },
+    {
+      "id": "gtsol-about",
+      "url": "https://www.gtsol360.com/about",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Employer team page names Abrar Ahmed and Umaar Ahmed and links their public professional profiles. Umaar is described as leading engineering and delivery. Generic marketing statistics and unnamed team cards were not treated as verified evidence.",
+      "status": 200,
+      "finalUrl": "https://www.gtsol360.com/about",
+      "bytes": 213274,
+      "sha256": "750b97d97fb2ee654533efc9e8327d7af7b92b8f3752813d93431d044dc7d713"
+    },
+    {
+      "id": "gtsol-linkedin",
+      "url": "https://pk.linkedin.com/company/gtsol360",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Employer-controlled company profile links the same domain and describes Karachi-based AI/web/mobile services. Some organization metadata differs across public pages; actual employment terms remain unverified.",
+      "status": 999,
+      "finalUrl": "https://pk.linkedin.com/company/gtsol360",
+      "bytes": 1530,
+      "sha256": "644031a68bde879af85bcc9cb3e6fa1e9a6b0f61d49307581974b5dbc09d3de8",
+      "webInspection": {
+        "method": "web search/open rendered text",
+        "retrieved": true,
+        "note": "Public company profile content was returned by the web tool; a later direct HTTP GET returned999. Source text is a paraphrase of the web result."
+      }
+    },
+    {
+      "id": "idev-mobile",
+      "url": "https://idevnerds.com/careers/mobile-engineer/",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Remote mobile role accepts React Native/TypeScript or Flutter/Dart. It asks for at least three years of production mobile delivery; native integration and store releases are duties. Form requires identity/contact details and resume; motivation text is optional.",
+      "status": 200,
+      "finalUrl": "https://idevnerds.com/careers/mobile-engineer/",
+      "bytes": 76949,
+      "sha256": "29b906e0e685d7bd554081694c87f4828102b4d6d5467dc49277911dcb6f96d0"
+    },
+    {
+      "id": "idev-fullstack",
+      "url": "https://idevnerds.com/careers/senior-full-stack-engineer/",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Live opening requires at least five years, relational database fundamentals and cloud deployment using AWS/Azure/GCP. These are not established by the current candidate facts.",
+      "status": 200,
+      "finalUrl": "https://idevnerds.com/careers/senior-full-stack-engineer/",
+      "bytes": 77058,
+      "sha256": "4b8621bf21190a88fc1ca6cfd3576042e6149d2db397cb5f2deec171b1d76241"
+    },
+    {
+      "id": "idev-lead",
+      "url": "https://idevnerds.com/careers/mean-mern-stack-team-lead/",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Live opening requires at least five years plus Angular and PostgreSQL. Excluded from the viable shortlist against confirmed candidate experience.",
+      "status": 200,
+      "finalUrl": "https://idevnerds.com/careers/mean-mern-stack-team-lead/",
+      "bytes": 77326,
+      "sha256": "dd8512e9a8db304c9962df3ccb4fc272f7b5a82f76fccabebfa8072d7d0343de"
+    },
+    {
+      "id": "drhud-board",
+      "url": "https://emp.jobylon.com/companies/2639-dr-hud/",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Official Jobylon company board did not list an available opening during this check. A current Pakistan AI-role mirror therefore remains unverified at the employer source.",
+      "status": 200,
+      "finalUrl": "https://emp.jobylon.com/companies/2639-dr-hud/",
+      "bytes": 112383,
+      "sha256": "3428ee162d9ed1bf1bcf0da3eb562cb9855d5b9b4ef438a8ceea4f76b8961a99"
+    },
+    {
+      "id": "fasset-board",
+      "url": "https://fasset.bamboohr.com/careers/list",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Employer career listing API contains three current roles, none engineering. The React/Node role seen on mirrors is not available on this canonical board.",
+      "status": 200,
+      "finalUrl": "https://fasset.bamboohr.com/careers/list",
+      "bytes": 974,
+      "sha256": "14bee49057e5ad65d41054248e680fd400b52bb951468d2aa8eed40fdd1a0cbe",
+      "currentRoleTitles": [
+        "Legal Counsel UAE",
+        "Product Manager - Money Movement",
+        "Creative Producer, Videographer & Editor"
+      ]
+    },
+    {
+      "id": "instech-26",
+      "url": "https://instechsol.com/portal/submit_cv.php?job_id=26",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "MERN backend role is live; mandatory AWS/Azure/GCP experience is unsupported. Night schedule is 19:00–04:00 Pakistan time. Submission would create an account. No account was created.",
+      "status": 200,
+      "finalUrl": "https://instechsol.com/portal/submit_cv.php?job_id=26",
+      "bytes": 23287,
+      "sha256": "5e510bf5f6fea98eed41abfb95fcfdc93c36918fadf0bcea81628e0852a128fc"
+    },
+    {
+      "id": "keepcoders-board",
+      "url": "https://keepcoders.com/careers/",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Employer board links separate senior MERN and React/React Native forms. These require Google sign-in, so current detailed requirements and questions could not be verified anonymously.",
+      "status": 200,
+      "finalUrl": "https://keepcoders.com/careers/",
+      "bytes": 102367,
+      "sha256": "65728263b72e8faade6491f530f1b42579507b2673feaa18559fee0630adb7b1"
+    },
+    {
+      "id": "keepcoders-mern-form",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdCByh-6t6HAWSdFudarFcjXWnpqDXlz3sjZi1qwiXma3yKtw/viewform",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Public GET returned HTTP401 and a Google sign-in requirement. Stopped without signing in or creating an account.",
+      "status": 401,
+      "finalUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdCByh-6t6HAWSdFudarFcjXWnpqDXlz3sjZi1qwiXma3yKtw/viewform",
+      "bytes": 9134,
+      "sha256": "024ee15021960e9a72b73a8749ffc94d22976cfc951aa8804b73ec44822cff67"
+    },
+    {
+      "id": "keepcoders-frontend-form",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScsL6b-d0eWs5qtOjAWYPu6SOh9HCUpEsFtYmpzsaVltvMzzA/viewform",
+      "capturedAt": "2026-10-15T22:10:48.995068Z",
+      "captureType": "public GET metadata plus researcher paraphrase",
+      "text": "Public GET returned HTTP401 and a Google sign-in requirement. Stopped without signing in or creating an account.",
+      "status": 401,
+      "finalUrl": "https://docs.google.com/forms/d/e/1FAIpQLScsL6b-d0eWs5qtOjAWYPu6SOh9HCUpEsFtYmpzsaVltvMzzA/viewform",
+      "bytes": 9134,
+      "sha256": "9861d0c7e7ca49bcb9da86216f1069b7be3bc7d48e38ae121472f58f514b1d0c"
+    }
+  ],
+  "validation": {
+    "candidateFactPointersResolve": true,
+    "profileEvidenceIdsValid": true,
+    "existing40DedupPassed": true,
+    "noNetworkWrites": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "focus": "frontend",
+  "slug": "codenzy-react-2026-10-16-v1",
+  "projects": [
+    "illume",
+    "yaksport",
+    "viloi"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_platform",
+      "tututor_leadership",
+      "tututor_export"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

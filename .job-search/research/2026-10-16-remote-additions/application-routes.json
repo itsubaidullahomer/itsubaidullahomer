@@ -1,0 +1,69 @@
+{
+  "capturedAt": "2026-10-15T23:21:46.878866Z",
+  "applications": {
+    "allcancode-mid-fullstack-20261016": {
+      "route": "https://docs.google.com/forms/d/e/1FAIpQLScTX4kn5-9IwbtIQg5nvxr5QLY-WyIL3K3mTvMNBxHQYid1CQ/viewform",
+      "routeType": "google_form",
+      "requiredAnswers": {
+        "email": "itsubaidullahomer@gmail.com",
+        "commitment": "Full-time",
+        "firstName": "Ubaidullah",
+        "lastName": "Omer",
+        "linkedin": "https://www.linkedin.com/in/itsubaidullahomer/",
+        "motivation": null,
+        "aiReplacementOpinion": null,
+        "aiOpinionExplanation": null,
+        "proudProject": "Tututor.ai / EduNova \u2014 draft from canonical tututor_scope, tututor_ai, tututor_platform facts",
+        "roleInProject": "Lead Engineer / Full-Stack Engineer \u2014 canonical tututor_leadership",
+        "selfRatings": {
+          "react": null,
+          "reactNative": null,
+          "nextjs": null,
+          "documentDatabases": null,
+          "relationalDatabases": null
+        }
+      },
+      "optionalUnanswered": [
+        "hobby",
+        "references"
+      ],
+      "noSubmission": true
+    },
+    "lit8-fullstack-20261016": {
+      "route": "mailto:careers@lit8.com?subject=Application:%20Fullstack%20Developer",
+      "routeType": "email",
+      "requiredAnswers": {},
+      "employerSpecifiedSubject": "Application: Fullstack Developer",
+      "questionnaire": "No external application questionnaire is linked. Attach factual resume and focused introduction only after review.",
+      "noSubmission": true
+    },
+    "signx-senior-fullstack-20261016": {
+      "route": "https://www.signxsolutions.com/career",
+      "routeType": "form",
+      "requiredAnswers": {
+        "firstName": "Ubaidullah",
+        "lastName": "Omer",
+        "email": "itsubaidullahomer@gmail.com",
+        "message": "Pending gap clarification and final tailored draft"
+      },
+      "attachment": "Resume PDF/DOC/DOCX supported, maximum 10 MB. Not marked mandatory in visible form.",
+      "noSubmission": true
+    },
+    "omkar-frontend-20261016": {
+      "route": "https://omkaruniverse.com/careers/frontend-engineer",
+      "routeType": "form",
+      "requiredAnswers": {
+        "name": "Ubaidullah Omer",
+        "email": "itsubaidullahomer@gmail.com",
+        "resume": "Pending gap clarification and reviewed tailored PDF"
+      },
+      "optionalAnswers": {
+        "phone": "+92 3292380929",
+        "portfolio": "https://itsubaidullahomer.com",
+        "linkedin": "https://www.linkedin.com/in/itsubaidullahomer/"
+      },
+      "attachment": "PDF/DOC/DOCX maximum 5 MB",
+      "noSubmission": true
+    }
+  }
+}

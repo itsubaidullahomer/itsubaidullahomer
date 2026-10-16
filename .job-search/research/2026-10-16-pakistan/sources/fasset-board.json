@@ -1,0 +1,16 @@
+{
+  "id": "fasset-board",
+  "url": "https://fasset.bamboohr.com/careers/list",
+  "capturedAt": "2026-10-15T22:10:48.995068Z",
+  "captureType": "public GET metadata plus researcher paraphrase",
+  "text": "Employer career listing API contains three current roles, none engineering. The React/Node role seen on mirrors is not available on this canonical board.",
+  "status": 200,
+  "finalUrl": "https://fasset.bamboohr.com/careers/list",
+  "bytes": 974,
+  "sha256": "14bee49057e5ad65d41054248e680fd400b52bb951468d2aa8eed40fdd1a0cbe",
+  "currentRoleTitles": [
+    "Legal Counsel UAE",
+    "Product Manager - Money Movement",
+    "Creative Producer, Videographer & Editor"
+  ]
+}

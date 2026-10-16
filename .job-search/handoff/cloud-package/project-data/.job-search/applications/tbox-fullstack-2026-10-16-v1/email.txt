@@ -1,0 +1,14 @@
+Hi TBox Solutionz team,
+
+I'm applying for the Full-Stack Engineer (React + Node.js) role. I build production products with React, TypeScript, Node.js and Express, and have four years of TypeScript experience, hands-on GraphQL experience and production experience with PostgreSQL.
+
+At Tututor.ai / EduNova, I lead engineering across eight connected education products and work directly with the founder. My work includes a shared Express/MongoDB backend, real-time messaging, billing and mobile delivery. I've also built analytics integrations at Illume and reusable client interfaces at Danzee Tech.
+
+Your focus on owning features from API to UI is a good match for how I work. I'm based in Pakistan, available immediately, and interested in the remote full-time role. I'd be happy to discuss the products and how I could contribute.
+
+My tailored CV is attached. You can see my work here:
+https://itsubaidullahomer.com
+https://github.com/itsubaidullahomer
+
+Best regards,
+Ubaidullah Omer

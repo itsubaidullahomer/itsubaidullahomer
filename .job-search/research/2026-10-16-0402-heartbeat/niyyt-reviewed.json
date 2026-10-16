@@ -1,0 +1,114 @@
+{
+  "id": "niyyt-fullstack-pakistan-20261016",
+  "company": "Niyyt",
+  "title": "Full Stack Engineer (Next.js & Node.js)",
+  "url": "https://niyyt.com/apply-as-developer",
+  "location": "Remote from Pakistan; Australian AEST/AEDT business hours",
+  "salary": "PKR 100,000–150,000/month, paid in AUD",
+  "description": "Australian technology/consulting startup seeks a Pakistan-based remote full-stack engineer. Requires 3–4 years, Next.js/React/TypeScript, Node.js, REST APIs, PostgreSQL and MongoDB, a strong portfolio, independent feature ownership and clear communication. Stack also mentions Supabase/Firebase, GitHub, CI/CD and AI coding tools. AI/LLM integration and AWS/Azure are optional. Salary PKR 100,000–150,000/month paid in AUD; three-month probationary contract before possible long-term continuation. Australian AEST/AEDT business hours required. Apply with resume, GitHub and introduction; technical discussion follows. Funding date and active recruitment deadline not published on the reviewed page.",
+  "source": "Official company careers page",
+  "sourceId": "niyyt-apply-as-developer",
+  "discoveredAt": "2026-10-16T04:06:10.831Z",
+  "updatedAt": "2026-10-16T04:06:10.831Z",
+  "status": "needs_approval",
+  "priority": "high",
+  "fit": "unknown",
+  "eligibility": "confirmed",
+  "eligibilityEvidence": "Official role explicitly states Pakistan-based, 100% remote. Hours are a separate unresolved commitment.",
+  "requirements": [
+    {
+      "id": "niyyt-exp",
+      "text": "3–4 years full-stack experience",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-experience",
+        "ev-backend"
+      ],
+      "explanation": "Employment evidence spans January 2022 onward, without double-counting overlap."
+    },
+    {
+      "id": "niyyt-stack",
+      "text": "Next.js, React, TypeScript, Node.js and REST APIs",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-confirmed-ts-next",
+        "ev-react",
+        "ev-backend"
+      ],
+      "explanation": "Candidate-confirmed tenure and portfolio/backend evidence."
+    },
+    {
+      "id": "niyyt-db",
+      "text": "Production PostgreSQL and MongoDB",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-confirmed-postgresql",
+        "ev-backend"
+      ],
+      "explanation": "Production PostgreSQL directly confirmed; MongoDB supported by project evidence."
+    },
+    {
+      "id": "niyyt-ownership",
+      "text": "Strong portfolio and independent full-feature delivery",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-product",
+        "ev-react",
+        "ev-backend"
+      ],
+      "explanation": "Existing shipped-product portfolio and engineering ownership."
+    },
+    {
+      "id": "niyyt-communication",
+      "text": "Clear written and spoken communication",
+      "essential": true,
+      "assessment": "met",
+      "evidenceIds": [
+        "ev-confirmed-english",
+        "ev-remote"
+      ],
+      "explanation": "Advanced English confirmed and international collaboration evidenced."
+    },
+    {
+      "id": "niyyt-hours",
+      "text": "Australian AEST/AEDT business-hour commitment",
+      "essential": true,
+      "assessment": "unknown",
+      "evidenceIds": [],
+      "explanation": "Only full US business hours have been authorized. Ask candidate before making an Australian-hours commitment."
+    }
+  ],
+  "tags": [
+    "Pakistan remote",
+    "Next.js",
+    "Node.js",
+    "PostgreSQL",
+    "startup",
+    "hours confirmation needed"
+  ],
+  "notes": "Strong core technical alignment. Overall fit remains unknown until Australian-hours availability is confirmed. Funding unverified. Three-month probationary contract must be reviewed before acceptance; no contract accepted. Listed salary is substantially below the US startup search preference but candidate previously prioritized fit without a hard salary floor.",
+  "nextAction": "Confirm availability for Australian AEST/AEDT business hours, then inspect application requirements and tailor/verify a new resume. Do not submit yet.",
+  "nextActionDate": null,
+  "draft": "",
+  "contactEmail": "",
+  "appliedAt": null,
+  "research": {
+    "companyUrl": "https://niyyt.com/",
+    "contacts": [],
+    "sources": [
+      {
+        "id": "niyyt-official-20261016",
+        "label": "Official role — summarized source",
+        "url": "https://niyyt.com/apply-as-developer",
+        "text": "Australian technology/consulting startup seeks a Pakistan-based remote full-stack engineer. Requires 3–4 years, Next.js/React/TypeScript, Node.js, REST APIs, PostgreSQL and MongoDB, a strong portfolio, independent feature ownership and clear communication. Stack also mentions Supabase/Firebase, GitHub, CI/CD and AI coding tools. AI/LLM integration and AWS/Azure are optional. Salary PKR 100,000–150,000/month paid in AUD; three-month probationary contract before possible long-term continuation. Australian AEST/AEDT business hours required. Apply with resume, GitHub and introduction; technical discussion follows. Funding date and active recruitment deadline not published on the reviewed page.",
+        "capturedAt": "2026-10-16T04:06:10.831Z",
+        "screenshotUrl": "",
+        "screenshotPath": ""
+      }
+    ]
+  }
+}

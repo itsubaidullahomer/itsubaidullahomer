@@ -1,0 +1,384 @@
+{
+  "researchedAt": "2026-10-15T15:26:26.000Z",
+  "jobs": [
+    {
+      "id": "bearplex-mern-20261015",
+      "company": "BearPlex",
+      "title": "MERN Stack Developer",
+      "url": "https://www.bearplex.com/careers/mern-stack-developer",
+      "location": "Lahore, Pakistan - on-site",
+      "salary": "Not disclosed",
+      "description": "Build full-stack features with MongoDB, Express, React and Node.js. The employer seeks roughly four to five years of MERN work, daily AI-assisted coding practice, backend/API depth and working Docker/CI/CD/cloud skills. The office is in Lahore. Degree education is not required; TypeScript, Next.js, relational data and production LLM features are useful additions.",
+      "source": "Employer careers page",
+      "sourceId": "bearplex-mern-20261015",
+      "discoveredAt": "2026-10-15T15:26:26.000Z",
+      "updatedAt": "2026-10-15T15:26:26.000Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Official posting specifies an on-site Lahore role and explicitly says no degree is required. Candidate is in Pakistan, but the stated Lahore-base condition and relocation arrangements require confirmation.",
+      "requirements": [
+        {
+          "id": "bearplex-mern-20261015-r1",
+          "text": "Roughly four to five years specifically building and operating MERN products",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-backend",
+            "ev-react"
+          ],
+          "explanation": "Four-plus years overall is documented, but the sources do not date every MERN component across the full period; confirm duration of full-stack MERN work."
+        },
+        {
+          "id": "bearplex-mern-20261015-r2",
+          "text": "End-to-end React, Node.js, Express and MongoDB feature delivery",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-backend",
+            "ev-product"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "bearplex-mern-20261015-r3",
+          "text": "API design, data modeling, authentication and production performance",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration",
+            "ev-performance"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "bearplex-mern-20261015-r4",
+          "text": "Daily AI coding-tool use with critical review of generated code",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Production LLM integrations are documented, but daily Claude Code/Cursor/Copilot workflows are not established by the resume."
+        },
+        {
+          "id": "bearplex-mern-20261015-r5",
+          "text": "Working Docker, CI/CD and cloud deployment knowledge",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-git-deploy"
+          ],
+          "explanation": "CI/CD and deployment tools are listed, but Docker production knowledge is unconfirmed."
+        },
+        {
+          "id": "bearplex-mern-20261015-r6",
+          "text": "Ability to work from the Lahore office",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Candidate accepts on-site work in Pakistan, but current base is Rahim Yar Khan. Confirm Lahore relocation/start arrangements before committing."
+        },
+        {
+          "id": "bearplex-mern-20261015-r7",
+          "text": "TypeScript and Next.js familiarity",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "bearplex-mern-20261015-r8",
+          "text": "Production LLM features",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-ai"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        }
+      ],
+      "tags": [
+        "React",
+        "Node.js"
+      ],
+      "notes": "Official role and live application form reviewed 15 October 2026. Public application route is the job page; no named employee/referral contact verified. No application or outreach sent.",
+      "nextAction": "Confirm the remaining requirements and work arrangements before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.bearplex.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "bearplex-mern-20261015-source",
+            "label": "Current employer posting - paraphrased requirements",
+            "url": "https://www.bearplex.com/careers/mern-stack-developer",
+            "text": "Build full-stack features with MongoDB, Express, React and Node.js. The employer seeks roughly four to five years of MERN work, daily AI-assisted coding practice, backend/API depth and working Docker/CI/CD/cloud skills. The office is in Lahore. Degree education is not required; TypeScript, Next.js, relational data and production LLM features are useful additions.",
+            "capturedAt": "2026-10-15T15:26:26.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "symmetry-mern-20261015",
+      "company": "Symmetry Group",
+      "title": "MERN Stack Developer",
+      "url": "https://symmetrygroup.biz/careers/mern-stack-developer",
+      "location": "Karachi, Pakistan - morning shift 09:00-18:00",
+      "salary": "Not disclosed",
+      "description": "Develop and maintain MERN web applications with the development and design team. Requirements include at least one year of relevant work, OOP understanding, HTML/CSS/JavaScript, Node.js, database familiarity, Git, clear documentation and communication. A related bachelor degree is preferred rather than mandatory. The Karachi position follows a morning shift.",
+      "source": "Employer careers page",
+      "sourceId": "symmetry-mern-20261015",
+      "discoveredAt": "2026-10-15T15:26:26.000Z",
+      "updatedAt": "2026-10-15T15:26:26.000Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "The official posting places the job in Karachi, Pakistan; there is no overseas work-authorization requirement. Confirm the 09:00-18:00 office schedule and relocation details before submission.",
+      "requirements": [
+        {
+          "id": "symmetry-mern-20261015-r1",
+          "text": "At least one year of MERN web development",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-react",
+            "ev-backend"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "symmetry-mern-20261015-r2",
+          "text": "HTML, CSS, JavaScript and Node.js development",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations",
+            "ev-backend"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "symmetry-mern-20261015-r3",
+          "text": "Database familiarity including MongoDB",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "symmetry-mern-20261015-r4",
+          "text": "Git version control",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-git-deploy"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "symmetry-mern-20261015-r5",
+          "text": "Strong object-oriented programming principles",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Professional JavaScript experience alone does not establish the requested OOP depth."
+        },
+        {
+          "id": "symmetry-mern-20261015-r6",
+          "text": "Clean documented code, troubleshooting and strong communication",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-performance",
+            "ev-remote"
+          ],
+          "explanation": "Troubleshooting and international collaboration have source support; documentation quality and the full communication standard need confirmation."
+        },
+        {
+          "id": "symmetry-mern-20261015-r7",
+          "text": "Related bachelor degree preferred",
+          "essential": false,
+          "assessment": "gap",
+          "evidenceIds": [],
+          "explanation": "Candidate confirmed no degree. The posting labels it preferred, so this is an optional qualification gap."
+        }
+      ],
+      "tags": [
+        "React",
+        "Node.js"
+      ],
+      "notes": "Official role and application page reviewed 15 October 2026. Apply at https://symmetrygroup.biz/careers/mern-stack-developer/apply-now . No named employee/referral contact verified. Do not use investor-complaints contact as a recruiting route. No application or outreach sent.",
+      "nextAction": "Confirm the remaining requirements and work arrangements before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://symmetrygroup.biz/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "symmetry-mern-20261015-source",
+            "label": "Current employer posting - paraphrased requirements",
+            "url": "https://symmetrygroup.biz/careers/mern-stack-developer",
+            "text": "Develop and maintain MERN web applications with the development and design team. Requirements include at least one year of relevant work, OOP understanding, HTML/CSS/JavaScript, Node.js, database familiarity, Git, clear documentation and communication. A related bachelor degree is preferred rather than mandatory. The Karachi position follows a morning shift.",
+            "capturedAt": "2026-10-15T15:26:26.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "10pearls-react-ember-kqdykxuh4p",
+      "company": "10Pearls",
+      "title": "Frontend React/Ember",
+      "url": "https://10pearls.applytojob.com/apply/KqDYKxUH4p/Frontend-ReactEmber",
+      "location": "Remote - hiring geography unconfirmed",
+      "salary": "Not disclosed",
+      "description": "A mid-level, full-time frontend role on a fitness studio management SaaS platform. Work covers customer-facing features, APIs, code improvement, tests and documentation with product and engineering colleagues. The posting asks for two-plus years of web development, agile work, React/JavaScript or related technologies, CI/CD, GitHub/Bitbucket and clear collaboration. Related stack experience and willingness to learn are accepted; a completed degree is not listed.",
+      "source": "Employer careers page",
+      "sourceId": "10pearls-react-ember-kqdykxuh4p",
+      "discoveredAt": "2026-10-15T15:26:26.000Z",
+      "updatedAt": "2026-10-15T15:26:26.000Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "The official employer ATS labels the role Remote but does not name allowed countries. The company operating in Pakistan does not prove this specific requisition accepts Pakistan-based applicants. Confirm hiring geography.",
+      "requirements": [
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-r1",
+          "text": "At least two years of web-application development",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-react",
+            "ev-backend"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-r2",
+          "text": "React/JavaScript or related frontend framework experience",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "The employer explicitly welcomes related technologies and willingness to learn; Ember is not treated as a mandatory existing skill."
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-r3",
+          "text": "CI/CD and GitHub or Bitbucket source control",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-git-deploy"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-r4",
+          "text": "Agile development methods across planning, testing and release",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Shipped product ownership is documented, but the specific agile working process needs confirmation."
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-r5",
+          "text": "Tests, documentation and constructive cross-functional collaboration",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-testing",
+            "ev-remote",
+            "ev-product"
+          ],
+          "explanation": "Partial support exists for testing and collaboration; documentation/review practice across the complete requirement needs confirmation."
+        },
+        {
+          "id": "10pearls-react-ember-kqdykxuh4p-r6",
+          "text": "SaaS or customer-facing product experience",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-backend"
+          ],
+          "explanation": "Supported by the candidate-provided resume and portfolio; source consistency checked, not independently employer-verified."
+        }
+      ],
+      "tags": [
+        "React",
+        "JavaScript",
+        "Remote"
+      ],
+      "notes": "Current employer career board links this exact live posting. Public application route is the job page. No named recruiter/referral contact verified. No application or outreach sent.",
+      "nextAction": "Confirm the remaining requirements and work arrangements before tailoring an application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://10pearls.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "10pearls-react-ember-kqdykxuh4p-source",
+            "label": "Current employer posting - paraphrased requirements",
+            "url": "https://10pearls.applytojob.com/apply/KqDYKxUH4p/Frontend-ReactEmber",
+            "text": "A mid-level, full-time frontend role on a fitness studio management SaaS platform. Work covers customer-facing features, APIs, code improvement, tests and documentation with product and engineering colleagues. The posting asks for two-plus years of web development, agile work, React/JavaScript or related technologies, CI/CD, GitHub/Bitbucket and clear collaboration. Related stack experience and willingness to learn are accepted; a completed degree is not listed.",
+            "capturedAt": "2026-10-15T15:26:26.000Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "company": "KnowledgeCity",
+      "url": "https://job-boards.greenhouse.io/knowledgecity/jobs/4397634009",
+      "reason": "Original MERN role redirects to the career board; no longer available at that URL."
+    },
+    {
+      "company": "KnowledgeCity",
+      "url": "https://job-boards.greenhouse.io/knowledgecity/jobs/4266398009",
+      "reason": "Current Product Engineer explicitly requires bachelor degree, five-plus years and product-management certification; not a viable no-degree lead."
+    },
+    {
+      "company": "KnowledgeCity",
+      "url": "https://job-boards.greenhouse.io/knowledgecity/jobs/4420774009",
+      "reason": "Current Mobile Product Engineer requires bachelor degree and five-plus years mobile experience."
+    },
+    {
+      "company": "Decimal Solution",
+      "url": "https://decimalsolution.com/careers/mern-stack-developer",
+      "reason": "Posting explicitly says position closed."
+    },
+    {
+      "company": "CODIXSYSTEMS",
+      "url": "https://codixsystems.com/careers/mern-stack-developer",
+      "reason": "Search index contains role but current opened page only shows loading; cannot confirm current vacancy details."
+    }
+  ]
+}

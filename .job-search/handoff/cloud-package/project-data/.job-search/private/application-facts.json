@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-15T22:32:44.165Z",
+  "source": "Direct candidate answers in this chat, October 16, 2026",
+  "independentlyVerified": false,
+  "skills": {
+    "typescript": {
+      "years": 4
+    },
+    "nextjs": {
+      "years": 4
+    },
+    "reactNative": {
+      "years": 3
+    },
+    "docker": {
+      "yearsMinimum": 3,
+      "wording": "3+ years"
+    },
+    "sql": {
+      "yearsMinimum": 3,
+      "wording": "3+ years"
+    },
+    "jest": {
+      "handsOn": true
+    },
+    "reactTestingLibrary": {
+      "handsOn": true
+    },
+    "graphql": {
+      "handsOn": true
+    },
+    "postgresql": {
+      "productionExperience": true,
+      "years": null,
+      "confirmedAt": "2026-10-16T01:07:52.993Z",
+      "source": "Direct candidate answer: I have used PostgreSQL in production",
+      "independentlyVerified": false
+    }
+  },
+  "english": {
+    "spoken": "Advanced",
+    "written": "Advanced",
+    "testScore": null
+  },
+  "availability": "Available immediately",
+  "schedule": "Flexible to align with any employer time zone, including Australian and US business hours",
+  "salaryExpectation": {
+    "amount": 50000,
+    "currency": "USD",
+    "period": "year",
+    "negotiable": true,
+    "minimum": false
+  },
+  "accessReportedByUser": {
+    "portalPasswordSaved": true,
+    "gmailSignInCompleted": true
+  },
+  "cautions": [
+    "SQL tenure is 3+ years; PostgreSQL production use is separately confirmed, but PostgreSQL-specific tenure, migrations, tuning and row-level security remain unconfirmed.",
+    "Docker does not establish Kubernetes, AWS, GCP or Terraform experience.",
+    "User-reported sign-in must be checked against the live authorized account.",
+    "Full US business hours does not authorize special paid trials, on-call, relocation or travel commitments.",
+    "No completed university degree."
+  ],
+  "additionalConfirmations": {
+    "frontendPractices": {
+      "sharedComponentLibraryOrDesignSystemMaintenance": true,
+      "cssGridFlexbox": true,
+      "codeReviewParticipation": true,
+      "confirmedAt": "2026-10-15T23:26:37.018Z",
+      "source": "Direct candidate reply: I have hands-on experience with all three",
+      "verification": "candidate_reported"
+    },
+    "allcancode": {
+      "confirmedAt": "2026-10-16T00:08:05.244Z",
+      "selfRatings": {
+        "react": 5,
+        "reactNative": 4.9,
+        "nextjs": 5,
+        "documentDatabasesMongoDB": 5,
+        "relationalDatabasesSQL": 4
+      },
+      "aiReplacementOpinion": "No",
+      "aiOpinion": "AI will not replace software developers. It can write better code than humans and handle repetitive work, but people understand business logic and human needs, create systems, and make decisions and system-design trade-offs.",
+      "source": "Direct user answer October 16, 2026. Preserve original fractional React Native rating; do not imply an independent assessment.",
+      "reactNativeFormChoice": {
+        "candidateOriginalRating": 4.9,
+        "formIntegerValue": 5,
+        "confirmedAt": "2026-10-16T00:25:22.041245+00:00",
+        "source": "Direct user confirmation: use 5 as the nearest available integer to the original React Native self-rating of 4.9.",
+        "independentlyAssessed": false
+      }
+    },
+    "anyTimeZone": {
+      "confirmedAt": "2026-10-16T05:34:02.164Z",
+      "source": "Direct candidate reply on October 16, 2026",
+      "statement": "Available to adjust working hours to any employer time zone, including Australian AEST/AEDT business hours.",
+      "scope": "Flexible scheduled business hours; not a promise of continuous 24/7 work, on-call, or simultaneous overlapping jobs.",
+      "independentlyVerified": false
+    }
+  },
+  "updatedAt": "2026-10-16T05:37:09.134Z",
+  "citizenship": {
+    "country": "Pakistan",
+    "source": "Direct candidate reply October 16, 2026",
+    "confirmedAt": "2026-10-16T05:37:09.134Z"
+  },
+  "currentEmployment": {
+    "employed": true,
+    "contractEnds": "2026-10-31",
+    "wording": "Contract ends at the end of October",
+    "employerNotSpecifiedInReply": true,
+    "confirmedAt": "2026-10-16T05:37:09.134Z"
+  },
+  "currentSalary": {
+    "amount": 260000,
+    "currency": "PKR",
+    "period": null,
+    "approximateUsdReported": 950,
+    "source": "Direct candidate reply October 16, 2026; salary period not explicitly stated. Do not annualize.",
+    "confirmedAt": "2026-10-16T05:37:09.134Z"
+  }
+}

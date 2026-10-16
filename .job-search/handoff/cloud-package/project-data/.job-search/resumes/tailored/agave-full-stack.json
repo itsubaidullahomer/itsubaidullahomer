@@ -1,0 +1,22 @@
+{
+  "focus": "full_stack",
+  "slug": "agave-full-stack",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership",
+      "tututor_export",
+      "tututor_scope"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

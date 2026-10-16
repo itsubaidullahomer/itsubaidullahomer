@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "todoist-board",
+    "url": "https://www.todoist.com/careers",
+    "finalUrl": "https://www.todoist.com/careers",
+    "capturedAt": "2026-10-15T22:02:33.493Z",
+    "status": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/todoist-board.html",
+    "sha256": "13b785d2be45a9ac4fa776790a6992f8c82e936e2b2847f3fc7404bef1525b1c"
+  },
+  {
+    "slug": "float-board",
+    "url": "https://www.float.com/careers",
+    "finalUrl": "https://www.float.com/careers",
+    "capturedAt": "2026-10-15T22:02:36.584Z",
+    "status": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/float-board.html",
+    "sha256": "9857fd558ca58ade18f5e3624e125ab1b3be00f8a0d388df3b68a6de006a6dd8"
+  },
+  {
+    "slug": "ghost-board",
+    "url": "https://careers.ghost.org/",
+    "finalUrl": "https://careers.ghost.org/",
+    "capturedAt": "2026-10-15T22:02:37.129Z",
+    "status": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/ghost-board.html",
+    "sha256": "bce17bad80869ed76696355cb9d3c333567b69546b5c9df55da1b2721b5cda22"
+  },
+  {
+    "slug": "buffer-board",
+    "url": "https://buffer.com/journey",
+    "finalUrl": "https://buffer.com/journey",
+    "capturedAt": "2026-10-15T22:02:38.189Z",
+    "status": 200,
+    "path": ".job-search/research/2026-10-16-remote/agent-new/buffer-board.html",
+    "sha256": "ad96395c9811ccc6df2401ae20535f0aa0f353394d6b5774662503b15bf83432"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "job",
+    "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "status": 200,
+    "finalUrl": "https://appkeeper.ltd/jobs/frontend-developer.html",
+    "scripts": [
+      "/assets/main-BmqqyZ5s.js"
+    ],
+    "checkedAt": "2026-10-15T23:09:31.482Z"
+  },
+  {
+    "name": "application-handler",
+    "url": "https://appkeeper.ltd/assets/main-BmqqyZ5s.js",
+    "status": 200,
+    "checkedAt": "2026-10-15T23:09:32.073Z"
+  },
+  {
+    "name": "home",
+    "url": "https://appkeeper.ltd/",
+    "status": 200,
+    "finalUrl": "https://appkeeper.ltd/",
+    "scripts": [
+      "/assets/main-BmqqyZ5s.js",
+      "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "/hero-canvas.js"
+    ],
+    "checkedAt": "2026-10-15T23:09:32.451Z"
+  }
+]

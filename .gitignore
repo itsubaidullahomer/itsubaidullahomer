@@ -5,3 +5,16 @@ node_modules/
 *.tsbuildinfo
 qa-output/
 .DS_Store
+
+# Keep authentication material local; job-search records and PDFs may be committed.
+.job-search/**/session.json
+.job-search/**/*cookies*.json
+.job-search/**/*credentials*.json
+.job-search/**/*tokens*.json
+.job-search/applications/**/passkey-required.png
+.job-search/proof/owner-password-setup.png
+.job-search/handoff/admin-password-page.png
+
+# Generated Python caches
+__pycache__/
+*.pyc

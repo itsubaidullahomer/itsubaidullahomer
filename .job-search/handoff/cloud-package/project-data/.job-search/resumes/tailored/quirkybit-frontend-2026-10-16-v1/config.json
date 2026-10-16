@@ -1,0 +1,20 @@
+{
+  "focus": "frontend",
+  "slug": "quirkybit-frontend-2026-10-16-v1",
+  "projects": [
+    "illume",
+    "yaksport",
+    "viloi"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_leadership",
+      "tututor_ai",
+      "tututor_platform"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

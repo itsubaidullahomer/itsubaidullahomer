@@ -1,0 +1,16 @@
+{
+  "id": "codevente-linkedin",
+  "url": "https://www.linkedin.com/company/codevente",
+  "capturedAt": "2026-10-15T22:10:48.995068Z",
+  "captureType": "public GET metadata plus researcher paraphrase",
+  "text": "Employer-controlled company profile links to codevente.com, describes a small software company and publishes ERP/product delivery updates. This corroborates the domain, not every employer claim.",
+  "status": 999,
+  "finalUrl": "https://www.linkedin.com/company/codevente",
+  "bytes": 1530,
+  "sha256": "644031a68bde879af85bcc9cb3e6fa1e9a6b0f61d49307581974b5dbc09d3de8",
+  "webInspection": {
+    "method": "web search/open rendered text",
+    "retrieved": true,
+    "note": "Public company profile content was returned by the web tool; a later direct HTTP GET returned999. Source text is a paraphrase of the web result."
+  }
+}

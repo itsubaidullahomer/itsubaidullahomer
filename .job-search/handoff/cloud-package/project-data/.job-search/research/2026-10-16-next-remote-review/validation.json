@@ -1,0 +1,68 @@
+{
+  "validatedAt": "2026-10-16T01:11:40.612Z",
+  "localOnly": true,
+  "actions": [
+    {
+      "id": "himalayas-ac100394824c4c1ecceeb4d8",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "status": "discovered",
+      "postgresRequirements": []
+    },
+    {
+      "id": "himalayas-fb60906bf4e48f501d8010b7",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "status": "discovered",
+      "postgresRequirements": [
+        {
+          "id": "next-painter-databases",
+          "assessment": "met",
+          "explanation": "Candidate directly confirmed production PostgreSQL use on October 16, 2026; MongoDB and 3+ years SQL are also reported. This supports the broad database requirement without claiming PostgreSQL tenure, vendor-specific features or advanced administration."
+        }
+      ]
+    },
+    {
+      "id": "himalayas-1e7ecc9cbc7d867e890ef8a7",
+      "fit": "gaps",
+      "eligibility": "unknown",
+      "status": "discovered",
+      "postgresRequirements": [
+        {
+          "id": "next-chasi-postgres",
+          "assessment": "unknown",
+          "explanation": "Production PostgreSQL use is now directly candidate-confirmed. Drizzle/Prisma experience and the specific scalable data-modelling work remain unconfirmed; no PostgreSQL tenure or feature expertise is inferred."
+        }
+      ]
+    },
+    {
+      "id": "himalayas-c79f67f2b5f11ab85943e765",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "status": "discovered",
+      "postgresRequirements": [
+        {
+          "id": "next-emet-web",
+          "assessment": "met",
+          "explanation": "Shared backend services, MongoDB, REST APIs and Git are documented. Candidate also directly confirmed production PostgreSQL use; no PostgreSQL tenure or specific-feature claim is made."
+        }
+      ]
+    },
+    {
+      "id": "himalayas-e5b76a0bd73c0b10ab22f94e",
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "status": "discovered",
+      "postgresRequirements": [
+        {
+          "id": "next-emet-senior-pipelines",
+          "assessment": "unknown",
+          "explanation": "MongoDB/SQL, newly confirmed production PostgreSQL use, Redis and Socket.io are relevant. Data-pipeline tooling depth remains unconfirmed; no PostgreSQL tenure or specific features are inferred."
+        }
+      ]
+    }
+  ],
+  "totalJobsUnchanged": true,
+  "totalJobs": 90,
+  "externalMutations": 0
+}

@@ -1,0 +1,30 @@
+{
+  "preparedAt": "2026-10-15T15:37:28.909Z",
+  "sourcePath": "docs/jobs/research/consolidated-2026-10-15.json",
+  "counts": {
+    "total": 39,
+    "strong": 0,
+    "gaps": 0,
+    "unknown": 39,
+    "stretch": 0,
+    "eligibility": {
+      "confirmed": 13,
+      "unknown": 26,
+      "ineligible": 0
+    }
+  },
+  "evidence": {
+    "independentlyVerified": 0,
+    "sourceReviewed": 13
+  },
+  "actions": 40,
+  "maxActionBytes": 8238,
+  "requirements": {
+    "met": 44,
+    "gap": 1,
+    "unknown": 87
+  },
+  "contacts": 19,
+  "sourceSnapshots": 65,
+  "scope": "Local preparation only. No cloud writes, applications or messages. Each action validates through the same public parser/domain as the API."
+}

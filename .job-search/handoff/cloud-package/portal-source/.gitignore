@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+qa-output/
+.DS_Store
+.vercel
+
+# Private candidate documents and application records
+.job-search/

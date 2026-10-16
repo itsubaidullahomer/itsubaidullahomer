@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-15T23:22:23.952Z",
+  "actions": 4,
+  "liveExistingJobs": 42,
+  "uniqueAgainstLive": true,
+  "validSchema": true,
+  "evidenceIdsExist": true,
+  "fitMatchesDeriveFit": true,
+  "portalWrites": 0,
+  "submissions": 0
+}

@@ -1,0 +1,1330 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-15T15:37:40.323013+00:00",
+  "candidateFactsPath": ".job-search/resumes/masters/facts.json",
+  "candidateFactsSha256": "63c6a356017e9d1893bb8867aea5a17a4f8d478d3888e3ae2d4fe03ef43146e9",
+  "scope": "Four official BambooHR roles; read-only application readiness. No applications, emails, account creation, uploads or external data mutations.",
+  "method": "Public unauthenticated detail and current-careers APIs; canonical pages fetched; EventMobi description visually read. Questions and requirements are concise paraphrases, with ATS field IDs retained.",
+  "factReferenceFormat": "JSON Pointer relative to candidateFactsPath; factId included where available.",
+  "claimPolicy": "Candidate-reported evidence is distinguished from independently verified qualifications. Missing facts remain unknown. No fluency, salary, legal status, skill tenure or schedule commitment was inferred.",
+  "summary": {
+    "rolesChecked": 4,
+    "currentlyOpen": 4,
+    "readyToApply": 0
+  },
+  "roles": [
+    {
+      "id": "eventmobi-458",
+      "company": "EventMobi",
+      "title": "Front End Engineer - Remote",
+      "jobUrl": "https://eventmobi.bamboohr.com/careers/458",
+      "finalApplyUrl": "https://eventmobi.bamboohr.com/careers/458",
+      "applyUrlMeaning": "Employer canonical job and application entry point; no distinct form URL was verified.",
+      "availability": {
+        "status": "Open",
+        "httpStatus": 200,
+        "detailCheckedAt": "2026-10-15T15:33:39.619807+00:00",
+        "careerListCheckedAt": "2026-10-15T15:34:13.553419+00:00",
+        "presentInCurrentCareerList": true,
+        "publishedAt": "2026-03-26",
+        "publishedDateMeaning": "Original ATS posting date, not verification date or evidence of a new vacancy."
+      },
+      "sources": [
+        {
+          "kind": "public_employer_ATS_detail_and_form_schema",
+          "url": "https://eventmobi.bamboohr.com/careers/458/detail",
+          "sha256": "e943033104741aae8ae57bc557067c2484bf5789b666962d0efea01597dd2539"
+        },
+        {
+          "kind": "public_employer_current_jobs",
+          "url": "https://eventmobi.bamboohr.com/careers/list"
+        },
+        {
+          "kind": "employer_canonical_page",
+          "url": "https://eventmobi.bamboohr.com/careers/458"
+        }
+      ],
+      "degreePolicy": {
+        "requiredDegreeFound": false,
+        "degreeQuestionFound": false,
+        "scope": "Current full job description and public application schema",
+        "candidateFact": {
+          "pointer": "/editorialRules/education"
+        }
+      },
+      "geography": {
+        "pakistan": "explicitly_named",
+        "countryNamed": true,
+        "countryDropdownHasPakistan": true,
+        "countryDropdownIsEligibilityProof": false,
+        "atsLocation": {
+          "country": "Pakistan",
+          "countryId": "163",
+          "state": "Islamabad",
+          "city": "Islamabad"
+        },
+        "legalWorkOrContractStatus": "unconfirmed",
+        "note": "Advertised geographical scope is compatible; no legal employment or contractor eligibility is inferred."
+      },
+      "employmentType": "Full-Time Contract",
+      "application": {
+        "requiredStandardFields": [
+          {
+            "id": "firstName",
+            "label": "First Name"
+          },
+          {
+            "id": "lastName",
+            "label": "Last Name"
+          },
+          {
+            "id": "email",
+            "label": "Email"
+          },
+          {
+            "id": "phone",
+            "label": "Phone"
+          },
+          {
+            "id": "streetAddress",
+            "label": "Address"
+          },
+          {
+            "id": "city",
+            "label": "City"
+          },
+          {
+            "id": "state",
+            "label": "State"
+          },
+          {
+            "id": "zip",
+            "label": "ZIP"
+          },
+          {
+            "id": "countryId",
+            "label": "Country"
+          },
+          {
+            "id": "linkedinUrl",
+            "label": "LinkedIn URL"
+          },
+          {
+            "id": "dateAvailable",
+            "label": "Date Available"
+          },
+          {
+            "id": "desiredPay",
+            "label": "Desired Pay"
+          },
+          {
+            "id": "resumeFileId",
+            "label": "Resume"
+          }
+        ],
+        "optionalStandardFields": [
+          {
+            "id": "referredBy",
+            "label": "Referred by (Name)"
+          }
+        ],
+        "customQuestions": [
+          {
+            "id": "1201",
+            "required": true,
+            "type": "yes_no",
+            "promptSummary": "Accept Eastern business hours?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [],
+            "answerStatus": "candidate_input_needed",
+            "note": "Candidate schedule commitment is unrecorded."
+          },
+          {
+            "id": "1206",
+            "required": true,
+            "type": "yes_no",
+            "promptSummary": "At least three years building end-user software?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/experience/1/dates"
+              },
+              {
+                "pointer": "/experience/0/dates"
+              },
+              {
+                "pointer": "/projects/1",
+                "factId": "viloi"
+              },
+              {
+                "pointer": "/experience/0/bullets/0",
+                "factId": "tututor_scope"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Reported dates support 4+ years; overlapping roles are not added together."
+          },
+          {
+            "id": "1204",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Describe AI-development views, tools and workflow impact.",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [],
+            "answerStatus": "candidate_input_needed",
+            "note": "AI product integrations do not establish the candidate's coding-tool habits or personal views."
+          },
+          {
+            "id": "1203",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Explain role suitability in three to five sentences.",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/skills/0/text"
+              },
+              {
+                "pointer": "/experience/1/bullets/0",
+                "factId": "danzee_components"
+              },
+              {
+                "pointer": "/skills/1/text"
+              },
+              {
+                "pointer": "/experience/0/bullets/1",
+                "factId": "tututor_backend"
+              },
+              {
+                "pointer": "/projects/1",
+                "factId": "viloi"
+              },
+              {
+                "pointer": "/experience/0/bullets/0",
+                "factId": "tututor_scope"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Evidence can support a draft; candidate must review its claims."
+          },
+          {
+            "id": "1202",
+            "required": true,
+            "type": "short",
+            "promptSummary": "Annual salary expectation in CAD?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [],
+            "answerStatus": "candidate_input_needed",
+            "note": "No salary expectation recorded."
+          }
+        ],
+        "allPublicSchemaQuestionsCaptured": true,
+        "requiredCustomQuestionCount": 5,
+        "educationFieldFound": false,
+        "workAuthorizationFieldFound": false,
+        "additionalConditionalQuestions": "None exposed by schema; browser form behavior not verified.",
+        "personalContactValuesStored": false,
+        "submitted": false,
+        "uiVerification": "Description rendered and Apply button observed; activating it did not expose a form. Public schema supplied the questions; no inputs or files sent."
+      },
+      "aiPolicy": {
+        "applicationAnswerProhibitionFound": false,
+        "scope": "Full JD and all exposed custom questions",
+        "workplaceUse": "Encouraged; AI-development experience question required.",
+        "note": "No prohibition found does not mean assessment assistance is permitted. Recheck any later assessment rules."
+      },
+      "readiness": {
+        "applicationReady": false,
+        "fit": "unconfirmed",
+        "evidenceLevel": "Candidate-reported facts only; no independent employment, skill or metric validation.",
+        "blockers": [
+          "Eastern hours acceptance",
+          "Salary expectation in CAD",
+          "AI-development tools/opinion answer",
+          "Testing examples and writing sample",
+          "Workspace/internet confirmation",
+          "Candidate preference for individual-contributor growth role despite current Lead title"
+        ]
+      },
+      "requirements": [
+        {
+          "requirement": "3–5 years web products; 2+ years React and JS/TS.",
+          "essential": true,
+          "assessment": "partial",
+          "factReferences": [
+            {
+              "pointer": "/experience/1/dates"
+            },
+            {
+              "pointer": "/experience/0/dates"
+            },
+            {
+              "pointer": "/skills/0/text"
+            },
+            {
+              "pointer": "/experience/1/bullets/0",
+              "factId": "danzee_components"
+            }
+          ],
+          "note": "Dates support general tenure and React; TypeScript-specific duration is not recorded."
+        },
+        {
+          "requirement": "HTML/CSS fundamentals and API integration.",
+          "essential": true,
+          "assessment": "partial",
+          "factReferences": [
+            {
+              "pointer": "/skills/0/text"
+            },
+            {
+              "pointer": "/experience/1/bullets/0",
+              "factId": "danzee_components"
+            },
+            {
+              "pointer": "/skills/1/text"
+            },
+            {
+              "pointer": "/experience/0/bullets/1",
+              "factId": "tututor_backend"
+            },
+            {
+              "pointer": "/projects/2",
+              "factId": "yaksport"
+            }
+          ],
+          "note": "React/Tailwind/REST delivery is recorded; fundamentals require examples."
+        },
+        {
+          "requirement": "Debug existing software; unit and browser end-to-end testing.",
+          "essential": true,
+          "assessment": "partial",
+          "factReferences": [
+            {
+              "pointer": "/experience/1/bullets/1",
+              "factId": "danzee_jurri"
+            },
+            {
+              "pointer": "/experience/0/bullets/5",
+              "factId": "tututor_export"
+            }
+          ],
+          "note": "Performance work and golden tests recorded; neither establishes frontend unit/e2e coverage."
+        },
+        {
+          "requirement": "Clear asynchronous writing and collaboration.",
+          "essential": true,
+          "assessment": "partial",
+          "factReferences": [
+            {
+              "pointer": "/experience/0/bullets/4",
+              "factId": "tututor_leadership"
+            }
+          ],
+          "note": "Collaboration reported; writing proficiency unassessed."
+        },
+        {
+          "requirement": "Eastern business-hour availability, quiet workspace, 30 Mbps internet.",
+          "essential": true,
+          "assessment": "unknown",
+          "factReferences": [],
+          "note": "None of these commitments or conditions is recorded."
+        }
+      ],
+      "salary": {
+        "currency": "CAD",
+        "period": "annual",
+        "minimum": 40000,
+        "maximum": 65000,
+        "candidateExpectation": null,
+        "requiredAnswer": "Both desired-pay field and annual-CAD question require candidate input."
+      },
+      "timeCommitment": {
+        "schedule": "Eastern business hours; exact start/end and daylight-saving interpretation unstated.",
+        "weeklyHours": null,
+        "candidateCommitmentConfirmed": false,
+        "interviewMinutes": [
+          45,
+          120,
+          90
+        ]
+      },
+      "candidateAvailability": {
+        "status": "Immediate availability recorded",
+        "factReference": {
+          "pointer": "/identity/availability"
+        },
+        "doesNotEstablishScheduleCommitment": true
+      }
+    },
+    {
+      "id": "zoftify-29",
+      "company": "Zoftify",
+      "title": "Frontend Developer (React)",
+      "jobUrl": "https://zoftify.bamboohr.com/careers/29",
+      "finalApplyUrl": "https://zoftify.bamboohr.com/careers/29",
+      "applyUrlMeaning": "Employer canonical job and application entry point; no distinct form URL was verified.",
+      "availability": {
+        "status": "Open",
+        "httpStatus": 200,
+        "detailCheckedAt": "2026-10-15T15:33:39.184729+00:00",
+        "careerListCheckedAt": "2026-10-15T15:34:12.717783+00:00",
+        "presentInCurrentCareerList": true,
+        "publishedAt": "2023-07-18",
+        "publishedDateMeaning": "Original ATS posting date, not verification date or evidence of a new vacancy."
+      },
+      "sources": [
+        {
+          "kind": "public_employer_ATS_detail_and_form_schema",
+          "url": "https://zoftify.bamboohr.com/careers/29/detail",
+          "sha256": "72e64aa7451cf2d657c893e06d30721f72f50c2f2393899c37a62b254fbc81fb"
+        },
+        {
+          "kind": "public_employer_current_jobs",
+          "url": "https://zoftify.bamboohr.com/careers/list"
+        },
+        {
+          "kind": "employer_canonical_page",
+          "url": "https://zoftify.bamboohr.com/careers/29"
+        }
+      ],
+      "degreePolicy": {
+        "requiredDegreeFound": false,
+        "degreeQuestionFound": false,
+        "scope": "Current full job description and public application schema",
+        "candidateFact": {
+          "pointer": "/editorialRules/education"
+        }
+      },
+      "geography": {
+        "pakistan": "within_advertised_worldwide_scope",
+        "countryNamed": false,
+        "countryDropdownHasPakistan": true,
+        "countryDropdownIsEligibilityProof": false,
+        "atsLocation": {
+          "country": null,
+          "countryId": null,
+          "state": null,
+          "city": null
+        },
+        "legalWorkOrContractStatus": "unconfirmed",
+        "note": "Advertised geographical scope is compatible; no legal employment or contractor eligibility is inferred."
+      },
+      "employmentType": "Full-Time",
+      "application": {
+        "requiredStandardFields": [
+          {
+            "id": "firstName",
+            "label": "First Name"
+          },
+          {
+            "id": "lastName",
+            "label": "Last Name"
+          },
+          {
+            "id": "email",
+            "label": "Email"
+          },
+          {
+            "id": "phone",
+            "label": "Phone"
+          },
+          {
+            "id": "desiredPay",
+            "label": "Desired Pay"
+          },
+          {
+            "id": "resumeFileId",
+            "label": "Resume"
+          }
+        ],
+        "optionalStandardFields": [
+          {
+            "id": "streetAddress",
+            "label": "Address"
+          },
+          {
+            "id": "city",
+            "label": "City"
+          },
+          {
+            "id": "state",
+            "label": "State"
+          },
+          {
+            "id": "zip",
+            "label": "ZIP"
+          },
+          {
+            "id": "countryId",
+            "label": "Country"
+          },
+          {
+            "id": "linkedinUrl",
+            "label": "LinkedIn URL"
+          },
+          {
+            "id": "dateAvailable",
+            "label": "Date Available"
+          },
+          {
+            "id": "coverLetterFileId",
+            "label": "Cover Letter"
+          },
+          {
+            "id": "referredBy",
+            "label": "Referred by (Name)"
+          },
+          {
+            "id": "websiteUrl",
+            "label": "Website, Blog or Portfolio"
+          }
+        ],
+        "customQuestions": [
+          {
+            "id": "91",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Next.js experience and duration?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/skills/0/text"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Skill listed; precise Next.js tenure absent."
+          },
+          {
+            "id": "92",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Explain Redux suitability within Next.js.",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/skills/0/text"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Candidate technical response needed; listed skills are not an answer."
+          },
+          {
+            "id": "93",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Explain server-rendering benefits.",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [],
+            "answerStatus": "candidate_input_needed",
+            "note": "Candidate technical response needed."
+          },
+          {
+            "id": "94",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Compare getServerSideProps and getStaticProps use cases.",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [],
+            "answerStatus": "candidate_input_needed",
+            "note": "Pages Router question; candidate technical response needed."
+          },
+          {
+            "id": "95",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Compare TypeScript interfaces and type aliases.",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/skills/0/text"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Candidate technical response needed."
+          },
+          {
+            "id": "96",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Describe Tailwind experience.",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/skills/0/text"
+              },
+              {
+                "pointer": "/projects/2",
+                "factId": "yaksport"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Tailwind is recorded; scope should be confirmed."
+          },
+          {
+            "id": "97",
+            "required": true,
+            "type": "multi",
+            "promptSummary": "Select spoken-English level.",
+            "options": [
+              {
+                "id": "16",
+                "summary": "No English experience"
+              },
+              {
+                "id": "17",
+                "summary": "Reads documentation but lacks speaking confidence"
+              },
+              {
+                "id": "18",
+                "summary": "Understands and speaks fluently"
+              }
+            ],
+            "allowsOther": false,
+            "factReferences": [],
+            "answerStatus": "candidate_input_needed",
+            "note": "No English proficiency or fluency claim recorded."
+          }
+        ],
+        "allPublicSchemaQuestionsCaptured": true,
+        "requiredCustomQuestionCount": 7,
+        "educationFieldFound": false,
+        "workAuthorizationFieldFound": false,
+        "additionalConditionalQuestions": "None exposed by schema; browser form behavior not verified.",
+        "personalContactValuesStored": false,
+        "submitted": false,
+        "uiVerification": "Public detail/form schema and HTTP page verified; rendered application form was not independently exercised."
+      },
+      "aiPolicy": {
+        "applicationAnswerProhibitionFound": false,
+        "scope": "Full JD and all exposed custom questions",
+        "workplaceUse": "Not specified in captured listing or questions.",
+        "note": "No prohibition found does not mean assessment assistance is permitted. Recheck any later assessment rules."
+      },
+      "readiness": {
+        "applicationReady": false,
+        "fit": "unconfirmed",
+        "evidenceLevel": "Candidate-reported facts only; no independent employment, skill or metric validation.",
+        "blockers": [
+          "Desired salary with currency and period",
+          "Spoken-English level",
+          "Exact Next.js duration",
+          "Candidate answers to Redux/SSR/Pages Router/TypeScript screening",
+          "Figma-to-implementation and from-scratch examples"
+        ]
+      },
+      "requirements": [
+        {
+          "requirement": "2+ years commercial work; React, TypeScript and REST.",
+          "essential": true,
+          "assessment": "candidate_reported_support",
+          "factReferences": [
+            {
+              "pointer": "/experience/1/dates"
+            },
+            {
+              "pointer": "/experience/0/dates"
+            },
+            {
+              "pointer": "/skills/0/text"
+            },
+            {
+              "pointer": "/experience/1/bullets/0",
+              "factId": "danzee_components"
+            },
+            {
+              "pointer": "/skills/1/text"
+            },
+            {
+              "pointer": "/experience/0/bullets/1",
+              "factId": "tututor_backend"
+            }
+          ],
+          "note": "General commercial tenure and named stack supported by reported facts."
+        },
+        {
+          "requirement": "Build applications from scratch and exact Figma-based interfaces.",
+          "essential": true,
+          "assessment": "partial",
+          "factReferences": [
+            {
+              "pointer": "/projects/1",
+              "factId": "viloi"
+            },
+            {
+              "pointer": "/experience/0/bullets/0",
+              "factId": "tututor_scope"
+            },
+            {
+              "pointer": "/projects/2",
+              "factId": "yaksport"
+            }
+          ],
+          "note": "Product delivery reported; from-scratch scope and Figma fidelity need examples."
+        },
+        {
+          "requirement": "Good spoken English.",
+          "essential": true,
+          "assessment": "unknown",
+          "factReferences": [],
+          "note": "No language proficiency recorded."
+        }
+      ],
+      "salary": {
+        "disclosed": false,
+        "candidateExpectation": null,
+        "requiredAnswer": "Desired pay required; currency and pay period are not specified by this field."
+      },
+      "timeCommitment": {
+        "schedule": "Flexible full-time schedule; exact overlap and weekly hours unstated.",
+        "weeklyHours": null,
+        "candidateCommitmentConfirmed": false
+      },
+      "candidateAvailability": {
+        "status": "Immediate availability recorded",
+        "factReference": {
+          "pointer": "/identity/availability"
+        },
+        "doesNotEstablishScheduleCommitment": true
+      }
+    },
+    {
+      "id": "zoftify-41",
+      "company": "Zoftify",
+      "title": "Full Stack Developer (React + Node.js)",
+      "jobUrl": "https://zoftify.bamboohr.com/careers/41",
+      "finalApplyUrl": "https://zoftify.bamboohr.com/careers/41",
+      "applyUrlMeaning": "Employer canonical job and application entry point; no distinct form URL was verified.",
+      "availability": {
+        "status": "Open",
+        "httpStatus": 200,
+        "detailCheckedAt": "2026-10-15T15:33:39.470772+00:00",
+        "careerListCheckedAt": "2026-10-15T15:34:12.717783+00:00",
+        "presentInCurrentCareerList": true,
+        "publishedAt": "2025-11-13",
+        "publishedDateMeaning": "Original ATS posting date, not verification date or evidence of a new vacancy."
+      },
+      "sources": [
+        {
+          "kind": "public_employer_ATS_detail_and_form_schema",
+          "url": "https://zoftify.bamboohr.com/careers/41/detail",
+          "sha256": "853e5eb22b3227180a902889c029b360c8a123518a05c21a24a5172a6e652b22"
+        },
+        {
+          "kind": "public_employer_current_jobs",
+          "url": "https://zoftify.bamboohr.com/careers/list"
+        },
+        {
+          "kind": "employer_canonical_page",
+          "url": "https://zoftify.bamboohr.com/careers/41"
+        }
+      ],
+      "degreePolicy": {
+        "requiredDegreeFound": false,
+        "degreeQuestionFound": false,
+        "scope": "Current full job description and public application schema",
+        "candidateFact": {
+          "pointer": "/editorialRules/education"
+        }
+      },
+      "geography": {
+        "pakistan": "within_advertised_worldwide_scope",
+        "countryNamed": false,
+        "countryDropdownHasPakistan": true,
+        "countryDropdownIsEligibilityProof": false,
+        "atsLocation": {
+          "country": null,
+          "countryId": null,
+          "state": null,
+          "city": null
+        },
+        "legalWorkOrContractStatus": "unconfirmed",
+        "note": "Advertised geographical scope is compatible; no legal employment or contractor eligibility is inferred."
+      },
+      "employmentType": "Full-Time",
+      "application": {
+        "requiredStandardFields": [
+          {
+            "id": "firstName",
+            "label": "First Name"
+          },
+          {
+            "id": "lastName",
+            "label": "Last Name"
+          },
+          {
+            "id": "email",
+            "label": "Email"
+          },
+          {
+            "id": "phone",
+            "label": "Phone"
+          },
+          {
+            "id": "streetAddress",
+            "label": "Address"
+          },
+          {
+            "id": "city",
+            "label": "City"
+          },
+          {
+            "id": "state",
+            "label": "State"
+          },
+          {
+            "id": "zip",
+            "label": "ZIP"
+          },
+          {
+            "id": "countryId",
+            "label": "Country"
+          },
+          {
+            "id": "desiredPay",
+            "label": "Desired Pay"
+          },
+          {
+            "id": "resumeFileId",
+            "label": "Resume"
+          }
+        ],
+        "optionalStandardFields": [
+          {
+            "id": "linkedinUrl",
+            "label": "LinkedIn URL"
+          },
+          {
+            "id": "dateAvailable",
+            "label": "Date Available"
+          },
+          {
+            "id": "referredBy",
+            "label": "Referred by (Name)"
+          },
+          {
+            "id": "websiteUrl",
+            "label": "Website, Blog or Portfolio"
+          }
+        ],
+        "customQuestions": [
+          {
+            "id": "143",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Node experience duration?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/skills/1/text"
+              },
+              {
+                "pointer": "/experience/0/bullets/1",
+                "factId": "tututor_backend"
+              },
+              {
+                "pointer": "/experience/1/bullets/0",
+                "factId": "danzee_components"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Node work recorded; exact start and continuous tenure need confirmation."
+          },
+          {
+            "id": "144",
+            "required": false,
+            "type": "long",
+            "promptSummary": "Total commercial IT experience?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/experience/1/dates"
+              },
+              {
+                "pointer": "/experience/0/dates"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "4+ years; do not add overlapping dates."
+          },
+          {
+            "id": "145",
+            "required": false,
+            "type": "long",
+            "promptSummary": "React experience duration?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/skills/0/text"
+              },
+              {
+                "pointer": "/experience/1/bullets/0",
+                "factId": "danzee_components"
+              },
+              {
+                "pointer": "/experience/1/dates"
+              },
+              {
+                "pointer": "/experience/0/dates"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "React role dates recorded; candidate should confirm precise continuous tenure."
+          },
+          {
+            "id": "146",
+            "required": true,
+            "type": "multi",
+            "promptSummary": "Select spoken-English level.",
+            "options": [
+              {
+                "id": "61",
+                "summary": "No English experience"
+              },
+              {
+                "id": "62",
+                "summary": "Reads documentation but lacks speaking confidence"
+              },
+              {
+                "id": "63",
+                "summary": "Understands and speaks fluently"
+              }
+            ],
+            "allowsOther": false,
+            "factReferences": [],
+            "answerStatus": "candidate_input_needed",
+            "note": "No English proficiency or fluency claim recorded."
+          }
+        ],
+        "allPublicSchemaQuestionsCaptured": true,
+        "requiredCustomQuestionCount": 2,
+        "educationFieldFound": false,
+        "workAuthorizationFieldFound": false,
+        "additionalConditionalQuestions": "None exposed by schema; browser form behavior not verified.",
+        "personalContactValuesStored": false,
+        "submitted": false,
+        "uiVerification": "Public detail/form schema and HTTP page verified; rendered application form was not independently exercised."
+      },
+      "aiPolicy": {
+        "applicationAnswerProhibitionFound": false,
+        "scope": "Full JD and all exposed custom questions",
+        "workplaceUse": "Not specified in captured listing or questions.",
+        "note": "No prohibition found does not mean assessment assistance is permitted. Recheck any later assessment rules."
+      },
+      "readiness": {
+        "applicationReady": false,
+        "fit": "unconfirmed",
+        "evidenceLevel": "Candidate-reported facts only; no independent employment, skill or metric validation.",
+        "blockers": [
+          "Essential SQL evidence",
+          "Desired salary with currency and period",
+          "Spoken-English level",
+          "Exact Node duration",
+          "Figma/from-scratch examples"
+        ]
+      },
+      "requirements": [
+        {
+          "requirement": "2+ years commercial work; React, Node, TypeScript and REST.",
+          "essential": true,
+          "assessment": "candidate_reported_support",
+          "factReferences": [
+            {
+              "pointer": "/experience/1/dates"
+            },
+            {
+              "pointer": "/experience/0/dates"
+            },
+            {
+              "pointer": "/skills/0/text"
+            },
+            {
+              "pointer": "/experience/1/bullets/0",
+              "factId": "danzee_components"
+            },
+            {
+              "pointer": "/skills/1/text"
+            },
+            {
+              "pointer": "/experience/0/bullets/1",
+              "factId": "tututor_backend"
+            }
+          ],
+          "note": "Named stack and commercial product work reported; exact Node tenure still needed for form."
+        },
+        {
+          "requirement": "SQL database experience such as PostgreSQL.",
+          "essential": true,
+          "assessment": "unsupported_by_facts",
+          "factReferences": [],
+          "note": "Facts list MongoDB/Mongoose, not SQL. This is an essential evidence gap, not proof the candidate lacks the skill."
+        },
+        {
+          "requirement": "From-scratch applications and precise Figma-based interfaces.",
+          "essential": true,
+          "assessment": "partial",
+          "factReferences": [
+            {
+              "pointer": "/projects/1",
+              "factId": "viloi"
+            },
+            {
+              "pointer": "/experience/0/bullets/0",
+              "factId": "tututor_scope"
+            },
+            {
+              "pointer": "/projects/2",
+              "factId": "yaksport"
+            }
+          ],
+          "note": "Product work reported; exact initial ownership and design fidelity unverified."
+        },
+        {
+          "requirement": "Good spoken English.",
+          "essential": true,
+          "assessment": "unknown",
+          "factReferences": [],
+          "note": "No language proficiency recorded."
+        }
+      ],
+      "salary": {
+        "disclosed": false,
+        "candidateExpectation": null,
+        "requiredAnswer": "Desired pay required; currency and pay period are not specified by this field."
+      },
+      "timeCommitment": {
+        "schedule": "Flexible full-time schedule; exact overlap and weekly hours unstated.",
+        "weeklyHours": null,
+        "candidateCommitmentConfirmed": false
+      },
+      "candidateAvailability": {
+        "status": "Immediate availability recorded",
+        "factReference": {
+          "pointer": "/identity/availability"
+        },
+        "doesNotEstablishScheduleCommitment": true
+      }
+    },
+    {
+      "id": "zoftify-32",
+      "company": "Zoftify",
+      "title": "React Native Developer",
+      "jobUrl": "https://zoftify.bamboohr.com/careers/32",
+      "finalApplyUrl": "https://zoftify.bamboohr.com/careers/32",
+      "applyUrlMeaning": "Employer canonical job and application entry point; no distinct form URL was verified.",
+      "availability": {
+        "status": "Open",
+        "httpStatus": 200,
+        "detailCheckedAt": "2026-10-15T15:33:39.206570+00:00",
+        "careerListCheckedAt": "2026-10-15T15:34:12.717783+00:00",
+        "presentInCurrentCareerList": true,
+        "publishedAt": "2024-01-16",
+        "publishedDateMeaning": "Original ATS posting date, not verification date or evidence of a new vacancy."
+      },
+      "sources": [
+        {
+          "kind": "public_employer_ATS_detail_and_form_schema",
+          "url": "https://zoftify.bamboohr.com/careers/32/detail",
+          "sha256": "db7f0b04db87aec1ebd8bc9635c1256b753ef1970eba6ee5747fdc758db70ba5"
+        },
+        {
+          "kind": "public_employer_current_jobs",
+          "url": "https://zoftify.bamboohr.com/careers/list"
+        },
+        {
+          "kind": "employer_canonical_page",
+          "url": "https://zoftify.bamboohr.com/careers/32"
+        }
+      ],
+      "degreePolicy": {
+        "requiredDegreeFound": false,
+        "degreeQuestionFound": false,
+        "scope": "Current full job description and public application schema",
+        "candidateFact": {
+          "pointer": "/editorialRules/education"
+        }
+      },
+      "geography": {
+        "pakistan": "within_advertised_worldwide_scope",
+        "countryNamed": false,
+        "countryDropdownHasPakistan": true,
+        "countryDropdownIsEligibilityProof": false,
+        "atsLocation": {
+          "country": null,
+          "countryId": null,
+          "state": null,
+          "city": null
+        },
+        "legalWorkOrContractStatus": "unconfirmed",
+        "note": "Advertised geographical scope is compatible; no legal employment or contractor eligibility is inferred."
+      },
+      "employmentType": "Full-Time",
+      "application": {
+        "requiredStandardFields": [
+          {
+            "id": "firstName",
+            "label": "First Name"
+          },
+          {
+            "id": "lastName",
+            "label": "Last Name"
+          },
+          {
+            "id": "email",
+            "label": "Email"
+          },
+          {
+            "id": "phone",
+            "label": "Phone"
+          },
+          {
+            "id": "streetAddress",
+            "label": "Address"
+          },
+          {
+            "id": "city",
+            "label": "City"
+          },
+          {
+            "id": "state",
+            "label": "State"
+          },
+          {
+            "id": "zip",
+            "label": "ZIP"
+          },
+          {
+            "id": "countryId",
+            "label": "Country"
+          },
+          {
+            "id": "desiredPay",
+            "label": "Desired Pay"
+          },
+          {
+            "id": "resumeFileId",
+            "label": "Resume"
+          }
+        ],
+        "optionalStandardFields": [
+          {
+            "id": "linkedinUrl",
+            "label": "LinkedIn URL"
+          },
+          {
+            "id": "dateAvailable",
+            "label": "Date Available"
+          },
+          {
+            "id": "referredBy",
+            "label": "Referred by (Name)"
+          },
+          {
+            "id": "websiteUrl",
+            "label": "Website, Blog or Portfolio"
+          }
+        ],
+        "customQuestions": [
+          {
+            "id": "109",
+            "required": true,
+            "type": "long",
+            "promptSummary": "React Native experience duration?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/experience/0/bullets/3",
+                "factId": "tututor_platform"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Published apps recorded; exact React Native tenure absent."
+          },
+          {
+            "id": "110",
+            "required": true,
+            "type": "long",
+            "promptSummary": "Can you produce an iOS build?",
+            "options": [],
+            "allowsOther": false,
+            "factReferences": [
+              {
+                "pointer": "/experience/0/bullets/3",
+                "factId": "tututor_platform"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "Both-store releases recorded; current build capability not confirmed."
+          },
+          {
+            "id": "111",
+            "required": true,
+            "type": "multi",
+            "promptSummary": "Select native-platform experience.",
+            "options": [
+              {
+                "id": "34",
+                "summary": "iOS only"
+              },
+              {
+                "id": "35",
+                "summary": "Android only"
+              },
+              {
+                "id": "36",
+                "summary": "Both platforms"
+              }
+            ],
+            "allowsOther": true,
+            "factReferences": [
+              {
+                "pointer": "/experience/0/bullets/3",
+                "factId": "tututor_platform"
+              }
+            ],
+            "answerStatus": "candidate_review_needed",
+            "note": "React Native app releases do not establish native iOS/Android coding depth."
+          },
+          {
+            "id": "112",
+            "required": true,
+            "type": "multi",
+            "promptSummary": "Select spoken-English level.",
+            "options": [
+              {
+                "id": "37",
+                "summary": "No English experience"
+              },
+              {
+                "id": "38",
+                "summary": "Reads documentation but lacks speaking confidence"
+              },
+              {
+                "id": "39",
+                "summary": "Understands and speaks fluently"
+              }
+            ],
+            "allowsOther": false,
+            "factReferences": [],
+            "answerStatus": "candidate_input_needed",
+            "note": "No English proficiency or fluency claim recorded."
+          }
+        ],
+        "allPublicSchemaQuestionsCaptured": true,
+        "requiredCustomQuestionCount": 4,
+        "educationFieldFound": false,
+        "workAuthorizationFieldFound": false,
+        "additionalConditionalQuestions": "None exposed by schema; browser form behavior not verified.",
+        "personalContactValuesStored": false,
+        "submitted": false,
+        "uiVerification": "Public detail/form schema and HTTP page verified; rendered application form was not independently exercised."
+      },
+      "aiPolicy": {
+        "applicationAnswerProhibitionFound": false,
+        "scope": "Full JD and all exposed custom questions",
+        "workplaceUse": "Not specified in captured listing or questions.",
+        "note": "No prohibition found does not mean assessment assistance is permitted. Recheck any later assessment rules."
+      },
+      "readiness": {
+        "applicationReady": false,
+        "fit": "unconfirmed",
+        "evidenceLevel": "Candidate-reported facts only; no independent employment, skill or metric validation.",
+        "blockers": [
+          "Exact React Native tenure",
+          "Native-plugin/native-platform evidence",
+          "Current iOS build capability",
+          "Desired salary with currency and period",
+          "Spoken-English level",
+          "From-scratch mobile and Figma examples"
+        ]
+      },
+      "requirements": [
+        {
+          "requirement": "2+ years commercial work, including 1+ year React Native.",
+          "essential": true,
+          "assessment": "partial",
+          "factReferences": [
+            {
+              "pointer": "/experience/1/dates"
+            },
+            {
+              "pointer": "/experience/0/dates"
+            },
+            {
+              "pointer": "/experience/0/bullets/3",
+              "factId": "tututor_platform"
+            }
+          ],
+          "note": "General tenure supported; three mobile releases do not establish one full year in React Native."
+        },
+        {
+          "requirement": "TypeScript, REST and from-scratch mobile applications.",
+          "essential": true,
+          "assessment": "partial",
+          "factReferences": [
+            {
+              "pointer": "/skills/0/text"
+            },
+            {
+              "pointer": "/skills/1/text"
+            },
+            {
+              "pointer": "/experience/0/bullets/1",
+              "factId": "tututor_backend"
+            },
+            {
+              "pointer": "/experience/0/bullets/3",
+              "factId": "tututor_platform"
+            }
+          ],
+          "note": "Named skills and releases recorded; mobile-specific scope needs confirmation."
+        },
+        {
+          "requirement": "Native integrations such as camera, notifications or maps.",
+          "essential": true,
+          "assessment": "unsupported_by_facts",
+          "factReferences": [],
+          "note": "No native-plugin examples in facts."
+        },
+        {
+          "requirement": "Precise Figma-based mobile interfaces and spoken English.",
+          "essential": true,
+          "assessment": "unknown",
+          "factReferences": [],
+          "note": "Neither Figma fidelity nor English level is recorded."
+        }
+      ],
+      "salary": {
+        "disclosed": false,
+        "candidateExpectation": null,
+        "requiredAnswer": "Desired pay required; currency and pay period are not specified by this field."
+      },
+      "timeCommitment": {
+        "schedule": "Flexible full-time schedule; exact overlap and weekly hours unstated.",
+        "weeklyHours": null,
+        "candidateCommitmentConfirmed": false
+      },
+      "candidateAvailability": {
+        "status": "Immediate availability recorded",
+        "factReference": {
+          "pointer": "/identity/availability"
+        },
+        "doesNotEstablishScheduleCommitment": true
+      }
+    }
+  ]
+}

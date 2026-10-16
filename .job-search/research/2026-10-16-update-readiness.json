@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-15T22:49:56.383810+00:00",
+  "scope": "Read-only first-party HTTP review; no form POST, email, cloud write, session or credential access.",
+  "candidateSources": [
+    ".job-search/private/application-facts.json",
+    ".job-search/import/profile.json",
+    ".job-search/resumes/masters/facts.json",
+    ".job-search/flowcv-resume-source.txt"
+  ],
+  "candidateEvidenceStatus": "Candidate-reported, not independent employment or skill verification.",
+  "authorization": "Latest candidate profile authorizes verified matching applications when answers are known, including Pakistan onsite. No relocation, travel, trial or on-call promise inferred.",
+  "closestSubmitReady": "codenzy-react",
+  "closestRemote": "appkeeper-frontend",
+  "jobs": [
+    {
+      "id": "codenzy-react",
+      "company": "Codenzy",
+      "title": "React Developer (TypeScript)",
+      "url": "https://www.codenzy.com/careers/react-developer/",
+      "careersUrl": "https://www.codenzy.com/careers/",
+      "httpStatus": 200,
+      "availability": "Published under Open Positions; current application email provided. Employer has not independently confirmed headcount.",
+      "location": "Lahore, Pakistan; company careers page describes work from Lahore office. Exact React-role hours unspecified.",
+      "employmentType": "Full-time",
+      "geographyEligible": "Pakistan onsite is within authorized scope. Candidate must remain identified as based in Rahim Yar Khan.",
+      "degree": "Equivalent professional experience expressly accepted; candidate has no completed degree.",
+      "technicalFit": "Strong: 3+ years React, TypeScript, Next.js, responsive interfaces, state, APIs, GraphQL and testing all supported by current candidate sources.",
+      "newAnswersResolve": [
+        "GraphQL hands-on",
+        "Jest hands-on",
+        "React Testing Library hands-on",
+        "4 years TypeScript",
+        "4 years Next.js",
+        "Advanced English",
+        "Full US business hours"
+      ],
+      "application": {
+        "type": "email",
+        "recipient": "hr@codenzy.com",
+        "subject": "React Developer Application",
+        "required": [
+          "Resume",
+          "Portfolio"
+        ],
+        "requiredUnknownFacts": [],
+        "publicQuestionnaire": false,
+        "answersComplete": true,
+        "readyResumePath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-codenzy-react-2026-10-16-v1-ats.pdf",
+        "readyResumeSha256": "0abf77612bc5b5ded9a75d9952d8b1a638c13794b40f60d7cc69937e732f5d97",
+        "resumeQa": "1 page; text and rendered visual QA passed"
+      },
+      "remainingFacts": {
+        "requiredBeforeApplication": [],
+        "beforeAcceptingOffer": [
+          "Exact office attendance and move/commute arrangements",
+          "Exact schedule and employment terms"
+        ],
+        "optionalNotClaimed": [
+          "Agile/Scrum history",
+          "Open-source contributions"
+        ]
+      },
+      "decision": "Closest submit-ready verified technical match. Prepare/send truthful interest under existing authorization once final resume QA is complete; do not state Lahore residency or promise relocation."
+    },
+    {
+      "id": "appkeeper-frontend",
+      "company": "Appkeeper Pte. Ltd.",
+      "title": "Frontend Developer",
+      "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+      "careersUrl": "https://appkeeper.ltd/#opportunities",
+      "httpStatus": 200,
+      "availability": "Linked from live company opportunities section; visible application form. Server submission not tested.",
+      "location": "Remote (worldwide)",
+      "employmentType": "Full-time",
+      "geographyEligible": "Worldwide remote wording includes Pakistan; no regional exclusion shown. No claim about legal worker classification.",
+      "degree": "No degree requirement in published JD or form.",
+      "technicalFit": "Strong core fit: 4 years TypeScript, 4+ calendar years React work, Illume D3/Chart.js analytics, Redux/RTK Query, REST, WebSockets, performance, Tailwind, Jest/RTL/Cypress, Git, Vite/Webpack.",
+      "candidateSourceDetails": {
+        "bundlers": ".job-search/flowcv-resume-source.txt:96 lists Vite; line 100 lists Webpack.",
+        "componentExperience": "Danzee reusable React components/hooks supported. Formal maintained shared-library/design-system ownership is not separately documented."
+      },
+      "application": {
+        "type": "web_form",
+        "required": [
+          {
+            "name": "name",
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "type": "email"
+          },
+          {
+            "name": "cv",
+            "type": "file",
+            "accept": [
+              ".pdf",
+              ".doc",
+              ".docx"
+            ]
+          }
+        ],
+        "optional": [
+          "cover"
+        ],
+        "requiredUnknownFacts": [],
+        "answersComplete": true,
+        "position": "Frontend Developer",
+        "observedHandler": "POST /api/apply, multipart FormData; name/email/position/cover/cv; success requires JSON ok.",
+        "handlerSource": "https://appkeeper.ltd/assets/main-BmqqyZ5s.js",
+        "submissionPerformed": false
+      },
+      "remainingFacts": {
+        "requiredBeforeFactualAttestation": [
+          "Whether reusable components were maintained as a shared component library or design system",
+          "Specific code-review participation",
+          "CSS Grid/Flexbox experience if explicitly asked"
+        ],
+        "notAskedByForm": [
+          "Those details are not form questions; no blanket all-requirements attestation is visible."
+        ],
+        "optionalNotClaimed": [
+          "Vue 3",
+          "WCAG expertise",
+          "Storybook",
+          "Figma expertise"
+        ]
+      },
+      "decision": "Closest remote role. Truthful application fields are complete; strong core fit with narrower requirement evidence gaps. Can describe reusable components, never upgrade to formal design-system ownership without confirmation."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "url": "https://www.codenzy.com/careers/react-developer/",
+      "status": 200
+    },
+    {
+      "url": "https://www.codenzy.com/careers/",
+      "status": 200
+    },
+    {
+      "url": "https://appkeeper.ltd/jobs/frontend-developer.html",
+      "status": 200
+    },
+    {
+      "url": "https://appkeeper.ltd/",
+      "status": 200
+    },
+    {
+      "url": "https://appkeeper.ltd/assets/main-BmqqyZ5s.js",
+      "status": 200
+    }
+  ],
+  "limitations": [
+    "Public listing availability is not employer confirmation of active hiring.",
+    "No submission or backend-delivery verification was performed.",
+    "No new candidate facts were invented."
+  ]
+}

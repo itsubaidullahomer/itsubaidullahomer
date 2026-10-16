@@ -1,0 +1,41 @@
+# Ubaidullah Omer
+Frontend Engineer | React, TypeScript, Product Delivery
+
+Rahim Yar Khan, Pakistan | itsubaidullahomer@gmail.com | +92 3292380929
+https://itsubaidullahomer.com | https://github.com/itsubaidullahomer | https://www.linkedin.com/in/itsubaidullahomer/
+
+## Profile
+Product-focused frontend engineer building React and TypeScript applications, reusable interfaces and data-rich workflows. Leads engineering at Tututor.ai / EduNova, with end-to-end experience across Node.js APIs, AI integrations and mobile apps. Earlier work includes analytics, file management and multilingual booking products. Available immediately.
+
+## Experience
+### Lead Engineer / Full-Stack Engineer - Tututor.ai / EduNova
+Nov 2023 - Present | Remote | Murcia, Spain
+- Led a small team across mobile and web delivery; now work directly with the founder on product and engineering.
+- Ship teacher workflows for lesson-topic chatbots, AI quiz generation, automated grading and class insights; moved AI calls and API keys server-side.
+- Deliver Socket.io / Redis messaging, R2 file storage, Stripe and SEPA billing, and React Native apps released on both app stores.
+
+### React Developer - Danzee Tech
+Jan 2022 - Jan 2024 | Viby, Denmark
+- Built reusable React components and hooks across client products, alongside Node.js / Express integrations, authentication and payment workflows.
+- Delivered Jurri file, inbox and password-vault interfaces; improved loading performance through code splitting, lazy loading and bundle optimization.
+
+## Selected projects
+### Illume - AI business analytics
+https://www.joinillume.com/
+Built adaptive AI-generated analytics and dashboards for revenue, bookings and retention using Chart.js and D3.js, with Boulevard, Zenoti and Vagaro data integrations.
+React, Node.js, MongoDB, OpenAI, Chart.js, D3.js
+
+### Yaksport - Sports travel booking
+https://yaksport.dk/
+Built a Danish / English booking interface with search and filtering for a sports travel agency.
+React, Tailwind CSS, i18next, REST APIs
+
+### Viloi - AI writing SaaS
+https://viloi.com
+Built a paid AI writing product with OpenAI, Claude and Gemini fallbacks, JWT authentication, and Stripe subscriptions and webhooks.
+React, Node.js, Express, MongoDB, Stripe
+
+## Technical skills
+- Frontend: React, TypeScript, Next.js, Redux Toolkit, Tailwind CSS, CSS Grid, Flexbox
+- Visualization & quality: Chart.js, D3.js, Jest, React Testing Library, component libraries, code review
+- Backend & integrations: Node.js, Express, MongoDB, REST APIs, WebSockets, Redis, OpenAI, Stripe, Git

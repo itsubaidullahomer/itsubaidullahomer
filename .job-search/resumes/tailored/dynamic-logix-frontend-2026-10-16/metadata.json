@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-15T23:24:56.020790+00:00",
+  "jobId": "research-pk-3b5ebae2-751f-40c4-b7e1-2fbbd6267ad7",
+  "jobUrl": "https://dynamiclogix.com/careers",
+  "configPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/config.json",
+  "factsPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/facts.json",
+  "factsSha256": "54d491cd0c49e05baf1fb4205947e6555048c247fe090ffe7c5569b6ecba6231",
+  "pdfPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-dynamic-logix-frontend-2026-10-16-v1-ats.pdf",
+  "sha256": "04c7aa94a3aa6c6fc3965a2d4a50f618bac904dcb634ccbd09753757f3c95ff1",
+  "bytes": 88375,
+  "pageCount": 1,
+  "searchableWords": 331,
+  "contentBottomPt": 133.1897637795277,
+  "textQa": "pass",
+  "visualQa": "pass",
+  "coverLetterCharacters": 442,
+  "notes": [
+    "Only selected/reordered existing canonical facts.",
+    "Actual Rahim Yar Khan location retained; no Sahiwal residency or relocation promise.",
+    "No degree claim.",
+    "No cloud writes, uploads, email or submission."
+  ],
+  "visualQaCheckedAt": "2026-10-15T23:25:24.856849+00:00",
+  "visualQaMethod": "Complete A4 page rendered with Poppler at 1800 px and visually inspected. No clipping, overlap, missing glyphs or page spill. Header, dates, skills and links are legible.",
+  "previewPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/dynamic-logix-frontend-2026-10-16/page-1.png"
+}

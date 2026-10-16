@@ -1,0 +1,44 @@
+{
+  "automationId": "continue-ubaid-s-job-search",
+  "completedAt": "2026-10-15T22:16:20.454Z",
+  "candidateFactsChanged": false,
+  "ownerSessionWorking": true,
+  "authorizedMailboxConnected": false,
+  "mailboxRead": false,
+  "addedJobIds": [
+    "laralink-react-frontend-36"
+  ],
+  "jobs": 41,
+  "strongTechnical": 5,
+  "applied": 0,
+  "submissionsSent": 0,
+  "newApplicationReady": 0,
+  "mobileQA": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "boardBodyWidth": 375,
+    "drawerWidth": 390,
+    "pageOverflow": false,
+    "fitFilterPassed": true,
+    "overrideReset": true
+  },
+  "research": {
+    "remote": ".job-search/research/2026-10-16-remote/findings.json",
+    "pakistan": ".job-search/research/2026-10-16-pakistan/findings.json",
+    "root": ".job-search/research/2026-10-16-root/findings.json",
+    "remoteCounts": {
+      "shortlisted": 2,
+      "strongTechnicalFit": 1,
+      "unknownTechnicalFit": 1,
+      "applicationReady": 0,
+      "reservesNotShortlisted": 2,
+      "excludedOrNotAdvanced": 8
+    },
+    "pakistanLeads": 2,
+    "pakistanHolds": 4,
+    "pakistanExclusions": 12
+  },
+  "nextRun": "Deduplicate against live board. Do not re-request unchanged sign-in or candidate-fact blockers. Laralink remains technically strong but Pakistan hiring and schedule unconfirmed. Other researched leads remain private holds; do not import weak roles just to increase counts."
+}

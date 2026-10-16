@@ -1,0 +1,20 @@
+{
+  "createdAt": "2026-10-15T23:56:50.370481+00:00",
+  "canonicalFactsSnapshot": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/canonical-facts.snapshot.json",
+  "renderedFactsSnapshot": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/facts.rendered.snapshot.json",
+  "candidateConfirmationsSnapshot": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/candidate-confirmations.snapshot.json",
+  "originalResumeTextSource": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/flowcv-resume-source.txt",
+  "builder": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/build_resumes.py",
+  "changesInLocalSnapshotOnly": [
+    "Selected frontend profile, Danzee React components and performance experience, Tututor delivery, Illume analytics, Yaksport and Viloi.",
+    "Named Chart.js and D3.js in Illume description from existing supported project stack.",
+    "Added directly confirmed CSS Grid, Flexbox, component-library and code-review skills.",
+    "Removed quantified user counts, percentage gains and project/mobile-app counts.",
+    "Kept existing dates and did not add overlapping employment durations.",
+    "Retained actual Rahim Yar Khan location; omitted degree, relocation, WCAG and 3D claims."
+  ],
+  "style": "Concise first-person application introduction consistent with candidate sent-application references checked read-only earlier in this task.",
+  "sourcePolicy": "No invented skills, independent verification, employment dates or quantified results.",
+  "canonicalFilesModified": false,
+  "priorArtifactsModified": false
+}

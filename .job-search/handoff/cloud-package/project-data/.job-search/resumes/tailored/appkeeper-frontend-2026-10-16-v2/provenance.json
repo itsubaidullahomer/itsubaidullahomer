@@ -1,0 +1,26 @@
+{
+  "sourceMaster": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/facts.json",
+  "sourceMasterSha256": "b8c526d52ec6bf6605aad5c032f219d59c9db305bfec3b58ecb8e43cd8149c89",
+  "confirmationPointer": ".job-search/private/application-facts.json#/additionalConfirmations/frontendPractices",
+  "confirmation": {
+    "sharedComponentLibraryOrDesignSystemMaintenance": true,
+    "cssGridFlexbox": true,
+    "codeReviewParticipation": true,
+    "confirmedAt": "2026-10-15T23:26:37.018Z",
+    "source": "Direct candidate reply: I have hands-on experience with all three",
+    "verification": "candidate_reported"
+  },
+  "updatedFields": [
+    "skills",
+    "summaries.frontend"
+  ],
+  "newSkillWording": "Component library/design system maintenance, CSS Grid, Flexbox, code reviews",
+  "interpretation": "The first confirmed practice is the combined component-library-or-design-system maintenance category. No separate ownership of both, project name, duration, depth or specific review workflow is invented.",
+  "retainedSources": [
+    ".job-search/resumes/masters/facts.json",
+    ".job-search/flowcv-resume-source.txt:96,100"
+  ],
+  "noDegreeRulePreserved": true,
+  "masterFilesChanged": false,
+  "previousVersionChanged": false
+}

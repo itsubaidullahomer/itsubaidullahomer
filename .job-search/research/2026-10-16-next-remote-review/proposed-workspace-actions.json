@@ -1,0 +1,640 @@
+[
+  {
+    "type": "update_job",
+    "id": "himalayas-ac100394824c4c1ecceeb4d8",
+    "patch": {
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "2026-10-16 official Spotter Teamtailor role explicitly lists Pakistan and Fully Remote. This establishes advertised country eligibility; employment/contract terms remain subject to the employer.",
+      "requirements": [
+        {
+          "id": "next-spotter-react",
+          "text": "Production React and responsive frontend development",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-confirmed-ts-next",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "React product interfaces, reusable components and responsive CSS are documented in the resume and candidate confirmations."
+        },
+        {
+          "id": "next-spotter-mui",
+          "text": "Strong Material UI proficiency",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "No named Material UI experience is confirmed; shared component-library experience is not proof of MUI."
+        },
+        {
+          "id": "next-spotter-python",
+          "text": "Build Python/Django backend services and APIs",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Node/Express API experience is established; Python/Django delivery is not. The stack is central to the role, although DRF itself is described as a bonus."
+        },
+        {
+          "id": "next-spotter-apis",
+          "text": "Design and build RESTful APIs",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration"
+          ],
+          "explanation": "Candidate reports shared Express/MongoDB APIs, authentication and external service integrations."
+        },
+        {
+          "id": "next-spotter-logic",
+          "text": "Non-trivial business logic or algorithms",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration",
+            "ev-testing"
+          ],
+          "explanation": "School-scoped data, billing workflows and the tested Plumier export support business-logic experience; no ranking-algorithm expertise is inferred."
+        },
+        {
+          "id": "next-spotter-performance",
+          "text": "Query behavior, performance and caching judgement",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-performance",
+            "ev-integration"
+          ],
+          "explanation": "Resume describes query/index optimization, frontend load optimization and Redis use."
+        },
+        {
+          "id": "next-spotter-remote",
+          "text": "Independent remote delivery and clear communication",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-remote",
+            "ev-product",
+            "ev-confirmed-english"
+          ],
+          "explanation": "Direct founder collaboration and international remote delivery are reported; advanced English is self-reported."
+        },
+        {
+          "id": "next-spotter-bonus-startup",
+          "text": "Shipped complete products in a startup or own projects",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-ai"
+          ],
+          "explanation": "Tututor and independently built SaaS products provide relevant reported examples."
+        },
+        {
+          "id": "next-spotter-bonus-infra",
+          "text": "GCP, Redis or Docker/Kubernetes experience",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-integration",
+            "ev-confirmed-docker"
+          ],
+          "explanation": "Redis and Docker satisfy this alternative bonus. GCP and Kubernetes are not claimed."
+        },
+        {
+          "id": "next-spotter-bonus-mobile",
+          "text": "Shipped React Native mobile apps",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-mobile",
+            "ev-confirmed-mobile"
+          ],
+          "explanation": "Three years React Native and releases on both stores are candidate-reported."
+        },
+        {
+          "id": "next-spotter-bonus-assistants",
+          "text": "Comfort coding with AI assistants",
+          "essential": false,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "AI product/API integration evidence does not independently establish a specific coding-assistant workflow."
+        }
+      ],
+      "notes": "Read-only review 2026-10-16T01:11:40.507723+00:00: Live, Pakistan-eligible role; hold for Python/Django and Material UI evidence. Confirm actual Python/Django backend and Material UI experience with concrete examples before tailoring or applying. React/Node experience alone does not meet this role. No application, outreach or portal write performed.",
+      "nextAction": "Confirm actual Python/Django backend and Material UI experience with concrete examples before tailoring or applying. React/Node experience alone does not meet this role.",
+      "research": {
+        "companyUrl": "https://spotter.ai/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "himalayas-ac100394824c4c1ecceeb4d8-source",
+            "url": "https://himalayas.app/companies/spotter-labs/jobs/remote-fullstack-engineer-react-django-ai-systems-8589740143",
+            "text": "Source: Himalayas\nOriginal listing: https://himalayas.app/companies/spotter-labs/jobs/remote-fullstack-engineer-react-django-ai-systems-8589740143\nCaptured: 2026-10-15T23:45:32.837Z\nPublished: 2026-10-15T22:28:13.000Z\n\nWe're a remote, product-focused startup building AI- and algorithm-driven systems. We're\nlooking for a FullStack Engineer who can move fluidly between React frontends and Django\n\nbackends.\n\nYou'll own features end-to-end: from designing the data model, building the API, to crafting the\nUI that brings it all together. You'll work with a small distributed team across several countries,\nshipping fast and iterating based on real feedback.\n\n💰 $100 bonus: After successfully completing the assessment. To receive the assessment,\nplease submit your resume to this job application. If your resume is approved, you'll receive the\n\nassessment afterwards.\n\nWhat You'll Do\n\nBuild and ship complete features across React frontend and Django backend.\n\nDevelop responsive web apps using React and Material UI (MUI).\n\nDesign backend services and APIs using Python + Django (DRF or similar).\n\nCreate clean, responsive UIs with React that connect to our services.\n\nImplement algorithmic/AI logic (scoring, ranking, decision rules) and surface it in the UI.\n\nWrite pragmatic, production-ready code that ships fast and iterates easily.\n\nWhat We're Looking For\n\nStrong proficiency in React and Material UI.\n\nAttention to detail: You care about alignment, spacing, and how the app feels to the user.\n\nComfortable designing and building RESTful APIs (bonus if you’ve used DRF or similar frameworks).\n\nExperience working on non-trivial business logic or algorithms (e.g., decision flows, scoring rules, optimization logic).\n\nGood instincts around performance: understanding query behavior, avoiding obvious pitfalls, and using caching when it counts.\n\nAbility to work independently in a remote environment and communicate clearly.\n\nBonus Points For\n\nComfortable coding with AI assistants (Claude Code, Cursor, etc.).\n\nExperience shipping complete products in startups, side projects, or hackathons.\n\nBackground in algorithms or data-heavy systems.\n\nExperience with GCP, Redis, or Docker/Kubernetes.\n\nFamiliarity shipping mobile apps with React Native.\n\nThis role is a central piece of our product roadmap, and we're aiming to fill it quickly once we\nmeet the right person. If it resonates with you, go ahead and apply now. Send us your resume\nto start the assessment process (and get a chance at the $100 bonus).\n\nOriginally posted on Himalayas",
+            "label": "Himalayas job listing",
+            "capturedAt": "2026-10-15T23:45:32.837Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-spotter-role",
+            "label": "Official Spotter / Teamtailor full-stack listing",
+            "url": "https://careers.spotter.ai/jobs/716929-remote-fullstack-engineer-react-django-ai-systems",
+            "text": "current public page. Live role names Pakistan among six hiring countries and says fully remote. React/MUI and Python/Django are the core stack; REST APIs, non-trivial logic, query/caching performance and independent communication are required. GCP/Redis/Docker, mobile and AI coding assistants are bonuses. Resume precedes assessment; the advertised $100 is conditional assessment compensation, not salary. HTTP 200 also captured locally.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-spotter-jobs",
+            "label": "Official Spotter current openings",
+            "url": "https://careers.spotter.ai/jobs",
+            "text": "current public page. The matching full-stack role is among 18 current openings; company careers site links to spotter.ai. Separate React Native search result is absent from the current list and was not treated as a new active lead.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "himalayas-fb60906bf4e48f501d8010b7",
+    "patch": {
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Himalayas advertises Pakistan and Philippines. The official company careers list does not include this engineering role, so current role-specific country eligibility is not independently confirmed.",
+      "requirements": [
+        {
+          "id": "next-painter-frontend",
+          "text": "Production frontend framework experience",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-confirmed-ts-next",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "React and responsive production interfaces support the alternative React/Angular/Vue criterion."
+        },
+        {
+          "id": "next-painter-backend",
+          "text": "Production backend framework and API experience",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration"
+          ],
+          "explanation": "Node.js/Express and REST APIs meet the named alternatives."
+        },
+        {
+          "id": "next-painter-databases",
+          "text": "PostgreSQL plus SQL/NoSQL database proficiency",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-confirmed-sql",
+            "ev-confirmed-postgresql"
+          ],
+          "explanation": "Candidate directly confirmed production PostgreSQL use on October 16, 2026; MongoDB and 3+ years SQL are also reported. This supports the broad database requirement without claiming PostgreSQL tenure, vendor-specific features or advanced administration."
+        },
+        {
+          "id": "next-painter-cloud",
+          "text": "Build secure cloud applications using AWS, Azure or GCP",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Vercel/DigitalOcean and Docker do not establish named-provider experience."
+        },
+        {
+          "id": "next-painter-microservices",
+          "text": "Strong microservices architecture understanding",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "A shared Express backend and API count do not prove microservices architecture experience."
+        },
+        {
+          "id": "next-painter-remote",
+          "text": "Distributed delivery, communication and collaboration",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-remote",
+            "ev-product",
+            "ev-confirmed-english"
+          ],
+          "explanation": "Remote product ownership and advanced English are reported."
+        },
+        {
+          "id": "next-painter-schedule",
+          "text": "Work US Eastern 9am–6pm weekdays",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-schedule"
+          ],
+          "explanation": "Candidate explicitly confirmed full US business hours; no extra on-call commitment inferred."
+        },
+        {
+          "id": "next-painter-degree",
+          "text": "Related bachelor degree preferred",
+          "essential": false,
+          "assessment": "gap",
+          "evidenceIds": [],
+          "explanation": "Candidate confirmed no degree. This is preferred, not an essential exclusion."
+        },
+        {
+          "id": "next-painter-complete",
+          "text": "Reconfirm the complete current employer requirements before assigning strong fit",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "The complete live employer role was not retrievable. Assessments below are provisional against the saved feed description; the discovery checklist cannot yet be fully cleared."
+        }
+      ],
+      "notes": "Read-only review 2026-10-16T01:11:40.507723+00:00: Hold: employer careers list does not currently show this role; provider-specific cloud and microservices evidence remain unresolved. Candidate now confirms production PostgreSQL use. Verify the exact full-stack opening is still active and accepts Pakistan; then confirm relevant cloud provider and microservices examples. Production PostgreSQL use is candidate-confirmed, with no tenure or specific-feature claim. Do not submit an open application as if it were this vacancy. No application, outreach or portal write performed.",
+      "nextAction": "Verify the exact full-stack opening is still active and accepts Pakistan; then confirm relevant cloud provider and microservices examples. Production PostgreSQL use is candidate-confirmed, with no tenure or specific-feature claim. Do not submit an open application as if it were this vacancy.",
+      "research": {
+        "companyUrl": "https://paintermarketingpros.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "himalayas-fb60906bf4e48f501d8010b7-source",
+            "url": "https://himalayas.app/companies/painter-marketing-pros/jobs/full-stack-engineer",
+            "text": "Source: Himalayas\nOriginal listing: https://himalayas.app/companies/painter-marketing-pros/jobs/full-stack-engineer\nCaptured: 2026-10-15T23:45:32.837Z\nPublished: 2026-10-13T15:27:22.000Z\n\nWe are seeking an accomplished Full Stack Developer\n\nRemote / Full-Time / EST Hours\n\nWe are seeking an accomplished Full Stack Developer with expertise across front-end and back-end technologies to design, build, and optimise scalable digital solutions. This role requires technical depth, business awareness, and the ability to operate effectively in a global, remote-first environment.\n\nKey Responsibilities\n\nApplication Development: Architect, develop, and maintain full stack applications that deliver measurable business value.\n\nCollaboration: Partner with product managers, UX designers, and engineers to translate requirements into technical solutions.\n\nCode Quality: Deliver clean, efficient, and testable code following best practices in scalability, performance, and maintainability.\n\nAPI & Integration: Build and optimise RESTful APIs and micro services to ensure seamless integration across systems.\n\nCloud & Infrastructure: Leverage modern cloud environments (AWS, Azure, or GCP) to design secure and resilient applications.\n\nLifecycle Management: Contribute to all phases of the software development lifecycle, including architecture design, deployment, monitoring, and continuous improvement.\n\nStandards & Compliance: Ensure applications align with security, data privacy, and regulatory requirements.\n\nInnovation: Stay current with emerging technologies and recommend improvements to enhance system architecture and team productivity.\n\nQualifications\n\nDemonstrated experience in front-end frameworks (React, Angular, or Vue).\n\nProven expertise in back-end frameworks (Node.js, Python, Express, or equivalent).\n\nProficiency with relational databases (PostgreSQL) and non-relational databases (SQL and NoSQL).\n\nStrong understanding of API design, micro services architecture, and cloud platforms.\n\nTrack record of delivering projects in distributed or remote environments.\n\nExceptional problem-solving, communication, and collaboration skills.\n\nBachelor’s degree in Computer Science or related field preferred.\n\nRole Details\n\nRemote position, aligned to EST hours (9 AM – 6 PM, Monday through Friday).\n\nCompetitive compensation with opportunities for career advancement.\n\nCollaborative, growth-oriented environment with exposure to diverse projects.\n\nWe are looking for a developer who combines technical expertise with business acumen and is motivated to deliver solutions that scale, perform, and create impact.\n\nOriginally posted on Himalayas",
+            "label": "Himalayas job listing",
+            "capturedAt": "2026-10-15T23:45:32.837Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-painter-careers",
+            "label": "Official Painter Marketing Pros careers list",
+            "url": "https://careers.paintermarketingpros.com/",
+            "text": "Web retrieval succeeded this turn; a later retry timed out. Retrieved public careers page lists nine openings: account management, appointment setting, CRM, SEO, QA and operations. The full-stack role is absent. It offers an open application, which is not confirmation that this engineering vacancy is active. Main company homepage links to this careers subdomain. Later direct HTTP fetch returned 403.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-painter-board",
+            "label": "Himalayas listing, secondary evidence",
+            "url": "https://himalayas.app/companies/painter-marketing-pros/jobs/full-stack-engineer",
+            "text": "current public page. Board advertises Pakistan/Philippines, React/Node alternatives, PostgreSQL and cloud/microservices skills, US Eastern 9am–6pm Monday–Friday. Degree is preferred. Board salary cadence/amount is suspect and unverified; do not treat $1K/year as an agreed term. Apply redirects to Himalayas sign-up.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "himalayas-1e7ecc9cbc7d867e890ef8a7",
+    "patch": {
+      "fit": "gaps",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Historical exact Dover listing says Remote (International); current official careers route has migrated to Gem and exact role availability is unconfirmed. A separate current YC role requires San Francisco attendance. No Pakistan eligibility inferred from that different role.",
+      "requirements": [
+        {
+          "id": "next-chasi-degree",
+          "text": "Completed Computer Science, Software Engineering or similar degree",
+          "essential": true,
+          "assessment": "gap",
+          "evidenceIds": [],
+          "explanation": "Matching employer JD requires graduation without an equivalent-experience alternative; candidate explicitly has no degree."
+        },
+        {
+          "id": "next-chasi-frontend",
+          "text": "React, JavaScript/TypeScript and web fundamentals",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-confirmed-ts-next",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Documented React/TypeScript product work and four years TypeScript/Next.js support these requirements."
+        },
+        {
+          "id": "next-chasi-years",
+          "text": "At least two years building applications",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-product"
+          ],
+          "explanation": "Supported calendar chronology starts January 2022, without adding overlapping roles."
+        },
+        {
+          "id": "next-chasi-backend",
+          "text": "Backend APIs, databases, authentication and REST/GraphQL",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration",
+            "ev-confirmed-graphql"
+          ],
+          "explanation": "Express/MongoDB, JWT, REST and hands-on GraphQL are reported."
+        },
+        {
+          "id": "next-chasi-postgres",
+          "text": "Deliver PostgreSQL with Drizzle/Prisma data models",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-confirmed-postgresql"
+          ],
+          "explanation": "Production PostgreSQL use is now directly candidate-confirmed. Drizzle/Prisma experience and the specific scalable data-modelling work remain unconfirmed; no PostgreSQL tenure or feature expertise is inferred."
+        },
+        {
+          "id": "next-chasi-ai",
+          "text": "Work with LangChain, retrieval and voice AI",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-ai"
+          ],
+          "explanation": "AI API work is relevant, but LangChain, retrieval systems and voice pipelines are not confirmed."
+        },
+        {
+          "id": "next-chasi-complete",
+          "text": "Reconfirm the complete current employer requirements before assigning strong fit",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "The complete live employer role was not retrievable. Assessments below are provisional against the saved feed description; the discovery checklist cannot yet be fully cleared."
+        }
+      ],
+      "notes": "Read-only review 2026-10-16T01:11:40.507723+00:00: Known degree gap in the matching old employer JD, plus uncertain current remote vacancy; do not apply. Deprioritize unless employer explicitly accepts equivalent experience without a degree and confirms the exact role remains remote from Pakistan. Do not conflate the separate onsite founding role. No application, outreach or portal write performed.",
+      "nextAction": "Deprioritize unless employer explicitly accepts equivalent experience without a degree and confirms the exact role remains remote from Pakistan. Do not conflate the separate onsite founding role.",
+      "research": {
+        "companyUrl": "https://chasi.ai/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "himalayas-1e7ecc9cbc7d867e890ef8a7-source",
+            "url": "https://himalayas.app/companies/chasi/jobs/senior-software-engineer",
+            "text": "Source: Himalayas\nOriginal listing: https://himalayas.app/companies/chasi/jobs/senior-software-engineer\nCaptured: 2026-10-15T23:45:32.837Z\nPublished: 2026-10-14T09:58:40.000Z\n\nSenior Software Engineering (Full Stack) — Chasi\n\nWebsite:\n\nLocation: Remote\n\nAbout Chasi\n\nChasi is building the future of industrial commerce — a connected ecosystem powered by AI for the equipment industry. We blend AI, fintech, and commerce infrastructure to simplify operations and power growth for these companies.\n\nAt Chasi, you’ll work alongside a lean, ambitious engineering team to build real products used by businesses in the industrial and construction sectors.\n\nWhat You’ll Do\n\nBuild and ship production features across Next.js and TypeScript.\n\nContribute to backend APIs and services built in Node.js.\n\nWork with PostgreSQL and Drizzle/Prisma to design and query scalable data models.\n\nHelp power AI-driven tools using LangChain, OpenAI, and custom retrieval systems.\n\nWork on Voice AI powered solutions\n\nIntegrate third-party APIs like Stripe, Salesforce, and other logistics data sources/CRMs\n\nCollaborate on automating workflows for equipment rentals, inventory, and payments.\n\nParticipate in code reviews, product discussions, and technical design sessions.\n\nWhat We’re Looking For\n\nGraduated with a degree in Computer Science, Software Engineering, or similar.\n\nProficient with JavaScript/TypeScript, React, and modern web development fundamentals.\n\n2+ years of work experience building apps for startups or big tech\n\nComfortable with backend concepts — APIs, databases, authentication, and REST/GraphQL.\n\nWhy Join Chasi\n\nWork on real-world challenges in the industrial AI and commerce space.\n\nLearn from engineers building AI-first B2B platforms from the ground up.\n\nContribute to technology that’s modernizing a trillion-dollar industry.\n\nBuild features that ship fast, matter deeply, and scale meaningfully.\n\nOriginally posted on Himalayas",
+            "label": "Himalayas job listing",
+            "capturedAt": "2026-10-15T23:45:32.837Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-chasi-careers",
+            "label": "Official Chasi careers page",
+            "url": "https://chasi.ai/careers",
+            "text": "current public page. Live company careers page embeds jobs.gem.com/chasi-ai and retains a legacy Dover careers link. Both raw pages returned HTTP 200, but the job list depends on JavaScript; this research did not manipulate a browser.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-chasi-legacy",
+            "label": "Employer Dover role, indexed snapshot",
+            "url": "https://app.dover.com/apply/chasi/34f74441-51aa-4d85-9c94-462335df6420",
+            "text": "Search index reports crawl four months ago. Indexed exact Senior Software Engineer role says Remote (International), React/TypeScript, at least two years, backend/API knowledge and a completed related degree. Current direct retrieval is a JavaScript shell. Treat the indexed listing as historical role evidence, not present hiring confirmation.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-chasi-yc",
+            "label": "Chasi employer listing on Y Combinator",
+            "url": "https://www.ycombinator.com/companies/chasi/jobs/VLTx71b-founding-engineer",
+            "text": "current public page. Different current Founding Engineer listing is San Francisco in person, six days weekly, with travel. It does not confirm or replace the older remote Senior Software Engineer vacancy.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "himalayas-c79f67f2b5f11ab85943e765",
+    "patch": {
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Official indexed careers page says global hiring; direct current site is unavailable (HTTP 522). Saved Himalayas role says fully remote/worldwide. Retain unknown until live role/country conditions can be confirmed.",
+      "requirements": [
+        {
+          "id": "next-emet-junior-equivalent",
+          "text": "Relevant degree OR equivalent practical/self-directed experience",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-product"
+          ],
+          "explanation": "Saved JD explicitly permits self-directed/equivalent experience. No degree claimed."
+        },
+        {
+          "id": "next-emet-language",
+          "text": "TypeScript/JavaScript programming",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-ts-next",
+            "ev-react"
+          ],
+          "explanation": "Four years TypeScript and production JavaScript/React work are candidate-reported."
+        },
+        {
+          "id": "next-emet-web",
+          "text": "APIs, databases and Git fundamentals",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-git-deploy",
+            "ev-confirmed-postgresql"
+          ],
+          "explanation": "Shared backend services, MongoDB, REST APIs and Git are documented. Candidate also directly confirmed production PostgreSQL use; no PostgreSQL tenure or specific-feature claim is made."
+        },
+        {
+          "id": "next-emet-collab",
+          "text": "Collaborative communication and learning",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-remote",
+            "ev-product",
+            "ev-confirmed-english",
+            "ev-confirmed-code-review"
+          ],
+          "explanation": "Remote founder/team work, code-review participation and advanced English support the broad requirement."
+        },
+        {
+          "id": "next-emet-junior-quality",
+          "text": "Write tested code, debug and participate in code reviews",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-testing",
+            "ev-confirmed-testing",
+            "ev-confirmed-code-review"
+          ],
+          "explanation": "Cypress, golden export tests, Jest/RTL and code review are reported."
+        },
+        {
+          "id": "next-emet-junior-ai",
+          "text": "Interest in AI/data infrastructure",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-ai",
+            "ev-product"
+          ],
+          "explanation": "Shipped AI product integrations support interest; no model-training expertise is claimed."
+        },
+        {
+          "id": "next-emet-junior-complete",
+          "text": "Reconfirm the complete current employer requirements before assigning strong fit",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "The complete live employer role was not retrievable. Assessments below are provisional against the saved feed description; the discovery checklist cannot yet be fully cleared."
+        }
+      ],
+      "notes": "Read-only review 2026-10-16T01:11:40.507723+00:00: Most promising technical match in the feed text, but junior seniority and current employer verification need resolution. Recheck official careers page when available; confirm current global/Pakistan terms and junior-level scope/compensation before pursuing. Existing reported experience covers the saved foundational requirements. No application, outreach or portal write performed.",
+      "nextAction": "Recheck official careers page when available; confirm current global/Pakistan terms and junior-level scope/compensation before pursuing. Existing reported experience covers the saved foundational requirements.",
+      "research": {
+        "companyUrl": "https://www.emetlab.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "himalayas-c79f67f2b5f11ab85943e765-source",
+            "url": "https://himalayas.app/companies/emetlab/jobs/junior-software-engineer",
+            "text": "Source: Himalayas\nOriginal listing: https://himalayas.app/companies/emetlab/jobs/junior-software-engineer\nCaptured: 2026-10-15T23:45:32.837Z\nPublished: 2026-10-14T16:37:51.000Z\n\nAbout the Job\n\nThe Opportunity\n\nAs a Junior Software Engineer at Emetlab, you will contribute to building the technology infrastructure behind elite AI training data that powers frontier models worldwide. Emetlab is an AI data infrastructure company delivering expert-produced, rigorously validated datasets and end-to-end AI solutions to laboratories, Fortune 500 enterprises, ambitious startups, and sovereign AI programmes across the globe.\n\nIn this role, you will work alongside senior engineers to develop, test, and ship features across our data platform, contributor tools, and client-facing systems. You will gain hands-on experience with large-scale data pipelines, quality assurance automation, and the infrastructure that enables over 5,000 domain experts across 120+ countries to produce world-class training data. You will be trusted with meaningful work from day one, not sidelined with tasks that don't matter.\n\nThis is a rare opportunity to begin your engineering career at the intersection of AI and data infrastructure, where your contributions will be visible, valued, and directly tied to the quality of datasets that train the next generation of intelligent systems.\n\nWhat You'll Do\n\nWrite clean, well-tested code that contributes to Emetlab's core platform, data pipelines, and internal tooling. Collaborate with senior engineers on the design and implementation of new features across our contributor platform, quality assurance systems, and client delivery infrastructure. Participate in code reviews, giving and receiving feedback that elevates the quality of the entire team's work. Assist in debugging, troubleshooting, and resolving issues across the platform with attention to detail and persistence. Contribute to building and improving automation that supports our multi-stage quality assurance processes and 98%+ accuracy benchmarks. Learn and grow rapidly by engaging with modern tools, frameworks, and AI-adjacent technologies in a production environment.\n\nWhat You'll Need to Succeed\n\nA degree in Computer Science, Software Engineering, or a related discipline, or equivalent practical experience through bootcamps, self-directed learning, or personal projects. Foundational knowledge of at least one programming language such as Python, C#, TypeScript, or JavaScript. Familiarity with web development fundamentals including APIs, databases, and version control with Git. A genuine desire to learn, improve, and take ownership of your growth as an engineer. Strong communication skills and a collaborative disposition, comfortable working within a team and asking thoughtful questions. Genuine interest in AI, data systems, or machine learning infrastructure is highly valued.\n\nRole Details\n\nEmployment Type: Full-Time and Part-Time positions available Location: Fully Remote Stage: Growth stage, operational\n\nAbout Emetlab\n\nEmetlab is an AI data infrastructure company built on a single conviction: the quality ceiling of any AI system is determined by its training data, not its architecture or compute. We produce expert-crafted, rigorously validated training datasets across 12 specialised domains, delivered by a global network of over 5,000 vetted domain specialists spanning 100+ languages and 50+ specialisations. Beyond datasets, we offer end-to-end AI solutions including Fine-Tuning, RLHF & Alignment, Red Teaming, Model Evaluation, Data Annotation, Synthetic Data Generation, and Pre-Training Data Pipelines.\n\nWe are not a crowd-sourcing platform. We are the data partner that matches the ambition of the teams building the next generation of AI, delivering measurable results: 42% accuracy improvements, 3x faster time-to-production, and 99.4% regulatory precision.\n\nEqual Opportunity\n\nEmetlab is an equal opportunity employer. We welcome dedicated individuals regardless of gender, race, ethnicity, national origin, age, disability, religion, sexual orientation, gender identity or expression, or veteran status. We believe that extraordinary products are built by extraordinary teams, and extraordinary teams are built on inclusion, respect, and the understanding that brilliance has no single origin.\n\nIf you require accommodation during the application or interview process, please reach out to our team and we will ensure your needs are met with care.\n\nLet's build the future of AI training data, together.\n\nOriginally posted on Himalayas",
+            "label": "Himalayas job listing",
+            "capturedAt": "2026-10-15T23:45:32.837Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-emetlab-careers",
+            "label": "Official Emetlab careers page, indexed content",
+            "url": "https://www.emetlab.com/careers",
+            "text": "Official-domain search index, crawl age two weeks; live verification unavailable. Official indexed careers page lists Junior and Senior Software Engineer among four positions and says it hires globally. It publishes careers@emetlab.com for open applications with CV, introduction and desired role. Direct live fetch returned HTTP 522; web open repeatedly timed out. Role-level requirements and current country terms were not independently retrievable.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "update_job",
+    "id": "himalayas-e5b76a0bd73c0b10ab22f94e",
+    "patch": {
+      "fit": "unknown",
+      "eligibility": "unknown",
+      "eligibilityEvidence": "Official indexed careers page says global hiring, but current exact role/country conditions could not be checked because the live site returned HTTP 522. Do not treat worldwide feed metadata as current employer confirmation.",
+      "requirements": [
+        {
+          "id": "next-emet-senior-years",
+          "text": "Four-plus years engineering with a named language such as TypeScript",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-confirmed-ts-next"
+          ],
+          "explanation": "Calendar chronology supports four-plus years; TypeScript is explicitly four years. Ratings are not converted into years."
+        },
+        {
+          "id": "next-emet-senior-distributed",
+          "text": "Production APIs, services and distributed systems operating at scale",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-backend"
+          ],
+          "explanation": "API delivery is established, but scale/architecture of distributed systems is not evidenced by endpoint counts alone."
+        },
+        {
+          "id": "next-emet-senior-cloud",
+          "text": "AWS/GCP/Azure and Docker/Kubernetes familiarity",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-confirmed-docker"
+          ],
+          "explanation": "Docker is confirmed; named-provider and Kubernetes experience are not."
+        },
+        {
+          "id": "next-emet-senior-pipelines",
+          "text": "Databases, caching, messaging and data pipeline tooling",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration",
+            "ev-confirmed-sql",
+            "ev-confirmed-postgresql"
+          ],
+          "explanation": "MongoDB/SQL, newly confirmed production PostgreSQL use, Redis and Socket.io are relevant. Data-pipeline tooling depth remains unconfirmed; no PostgreSQL tenure or specific features are inferred."
+        },
+        {
+          "id": "next-emet-senior-lead",
+          "text": "Mentoring, technical leadership and collaboration",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-product",
+            "ev-confirmed-code-review",
+            "ev-remote"
+          ],
+          "explanation": "Leading a small mobile/web team, product ownership and code reviews are reported. Specific mentoring/pairing/architectural guidance examples required by this role are not established."
+        },
+        {
+          "id": "next-emet-senior-complete",
+          "text": "Reconfirm the complete current employer requirements before assigning strong fit",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "The complete live employer role was not retrievable. Assessments below are provisional against the saved feed description; the discovery checklist cannot yet be fully cleared."
+        }
+      ],
+      "notes": "Read-only review 2026-10-16T01:11:40.507723+00:00: Relevant TypeScript/backend experience, with unresolved distributed-systems, pipeline and named-cloud requirements. Await live employer verification and candidate evidence of distributed systems at scale, data pipeline tooling, AWS/GCP/Azure and Kubernetes familiarity. Avoid sending both Emetlab applications without choosing appropriate level. No application, outreach or portal write performed.",
+      "nextAction": "Await live employer verification and candidate evidence of distributed systems at scale, data pipeline tooling, AWS/GCP/Azure and Kubernetes familiarity. Avoid sending both Emetlab applications without choosing appropriate level.",
+      "research": {
+        "companyUrl": "https://www.emetlab.com/",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "himalayas-e5b76a0bd73c0b10ab22f94e-source",
+            "url": "https://himalayas.app/companies/emetlab/jobs/senior-software-engineer",
+            "text": "Source: Himalayas\nOriginal listing: https://himalayas.app/companies/emetlab/jobs/senior-software-engineer\nCaptured: 2026-10-15T23:45:32.837Z\nPublished: 2026-10-13T22:43:48.000Z\n\nAbout the Job\n\nThe Opportunity\n\nAs a Senior Software Engineer at Emetlab, you will design and build the systems that power elite AI training data infrastructure serving frontier laboratories, Fortune 500 enterprises, and sovereign AI programmes worldwide. Emetlab is an AI data infrastructure company delivering expert-produced, rigorously validated datasets and end-to-end AI solutions that transform good models into exceptional ones.\n\nIn this role, you will take ownership of critical platform systems, from data pipeline architecture and contributor tooling to quality assurance automation and client delivery infrastructure. You will lead technical initiatives, mentor junior engineers, and make architectural decisions that scale with the demands of a global operation spanning 5,000+ domain experts, 100+ languages, and 12 specialised dataset domains.\n\nThis is an opportunity to do meaningful engineering work at the foundation of AI's most critical bottleneck, where the systems you architect and the code you write will directly determine the quality of training data behind the world's most advanced models.\n\nWhat You'll Do\n\nDesign, build, and maintain scalable services, APIs, and data pipelines that power Emetlab's global data production and delivery infrastructure. Develop and optimise systems that support multi-stage quality assurance, expert contributor workflows, and high-throughput data processing across diverse domains. Own features and systems end-to-end, from technical design and implementation through to testing, deployment, and monitoring. Lead architectural decisions that ensure platform reliability, security, and scalability as our contributor network and client base grow. Mentor and elevate junior and mid-level engineers through code reviews, pairing, and architectural guidance. Collaborate cross-functionally with data operations, AI/ML, and product teams to deliver infrastructure that meets the precision demands of frontier AI development. Contribute to infrastructure and DevOps practices including CI/CD pipelines, containerisation, and cloud deployment at scale.\n\nWhat You'll Need to Succeed\n\n4+ years of professional software engineering experience, with strong proficiency in one or more languages such as Python, C#, Java, TypeScript, or Go. Proven experience designing and building production-grade APIs, services, and distributed systems that operate at scale. Familiarity with cloud platforms (AWS, GCP, or Azure), containerisation (Docker, Kubernetes), and modern deployment practices. Experience working with databases (relational and/or NoSQL), caching layers, messaging systems, and data pipeline tooling. A strong engineering mindset, comfortable navigating ambiguity, making pragmatic trade-offs, and delivering with quality under pace. Experience mentoring engineers and contributing to engineering culture through technical leadership and collaboration. A collaborative disposition, comfortable working cross-functionally with data operations, AI/ML, product, and engineering teams in a fast-paced environment. Genuine interest in AI, data systems, or machine learning infrastructure is highly valued.\n\nRole Details\n\nEmployment Type: Full-Time and Part-Time positions available Location: Fully Remote Stage: Growth stage, operational\n\nAbout Emetlab\n\nEmetlab is an AI data infrastructure company built on a single conviction: the quality ceiling of any AI system is determined by its training data, not its architecture or compute. We produce expert-crafted, rigorously validated training datasets across 12 specialised domains, delivered by a global network of over 5,000 vetted domain specialists spanning 100+ languages and 50+ specialisations. Beyond datasets, we offer end-to-end AI solutions including Fine-Tuning, RLHF & Alignment, Red Teaming, Model Evaluation, Data Annotation, Synthetic Data Generation, and Pre-Training Data Pipelines.\n\nWe are not a crowd-sourcing platform. We are the data partner that matches the ambition of the teams building the next generation of AI, delivering measurable results: 42% accuracy improvements, 3x faster time-to-production, and 99.4% regulatory precision.\n\nEqual Opportunity\n\nEmetlab is an equal opportunity employer. We welcome dedicated individuals regardless of gender, race, ethnicity, national origin, age, disability, religion, sexual orientation, gender identity or expression, or veteran status. We believe that extraordinary products are built by extraordinary teams, and extraordinary teams are built on inclusion, respect, and the understanding that brilliance has no single origin.\n\nIf you require accommodation during the application or interview process, please reach out to our team and we will ensure your needs are met with care.\n\nLet's build the future of AI training data, together.\n\nOriginally posted on Himalayas",
+            "label": "Himalayas job listing",
+            "capturedAt": "2026-10-15T23:45:32.837Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "next-emetlab-careers",
+            "label": "Official Emetlab careers page, indexed content",
+            "url": "https://www.emetlab.com/careers",
+            "text": "Official-domain search index, crawl age two weeks; live verification unavailable. Official indexed careers page lists Junior and Senior Software Engineer among four positions and says it hires globally. It publishes careers@emetlab.com for open applications with CV, introduction and desired role. Direct live fetch returned HTTP 522; web open repeatedly timed out. Role-level requirements and current country terms were not independently retrievable.",
+            "capturedAt": "2026-10-16T01:11:40.507723+00:00",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  }
+]

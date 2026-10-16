@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-15T23:43:04.008Z",
+  "method": "Offline vm execution of captured public script with a minimal DOM derived from the captured HTML; no browser, no form submit, no network. Shims are diagnostic only and do not modify employer files.",
+  "cases": [
+    {
+      "shimToggle": false,
+      "shimStats": false,
+      "error": {
+        "name": "TypeError",
+        "message": "Cannot read properties of null (reading 'addEventListener')"
+      },
+      "applicationSubmitHandlerAttached": false,
+      "networkCalls": 0
+    },
+    {
+      "shimToggle": true,
+      "shimStats": false,
+      "error": {
+        "name": "TypeError",
+        "message": "Cannot read properties of null (reading 'getBoundingClientRect')"
+      },
+      "applicationSubmitHandlerAttached": false,
+      "networkCalls": 0
+    },
+    {
+      "shimToggle": true,
+      "shimStats": true,
+      "error": null,
+      "applicationSubmitHandlerAttached": true,
+      "networkCalls": 0
+    }
+  ],
+  "formTag": "<form class=\"job-apply-form\" data-position=\"Frontend Developer\">",
+  "diagnosis": "The captured page lacks nav toggle and stats nodes. The unchanged shared script stops at the missing nav toggle before registering form submit. Adding only that node exposes a second failure at stats. With both simulated nodes present, the actual script registers the form handler."
+}

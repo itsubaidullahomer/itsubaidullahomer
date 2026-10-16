@@ -1,0 +1,56 @@
+{
+  "name": "itsubaidullahomer",
+  "private": true,
+  "type": "module",
+  "description": "Ubaidullah Omer — AI Product Engineer portfolio and GitHub profile automation",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "profile:build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@calcom/embed-react": "^1.5.3",
+    "@decartai/sdk": "^0.2.8",
+    "@google/genai": "^2.28.0",
+    "@radix-ui/react-accordion": "^1.2.21",
+    "@radix-ui/react-dialog": "^1.2.0",
+    "@radix-ui/react-tabs": "^1.1.22",
+    "@upstash/redis": "^1.39.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "jose": "^6.2.12",
+    "lucide-react": "^1.55.0",
+    "motion": "^14.1.0",
+    "next": "^16.4.0",
+    "next-mdx-remote": "^6.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.7.0",
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.117.3"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.0",
+    "lighthouse": "^13.5.0",
+    "prettier": "^3.9.10",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
+  }
+}

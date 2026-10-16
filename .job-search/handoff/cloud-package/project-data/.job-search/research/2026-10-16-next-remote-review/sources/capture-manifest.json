@@ -1,0 +1,45 @@
+[
+  {
+    "id": "emetlab-careers",
+    "error": "HTTP Error 522: <none>"
+  },
+  {
+    "id": "spotter-board",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "painter-home",
+    "status": 200,
+    "url": "https://paintermarketingpros.com/",
+    "links": [
+      "https://careers.paintermarketingpros.com/"
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-549XMH8",
+      null,
+      null,
+      null,
+      "https://www.google.com/recaptcha/api/fallback?k=6Lf1V-gpAAAAAFPFlo5Cpii4V8uE79zF5N-IzRAs"
+    ]
+  },
+  {
+    "id": "chasi-careers",
+    "status": 200,
+    "url": "https://chasi.ai/careers",
+    "links": [
+      "https://app.dover.com/jobs/chasi",
+      "./careers"
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-KTR3D6HP",
+      "https://jobs.gem.com/chasi-ai"
+    ]
+  },
+  {
+    "id": "chasi-gem",
+    "status": 200,
+    "url": "https://jobs.gem.com/chasi-ai",
+    "links": [],
+    "iframes": []
+  }
+]

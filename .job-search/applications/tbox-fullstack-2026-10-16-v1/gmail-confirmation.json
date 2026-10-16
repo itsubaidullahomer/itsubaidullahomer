@@ -1,0 +1,17 @@
+{
+  "messageId": "1a1424855b3935a3",
+  "threadId": "1a1424855b3935a3",
+  "labelIds": [
+    "SENT"
+  ],
+  "sentAt": "2026-10-16T01:16:38.000Z",
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "careers@tboxsolutionz.com",
+  "subject": "Full-Stack Engineer (React + Node.js) - Ubaidullah Omer",
+  "attachment": {
+    "filename": "ubaidullah-omer-tbox-fullstack-2026-10-16-v1-ats.pdf",
+    "bytes": 88527,
+    "sha256": "fca2776a5ea23821827f5c2da6826e81b9f8bee8344a9be70a9b37c143ecc639"
+  },
+  "hiringTeamAcknowledged": false
+}

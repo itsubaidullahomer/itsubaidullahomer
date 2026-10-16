@@ -1,0 +1,3 @@
+This legacy status file is superseded by docs/jobs/VERIFICATION.md.
+
+The current dated production snapshot, pending checks and verification boundaries are maintained there. Setup and operating guidance are in docs/jobs/SETUP.md.

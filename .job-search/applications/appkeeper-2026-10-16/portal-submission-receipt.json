@@ -1,0 +1,16 @@
+{
+  "submission": {
+    "id": "84036ccd-d913-4532-af57-77e02535be6c",
+    "jobId": "appkeeper-frontend",
+    "documentId": "08674e7d-6186-4301-90c3-e372c79d16cc",
+    "channel": "email",
+    "destination": "hello@appkeeper.ltd",
+    "submittedAt": "2026-10-15T23:51:19+00:00",
+    "confirmation": "Gmail SENT message 1a141fa39f65277c verified from itsubaidullahomer@gmail.com to hello@appkeeper.ltd with the 88,236-byte tailored v2 PDF attached. Fallback sent to a published general company contact after the careers form failed; hiring-team receipt not confirmed.",
+    "receiptUrl": "https://mail.google.com/mail/u/?authuser=itsubaidullahomer%40gmail.com#sent/1a141fa39f65277c",
+    "actor": "agent",
+    "resumeSha256": "fe8d2f13198a14bd8e560c7ce0b0ca5d13b260a301bd1a9dbd4f9bcd4a3fd4a0",
+    "resumeFilename": "ubaidullah-omer-appkeeper-frontend-2026-10-16-v2-ats.pdf",
+    "recordedAt": "2026-10-15T23:52:22.811277+00:00"
+  }
+}

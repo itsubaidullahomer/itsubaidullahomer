@@ -1,0 +1,21 @@
+## Give the restaurant a direct ordering channel
+
+Crown Kabab wanted to take orders through its own website and reduce its dependence on delivery platforms. The product needed to carry a customer from choosing food to payment and order updates, while keeping the kitchen connected to the same order.
+
+## The decisions behind the ordering flow
+
+**Treat the order as one connected journey.** I connected the cart, payment and order tracking, keeping cart state separate from server data. That made each part of the interface reflect the appropriate stage of the order.
+
+**Keep account setup light.** Google sign-in let customers use an existing account, and Stripe handled payment processing. The aim was to make ordering straightforward without adding another password to remember.
+
+**Support the people already ordering.** Danish and English content use the same ordering flow. Customers can follow the process in either language.
+
+**Connect customer and kitchen updates.** A status change in the kitchen is reflected in the customer's order view. Staff only need to make the update once.
+
+## My contribution
+
+I built the cart, payment integration and order tracking, and added Google sign-in and language support. The work tied the customer experience to the restaurant's handling of the order.
+
+## What that made possible
+
+The restaurant gained its own channel for customers to order directly. Those orders no longer needed to pass through a delivery marketplace, giving the restaurant more control over that part of its business.

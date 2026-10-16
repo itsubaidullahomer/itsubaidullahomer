@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-10-15T23:23:55.072848+00:00",
+  "outputs": [
+    {
+      "kind": "ats",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-master-2026-10-16-v2-ats.pdf",
+      "sha256": "984d78758249f7d695c205ca368633f7ee150836ef96863e9ed0bed8d5118eac",
+      "bytes": 88516,
+      "pages": 1,
+      "searchableWords": 368,
+      "contentBottomPt": 87.7897637795277,
+      "visualQa": "passed: final 1600px PNG inspected; readable type, consistent spacing, clean footer, no clipping/overlap/missing glyphs",
+      "render": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/2026-10-16-v2/ats-page-1.png",
+      "searchableConfirmedFacts": "TypeScript 4 years; Next.js 4 years; React Native 3 years; Docker and SQL 3+ years; GraphQL; Jest; React Testing Library; advanced spoken/written English; Vite/Webpack"
+    },
+    {
+      "kind": "outreach",
+      "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-master-2026-10-16-v2-outreach.pdf",
+      "sha256": "24d2a7873bcd50da636b5f63e6c85f29f12cf82b737f28ba3a0c8ce8890ce193",
+      "bytes": 75062,
+      "pages": 1,
+      "searchableWords": 375,
+      "contentBottomPt": 73.8897637795277,
+      "visualQa": "passed: final 1600px PNG inspected; readable type, consistent spacing, clean footer, no clipping/overlap/missing glyphs",
+      "render": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/resumes/masters/2026-10-16-v2/outreach-page-1.png",
+      "searchableConfirmedFacts": "TypeScript 4 years; Next.js 4 years; React Native 3 years; Docker and SQL 3+ years; GraphQL; Jest; React Testing Library; advanced spoken/written English; Vite/Webpack"
+    }
+  ],
+  "qaCompletedAt": "2026-10-15T23:24:28.943255+00:00",
+  "previousFileHashesUnchanged": true,
+  "preservedPreviousFiles": 4,
+  "noDegreeRulePreserved": true,
+  "unconfirmedAppkeeperAnswersAdded": false,
+  "cloudWrites": false
+}

@@ -1,0 +1,19 @@
+## Turn a writing tool into a working product
+
+Viloi rewrites machine-generated text so it reads more naturally. Building it meant thinking beyond the prompt: how to respond when a model gives an unsuitable result, how people access a paid plan, and how subscriptions keep working after the first payment.
+
+## The decisions behind the product
+
+**Give the pipeline another way to try.** I connected GPT-4, Claude and Gemini with fallback routing. When an output is flagged, the pipeline can retry through another model. That gives the product another path when one model's response is unsuitable.
+
+**Build for the whole subscription lifecycle.** I used Stripe webhooks to handle plan changes, cancellations and failed-payment follow-up. Those events need to work just as reliably as checkout if people are going to pay for the product over time.
+
+**Carry the work through the interface.** I designed and built the UI alongside the API, authentication and billing. It gave Viloi a visual identity of its own and let me take responsibility for the complete product.
+
+## My contribution
+
+I built Viloi solo, from the interface and multi-model pipeline to JWT authentication and subscription handling. The engineering decisions covered both the writing feature and the ongoing work of running a paid service.
+
+## What that made possible
+
+Viloi is live with paying customers. Model fallbacks provide a way to retry unsuitable results, and automated subscription handling keeps routine billing changes from becoming manual work.

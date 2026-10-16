@@ -1,0 +1,681 @@
+{
+  "capturedAt": "2026-10-15T23:22:40Z",
+  "scope": "Read-only research; local add_job draft only; no cloud mutations, applications, uploads, emails or UI actions.",
+  "jobs": [
+    {
+      "id": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+      "company": "Quirky Bit",
+      "title": "Frontend Developer (React)",
+      "url": "https://www.quirkybit.io/careers/apply?id=frontend-developer-react",
+      "location": "Lahore, Pakistan \u2014 full-time, onsite",
+      "salary": "Not disclosed",
+      "description": "Build React interfaces and interactive data displays for data-heavy products, with attention to speed and usability.",
+      "source": "Company careers",
+      "sourceId": "quirky-bit-frontend-developer-react",
+      "discoveredAt": "2026-10-15T23:22:40Z",
+      "updatedAt": "2026-10-15T23:22:40Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "strong",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Lahore, Pakistan \u2014 full-time, onsite is explicitly published on the employer career page. Pakistan geography is supported; any city-specific attendance commitment remains for application review.",
+      "requirements": [
+        {
+          "id": "q-react",
+          "text": "At least three years using React",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-experience"
+          ],
+          "explanation": "Danzee React delivery since January 2022 and subsequent React products support more than three calendar years without adding overlapping employment."
+        },
+        {
+          "id": "q-ts",
+          "text": "TypeScript proficiency",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-ts-next"
+          ],
+          "explanation": "Candidate directly confirmed four years of TypeScript."
+        },
+        {
+          "id": "q-data",
+          "text": "D3.js / Chart.js experience",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-analytics"
+          ],
+          "explanation": "Illume dashboard work names both libraries."
+        },
+        {
+          "id": "q-css",
+          "text": "Modern CSS experience",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Tailwind CSS is recorded in the resume and Yaksport stack. Styled Components is not claimed."
+        },
+        {
+          "id": "q-performance",
+          "text": "Web performance knowledge",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-performance"
+          ],
+          "explanation": "Jurri work includes code splitting, lazy loading and bundle optimization."
+        },
+        {
+          "id": "q-state",
+          "text": "State management familiarity",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Redux Toolkit and RTK Query are recorded; no MobX or Zustand claim."
+        },
+        {
+          "id": "q-next",
+          "text": "Next.js familiarity",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-ts-next"
+          ],
+          "explanation": "Candidate confirmed four years of Next.js."
+        },
+        {
+          "id": "q-testing",
+          "text": "Jest / React Testing Library",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-testing"
+          ],
+          "explanation": "Hands-on use confirmed directly; no duration inferred."
+        },
+        {
+          "id": "q-3d",
+          "text": "WebGL / Three.js exposure",
+          "essential": false,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "No candidate-provided experience established."
+        },
+        {
+          "id": "q-a11y",
+          "text": "Accessibility standards familiarity",
+          "essential": false,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Specific WCAG knowledge has not been confirmed."
+        }
+      ],
+      "tags": [
+        "Pakistan",
+        "Onsite",
+        "React",
+        "TypeScript",
+        "Data visualization",
+        "Frontend"
+      ],
+      "notes": "Live company careers page lists this opening. Public application JavaScript identifies remote:false. No degree requirement appears. All skill evidence is candidate-reported, not independently assessed. Application fields confirmed from publicly served code: name, email, required cover letter, resume (5 MB maximum; label PDF, input accepts PDF/DOC/DOCX), data-processing consent; phone and LinkedIn optional. No form was filled. Missing: Lahore attendance logistics, salary, WCAG and WebGL details. Application route is the job URL. Public hello@quirkybit.io is general company contact, not a verified recruiting inbox.",
+      "nextAction": "Prepare frontend resume and cover letter for review; confirm Lahore attendance and optional accessibility experience before submission.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.quirkybit.io",
+        "contacts": [
+          {
+            "id": "q-rabia",
+            "name": "Rabia Asad",
+            "role": "Publicly listed Quirky Bit employee",
+            "profileUrl": "https://pk.linkedin.com/in/rabia-asad333",
+            "sourceUrl": "https://www.linkedin.com/company/quirky-bit",
+            "referralRoute": "Public LinkedIn profile is a possible introduction or referral request route after approval.",
+            "notes": "Employee association is public; profile fetch returned 999. Current exact title and willingness to refer are not verified. No personal email inferred.",
+            "capturedAt": "2026-10-15T23:22:40Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "q-jd",
+            "label": "Employer careers listing",
+            "url": "https://www.quirkybit.io/careers",
+            "text": "Opening currently listed; frontend minimums and optional skills mapped individually. See stored careers HTML and public application bundle.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "q-form",
+            "label": "Employer application form",
+            "url": "https://www.quirkybit.io/careers/apply?id=frontend-developer-react",
+            "text": "Current application route is live; form requirements captured in notes from linked public JavaScript. No submission.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "q-discovery",
+            "label": "LinkedIn employer listing",
+            "url": "https://pk.linkedin.com/jobs/view/frontend-developer-react-at-quirky-bit-4459117752",
+            "text": "Matching employer-posted vacancy discovered on LinkedIn, then verified on company careers.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "q-staff",
+            "label": "Company employee listing",
+            "url": "https://www.linkedin.com/company/quirky-bit",
+            "text": "Company page publicly lists Rabia Asad as an employee and links her profile.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "research-pk-3b5ebae2-751f-40c4-b7e1-2fbbd6267ad7",
+      "company": "Dynamic Logix",
+      "title": "Senior Frontend Developer",
+      "url": "https://dynamiclogix.com/careers",
+      "location": "Sahiwal, Pakistan \u2014 full-time, onsite",
+      "salary": "Rs.80,000\u2013120,000; period not specified",
+      "description": "Implement product interfaces with React, TypeScript and modern frontend techniques.",
+      "source": "Company careers",
+      "sourceId": "dynamic-logix-senior-frontend-developer",
+      "discoveredAt": "2026-10-15T23:22:40Z",
+      "updatedAt": "2026-10-15T23:22:40Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "strong",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Sahiwal, Pakistan \u2014 full-time, onsite is explicitly published on the employer career page. Pakistan geography is supported; any city-specific attendance commitment remains for application review.",
+      "requirements": [
+        {
+          "id": "d-react",
+          "text": "At least three years of React",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-experience"
+          ],
+          "explanation": "React employment and subsequent shipped products support the duration."
+        },
+        {
+          "id": "d-ts",
+          "text": "TypeScript proficiency",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-ts-next"
+          ],
+          "explanation": "Four years confirmed directly by the candidate."
+        },
+        {
+          "id": "d-ui",
+          "text": "UI/UX implementation knowledge",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations",
+            "ev-analytics"
+          ],
+          "explanation": "Reusable components, dashboards and responsive booking interfaces support practical interface work; formal UX research expertise is not claimed."
+        }
+      ],
+      "tags": [
+        "Pakistan",
+        "Onsite",
+        "Frontend",
+        "React",
+        "TypeScript"
+      ],
+      "notes": "Opening remains listed on the employer website with an application form. Current fetched HTML explicitly says On-Site; generic benefits mention remote options but do not override this role. Company About page identifies the Sahiwal office. No degree requirement appears. Published salary is Rs.80,000\u2013120,000 with no period shown; do not assume monthly. Required form fields: full name, email, mobile, selected role, resume and cover letter (500 characters). Current HTML says resume PDF/DOCX, maximum 1 MB; search snapshot said 10 MB, so use the current 1 MB limit. Missing: exact working hours, salary period and attendance logistics. No submission or email.",
+      "nextAction": "Prepare a frontend resume below 1 MB and a cover letter below 500 characters; review Sahiwal attendance and salary period before submission.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "hr@dynamiclogix.com",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://dynamiclogix.com",
+        "contacts": [
+          {
+            "id": "d-jabbar",
+            "name": "Muhammad Jabbar",
+            "role": "CEO & Founder",
+            "profileUrl": "https://dynamiclogix.com/about",
+            "sourceUrl": "https://dynamiclogix.com/about",
+            "referralRoute": "Official HR inbox hr@dynamiclogix.com can receive a request to route an application or introduction.",
+            "notes": "Founder identity and inbox are published on the company site. No personal email or promised referral inferred.",
+            "capturedAt": "2026-10-15T23:22:40Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "d-jd",
+            "label": "Employer vacancy and application",
+            "url": "https://dynamiclogix.com/careers",
+            "text": "Current HTML confirms the listed frontend role, onsite model, salary text and application requirements. Stored as dynamic-careers.html and .txt.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "d-about",
+            "label": "Company founder and HR contact",
+            "url": "https://dynamiclogix.com/about",
+            "text": "Official About page identifies Muhammad Jabbar as CEO/founder, the Sahiwal address and hr@dynamiclogix.com.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "d-linkedin",
+            "label": "Company LinkedIn verification",
+            "url": "https://pk.linkedin.com/company/dynamic-logix",
+            "text": "Public company page links the official website and lists Muhammad Jabbar among employees.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "research-pk-5a68ea84-db98-4271-95b6-e4bd6b329fd3",
+      "company": "BearPlex",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://www.bearplex.com/careers/senior-full-stack-engineer",
+      "location": "Remote within Pakistan or hybrid in Lahore \u2014 full-time",
+      "salary": "Not disclosed",
+      "description": "Own React/TypeScript and Node features for enterprise SaaS, including PostgreSQL data design, quality and client delivery.",
+      "source": "Company careers",
+      "sourceId": "bearplex-senior-full-stack-engineer",
+      "discoveredAt": "2026-10-15T23:22:40Z",
+      "updatedAt": "2026-10-15T23:22:40Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Remote within Pakistan or hybrid in Lahore \u2014 full-time is explicitly published on the employer career page. Pakistan geography is supported; any city-specific attendance commitment remains for application review.",
+      "requirements": [
+        {
+          "id": "b-production",
+          "text": "Shipped production applications",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-backend",
+            "ev-integration"
+          ],
+          "explanation": "Tututor and paid Viloi/Illume workflows provide candidate-reported production evidence."
+        },
+        {
+          "id": "b-react",
+          "text": "React and TypeScript depth",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-confirmed-ts-next",
+            "ev-performance"
+          ],
+          "explanation": "Recorded React component work, four years of TypeScript, and optimization support the core frontend match."
+        },
+        {
+          "id": "b-node",
+          "text": "Node.js services and API design",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration"
+          ],
+          "explanation": "Express/MongoDB APIs and production integrations are recorded."
+        },
+        {
+          "id": "b-jobs",
+          "text": "Background processing experience",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Backend experience does not by itself prove background-job design and operations."
+        },
+        {
+          "id": "b-pg",
+          "text": "PostgreSQL schema/query/migration depth",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-confirmed-sql"
+          ],
+          "explanation": "Three-plus SQL years do not establish PostgreSQL operations, zero-downtime migration or tenant isolation depth."
+        },
+        {
+          "id": "b-architecture",
+          "text": "Architecture and technical judgment",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-backend"
+          ],
+          "explanation": "Shared backend ownership and lead-engineer scope support architectural decision making."
+        },
+        {
+          "id": "b-writing",
+          "text": "Clear technical writing",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-english",
+            "ev-remote"
+          ],
+          "explanation": "Advanced written English and international remote collaboration are confirmed; documentation samples can strengthen the application."
+        },
+        {
+          "id": "b-test",
+          "text": "Testing, observability and auditability",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-confirmed-testing",
+            "ev-testing"
+          ],
+          "explanation": "Testing is supported; production observability and auditability ownership need examples."
+        },
+        {
+          "id": "b-next",
+          "text": "Next.js",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-ts-next"
+          ],
+          "explanation": "Four years confirmed."
+        },
+        {
+          "id": "b-docker",
+          "text": "Docker and CI/CD familiarity",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-docker",
+            "ev-git-deploy"
+          ],
+          "explanation": "Docker 3+ years and CI/CD source evidence."
+        },
+        {
+          "id": "b-aws",
+          "text": "AWS familiarity",
+          "essential": false,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "No AWS claim supplied."
+        },
+        {
+          "id": "b-stores",
+          "text": "Redis or MongoDB experience",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration"
+          ],
+          "explanation": "Both are represented in shipped work."
+        },
+        {
+          "id": "b-payments",
+          "text": "Stripe integrations",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-integration"
+          ],
+          "explanation": "Subscriptions, webhooks and billing are recorded."
+        }
+      ],
+      "tags": [
+        "Pakistan",
+        "Remote",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Enterprise SaaS"
+      ],
+      "notes": "New vacancy distinct from the existing BearPlex MERN Stack Developer URL. Company page and current careers index list this full-time role; no degree requirement appears. Remote within Pakistan is explicit. Missing facts: PostgreSQL-specific depth, background jobs, production observability/auditability and optional AWS. Apply on role page: PDF upload up to 10 MB starts resume parsing, with a manual-form option. Later fields were not inspected because public HTML exposes only the initial step; direct HTTP returned 403 while web retrieval exposed the role. No upload, parsing or submission occurred. Founder contact is public and is only a possible referral route.",
+      "nextAction": "Confirm PostgreSQL migration/tenant isolation, background jobs and observability examples before preparing a truthful full-stack application.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.bearplex.com",
+        "contacts": [
+          {
+            "id": "b-hamad",
+            "name": "Hamad Pervaiz",
+            "role": "Founder & CEO",
+            "profileUrl": "https://www.linkedin.com/in/hamadpervaiz",
+            "sourceUrl": "https://www.bearplex.com/authors/hamad-pervaiz",
+            "referralRoute": "Public LinkedIn profile; an introduction or referral request may be prepared for approval.",
+            "notes": "No existing relationship, hiring authority for this exact vacancy, or referral willingness is assumed.",
+            "capturedAt": "2026-10-15T23:22:40Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "b-jd",
+            "label": "Employer role page",
+            "url": "https://www.bearplex.com/careers/senior-full-stack-engineer",
+            "text": "Role page readable through web retrieval; explicit Pakistan remote/hybrid location and requirements mapped individually. Direct shell retrieval returned 403.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "b-index",
+            "label": "Employer open-role index",
+            "url": "https://www.bearplex.com/careers",
+            "text": "Senior Full-Stack Engineer appears as an open Development role, separately from MERN Stack Developer.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "b-founder",
+            "label": "Official founder profile",
+            "url": "https://www.bearplex.com/authors/hamad-pervaiz",
+            "text": "Official company author page confirms Hamad Pervaiz as founder and CEO.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "b-linkedin",
+            "label": "Founder public profile",
+            "url": "https://www.linkedin.com/in/hamadpervaiz",
+            "text": "Public professional profile corroborates BearPlex association and supplies a potential contact route.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "research-pk-463ba37c-06ee-4f64-8c65-3d92e1683137",
+      "company": "AFNEXIS LLC",
+      "title": "Full Stack Developer",
+      "url": "https://afnexis.com/career",
+      "location": "Remote / Multan, Pakistan \u2014 full-time",
+      "salary": "Not disclosed",
+      "description": "Deliver web applications for global clients in an AI-focused engineering company.",
+      "source": "Company careers",
+      "sourceId": "afnexis-llc-full-stack-developer",
+      "discoveredAt": "2026-10-15T23:22:40Z",
+      "updatedAt": "2026-10-15T23:22:40Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Remote / Multan, Pakistan \u2014 full-time is explicitly published on the employer career page. Pakistan geography is supported; any city-specific attendance commitment remains for application review.",
+      "requirements": [
+        {
+          "id": "a-react",
+          "text": "Three-plus years with React",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-experience"
+          ],
+          "explanation": "React employment and subsequent products support more than three calendar years."
+        },
+        {
+          "id": "a-next",
+          "text": "Three-plus years with Next.js",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-ts-next"
+          ],
+          "explanation": "Four years confirmed directly."
+        },
+        {
+          "id": "a-node",
+          "text": "Three-plus years with Node.js",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-experience"
+          ],
+          "explanation": "Node/Express integrations at Danzee and continued Tututor/backend work support the duration; overlapping dates are not added."
+        },
+        {
+          "id": "a-mongo",
+          "text": "Database design with MongoDB",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend"
+          ],
+          "explanation": "Shared backend models and production MongoDB work are recorded."
+        },
+        {
+          "id": "a-postgres",
+          "text": "PostgreSQL database design",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-confirmed-sql"
+          ],
+          "explanation": "SQL 3+ years is confirmed but vendor-specific design remains unspecified."
+        },
+        {
+          "id": "a-cloud",
+          "text": "AWS, Azure or GCP knowledge",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [],
+          "explanation": "Docker and Vercel/DigitalOcean evidence do not establish any listed cloud."
+        },
+        {
+          "id": "a-devops",
+          "text": "CI/CD and DevOps understanding",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-git-deploy",
+            "ev-confirmed-docker"
+          ],
+          "explanation": "CI/CD tooling is listed and Docker 3+ years is confirmed; Kubernetes or Terraform is not claimed."
+        }
+      ],
+      "tags": [
+        "Pakistan",
+        "Remote",
+        "React",
+        "Next.js",
+        "Node.js",
+        "AI products"
+      ],
+      "notes": "Company-owned careers page lists this opening and Pakistan remote geography; no degree requirement appears. Missing: PostgreSQL and named cloud evidence, salary and contract/hours specifics. Apply via the recruitment form on the careers page (scroll to Apply to join Afnexis). Required: name, email, position and experience band. Optional: phone, LinkedIn, Why Afnexis. The career card Apply now currently links the general customer contact page, so use the careers recruitment form rather than the sales form. No resume upload is visible in current HTML. Candidate total experience supports 3\u20135 years; do not select a higher band. No form filled or submitted.",
+      "nextAction": "Confirm PostgreSQL and listed-cloud experience, then prepare the careers recruitment form and concise Why Afnexis response for review.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://afnexis.com",
+        "contacts": [
+          {
+            "id": "a-aashir",
+            "name": "Muhammad Aashir Tariq",
+            "role": "Founder & Head of Engineering",
+            "profileUrl": "https://www.linkedin.com/in/muhammad-aashir-tariq/",
+            "sourceUrl": "https://afnexis.com/about",
+            "referralRoute": "Officially linked LinkedIn profile for an approved introduction or referral request.",
+            "notes": "Company role and profile link verified on official About page. No referral availability or personal relationship assumed.",
+            "capturedAt": "2026-10-15T23:22:40Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "a-jd",
+            "label": "Employer role and recruitment form",
+            "url": "https://afnexis.com/career",
+            "text": "Current employer careers HTML lists Full Stack Developer and the recruitment form. Requirement mapping and form fields appear in this record.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "a-founder",
+            "label": "Official founder profile",
+            "url": "https://afnexis.com/about/aashir-tariq",
+            "text": "Official company profile identifies Muhammad Aashir Tariq as founder and Head of Engineering.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "a-about",
+            "label": "Company leadership links",
+            "url": "https://afnexis.com/about",
+            "text": "Official About page links the founder LinkedIn profile; company staffing is based in Multan.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "a-contact",
+            "label": "General contact route",
+            "url": "https://afnexis.com/contact",
+            "text": "Published company email is info@afnexis.com; this is a general inquiry route, not a recruiting inbox.",
+            "capturedAt": "2026-10-15T23:22:40Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  ]
+}

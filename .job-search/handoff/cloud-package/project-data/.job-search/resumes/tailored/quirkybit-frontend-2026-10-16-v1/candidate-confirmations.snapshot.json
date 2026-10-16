@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-15T22:32:44.165Z",
+  "source": "Direct candidate answers in this chat, October 16, 2026",
+  "independentlyVerified": false,
+  "skills": {
+    "typescript": {
+      "years": 4
+    },
+    "nextjs": {
+      "years": 4
+    },
+    "reactNative": {
+      "years": 3
+    },
+    "docker": {
+      "yearsMinimum": 3,
+      "wording": "3+ years"
+    },
+    "sql": {
+      "yearsMinimum": 3,
+      "wording": "3+ years"
+    },
+    "jest": {
+      "handsOn": true
+    },
+    "reactTestingLibrary": {
+      "handsOn": true
+    },
+    "graphql": {
+      "handsOn": true
+    }
+  },
+  "english": {
+    "spoken": "Advanced",
+    "written": "Advanced",
+    "testScore": null
+  },
+  "availability": "Available immediately",
+  "schedule": "Available for full US business hours",
+  "salaryExpectation": {
+    "amount": 50000,
+    "currency": "USD",
+    "period": "year",
+    "negotiable": true,
+    "minimum": false
+  },
+  "accessReportedByUser": {
+    "portalPasswordSaved": true,
+    "gmailSignInCompleted": true
+  },
+  "cautions": [
+    "SQL does not establish PostgreSQL-specific features or row-level security.",
+    "Docker does not establish Kubernetes, AWS, GCP or Terraform experience.",
+    "User-reported sign-in must be checked against the live authorized account.",
+    "Full US business hours does not authorize special paid trials, on-call, relocation or travel commitments.",
+    "No completed university degree."
+  ],
+  "additionalConfirmations": {
+    "frontendPractices": {
+      "sharedComponentLibraryOrDesignSystemMaintenance": true,
+      "cssGridFlexbox": true,
+      "codeReviewParticipation": true,
+      "confirmedAt": "2026-10-15T23:26:37.018Z",
+      "source": "Direct candidate reply: I have hands-on experience with all three",
+      "verification": "candidate_reported"
+    }
+  }
+}

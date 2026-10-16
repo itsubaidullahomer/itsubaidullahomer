@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-15T16:21:33.514Z",
+  "deployment": "dpl_DpyL74GvNK1mATTCGpuyDrWQP1JH",
+  "anonymous": [
+    {
+      "path": "/admin",
+      "status": 307,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "robots": "noindex, nofollow",
+      "referrer": "no-referrer"
+    },
+    {
+      "path": "/admin/login",
+      "status": 200,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "robots": "noindex, nofollow",
+      "referrer": "no-referrer"
+    },
+    {
+      "path": "/admin/preview",
+      "status": 404,
+      "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "robots": "noindex, nofollow",
+      "referrer": "no-referrer"
+    },
+    {
+      "path": "/api/jobs/workspace",
+      "status": 401,
+      "cache": "private, no-store",
+      "robots": "noindex, nofollow",
+      "referrer": "strict-origin-when-cross-origin"
+    },
+    {
+      "path": "/api/jobs/documents",
+      "status": 401,
+      "cache": "private, no-store",
+      "robots": "noindex, nofollow",
+      "referrer": "strict-origin-when-cross-origin"
+    },
+    {
+      "path": "/api/jobs/submissions",
+      "status": 401,
+      "cache": "private, no-store",
+      "robots": "noindex, nofollow",
+      "referrer": "strict-origin-when-cross-origin"
+    }
+  ],
+  "ownerReceiptStatus": 200,
+  "receiptCount": 0,
+  "invalidReceiptRejected": true,
+  "invalidReceiptChangedWorkspace": false,
+  "jobs": 40,
+  "stages": {
+    "discovered": 32,
+    "drafting": 8
+  }
+}

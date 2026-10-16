@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-15T15:48:51.610Z",
+  "total": 40,
+  "counts": {
+    "strong": 4,
+    "gaps": 0,
+    "unknown": 36,
+    "stretch": 0
+  },
+  "actions": 9,
+  "scope": "Local simulation of eight review updates and one new lead. No cloud calls or applications."
+}

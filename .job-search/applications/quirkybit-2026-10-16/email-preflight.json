@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-16T00:41:07.647454+00:00",
+  "jobId": "research-pk-3c0f1316-4a22-4c16-853b-37395c9a98ff",
+  "company": "Quirky Bit",
+  "role": "Frontend Developer (React)",
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "hello@quirkybit.io",
+  "subject": "Frontend Developer (React) application - Ubaidullah Omer",
+  "bodyPath": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/.job-search/applications/quirkybit-2026-10-16/email.txt",
+  "bodySha256": "e23785f6f66a3743f3bd44516480d24b3b8a5296668ad6f5aea04036c4ede5c9",
+  "route": {
+    "type": "published_general_company_contact_fallback",
+    "isVerifiedHiringInbox": false,
+    "reason": "Frontend careers form returned CAPTCHA verification failed; user corrected earlier success report and confirmed no submission.",
+    "request": "Forward this application to the hiring team.",
+    "hiringTeamReceiptConfirmed": false
+  },
+  "attachment": {
+    "path": "/Users/ubaidullah/.codex/worktrees/d141/itsubaidullahomer/output/pdf/ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf",
+    "filename": "ubaidullah-omer-quirkybit-frontend-2026-10-16-v1-ats.pdf",
+    "mimeType": "application/pdf",
+    "bytes": 88348,
+    "sha256": "8fcba6ee0f7c945bc1d24585105e745992788a343df654d26ea263cf7b594b91",
+    "documentId": "004c0f22-b2f6-40ac-a03f-1939d8bc4e64",
+    "localHashMatchesSavedQa": true,
+    "localHashMatchesCurrentCloudMetadata": true,
+    "textQa": "pass",
+    "visualQa": "pass"
+  },
+  "sourceEvidence": [
+    {
+      "url": "https://www.quirkybit.io/careers",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-16T00:39:22.951Z",
+      "htmlSha256": "bbd4dbfea009f088b8c7a126122dbdc59e369e034da64d1ad994eab4adb01ddd",
+      "finding": "Frontend Apply now links /careers/apply?id=frontend-developer-react; Introduce yourself links /contact; footer contains mailto:hello@quirkybit.io."
+    },
+    {
+      "url": "https://www.quirkybit.io/contact",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-16T00:39:23.029Z",
+      "htmlSha256": "7b69ddbedc0e179324f562c6512cfb6d918a326047f3345df0e573fb782dbf4a",
+      "finding": "Direct-contact email explicitly links mailto:hello@quirkybit.io. Page is a general business-contact surface, not a designated recruiting inbox."
+    }
+  ],
+  "fitEligibility": {
+    "portalCheckedAt": "2026-10-16T00:39:17.128Z",
+    "fit": "strong",
+    "eligibility": "confirmed",
+    "essentialRequirementsAllMet": true,
+    "candidateEvidence": "Candidate-reported, not independent skill assessment",
+    "publishedLocation": "Lahore, Pakistan; full-time onsite",
+    "candidateLocation": "Rahim Yar Khan, Pakistan",
+    "commitmentBoundary": "Draft expresses interest; no Lahore residency, relocation, commute, salary, onsite schedule, degree, WebGL or WCAG expertise is claimed.",
+    "optionalUnknowns": [
+      "WebGL / Three.js exposure",
+      "WCAG standards familiarity"
+    ]
+  },
+  "dedupe": {
+    "portal": {
+      "checkedAt": "2026-10-16T00:39:17.128Z",
+      "status": "drafting",
+      "appliedAt": null,
+      "matchingReceipts": 0,
+      "receiptHasMore": false
+    },
+    "gmail": {
+      "accountIdentityVerified": "itsubaidullahomer@gmail.com",
+      "accountLinkId": "link_6ad15b33dabc8191a6af53049b344daf",
+      "query": "in:sent (to:hello@quirkybit.io OR quirkybit OR \"Quirky Bit\")",
+      "matchingMessages": 0,
+      "nextPageToken": null,
+      "checkedAt": "2026-10-16T00:39:23Z"
+    },
+    "limitation": "No matching recorded send or receipt found; do not infer absence of an unrecorded submission beyond these checks."
+  },
+  "writingStyle": "Applied previously read write-like-me skill using suitable sent application references already retrieved in this task; no samples cached.",
+  "sources": [
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/cover-letter.txt",
+    ".job-search/resumes/tailored/quirkybit-frontend-2026-10-16-v1/readiness.json",
+    ".job-search/resumes/masters/facts.json",
+    ".job-search/private/application-facts.json",
+    ".job-search/applications/quirkybit-2026-10-16/attempt.json"
+  ],
+  "readyForRootReview": true,
+  "externalActions": {
+    "sent": false,
+    "gmailDraftCreated": false,
+    "portalWrites": false,
+    "browserActions": false,
+    "formRetries": false
+  }
+}

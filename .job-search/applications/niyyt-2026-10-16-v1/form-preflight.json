@@ -1,0 +1,56 @@
+[
+  {
+    "name": "name",
+    "type": "text",
+    "valid": true,
+    "value": "Ubaidullah Omer"
+  },
+  {
+    "name": "email",
+    "type": "email",
+    "valid": true,
+    "value": "<redacted>"
+  },
+  {
+    "name": "phone",
+    "type": "text",
+    "valid": true,
+    "value": "<redacted>"
+  },
+  {
+    "name": "portfolioLink",
+    "type": "url",
+    "valid": true,
+    "value": "https://itsubaidullahomer.com"
+  },
+  {
+    "name": "citizenship",
+    "type": "select-one",
+    "valid": true,
+    "value": "Pakistan"
+  },
+  {
+    "name": "isEmployed",
+    "type": "select-one",
+    "valid": true,
+    "value": "Yes"
+  },
+  {
+    "name": "salaryCurrency",
+    "type": "select-one",
+    "valid": true,
+    "value": "PKR"
+  },
+  {
+    "name": "salaryAmount",
+    "type": "number",
+    "valid": true,
+    "value": "260000"
+  },
+  {
+    "name": "coverLetter",
+    "type": "textarea",
+    "valid": true,
+    "value": "Hi Niyyt team,\n\nI build products from the interface to the backend, and your Next.js/Node.js role fits the work I do. I have four years of TypeScript and Next.js experience, production PostgreSQL experience, and hands-on Node.js, REST API and MongoDB work. My projects include AI analytics, AI writing software, and connected web and mobile education products.\n\nI am a Pakistani citizen based in Pakistan and can work Australian business hours. I am currently employed, with my contract ending at the end of October.\n\nPortfolio: https://itsubaidullahomer.com\nGitHub: https://github.com/itsubaidullahomer\n\nI would welcome a technical discussion about what you are building.\n\nUbaidullah Omer"
+  }
+]

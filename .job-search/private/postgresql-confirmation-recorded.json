@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-10-16T01:10:28.604Z",
+  "evidence": {
+    "id": "ev-confirmed-postgresql",
+    "skill": "PostgreSQL — production experience",
+    "level": "working",
+    "statement": "The candidate explicitly confirmed using PostgreSQL in production on October 16, 2026. No PostgreSQL-specific tenure, migrations, performance tuning, distributed SQL or row-level security expertise is inferred. Direct candidate statement retained in private application facts; not independently assessed.",
+    "source": "https://admin.itsubaidullahomer.com/admin",
+    "verified": false
+  }
+}

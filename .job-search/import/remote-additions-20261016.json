@@ -1,0 +1,515 @@
+[
+  {
+    "type": "add_job",
+    "job": {
+      "id": "allcancode-mid-fullstack-20261016",
+      "company": "Allcancode",
+      "title": "Mid-level full-stack developer",
+      "url": "https://www.allcancode.com/careers",
+      "location": "Remote \u2014 worldwide",
+      "salary": "Not published",
+      "description": "Lead a delivery team building client products and integrating UI components, APIs and new technologies. Employer advertises year-round rolling recruitment, including full-time and part-time work; no current requisition date or headcount is supplied.",
+      "source": "Employer careers page \u2014 manually reviewed",
+      "sourceId": "allcancode-mid-fullstack-20261016",
+      "discoveredAt": "2026-10-15T23:21:46.878866Z",
+      "updatedAt": "2026-10-15T23:21:46.878866Z",
+      "status": "discovered",
+      "priority": "high",
+      "fit": "strong",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer explicitly publishes worldwide remote eligibility; Pakistan falls within that public scope. No country restriction was found in the reviewed role. This is not a guarantee of eventual contract or payroll arrangements.",
+      "requirements": [
+        {
+          "id": "allcan-react",
+          "text": "React-family or Node fluency",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-backend",
+            "ev-confirmed-ts-next",
+            "ev-confirmed-mobile"
+          ],
+          "explanation": "Candidate reports four years each of TypeScript and Next.js, three years React Native, plus production React and Node/Express work."
+        },
+        {
+          "id": "allcan-dbs",
+          "text": "Document and relational databases",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-confirmed-sql"
+          ],
+          "explanation": "MongoDB production work plus candidate-confirmed SQL for 3+ years supports these broad database categories. PostgreSQL or SQL Server expertise is not claimed."
+        },
+        {
+          "id": "allcan-team",
+          "text": "Team collaboration and delivery leadership",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-remote"
+          ],
+          "explanation": "Candidate reports leading web/mobile delivery and working directly with an international founder."
+        },
+        {
+          "id": "allcan-learning",
+          "text": "Adapt to new tools and technologies",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-ai",
+            "ev-integration",
+            "ev-mobile"
+          ],
+          "explanation": "Reported delivery spans AI integrations, payment providers and mobile apps, providing concrete evidence of learning across products."
+        }
+      ],
+      "tags": [
+        "remote",
+        "worldwide",
+        "react",
+        "typescript",
+        "reviewed-2026-10-16"
+      ],
+      "notes": "Missing application facts: five 1\u20135 self-ratings (React, React Native, Next.js, document databases, relational databases); personal yes/no view on AI replacing developers and explanation; candidate approval of motivation wording. Optional hobby and reference fields can remain blank. No degree requested. Open listing and live form verified; rolling recruitment does not prove funded headcount. No personal referral relationship is verified.",
+      "nextAction": "Prepare form answers; obtain the personal self-ratings and AI outlook before submission. Use the employer-linked Google Form; no submission performed.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.allcancode.com",
+        "contacts": [
+          {
+            "id": "allcan-kostas",
+            "name": "Kostas Karolemeas",
+            "role": "CEO & Co-founder (listed on employer site)",
+            "profileUrl": "https://www.allcancode.com/about",
+            "sourceUrl": "https://www.allcancode.com/about",
+            "referralRoute": "No verified referral route; use the application form linked from careers.",
+            "notes": "Employer team page is the source; no private contact or introduction is inferred.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "allcan-role",
+            "label": "Employer role and rolling-open status",
+            "url": "https://www.allcancode.com/careers",
+            "text": "Worldwide rolling recruitment. React/Next/React Native or Node, both database categories, teamwork and adaptability are requested.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "allcan-form",
+            "label": "Live application form, public GET inspected",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScTX4kn5-9IwbtIQg5nvxr5QLY-WyIL3K3mTvMNBxHQYid1CQ/viewform",
+            "text": "HTTP 200; five-page questionnaire. Required identity/commitment, motivation, AI opinion, project/role narratives and technology self-ratings. Optional hobby/references.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "allcan-team",
+            "label": "Employer team listing",
+            "url": "https://www.allcancode.com/about",
+            "text": "Employer page names Kostas Karolemeas as CEO/cofounder and Spyros Mpampalis as software engineer. Current affiliations beyond this page are not independently established.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "add_job",
+    "job": {
+      "id": "lit8-fullstack-20261016",
+      "company": "Lit8",
+      "title": "Fullstack Developer",
+      "url": "https://hr.lit8.com/profiles/fullstack-developer/",
+      "location": "Remote \u2014 worldwide",
+      "salary": "Not published",
+      "description": "Product engineering across React interfaces, Node APIs and database queries. Mid-level role spanning implementation, testing, reviews and user-focused delivery.",
+      "source": "Employer careers page \u2014 manually reviewed",
+      "sourceId": "lit8-fullstack-20261016",
+      "discoveredAt": "2026-10-15T23:21:46.878866Z",
+      "updatedAt": "2026-10-15T23:21:46.878866Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer explicitly publishes worldwide remote eligibility; Pakistan falls within that public scope. No country restriction was found in the reviewed role. This is not a guarantee of eventual contract or payroll arrangements.",
+      "requirements": [
+        {
+          "id": "lit8-experience",
+          "text": "3\u20135 years professional full-stack work",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-backend",
+            "ev-react"
+          ],
+          "explanation": "Chronology supports four-plus calendar years of development with React and backend integration contributions. Overlapping roles are not added together."
+        },
+        {
+          "id": "lit8-ts",
+          "text": "Strong TypeScript across frontend and backend",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-confirmed-ts-next",
+            "ev-backend"
+          ],
+          "explanation": "Four years of TypeScript and production Node are confirmed separately; the canonical record does not explicitly locate TypeScript work in the backend. Confirm before declaring this precise requirement met."
+        },
+        {
+          "id": "lit8-react",
+          "text": "Production React and tooling",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Reusable components, hooks and multiple shipped React interfaces are reported."
+        },
+        {
+          "id": "lit8-backend",
+          "text": "Node and relational databases; REST/security basics",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-confirmed-sql",
+            "ev-integration"
+          ],
+          "explanation": "Node/Express REST services, SQL for 3+ years and JWT/server-side-key handling provide relevant evidence."
+        },
+        {
+          "id": "lit8-delivery",
+          "text": "Git, CI/CD, collaboration and product ownership",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-git-deploy",
+            "ev-remote",
+            "ev-product"
+          ],
+          "explanation": "Source materials list Git/CI-CD and describe international delivery with founder-level product collaboration."
+        },
+        {
+          "id": "lit8-testing",
+          "text": "Unit, integration and end-to-end test delivery",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-testing",
+            "ev-confirmed-testing"
+          ],
+          "explanation": "Jest, React Testing Library, Cypress and golden tests are supported; a concrete integration-test example is not captured."
+        },
+        {
+          "id": "lit8-postgres",
+          "text": "Preferred PostgreSQL; optional AWS",
+          "essential": false,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-confirmed-sql",
+            "ev-confirmed-docker"
+          ],
+          "explanation": "SQL and Docker do not prove PostgreSQL-specific or AWS experience. These preferred technologies remain unverified."
+        },
+        {
+          "id": "lit8-nice",
+          "text": "Optional Next.js, Tailwind and real-time work",
+          "essential": false,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-ts-next",
+            "ev-frontend-foundations",
+            "ev-integration"
+          ],
+          "explanation": "Four years Next.js, Tailwind and Socket.io/Redis are supported."
+        }
+      ],
+      "tags": [
+        "remote",
+        "worldwide",
+        "react",
+        "typescript",
+        "reviewed-2026-10-16"
+      ],
+      "notes": "Missing facts: backend TypeScript example; integration-test example; PostgreSQL depth and AWS exposure (preferred, not assumed). No completed degree is required. No named staff/referral verified; the listing identifies only HR Team. Employer currently lists the role and publishes a direct application email; no fixed hiring deadline or salary.",
+      "nextAction": "Confirm backend TypeScript and integration-testing examples, then prepare a focused email with the full-stack resume for review. Employer mailto subject: Application: Fullstack Developer.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "careers@lit8.com",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://lit8.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "lit8-role",
+            "label": "Employer job page",
+            "url": "https://hr.lit8.com/profiles/fullstack-developer/",
+            "text": "Worldwide full-time opening: 3\u20135 years, TypeScript/React/Node, relational data, REST/security, Git/CI-CD, ownership; PostgreSQL preferred. Email application route.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "lit8-index",
+            "label": "Live employer vacancy index",
+            "url": "https://hr.lit8.com/",
+            "text": "HTTP 200 index links the Fullstack Developer vacancy. Salary is TBD.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "add_job",
+    "job": {
+      "id": "signx-senior-fullstack-20261016",
+      "company": "SignX Solutions",
+      "title": "Senior Full-Stack Engineer",
+      "url": "https://www.signxsolutions.com/career",
+      "location": "Remote \u2014 worldwide",
+      "salary": "Not published",
+      "description": "Deliver client web products across interfaces, services and data models, with architecture and mentoring responsibilities.",
+      "source": "Employer careers page \u2014 manually reviewed",
+      "sourceId": "signx-senior-fullstack-20261016",
+      "discoveredAt": "2026-10-15T23:21:46.878866Z",
+      "updatedAt": "2026-10-15T23:21:46.878866Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer explicitly publishes worldwide remote eligibility; Pakistan falls within that public scope. No country restriction was found in the reviewed role. This is not a guarantee of eventual contract or payroll arrangements.",
+      "requirements": [
+        {
+          "id": "signx-react",
+          "text": "React, Next.js and Node delivery",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-react",
+            "ev-confirmed-ts-next",
+            "ev-backend"
+          ],
+          "explanation": "Reported production React/Node experience and four years of Next.js directly match the published stack."
+        },
+        {
+          "id": "signx-api",
+          "text": "Scalable APIs and data models",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-backend",
+            "ev-integration"
+          ],
+          "explanation": "Shared Express/MongoDB APIs, school-scoped data access, billing and real-time services provide relevant architecture evidence."
+        },
+        {
+          "id": "signx-cloud",
+          "text": "Cloud-native architecture",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-git-deploy",
+            "ev-confirmed-docker"
+          ],
+          "explanation": "Vercel/DigitalOcean/CI-CD and Docker are supported, but broad cloud-native architecture ownership is not specifically evidenced. Ask what depth/provider is expected."
+        },
+        {
+          "id": "signx-team",
+          "text": "Technical collaboration and engineer mentoring",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-product",
+            "ev-remote"
+          ],
+          "explanation": "Candidate reports leading a small web/mobile team and working directly with the founder on engineering choices."
+        }
+      ],
+      "tags": [
+        "remote",
+        "worldwide",
+        "react",
+        "typescript",
+        "reviewed-2026-10-16"
+      ],
+      "notes": "Missing fact: concrete cloud-native architecture example or employer clarification of scope. Detailed years, degree and salary thresholds are not published. Public team page identifies Muhammad Ansar, CTO/cofounder, but does not publish a personal referral route. The public company contact is also the stated destination of the careers form; this does not establish an individual relationship.",
+      "nextAction": "Clarify cloud architecture scope, then prepare the short careers-form message and factual full-stack resume for review.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "contact@signxsolutions.com",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://www.signxsolutions.com",
+        "contacts": [
+          {
+            "id": "signx-ansar",
+            "name": "Muhammad Ansar",
+            "role": "CTO & Co-Founder",
+            "profileUrl": "https://www.signxsolutions.com/about/team",
+            "sourceUrl": "https://www.signxsolutions.com/about/team",
+            "referralRoute": "No verified personal referral route; official application form is on /career.",
+            "notes": "Staff identity is employer-published. No inferred email or referral relationship.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z"
+          }
+        ],
+        "sources": [
+          {
+            "id": "signx-role",
+            "label": "Employer opening and application form",
+            "url": "https://www.signxsolutions.com/career",
+            "text": "Worldwide full-time React/Next/Node opening. Form requires given/family names, email and message; CV attachment supported up to 10 MB.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          },
+          {
+            "id": "signx-team",
+            "label": "Employer team page",
+            "url": "https://www.signxsolutions.com/about/team",
+            "text": "Muhammad Ansar is listed as CTO/cofounder. No personal profile or referral address is published here.",
+            "capturedAt": "2026-10-15T23:21:46.878866Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "add_job",
+    "job": {
+      "id": "omkar-frontend-20261016",
+      "company": "Omkar Universe",
+      "title": "Frontend Engineer",
+      "url": "https://omkaruniverse.com/careers/frontend-engineer",
+      "location": "Remote \u2014 worldwide",
+      "salary": "Not published",
+      "description": "Build the Next.js public site and admin interfaces, connecting APIs and implementing designs with tests and performance work.",
+      "source": "Employer careers page \u2014 manually reviewed",
+      "sourceId": "omkar-frontend-20261016",
+      "discoveredAt": "2026-10-15T23:21:46.878866Z",
+      "updatedAt": "2026-10-15T23:21:46.878866Z",
+      "status": "discovered",
+      "priority": "medium",
+      "fit": "unknown",
+      "eligibility": "confirmed",
+      "eligibilityEvidence": "Employer explicitly publishes worldwide remote eligibility; Pakistan falls within that public scope. No country restriction was found in the reviewed role. This is not a guarantee of eventual contract or payroll arrangements.",
+      "requirements": [
+        {
+          "id": "omkar-react",
+          "text": "3+ years production React",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-experience",
+            "ev-react"
+          ],
+          "explanation": "React developer chronology begins January 2022 and continues through current product delivery."
+        },
+        {
+          "id": "omkar-css",
+          "text": "CSS and utility-based styling",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-frontend-foundations"
+          ],
+          "explanation": "HTML/CSS, Tailwind and production responsive interfaces are listed in candidate sources."
+        },
+        {
+          "id": "omkar-ts",
+          "text": "Production TypeScript",
+          "essential": true,
+          "assessment": "met",
+          "evidenceIds": [
+            "ev-confirmed-ts-next",
+            "ev-react"
+          ],
+          "explanation": "Candidate confirms four years of professional TypeScript."
+        },
+        {
+          "id": "omkar-accessibility",
+          "text": "Accessibility and cross-browser correctness",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Interface delivery is supported, but no specific accessibility or cross-browser validation example is captured."
+        },
+        {
+          "id": "omkar-delivery",
+          "text": "Design implementation, APIs, tests and performance",
+          "essential": true,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-react",
+            "ev-backend",
+            "ev-testing",
+            "ev-confirmed-testing",
+            "ev-performance"
+          ],
+          "explanation": "Reusable UI, REST integrations, Cypress/Jest/RTL and performance improvements are supported; pixel-accurate Figma implementation is not explicitly confirmed."
+        },
+        {
+          "id": "omkar-optional",
+          "text": "Optional App Router and query-library experience",
+          "essential": false,
+          "assessment": "unknown",
+          "evidenceIds": [
+            "ev-confirmed-ts-next",
+            "ev-frontend-foundations"
+          ],
+          "explanation": "Next.js and RTK Query are supported; App Router-specific tenure is not stated."
+        }
+      ],
+      "tags": [
+        "remote",
+        "worldwide",
+        "react",
+        "typescript",
+        "reviewed-2026-10-16"
+      ],
+      "notes": "Missing facts: accessibility/cross-browser and Figma implementation examples; App Router-specific experience if discussed. Employer publishes worldwide remote without mandatory time-zone overlap. No degree or salary requirement published. No named employee/referral route verified; use the role form.",
+      "nextAction": "Confirm accessibility and design-handoff examples, then prepare the role form with name, email and resume; optional portfolio, LinkedIn, phone and cover letter can use canonical facts.",
+      "nextActionDate": null,
+      "draft": "",
+      "contactEmail": "",
+      "appliedAt": null,
+      "research": {
+        "companyUrl": "https://omkaruniverse.com",
+        "contacts": [],
+        "sources": [
+          {
+            "id": "omkar-role",
+            "label": "Employer role and form",
+            "url": "https://omkaruniverse.com/careers/frontend-engineer",
+            "text": "Worldwide frontend opening using React/TypeScript/Next. Three-plus years React, CSS, accessibility and browser correctness. Required form fields: name, email, CV (PDF/DOC/DOCX, up to 5 MB).",
+            "capturedAt": "2026-10-15T23:21:46.878866Z",
+            "screenshotUrl": "",
+            "screenshotPath": ""
+          }
+        ]
+      }
+    }
+  }
+]
