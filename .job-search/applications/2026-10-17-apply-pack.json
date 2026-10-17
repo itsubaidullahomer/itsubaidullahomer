@@ -77,6 +77,16 @@
       "resume": "output/pdf/ubaidullah-omer-metabase-frontend-ats.pdf",
       "verifiedOpen": "2026-10-17 Lever API returns posting",
       "humanStep": "careers-page console code"
+    },
+    {
+      "order": 9,
+      "id": "himalayas-sortitt-fullstack",
+      "company": "Sortitt (UK client)",
+      "title": "Full-Stack Software Engineer (MERN + Next.js + OpenAI + AWS)",
+      "apply": "https://himalayas.app/companies/sortitt/jobs/full-stack-software-engineer",
+      "resume": "output/pdf/ubaidullah-omer-sortitt-fullstack-2026-10-17-v1-ats.pdf",
+      "verifiedOpen": "Himalayas listing published 2026-09-29",
+      "gap": "Working knowledge of AWS required; candidate studied, no production use"
     }
   ],
   "submitted": [],
@@ -109,6 +119,20 @@
     {
       "company": "Polly / WebFX",
       "reason": "Postings closed (404)"
+    },
+    {
+      "company": "Fractalbox",
+      "title": "Senior Backend Engineer",
+      "reason": "Extensive major-cloud + Python + DevOps required"
+    },
+    {
+      "company": "Deed",
+      "title": "Senior Mobile Engineer",
+      "reason": "Native Swift/Kotlin and degree required"
+    },
+    {
+      "company": "Tether",
+      "reason": "Excluded per handoff"
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "slug": "sortitt-fullstack-2026-10-17-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Engineer | MERN, Next.js, OpenAI",
+  "summary": "Full-stack engineer building production applications with MongoDB, Express, React, Node.js and Next.js, and integrating OpenAI, Claude and Gemini APIs into real products. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, with a shared Express / MongoDB backend and AI features such as chatbots, quiz generation and grading. Builds responsive Tailwind CSS interfaces from Figma designs. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_ai",
+      "tututor_platform"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Sortitt (UK client)",
+    "title": "Full-Stack Software Engineer (MERN + Next.js + OpenAI + AWS)",
+    "url": "https://himalayas.app/companies/sortitt/jobs/full-stack-software-engineer"
+  },
+  "tailoring": "MERN + Next.js + OpenAI integration lead; no AWS claim (gap flagged to candidate)."
+}

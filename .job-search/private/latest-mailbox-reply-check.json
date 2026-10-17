@@ -1,7 +1,25 @@
 {
-  "checkedAt": "2026-10-16T01:23:49.699Z",
-  "result": {
-    "emails": [],
-    "next_page_token": null
-  }
+  "checkedAt": "2026-10-17T13:18:15.400749+00:00",
+  "by": "Claude",
+  "employerReplies": [],
+  "deliveryProblems": [
+    {
+      "to": "hello@appkeeper.ltd",
+      "thread": "1a141fa39f65277c",
+      "status": "temporary delay (Gmail retrying ~45h from 2026-10-17T02:38Z)"
+    },
+    {
+      "to": "careers@eventikk.com",
+      "thread": "1a1439f572036ddb",
+      "status": "temporary delay (Gmail retrying ~44h from 2026-10-17T11:03Z)"
+    }
+  ],
+  "candidateSelfApplied": [
+    {
+      "source": "Indeed",
+      "title": "Senior Web Developer (likely Centriix)",
+      "at": "2026-10-17T01:24:48Z",
+      "note": "User confirmed they applied themselves"
+    }
+  ]
 }
