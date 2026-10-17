@@ -33,6 +33,16 @@
     },
     {
       "order": 4,
+      "id": "himalayas-shortpoint-ai-react",
+      "company": "ShortPoint Inc.",
+      "title": "Senior AI Augmented React Engineer (JavaScript/TypeScript)",
+      "apply": "https://himalayas.app/companies/shortpoint-inc/jobs/senior-ai-augmented-react-engineer-javascript-typescript",
+      "resume": "output/pdf/ubaidullah-omer-shortpoint-react-2026-10-17-v1-ats.pdf",
+      "verifiedOpen": "Himalayas listing published 2026-10-02; employer form not verified",
+      "employerKeyword": "Posting asks applicants to answer the last form question with 'bear'"
+    },
+    {
+      "order": 5,
       "id": "himalayas-pixibo-fullstack",
       "company": "Pixibo",
       "title": "Mid-Senior Full Stack Engineer - Remote",
@@ -41,7 +51,7 @@
       "verifiedOpen": "Himalayas listing published 2026-09-22; employer form not verified"
     },
     {
-      "order": 5,
+      "order": 6,
       "id": "whippy-frontend-da02ad44",
       "company": "Whippy",
       "title": "Software Engineer: Frontend",
@@ -50,7 +60,7 @@
       "verifiedOpen": "2026-10-17 Ashby posting API lists it"
     },
     {
-      "order": 6,
+      "order": 7,
       "id": "himalayas-slite-product-engineer",
       "company": "Slite",
       "title": "Senior Product Engineer",
@@ -59,7 +69,7 @@
       "verifiedOpen": "Himalayas listing published 2026-09-27; employer form not verified"
     },
     {
-      "order": 7,
+      "order": 8,
       "id": "remote-metabase-8f02d3fa",
       "company": "Metabase",
       "title": "Software Engineer (Frontend)",
@@ -69,5 +79,36 @@
       "humanStep": "careers-page console code"
     }
   ],
-  "submitted": []
+  "submitted": [],
+  "screenedOut": [
+    {
+      "company": "DualEntry",
+      "title": "Frontend Software Engineer (Mid-Level)",
+      "reason": "Hiring limited to EU/LATAM countries"
+    },
+    {
+      "company": "Huzzle",
+      "title": "Founding Engineer (Fullstack)",
+      "reason": "5+ years, extensive PostgreSQL and blockchain required"
+    },
+    {
+      "company": "Creative Chaos",
+      "title": "AI Integration Engineer",
+      "reason": "Bachelor's/Master's degree required"
+    },
+    {
+      "company": "Flatgigs",
+      "title": "Full Stack Engineer",
+      "reason": "Degree and FinTech/F&B industry experience required"
+    },
+    {
+      "company": "Laralink",
+      "title": "React Frontend Developer",
+      "reason": "Company website does not resolve; contact is a Gmail address"
+    },
+    {
+      "company": "Polly / WebFX",
+      "reason": "Postings closed (404)"
+    }
+  ]
 }

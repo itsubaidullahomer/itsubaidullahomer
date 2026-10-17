@@ -1,0 +1,29 @@
+{
+  "slug": "shortpoint-react-2026-10-17-v1",
+  "focus": "frontend",
+  "title": "Frontend Engineer | React, TypeScript, AI-Augmented Delivery",
+  "summary": "Frontend engineer building scalable React and TypeScript applications from scratch, implementing Figma designs precisely with reusable, accessible components. Uses AI coding tools daily for scaffolding, refactors, tests and code review, and ships AI features in products: chatbots, quiz generation and automated grading at Tututor.ai / EduNova, used by 20,000+ people. Works across Node.js REST APIs when needed. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_backend",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "ShortPoint Inc.",
+    "title": "Senior AI Augmented React Engineer (JavaScript/TypeScript)",
+    "url": "https://himalayas.app/companies/shortpoint-inc/jobs/senior-ai-augmented-react-engineer-javascript-typescript"
+  },
+  "tailoring": "Deep React + AI-assisted engineering + REST APIs; component design and performance (Jurri)."
+}
