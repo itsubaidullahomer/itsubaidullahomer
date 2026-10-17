@@ -1,0 +1,73 @@
+{
+  "createdAt": "2026-10-17T10:15:26.182057+00:00",
+  "artifact": "https://claude.ai/artifact/MCYP5ez1NVoCmsGzcv9sqi",
+  "reason": "Form-based applications (BambooHR/Ashby/Lever/Himalayas) use reCAPTCHA or robot checks; this cloud session cannot submit them. Candidate submits; Claude records after the candidate confirms.",
+  "applications": [
+    {
+      "order": 1,
+      "id": "zoftify-41",
+      "company": "Zoftify",
+      "title": "Full Stack Developer (React + Node.js)",
+      "apply": "https://zoftify.bamboohr.com/careers/41",
+      "resume": "output/pdf/ubaidullah-omer-zoftify-fullstack-2026-10-17-v1-ats.pdf",
+      "verifiedOpen": "2026-10-17 BambooHR detail API: Open"
+    },
+    {
+      "order": 2,
+      "id": "eventmobi-frontend-458",
+      "company": "EventMobi",
+      "title": "Front End Engineer - Remote",
+      "apply": "https://eventmobi.bamboohr.com/careers/458",
+      "resume": "output/pdf/ubaidullah-omer-eventmobi-frontend-ats.pdf",
+      "verifiedOpen": "2026-10-17 BambooHR detail API: Open",
+      "salaryAnswer": "CAD 69,000/yr (~USD 50,000), negotiable"
+    },
+    {
+      "order": 3,
+      "id": "himalayas-vidiq-senior-frontend",
+      "company": "vidIQ",
+      "title": "Senior Frontend Engineer",
+      "apply": "https://himalayas.app/companies/vidiq/jobs/senior-frontend-engineer-1174306056",
+      "resume": "output/pdf/ubaidullah-omer-vidiq-frontend-2026-10-17-v1-ats.pdf",
+      "verifiedOpen": "Himalayas listing published 2026-10-07; employer form not verified"
+    },
+    {
+      "order": 4,
+      "id": "himalayas-pixibo-fullstack",
+      "company": "Pixibo",
+      "title": "Mid-Senior Full Stack Engineer - Remote",
+      "apply": "https://himalayas.app/companies/pixibo/jobs/mid-senior-full-stack-engineer-remote-4430955848",
+      "resume": "output/pdf/ubaidullah-omer-pixibo-fullstack-2026-10-17-v1-ats.pdf",
+      "verifiedOpen": "Himalayas listing published 2026-09-22; employer form not verified"
+    },
+    {
+      "order": 5,
+      "id": "whippy-frontend-da02ad44",
+      "company": "Whippy",
+      "title": "Software Engineer: Frontend",
+      "apply": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b",
+      "resume": "output/pdf/ubaidullah-omer-whippy-frontend-ats.pdf",
+      "verifiedOpen": "2026-10-17 Ashby posting API lists it"
+    },
+    {
+      "order": 6,
+      "id": "himalayas-slite-product-engineer",
+      "company": "Slite",
+      "title": "Senior Product Engineer",
+      "apply": "https://himalayas.app/companies/slite/jobs/product-engineer",
+      "resume": "output/pdf/ubaidullah-omer-slite-product-engineer-2026-10-17-v1-ats.pdf",
+      "verifiedOpen": "Himalayas listing published 2026-09-27; employer form not verified"
+    },
+    {
+      "order": 7,
+      "id": "remote-metabase-8f02d3fa",
+      "company": "Metabase",
+      "title": "Software Engineer (Frontend)",
+      "apply": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+      "resume": "output/pdf/ubaidullah-omer-metabase-frontend-ats.pdf",
+      "verifiedOpen": "2026-10-17 Lever API returns posting",
+      "humanStep": "careers-page console code"
+    }
+  ],
+  "submitted": []
+}

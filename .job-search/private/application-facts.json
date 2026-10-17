@@ -136,5 +136,13 @@
     "approximateUsdReported": 950,
     "source": "Direct candidate reply October 16, 2026; salary period not explicitly stated. Do not annualize.",
     "confirmedAt": "2026-10-16T05:37:09.134Z"
+  },
+  "addressReportedByUser": {
+    "street": "Jinnah Park, Street 17",
+    "city": "Rahim Yar Khan",
+    "province": "Punjab",
+    "postalCodeAsTyped": "4200",
+    "postalCodeUsed": "64200 (Rahim Yar Khan code; user typed 4200, flagged to user)",
+    "confirmedAt": "2026-10-17T10:15:26.182057+00:00"
   }
 }
