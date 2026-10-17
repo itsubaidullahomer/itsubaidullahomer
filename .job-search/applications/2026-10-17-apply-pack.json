@@ -89,7 +89,20 @@
       "gap": "Working knowledge of AWS required; candidate studied, no production use"
     }
   ],
-  "submitted": [],
+  "submitted": [
+    {
+      "id": "zoftify-41",
+      "company": "Zoftify Eesti O\u00dc",
+      "confirmedAt": "2026-10-17T19:15:54Z",
+      "gmailMessageId": "1a14b4ac84fe6675"
+    },
+    {
+      "id": "eventmobi-frontend-458",
+      "company": "EventMobi",
+      "confirmedAt": "2026-10-17T19:19:19Z",
+      "gmailMessageId": "1a14b4de979e03eb"
+    }
+  ],
   "screenedOut": [
     {
       "company": "DualEntry",

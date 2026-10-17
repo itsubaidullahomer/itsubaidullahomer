@@ -1,0 +1,25 @@
+{
+  "jobId": "eventmobi-frontend-458",
+  "company": "EventMobi",
+  "title": "Front End Engineer - Remote",
+  "route": "Employer BambooHR form",
+  "applyUrl": "https://eventmobi.bamboohr.com/careers/458",
+  "submittedBy": "Candidate (form submitted from candidate's browser; Claude prepared r\u00e9sum\u00e9 and answers)",
+  "confirmation": {
+    "type": "employer ATS automated receipt email",
+    "from": "notifications@app.bamboohr.com",
+    "to": "itsubaidullahomer@gmail.com",
+    "subject": "EventMobi - Next steps for your application",
+    "gmailMessageId": "1a14b4de979e03eb",
+    "receivedAt": "2026-10-17T19:19:19Z"
+  },
+  "resumePrepared": {
+    "path": "output/pdf/ubaidullah-omer-eventmobi-frontend-ats.pdf",
+    "sha256": "d86c871a68df5bba6edb7edd1449e3473eeeb0e2ff6ebe1aa13f558bd2050de2"
+  },
+  "resumeActuallyUploadedVerified": false,
+  "note": "Receipt confirms submission; the exact uploaded file cannot be verified from here.",
+  "recordedAt": "2026-10-17T20:24:00.222759+00:00",
+  "nextAction": "Await employer response; review 2026-10-24 before any follow-up. Do not resubmit.",
+  "nextActionDate": "2026-10-24"
+}
