@@ -1,0 +1,29 @@
+{
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_backend",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "slug": "vidiq-frontend-2026-10-17-v1",
+  "focus": "frontend",
+  "title": "Frontend Engineer | React, TypeScript, AI Products",
+  "summary": "Frontend engineer building production React and TypeScript applications from scratch, from Figma designs to fast, data-rich interfaces. Leads engineering at Tututor.ai / EduNova, shipping AI features such as lesson chatbots, AI quiz generation and automated grading for 20,000+ users. Built AI analytics dashboards and a paid AI writing SaaS. Uses AI tools daily in development. Based in Pakistan. Available immediately.",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "job": {
+    "company": "vidIQ",
+    "title": "Senior Frontend Engineer",
+    "url": "https://himalayas.app/companies/vidiq/jobs/senior-frontend-engineer-1174306056"
+  },
+  "tailoring": "AI-native creator-analytics product: leads with AI features, analytics dashboards (Illume) and performance work (Jurri 40% faster load)."
+}

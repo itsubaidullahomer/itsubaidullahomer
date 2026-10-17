@@ -1,0 +1,29 @@
+{
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_backend",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "slug": "slite-product-engineer-2026-10-17-v1",
+  "focus": "ai_product",
+  "title": "Product Engineer | React, TypeScript, Node.js, AI",
+  "summary": "Product engineer who builds features end to end, from quick prototypes to polished production releases, with React, TypeScript and Node.js. Leads engineering at Tututor.ai / EduNova, working directly with the founder on product decisions and shipping AI features used by 20,000+ students, teachers and families. Built a paid AI writing SaaS and AI analytics dashboards. Comfortable with EU working hours. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "job": {
+    "company": "Slite",
+    "title": "Senior Product Engineer",
+    "url": "https://himalayas.app/companies/slite/jobs/product-engineer"
+  },
+  "tailoring": "Knowledge-base + AI product (Super): product ownership, founder collaboration, AI features, prototypes to production."
+}
