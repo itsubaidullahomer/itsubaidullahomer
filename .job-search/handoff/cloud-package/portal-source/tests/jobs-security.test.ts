@@ -27,10 +27,13 @@ test("owner authorization requires configured immutable ID and exact email, neve
   assert.equal(isOwner(null, "owner-id", "owner@example.com"), false);
 });
 test("mutations require same-origin browser requests including logout", () => {
-  const request = (origin?: string) =>
+  const request = (origin?: string, site?: string) =>
     new Request("https://admin.example.com/api/jobs/workspace", {
       method: "POST",
-      headers: origin ? { origin } : {},
+      headers: {
+        ...(origin ? { origin } : {}),
+        ...(site ? { "sec-fetch-site": site } : {}),
+      },
     });
   assert.doesNotThrow(() =>
     assertSameOrigin(request("https://admin.example.com")),
@@ -40,6 +43,14 @@ test("mutations require same-origin browser requests including logout", () => {
     PortalError,
   );
   assert.throws(() => assertSameOrigin(request()), PortalError);
+  // A no-referrer page makes the browser send "Origin: null" on its own form posts.
+  assert.doesNotThrow(() => assertSameOrigin(request("null", "same-origin")));
+  for (const site of [undefined, "cross-site", "same-site", "none"])
+    assert.throws(() => assertSameOrigin(request("null", site)), PortalError);
+  assert.throws(
+    () => assertSameOrigin(request("https://admin.example.com", "cross-site")),
+    PortalError,
+  );
 });
 test("JSON reader rejects an oversized chunked request without trusting Content-Length", async () => {
   const body = JSON.stringify({ payload: "x".repeat(1000) });
