@@ -133,6 +133,23 @@
     {
       "company": "Tether",
       "reason": "Excluded per handoff"
+    },
+    {
+      "company": "Deed",
+      "title": "Senior Web Engineer",
+      "reason": "6+ years React and degree required"
+    },
+    {
+      "company": "Search Atlas",
+      "title": "Senior Full-Stack Engineer (Django / Next.js)",
+      "reason": "Django/Python backend required; no candidate evidence"
+    }
+  ],
+  "checkIns": [
+    {
+      "at": "2026-10-17T16:22:16.753413+00:00",
+      "mail": "no employer replies; Appkeeper and Eventikk deliveries still delayed",
+      "newRolesAdded": 0
     }
   ]
 }
