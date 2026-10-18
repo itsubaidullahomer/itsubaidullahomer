@@ -196,6 +196,15 @@
       "at": "2026-10-18T00:27:12.739301+00:00",
       "mail": "no new employer replies or confirmations",
       "newRolesAdded": 2
+    },
+    {
+      "at": "2026-10-18T01:10Z",
+      "summary": "Email-apply run per user instruction (apply by email, use published company/HR addresses, skip anything needing user input). Sent 7: InvoZone, Trackerbot, AiMi, Quill, Starbridge, Interview Resources, Surge AI. No bounces at check. Skipped: on-site Karachi/Lahore roles (relocation not confirmed: Indeed PK, Phaedra, Cubix), Servicing Copilot (needs hourly rate), Babou (needs AI-agent workflow description), Sequent/ProxyBase (Rust), pack companies with no published hiring email (support@/general only).",
+      "pendingUserQuestions": [
+        "Willing to relocate or work on-site in Lahore/Karachi/Islamabad?",
+        "Hourly contract rate (USD)?",
+        "Which AI coding tools do you use daily (Cursor, Copilot, Claude Code)?"
+      ]
     }
   ],
   "emailApplications": [
