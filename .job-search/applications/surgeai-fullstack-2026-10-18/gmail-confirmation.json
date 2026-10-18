@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c893f765175a",
+  "threadId": "1a14c893f765175a",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "careers@surgehq.ai",
+  "subject": "Software Engineer (full-stack / product), remote \u2014 Ubaidullah Omer (via HN)",
+  "company": "Surge AI",
+  "role": "Software Engineer (full-stack / product), SF/NYC or remote",
+  "sourceUrl": "https://news.ycombinator.com/item?id=48753928",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Product-Engineer.pdf",
+    "bytes": 5757,
+    "sha256": "f182a0b0f0aff10fd60c525e326d7e3b81d4c77fb70d4f5e01e71cbdf0596132",
+    "source": "output/pdf/ubaidullah-omer-surgeai-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Careers address published in the HN July 2026 Who is hiring post, which asked for a resume and 2-3 sentences. Remote eligibility outside the US not stated; posted 2026-07-01.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

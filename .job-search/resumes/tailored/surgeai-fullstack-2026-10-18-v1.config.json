@@ -1,0 +1,30 @@
+{
+  "slug": "surgeai-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Product Engineer | React, TypeScript, Node.js, AI",
+  "standardFonts": true,
+  "summary": "Full-stack product engineer who ships quickly and owns features end to end with React, TypeScript, Next.js, Node.js and SQL / PostgreSQL or MongoDB. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, on a shared Express backend of about 1,000 endpoints with LLM features, real-time messaging and billing. Built a paid AI writing SaaS and AI-generated analytics dashboards. Comfortable with US working hours. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_ai",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Surge AI",
+    "title": "Software Engineer (full-stack / product), remote",
+    "url": "https://news.ycombinator.com/item?id=48753928"
+  },
+  "tailoring": "Human-data platform for AI labs; small autonomous teams; leads with end-to-end product ownership and AI features."
+}
