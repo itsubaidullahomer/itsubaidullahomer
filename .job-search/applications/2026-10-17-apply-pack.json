@@ -270,6 +270,20 @@
       "to": "contact@signxsolutions.com",
       "messageId": "1a14c925bb460104",
       "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "bearplex-senior-fullstack-2026-10-18",
+      "company": "BearPlex",
+      "to": "hello@bearplex.com",
+      "messageId": "1a14c9412743fc2b",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "afnexis-fullstack-2026-10-18",
+      "company": "AFNEXIS LLC",
+      "to": "info@afnexis.com",
+      "messageId": "1a14c951e4bc9e0c",
+      "sentAt": "2026-10-18"
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "createdAt": "2026-10-18T01:14:34.751616+00:00",
+  "job": {
+    "company": "BearPlex",
+    "title": "Senior Full-Stack Engineer, Lahore (Hybrid) or Remote, Pakistan",
+    "url": "https://www.bearplex.com/careers/senior-full-stack-engineer"
+  },
+  "sourceFacts": {
+    "path": ".job-search/resumes/masters/2026-10-16-v3/facts.snapshot.json",
+    "sha256": "9264eb02ad1fb6d463e5d22aa7d77d8963da1b71b6b0b341180f913bbebd2c89"
+  },
+  "confirmationSource": {
+    "sha256": "99ea046825259cac3d21136007124041faf074d1b970f6797a29c66ddeb067cb"
+  },
+  "selectedFactIds": [
+    "tututor_scope",
+    "tututor_backend",
+    "tututor_platform",
+    "tututor_leadership",
+    "danzee_components",
+    "danzee_jurri",
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "tailoring": "Deep React/TS, Node API design, Next.js SSR, written communication for remote work.",
+  "boundaries": [
+    "No degree",
+    "No major-cloud production experience",
+    "No specific PostgreSQL tenure",
+    "Candidate-reported career evidence, not independent verification"
+  ],
+  "submission": false
+}

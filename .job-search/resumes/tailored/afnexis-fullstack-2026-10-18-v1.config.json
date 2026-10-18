@@ -1,0 +1,30 @@
+{
+  "slug": "afnexis-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Developer | React, Next.js, Node.js, React Native",
+  "standardFonts": true,
+  "summary": "Full-stack developer who ships code to production with React, Next.js, TypeScript and Node.js / Express, plus React Native for mobile. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, with a shared Express backend of about 1,000 endpoints, LLM features and three React Native apps released on both app stores. Built a paid AI writing SaaS. Works remotely with high ownership. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_platform",
+      "tututor_ai",
+      "tututor_backend"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "AFNEXIS",
+    "title": "Full Stack Developer, Remote / Multan, Pakistan",
+    "url": "https://afnexis.com/career"
+  },
+  "tailoring": "AI + full-stack, remote-first, high ownership; React/Next/Node 3+ yrs plus React Native."
+}

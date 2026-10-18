@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c9412743fc2b",
+  "threadId": "1a14c9412743fc2b",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "hello@bearplex.com",
+  "subject": "Application: Senior Full-Stack Engineer (Remote, Pakistan) \u2014 Ubaidullah Omer",
+  "company": "BearPlex",
+  "role": "Senior Full-Stack Engineer, Lahore hybrid or remote within Pakistan",
+  "sourceUrl": "https://www.bearplex.com/careers/senior-full-stack-engineer",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Senior-Full-Stack-Engineer.pdf",
+    "bytes": 5731,
+    "sha256": "1f271181c6ffd7227291fc2291ab2ba625edf905cf1d9a246bbd90235b61bfc0",
+    "source": "output/pdf/ubaidullah-omer-bearplex-senior-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Only email published on the BearPlex careers/job page (hello@, general inbox); role form exists (PDF upload) but needs a browser. Applied for the remote-within-Pakistan option.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

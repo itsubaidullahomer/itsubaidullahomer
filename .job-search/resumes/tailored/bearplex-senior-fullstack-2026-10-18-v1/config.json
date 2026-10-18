@@ -1,0 +1,30 @@
+{
+  "slug": "bearplex-senior-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Senior Full-Stack Engineer | React, TypeScript, Next.js, Node.js",
+  "standardFonts": true,
+  "summary": "Full-stack engineer writing typed React, Next.js and TypeScript front ends and Node.js / Express APIs, with SQL / PostgreSQL or MongoDB data. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families: a shared Express backend of about 1,000 endpoints, real-time messaging, billing and three React Native apps. Cut initial load time by about 40% at Danzee. Works remotely with international teams. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "BearPlex",
+    "title": "Senior Full-Stack Engineer, Lahore (Hybrid) or Remote, Pakistan",
+    "url": "https://www.bearplex.com/careers/senior-full-stack-engineer"
+  },
+  "tailoring": "Deep React/TS, Node API design, Next.js SSR, written communication for remote work."
+}
