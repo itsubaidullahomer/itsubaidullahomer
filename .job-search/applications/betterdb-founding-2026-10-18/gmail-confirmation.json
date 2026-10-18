@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c9d91f4a45f5",
+  "threadId": "1a14c9d91f4a45f5",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "kristiyan@betterdb.com",
+  "subject": "Founding Engineer at BetterDB \u2014 Ubaidullah Omer (via HN)",
+  "company": "BetterDB",
+  "role": "Founding Engineer, Remote",
+  "sourceUrl": "https://news.ycombinator.com/item?id=48026144",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Engineer.pdf",
+    "bytes": 5735,
+    "sha256": "777d75c745e6e630422291cd9090bbf18bf0645fa3be15b77523fb4963f5dc89",
+    "source": "output/pdf/ubaidullah-omer-betterdb-founding-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Founder email published in HN May 2026 Who is hiring post (posted 2026-05-05, 'no pressure on timeline'; may be filled). Email states no K8s/Terraform/AWS production and Redis use as app developer.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

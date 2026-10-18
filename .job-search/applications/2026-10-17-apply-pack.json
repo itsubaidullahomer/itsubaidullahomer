@@ -184,6 +184,41 @@
     {
       "company": "Utility",
       "reason": "8+ years / Shopify"
+    },
+    {
+      "company": "Terapage",
+      "title": "Full Stack Software Developer (MERN)",
+      "reason": "Junior (1-2 yrs), PKR 60-70k/month, far below current salary"
+    },
+    {
+      "company": "Hul Hub",
+      "title": "Senior Frontend Developer",
+      "reason": "On-site Karachi; relocation not confirmed"
+    },
+    {
+      "company": "Orenva",
+      "title": "Senior Contract Engineer",
+      "reason": "Fixed-bid contract needs a rate from user"
+    },
+    {
+      "company": "Viewpost",
+      "title": "Senior Software Engineer",
+      "reason": "C#/.NET core stack"
+    },
+    {
+      "company": "Servicing Copilot",
+      "title": "Senior Full-Stack Contractor",
+      "reason": "Needs hourly rate"
+    },
+    {
+      "company": "Babou",
+      "title": "Full Stack Software Engineer",
+      "reason": "Needs description of daily AI-agent workflow (unconfirmed)"
+    },
+    {
+      "company": "imedia5.com",
+      "title": "Full-Stack AI & SaaS Developer",
+      "reason": "PKR 50k/month"
     }
   ],
   "checkIns": [
@@ -298,6 +333,51 @@
       "to": "careers@panacealogics.com",
       "messageId": "1a14c996f841ecde",
       "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "betterdb-founding-2026-10-18",
+      "company": "BetterDB",
+      "to": "kristiyan@betterdb.com",
+      "messageId": "1a14c9d91f4a45f5",
+      "sentAt": "2026-10-18"
+    }
+  ],
+  "formOnlyLeads": [
+    {
+      "company": "FullStack Labs",
+      "role": "Senior AI Engineer (React + TypeScript) - Remote - Pakistan",
+      "url": "https://www.rozee.pk/senior-ai-engineer-react-typescript-remote-pakistan-jobs-1912447",
+      "route": "Rozee account apply"
+    },
+    {
+      "company": "Ai Case Leads",
+      "role": "Senior Full-Stack Engineer \u2014 AI, CRM & Automation (remote)",
+      "url": "https://www.rozee.pk/senior-full-stack-engineer-%e2%80%94-ai-crm-automation-jobs-1913296",
+      "route": "Rozee account apply"
+    },
+    {
+      "company": "Attimo Technologies",
+      "role": "Senior Software Engineer \u2013 Integrations & MCP (Pakistan, fully remote)",
+      "url": "https://www.rozee.pk/senior-software-engineer-%e2%80%93-integrations-mcp-jobs-1906844",
+      "route": "Rozee account apply"
+    },
+    {
+      "company": "Adamia LLC",
+      "role": "Senior AI-Native Full-Stack Developer - Remote (USD 1,000-3,500/mo)",
+      "url": "https://www.rozee.pk/senior-ai-native-full-stack-developer-remote-work-from-home-islamabad-jobs-1908483",
+      "route": "Rozee account apply"
+    },
+    {
+      "company": "Omkar Universe",
+      "role": "Frontend Engineer, Remote (Worldwide)",
+      "url": "https://omkaruniverse.com/careers/frontend-engineer",
+      "route": "Company form (name, email, CV)"
+    },
+    {
+      "company": "Dr Hud",
+      "role": "Full-Stack AI Developer (hybrid Islamabad)",
+      "url": "https://to.indeed.com/aad6n4j9mpsd",
+      "route": "Indeed; needs user's AI-project failure story + Islamabad hybrid"
     }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "slug": "betterdb-founding-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Engineer | TypeScript, Node.js, React, Redis, PostgreSQL",
+  "standardFonts": true,
+  "summary": "Full-stack engineer who ships fast with TypeScript, Node.js / Express, React and Next.js, on SQL / PostgreSQL, MongoDB and Redis. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, running a shared Express backend of about 1,000 endpoints with Socket.io / Redis real-time messaging. Built a paid AI writing SaaS with multi-model LLM fallbacks. Comfortable in small teams with high ownership. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "BetterDB",
+    "title": "Founding Engineer, Remote",
+    "url": "https://news.ycombinator.com/item?id=48026144"
+  },
+  "tailoring": "Valkey/Redis tooling, TS/NestJS/React/PostgreSQL; leads with Redis-backed real-time, backend scale, LLM product."
+}
