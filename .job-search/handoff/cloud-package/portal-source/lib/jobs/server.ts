@@ -4,6 +4,8 @@ import type { SupabaseClient } from '@supabase/supabase-js';
 import { cookies } from 'next/headers';
 import type { NextRequest, NextResponse } from 'next/server';
 import { applyAction } from './domain';
+import { planAgentSync, type AgentBatch } from './agent-sync';
+import agentBatch from '@/data/agent-sync/applications.json';
 import { emptyWorkspace } from './seed';
 import { assertJob, isOwner, PortalError } from './validation';
 import type { Workspace, WorkspaceAction } from './types';
@@ -88,6 +90,17 @@ export async function persistAction(action: WorkspaceAction): Promise<Workspace>
     if (result.error.code !== '40001') throw new PortalError('Your changes could not be saved. Please try again.', 503);
   }
   throw new PortalError('Another update arrived at the same time. Please try again.', 409);
+}
+/** Applies Claude's recorded applications once, under the owner's own session. Never throws into page rendering. */
+export async function syncAgentRecords(): Promise<void> {
+  const { client } = await ownerClient();
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const { workspace, revision } = await readWorkspace(client);
+    const plan = planAgentSync(workspace, agentBatch as AgentBatch);
+    if (!plan.changed) return;
+    const result = await client.rpc('jobs_save_workspace', { p_workspace: plan.workspace, p_expected_revision: revision });
+    if (!result.error || result.error.code !== '40001') return;
+  }
 }
 export async function claimDiscovery(): Promise<void> {
   const { client } = await ownerClient();
