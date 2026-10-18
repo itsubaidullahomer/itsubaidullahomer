@@ -284,6 +284,20 @@
       "to": "info@afnexis.com",
       "messageId": "1a14c951e4bc9e0c",
       "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "axra-frontend-2026-10-18",
+      "company": "Axra",
+      "to": "careers@useaxra.com",
+      "messageId": "1a14c9879089d33f",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "panacealogics-rn-fullstack-2026-10-18",
+      "company": "PanaceaLogics",
+      "to": "careers@panacealogics.com",
+      "messageId": "1a14c996f841ecde",
+      "sentAt": "2026-10-18"
     }
   ]
 }

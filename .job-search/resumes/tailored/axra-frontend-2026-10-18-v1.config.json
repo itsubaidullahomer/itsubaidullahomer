@@ -1,0 +1,30 @@
+{
+  "slug": "axra-frontend-2026-10-18-v1",
+  "focus": "frontend",
+  "title": "Senior Frontend Engineer | React, TypeScript, Design Systems",
+  "standardFonts": true,
+  "summary": "Frontend engineer building fast, trustworthy React and TypeScript products, with four years of TypeScript and Next.js and three years of React Native. Maintains a shared component library and reviews code. Cut initial load time by about 40% at Danzee through code splitting, lazy loading and bundle optimization. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, including Stripe and SEPA billing flows. Works remotely. Based in Pakistan. Available immediately.",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_platform",
+      "tututor_leadership",
+      "tututor_backend"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Axra",
+    "title": "Senior Frontend Engineer, Remote (Worldwide)",
+    "url": "https://www.useaxra.com/careers/frontend-engineer"
+  },
+  "tailoring": "Fintech dashboard + design system + performance; React Native in same codebase."
+}
