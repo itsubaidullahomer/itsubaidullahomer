@@ -87,6 +87,26 @@
       "resume": "output/pdf/ubaidullah-omer-sortitt-fullstack-2026-10-17-v1-ats.pdf",
       "verifiedOpen": "Himalayas listing published 2026-09-29",
       "gap": "Working knowledge of AWS required; candidate studied, no production use"
+    },
+    {
+      "id": "himalayas-creativechaos-senior-node",
+      "company": "Creative Chaos",
+      "title": "Senior Software Engineer - Node",
+      "apply": "https://himalayas.app/companies/csquareonline/jobs/senior-software-engineer-node",
+      "resume": "output/pdf/ubaidullah-omer-creativechaos-node-2026-10-18-v1-ats.pdf",
+      "verifiedOpen": "Himalayas 2026-10-17",
+      "note": "Bachelor's or equivalent accepted",
+      "order": 10
+    },
+    {
+      "id": "himalayas-enjoygaming-senior-node",
+      "company": "Enjoy Gaming LLC",
+      "title": "Senior Node.js Developer",
+      "apply": "https://himalayas.app/companies/enjoy-gaming-llc/jobs/senior-node-js-developer",
+      "resume": "output/pdf/ubaidullah-omer-enjoygaming-node-2026-10-18-v1-ats.pdf",
+      "verifiedOpen": "Himalayas 2026-10-17",
+      "gap": "Strong NestJS, Kafka/RabbitMQ; gambling industry flagged",
+      "order": 11
     }
   ],
   "submitted": [
@@ -156,6 +176,14 @@
       "company": "Search Atlas",
       "title": "Senior Full-Stack Engineer (Django / Next.js)",
       "reason": "Django/Python backend required; no candidate evidence"
+    },
+    {
+      "company": "Ready",
+      "reason": "Spanish, Chile hours, Mac required, AWS"
+    },
+    {
+      "company": "Utility",
+      "reason": "8+ years / Shopify"
     }
   ],
   "checkIns": [
@@ -163,6 +191,11 @@
       "at": "2026-10-17T16:22:16.753413+00:00",
       "mail": "no employer replies; Appkeeper and Eventikk deliveries still delayed",
       "newRolesAdded": 0
+    },
+    {
+      "at": "2026-10-18T00:27:12.739301+00:00",
+      "mail": "no new employer replies or confirmations",
+      "newRolesAdded": 2
     }
   ]
 }
