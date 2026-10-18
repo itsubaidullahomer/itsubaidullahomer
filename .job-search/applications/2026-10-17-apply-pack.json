@@ -240,6 +240,10 @@
         "Hourly contract rate (USD)?",
         "Which AI coding tools do you use daily (Cursor, Copilot, Claude Code)?"
       ]
+    },
+    {
+      "at": "2026-10-18T01:40Z",
+      "summary": "Email-apply run continued. Total email applications today: 18 (InvoZone, Trackerbot, AiMi, Quill, Starbridge, Interview Resources, Surge AI, Lit8, SignX, BearPlex, AFNEXIS, Axra, PanaceaLogics, BetterDB, Cardog, Finale Inventory, VDX.tv, Language Reactor). No bounces for today's sends at check. Sources: HN Who is hiring (Jan-Oct 2026), portal workspace leads, company careers pages, Rozee, Indeed PK, LinkedIn alert emails. Skipped: Komtora (closed), AllysAI (Python/Azure/5+y), We Are Revolution (needs n8n/Claude Code/Supabase - unconfirmed), AutoScale (closed), Tecmyer (pay below current), Mobian (10+ yrs), BetterSea (Python)."
     }
   ],
   "emailApplications": [
@@ -406,6 +410,12 @@
       "role": "Full-Stack AI Developer (hybrid Islamabad)",
       "url": "https://to.indeed.com/aad6n4j9mpsd",
       "route": "Indeed; needs user's AI-project failure story + Islamabad hybrid"
+    },
+    {
+      "company": "We Are Revolution",
+      "role": "Full Stack Developer AI & Automation (remote India/Pakistan, USD 2,000/mo)",
+      "url": "https://www.linkedin.com/jobs/view/4472902392/",
+      "route": "LinkedIn apply; needs confirmation of n8n, Claude Code, Supabase/Firebase, Render/Railway experience"
     }
   ]
 }
