@@ -1,0 +1,30 @@
+{
+  "slug": "vdx-frontend-2026-10-18-v1",
+  "focus": "frontend",
+  "title": "Frontend Engineer | JavaScript, TypeScript, React, Dashboards",
+  "standardFonts": true,
+  "summary": "Frontend-focused engineer with about four years of JavaScript, TypeScript, React and Next.js in production, plus Node.js / Express on the backend. Builds data-heavy UIs and dashboards, including AI-generated analytics with Chart.js and D3.js, and maintains a shared component library. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families. Cut initial load time by about 40% at Danzee. Works remotely. Based in Pakistan. Available immediately.",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_platform",
+      "tututor_backend",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "VDX.tv",
+    "title": "Remote Engineer (Frontend: JavaScript, TypeScript, React)",
+    "url": "https://news.ycombinator.com/item?id=46860500"
+  },
+  "tailoring": "Advanced UI and dashboards in JS/TS/React; generalist who takes code to production."
+}

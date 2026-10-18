@@ -1,0 +1,30 @@
+{
+  "slug": "languagereactor-ts-2026-10-18-v1",
+  "focus": "ai_product",
+  "title": "Product Engineer | TypeScript, React, Node.js, LLM Features",
+  "standardFonts": true,
+  "summary": "Product engineer who plans and ships independently in TypeScript, React, Next.js and Node.js, including LLM features in production. Leads engineering at Tututor.ai / EduNova, an education platform of eight products used by 20,000+ students, teachers and families, building lesson chatbots, AI quiz generation and automated grading. Built a paid AI writing SaaS with OpenAI, Claude and Gemini fallbacks. Works remotely. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_backend",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Language Reactor",
+    "title": "Coding partner (TypeScript), remote",
+    "url": "https://news.ycombinator.com/item?id=46881503"
+  },
+  "tailoring": "Language-learning tools in TS with LLMs; leads with ed-tech AI features and independent execution."
+}

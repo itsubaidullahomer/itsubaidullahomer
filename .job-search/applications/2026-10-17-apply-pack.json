@@ -354,6 +354,20 @@
       "to": "jforbes@descartes.com",
       "messageId": "1a14ca0e89309b1a",
       "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "vdx-frontend-2026-10-18",
+      "company": "VDX.tv",
+      "to": "hn.remote.jobs@vdx.tv",
+      "messageId": "1a14ca3382dda3d9",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "languagereactor-ts-2026-10-18",
+      "company": "Language Reactor (Dioco)",
+      "to": "dioco@dioco.io",
+      "messageId": "1a14ca4520b87c5a",
+      "sentAt": "2026-10-18"
     }
   ],
   "formOnlyLeads": [
