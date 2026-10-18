@@ -299,6 +299,56 @@
       "company": "Scopic Software",
       "title": "(none listed)",
       "reason": "No open roles; jobs@ is for scam verification only"
+    },
+    {
+      "company": "Clutch (clutchapp.io)",
+      "title": "Frontend Engineer (Mobile)",
+      "reason": "Wellfound listing gone (HTTP 410); role appears filled"
+    },
+    {
+      "company": "Empire Flippers",
+      "title": "(none)",
+      "reason": "No open engineering roles"
+    },
+    {
+      "company": "THINKalpha",
+      "title": "Senior Frontend Engineer",
+      "reason": "Svelte"
+    },
+    {
+      "company": "Carrot",
+      "title": "Senior Software Engineers",
+      "reason": "Scala"
+    },
+    {
+      "company": "Cogram / Splash Tech",
+      "title": "various",
+      "reason": "CET +-3h / +-2h only (Pakistan is CET+4)"
+    },
+    {
+      "company": "Powerprozesse",
+      "title": "Fullstack-Developer",
+      "reason": "Requires building with Claude and Cursor (AI coding tools unconfirmed - needs user input)"
+    },
+    {
+      "company": "Chasi",
+      "title": "Senior Software Engineer",
+      "reason": "Requires a CS degree"
+    },
+    {
+      "company": "Nodeworthy (client)",
+      "title": "Full Stack Developer",
+      "reason": "DeFi vaults; Python/Go"
+    },
+    {
+      "company": "Parqet Fintech",
+      "title": "Mobile Engineer (React Native)",
+      "reason": "EU work permit required"
+    },
+    {
+      "company": "Wise AI",
+      "title": "Founding Engineer (Fullstack/Zoom App)",
+      "reason": "USD 12-24k/yr, well below target; no hiring email"
     }
   ],
   "checkIns": [
@@ -332,6 +382,10 @@
     {
       "at": "2026-10-18T03:30Z",
       "summary": "Added Bevyl (CTO email, HN Jan 2026) and Taskade (jobs@ from role pages). Total email applications today: 23. Portal sync batch now applications-2026-10-18-r3 (25 records); production deploy of r2 READY. New sources tried: Himalayas Pakistan/anywhere filter, worldwide feeds with company-site email scan, remoteintech directory (~570 worldwide companies scanned for hiring emails). Form-only leads saved: Pavago, Adventure Travel 365, Sticker Mule."
+    },
+    {
+      "at": "2026-10-18T04:40Z",
+      "summary": "Check-in: deploy r3 READY (25 records). No employer replies; no new bounces (Appkeeper/Eventikk still delayed). Sourcing: HN obfuscated-email pass (Jan-Oct), Himalayas country=PK (318 jobs, last 10 days). No new roles with a published hiring email that fit confirmed facts; Kadoa saved as form-only lead; 10 screened out. No applications sent this round."
     }
   ],
   "emailApplications": [
@@ -557,6 +611,12 @@
       "title": "Software engineer",
       "url": "https://weworkremotely.com/remote-jobs/sticker-mule-software-engineer-3",
       "note": "Remote from 40+ countries, $150k-$250k; Go/TS/React/Expo/GraphQL/Postgres; expects aggressive AI tool use (unconfirmed)."
+    },
+    {
+      "company": "Kadoa",
+      "title": "Senior Software Engineer",
+      "url": "https://www.kadoa.com/careers/senior-software-engineer",
+      "note": "Fully remote (Zurich HQ); TS/Node/Python/Docker/K8s/GCP, LLMs in production. Apply via Google Form only."
     }
   ]
 }
