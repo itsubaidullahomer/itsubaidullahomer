@@ -233,6 +233,13 @@
       "to": "recruiting@starbridge.ai",
       "messageId": "1a14c85384c7d814",
       "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "interviewresources-fullstack-ai-2026-10-18",
+      "company": "Interview Resources",
+      "to": "hiring@interviewresources.app",
+      "messageId": "1a14c87938119425",
+      "sentAt": "2026-10-18"
     }
   ]
 }

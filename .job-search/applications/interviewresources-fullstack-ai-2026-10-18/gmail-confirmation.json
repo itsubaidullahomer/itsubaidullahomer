@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c87938119425",
+  "threadId": "1a14c87938119425",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "hiring@interviewresources.app",
+  "subject": "Full Stack AI Engineer \u2014 Ubaidullah Omer (via HN)",
+  "company": "Interview Resources",
+  "role": "Full Stack AI Engineer, remote, USD 30-90k",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49207409",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-AI-Engineer.pdf",
+    "bytes": 5736,
+    "sha256": "a6f9ccfa82c369ca6fdd46b991cdfaeee8064a6b1941e10095d093da0e7b4124",
+    "source": "output/pdf/ubaidullah-omer-interviewresources-fullstack-ai-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Hiring address published in the HN August 2026 Who is hiring post (posted 2026-08-07; may be filled). Domain MX verified (ImprovMX). Post asked for CV, GitHub, proudest project and expected salary: answered USD 50,000/year negotiable, Viloi as project.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}
