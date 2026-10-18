@@ -1,0 +1,34 @@
+{
+  "createdAt": "2026-10-18T02:47:33.729426+00:00",
+  "job": {
+    "company": "Techtics.ai",
+    "title": "Speculative: careers page invites r\u00e9sum\u00e9s to hr@techtics.ai (no matching engineering role listed)",
+    "url": "https://techtics.ai/careers"
+  },
+  "sourceFacts": {
+    "path": ".job-search/resumes/masters/2026-10-16-v3/facts.snapshot.json",
+    "sha256": "9264eb02ad1fb6d463e5d22aa7d77d8963da1b71b6b0b341180f913bbebd2c89"
+  },
+  "confirmationSource": {
+    "sha256": "99ea046825259cac3d21136007124041faf074d1b970f6797a29c66ddeb067cb"
+  },
+  "selectedFactIds": [
+    "tututor_scope",
+    "tututor_ai",
+    "tututor_backend",
+    "tututor_leadership",
+    "danzee_components",
+    "danzee_jurri",
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "tailoring": "Enterprise AI consultancy; leads with production LLM features, multi-provider AI SaaS and full-stack delivery. No cloud/K8s claim.",
+  "boundaries": [
+    "No degree",
+    "No major-cloud production experience",
+    "No specific PostgreSQL tenure",
+    "Candidate-reported career evidence, not independent verification"
+  ],
+  "submission": false
+}

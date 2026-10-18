@@ -112,7 +112,7 @@
   "submitted": [
     {
       "id": "zoftify-41",
-      "company": "Zoftify Eesti O\u00dc",
+      "company": "Zoftify Eesti OÜ",
       "confirmedAt": "2026-10-17T19:15:54Z",
       "gmailMessageId": "1a14b4ac84fe6675"
     },
@@ -219,6 +219,46 @@
       "company": "imedia5.com",
       "title": "Full-Stack AI & SaaS Developer",
       "reason": "PKR 50k/month"
+    },
+    {
+      "company": "Logen.io",
+      "title": "Founding Full-stack / AI Engineer",
+      "reason": "Bengaluru-based; India-Pakistan cross-border hiring unlikely; no careers page"
+    },
+    {
+      "company": "Go.Shop",
+      "title": "Product Builder - Growth Channels",
+      "reason": "Martech/growth PM-engineer hybrid with London travel; AI coding tools unconfirmed"
+    },
+    {
+      "company": "Playit.gg",
+      "title": "First engineer",
+      "reason": "Oregon, USA only"
+    },
+    {
+      "company": "Noricum",
+      "title": "Senior Backend Engineer, Payments",
+      "reason": "Requires shipped double-entry ledger (unconfirmed)"
+    },
+    {
+      "company": "Astoria AI",
+      "title": "Founding AI Engineer",
+      "reason": "Equity-only until seed; 6+ years"
+    },
+    {
+      "company": "AZKY Tech Labs",
+      "title": "Full Stack Developer (Backend focused)",
+      "reason": "PKR 60k-180k/month, below target"
+    },
+    {
+      "company": "DevBatch",
+      "title": "Pipeline brief",
+      "reason": "Not hiring; bar is 5+ years (candidate just under)"
+    },
+    {
+      "company": "Mitre Media",
+      "title": "Tech Lead Full-Stack Rails Engineer",
+      "reason": "USA/Canada only; Rails"
     }
   ],
   "checkIns": [
@@ -244,6 +284,10 @@
     {
       "at": "2026-10-18T01:40Z",
       "summary": "Email-apply run continued. Total email applications today: 18 (InvoZone, Trackerbot, AiMi, Quill, Starbridge, Interview Resources, Surge AI, Lit8, SignX, BearPlex, AFNEXIS, Axra, PanaceaLogics, BetterDB, Cardog, Finale Inventory, VDX.tv, Language Reactor). No bounces for today's sends at check. Sources: HN Who is hiring (Jan-Oct 2026), portal workspace leads, company careers pages, Rozee, Indeed PK, LinkedIn alert emails. Skipped: Komtora (closed), AllysAI (Python/Azure/5+y), We Are Revolution (needs n8n/Claude Code/Supabase - unconfirmed), AutoScale (closed), Tecmyer (pay below current), Mobian (10+ yrs), BetterSea (Python)."
+    },
+    {
+      "at": "2026-10-18T02:52Z",
+      "summary": "Continued email-apply run. New: Charted Sea (founder email, About page), This Dot Labs (jobs@ via job-page apply button, Senior React Native Engineer), Techtics.ai (speculative, careers page invites resumes). Total email applications today: 21. Portal sync batch bumped to applications-2026-10-18-r2 (23 records). No new replies; no bounces for today's sends; Appkeeper and Eventikk still delayed. Sources this round: HN re-scan (Jan-Oct 2026), LinkedIn guest search, remote feeds (Remotive, RemoteOK, Jobicy, WWR, Working Nomads, Himalayas), Pakistani company careers pages."
     }
   ],
   "emailApplications": [
@@ -372,6 +416,27 @@
       "to": "dioco@dioco.io",
       "messageId": "1a14ca4520b87c5a",
       "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "chartedsea-fullstack-2026-10-18",
+      "company": "Charted Sea",
+      "to": "marc.plouhinec@chartedsea.com",
+      "messageId": "1a14ce1e1a78f7e2",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "thisdot-rn-2026-10-18",
+      "company": "This Dot Labs",
+      "to": "jobs@thisdot.co",
+      "messageId": "1a14ce3abb8add64",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "techtics-ai-2026-10-18",
+      "company": "Techtics.ai",
+      "to": "hr@techtics.ai",
+      "messageId": "1a14ce9512517751",
+      "sentAt": "2026-10-18"
     }
   ],
   "formOnlyLeads": [
@@ -383,13 +448,13 @@
     },
     {
       "company": "Ai Case Leads",
-      "role": "Senior Full-Stack Engineer \u2014 AI, CRM & Automation (remote)",
+      "role": "Senior Full-Stack Engineer — AI, CRM & Automation (remote)",
       "url": "https://www.rozee.pk/senior-full-stack-engineer-%e2%80%94-ai-crm-automation-jobs-1913296",
       "route": "Rozee account apply"
     },
     {
       "company": "Attimo Technologies",
-      "role": "Senior Software Engineer \u2013 Integrations & MCP (Pakistan, fully remote)",
+      "role": "Senior Software Engineer – Integrations & MCP (Pakistan, fully remote)",
       "url": "https://www.rozee.pk/senior-software-engineer-%e2%80%93-integrations-mcp-jobs-1906844",
       "route": "Rozee account apply"
     },

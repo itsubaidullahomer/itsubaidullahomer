@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14ce1e1a78f7e2",
+  "threadId": "1a14ce1e1a78f7e2",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "marc.plouhinec@chartedsea.com",
+  "subject": "Full-stack engineer (TypeScript) — Ubaidullah Omer",
+  "company": "Charted Sea",
+  "role": "Full-stack engineer (Rust & TypeScript), fully remote, 4h overlap with UTC+8",
+  "sourceUrl": "https://chartedsea.com/about",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Engineer.pdf",
+    "bytes": 5764,
+    "sha256": "56a5e01d17c05f06b5b9171be07dc012757f711c4ce7cf9d8bf08880939f6190",
+    "source": "output/pdf/ubaidullah-omer-chartedsea-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Founder email published on the company's About page ('Join us') and in HN posts (Feb and Apr 2026). Email states plainly: no Rust, no scraping or anti-bot experience.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

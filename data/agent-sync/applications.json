@@ -1,6 +1,6 @@
 {
-  "id": "applications-2026-10-18",
-  "recordedAt": "2026-10-18T02:00:00Z",
+  "id": "applications-2026-10-18-r2",
+  "recordedAt": "2026-10-18T02:50:00Z",
   "applications": [
     {
       "key": "invozone-fullstack-2026-10-18",
@@ -315,6 +315,51 @@
       "note": "Applied through the employer's BambooHR form on 2026-10-17 (submitted from your browser; Claude prepared the résumé and answers).\nReceipt: \"EventMobi - Next steps for your application\" from notifications@app.bamboohr.com (Gmail 1a14b4de979e03eb).\nRésumé prepared: ubaidullah-omer-eventmobi-frontend-ats.pdf",
       "nextAction": "Await employer response; review October 24 before any follow-up. Do not resubmit.",
       "nextActionDate": "2026-10-24"
+    },
+    {
+      "key": "chartedsea-fullstack-2026-10-18",
+      "matchIds": [],
+      "company": "Charted Sea",
+      "title": "Full-stack engineer (Rust & TypeScript)",
+      "url": "https://chartedsea.com/about",
+      "location": "Remote (4h overlap with UTC+8)",
+      "channel": "email",
+      "contactEmail": "marc.plouhinec@chartedsea.com",
+      "appliedAt": "2026-10-18T02:40:34Z",
+      "gmailMessageId": "1a14ce1e1a78f7e2",
+      "note": "Applied by email on 2026-10-18 (Claude, from itsubaidullahomer@gmail.com).\nTo: marc.plouhinec@chartedsea.com\nSubject: Full-stack engineer (TypeScript) — Ubaidullah Omer\nGmail message: 1a14ce1e1a78f7e2\nRésumé: Ubaidullah-Omer-Full-Stack-Engineer.pdf (5764 bytes, sha256 56a5e01d17c05f06…)\nRoute: Founder email on the company's About page ('Join us'). Email says plainly: no Rust, no scraping or anti-bot experience.\nDelivery: sent, no bounce at last check. Acknowledgement: none yet.",
+      "nextAction": "Await reply. Follow up on October 25 if there is no response. Do not send a duplicate application.",
+      "nextActionDate": "2026-10-25"
+    },
+    {
+      "key": "thisdot-rn-2026-10-18",
+      "matchIds": [],
+      "company": "This Dot Labs",
+      "title": "Senior React Native Engineer",
+      "url": "https://www.thisdot.co/job/senior-react-native-engineer",
+      "location": "Remote",
+      "channel": "email",
+      "contactEmail": "jobs@thisdot.co",
+      "appliedAt": "2026-10-18T02:42:31Z",
+      "gmailMessageId": "1a14ce3abb8add64",
+      "note": "Applied by email on 2026-10-18 (Claude, from itsubaidullahomer@gmail.com).\nTo: jobs@thisdot.co\nSubject: Application: Senior React Native Engineer\nGmail message: 1a14ce3abb8add64\nRésumé: Ubaidullah-Omer-React-Native-Engineer.pdf (5792 bytes, sha256 d9127a320297d9dc…)\nRoute: Job page's Apply button is a pre-filled email to jobs@thisdot.co. Also asked to be considered for Senior Software Engineer (JavaScript, React). No Expo claim.\nDelivery: sent, no bounce at last check. Acknowledgement: none yet.",
+      "nextAction": "Await reply. Follow up on October 25 if there is no response. Do not send a duplicate application.",
+      "nextActionDate": "2026-10-25"
+    },
+    {
+      "key": "techtics-ai-2026-10-18",
+      "matchIds": [],
+      "company": "Techtics.ai",
+      "title": "Full-Stack AI Engineer (speculative)",
+      "url": "https://techtics.ai/careers",
+      "location": "Remote",
+      "channel": "email",
+      "contactEmail": "hr@techtics.ai",
+      "appliedAt": "2026-10-18T02:48:41Z",
+      "gmailMessageId": "1a14ce9512517751",
+      "note": "Applied by email on 2026-10-18 (Claude, from itsubaidullahomer@gmail.com).\nTo: hr@techtics.ai\nSubject: Full-Stack AI Engineer (React, Node.js, LLM integrations) — Ubaidullah Omer\nGmail message: 1a14ce9512517751\nRésumé: Ubaidullah-Omer-Full-Stack-AI-Engineer.pdf (5789 bytes, sha256 182cac5396b4ed0e…)\nRoute: Careers page invites résumés at hr@techtics.ai; no matching engineering role was listed, so this is speculative.\nDelivery: sent, no bounce at last check. Acknowledgement: none yet.",
+      "nextAction": "Await reply. Follow up on October 25 if there is no response. Do not send a duplicate application.",
+      "nextActionDate": "2026-10-25"
     }
   ]
 }

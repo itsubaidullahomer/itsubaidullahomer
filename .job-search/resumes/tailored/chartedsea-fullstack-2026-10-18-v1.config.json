@@ -1,0 +1,30 @@
+{
+  "slug": "chartedsea-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Engineer | TypeScript, Node.js, React, Billing and Dashboards",
+  "standardFonts": true,
+  "summary": "Full-stack engineer who owns systems end to end with TypeScript, Node.js, React and MongoDB, plus SQL / PostgreSQL and Redis. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, on a shared Express backend of about 1,000 endpoints with Stripe and SEPA billing. Built customer-facing analytics dashboards and third-party data integrations. Comfortable with async remote work and UTC+8 overlap from Pakistan (UTC+5). Available immediately.",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Charted Sea",
+    "title": "Full-stack engineer (Rust & TypeScript), fully remote, 4h overlap with UTC+8",
+    "url": "https://chartedsea.com/about"
+  },
+  "tailoring": "Platform ownership: shared backend, billing and payments, customer dashboard, integrations. No Rust or scraping claim."
+}
