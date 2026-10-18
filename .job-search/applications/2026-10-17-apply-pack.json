@@ -400,6 +400,10 @@
     {
       "at": "2026-10-18T05:40Z",
       "summary": "Check-in: no employer replies, no new bounces. No new HN Oct posts (266 unchanged). Himalayas since 03:00 UTC: 3 new, none fitting. Pakistani company careers scan (36 domains): hiring emails at Sofizar, CodeAutomation, Nextbridge, i2c, TEO; no matching remote React/Node roles. No applications sent."
+    },
+    {
+      "at": "2026-10-18T06:35Z",
+      "summary": "Routine check-in (trig_01F1iy72o78LUgAFpszRi8sx): no employer replies or new bounces. Found an Indeed Apply confirmation for 'Senior Web Developer' (2026-10-17 01:24 UTC, company not named) submitted by the candidate; recorded under indeed-senior-web-developer-2026-10-17. Himalayas since 05:20 UTC: 8 new, none fitting (PHP, Java, Go, QA, co-founder roles)."
     }
   ],
   "emailApplications": [
