@@ -1,0 +1,34 @@
+{
+  "createdAt": "2026-10-18T00:54:16.268378+00:00",
+  "job": {
+    "company": "Trackerbot",
+    "title": "Full-Stack Developer (Node.js), remote",
+    "url": "https://news.ycombinator.com/item?id=49926228"
+  },
+  "sourceFacts": {
+    "path": ".job-search/resumes/masters/2026-10-16-v3/facts.snapshot.json",
+    "sha256": "9264eb02ad1fb6d463e5d22aa7d77d8963da1b71b6b0b341180f913bbebd2c89"
+  },
+  "confirmationSource": {
+    "sha256": "99ea046825259cac3d21136007124041faf074d1b970f6797a29c66ddeb067cb"
+  },
+  "selectedFactIds": [
+    "tututor_scope",
+    "tututor_backend",
+    "tututor_platform",
+    "tututor_leadership",
+    "danzee_components",
+    "danzee_jurri",
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "tailoring": "Profitable eCommerce SaaS, Node.js + PostgreSQL, small team ownership; leads with backend ownership and SaaS billing.",
+  "boundaries": [
+    "No degree",
+    "No major-cloud production experience",
+    "No specific PostgreSQL tenure",
+    "Candidate-reported career evidence, not independent verification"
+  ],
+  "submission": false
+}

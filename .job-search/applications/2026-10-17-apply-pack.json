@@ -197,5 +197,42 @@
       "mail": "no new employer replies or confirmations",
       "newRolesAdded": 2
     }
+  ],
+  "emailApplications": [
+    {
+      "slug": "invozone-fullstack-2026-10-18",
+      "company": "InvoZone",
+      "to": "careers@invozone.com",
+      "messageId": "1a14c7c2a564363c",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "trackerbot-fullstack-2026-10-18",
+      "company": "Trackerbot",
+      "to": "dobrev.d10@gmail.com",
+      "messageId": "1a14c81f5fe93bb8",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "aimi-fullstack-ai-2026-10-18",
+      "company": "AiMi",
+      "to": "vishnu.swaroop@aimi.technology",
+      "messageId": "1a14c8348534c98b",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "quill-fullstack-2026-10-18",
+      "company": "Quill",
+      "to": "rishi@quill.co",
+      "messageId": "1a14c843eb03bca4",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "starbridge-product-2026-10-18",
+      "company": "Starbridge",
+      "to": "recruiting@starbridge.ai",
+      "messageId": "1a14c85384c7d814",
+      "sentAt": "2026-10-18"
+    }
   ]
 }

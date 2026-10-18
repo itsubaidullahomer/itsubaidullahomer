@@ -1,0 +1,30 @@
+{
+  "slug": "starbridge-product-2026-10-18-v1",
+  "focus": "frontend",
+  "title": "Product Engineer | React, TypeScript, Next.js",
+  "standardFonts": true,
+  "summary": "Product engineer building fast, stable React and TypeScript interfaces that make complex data clear to non-technical users. Leads engineering at Tututor.ai / EduNova, working directly with the founder on eight products used by 20,000+ students, teachers and families. Built AI-generated analytics dashboards and a paid AI writing SaaS, and cut initial load time by about 40% at Danzee. Comfortable with US working hours. Based in Pakistan. Available immediately.",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Starbridge",
+    "title": "Senior Product Engineer (React/TypeScript), NYC or remote",
+    "url": "https://news.ycombinator.com/item?id=49923756"
+  },
+  "tailoring": "AI sales-insight platform, frontend that explains data to non-technical users; leads with Illume dashboards and performance."
+}

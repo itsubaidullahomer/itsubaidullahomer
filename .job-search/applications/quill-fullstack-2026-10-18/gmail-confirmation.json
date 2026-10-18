@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c843eb03bca4",
+  "threadId": "1a14c843eb03bca4",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "rishi@quill.co",
+  "subject": "Fullstack SWE at Quill \u2014 Ubaidullah Omer (via HN)",
+  "company": "Quill",
+  "role": "Fullstack SWE, remote, PT/ET hours preferred, USD 150-210k",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49522912",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Engineer.pdf",
+    "bytes": 5721,
+    "sha256": "47a94c4808309385fc1b8e9bbadc500a98f448399eb61a81d25e7910f9510281",
+    "source": "output/pdf/ubaidullah-omer-quill-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Co-founder contact published in the HN September 2026 Who is hiring post. Remote location eligibility not stated; email says based in Pakistan and can work PT/ET hours.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

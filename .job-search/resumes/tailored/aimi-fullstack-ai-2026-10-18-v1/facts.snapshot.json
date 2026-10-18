@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-16",
+  "identity": {
+    "name": "Ubaidullah Omer",
+    "email": "itsubaidullahomer@gmail.com",
+    "phone": "+92 3292380929",
+    "location": "Rahim Yar Khan, Pakistan",
+    "website": "https://itsubaidullahomer.com",
+    "github": "https://github.com/itsubaidullahomer",
+    "linkedin": "https://www.linkedin.com/in/itsubaidullahomer/",
+    "availability": "Available immediately"
+  },
+  "titles": {
+    "ai_product": "Full-Stack AI Engineer | React, TypeScript, Node.js, LLMs",
+    "full_stack": "Full-Stack Engineer | React, TypeScript, Node.js",
+    "frontend": "Frontend Engineer | React, TypeScript, Product Delivery"
+  },
+  "summaries": {
+    "ai_product": "Full-stack engineer shipping LLM features in production with React, TypeScript and Node.js. Leads engineering at Tututor.ai / EduNova, building AI features and a shared Express backend of about 1,000 endpoints for eight products used by 20,000+ students, teachers and families. Built a paid AI writing SaaS with OpenAI, Claude and Gemini fallbacks, and AI-generated analytics dashboards. Based in Pakistan. Available immediately.",
+    "full_stack": "Full-stack engineer building production applications with React, TypeScript, Node.js and MongoDB. Leads engineering at Tututor.ai / EduNova across web products, shared backend services and mobile apps. Experience spans AI integrations, school management, payments, analytics and performance optimization. Available immediately.",
+    "frontend": "Product-focused frontend engineer building React and TypeScript applications, reusable interfaces and data-rich workflows. Leads engineering at Tututor.ai / EduNova, with end-to-end experience across Node.js APIs, AI integrations and mobile apps. Earlier work includes analytics, file management and multilingual booking products. Available immediately."
+  },
+  "experience": [
+    {
+      "id": "tututor",
+      "company": "Tututor.ai / EduNova",
+      "role": "Lead Engineer / Full-Stack Engineer",
+      "dates": "Nov 2023 - Present",
+      "location": "Remote | Murcia, Spain",
+      "url": "https://tututor.ai",
+      "bullets": [
+        {
+          "id": "tututor_scope",
+          "text": "Lead engineering across eight connected education products used by 20,000+ students, teachers and families.",
+          "source": "content/site.ts: experience[0], content/projects.ts: tututor"
+        },
+        {
+          "id": "tututor_backend",
+          "text": "Build and maintain a shared Express / MongoDB backend with approximately 1,000 API endpoints and 90 models, including school-scoped data access.",
+          "source": "content/site.ts: experience[0]"
+        },
+        {
+          "id": "tututor_ai",
+          "text": "Ship teacher workflows for lesson-topic chatbots, AI quiz generation, automated grading and class insights; moved AI calls and API keys server-side.",
+          "source": ".job-search/flowcv-resume-source.txt: Tututor experience; content/site.ts: experience[0]"
+        },
+        {
+          "id": "tututor_platform",
+          "text": "Deliver Socket.io / Redis messaging, R2 file storage, Stripe and SEPA billing, and three React Native apps released on both app stores.",
+          "source": "content/site.ts: experience[0]"
+        },
+        {
+          "id": "tututor_leadership",
+          "text": "Led a small team across mobile and web delivery; now work directly with the founder on product and engineering.",
+          "source": "content/site.ts: experience[0]"
+        },
+        {
+          "id": "tututor_export",
+          "text": "Built a Plumier XXI data export with 1,833 of 1,833 golden-test cases passing.",
+          "source": "content/site.ts: experience[0]"
+        }
+      ]
+    },
+    {
+      "id": "danzee",
+      "company": "Danzee Tech",
+      "role": "React Developer",
+      "dates": "Jan 2022 - Jan 2024",
+      "location": "Viby, Denmark",
+      "url": "",
+      "bullets": [
+        {
+          "id": "danzee_components",
+          "text": "Built reusable React components and hooks across client products, alongside Node.js / Express integrations, authentication and payment workflows.",
+          "source": "content/site.ts: experience[1]; .job-search/flowcv-resume-source.txt: Danzee experience"
+        },
+        {
+          "id": "danzee_jurri",
+          "text": "Delivered Jurri file, inbox and password-vault interfaces; reduced initial load time by approximately 40% through code splitting, lazy loading and bundle optimization.",
+          "source": "content/site.ts: experience[1]; .job-search/flowcv-resume-source.txt: Jurri"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "illume",
+      "name": "Illume",
+      "descriptor": "AI business analytics",
+      "url": "https://www.joinillume.com/",
+      "role": "Full-Stack Engineer, part-time",
+      "text": "Built adaptive AI-generated analytics and dashboards for revenue, bookings and retention, with Boulevard, Zenoti and Vagaro data integrations.",
+      "stack": "React, Node.js, MongoDB, OpenAI, Chart.js, D3.js",
+      "source": ".job-search/flowcv-resume-source.txt: Joinillume; content/projects.ts: illume"
+    },
+    {
+      "id": "viloi",
+      "name": "Viloi",
+      "descriptor": "AI writing SaaS",
+      "url": "https://viloi.com",
+      "role": "Full-Stack Engineer",
+      "text": "Built a paid AI writing product with OpenAI, Claude and Gemini fallbacks, JWT authentication, and Stripe subscriptions and webhooks.",
+      "stack": "React, Node.js, Express, MongoDB, Stripe",
+      "source": ".job-search/flowcv-resume-source.txt: Viloi; content/projects.ts: viloi"
+    },
+    {
+      "id": "yaksport",
+      "name": "Yaksport",
+      "descriptor": "Sports travel booking",
+      "url": "https://yaksport.dk/",
+      "role": "Frontend Developer",
+      "text": "Built a Danish / English booking interface with search and filtering for a sports travel agency serving 100+ clubs.",
+      "stack": "React, Tailwind CSS, i18next, REST APIs",
+      "source": ".job-search/flowcv-resume-source.txt: Yaksport; content/projects.ts: yaksport"
+    }
+  ],
+  "skills": [
+    {
+      "label": "Frontend",
+      "text": "React, TypeScript (4 years), Next.js (4 years), React Native (3 years), Redux Toolkit, Tailwind CSS, CSS Grid, Flexbox"
+    },
+    {
+      "label": "Backend",
+      "text": "Node.js, Express, MongoDB, SQL (3+ years), PostgreSQL, GraphQL, REST APIs, WebSockets, Redis"
+    },
+    {
+      "label": "AI and integrations",
+      "text": "OpenAI, Claude, Gemini, Stripe, JWT"
+    },
+    {
+      "label": "Testing and tools",
+      "text": "Docker (3+ years), Jest, React Testing Library, Cypress, Git, Vite, Webpack"
+    },
+    {
+      "label": "Frontend practices",
+      "text": "Shared component library or design-system maintenance; code reviews"
+    }
+  ],
+  "editorialRules": {
+    "claims": "Candidate-reported claims drawn from the candidate's resume and portfolio. These are not independent verification of employment, metrics, customer counts or product usage.",
+    "education": "Excluded. Candidate confirmed no degree on October 15, 2026. Do not include a degree or infer graduation.",
+    "title": "Current portfolio calls the Tututor role Lead Engineer; the older exported resume uses MERN Developer. The master uses the current portfolio role plus a functional Full-Stack description, and does not alter the historical PDF.",
+    "dates": "Keep employment dates exactly as sourced. The Jan 2022-Jan 2024 and Nov 2023-present roles overlap; do not invent an explanation or alter dates.",
+    "illumeDates": "Conflicting source dates: resume Dec 2024-May 2025; portfolio Dec 2024-Jun 2025. Project dates are omitted pending confirmation.",
+    "excludedClaims": [
+      "90-95% lesson creation improvement",
+      "$250K funding causality",
+      "AI detector bypass claims",
+      "30% code duplication reduction"
+    ],
+    "neverInvent": [
+      "completed education",
+      "employment dates",
+      "salary",
+      "work authorization",
+      "visa sponsorship eligibility",
+      "unreported metrics",
+      "new skills",
+      "employer relationships",
+      "reference contacts"
+    ]
+  },
+  "sources": [
+    {
+      "path": "/Users/ubaidullah/Downloads/Ubaidullah_FlowCV_Resume_2026-10-14.pdf",
+      "note": "Current export by PDF creation date: 2026-10-14. Text is identical to older Ubaidullah.pdf created 2026-10-03. Original preserved."
+    },
+    {
+      "path": ".job-search/flowcv-resume-source.txt",
+      "note": "Captured FlowCV resume content."
+    },
+    {
+      "path": "content/site.ts",
+      "note": "Current portfolio identity, employment, engineering scope and candidate-reported metrics."
+    },
+    {
+      "path": "content/projects.ts",
+      "note": "Current project descriptions and public product URLs."
+    },
+    {
+      "path": "Candidate clarification, October 15, 2026",
+      "note": "Candidate confirmed immediate availability and no degree; education omitted."
+    },
+    {
+      "path": "Direct candidate answers in this chat, October 16, 2026",
+      "note": "Confirmed TypeScript 4 years, Next.js 4 years, React Native 3 years, Docker and SQL 3+ years each; hands-on Jest/React Testing Library and GraphQL; advanced English; full US business hours; USD 50,000 annual salary expectation, negotiable. All candidate-reported."
+    }
+  ],
+  "outreachSummaries": {
+    "ai_product": "I build AI-powered web and mobile products from interface to infrastructure. My work spans education, analytics and SaaS, with hands-on ownership of React / TypeScript, Node.js, MongoDB and production AI integrations. Advanced spoken and written English. Available immediately.",
+    "full_stack": "I build production web and mobile products from interface to infrastructure. My work spans education, analytics and SaaS, with hands-on ownership of React / TypeScript, Node.js, MongoDB and third-party integrations. Available immediately.",
+    "frontend": "I build product interfaces with React and TypeScript, from reusable components to data-rich workflows. My work spans education, analytics and SaaS, with hands-on experience across APIs, AI integrations and mobile delivery. Available immediately."
+  },
+  "proofPoints": [
+    {
+      "metric": "8",
+      "label": "connected education products",
+      "factId": "tututor_scope"
+    },
+    {
+      "metric": "20k+",
+      "label": "students, teachers & families",
+      "factId": "tututor_scope"
+    },
+    {
+      "metric": "3",
+      "label": "mobile apps on both stores",
+      "factId": "tututor_platform"
+    }
+  ],
+  "coreStack": "React / TypeScript (4 years) / Next.js (4 years) / React Native (3 years) / Node.js / Express / MongoDB / SQL (3+ years) / Docker (3+ years) / GraphQL / Jest / React Testing Library / Git / Vite / Webpack / OpenAI / Claude / Gemini / Stripe / CSS Grid / Flexbox / Shared component library or design-system maintenance / Code reviews",
+  "candidateConfirmations": {
+    "schemaVersion": 1,
+    "recordedAt": "2026-10-15T22:32:44.165Z",
+    "source": "Direct candidate answers in this chat, October 16, 2026",
+    "independentlyVerified": false,
+    "skills": {
+      "typescript": {
+        "years": 4
+      },
+      "nextjs": {
+        "years": 4
+      },
+      "reactNative": {
+        "years": 3
+      },
+      "docker": {
+        "yearsMinimum": 3,
+        "wording": "3+ years"
+      },
+      "sql": {
+        "yearsMinimum": 3,
+        "wording": "3+ years"
+      },
+      "jest": {
+        "handsOn": true
+      },
+      "reactTestingLibrary": {
+        "handsOn": true
+      },
+      "graphql": {
+        "handsOn": true
+      },
+      "postgresql": {
+        "productionExperience": true,
+        "years": null,
+        "confirmedAt": "2026-10-16T01:07:52.993Z",
+        "source": "Direct candidate answer: I have used PostgreSQL in production",
+        "independentlyVerified": false
+      },
+      "majorCloudPlatforms": {
+        "studied": true,
+        "productionExperience": false,
+        "specificPlatformsAndServices": [],
+        "selfReportedAbility": "Candidate says they can work with these platforms, but have no proper production working experience.",
+        "source": "Direct candidate clarification on October 16, 2026",
+        "confirmedAt": "2026-10-16T07:16:02.928560+00:00",
+        "independentlyVerified": false
+      }
+    },
+    "english": {
+      "spoken": "Advanced",
+      "written": "Advanced",
+      "testScore": null
+    },
+    "availability": "Available immediately",
+    "schedule": "Flexible to align with any employer time zone, including Australian and US business hours",
+    "salaryExpectation": {
+      "amount": 50000,
+      "currency": "USD",
+      "period": "year",
+      "negotiable": true,
+      "minimum": false
+    },
+    "accessReportedByUser": {
+      "portalPasswordSaved": true,
+      "gmailSignInCompleted": true
+    },
+    "cautions": [
+      "SQL tenure is 3+ years; PostgreSQL production use is separately confirmed, but PostgreSQL-specific tenure, migrations, tuning and row-level security remain unconfirmed.",
+      "Docker does not establish Kubernetes, AWS, GCP or Terraform experience.",
+      "User-reported sign-in must be checked against the live authorized account.",
+      "Full US business hours does not authorize special paid trials, on-call, relocation or travel commitments.",
+      "No completed university degree."
+    ],
+    "additionalConfirmations": {
+      "frontendPractices": {
+        "sharedComponentLibraryOrDesignSystemMaintenance": true,
+        "cssGridFlexbox": true,
+        "codeReviewParticipation": true,
+        "confirmedAt": "2026-10-15T23:26:37.018Z",
+        "source": "Direct candidate reply: I have hands-on experience with all three",
+        "verification": "candidate_reported"
+      },
+      "allcancode": {
+        "confirmedAt": "2026-10-16T00:08:05.244Z",
+        "selfRatings": {
+          "react": 5,
+          "reactNative": 4.9,
+          "nextjs": 5,
+          "documentDatabasesMongoDB": 5,
+          "relationalDatabasesSQL": 4
+        },
+        "aiReplacementOpinion": "No",
+        "aiOpinion": "AI will not replace software developers. It can write better code than humans and handle repetitive work, but people understand business logic and human needs, create systems, and make decisions and system-design trade-offs.",
+        "source": "Direct user answer October 16, 2026. Preserve original fractional React Native rating; do not imply an independent assessment.",
+        "reactNativeFormChoice": {
+          "candidateOriginalRating": 4.9,
+          "formIntegerValue": 5,
+          "confirmedAt": "2026-10-16T00:25:22.041245+00:00",
+          "source": "Direct user confirmation: use 5 as the nearest available integer to the original React Native self-rating of 4.9.",
+          "independentlyAssessed": false
+        }
+      },
+      "anyTimeZone": {
+        "confirmedAt": "2026-10-16T05:34:02.164Z",
+        "source": "Direct candidate reply on October 16, 2026",
+        "statement": "Available to adjust working hours to any employer time zone, including Australian AEST/AEDT business hours.",
+        "scope": "Flexible scheduled business hours; not a promise of continuous 24/7 work, on-call, or simultaneous overlapping jobs.",
+        "independentlyVerified": false
+      },
+      "productDelivery": {
+        "builtApplicationsFromScratch": true,
+        "implementedFigmaDesignsCloselyInProduction": true,
+        "confirmedAt": "2026-10-16T07:48:00Z",
+        "source": "Direct candidate reply 'Yes, both' to: can I accurately say you have built applications from scratch and closely reproduced Figma designs in production?",
+        "verification": "candidate_reported"
+      }
+    },
+    "updatedAt": "2026-10-16T07:16:02.928560+00:00",
+    "citizenship": {
+      "country": "Pakistan",
+      "source": "Direct candidate reply October 16, 2026",
+      "confirmedAt": "2026-10-16T05:37:09.134Z"
+    },
+    "currentEmployment": {
+      "employed": true,
+      "contractEnds": "2026-10-31",
+      "wording": "Contract ends at the end of October",
+      "employerNotSpecifiedInReply": true,
+      "confirmedAt": "2026-10-16T05:37:09.134Z"
+    },
+    "currentSalary": {
+      "amount": 260000,
+      "currency": "PKR",
+      "period": null,
+      "approximateUsdReported": 950,
+      "source": "Direct candidate reply October 16, 2026; salary period not explicitly stated. Do not annualize.",
+      "confirmedAt": "2026-10-16T05:37:09.134Z"
+    },
+    "addressReportedByUser": {
+      "street": "Jinnah Park, Street 17",
+      "city": "Rahim Yar Khan",
+      "province": "Punjab",
+      "postalCodeAsTyped": "4200",
+      "postalCodeUsed": "64200 (Rahim Yar Khan code; user typed 4200, flagged to user)",
+      "confirmedAt": "2026-10-17T10:15:26.182057+00:00"
+    }
+  }
+}
