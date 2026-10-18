@@ -359,6 +359,11 @@
       "company": "Ready",
       "title": "Senior Full Stack Go Developer (Go + Next.js)",
       "reason": "Go backend (unconfirmed)"
+    },
+    {
+      "company": "BYTRIX",
+      "title": "Frontend Developer (Mobile Applications)",
+      "reason": "Indeed match invite (2026-10-18 21:59 UTC); Karachi, full-time, min Rs 200,000/month; on-site relocation not confirmed by candidate; Indeed Apply form only"
     }
   ],
   "checkIns": [
@@ -404,6 +409,10 @@
     {
       "at": "2026-10-18T06:35Z",
       "summary": "Routine check-in (trig_01F1iy72o78LUgAFpszRi8sx): no employer replies or new bounces. Found an Indeed Apply confirmation for 'Senior Web Developer' (2026-10-17 01:24 UTC, company not named) submitted by the candidate; recorded under indeed-senior-web-developer-2026-10-17. Himalayas since 05:20 UTC: 8 new, none fitting (PHP, Java, Go, QA, co-founder roles)."
+    },
+    {
+      "at": "2026-10-18T23:22Z",
+      "summary": "Weekend check-ins 07:08-23:20 UTC: no employer replies; no new bounces (Appkeeper/Eventikk still delayed). No new HN posts; feeds and Himalayas showed nothing fitting. BYTRIX Indeed match logged (Karachi, needs relocation answer)."
     }
   ],
   "emailApplications": [
