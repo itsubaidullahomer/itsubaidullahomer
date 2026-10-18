@@ -1,6 +1,6 @@
 {
-  "id": "applications-2026-10-18-r2",
-  "recordedAt": "2026-10-18T02:50:00Z",
+  "id": "applications-2026-10-18-r3",
+  "recordedAt": "2026-10-18T03:30:00Z",
   "applications": [
     {
       "key": "invozone-fullstack-2026-10-18",
@@ -358,6 +358,36 @@
       "appliedAt": "2026-10-18T02:48:41Z",
       "gmailMessageId": "1a14ce9512517751",
       "note": "Applied by email on 2026-10-18 (Claude, from itsubaidullahomer@gmail.com).\nTo: hr@techtics.ai\nSubject: Full-Stack AI Engineer (React, Node.js, LLM integrations) — Ubaidullah Omer\nGmail message: 1a14ce9512517751\nRésumé: Ubaidullah-Omer-Full-Stack-AI-Engineer.pdf (5789 bytes, sha256 182cac5396b4ed0e…)\nRoute: Careers page invites résumés at hr@techtics.ai; no matching engineering role was listed, so this is speculative.\nDelivery: sent, no bounce at last check. Acknowledgement: none yet.",
+      "nextAction": "Await reply. Follow up on October 25 if there is no response. Do not send a duplicate application.",
+      "nextActionDate": "2026-10-25"
+    },
+    {
+      "key": "bevyl-founding-2026-10-18",
+      "matchIds": [],
+      "company": "Bevyl",
+      "title": "Founding Engineer / AI Engineer",
+      "url": "https://news.ycombinator.com/item?id=46466795",
+      "location": "NYC / open to remote",
+      "channel": "email",
+      "contactEmail": "noah@bevyl.ai",
+      "appliedAt": "2026-10-18T03:18:05Z",
+      "gmailMessageId": "1a14d043ca2a7de1",
+      "note": "Applied by email on 2026-10-18 (Claude, from itsubaidullahomer@gmail.com).\nTo: noah@bevyl.ai\nSubject: Founding / AI Engineer at Bevyl — Ubaidullah Omer (via HN)\nGmail message: 1a14d043ca2a7de1\nRésumé: Ubaidullah-Omer-Full-Stack-AI-Engineer.pdf (5780 bytes, sha256 f7f6b5a09db762e2…)\nRoute: CTO email in HN January 2026 post (may be stale; the email says so). States plainly: no video-processing or Supabase production experience.\nDelivery: sent, no bounce at last check. Acknowledgement: none yet.",
+      "nextAction": "Await reply. Follow up on October 25 if there is no response. Do not send a duplicate application.",
+      "nextActionDate": "2026-10-25"
+    },
+    {
+      "key": "taskade-fullstack-2026-10-18",
+      "matchIds": [],
+      "company": "Taskade",
+      "title": "Full Stack Engineer",
+      "url": "https://www.taskade.com/jobs",
+      "location": "San Francisco / Singapore / Remote",
+      "channel": "email",
+      "contactEmail": "jobs@taskade.com",
+      "appliedAt": "2026-10-18T03:23:39Z",
+      "gmailMessageId": "1a14d095557a941d",
+      "note": "Applied by email on 2026-10-18 (Claude, from itsubaidullahomer@gmail.com).\nTo: jobs@taskade.com\nSubject: Full Stack Engineer (remote) — Ubaidullah Omer\nGmail message: 1a14d095557a941d\nRésumé: Ubaidullah-Omer-Full-Stack-Engineer.pdf (5824 bytes, sha256 b3938645f5117ba1…)\nRoute: Role descriptions on taskade.com/jobs end 'or contact jobs@taskade.com'. Also asked to be considered for Front-end Engineer. States plainly: no Kubernetes, edge deployment or vector search.\nDelivery: sent, no bounce at last check. Acknowledgement: none yet.",
       "nextAction": "Await reply. Follow up on October 25 if there is no response. Do not send a duplicate application.",
       "nextActionDate": "2026-10-25"
     }

@@ -259,6 +259,46 @@
       "company": "Mitre Media",
       "title": "Tech Lead Full-Stack Rails Engineer",
       "reason": "USA/Canada only; Rails"
+    },
+    {
+      "company": "DualEntry",
+      "title": "Frontend Software Engineer (Mid-Level)",
+      "reason": "EU/LATAM only; 5+ years"
+    },
+    {
+      "company": "Perena",
+      "title": "Frontend Engineer",
+      "reason": "Solana/DeFi wallet integration (unconfirmed)"
+    },
+    {
+      "company": "Toggl",
+      "title": "Senior Full Stack",
+      "reason": "UTC-4 to UTC+4 only (Pakistan is UTC+5)"
+    },
+    {
+      "company": "Typeform",
+      "title": "Full Stack Developer",
+      "reason": "EU/UK only"
+    },
+    {
+      "company": "Mux",
+      "title": "Senior Full Stack Engineer",
+      "reason": "US only"
+    },
+    {
+      "company": "Scout IP",
+      "title": "Founding Full Stack Developer",
+      "reason": "No verifiable company website; personal Gmail contact"
+    },
+    {
+      "company": "Watchtower Health / Marker Learning / Coder / Join",
+      "title": "various",
+      "reason": "US-only or equity-only"
+    },
+    {
+      "company": "Scopic Software",
+      "title": "(none listed)",
+      "reason": "No open roles; jobs@ is for scam verification only"
     }
   ],
   "checkIns": [
@@ -288,6 +328,10 @@
     {
       "at": "2026-10-18T02:52Z",
       "summary": "Continued email-apply run. New: Charted Sea (founder email, About page), This Dot Labs (jobs@ via job-page apply button, Senior React Native Engineer), Techtics.ai (speculative, careers page invites resumes). Total email applications today: 21. Portal sync batch bumped to applications-2026-10-18-r2 (23 records). No new replies; no bounces for today's sends; Appkeeper and Eventikk still delayed. Sources this round: HN re-scan (Jan-Oct 2026), LinkedIn guest search, remote feeds (Remotive, RemoteOK, Jobicy, WWR, Working Nomads, Himalayas), Pakistani company careers pages."
+    },
+    {
+      "at": "2026-10-18T03:30Z",
+      "summary": "Added Bevyl (CTO email, HN Jan 2026) and Taskade (jobs@ from role pages). Total email applications today: 23. Portal sync batch now applications-2026-10-18-r3 (25 records); production deploy of r2 READY. New sources tried: Himalayas Pakistan/anywhere filter, worldwide feeds with company-site email scan, remoteintech directory (~570 worldwide companies scanned for hiring emails). Form-only leads saved: Pavago, Adventure Travel 365, Sticker Mule."
     }
   ],
   "emailApplications": [
@@ -437,6 +481,20 @@
       "to": "hr@techtics.ai",
       "messageId": "1a14ce9512517751",
       "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "bevyl-founding-2026-10-18",
+      "company": "Bevyl",
+      "to": "noah@bevyl.ai",
+      "messageId": "1a14d043ca2a7de1",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "taskade-fullstack-2026-10-18",
+      "company": "Taskade",
+      "to": "jobs@taskade.com",
+      "messageId": "1a14d095557a941d",
+      "sentAt": "2026-10-18"
     }
   ],
   "formOnlyLeads": [
@@ -481,6 +539,24 @@
       "role": "Full Stack Developer AI & Automation (remote India/Pakistan, USD 2,000/mo)",
       "url": "https://www.linkedin.com/jobs/view/4472902392/",
       "route": "LinkedIn apply; needs confirmation of n8n, Claude Code, Supabase/Firebase, Render/Railway experience"
+    },
+    {
+      "company": "Pavago (client role)",
+      "title": "AI Product Engineer (Full Stack)",
+      "url": "https://himalayas.app/companies/pavago/jobs/ai-product-engineer-full-stack-8856310413",
+      "note": "Pakistan, remote, US hours; LLM integration end to end. Wants Supabase or similar (unconfirmed). No hiring email on pavago.com."
+    },
+    {
+      "company": "Adventure Travel 365",
+      "title": "Senior Full-Stack Developer - Marketplace Web & Mobile",
+      "url": "https://weworkremotely.com/remote-jobs/adventure-travel-365-senior-full-stack-developer-marketplace-web-mobile-platform",
+      "note": "Worldwide; marketplace with bookings, payments, dashboards, mobile. Apply via WWR (403 from here); asks about AI in development (unconfirmed) and an optional video intro."
+    },
+    {
+      "company": "Sticker Mule",
+      "title": "Software engineer",
+      "url": "https://weworkremotely.com/remote-jobs/sticker-mule-software-engineer-3",
+      "note": "Remote from 40+ countries, $150k-$250k; Go/TS/React/Expo/GraphQL/Postgres; expects aggressive AI tool use (unconfirmed)."
     }
   ]
 }
