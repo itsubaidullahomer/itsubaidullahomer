@@ -256,6 +256,20 @@
       "to": "careers@surgehq.ai",
       "messageId": "1a14c893f765175a",
       "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "lit8-fullstack-2026-10-18",
+      "company": "Lit8",
+      "to": "careers@lit8.com",
+      "messageId": "1a14c91436d1a4a3",
+      "sentAt": "2026-10-18"
+    },
+    {
+      "slug": "signx-fullstack-2026-10-18",
+      "company": "SignX Solutions",
+      "to": "contact@signxsolutions.com",
+      "messageId": "1a14c925bb460104",
+      "sentAt": "2026-10-18"
     }
   ]
 }
