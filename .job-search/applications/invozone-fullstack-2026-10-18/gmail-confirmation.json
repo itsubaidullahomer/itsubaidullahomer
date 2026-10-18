@@ -1,0 +1,20 @@
+{
+  "messageId": "1a14c7c2a564363c",
+  "threadId": "1a14c7c2a564363c",
+  "labels": ["SENT"],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "careers@invozone.com",
+  "subject": "Full Stack / MERN Developer application — Ubaidullah Omer",
+  "submittedAt": "2026-10-18T00:49:28.000Z",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Engineer.pdf",
+    "bytes": 5709,
+    "sha256": "8d2f571c799d25efbc7dd1b63d3cad0d290973baca28f02b22ba4c3170ad6635",
+    "source": "output/pdf/ubaidullah-omer-invozone-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Published hiring address on the official careers page (https://invozone.com/careers/), speculative application for Full Stack / MERN / React.js roles",
+  "delivery": "Gmail SENT; no bounce or delay notice as of 2026-10-18 check",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent"
+}

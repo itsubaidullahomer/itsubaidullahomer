@@ -22,6 +22,10 @@ config={k:cfg[k] for k in ('focus','slug','projects','experienceBullets')}
 src=(MASTER/'build_resumes.py').read_text()
 src=src.replace("Path('/Users/ubaidullah/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/pdfjs-dist/standard_fonts')","Path('/usr/share/fonts/truetype/liberation')")
 src=src.replace("'/System/Library/Fonts/Supplemental/Courier New.ttf'","'/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf'")
+if cfg.get('standardFonts'):
+    # Built-in PDF fonts (metric-compatible with Liberation Sans): same layout, ~10x smaller file for email attachments.
+    src='\n'.join((l[:len(l)-len(l.lstrip())]+'pass') if 'registerFont' in l else l for l in src.split('\n'))
+    for a,b in [("'ResumeSans'","'Helvetica'"),("'ResumeBold'","'Helvetica-Bold'"),("'ResumeItalic'","'Helvetica-Oblique'"),("'Geist'","'Helvetica'"),("'ResumeMono'","'Courier'")]: src=src.replace(a,b)
 mod=types.ModuleType('resume_builder'); mod.__file__=str(MASTER/'build_resumes.py'); exec(compile(src,mod.__file__,'exec'),mod.__dict__)
 focus,slug,experience,projects=mod.select(facts,config)
 (D/'resume.md').write_text(mod.markdown(facts,focus,experience,projects))
