@@ -2,7 +2,11 @@ import type { Activity, Job, Workspace } from "./types";
 import { applyAction, normalizeUrl } from "./domain";
 import { assertJob } from "./validation";
 
-/** One application Claude sent or recorded outside the portal, kept in the repository as a confirmed record. */
+/**
+ * One application Claude sent or recorded outside the portal, kept in the repository as a confirmed record.
+ * To record more, append to data/agent-sync/applications.json and give the batch a new id: entries already
+ * applied are skipped, so only the new ones are added. Then deploy the portal to production.
+ */
 export type AgentApplication = {
   key: string;
   matchIds: string[];
