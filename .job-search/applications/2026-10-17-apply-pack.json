@@ -364,6 +364,21 @@
       "company": "BYTRIX",
       "title": "Frontend Developer (Mobile Applications)",
       "reason": "Indeed match invite (2026-10-18 21:59 UTC); Karachi, full-time, min Rs 200,000/month; on-site relocation not confirmed by candidate; Indeed Apply form only"
+    },
+    {
+      "company": "DigitalTolk",
+      "title": "Senior Full Stack Engineer - Remote",
+      "reason": "5-7 years; expects AI-generated code as default workflow (AI coding tools unconfirmed - needs user input); Indeed form"
+    },
+    {
+      "company": "Texinity Technologies",
+      "title": "Senior Full Stack Engineer",
+      "reason": "5-8 years; Islamabad"
+    },
+    {
+      "company": "COVERGO",
+      "title": "Senior Full Stack Engineer (.NET & Vue/React)",
+      "reason": ".NET backend (unconfirmed)"
     }
   ],
   "checkIns": [
@@ -413,6 +428,10 @@
     {
       "at": "2026-10-18T23:22Z",
       "summary": "Weekend check-ins 07:08-23:20 UTC: no employer replies; no new bounces (Appkeeper/Eventikk still delayed). No new HN posts; feeds and Himalayas showed nothing fitting. BYTRIX Indeed match logged (Karachi, needs relocation answer)."
+    },
+    {
+      "at": "2026-10-19T04:05Z",
+      "summary": "Monday check-ins 02:21 and 04:00 UTC: no employer replies or bounces. Feeds/HN unchanged; LinkedIn guest search (171 postings) and Indeed PK showed no email-apply fits. DigitalTolk remote role needs AI-coding-tools answer."
     }
   ],
   "emailApplications": [
