@@ -436,6 +436,10 @@
     {
       "at": "2026-10-19T07:08Z",
       "summary": "Appkeeper email (hello@appkeeper.ltd) failed permanently at 2026-10-19 05:46 UTC; the application is not confirmed received. Eventikk still in Gmail retry (last delay notice 2026-10-18 08:57 UTC). No employer replies. TBox follow-up sent 05:02 UTC. No new email-apply roles in feeds/HN."
+    },
+    {
+      "at": "2026-10-19T10:12Z",
+      "summary": "Eventikk inquiry to careers@eventikk.com failed permanently 09:21 UTC (recorded). No employer replies. Proxify AB added as form-only lead. No new email-apply roles."
     }
   ],
   "emailApplications": [
@@ -667,6 +671,12 @@
       "title": "Senior Software Engineer",
       "url": "https://www.kadoa.com/careers/senior-software-engineer",
       "note": "Fully remote (Zurich HQ); TS/Node/Python/Docker/K8s/GCP, LLMs in production. Apply via Google Form only."
+    },
+    {
+      "company": "Proxify AB",
+      "title": "Senior Fullstack Developer (React.js / Node.js)",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js",
+      "note": "Anywhere in the world; talent marketplace with its own application form and vetting test."
     }
   ]
 }
