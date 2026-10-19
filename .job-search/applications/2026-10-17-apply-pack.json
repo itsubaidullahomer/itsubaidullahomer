@@ -432,6 +432,10 @@
     {
       "at": "2026-10-19T04:05Z",
       "summary": "Monday check-ins 02:21 and 04:00 UTC: no employer replies or bounces. Feeds/HN unchanged; LinkedIn guest search (171 postings) and Indeed PK showed no email-apply fits. DigitalTolk remote role needs AI-coding-tools answer."
+    },
+    {
+      "at": "2026-10-19T07:08Z",
+      "summary": "Appkeeper email (hello@appkeeper.ltd) failed permanently at 2026-10-19 05:46 UTC; the application is not confirmed received. Eventikk still in Gmail retry (last delay notice 2026-10-18 08:57 UTC). No employer replies. TBox follow-up sent 05:02 UTC. No new email-apply roles in feeds/HN."
     }
   ],
   "emailApplications": [

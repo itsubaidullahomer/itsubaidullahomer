@@ -1,0 +1,11 @@
+{
+  "messageId": "1a152b23895ea808",
+  "threadId": "1a141fa39f65277c",
+  "from": "mailer-daemon@googlemail.com",
+  "receivedAt": "2026-10-19T05:46:14Z",
+  "subject": "Delivery Status Notification (Failure)",
+  "summary": "Permanent failure delivering the 2026-10-15 23:51 UTC application email to hello@appkeeper.ltd: 'The recipient server did not accept our requests'. Earlier delay notices 2026-10-17 02:38 and 2026-10-18 02:29 UTC.",
+  "status": "Application NOT confirmed received: the careers form reset without confirmation and the email fallback bounced.",
+  "nextAction": "Candidate decides whether to retry via the Appkeeper careers form or LinkedIn; no further email to this address.",
+  "recordedAt": "2026-10-19"
+}
