@@ -384,6 +384,11 @@
       "company": "Tiny",
       "title": "Senior React Native Engineer, HFC",
       "reason": "5+ years mobile; Expo and Tamagui hands-on required (unconfirmed)"
+    },
+    {
+      "company": "Coderzhunt",
+      "title": "Frontend Developer (Vue+Node)",
+      "reason": "Vue (unconfirmed); Indeed match with placeholder pay"
     }
   ],
   "checkIns": [
@@ -449,6 +454,10 @@
     {
       "at": "2026-10-19T13:50Z",
       "summary": "Starbridge acknowledged (recruiting coordinator created an application, 11:47 UTC). No other replies. Himalayas PK since 00:00 UTC: nothing fitting. Feeds/HN unchanged."
+    },
+    {
+      "at": "2026-10-19T23:28Z",
+      "summary": "Check-ins 15:50-23:28 UTC: no new employer replies or bounces. ElevenLabs full-stack (remote anywhere) logged as form-only lead. HN unchanged."
     }
   ],
   "emailApplications": [
@@ -686,6 +695,12 @@
       "title": "Senior Fullstack Developer (React.js / Node.js)",
       "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js",
       "note": "Anywhere in the world; talent marketplace with its own application form and vetting test."
+    },
+    {
+      "company": "ElevenLabs",
+      "title": "Full-Stack Engineer - Creative Agents",
+      "url": "https://jobicy.com/jobs/155941-full-stack-engineer-creative-agents",
+      "note": "Remote anywhere ('we prioritize your talent, not your location'); ATS form only; AI-first engineering culture (AI coding tools unconfirmed)."
     }
   ]
 }
