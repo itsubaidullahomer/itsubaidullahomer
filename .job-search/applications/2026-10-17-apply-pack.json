@@ -444,6 +444,81 @@
    "company": "WIA Software",
    "title": "Full Stack Engineer (Trading Platform)",
    "reason": "LinkedIn-only listing; no published hiring email; details rate-limited"
+  },
+  {
+   "company": "HBOX Digital",
+   "title": "React Native Mobile App Developer",
+   "reason": "On-site at DHA Phase 8, Karachi (company careers page); relocation not confirmed. Otherwise a strong fit; hr@hboxdigital.com is published."
+  },
+  {
+   "company": "HBOX Digital",
+   "title": "Full-Stack Developer - Web & AI Automation",
+   "reason": "On-site Karachi; PHP/WordPress and n8n/Make/Zapier required (unconfirmed)"
+  },
+  {
+   "company": "Diversive Technologies",
+   "title": "Software engineer — product",
+   "reason": "On-site, Allama Iqbal Town, Lahore"
+  },
+  {
+   "company": "Holepunch",
+   "title": "Senior Node.js Software Engineer",
+   "reason": "Part of Tether (excluded); applications go through Tether careers"
+  },
+  {
+   "company": "Sortitt",
+   "title": "Full-Stack Software Engineer (MERN + Next.js + OpenAI + AWS)",
+   "reason": "AWS deployment required (no production use); Himalayas form only"
+  },
+  {
+   "company": "TalentCross",
+   "title": "Full Stack Engineer (React, Node.js, PostgreSQL, Web Scraping, AI Tools)",
+   "reason": "~200-hour contract; Strapi, NestJS, scrapers and Chrome extensions required (unconfirmed); form only"
+  },
+  {
+   "company": "Paperpile",
+   "title": "Full-Stack Engineer (TypeScript, React)",
+   "reason": "Listing restricted to Austria/Europe"
+  },
+  {
+   "company": "Customer.io",
+   "title": "Senior Software Engineer, Product/AI",
+   "reason": "Go backend; EMEA only; AI agents daily (unconfirmed)"
+  },
+  {
+   "company": "Tala",
+   "title": "Senior Backend Engineer",
+   "reason": "Backend microservices stack not stated as Node; ATS only"
+  },
+  {
+   "company": "Dataspecc",
+   "title": "Full Stack Engineer (TypeScript, AI-Native)",
+   "reason": "Daily Claude Code/Codex use is non-negotiable (unconfirmed; awaiting owner's answer)"
+  },
+  {
+   "company": "BusinessMentor.com",
+   "title": "Senior Full-Stack Developer, AI Agents",
+   "reason": "99% AI-agent coding and scraper experience required (unconfirmed)"
+  },
+  {
+   "company": "Wizdaa",
+   "title": "Senior React Native & React Engineer (PK)",
+   "reason": "AI-first delivery with Cursor/Claude by default (unconfirmed); LinkedIn apply only"
+  },
+  {
+   "company": "Smart Working",
+   "title": "Sr Frontend Engineer - React/Next.js & AWS",
+   "reason": "AWS required; LinkedIn/ATS apply only"
+  },
+  {
+   "company": "ACQ Recruitment",
+   "title": "Technical Maintenance Developer",
+   "reason": "n8n workflows central (unconfirmed); not a product role"
+  },
+  {
+   "company": "Rightangled",
+   "title": "Mobile App Developer (Remote)",
+   "reason": "Flutter/Dart required"
   }
  ],
  "checkIns": [
@@ -521,6 +596,10 @@
   {
    "at": "2026-10-24T12:35Z",
    "summary": "Check-in delayed from 2026-10-20 05:55 UTC (trigger reached the session on 2026-10-24). Starbridge declined on 2026-10-21 (Ashby). No other employer replies or bounces 2026-10-20 to 2026-10-24; no applications sent by the owner in that window. Portal sync now closes declined applications (batch applications-2026-10-24-r4)."
+  },
+  {
+   "at": "2026-10-24T13:00Z",
+   "summary": "Sweep for 2026-10-20 to 2026-10-24: Himalayas 2 new, feeds 167 new, LinkedIn 149 new, HN unchanged (266). No role fit an email application; 15 screen-outs logged. HBOX Digital React Native fits the facts but is on-site in Karachi."
   }
  ],
  "emailApplications": [
