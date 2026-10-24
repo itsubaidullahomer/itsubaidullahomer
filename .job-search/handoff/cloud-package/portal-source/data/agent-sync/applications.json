@@ -1,6 +1,6 @@
 {
-  "id": "applications-2026-10-18-r3",
-  "recordedAt": "2026-10-18T03:30:00Z",
+  "id": "applications-2026-10-24-r4",
+  "recordedAt": "2026-10-24T12:20:00Z",
   "applications": [
     {
       "key": "invozone-fullstack-2026-10-18",
@@ -75,7 +75,14 @@
       "gmailMessageId": "1a14c85384c7d814",
       "note": "Applied by email on 2026-10-18 (Claude, from itsubaidullahomer@gmail.com).\nTo: recruiting@starbridge.ai\nSubject: Senior Product Engineer (React/TypeScript) — Ubaidullah Omer (via HackerNews)\nGmail message: 1a14c85384c7d814\nRésumé: Ubaidullah-Omer-Product-Engineer.pdf (5715 bytes, sha256 12a90b2f5981daaf…)\nRoute: Recruiting address published in the HN October 2026 Who is hiring post (resume in PDF). Remote location eligibility not stated. Email describes Illume users as 'salon and spa owners'; content says MedSpa owners.\nDelivery: sent, no bounce at last check. Acknowledgement: none yet.",
       "nextAction": "Await reply. Follow up on October 25 if there is no response. Do not send a duplicate application.",
-      "nextActionDate": "2026-10-25"
+      "nextActionDate": "2026-10-25",
+      "outcome": {
+        "status": "rejected",
+        "receivedAt": "2026-10-21T13:35:46Z",
+        "from": "Starbridge (no-reply@ashbyhq.com)",
+        "gmailMessageId": "1a15eacd2ad54536",
+        "note": "Acknowledged 2026-10-19 by recruiting@starbridge.ai (Jade Hapay, Recruiting Coordinator): an application was created in their system.\nDecision 2026-10-21 13:35 UTC from no-reply@ashbyhq.com, Gmail message 1a15eacd2ad54536: 'After reviewing your application, we have decided to move forward with other candidates whose skillsets more closely align with our current needs for the role.' The email names the role as Senior Product Engineer | NYC.\nNo reply needed. Do not follow up."
+      }
     },
     {
       "key": "interviewresources-fullstack-ai-2026-10-18",

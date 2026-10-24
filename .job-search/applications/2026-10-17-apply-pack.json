@@ -515,8 +515,12 @@
    "summary": "Check-ins 15:50-23:28 UTC: no new employer replies or bounces. ElevenLabs full-stack (remote anywhere) logged as form-only lead. HN unchanged."
   },
   {
-   "at": "2026-10-20T03:55Z",
+   "at": "2026-10-20T03:37Z",
    "summary": "Morning sweep: no employer replies or new bounces. Himalayas 3 new, LinkedIn 28 new, Indeed PK, feeds 0 new, HN 53 extra posts all deleted/dead. Nothing fit an email application; 11 screen-outs logged."
+  },
+  {
+   "at": "2026-10-24T12:35Z",
+   "summary": "Check-in delayed from 2026-10-20 05:55 UTC (trigger reached the session on 2026-10-24). Starbridge declined on 2026-10-21 (Ashby). No other employer replies or bounces 2026-10-20 to 2026-10-24; no applications sent by the owner in that window. Portal sync now closes declined applications (batch applications-2026-10-24-r4)."
   }
  ],
  "emailApplications": [

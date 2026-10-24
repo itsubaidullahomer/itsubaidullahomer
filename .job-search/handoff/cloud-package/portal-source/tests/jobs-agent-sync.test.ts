@@ -42,9 +42,25 @@ test('an existing job is marked applied, keeping its notes, and later stages are
   assert.equal(plan.workspace.jobs.length, workspace.jobs.length);
 });
 
+test('a decision closes an applied job in a later batch, and leaves later stages alone', () => {
+  const outcome = { status: 'rejected' as const, receivedAt: '2026-10-21T13:35:00Z', from: 'Acme', gmailMessageId: 'm2', note: 'Declined.' };
+  const first = planAgentSync(emptyWorkspace(now), batch([app(), app({ key: 'b', url: 'https://acme.example/careers/backend', gmailMessageId: 'm3' })]), now);
+  first.workspace.jobs.find((job) => job.url.endsWith('/backend'))!.status = 'interview';
+  const plan = planAgentSync(first.workspace, { ...batch([app({ outcome }), app({ key: 'b', url: 'https://acme.example/careers/backend', gmailMessageId: 'm3', outcome })]), id: 'later' }, now);
+  assert.deepEqual([plan.closed, plan.skipped, plan.failed], [['acme-2026-10-18'], ['b'], []]);
+  const closed = plan.workspace.jobs.find((job) => job.url.endsWith('/frontend'))!;
+  assert.equal(closed.status, 'rejected');
+  assert.equal(closed.appliedAt, '2026-10-18T01:00:00Z');
+  assert.ok(closed.notes.endsWith('Declined.') && !closed.nextAction && !closed.nextActionDate);
+  assert.ok(plan.workspace.activities.some((item) => item.type === 'email_received' && item.jobId === closed.id && item.actor === 'agent'));
+  assert.equal(plan.workspace.jobs.find((job) => job.url.endsWith('/backend'))!.status, 'interview');
+});
+
 test('every recorded application passes portal validation', () => {
+  const applications = (recorded as AgentBatch).applications;
   const plan = planAgentSync(emptyWorkspace(now), recorded as AgentBatch, now);
   assert.deepEqual(plan.failed, []);
-  assert.equal(plan.added.length, (recorded as AgentBatch).applications.length);
-  assert.ok(plan.workspace.jobs.every((job) => job.status === 'applied' && job.appliedAt));
+  assert.equal(plan.added.length, applications.length);
+  assert.equal(plan.closed.length, applications.filter((item) => item.outcome).length);
+  assert.ok(plan.workspace.jobs.every((job) => ['applied', 'rejected'].includes(job.status) && job.appliedAt));
 });

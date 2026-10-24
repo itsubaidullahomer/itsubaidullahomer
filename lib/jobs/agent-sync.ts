@@ -5,7 +5,8 @@ import { assertJob } from "./validation";
 /**
  * One application Claude sent or recorded outside the portal, kept in the repository as a confirmed record.
  * To record more, append to data/agent-sync/applications.json and give the batch a new id: entries already
- * applied are skipped, so only the new ones are added. Then deploy the portal to production.
+ * applied are skipped, so only the new ones are added. When an employer declines, add an `outcome` to that entry
+ * in the next batch to close the job. Then deploy the portal to production.
  */
 export type AgentApplication = {
   key: string;
@@ -21,6 +22,15 @@ export type AgentApplication = {
   note: string;
   nextAction: string;
   nextActionDate: string;
+  /** The employer's decision, once one arrives. It only moves a job that is still Applied. */
+  outcome?: AgentOutcome;
+};
+export type AgentOutcome = {
+  status: "rejected";
+  receivedAt: string;
+  from: string;
+  gmailMessageId: string;
+  note: string;
 };
 export type AgentBatch = {
   id: string;
@@ -32,6 +42,7 @@ export type AgentSyncPlan = {
   changed: boolean;
   added: string[];
   updated: string[];
+  closed: string[];
   skipped: string[];
   failed: { key: string; error: string }[];
 };
@@ -81,8 +92,36 @@ function newJob(app: AgentApplication, now: string): Job {
   };
 }
 
+function recordOutcome(
+  workspace: Workspace,
+  jobId: string,
+  outcome: AgentOutcome,
+  records: Activity[],
+  now: string,
+): Workspace {
+  const job = workspace.jobs.find((item) => item.id === jobId)!;
+  const patch: Partial<Job> = {
+    status: outcome.status,
+    notes: job.notes.trim() ? `${job.notes}\n\n${outcome.note}` : outcome.note,
+    nextAction: "",
+    nextActionDate: null,
+  };
+  assertJob({ ...job, ...patch });
+  // The decision is newer than the application, so it goes above it in the history.
+  records.unshift({
+    id: globalThis.crypto.randomUUID(),
+    jobId,
+    type: "email_received",
+    title: `Decision received from ${outcome.from}`,
+    body: outcome.note,
+    actor: "agent",
+    createdAt: now,
+  });
+  return applyAction(workspace, { type: "update_job", id: jobId, patch }, now);
+}
+
 /**
- * Adds or marks each recorded application as Applied, once per batch.
+ * Adds or marks each recorded application as Applied, once per batch, and closes the ones with a decision.
  * Pure: the caller saves the returned workspace. Existing history, drafts and approvals are kept.
  */
 export function planAgentSync(
@@ -96,6 +135,7 @@ export function planAgentSync(
     changed: false,
     added: [],
     updated: [],
+    closed: [],
     skipped: [],
     failed: [],
   };
@@ -109,7 +149,10 @@ export function planAgentSync(
       let jobId: string;
       if (existing) {
         if (PAST_APPLICATION.has(existing.status)) {
-          plan.skipped.push(app.key);
+          if (app.outcome && existing.status === "applied") {
+            next = recordOutcome(next, existing.id, app.outcome, records, now);
+            plan.closed.push(app.key);
+          } else plan.skipped.push(app.key);
           continue;
         }
         const patch: Partial<Job> = {
@@ -145,6 +188,10 @@ export function planAgentSync(
         actor: "agent",
         createdAt: now,
       });
+      if (app.outcome) {
+        next = recordOutcome(next, jobId, app.outcome, records, now);
+        plan.closed.push(app.key);
+      }
     } catch (error) {
       plan.failed.push({
         key: app.key,
@@ -154,7 +201,7 @@ export function planAgentSync(
   }
   if (next === workspace) next = structuredClone(workspace);
   const summary = [
-    `Added ${plan.added.length}, marked applied ${plan.updated.length}, already recorded ${plan.skipped.length}.`,
+    `Added ${plan.added.length}, marked applied ${plan.updated.length}, closed ${plan.closed.length}, already recorded ${plan.skipped.length}.`,
     ...plan.failed.map((item) => `Not applied: ${item.key} (${item.error})`),
   ].join("\n");
   next.activities.unshift(...records, {
