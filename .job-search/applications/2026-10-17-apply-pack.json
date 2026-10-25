@@ -549,6 +549,11 @@
    "company": "Tebra",
    "title": "Senior Software Engineer",
    "reason": "US-only telecommuting (labour-certification style posting); Java/Spring Boot/Python; Master's required"
+  },
+  {
+   "company": "Scraperrs",
+   "title": "full stack / Ai engineer",
+   "reason": "AI model building, benchmarking and hardware evaluation (ML, unconfirmed); Lahore; LinkedIn apply only"
   }
  ],
  "checkIns": [
@@ -642,6 +647,10 @@
   {
    "at": "2026-10-25T10:03Z",
    "summary": "No employer replies or bounces since 07:00 UTC. Himalayas 0 new, feeds 18 new, LinkedIn 10 new, HN unchanged (266). No fit; 1 screen-out logged."
+  },
+  {
+   "at": "2026-10-25T13:04Z",
+   "summary": "No employer replies or bounces since 10:00 UTC. Himalayas tracker email (12:27 UTC) lists vidIQ Senior Frontend Engineer as 'applied 7 days ago'; it is not an employer reply and no submission confirmation exists, so it is not recorded as applied. Himalayas 0 new, feeds 6 new, LinkedIn 9 new, HN unchanged (266). No fit; 1 screen-out logged."
   }
  ],
  "emailApplications": [
