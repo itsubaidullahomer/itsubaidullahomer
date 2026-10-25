@@ -544,6 +544,11 @@
    "company": "FullStack",
    "title": "Agentic Software Engineer (Google Antigravity)",
    "reason": "Agentic AI coding tools required (unconfirmed); ATS only"
+  },
+  {
+   "company": "Tebra",
+   "title": "Senior Software Engineer",
+   "reason": "US-only telecommuting (labour-certification style posting); Java/Spring Boot/Python; Master's required"
   }
  ],
  "checkIns": [
@@ -633,6 +638,10 @@
   {
    "at": "2026-10-25T07:03Z",
    "summary": "No employer replies or bounces since 04:00 UTC. Himalayas 0 new, feeds 3 new (US/India/Italy), LinkedIn 2 new (Dubai on-site), HN unchanged (266). No applications."
+  },
+  {
+   "at": "2026-10-25T10:03Z",
+   "summary": "No employer replies or bounces since 07:00 UTC. Himalayas 0 new, feeds 18 new, LinkedIn 10 new, HN unchanged (266). No fit; 1 screen-out logged."
   }
  ],
  "emailApplications": [
