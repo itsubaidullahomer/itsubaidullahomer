@@ -519,6 +519,31 @@
    "company": "Rightangled",
    "title": "Mobile App Developer (Remote)",
    "reason": "Flutter/Dart required"
+  },
+  {
+   "company": "Elvoro",
+   "title": "Full-Stack Web Developer (Next.js)",
+   "reason": "Fixed-price freelance website build; daily AI coding agents required (unconfirmed); Himalayas form only"
+  },
+  {
+   "company": "B2Spin",
+   "title": "Senior Frontend Engineer",
+   "reason": "AI-driven engineering required (unconfirmed); social casino; ATS only"
+  },
+  {
+   "company": "Estimation, Inc.",
+   "title": "Senior Frontend Developer",
+   "reason": "On-site in Hasilpur; relocation not confirmed"
+  },
+  {
+   "company": "FOMI",
+   "title": "Product-Minded Frontend Engineer",
+   "reason": "Islamabad on-site/remote; form apply; AI coding tools expected (unconfirmed)"
+  },
+  {
+   "company": "FullStack",
+   "title": "Agentic Software Engineer (Google Antigravity)",
+   "reason": "Agentic AI coding tools required (unconfirmed); ATS only"
   }
  ],
  "checkIns": [
@@ -600,6 +625,10 @@
   {
    "at": "2026-10-24T12:14Z",
    "summary": "Sweep for 2026-10-20 to 2026-10-24: Himalayas 2 new, feeds 167 new, LinkedIn 149 new, HN unchanged (266). No role fit an email application; 15 screen-outs logged. HBOX Digital React Native fits the facts but is on-site in Karachi."
+  },
+  {
+   "at": "2026-10-25T04:10Z",
+   "summary": "No employer replies or bounces since 2026-10-24 12:00 UTC; owner sent nothing. Himalayas 1 new, feeds 25 new, LinkedIn 60 new, HN unchanged (266). Nothing fit an email application; 5 screen-outs logged. Oct 25 follow-ups held for owner approval."
   }
  ],
  "emailApplications": [
