@@ -554,6 +554,21 @@
    "company": "Scraperrs",
    "title": "full stack / Ai engineer",
    "reason": "AI model building, benchmarking and hardware evaluation (ML, unconfirmed); Lahore; LinkedIn apply only"
+  },
+  {
+   "company": "Koveret",
+   "title": "Senior Software Engineer — AI/ML & Full Stack",
+   "reason": "Strong PHP/Laravel and Bachelor's degree required; Python/Django, LangChain/MCP (unconfirmed). mail@koveret.com published."
+  },
+  {
+   "company": "Together Group",
+   "title": "3D Graphics Engineer (Three.js / WebGL)",
+   "reason": "7+ years and specialist WebGL/3D graphics required"
+  },
+  {
+   "company": "Supabase",
+   "title": "Software Engineer - Branching / Storage",
+   "reason": "Supabase/Postgres internals (unconfirmed); ATS only"
   }
  ],
  "checkIns": [
@@ -651,6 +666,10 @@
   {
    "at": "2026-10-25T13:04Z",
    "summary": "No employer replies or bounces since 10:00 UTC. Himalayas tracker email (12:27 UTC) lists vidIQ Senior Frontend Engineer as 'applied 7 days ago'; it is not an employer reply and no submission confirmation exists, so it is not recorded as applied. Himalayas 0 new, feeds 6 new, LinkedIn 9 new, HN unchanged (266). No fit; 1 screen-out logged."
+  },
+  {
+   "at": "2026-10-26T04:03Z",
+   "summary": "No employer replies or bounces since 2026-10-25 13:00 UTC; owner sent nothing. Himalayas 1 new, feeds 14 new, LinkedIn 13 new, HN unchanged (266). No fit; 3 screen-outs logged."
   }
  ],
  "emailApplications": [
