@@ -574,6 +574,16 @@
    "company": "TechieMinions",
    "title": "AI Product Developer",
    "reason": "On-site Lahore; relocation not confirmed"
+  },
+  {
+   "company": "OTH Tech",
+   "title": "MERN Stack Developer",
+   "reason": "On-site only in Multan; junior (1-2 yrs), PKR 50-60k/month"
+  },
+  {
+   "company": "Monty Mobile",
+   "title": "Software Engineer",
+   "reason": "Java or C#/.NET backend required; Islamabad; LinkedIn apply only"
   }
  ],
  "checkIns": [
@@ -679,6 +689,10 @@
   {
    "at": "2026-10-26T07:03Z",
    "summary": "No employer replies or bounces since 04:00 UTC. Himalayas 0 new, feeds 0 new, LinkedIn 21 new (We Are Revolution re-listed: Python/FastAPI and n8n essential, already screened out), HN unchanged (266). No fit."
+  },
+  {
+   "at": "2026-10-26T10:03Z",
+   "summary": "No employer replies or bounces since 07:00 UTC. Himalayas 0 new, feeds 18 new, LinkedIn 23 new, HN Oct thread 264 live. No fit; 2 screen-outs logged."
   }
  ],
  "emailApplications": [
