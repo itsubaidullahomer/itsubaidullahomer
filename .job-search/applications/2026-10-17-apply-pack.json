@@ -584,6 +584,21 @@
    "company": "Monty Mobile",
    "title": "Software Engineer",
    "reason": "Java or C#/.NET backend required; Islamabad; LinkedIn apply only"
+  },
+  {
+   "company": "Alien Intellect",
+   "title": "Senior Software Engineer",
+   "reason": "Tehran-based team; Python/FastAPI on AWS with Terraform; 5+ years backend"
+  },
+  {
+   "company": "Klardaten",
+   "title": "Senior Software Engineer",
+   "reason": "EU-based, remote within EU or Berlin"
+  },
+  {
+   "company": "Contour Software",
+   "title": "Senior Full Stack Developer",
+   "reason": "Karachi; AI-DLC with AI-generated code as daily practice (unconfirmed); LinkedIn apply only"
   }
  ],
  "checkIns": [
@@ -693,6 +708,10 @@
   {
    "at": "2026-10-26T10:03Z",
    "summary": "No employer replies or bounces since 07:00 UTC. Himalayas 0 new, feeds 18 new, LinkedIn 23 new, HN Oct thread 264 live. No fit; 2 screen-outs logged."
+  },
+  {
+   "at": "2026-10-26T13:15Z",
+   "summary": "No employer replies or bounces since 10:00 UTC. Himalayas 1 new, feeds 5 new, LinkedIn 16 new, HN Oct thread 263 live. No fit; 3 screen-outs logged."
   }
  ],
  "emailApplications": [
