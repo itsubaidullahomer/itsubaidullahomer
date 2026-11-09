@@ -6,7 +6,7 @@ import * as Accordion from "@radix-ui/react-accordion";
 import { Plus, Pause, Play, ArrowRight, Check } from "lucide-react";
 import { faqs } from "@/content/site";
 import { pricing } from "@/content/pricing";
-import { BookButton, CopyEmail, TalkButton } from "./providers";
+import { BookButton, CopyEmail } from "./providers";
 import { Section, SectionHeading } from "./layout-parts";
 import { ServiceArt } from "./service-art";
 const logos = [
@@ -170,11 +170,11 @@ export function FAQ() {
       <div className="faq-layout">
         <div>
           <h2>A few things you might be wondering.</h2>
-          <p>Didn’t find it? Ask the AI version of me.</p>
+          <p>Didn’t find it? Ask me directly.</p>
           <div className="faq-links">
-            <TalkButton variant="ghost">
-              Ask the AI me <ArrowRight size={14} />
-            </TalkButton>
+            <BookButton variant="ghost">
+              Book a call <ArrowRight size={14} />
+            </BookButton>
             <CopyEmail compact />
           </div>
         </div>

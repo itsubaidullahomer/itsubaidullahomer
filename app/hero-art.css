@@ -32,81 +32,73 @@
     3px 5px 0 #d6d8e2,
     0 25px 50px #242d4826;
 }
-.hero-stage .device-chrome {
-  background: linear-gradient(120deg, #313440, #25262e);
-  border-color: #ffffff0e;
+/* The portrait card: the real photo, monochrome at rest like the work, with name and role over its foot. */
+.hero-portrait {
+  margin: 0;
 }
-.hero-stage .window-dots i:nth-child(1) {
-  background: #bfa79a;
+.hero-portrait-photo {
+  position: relative;
+  height: 470px;
+  background: #252630;
 }
-.hero-stage .window-dots i:nth-child(2) {
-  background: #ada3c9;
+.hero-portrait-photo > img {
+  object-fit: cover;
+  object-position: center 18%;
+  filter: grayscale(1);
+  transition: filter 450ms ease;
 }
-.hero-stage .window-dots i:nth-child(3) {
-  background: #94b7a6;
-}
-.hero-stage .avatar-picture::after {
-  pointer-events: none;
-  background: linear-gradient(transparent 52%, #202128);
-}
-.hero-stage .avatar-picture {
-  background:
-    radial-gradient(ellipse at 45% 38%, #6f768d55, transparent 70%),
-    linear-gradient(135deg, #323743, #252630 70%);
-}
-.avatar-renderer {
+.hero-portrait-photo::after {
+  content: "";
   position: absolute;
   inset: 0;
-  overflow: hidden;
+  pointer-events: none;
+  background: linear-gradient(transparent 60%, #202128);
 }
-.avatar-renderer > canvas {
+.hero-portrait figcaption {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 18px;
+  z-index: 2;
+  color: #fff;
+}
+.hero-portrait figcaption strong {
   display: block;
-  width: 100%;
-  height: 100%;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
 }
-.hero-stage .avatar-poster {
-  object-fit: cover;
-  object-position: center 12%;
-  padding: 12px 10px 0;
-  filter: grayscale(1);
-  opacity: 0.9;
-  transition:
-    filter 450ms ease,
-    opacity 450ms ease;
-}
-.hero-stage .avatar-device:focus-within .avatar-poster {
-  filter: grayscale(0);
-  opacity: 1;
+.hero-portrait figcaption span {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--font-geist-mono);
+  font-size: 10px;
+  color: #c5c8d6;
 }
 @media (hover: hover) and (pointer: fine) {
-  .hero-stage .avatar-device:hover .avatar-poster {
+  .hero-portrait:hover .hero-portrait-photo > img {
     filter: grayscale(0);
-    opacity: 1;
   }
 }
 @media (hover: none), (pointer: coarse), (max-width: 800px) {
-  .hero-stage .avatar-poster {
-    filter: grayscale(0);
-    opacity: 1;
+  .hero-portrait-photo > img {
+    filter: none;
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .hero-stage .avatar-poster {
+  .hero-portrait-photo > img {
     transition: none;
   }
 }
-.hero-stage .avatar-controls {
-  background: linear-gradient(#202128, #252731);
+@media (max-width: 1100px) {
+  .hero-portrait-photo {
+    height: 430px;
+  }
 }
-.hero-stage .avatar-mode {
-  border-color: #c0c7ef18;
-}
-.hero-stage .avatar-controls .button {
-  background: linear-gradient(#f4f5ff, #e1e6f5);
-  border-color: #e1e6f5;
-  box-shadow:
-    inset 0 1px 0 #fff,
-    0 2px 0 #b6bfd8;
+@media (max-width: 540px) {
+  .hero-portrait-photo {
+    height: 400px;
+  }
 }
 /* Keep the link out of the stacking hierarchy: its two surfaces straddle the portrait. */
 .hero-project {

@@ -368,20 +368,3 @@ export function TututorShowcase() {
     </Tabs.Root>
   );
 }
-
-export function TututorImpact() {
-  return (
-    <dl className="tututor-impact" aria-label="Tututor project scale">
-      {[
-        ["20k+", "Students, teachers & families"],
-        ["8", "Products · one backend"],
-        ["3", "Apps on iOS & Android"],
-      ].map(([value, label]) => (
-        <div key={value}>
-          <dt>{label}</dt>
-          <dd>{value}</dd>
-        </div>
-      ))}
-    </dl>
-  );
-}
