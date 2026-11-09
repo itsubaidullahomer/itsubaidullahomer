@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14ca3382dda3d9",
+  "threadId": "1a14ca3382dda3d9",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "hn.remote.jobs@vdx.tv",
+  "subject": "Remote Frontend Engineer (JavaScript/TypeScript/React) \u2014 Ubaidullah Omer",
+  "company": "VDX.tv",
+  "role": "Remote Engineer, Frontend track (anywhere in the world)",
+  "sourceUrl": "https://news.ycombinator.com/item?id=46860500",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Frontend-Engineer.pdf",
+    "bytes": 5726,
+    "sha256": "aebc50630853d0f2ecab0137f0cc63f5788d34e03d7815d0dbe676147a41a62e",
+    "source": "output/pdf/ubaidullah-omer-vdx-frontend-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Dedicated HN application address published in the HN February 2026 post (may be stale).",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

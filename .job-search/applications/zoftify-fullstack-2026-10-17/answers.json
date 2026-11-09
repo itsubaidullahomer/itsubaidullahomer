@@ -1,0 +1,32 @@
+{
+  "job": {
+    "id": "zoftify-41",
+    "company": "Zoftify",
+    "title": "Full Stack Developer (React + Node.js)",
+    "applyUrl": "https://zoftify.bamboohr.com/careers/41"
+  },
+  "preparedAt": "2026-10-17T09:53:36.982586+00:00",
+  "resume": {
+    "path": "output/pdf/ubaidullah-omer-zoftify-fullstack-2026-10-17-v1-ats.pdf",
+    "sha256": "f1fe92ab30674a28c6a48dfd7ca8c000a365eab17eb77a3b0703c1d63e210dc2"
+  },
+  "fields": {
+    "firstName": "Ubaidullah",
+    "lastName": "Omer",
+    "email": "itsubaidullahomer@gmail.com",
+    "city": "Rahim Yar Khan",
+    "state": "Punjab",
+    "country": "Pakistan",
+    "streetAddress": null,
+    "zip": null,
+    "desiredPay": "USD 50,000 per year (negotiable)",
+    "dateAvailable": "Immediately",
+    "q143_nodeExperience": "About 4 years: Node.js / Express integrations at Danzee Tech since January 2022; since November 2023 I build and maintain the shared Express backend at Tututor.ai (about 1,000 API endpoints and 90 models).",
+    "q146_spokenEnglish": "Understands and speaks fluently (candidate: advanced spoken English)"
+  },
+  "blockers": [
+    "Street address and ZIP required by the form, not on record",
+    "zoftify.bamboohr.com blocked by this session's network policy"
+  ],
+  "submitted": false
+}

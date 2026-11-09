@@ -1,0 +1,960 @@
+{
+ "createdAt": "2026-10-17T10:15:26.182057+00:00",
+ "artifact": "https://claude.ai/artifact/MCYP5ez1NVoCmsGzcv9sqi",
+ "reason": "Form-based applications (BambooHR/Ashby/Lever/Himalayas) use reCAPTCHA or robot checks; this cloud session cannot submit them. Candidate submits; Claude records after the candidate confirms.",
+ "applications": [
+  {
+   "order": 1,
+   "id": "zoftify-41",
+   "company": "Zoftify",
+   "title": "Full Stack Developer (React + Node.js)",
+   "apply": "https://zoftify.bamboohr.com/careers/41",
+   "resume": "output/pdf/ubaidullah-omer-zoftify-fullstack-2026-10-17-v1-ats.pdf",
+   "verifiedOpen": "2026-10-17 BambooHR detail API: Open"
+  },
+  {
+   "order": 2,
+   "id": "eventmobi-frontend-458",
+   "company": "EventMobi",
+   "title": "Front End Engineer - Remote",
+   "apply": "https://eventmobi.bamboohr.com/careers/458",
+   "resume": "output/pdf/ubaidullah-omer-eventmobi-frontend-ats.pdf",
+   "verifiedOpen": "2026-10-17 BambooHR detail API: Open",
+   "salaryAnswer": "CAD 69,000/yr (~USD 50,000), negotiable"
+  },
+  {
+   "order": 3,
+   "id": "himalayas-vidiq-senior-frontend",
+   "company": "vidIQ",
+   "title": "Senior Frontend Engineer",
+   "apply": "https://himalayas.app/companies/vidiq/jobs/senior-frontend-engineer-1174306056",
+   "resume": "output/pdf/ubaidullah-omer-vidiq-frontend-2026-10-17-v1-ats.pdf",
+   "verifiedOpen": "Himalayas listing published 2026-10-07; employer form not verified"
+  },
+  {
+   "order": 4,
+   "id": "himalayas-shortpoint-ai-react",
+   "company": "ShortPoint Inc.",
+   "title": "Senior AI Augmented React Engineer (JavaScript/TypeScript)",
+   "apply": "https://himalayas.app/companies/shortpoint-inc/jobs/senior-ai-augmented-react-engineer-javascript-typescript",
+   "resume": "output/pdf/ubaidullah-omer-shortpoint-react-2026-10-17-v1-ats.pdf",
+   "verifiedOpen": "Himalayas listing published 2026-10-02; employer form not verified",
+   "employerKeyword": "Posting asks applicants to answer the last form question with 'bear'"
+  },
+  {
+   "order": 5,
+   "id": "himalayas-pixibo-fullstack",
+   "company": "Pixibo",
+   "title": "Mid-Senior Full Stack Engineer - Remote",
+   "apply": "https://himalayas.app/companies/pixibo/jobs/mid-senior-full-stack-engineer-remote-4430955848",
+   "resume": "output/pdf/ubaidullah-omer-pixibo-fullstack-2026-10-17-v1-ats.pdf",
+   "verifiedOpen": "Himalayas listing published 2026-09-22; employer form not verified"
+  },
+  {
+   "order": 6,
+   "id": "whippy-frontend-da02ad44",
+   "company": "Whippy",
+   "title": "Software Engineer: Frontend",
+   "apply": "https://jobs.ashbyhq.com/whippy/da02ad44-9668-4f93-94e3-bf1a6e09ad8b",
+   "resume": "output/pdf/ubaidullah-omer-whippy-frontend-ats.pdf",
+   "verifiedOpen": "2026-10-17 Ashby posting API lists it"
+  },
+  {
+   "order": 7,
+   "id": "himalayas-slite-product-engineer",
+   "company": "Slite",
+   "title": "Senior Product Engineer",
+   "apply": "https://himalayas.app/companies/slite/jobs/product-engineer",
+   "resume": "output/pdf/ubaidullah-omer-slite-product-engineer-2026-10-17-v1-ats.pdf",
+   "verifiedOpen": "Himalayas listing published 2026-09-27; employer form not verified"
+  },
+  {
+   "order": 8,
+   "id": "remote-metabase-8f02d3fa",
+   "company": "Metabase",
+   "title": "Software Engineer (Frontend)",
+   "apply": "https://jobs.lever.co/metabase/8f02d3fa-edf4-4433-a6d1-4f9e517ac8f9",
+   "resume": "output/pdf/ubaidullah-omer-metabase-frontend-ats.pdf",
+   "verifiedOpen": "2026-10-17 Lever API returns posting",
+   "humanStep": "careers-page console code"
+  },
+  {
+   "order": 9,
+   "id": "himalayas-sortitt-fullstack",
+   "company": "Sortitt (UK client)",
+   "title": "Full-Stack Software Engineer (MERN + Next.js + OpenAI + AWS)",
+   "apply": "https://himalayas.app/companies/sortitt/jobs/full-stack-software-engineer",
+   "resume": "output/pdf/ubaidullah-omer-sortitt-fullstack-2026-10-17-v1-ats.pdf",
+   "verifiedOpen": "Himalayas listing published 2026-09-29",
+   "gap": "Working knowledge of AWS required; candidate studied, no production use"
+  },
+  {
+   "id": "himalayas-creativechaos-senior-node",
+   "company": "Creative Chaos",
+   "title": "Senior Software Engineer - Node",
+   "apply": "https://himalayas.app/companies/csquareonline/jobs/senior-software-engineer-node",
+   "resume": "output/pdf/ubaidullah-omer-creativechaos-node-2026-10-18-v1-ats.pdf",
+   "verifiedOpen": "Himalayas 2026-10-17",
+   "note": "Bachelor's or equivalent accepted",
+   "order": 10
+  },
+  {
+   "id": "himalayas-enjoygaming-senior-node",
+   "company": "Enjoy Gaming LLC",
+   "title": "Senior Node.js Developer",
+   "apply": "https://himalayas.app/companies/enjoy-gaming-llc/jobs/senior-node-js-developer",
+   "resume": "output/pdf/ubaidullah-omer-enjoygaming-node-2026-10-18-v1-ats.pdf",
+   "verifiedOpen": "Himalayas 2026-10-17",
+   "gap": "Strong NestJS, Kafka/RabbitMQ; gambling industry flagged",
+   "order": 11
+  }
+ ],
+ "submitted": [
+  {
+   "id": "zoftify-41",
+   "company": "Zoftify Eesti OÜ",
+   "confirmedAt": "2026-10-17T19:15:54Z",
+   "gmailMessageId": "1a14b4ac84fe6675"
+  },
+  {
+   "id": "eventmobi-frontend-458",
+   "company": "EventMobi",
+   "confirmedAt": "2026-10-17T19:19:19Z",
+   "gmailMessageId": "1a14b4de979e03eb"
+  }
+ ],
+ "screenedOut": [
+  {
+   "company": "DualEntry",
+   "title": "Frontend Software Engineer (Mid-Level)",
+   "reason": "Hiring limited to EU/LATAM countries"
+  },
+  {
+   "company": "Huzzle",
+   "title": "Founding Engineer (Fullstack)",
+   "reason": "5+ years, extensive PostgreSQL and blockchain required"
+  },
+  {
+   "company": "Creative Chaos",
+   "title": "AI Integration Engineer",
+   "reason": "Bachelor's/Master's degree required"
+  },
+  {
+   "company": "Flatgigs",
+   "title": "Full Stack Engineer",
+   "reason": "Degree and FinTech/F&B industry experience required"
+  },
+  {
+   "company": "Laralink",
+   "title": "React Frontend Developer",
+   "reason": "Company website does not resolve; contact is a Gmail address"
+  },
+  {
+   "company": "Polly / WebFX",
+   "reason": "Postings closed (404)"
+  },
+  {
+   "company": "Fractalbox",
+   "title": "Senior Backend Engineer",
+   "reason": "Extensive major-cloud + Python + DevOps required"
+  },
+  {
+   "company": "Deed",
+   "title": "Senior Mobile Engineer",
+   "reason": "Native Swift/Kotlin and degree required"
+  },
+  {
+   "company": "Tether",
+   "reason": "Excluded per handoff"
+  },
+  {
+   "company": "Deed",
+   "title": "Senior Web Engineer",
+   "reason": "6+ years React and degree required"
+  },
+  {
+   "company": "Search Atlas",
+   "title": "Senior Full-Stack Engineer (Django / Next.js)",
+   "reason": "Django/Python backend required; no candidate evidence"
+  },
+  {
+   "company": "Ready",
+   "reason": "Spanish, Chile hours, Mac required, AWS"
+  },
+  {
+   "company": "Utility",
+   "reason": "8+ years / Shopify"
+  },
+  {
+   "company": "Terapage",
+   "title": "Full Stack Software Developer (MERN)",
+   "reason": "Junior (1-2 yrs), PKR 60-70k/month, far below current salary"
+  },
+  {
+   "company": "Hul Hub",
+   "title": "Senior Frontend Developer",
+   "reason": "On-site Karachi; relocation not confirmed"
+  },
+  {
+   "company": "Orenva",
+   "title": "Senior Contract Engineer",
+   "reason": "Fixed-bid contract needs a rate from user"
+  },
+  {
+   "company": "Viewpost",
+   "title": "Senior Software Engineer",
+   "reason": "C#/.NET core stack"
+  },
+  {
+   "company": "Servicing Copilot",
+   "title": "Senior Full-Stack Contractor",
+   "reason": "Needs hourly rate"
+  },
+  {
+   "company": "Babou",
+   "title": "Full Stack Software Engineer",
+   "reason": "Needs description of daily AI-agent workflow (unconfirmed)"
+  },
+  {
+   "company": "imedia5.com",
+   "title": "Full-Stack AI & SaaS Developer",
+   "reason": "PKR 50k/month"
+  },
+  {
+   "company": "Logen.io",
+   "title": "Founding Full-stack / AI Engineer",
+   "reason": "Bengaluru-based; India-Pakistan cross-border hiring unlikely; no careers page"
+  },
+  {
+   "company": "Go.Shop",
+   "title": "Product Builder - Growth Channels",
+   "reason": "Martech/growth PM-engineer hybrid with London travel; AI coding tools unconfirmed"
+  },
+  {
+   "company": "Playit.gg",
+   "title": "First engineer",
+   "reason": "Oregon, USA only"
+  },
+  {
+   "company": "Noricum",
+   "title": "Senior Backend Engineer, Payments",
+   "reason": "Requires shipped double-entry ledger (unconfirmed)"
+  },
+  {
+   "company": "Astoria AI",
+   "title": "Founding AI Engineer",
+   "reason": "Equity-only until seed; 6+ years"
+  },
+  {
+   "company": "AZKY Tech Labs",
+   "title": "Full Stack Developer (Backend focused)",
+   "reason": "PKR 60k-180k/month, below target"
+  },
+  {
+   "company": "DevBatch",
+   "title": "Pipeline brief",
+   "reason": "Not hiring; bar is 5+ years (candidate just under)"
+  },
+  {
+   "company": "Mitre Media",
+   "title": "Tech Lead Full-Stack Rails Engineer",
+   "reason": "USA/Canada only; Rails"
+  },
+  {
+   "company": "DualEntry",
+   "title": "Frontend Software Engineer (Mid-Level)",
+   "reason": "EU/LATAM only; 5+ years"
+  },
+  {
+   "company": "Perena",
+   "title": "Frontend Engineer",
+   "reason": "Solana/DeFi wallet integration (unconfirmed)"
+  },
+  {
+   "company": "Toggl",
+   "title": "Senior Full Stack",
+   "reason": "UTC-4 to UTC+4 only (Pakistan is UTC+5)"
+  },
+  {
+   "company": "Typeform",
+   "title": "Full Stack Developer",
+   "reason": "EU/UK only"
+  },
+  {
+   "company": "Mux",
+   "title": "Senior Full Stack Engineer",
+   "reason": "US only"
+  },
+  {
+   "company": "Scout IP",
+   "title": "Founding Full Stack Developer",
+   "reason": "No verifiable company website; personal Gmail contact"
+  },
+  {
+   "company": "Watchtower Health / Marker Learning / Coder / Join",
+   "title": "various",
+   "reason": "US-only or equity-only"
+  },
+  {
+   "company": "Scopic Software",
+   "title": "(none listed)",
+   "reason": "No open roles; jobs@ is for scam verification only"
+  },
+  {
+   "company": "Clutch (clutchapp.io)",
+   "title": "Frontend Engineer (Mobile)",
+   "reason": "Wellfound listing gone (HTTP 410); role appears filled"
+  },
+  {
+   "company": "Empire Flippers",
+   "title": "(none)",
+   "reason": "No open engineering roles"
+  },
+  {
+   "company": "THINKalpha",
+   "title": "Senior Frontend Engineer",
+   "reason": "Svelte"
+  },
+  {
+   "company": "Carrot",
+   "title": "Senior Software Engineers",
+   "reason": "Scala"
+  },
+  {
+   "company": "Cogram / Splash Tech",
+   "title": "various",
+   "reason": "CET +-3h / +-2h only (Pakistan is CET+4)"
+  },
+  {
+   "company": "Powerprozesse",
+   "title": "Fullstack-Developer",
+   "reason": "Requires building with Claude and Cursor (AI coding tools unconfirmed - needs user input)"
+  },
+  {
+   "company": "Chasi",
+   "title": "Senior Software Engineer",
+   "reason": "Requires a CS degree"
+  },
+  {
+   "company": "Nodeworthy (client)",
+   "title": "Full Stack Developer",
+   "reason": "DeFi vaults; Python/Go"
+  },
+  {
+   "company": "Parqet Fintech",
+   "title": "Mobile Engineer (React Native)",
+   "reason": "EU work permit required"
+  },
+  {
+   "company": "Wise AI",
+   "title": "Founding Engineer (Fullstack/Zoom App)",
+   "reason": "USD 12-24k/yr, well below target; no hiring email"
+  },
+  {
+   "company": "Nextbridge",
+   "title": "(various)",
+   "reason": "All roles onsite Lahore; none React/Node"
+  },
+  {
+   "company": "Ready",
+   "title": "Senior Full Stack Go Developer (Go + Next.js)",
+   "reason": "Go backend (unconfirmed)"
+  },
+  {
+   "company": "BYTRIX",
+   "title": "Frontend Developer (Mobile Applications)",
+   "reason": "Indeed match invite (2026-10-18 21:59 UTC); Karachi, full-time, min Rs 200,000/month; on-site relocation not confirmed by candidate; Indeed Apply form only"
+  },
+  {
+   "company": "DigitalTolk",
+   "title": "Senior Full Stack Engineer - Remote",
+   "reason": "5-7 years; expects AI-generated code as default workflow (AI coding tools unconfirmed - needs user input); Indeed form"
+  },
+  {
+   "company": "Texinity Technologies",
+   "title": "Senior Full Stack Engineer",
+   "reason": "5-8 years; Islamabad"
+  },
+  {
+   "company": "COVERGO",
+   "title": "Senior Full Stack Engineer (.NET & Vue/React)",
+   "reason": ".NET backend (unconfirmed)"
+  },
+  {
+   "company": "Tiny",
+   "title": "Senior React Native Engineer, HFC",
+   "reason": "5+ years mobile; Expo and Tamagui hands-on required (unconfirmed)"
+  },
+  {
+   "company": "Coderzhunt",
+   "title": "Frontend Developer (Vue+Node)",
+   "reason": "Vue (unconfirmed); Indeed match with placeholder pay"
+  },
+  {
+   "company": "Creative Chaos",
+   "title": "Software Engineer - React Native",
+   "reason": "Bachelor's in CS/SE required; Himalayas/ATS form only"
+  },
+  {
+   "company": "Ready",
+   "title": "Senior Full Stack Go Developer (Go + Next.js)",
+   "reason": "Go backend (unconfirmed)"
+  },
+  {
+   "company": "Utility",
+   "title": "Sr. Backend Engineer (Node/TypeScript)",
+   "reason": "8+ years required"
+  },
+  {
+   "company": "STACKONN",
+   "title": "Frontend Developer (React + Next.js) / Full Stack Developer (Next.js + Node.js)",
+   "reason": "Hybrid, 3 days in-office in Lahore; relocation not confirmed"
+  },
+  {
+   "company": "Nitensclue",
+   "title": "React Native Developer",
+   "reason": "On-site Faisalabad; relocation not confirmed"
+  },
+  {
+   "company": "TeraHz Solutions",
+   "title": "Mobile Application Developer",
+   "reason": "On-site Karachi, entry level; iOS hands-on required"
+  },
+  {
+   "company": "HSSE Solutions",
+   "title": "Full Stack JavaScript Developer – Web & Mobile Lead",
+   "reason": "On-site Lahore; Indeed Apply only; WordPress/AWS EC2 required"
+  },
+  {
+   "company": "ERS Tech",
+   "title": "Senior Full-Stack MERN & React Native Developer",
+   "reason": "On-site Lahore; 5+ years with expert React Native"
+  },
+  {
+   "company": "Digital Engage",
+   "title": "Mid-Level Full-Stack Web Developer",
+   "reason": "PHP/WordPress/Shopify; hybrid Islamabad"
+  },
+  {
+   "company": "Crimson Education",
+   "title": "Full Stack Engineer, Web & Martech",
+   "reason": "Auckland-based listing; ATS only"
+  },
+  {
+   "company": "WIA Software",
+   "title": "Full Stack Engineer (Trading Platform)",
+   "reason": "LinkedIn-only listing; no published hiring email; details rate-limited"
+  },
+  {
+   "company": "HBOX Digital",
+   "title": "React Native Mobile App Developer",
+   "reason": "On-site at DHA Phase 8, Karachi (company careers page); relocation not confirmed. Otherwise a strong fit; hr@hboxdigital.com is published."
+  },
+  {
+   "company": "HBOX Digital",
+   "title": "Full-Stack Developer - Web & AI Automation",
+   "reason": "On-site Karachi; PHP/WordPress and n8n/Make/Zapier required (unconfirmed)"
+  },
+  {
+   "company": "Diversive Technologies",
+   "title": "Software engineer — product",
+   "reason": "On-site, Allama Iqbal Town, Lahore"
+  },
+  {
+   "company": "Holepunch",
+   "title": "Senior Node.js Software Engineer",
+   "reason": "Part of Tether (excluded); applications go through Tether careers"
+  },
+  {
+   "company": "Sortitt",
+   "title": "Full-Stack Software Engineer (MERN + Next.js + OpenAI + AWS)",
+   "reason": "AWS deployment required (no production use); Himalayas form only"
+  },
+  {
+   "company": "TalentCross",
+   "title": "Full Stack Engineer (React, Node.js, PostgreSQL, Web Scraping, AI Tools)",
+   "reason": "~200-hour contract; Strapi, NestJS, scrapers and Chrome extensions required (unconfirmed); form only"
+  },
+  {
+   "company": "Paperpile",
+   "title": "Full-Stack Engineer (TypeScript, React)",
+   "reason": "Listing restricted to Austria/Europe"
+  },
+  {
+   "company": "Customer.io",
+   "title": "Senior Software Engineer, Product/AI",
+   "reason": "Go backend; EMEA only; AI agents daily (unconfirmed)"
+  },
+  {
+   "company": "Tala",
+   "title": "Senior Backend Engineer",
+   "reason": "Backend microservices stack not stated as Node; ATS only"
+  },
+  {
+   "company": "Dataspecc",
+   "title": "Full Stack Engineer (TypeScript, AI-Native)",
+   "reason": "Daily Claude Code/Codex use is non-negotiable (unconfirmed; awaiting owner's answer)"
+  },
+  {
+   "company": "BusinessMentor.com",
+   "title": "Senior Full-Stack Developer, AI Agents",
+   "reason": "99% AI-agent coding and scraper experience required (unconfirmed)"
+  },
+  {
+   "company": "Wizdaa",
+   "title": "Senior React Native & React Engineer (PK)",
+   "reason": "AI-first delivery with Cursor/Claude by default (unconfirmed); LinkedIn apply only"
+  },
+  {
+   "company": "Smart Working",
+   "title": "Sr Frontend Engineer - React/Next.js & AWS",
+   "reason": "AWS required; LinkedIn/ATS apply only"
+  },
+  {
+   "company": "ACQ Recruitment",
+   "title": "Technical Maintenance Developer",
+   "reason": "n8n workflows central (unconfirmed); not a product role"
+  },
+  {
+   "company": "Rightangled",
+   "title": "Mobile App Developer (Remote)",
+   "reason": "Flutter/Dart required"
+  },
+  {
+   "company": "Elvoro",
+   "title": "Full-Stack Web Developer (Next.js)",
+   "reason": "Fixed-price freelance website build; daily AI coding agents required (unconfirmed); Himalayas form only"
+  },
+  {
+   "company": "B2Spin",
+   "title": "Senior Frontend Engineer",
+   "reason": "AI-driven engineering required (unconfirmed); social casino; ATS only"
+  },
+  {
+   "company": "Estimation, Inc.",
+   "title": "Senior Frontend Developer",
+   "reason": "On-site in Hasilpur; relocation not confirmed"
+  },
+  {
+   "company": "FOMI",
+   "title": "Product-Minded Frontend Engineer",
+   "reason": "Islamabad on-site/remote; form apply; AI coding tools expected (unconfirmed)"
+  },
+  {
+   "company": "FullStack",
+   "title": "Agentic Software Engineer (Google Antigravity)",
+   "reason": "Agentic AI coding tools required (unconfirmed); ATS only"
+  },
+  {
+   "company": "Tebra",
+   "title": "Senior Software Engineer",
+   "reason": "US-only telecommuting (labour-certification style posting); Java/Spring Boot/Python; Master's required"
+  },
+  {
+   "company": "Scraperrs",
+   "title": "full stack / Ai engineer",
+   "reason": "AI model building, benchmarking and hardware evaluation (ML, unconfirmed); Lahore; LinkedIn apply only"
+  },
+  {
+   "company": "Koveret",
+   "title": "Senior Software Engineer — AI/ML & Full Stack",
+   "reason": "Strong PHP/Laravel and Bachelor's degree required; Python/Django, LangChain/MCP (unconfirmed). mail@koveret.com published."
+  },
+  {
+   "company": "Together Group",
+   "title": "3D Graphics Engineer (Three.js / WebGL)",
+   "reason": "7+ years and specialist WebGL/3D graphics required"
+  },
+  {
+   "company": "Supabase",
+   "title": "Software Engineer - Branching / Storage",
+   "reason": "Supabase/Postgres internals (unconfirmed); ATS only"
+  },
+  {
+   "company": "TechieMinions",
+   "title": "AI Product Developer",
+   "reason": "On-site Lahore; relocation not confirmed"
+  },
+  {
+   "company": "OTH Tech",
+   "title": "MERN Stack Developer",
+   "reason": "On-site only in Multan; junior (1-2 yrs), PKR 50-60k/month"
+  },
+  {
+   "company": "Monty Mobile",
+   "title": "Software Engineer",
+   "reason": "Java or C#/.NET backend required; Islamabad; LinkedIn apply only"
+  },
+  {
+   "company": "Alien Intellect",
+   "title": "Senior Software Engineer",
+   "reason": "Tehran-based team; Python/FastAPI on AWS with Terraform; 5+ years backend"
+  },
+  {
+   "company": "Klardaten",
+   "title": "Senior Software Engineer",
+   "reason": "EU-based, remote within EU or Berlin"
+  },
+  {
+   "company": "Contour Software",
+   "title": "Senior Full Stack Developer",
+   "reason": "Karachi; AI-DLC with AI-generated code as daily practice (unconfirmed); LinkedIn apply only"
+  }
+ ],
+ "checkIns": [
+  {
+   "at": "2026-10-17T16:22:16.753413+00:00",
+   "mail": "no employer replies; Appkeeper and Eventikk deliveries still delayed",
+   "newRolesAdded": 0
+  },
+  {
+   "at": "2026-10-18T00:27:12.739301+00:00",
+   "mail": "no new employer replies or confirmations",
+   "newRolesAdded": 2
+  },
+  {
+   "at": "2026-10-18T01:10Z",
+   "summary": "Email-apply run per user instruction (apply by email, use published company/HR addresses, skip anything needing user input). Sent 7: InvoZone, Trackerbot, AiMi, Quill, Starbridge, Interview Resources, Surge AI. No bounces at check. Skipped: on-site Karachi/Lahore roles (relocation not confirmed: Indeed PK, Phaedra, Cubix), Servicing Copilot (needs hourly rate), Babou (needs AI-agent workflow description), Sequent/ProxyBase (Rust), pack companies with no published hiring email (support@/general only).",
+   "pendingUserQuestions": [
+    "Willing to relocate or work on-site in Lahore/Karachi/Islamabad?",
+    "Hourly contract rate (USD)?",
+    "Which AI coding tools do you use daily (Cursor, Copilot, Claude Code)?"
+   ]
+  },
+  {
+   "at": "2026-10-18T01:40Z",
+   "summary": "Email-apply run continued. Total email applications today: 18 (InvoZone, Trackerbot, AiMi, Quill, Starbridge, Interview Resources, Surge AI, Lit8, SignX, BearPlex, AFNEXIS, Axra, PanaceaLogics, BetterDB, Cardog, Finale Inventory, VDX.tv, Language Reactor). No bounces for today's sends at check. Sources: HN Who is hiring (Jan-Oct 2026), portal workspace leads, company careers pages, Rozee, Indeed PK, LinkedIn alert emails. Skipped: Komtora (closed), AllysAI (Python/Azure/5+y), We Are Revolution (needs n8n/Claude Code/Supabase - unconfirmed), AutoScale (closed), Tecmyer (pay below current), Mobian (10+ yrs), BetterSea (Python)."
+  },
+  {
+   "at": "2026-10-18T02:52Z",
+   "summary": "Continued email-apply run. New: Charted Sea (founder email, About page), This Dot Labs (jobs@ via job-page apply button, Senior React Native Engineer), Techtics.ai (speculative, careers page invites resumes). Total email applications today: 21. Portal sync batch bumped to applications-2026-10-18-r2 (23 records). No new replies; no bounces for today's sends; Appkeeper and Eventikk still delayed. Sources this round: HN re-scan (Jan-Oct 2026), LinkedIn guest search, remote feeds (Remotive, RemoteOK, Jobicy, WWR, Working Nomads, Himalayas), Pakistani company careers pages."
+  },
+  {
+   "at": "2026-10-18T03:30Z",
+   "summary": "Added Bevyl (CTO email, HN Jan 2026) and Taskade (jobs@ from role pages). Total email applications today: 23. Portal sync batch now applications-2026-10-18-r3 (25 records); production deploy of r2 READY. New sources tried: Himalayas Pakistan/anywhere filter, worldwide feeds with company-site email scan, remoteintech directory (~570 worldwide companies scanned for hiring emails). Form-only leads saved: Pavago, Adventure Travel 365, Sticker Mule."
+  },
+  {
+   "at": "2026-10-18T04:40Z",
+   "summary": "Check-in: deploy r3 READY (25 records). No employer replies; no new bounces (Appkeeper/Eventikk still delayed). Sourcing: HN obfuscated-email pass (Jan-Oct), Himalayas country=PK (318 jobs, last 10 days). No new roles with a published hiring email that fit confirmed facts; Kadoa saved as form-only lead; 10 screened out. No applications sent this round."
+  },
+  {
+   "at": "2026-10-18T05:40Z",
+   "summary": "Check-in: no employer replies, no new bounces. No new HN Oct posts (266 unchanged). Himalayas since 03:00 UTC: 3 new, none fitting. Pakistani company careers scan (36 domains): hiring emails at Sofizar, CodeAutomation, Nextbridge, i2c, TEO; no matching remote React/Node roles. No applications sent."
+  },
+  {
+   "at": "2026-10-18T06:35Z",
+   "summary": "Routine check-in (trig_01F1iy72o78LUgAFpszRi8sx): no employer replies or new bounces. Found an Indeed Apply confirmation for 'Senior Web Developer' (2026-10-17 01:24 UTC, company not named) submitted by the candidate; recorded under indeed-senior-web-developer-2026-10-17. Himalayas since 05:20 UTC: 8 new, none fitting (PHP, Java, Go, QA, co-founder roles)."
+  },
+  {
+   "at": "2026-10-18T23:22Z",
+   "summary": "Weekend check-ins 07:08-23:20 UTC: no employer replies; no new bounces (Appkeeper/Eventikk still delayed). No new HN posts; feeds and Himalayas showed nothing fitting. BYTRIX Indeed match logged (Karachi, needs relocation answer)."
+  },
+  {
+   "at": "2026-10-19T04:05Z",
+   "summary": "Monday check-ins 02:21 and 04:00 UTC: no employer replies or bounces. Feeds/HN unchanged; LinkedIn guest search (171 postings) and Indeed PK showed no email-apply fits. DigitalTolk remote role needs AI-coding-tools answer."
+  },
+  {
+   "at": "2026-10-19T07:08Z",
+   "summary": "Appkeeper email (hello@appkeeper.ltd) failed permanently at 2026-10-19 05:46 UTC; the application is not confirmed received. Eventikk still in Gmail retry (last delay notice 2026-10-18 08:57 UTC). No employer replies. TBox follow-up sent 05:02 UTC. No new email-apply roles in feeds/HN."
+  },
+  {
+   "at": "2026-10-19T10:12Z",
+   "summary": "Eventikk inquiry to careers@eventikk.com failed permanently 09:21 UTC (recorded). No employer replies. Proxify AB added as form-only lead. No new email-apply roles."
+  },
+  {
+   "at": "2026-10-19T13:50Z",
+   "summary": "Starbridge acknowledged (recruiting coordinator created an application, 11:47 UTC). No other replies. Himalayas PK since 00:00 UTC: nothing fitting. Feeds/HN unchanged."
+  },
+  {
+   "at": "2026-10-19T23:28Z",
+   "summary": "Check-ins 15:50-23:28 UTC: no new employer replies or bounces. ElevenLabs full-stack (remote anywhere) logged as form-only lead. HN unchanged."
+  },
+  {
+   "at": "2026-10-20T03:37Z",
+   "summary": "Morning sweep: no employer replies or new bounces. Himalayas 3 new, LinkedIn 28 new, Indeed PK, feeds 0 new, HN 53 extra posts all deleted/dead. Nothing fit an email application; 11 screen-outs logged."
+  },
+  {
+   "at": "2026-10-24T12:08Z",
+   "summary": "Check-in delayed from 2026-10-20 05:55 UTC (trigger reached the session on 2026-10-24). Starbridge declined on 2026-10-21 (Ashby). No other employer replies or bounces 2026-10-20 to 2026-10-24; no applications sent by the owner in that window. Portal sync now closes declined applications (batch applications-2026-10-24-r4)."
+  },
+  {
+   "at": "2026-10-24T12:14Z",
+   "summary": "Sweep for 2026-10-20 to 2026-10-24: Himalayas 2 new, feeds 167 new, LinkedIn 149 new, HN unchanged (266). No role fit an email application; 15 screen-outs logged. HBOX Digital React Native fits the facts but is on-site in Karachi."
+  },
+  {
+   "at": "2026-10-25T04:03Z",
+   "summary": "No employer replies or bounces since 2026-10-24 12:00 UTC; owner sent nothing. Himalayas 1 new, feeds 25 new, LinkedIn 60 new, HN unchanged (266). Nothing fit an email application; 5 screen-outs logged. Oct 25 follow-ups held for owner approval."
+  },
+  {
+   "at": "2026-10-25T07:03Z",
+   "summary": "No employer replies or bounces since 04:00 UTC. Himalayas 0 new, feeds 3 new (US/India/Italy), LinkedIn 2 new (Dubai on-site), HN unchanged (266). No applications."
+  },
+  {
+   "at": "2026-10-25T10:03Z",
+   "summary": "No employer replies or bounces since 07:00 UTC. Himalayas 0 new, feeds 18 new, LinkedIn 10 new, HN unchanged (266). No fit; 1 screen-out logged."
+  },
+  {
+   "at": "2026-10-25T13:04Z",
+   "summary": "No employer replies or bounces since 10:00 UTC. Himalayas tracker email (12:27 UTC) lists vidIQ Senior Frontend Engineer as 'applied 7 days ago'; it is not an employer reply and no submission confirmation exists, so it is not recorded as applied. Himalayas 0 new, feeds 6 new, LinkedIn 9 new, HN unchanged (266). No fit; 1 screen-out logged."
+  },
+  {
+   "at": "2026-10-26T04:03Z",
+   "summary": "No employer replies or bounces since 2026-10-25 13:00 UTC; owner sent nothing. Himalayas 1 new, feeds 14 new, LinkedIn 13 new, HN unchanged (266). No fit; 3 screen-outs logged."
+  },
+  {
+   "at": "2026-10-26T07:03Z",
+   "summary": "No employer replies or bounces since 04:00 UTC. Himalayas 0 new, feeds 0 new, LinkedIn 21 new (We Are Revolution re-listed: Python/FastAPI and n8n essential, already screened out), HN unchanged (266). No fit."
+  },
+  {
+   "at": "2026-10-26T10:03Z",
+   "summary": "No employer replies or bounces since 07:00 UTC. Himalayas 0 new, feeds 18 new, LinkedIn 23 new, HN Oct thread 264 live. No fit; 2 screen-outs logged."
+  },
+  {
+   "at": "2026-10-26T13:15Z",
+   "summary": "No employer replies or bounces since 10:00 UTC. Himalayas 1 new, feeds 5 new, LinkedIn 16 new, HN Oct thread 263 live. No fit; 3 screen-outs logged."
+  }
+ ],
+ "emailApplications": [
+  {
+   "slug": "invozone-fullstack-2026-10-18",
+   "company": "InvoZone",
+   "to": "careers@invozone.com",
+   "messageId": "1a14c7c2a564363c",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "trackerbot-fullstack-2026-10-18",
+   "company": "Trackerbot",
+   "to": "dobrev.d10@gmail.com",
+   "messageId": "1a14c81f5fe93bb8",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "aimi-fullstack-ai-2026-10-18",
+   "company": "AiMi",
+   "to": "vishnu.swaroop@aimi.technology",
+   "messageId": "1a14c8348534c98b",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "quill-fullstack-2026-10-18",
+   "company": "Quill",
+   "to": "rishi@quill.co",
+   "messageId": "1a14c843eb03bca4",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "starbridge-product-2026-10-18",
+   "company": "Starbridge",
+   "to": "recruiting@starbridge.ai",
+   "messageId": "1a14c85384c7d814",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "interviewresources-fullstack-ai-2026-10-18",
+   "company": "Interview Resources",
+   "to": "hiring@interviewresources.app",
+   "messageId": "1a14c87938119425",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "surgeai-fullstack-2026-10-18",
+   "company": "Surge AI",
+   "to": "careers@surgehq.ai",
+   "messageId": "1a14c893f765175a",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "lit8-fullstack-2026-10-18",
+   "company": "Lit8",
+   "to": "careers@lit8.com",
+   "messageId": "1a14c91436d1a4a3",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "signx-fullstack-2026-10-18",
+   "company": "SignX Solutions",
+   "to": "contact@signxsolutions.com",
+   "messageId": "1a14c925bb460104",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "bearplex-senior-fullstack-2026-10-18",
+   "company": "BearPlex",
+   "to": "hello@bearplex.com",
+   "messageId": "1a14c9412743fc2b",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "afnexis-fullstack-2026-10-18",
+   "company": "AFNEXIS LLC",
+   "to": "info@afnexis.com",
+   "messageId": "1a14c951e4bc9e0c",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "axra-frontend-2026-10-18",
+   "company": "Axra",
+   "to": "careers@useaxra.com",
+   "messageId": "1a14c9879089d33f",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "panacealogics-rn-fullstack-2026-10-18",
+   "company": "PanaceaLogics",
+   "to": "careers@panacealogics.com",
+   "messageId": "1a14c996f841ecde",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "betterdb-founding-2026-10-18",
+   "company": "BetterDB",
+   "to": "kristiyan@betterdb.com",
+   "messageId": "1a14c9d91f4a45f5",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "cardog-design-engineer-2026-10-18",
+   "company": "Cardog",
+   "to": "careers@cardog.app",
+   "messageId": "1a14c9fdd4993e03",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "finale-fullstack-2026-10-18",
+   "company": "Descartes - Finale Inventory",
+   "to": "jforbes@descartes.com",
+   "messageId": "1a14ca0e89309b1a",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "vdx-frontend-2026-10-18",
+   "company": "VDX.tv",
+   "to": "hn.remote.jobs@vdx.tv",
+   "messageId": "1a14ca3382dda3d9",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "languagereactor-ts-2026-10-18",
+   "company": "Language Reactor (Dioco)",
+   "to": "dioco@dioco.io",
+   "messageId": "1a14ca4520b87c5a",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "chartedsea-fullstack-2026-10-18",
+   "company": "Charted Sea",
+   "to": "marc.plouhinec@chartedsea.com",
+   "messageId": "1a14ce1e1a78f7e2",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "thisdot-rn-2026-10-18",
+   "company": "This Dot Labs",
+   "to": "jobs@thisdot.co",
+   "messageId": "1a14ce3abb8add64",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "techtics-ai-2026-10-18",
+   "company": "Techtics.ai",
+   "to": "hr@techtics.ai",
+   "messageId": "1a14ce9512517751",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "bevyl-founding-2026-10-18",
+   "company": "Bevyl",
+   "to": "noah@bevyl.ai",
+   "messageId": "1a14d043ca2a7de1",
+   "sentAt": "2026-10-18"
+  },
+  {
+   "slug": "taskade-fullstack-2026-10-18",
+   "company": "Taskade",
+   "to": "jobs@taskade.com",
+   "messageId": "1a14d095557a941d",
+   "sentAt": "2026-10-18"
+  }
+ ],
+ "formOnlyLeads": [
+  {
+   "company": "FullStack Labs",
+   "role": "Senior AI Engineer (React + TypeScript) - Remote - Pakistan",
+   "url": "https://www.rozee.pk/senior-ai-engineer-react-typescript-remote-pakistan-jobs-1912447",
+   "route": "Rozee account apply"
+  },
+  {
+   "company": "Ai Case Leads",
+   "role": "Senior Full-Stack Engineer — AI, CRM & Automation (remote)",
+   "url": "https://www.rozee.pk/senior-full-stack-engineer-%e2%80%94-ai-crm-automation-jobs-1913296",
+   "route": "Rozee account apply"
+  },
+  {
+   "company": "Attimo Technologies",
+   "role": "Senior Software Engineer – Integrations & MCP (Pakistan, fully remote)",
+   "url": "https://www.rozee.pk/senior-software-engineer-%e2%80%93-integrations-mcp-jobs-1906844",
+   "route": "Rozee account apply"
+  },
+  {
+   "company": "Adamia LLC",
+   "role": "Senior AI-Native Full-Stack Developer - Remote (USD 1,000-3,500/mo)",
+   "url": "https://www.rozee.pk/senior-ai-native-full-stack-developer-remote-work-from-home-islamabad-jobs-1908483",
+   "route": "Rozee account apply"
+  },
+  {
+   "company": "Omkar Universe",
+   "role": "Frontend Engineer, Remote (Worldwide)",
+   "url": "https://omkaruniverse.com/careers/frontend-engineer",
+   "route": "Company form (name, email, CV)"
+  },
+  {
+   "company": "Dr Hud",
+   "role": "Full-Stack AI Developer (hybrid Islamabad)",
+   "url": "https://to.indeed.com/aad6n4j9mpsd",
+   "route": "Indeed; needs user's AI-project failure story + Islamabad hybrid"
+  },
+  {
+   "company": "We Are Revolution",
+   "role": "Full Stack Developer AI & Automation (remote India/Pakistan, USD 2,000/mo)",
+   "url": "https://www.linkedin.com/jobs/view/4472902392/",
+   "route": "LinkedIn apply; needs confirmation of n8n, Claude Code, Supabase/Firebase, Render/Railway experience"
+  },
+  {
+   "company": "Pavago (client role)",
+   "title": "AI Product Engineer (Full Stack)",
+   "url": "https://himalayas.app/companies/pavago/jobs/ai-product-engineer-full-stack-8856310413",
+   "note": "Pakistan, remote, US hours; LLM integration end to end. Wants Supabase or similar (unconfirmed). No hiring email on pavago.com."
+  },
+  {
+   "company": "Adventure Travel 365",
+   "title": "Senior Full-Stack Developer - Marketplace Web & Mobile",
+   "url": "https://weworkremotely.com/remote-jobs/adventure-travel-365-senior-full-stack-developer-marketplace-web-mobile-platform",
+   "note": "Worldwide; marketplace with bookings, payments, dashboards, mobile. Apply via WWR (403 from here); asks about AI in development (unconfirmed) and an optional video intro."
+  },
+  {
+   "company": "Sticker Mule",
+   "title": "Software engineer",
+   "url": "https://weworkremotely.com/remote-jobs/sticker-mule-software-engineer-3",
+   "note": "Remote from 40+ countries, $150k-$250k; Go/TS/React/Expo/GraphQL/Postgres; expects aggressive AI tool use (unconfirmed)."
+  },
+  {
+   "company": "Kadoa",
+   "title": "Senior Software Engineer",
+   "url": "https://www.kadoa.com/careers/senior-software-engineer",
+   "note": "Fully remote (Zurich HQ); TS/Node/Python/Docker/K8s/GCP, LLMs in production. Apply via Google Form only."
+  },
+  {
+   "company": "Proxify AB",
+   "title": "Senior Fullstack Developer (React.js / Node.js)",
+   "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js",
+   "note": "Anywhere in the world; talent marketplace with its own application form and vetting test."
+  },
+  {
+   "company": "ElevenLabs",
+   "title": "Full-Stack Engineer - Creative Agents",
+   "url": "https://jobicy.com/jobs/155941-full-stack-engineer-creative-agents",
+   "note": "Remote anywhere ('we prioritize your talent, not your location'); ATS form only; AI-first engineering culture (AI coding tools unconfirmed)."
+  }
+ ]
+}

@@ -107,6 +107,13 @@
       "statement": "Available to adjust working hours to any employer time zone, including Australian AEST/AEDT business hours.",
       "scope": "Flexible scheduled business hours; not a promise of continuous 24/7 work, on-call, or simultaneous overlapping jobs.",
       "independentlyVerified": false
+    },
+    "productDelivery": {
+      "builtApplicationsFromScratch": true,
+      "implementedFigmaDesignsCloselyInProduction": true,
+      "confirmedAt": "2026-10-16T07:48:00Z",
+      "source": "Direct candidate reply 'Yes, both' to: can I accurately say you have built applications from scratch and closely reproduced Figma designs in production?",
+      "verification": "candidate_reported"
     }
   },
   "updatedAt": "2026-10-16T07:16:02.928560+00:00",
@@ -129,5 +136,13 @@
     "approximateUsdReported": 950,
     "source": "Direct candidate reply October 16, 2026; salary period not explicitly stated. Do not annualize.",
     "confirmedAt": "2026-10-16T05:37:09.134Z"
+  },
+  "addressReportedByUser": {
+    "street": "Jinnah Park, Street 17",
+    "city": "Rahim Yar Khan",
+    "province": "Punjab",
+    "postalCodeAsTyped": "4200",
+    "postalCodeUsed": "64200 (Rahim Yar Khan code; user typed 4200, flagged to user)",
+    "confirmedAt": "2026-10-17T10:15:26.182057+00:00"
   }
 }

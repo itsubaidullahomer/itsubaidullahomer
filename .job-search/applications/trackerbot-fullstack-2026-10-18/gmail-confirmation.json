@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c81f5fe93bb8",
+  "threadId": "1a14c81f5fe93bb8",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "dobrev.d10@gmail.com",
+  "subject": "Full-Stack Developer (Node.js) at Trackerbot \u2014 Ubaidullah Omer (via HN)",
+  "company": "Trackerbot",
+  "role": "Full-Stack Developer (Node.js), remote, EUR 35-45k/year",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49926228",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Engineer.pdf",
+    "bytes": 5686,
+    "sha256": "bae7058c66afd0c4f560bbb11f09821afea9f36eeb597ed19c912632794e7cae",
+    "source": "output/pdf/ubaidullah-omer-trackerbot-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Hiring address published by the CTO in the HN October 2026 Who is hiring post. Follow-up correction 1a14c8226bbe5d69 sent in the same thread because the first email guessed the first name 'Dimitar'.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

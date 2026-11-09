@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c996f841ecde",
+  "threadId": "1a14c996f841ecde",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "careers@panacealogics.com",
+  "subject": "Application \u2014 PanaceaLogics: React Native / Full-Stack Developer (Remote)",
+  "company": "PanaceaLogics",
+  "role": "Speculative React Native / Full-Stack (careers page invites CVs; SmartRecruiters RN posting dates from 2021)",
+  "sourceUrl": "https://panacealogics.com/careers/",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-React-Native-Full-Stack-Developer.pdf",
+    "bytes": 5689,
+    "sha256": "dceb91329b40e5597320b2a35be001f4122e8120a8a1bd545b8034fe0f7f9086",
+    "source": "output/pdf/ubaidullah-omer-panacealogics-rn-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Careers page 'Send us your CV' mailto careers@panacealogics.com. Speculative; no confirmed current opening.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

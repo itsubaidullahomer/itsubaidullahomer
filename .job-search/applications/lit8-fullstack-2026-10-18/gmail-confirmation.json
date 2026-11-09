@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c91436d1a4a3",
+  "threadId": "1a14c91436d1a4a3",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "careers@lit8.com",
+  "subject": "Application: Fullstack Developer",
+  "company": "Lit8",
+  "role": "Fullstack Developer, Remote (Worldwide)",
+  "sourceUrl": "https://hr.lit8.com/profiles/fullstack-developer/",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Engineer.pdf",
+    "bytes": 5732,
+    "sha256": "09f77f71643eebae06491b4dc34f9eacdf304eb2028aa4117b31be1ea6f2739b",
+    "source": "output/pdf/ubaidullah-omer-lit8-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Employer job page mailto careers@lit8.com with the employer's suggested subject; MX verified (Outlook). Listing live 2026-10-18. Email describes React interfaces as 'accessible' (accessibility not separately confirmed).",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

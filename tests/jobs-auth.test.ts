@@ -428,3 +428,32 @@ test('expired, reused, sessionless and rate-limited code results cannot persist 
     assert.equal(await response.text(), '');
   }
 });
+
+test('failed sign-ins report a fixed reason without credentials, and the login redirect names it', async () => {
+  const cases: { name: string; input: Request; options?: FixtureOptions; expected: string; overrides?: Record<string, string> }[] = [
+    { name: 'foreign origin', input: request({ email: ownerEmail, password: 'test-password' }, { origin: 'https://evil.example' }), expected: 'origin' },
+    { name: 'extra field', input: request({ email: ownerEmail, password: 'test-password', extension: 'x' }), expected: 'request' },
+    { name: 'other email', input: request({ email: 'other@example.com', password: 'test-password' }), expected: 'email' },
+    { name: 'missing owner id', input: request({ email: ownerEmail, password: 'test-password' }), expected: 'config', overrides: { ownerId: '' } },
+    { name: 'wrong password', input: request({ email: ownerEmail, password: 'test-password' }), options: { authError: { status: 400, message: 'Invalid login credentials' } }, expected: 'credentials' },
+    { name: 'provider outage', input: request({ email: ownerEmail, password: 'test-password' }), options: { authError: { status: 503, message: 'down' } }, expected: 'service' },
+    { name: 'other user', input: request({ email: ownerEmail, password: 'test-password' }), options: { user: { ...ownerUser, id: 'other-user' } }, expected: 'not-owner' },
+    { name: 'no allowlist row', input: request({ email: ownerEmail, password: 'test-password' }), options: { owner: null }, expected: 'not-allowlisted' },
+    { name: 'lookup throws', input: request({ email: ownerEmail, password: 'test-password' }), options: { lookupThrows: true }, expected: 'service' },
+  ];
+  for (const { name, input, options, expected, overrides } of cases) {
+    const { dependencies } = fixture(options);
+    const reports: { reason: string; detail: Record<string, unknown> }[] = [];
+    const result = await runOwnerAuth(input, 'password', { ...dependencies, ...overrides, report: (reason, detail) => reports.push({ reason, detail }) });
+    assert.equal(result, 'password-error', name);
+    assert.deepEqual(reports.map((report) => report.reason), [expected], name);
+    assert.doesNotMatch(JSON.stringify(reports), /test-password|private-session/, name);
+    const response = ownerAuthResponse(input, result, [sessionCookie], reports[0].reason as never);
+    assert.equal(response.headers.get('location'), `https://admin.example.com/admin/login?error=signin&reason=${expected}`, name);
+    assert.equal(response.headers.get('set-cookie'), null, name);
+  }
+  const { dependencies } = fixture();
+  const reports: string[] = [];
+  assert.equal(await runOwnerAuth(request({ email: ownerEmail, password: 'test-password' }), 'password', { ...dependencies, report: (reason) => reports.push(reason) }), 'authenticated');
+  assert.deepEqual(reports, []);
+});

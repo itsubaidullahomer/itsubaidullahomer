@@ -1,0 +1,21 @@
+{
+  "focus": "full_stack",
+  "slug": "zoftify-fullstack-2026-10-17-v1",
+  "projects": [
+    "yaksport",
+    "viloi",
+    "illume"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  }
+}

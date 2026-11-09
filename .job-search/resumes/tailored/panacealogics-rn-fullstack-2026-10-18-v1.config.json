@@ -1,0 +1,30 @@
+{
+  "slug": "panacealogics-rn-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "React Native & Full-Stack Developer | React, Node.js, TypeScript",
+  "standardFonts": true,
+  "summary": "React Native and full-stack developer with three years of React Native and four years of React, Next.js and TypeScript in production. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, including three React Native apps released on both app stores and a shared Node.js / Express backend of about 1,000 endpoints. Built AI products for international clients. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_platform",
+      "tututor_backend",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "PanaceaLogics",
+    "title": "Speculative: React Native / Full-Stack Developer (careers page invites CVs)",
+    "url": "https://panacealogics.com/careers/"
+  },
+  "tailoring": "Software/web/mobile + AI services house; leads with React Native app-store delivery and full-stack."
+}

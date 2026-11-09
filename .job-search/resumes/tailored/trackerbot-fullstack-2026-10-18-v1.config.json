@@ -1,0 +1,30 @@
+{
+  "slug": "trackerbot-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Engineer | Node.js, PostgreSQL, React",
+  "standardFonts": true,
+  "summary": "Full-stack engineer who takes SaaS features from idea to production with Node.js, Express, PostgreSQL / SQL and MongoDB, React and TypeScript. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, maintaining a shared Express backend of about 1,000 endpoints with Stripe and SEPA billing, Redis and file storage. Works independently in small remote teams. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Trackerbot",
+    "title": "Full-Stack Developer (Node.js), remote",
+    "url": "https://news.ycombinator.com/item?id=49926228"
+  },
+  "tailoring": "Profitable eCommerce SaaS, Node.js + PostgreSQL, small team ownership; leads with backend ownership and SaaS billing."
+}

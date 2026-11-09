@@ -1,0 +1,30 @@
+{
+  "slug": "quill-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Engineer | React, TypeScript, Node.js, Data Dashboards",
+  "standardFonts": true,
+  "summary": "Full-stack engineer who builds products end to end with React, TypeScript, Node.js and SQL / PostgreSQL or MongoDB, including customer-facing analytics and dashboards. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, with a shared Express backend of about 1,000 endpoints. Built AI-generated analytics dashboards with Chart.js and D3.js. Comfortable with US working hours. Based in Pakistan. Available immediately.",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Quill",
+    "title": "Fullstack SWE, remote, PT/ET hours preferred",
+    "url": "https://news.ycombinator.com/item?id=49522912"
+  },
+  "tailoring": "Customer-facing analytics SDK; leads with Illume dashboards and 0-to-1 ownership."
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "enjoygaming-node-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Senior Node.js Engineer | Express, TypeScript, Real-time, AI APIs",
+  "summary": "Node.js engineer with about four years of Express and TypeScript backend work, building REST APIs, WebSocket real-time features and AI-assisted product features with OpenAI, Claude and Gemini. Leads engineering at Tututor.ai / EduNova, maintaining a shared Express backend with about 1,000 endpoints, Socket.io / Redis messaging and MongoDB, SQL / PostgreSQL and Redis data stores for 20,000+ users. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_scope",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Enjoy Gaming LLC",
+    "title": "Senior Node.js Developer",
+    "url": "https://himalayas.app/companies/enjoy-gaming-llc/jobs/senior-node-js-developer"
+  },
+  "tailoring": "Node/Express, WebSockets, Mongo/Redis/SQL, AI APIs. Gaps: NestJS depth, Kafka/RabbitMQ not evidenced."
+}

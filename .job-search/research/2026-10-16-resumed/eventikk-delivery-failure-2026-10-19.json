@@ -1,0 +1,11 @@
+{
+  "messageId": "1a1537797d39f14b",
+  "threadId": "1a1439f572036ddb",
+  "from": "mailer-daemon@googlemail.com",
+  "receivedAt": "2026-10-19T09:21:48Z",
+  "subject": "Delivery Status Notification (Failure)",
+  "summary": "Permanent failure delivering the 2026-10-16 07:31 UTC role-details inquiry to careers@eventikk.com: 'The recipient server did not accept our requests'. Earlier delay notices 2026-10-17 11:03 and 2026-10-18 08:57 UTC.",
+  "status": "Inquiry not delivered; no application on record with Eventikk.",
+  "nextAction": "No further email to this address. Candidate can use the job board's apply route if still interested.",
+  "recordedAt": "2026-10-19"
+}

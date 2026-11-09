@@ -1,0 +1,29 @@
+{
+  "slug": "pixibo-fullstack-2026-10-17-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Engineer | TypeScript, Node.js, React",
+  "summary": "Full-stack engineer building consumer-facing web applications and REST APIs with TypeScript, Node.js and React, with SQL / PostgreSQL and MongoDB data models in production. Leads engineering at Tututor.ai / EduNova, maintaining a shared Express backend with about 1,000 endpoints across eight products used by 20,000+ people. Ships fast while keeping production systems reliable. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_scope",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Pixibo",
+    "title": "Mid-Senior Full Stack Engineer - Remote",
+    "url": "https://himalayas.app/companies/pixibo/jobs/mid-senior-full-stack-engineer-remote-4430955848"
+  },
+  "tailoring": "TS/Node/React + relational models + production B2B/B2C systems; no AWS claim (nice-to-have only)."
+}

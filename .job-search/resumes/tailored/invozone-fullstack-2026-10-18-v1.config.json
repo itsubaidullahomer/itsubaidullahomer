@@ -1,0 +1,30 @@
+{
+  "slug": "invozone-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Engineer | MERN, Next.js, TypeScript",
+  "standardFonts": true,
+  "summary": "Full-stack engineer building production applications with MongoDB, Express, React, Node.js, Next.js and TypeScript, from Figma designs to REST APIs and SQL / PostgreSQL or MongoDB data. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, with a shared Express backend of about 1,000 endpoints and three React Native apps. Experienced with international clients and remote delivery. Based in Pakistan. Available immediately.",
+  "projects": [
+    "yaksport",
+    "viloi",
+    "illume"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "InvoZone",
+    "title": "Full Stack / MERN / React.js Developer (speculative, careers page invites CVs by email)",
+    "url": "https://invozone.com/careers/"
+  },
+  "tailoring": "InvoZone builds MERN/React/Node/TypeScript products for international clients; leads with MERN + client delivery."
+}

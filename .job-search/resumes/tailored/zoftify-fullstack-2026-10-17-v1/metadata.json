@@ -1,0 +1,11 @@
+{
+  "createdAt": "2026-10-17T09:52:36.723568+00:00",
+  "path": "output/pdf/ubaidullah-omer-zoftify-fullstack-2026-10-17-v1-ats.pdf",
+  "sha256": "f1fe92ab30674a28c6a48dfd7ca8c000a365eab17eb77a3b0703c1d63e210dc2",
+  "bytes": 61418,
+  "pages": 1,
+  "searchableWords": 389,
+  "contentBottomPt": 62.989763779527664,
+  "charactersOutsideSafeArea": 0,
+  "visualQa": "passed: one A4 page, all text inside margins, contact details and dates correct (Claude, 2026-10-17)"
+}

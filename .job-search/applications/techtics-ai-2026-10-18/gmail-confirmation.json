@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14ce9512517751",
+  "threadId": "1a14ce9512517751",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "hr@techtics.ai",
+  "subject": "Full-Stack AI Engineer (React, Node.js, LLM integrations) — Ubaidullah Omer",
+  "company": "Techtics.ai",
+  "role": "Speculative: full-stack / AI engineering (no matching role listed)",
+  "sourceUrl": "https://techtics.ai/careers",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-AI-Engineer.pdf",
+    "bytes": 5789,
+    "sha256": "182cac5396b4ed0edf405b5fc0119ca0e60cc1e58ea3817a416f3ecf42e85ea5",
+    "source": "output/pdf/ubaidullah-omer-techtics-ai-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Careers page: 'You can share your Resume at hr@techtics.ai.' Speculative; only a UI/UX role is listed. Remote stated; no relocation offered.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

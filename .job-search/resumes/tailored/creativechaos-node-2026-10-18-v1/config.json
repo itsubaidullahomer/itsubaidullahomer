@@ -1,0 +1,29 @@
+{
+  "slug": "creativechaos-node-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Backend / Full-Stack Engineer | Node.js, Express, TypeScript",
+  "summary": "Backend-focused full-stack engineer building RESTful APIs with Node.js, Express and TypeScript on MongoDB, SQL / PostgreSQL and Redis. Leads engineering at Tututor.ai / EduNova, maintaining a shared Express backend with about 1,000 API endpoints and 90 models, school-scoped data access, Socket.io messaging and Stripe billing for eight products used by 20,000+ people. Writes tests with Jest and reviews code. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_scope",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Creative Chaos",
+    "title": "Senior Software Engineer - Node",
+    "url": "https://himalayas.app/companies/csquareonline/jobs/senior-software-engineer-node"
+  },
+  "tailoring": "Node/Express REST APIs, relational + schemaless DBs, tests and code review."
+}

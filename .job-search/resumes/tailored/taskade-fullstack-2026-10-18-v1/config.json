@@ -1,0 +1,30 @@
+{
+  "slug": "taskade-fullstack-2026-10-18-v1",
+  "focus": "ai_product",
+  "title": "Full-Stack Engineer | TypeScript, React, Next.js, Node.js, Real-Time, LLM Integrations",
+  "standardFonts": true,
+  "summary": "Full-stack TypeScript engineer with four years of TypeScript and Next.js, building with React, Node.js and MongoDB or SQL / PostgreSQL. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families: a shared Express backend of about 1,000 endpoints with school-scoped data access, Socket.io / Redis real-time messaging, Stripe billing, and LLM features such as lesson chatbots, quiz generation and automated grading. Built a paid AI writing SaaS with OpenAI, Claude and Gemini fallbacks. Based in Pakistan (UTC+5), remote. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_ai"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Taskade",
+    "title": "Full Stack Engineer (San Francisco / Singapore / Remote); also Front-end Engineer",
+    "url": "https://www.taskade.com/jobs"
+  },
+  "tailoring": "AI workspace with real-time collaboration; leads with multi-tenant backend, Socket.io/Redis, LLM features. No vector search, Kubernetes or edge-deploy claim."
+}

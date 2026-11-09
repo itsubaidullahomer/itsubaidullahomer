@@ -1,0 +1,34 @@
+{
+  "createdAt": "2026-10-18T01:27:21.381598+00:00",
+  "job": {
+    "company": "Cardog",
+    "title": "Design Engineer (Remote)",
+    "url": "https://news.ycombinator.com/item?id=49926872"
+  },
+  "sourceFacts": {
+    "path": ".job-search/resumes/masters/2026-10-16-v3/facts.snapshot.json",
+    "sha256": "9264eb02ad1fb6d463e5d22aa7d77d8963da1b71b6b0b341180f913bbebd2c89"
+  },
+  "confirmationSource": {
+    "sha256": "99ea046825259cac3d21136007124041faf074d1b970f6797a29c66ddeb067cb"
+  },
+  "selectedFactIds": [
+    "tututor_scope",
+    "tututor_platform",
+    "tututor_leadership",
+    "tututor_backend",
+    "danzee_components",
+    "danzee_jurri",
+    "illume",
+    "yaksport",
+    "viloi"
+  ],
+  "tailoring": "Own component library + dense data screens in React/Next/Tailwind; leads with design-system and dashboards.",
+  "boundaries": [
+    "No degree",
+    "No major-cloud production experience",
+    "No specific PostgreSQL tenure",
+    "Candidate-reported career evidence, not independent verification"
+  ],
+  "submission": false
+}

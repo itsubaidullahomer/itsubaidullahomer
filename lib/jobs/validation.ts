@@ -173,11 +173,14 @@ export function isOwner(
 }
 export function assertSameOrigin(request: Request): void {
   const origin = request.headers.get("origin");
-  if (
-    !origin ||
-    origin !== new URL(request.url).origin ||
-    request.headers.get("sec-fetch-site") === "cross-site"
-  )
+  const site = request.headers.get("sec-fetch-site");
+  // /admin is served with Referrer-Policy: no-referrer, under which browsers send
+  // "Origin: null" on form posts. Sec-Fetch-Site is set by the browser and cannot be
+  // forged by a page, so "same-origin" vouches for those requests.
+  const sameOrigin =
+    origin === new URL(request.url).origin ||
+    (origin === "null" && site === "same-origin");
+  if (!origin || !sameOrigin || site === "cross-site")
     throw new PortalError("This action must come from the portal.", 403);
 }
 export async function readLimitedText(

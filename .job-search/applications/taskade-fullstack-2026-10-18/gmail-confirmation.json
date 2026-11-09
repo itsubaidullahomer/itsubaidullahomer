@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14d095557a941d",
+  "threadId": "1a14d095557a941d",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "jobs@taskade.com",
+  "subject": "Full Stack Engineer (remote) — Ubaidullah Omer",
+  "company": "Taskade",
+  "role": "Full Stack Engineer (San Francisco / Singapore / Remote); also asked to be considered for Front-end Engineer",
+  "sourceUrl": "https://www.taskade.com/jobs",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Engineer.pdf",
+    "bytes": 5824,
+    "sha256": "b3938645f5117ba1b6b4cce091bd7394d6392978951c35dabf9dc3cd988e3b00",
+    "source": "output/pdf/ubaidullah-omer-taskade-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Each role description on taskade.com/jobs ends 'or contact jobs@taskade.com'. Email states plainly: no Kubernetes, edge deployment or vector search in production.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

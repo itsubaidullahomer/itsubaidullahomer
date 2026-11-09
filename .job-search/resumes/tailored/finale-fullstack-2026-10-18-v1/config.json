@@ -1,0 +1,30 @@
+{
+  "slug": "finale-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Senior Full-Stack Engineer | Node.js, React, TypeScript, Integrations",
+  "standardFonts": true,
+  "summary": "Full-stack engineer building SaaS products with Node.js / Express, React, Next.js and TypeScript, on SQL / PostgreSQL and MongoDB. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, with a shared Express backend of about 1,000 endpoints and integrations including Stripe and SEPA billing. Built analytics dashboards on Boulevard, Zenoti and Vagaro data, and a booking product for a sports travel agency. Remote with international teams. Based in Pakistan. Available immediately.",
+  "projects": [
+    "illume",
+    "viloi",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Descartes - Finale Inventory",
+    "title": "Senior Software Engineer, Remote",
+    "url": "https://news.ycombinator.com/item?id=49925469"
+  },
+  "tailoring": "Ecommerce SaaS with 25+ integrations, Node/React, continuous deployment; leads with integrations and SaaS scale."
+}

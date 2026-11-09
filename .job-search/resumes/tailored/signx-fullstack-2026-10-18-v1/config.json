@@ -1,0 +1,30 @@
+{
+  "slug": "signx-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Senior Full-Stack Engineer | React, Next.js, Node.js",
+  "standardFonts": true,
+  "summary": "Full-stack engineer building scalable products with React, Next.js, TypeScript, Node.js and Express, on SQL / PostgreSQL or MongoDB. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families: a shared Express backend of about 1,000 endpoints and 90 models, Socket.io / Redis messaging, Stripe and SEPA billing and three React Native apps. Led a small team across web and mobile. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "SignX Solutions",
+    "title": "Senior Full-Stack Engineer, Remote (Worldwide)",
+    "url": "https://www.signxsolutions.com/career"
+  },
+  "tailoring": "React/Next/Node, scalable APIs and data models; leads with backend scale and team leadership."
+}

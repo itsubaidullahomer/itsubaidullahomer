@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c8348534c98b",
+  "threadId": "1a14c8348534c98b",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "vishnu.swaroop@aimi.technology",
+  "subject": "Full Stack AI Engineer at AiMi \u2014 Ubaidullah Omer (via HN)",
+  "company": "AiMi",
+  "role": "Full Stack AI Engineer, Remote (Everywhere)",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49552714",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-AI-Engineer.pdf",
+    "bytes": 5703,
+    "sha256": "06ef23f4df1c00dc4808193c157a146eea1e01253ca6425524caeba895d956cc",
+    "source": "output/pdf/ubaidullah-omer-aimi-fullstack-ai-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Direct contact published in the HN September 2026 Who is hiring post (alternative to join.com form). Email states no production AWS and no capital-markets background.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

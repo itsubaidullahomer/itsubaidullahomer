@@ -1,0 +1,37 @@
+{
+  "createdAt": "2026-10-17T09:52:36.723568+00:00",
+  "job": {
+    "id": "zoftify-41",
+    "title": "Full Stack Developer (React + Node.js)",
+    "url": "https://zoftify.bamboohr.com/careers/41",
+    "descriptionSource": "Codex capture 2026-10-15 (research/2026-10-16-resumed/workspace-before.json); live page not reachable from this session"
+  },
+  "sourceFacts": {
+    "path": "/home/user/itsubaidullahomer/.job-search/resumes/masters/2026-10-16-v3/facts.snapshot.json",
+    "sha256": "9264eb02ad1fb6d463e5d22aa7d77d8963da1b71b6b0b341180f913bbebd2c89"
+  },
+  "confirmationSource": {
+    "path": "/home/user/itsubaidullahomer/.job-search/private/application-facts.json",
+    "sha256": "999fba0340af14f32b9a179c3669fa520911facd5f9b303d4220ca44f660f452"
+  },
+  "selectedFactIds": [
+    "tututor_scope",
+    "tututor_backend",
+    "tututor_platform",
+    "tututor_leadership",
+    "danzee_components",
+    "danzee_jurri",
+    "yaksport",
+    "viloi",
+    "illume"
+  ],
+  "tailoring": "Leads with from-scratch delivery, Figma-to-interface work, REST and SQL/PostgreSQL to match the JD; Yaksport travel booking first as the closest domain match. Experience bullets keep source wording.",
+  "boundaries": [
+    "No degree",
+    "No major-cloud production experience",
+    "No specific PostgreSQL tenure",
+    "No claim of travel-industry employment",
+    "Candidate-reported career evidence, not independent verification"
+  ],
+  "submission": false
+}

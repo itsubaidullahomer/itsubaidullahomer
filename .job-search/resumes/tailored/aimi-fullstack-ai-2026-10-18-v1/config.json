@@ -1,0 +1,30 @@
+{
+  "slug": "aimi-fullstack-ai-2026-10-18-v1",
+  "focus": "ai_product",
+  "title": "Full-Stack AI Engineer | React, TypeScript, Node.js, LLMs",
+  "standardFonts": true,
+  "summary": "Full-stack engineer shipping LLM features in production with React, TypeScript and Node.js. Leads engineering at Tututor.ai / EduNova, building AI features and a shared Express backend of about 1,000 endpoints for eight products used by 20,000+ students, teachers and families. Built a paid AI writing SaaS with OpenAI, Claude and Gemini fallbacks, and AI-generated analytics dashboards. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_backend",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "AiMi",
+    "title": "Full Stack AI Engineer, Remote (Everywhere)",
+    "url": "https://news.ycombinator.com/item?id=49552714"
+  },
+  "tailoring": "Agentic AI infra, React/TS + Node; leads with production LLM work and model fallbacks. No AWS claim."
+}

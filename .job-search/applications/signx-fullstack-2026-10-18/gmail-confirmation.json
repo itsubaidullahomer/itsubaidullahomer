@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c925bb460104",
+  "threadId": "1a14c925bb460104",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "contact@signxsolutions.com",
+  "subject": "Application: Senior Full-Stack Engineer (Remote) \u2014 Ubaidullah Omer",
+  "company": "SignX Solutions",
+  "role": "Senior Full-Stack Engineer, Remote (worldwide)",
+  "sourceUrl": "https://www.signxsolutions.com/career",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Senior-Full-Stack-Engineer.pdf",
+    "bytes": 5654,
+    "sha256": "cc71c5f727947e322fcd003b5cfc8c6bc982738a732218036c4e6b1330f8097f",
+    "source": "output/pdf/ubaidullah-omer-signx-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Careers page states form applications are sent to contact@signxsolutions.com; emailed CV there directly. Role live 2026-10-18; company hours UTC+5.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c9fdd4993e03",
+  "threadId": "1a14c9fdd4993e03",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "careers@cardog.app",
+  "subject": "Design Engineer (Remote) \u2014 Ubaidullah Omer (via HN)",
+  "company": "Cardog",
+  "role": "Design Engineer (Remote)",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49926872",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Design-Engineer.pdf",
+    "bytes": 5748,
+    "sha256": "b0cb90b9383392e3fecca8d06941835416e1f0be76c9e539ff03d242dc365dcf",
+    "source": "output/pdf/ubaidullah-omer-cardog-design-engineer-2026-10-18-v1-ats.pdf"
+  },
+  "route": "careers@cardog.app published on HN Oct post and cardog.app/careers. Remote geography not specified (Toronto company). QA note: email says Tailwind 'daily' and that making sparse/missing data read clearly was part of Illume work - both unconfirmed embellishments.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

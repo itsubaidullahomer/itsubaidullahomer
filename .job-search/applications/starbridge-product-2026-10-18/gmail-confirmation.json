@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c85384c7d814",
+  "threadId": "1a14c85384c7d814",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "recruiting@starbridge.ai",
+  "subject": "Senior Product Engineer (React/TypeScript) \u2014 Ubaidullah Omer (via HackerNews)",
+  "company": "Starbridge",
+  "role": "Senior Product Engineer (React/TypeScript), NYC or remote",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49923756",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Product-Engineer.pdf",
+    "bytes": 5715,
+    "sha256": "12a90b2f5981daaf31e515b950fb28d1bc2ab7274ae0a1022179879fab2ac4fa",
+    "source": "output/pdf/ubaidullah-omer-starbridge-product-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Recruiting address published in the HN October 2026 Who is hiring post (resume in PDF). Remote location eligibility not stated. Email describes Illume users as 'salon and spa owners'; content says MedSpa owners.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

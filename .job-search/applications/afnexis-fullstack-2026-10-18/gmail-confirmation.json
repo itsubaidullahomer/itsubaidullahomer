@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c951e4bc9e0c",
+  "threadId": "1a14c951e4bc9e0c",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "info@afnexis.com",
+  "subject": "Application: Full Stack Developer (Remote, Pakistan) \u2014 Ubaidullah Omer",
+  "company": "AFNEXIS LLC",
+  "role": "Full Stack Developer (also React Native role), Remote / Multan, Pakistan",
+  "sourceUrl": "https://afnexis.com/career",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-Developer.pdf",
+    "bytes": 5735,
+    "sha256": "b2627ac71f664b9c0023310230f22672d7bbe62bcdff68c288ccd6373933c2e5",
+    "source": "output/pdf/ubaidullah-omer-afnexis-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Careers page 'Send your resume' links mailto:info@afnexis.com. Role live 2026-10-18.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "bevyl-founding-2026-10-18-v1",
+  "focus": "ai_product",
+  "title": "Full-Stack AI Engineer | TypeScript, React, Node.js, PostgreSQL",
+  "standardFonts": true,
+  "summary": "Full-stack engineer who takes AI product features from idea to production with TypeScript, React, Next.js, Node.js and MongoDB or SQL / PostgreSQL. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, shipping LLM features such as lesson chatbots, quiz generation and automated grading, plus R2 file storage and Stripe billing. Built a paid AI writing SaaS with OpenAI, Claude and Gemini fallbacks. Works directly with the founder on product decisions. Based in Pakistan (UTC+5), remote. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_ai",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Bevyl",
+    "title": "Founding Engineer / AI Engineer (NYC / open to remote)",
+    "url": "https://news.ycombinator.com/item?id=46466795"
+  },
+  "tailoring": "Seed-stage AI content tools; leads with shipped LLM features, end-to-end ownership and founder collaboration. No video-processing or Supabase claim."
+}

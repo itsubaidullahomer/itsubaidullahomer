@@ -2,15 +2,20 @@ import 'server-only';
 import { createServerClient, type CookieOptions } from '@supabase/ssr';
 import { cookies } from 'next/headers';
 import type { NextResponse } from 'next/server';
-import { emailOtpEnabled, ownerAuthResponse, runOwnerAuth, runOwnerPasswordUpdate, runOwnerRecovery, type OwnerAuthDependencies, type OwnerAuthResult, type OwnerAuthStep } from './auth';
-import { portalConfigured } from './server';
+import { emailOtpEnabled, ownerAuthResponse, runOwnerAuth, runOwnerPasswordUpdate, runOwnerRecovery, type OwnerAuthDependencies, type OwnerAuthFailure, type OwnerAuthResult, type OwnerAuthStep } from './auth';
+import { ownerSettings, portalConfigured } from './server';
 
 async function handleOwnerOperation(request: Request, operation: (dependencies: OwnerAuthDependencies) => Promise<OwnerAuthResult>): Promise<NextResponse> {
   const pending = new Map<string, { name: string; value: string; options: CookieOptions }>();
+  let failure: OwnerAuthFailure | undefined;
   const result = await operation({
-    ownerId: process.env.JOBS_ADMIN_USER_ID,
-    ownerEmail: process.env.JOBS_ADMIN_EMAIL,
+    ...ownerSettings(),
     otpEnabled: emailOtpEnabled(process.env.JOBS_EMAIL_OTP_ENABLED),
+    report(reason, detail) {
+      failure = reason;
+      // Shows up in Vercel runtime logs. Detail holds flags and provider codes only, never credentials.
+      console.warn(JSON.stringify({ event: 'jobs_auth_failure', reason, path: new URL(request.url).pathname, ...detail }));
+    },
     async createClient() {
       if (!portalConfigured()) throw new Error('Portal is not configured.');
       const store = await cookies();
@@ -25,7 +30,7 @@ async function handleOwnerOperation(request: Request, operation: (dependencies: 
       });
     },
   });
-  return ownerAuthResponse(request, result, pending.values());
+  return ownerAuthResponse(request, result, pending.values(), failure);
 }
 
 export const handleOwnerAuth = (request: Request, step: OwnerAuthStep) => handleOwnerOperation(request, (dependencies) => runOwnerAuth(request, step, dependencies));

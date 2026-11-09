@@ -1,0 +1,30 @@
+{
+  "slug": "lit8-fullstack-2026-10-18-v1",
+  "focus": "full_stack",
+  "title": "Full-Stack Engineer | TypeScript, React, Next.js, Node.js",
+  "standardFonts": true,
+  "summary": "Full-stack engineer who builds and ships features end to end, from React and Next.js interfaces to Node.js / Express APIs and SQL / PostgreSQL or MongoDB data. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, on a shared Express backend of about 1,000 endpoints. Maintains shared component libraries and reviews code. Works remotely with international teams. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_backend",
+      "tututor_platform",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Lit8",
+    "title": "Fullstack Developer, Remote (Worldwide)",
+    "url": "https://hr.lit8.com/profiles/fullstack-developer/"
+  },
+  "tailoring": "TypeScript end to end, React component library, Node REST APIs, relational DB; leads with full-stack ownership."
+}

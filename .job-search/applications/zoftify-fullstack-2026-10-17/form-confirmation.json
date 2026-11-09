@@ -1,0 +1,25 @@
+{
+  "jobId": "zoftify-41",
+  "company": "Zoftify Eesti O\u00dc",
+  "title": "Full Stack Developer (React + Node.js)",
+  "route": "Employer BambooHR form",
+  "applyUrl": "https://zoftify.bamboohr.com/careers/41",
+  "submittedBy": "Candidate (form submitted from candidate's browser; Claude prepared r\u00e9sum\u00e9 and answers)",
+  "confirmation": {
+    "type": "employer ATS automated receipt email",
+    "from": "notifications@app.bamboohr.com",
+    "to": "itsubaidullahomer@gmail.com",
+    "subject": "Thank you for applying at Zoftify Eesti O\u00dc",
+    "gmailMessageId": "1a14b4ac84fe6675",
+    "receivedAt": "2026-10-17T19:15:54Z"
+  },
+  "resumePrepared": {
+    "path": "output/pdf/ubaidullah-omer-zoftify-fullstack-2026-10-17-v1-ats.pdf",
+    "sha256": "f1fe92ab30674a28c6a48dfd7ca8c000a365eab17eb77a3b0703c1d63e210dc2"
+  },
+  "resumeActuallyUploadedVerified": false,
+  "note": "Receipt confirms submission; the exact uploaded file cannot be verified from here.",
+  "recordedAt": "2026-10-17T20:24:00.222759+00:00",
+  "nextAction": "Await employer response; review 2026-10-24 before any follow-up. Do not resubmit.",
+  "nextActionDate": "2026-10-24"
+}

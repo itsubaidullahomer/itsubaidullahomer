@@ -1,0 +1,15 @@
+{
+  "source": "Gmail",
+  "messageId": "1a147762aa3ae720",
+  "from": "indeedapply@indeed.com",
+  "subject": "Indeed Application: Senior Web Developer",
+  "receivedAt": "2026-10-17T01:24:48Z",
+  "body": "Your application has been submitted. Good luck!",
+  "company": "not named in the confirmation email",
+  "role": "Senior Web Developer",
+  "channel": "Indeed Apply",
+  "actor": "candidate (not sent by Claude; no matching Claude record)",
+  "status": "Employer receipt not yet seen; Indeed submission confirmed",
+  "nextAction": "Candidate to note which company this was so it can be added to Job management.",
+  "recordedAt": "2026-10-18"
+}

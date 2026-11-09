@@ -1,0 +1,30 @@
+{
+  "slug": "thisdot-rn-2026-10-18-v1",
+  "focus": "frontend",
+  "title": "Senior React Native & React Engineer | TypeScript, Next.js, Node.js",
+  "standardFonts": true,
+  "summary": "React Native and React engineer with three years of React Native and four years of TypeScript and Next.js in production. Leads engineering at Tututor.ai / EduNova across eight products used by 20,000+ students, teachers and families, including three React Native apps released on both the App Store and Google Play, web apps in React and Next.js, and a shared Node.js / Express backend. Cut initial load time by about 40% on a client product through code splitting and bundle work. Works remotely with teams in other time zones. Based in Pakistan. Available immediately.",
+  "projects": [
+    "viloi",
+    "illume",
+    "yaksport"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_platform",
+      "tututor_ai",
+      "tututor_leadership"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "This Dot Labs",
+    "title": "Senior React Native Engineer (remote); also open to Senior Software Engineer - JavaScript/React",
+    "url": "https://www.thisdot.co/job/senior-react-native-engineer"
+  },
+  "tailoring": "Consultancy; leads with React Native apps shipped to both stores, React/TypeScript and remote client work. No Expo claim."
+}

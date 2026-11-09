@@ -1,0 +1,30 @@
+{
+  "slug": "cardog-design-engineer-2026-10-18-v1",
+  "focus": "frontend",
+  "title": "Design Engineer | React, Next.js, Tailwind CSS, Component Libraries",
+  "standardFonts": true,
+  "summary": "Frontend engineer who designs in the browser and ships the code: React, Next.js, TypeScript and Tailwind CSS, from Figma or from scratch to production. Leads engineering at Tututor.ai / EduNova and maintains the shared component library behind eight products used by 20,000+ students, teachers and families. Built dense analytics dashboards for revenue, bookings and retention with Chart.js and D3.js. Cut initial load time by about 40% at Danzee. Based in Pakistan. Available immediately.",
+  "projects": [
+    "illume",
+    "yaksport",
+    "viloi"
+  ],
+  "experienceBullets": {
+    "tututor": [
+      "tututor_scope",
+      "tututor_platform",
+      "tututor_leadership",
+      "tututor_backend"
+    ],
+    "danzee": [
+      "danzee_components",
+      "danzee_jurri"
+    ]
+  },
+  "job": {
+    "company": "Cardog",
+    "title": "Design Engineer (Remote)",
+    "url": "https://news.ycombinator.com/item?id=49926872"
+  },
+  "tailoring": "Own component library + dense data screens in React/Next/Tailwind; leads with design-system and dashboards."
+}

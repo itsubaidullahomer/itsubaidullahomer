@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14d043ca2a7de1",
+  "threadId": "1a14d043ca2a7de1",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "noah@bevyl.ai",
+  "subject": "Founding / AI Engineer at Bevyl — Ubaidullah Omer (via HN)",
+  "company": "Bevyl",
+  "role": "Founding Engineer / AI Engineer (NYC / open to remote)",
+  "sourceUrl": "https://news.ycombinator.com/item?id=46466795",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Full-Stack-AI-Engineer.pdf",
+    "bytes": 5780,
+    "sha256": "f7f6b5a09db762e27380bec8029da71cf223dbf7ed43618af158efc6fdd357a6",
+    "source": "output/pdf/ubaidullah-omer-bevyl-founding-2026-10-18-v1-ats.pdf"
+  },
+  "route": "CTO email published in HN January 2026 post (may be stale; the email says so). Site has no careers page. Email states plainly: no video-processing or Supabase production experience.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

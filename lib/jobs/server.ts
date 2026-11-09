@@ -4,12 +4,19 @@ import type { SupabaseClient } from '@supabase/supabase-js';
 import { cookies } from 'next/headers';
 import type { NextRequest, NextResponse } from 'next/server';
 import { applyAction } from './domain';
+import { planAgentSync, type AgentBatch } from './agent-sync';
+import agentBatch from '@/data/agent-sync/applications.json';
 import { emptyWorkspace } from './seed';
 import { assertJob, isOwner, PortalError } from './validation';
 import type { Workspace, WorkspaceAction } from './types';
 
+/** Owner settings, trimmed: a stray space or newline pasted into the host's settings must not lock the owner out. */
+export function ownerSettings(): { ownerId?: string; ownerEmail?: string } {
+  return { ownerId: process.env.JOBS_ADMIN_USER_ID?.trim() || undefined, ownerEmail: process.env.JOBS_ADMIN_EMAIL?.trim() || undefined };
+}
 export function portalConfigured(): boolean {
-  return !!(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY && process.env.JOBS_ADMIN_USER_ID && process.env.JOBS_ADMIN_EMAIL);
+  const { ownerId, ownerEmail } = ownerSettings();
+  return !!(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY && ownerId && ownerEmail);
 }
 export async function createJobsClient() {
   if (!portalConfigured()) throw new PortalError('The private portal is not connected yet.', 503);
@@ -45,7 +52,8 @@ export async function ownerClient(): Promise<{ client: SupabaseClient; userId: s
   const client = await createJobsClient();
   const { data: { user }, error } = await client.auth.getUser();
   if (error || !user) throw new PortalError('Sign in to access your private workspace.', 401);
-  if (!isOwner(user, process.env.JOBS_ADMIN_USER_ID, process.env.JOBS_ADMIN_EMAIL)) throw new PortalError('This account cannot access the portal.', 403);
+  const { ownerId, ownerEmail } = ownerSettings();
+  if (!isOwner(user, ownerId, ownerEmail)) throw new PortalError('This account cannot access the portal.', 403);
   const owner = await client.from('jobs_owners').select('user_id').eq('user_id', user.id).maybeSingle();
   if (owner.error) throw new PortalError('The portal database is not ready. Complete the database setup.', 503);
   if (!owner.data) throw new PortalError('This account has not been enabled for the portal.', 403);
@@ -82,6 +90,17 @@ export async function persistAction(action: WorkspaceAction): Promise<Workspace>
     if (result.error.code !== '40001') throw new PortalError('Your changes could not be saved. Please try again.', 503);
   }
   throw new PortalError('Another update arrived at the same time. Please try again.', 409);
+}
+/** Applies Claude's recorded applications once, under the owner's own session. Never throws into page rendering. */
+export async function syncAgentRecords(): Promise<void> {
+  const { client } = await ownerClient();
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const { workspace, revision } = await readWorkspace(client);
+    const plan = planAgentSync(workspace, agentBatch as AgentBatch);
+    if (!plan.changed) return;
+    const result = await client.rpc('jobs_save_workspace', { p_workspace: plan.workspace, p_expected_revision: revision });
+    if (!result.error || result.error.code !== '40001') return;
+  }
 }
 export async function claimDiscovery(): Promise<void> {
   const { client } = await ownerClient();

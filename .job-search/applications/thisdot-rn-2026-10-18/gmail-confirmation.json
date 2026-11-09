@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14ce3abb8add64",
+  "threadId": "1a14ce3abb8add64",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "jobs@thisdot.co",
+  "subject": "Application: Senior React Native Engineer",
+  "company": "This Dot Labs",
+  "role": "Senior React Native Engineer (remote); also asked to be considered for Senior Software Engineer - JavaScript/React",
+  "sourceUrl": "https://www.thisdot.co/job/senior-react-native-engineer",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-React-Native-Engineer.pdf",
+    "bytes": 5792,
+    "sha256": "d9127a320297d9dc97f95841bc2ffe9afceaf30bd8947182eb15227dc8362210",
+    "source": "output/pdf/ubaidullah-omer-thisdot-rn-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Job page's Apply button is a pre-filled email to jobs@thisdot.co with this exact subject; HN Sep 2026 post asks applicants to mention Hacker News. No Expo claim.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14c9879089d33f",
+  "threadId": "1a14c9879089d33f",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "careers@useaxra.com",
+  "subject": "Application: Senior Frontend Engineer",
+  "company": "Axra",
+  "role": "Senior Frontend Engineer, Remote (Worldwide), GBP 75-95k",
+  "sourceUrl": "https://www.useaxra.com/careers/frontend-engineer",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Senior-Frontend-Engineer.pdf",
+    "bytes": 5718,
+    "sha256": "43324a717b897042a6596395c615cffca41c9207a2516b37138f3895afc507cd",
+    "source": "output/pdf/ubaidullah-omer-axra-frontend-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Job page mailto careers@useaxra.com with employer subject; page asks for CV + short note on what you're working on and why Axra. Email states ~4 years vs their 5+ requirement.",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

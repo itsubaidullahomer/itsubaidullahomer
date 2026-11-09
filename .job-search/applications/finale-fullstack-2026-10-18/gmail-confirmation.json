@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14ca0e89309b1a",
+  "threadId": "1a14ca0e89309b1a",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "jforbes@descartes.com",
+  "subject": "Senior Software Engineer, Finale Inventory \u2014 Ubaidullah Omer (via HN)",
+  "company": "Descartes - Finale Inventory",
+  "role": "Senior Software Engineer, Remote",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49925469",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Senior-Full-Stack-Engineer.pdf",
+    "bytes": 5729,
+    "sha256": "4d2a9eb9bb84c546c91e53b2d3cce9aedc44a7713955a83d8b3d729b814d4d01",
+    "source": "output/pdf/ubaidullah-omer-finale-fullstack-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Director of Software Development contact published in HN Oct post. Team spans NA/SA/Western Europe; Pakistan eligibility not stated. Email says worked remotely with teams in Spain and Denmark (Danzee work arrangement not separately confirmed).",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}

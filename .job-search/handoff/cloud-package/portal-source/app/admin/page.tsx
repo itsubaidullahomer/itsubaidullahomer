@@ -2,7 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Compass, ArrowRight, ShieldCheck } from "lucide-react";
 import JobPortal from "@/components/jobs/portal";
-import { getPortalSession, loadWorkspace } from "@/lib/jobs/server";
+import { getPortalSession, loadWorkspace, syncAgentRecords } from "@/lib/jobs/server";
 export const dynamic = "force-dynamic";
 export default async function AdminPage() {
   const session = await getPortalSession();
@@ -53,5 +53,7 @@ export default async function AdminPage() {
       </main>
     );
   if (!session.authenticated) redirect("/admin/login");
+  // A failed sync must never block the workspace; it retries on the next visit.
+  await syncAgentRecords().catch(() => undefined);
   return <JobPortal initial={await loadWorkspace()} />;
 }

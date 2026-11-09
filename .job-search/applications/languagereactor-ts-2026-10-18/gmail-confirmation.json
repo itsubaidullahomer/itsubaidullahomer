@@ -1,0 +1,25 @@
+{
+  "messageId": "1a14ca4520b87c5a",
+  "threadId": "1a14ca4520b87c5a",
+  "labels": [
+    "SENT"
+  ],
+  "from": "itsubaidullahomer@gmail.com",
+  "to": "dioco@dioco.io",
+  "subject": "Coding partner for Language Reactor \u2014 Ubaidullah Omer (via HN)",
+  "company": "Language Reactor (Dioco)",
+  "role": "Coding partner (TypeScript), remote",
+  "sourceUrl": "https://news.ycombinator.com/item?id=46881503",
+  "attachment": {
+    "filename": "Ubaidullah-Omer-Product-Engineer.pdf",
+    "bytes": 5710,
+    "sha256": "b35399b4b5ae223d28fca9fdfd15c3da503cf4038e425d3ce2118058b93e2cdf",
+    "source": "output/pdf/ubaidullah-omer-languagereactor-ts-2026-10-18-v1-ats.pdf"
+  },
+  "route": "Founder email published in HN February 2026 post (may be stale).",
+  "delivery": "Gmail SENT; bounce check pending",
+  "acknowledgement": "none yet",
+  "nextAction": "Follow up 2026-10-25 if no reply",
+  "actor": "agent",
+  "recordedAt": "2026-10-18"
+}
