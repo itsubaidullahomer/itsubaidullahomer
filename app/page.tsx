@@ -20,7 +20,6 @@ import {
 import { Process } from "@/components/process";
 import { SelectedWork } from "@/components/work";
 import { experience } from "@/content/site";
-import { readConfig } from "@/lib/chatgpt/security";
 export const metadata: Metadata = { alternates: { canonical: "/" } };
 export default function Home() {
   return (
@@ -47,7 +46,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <HeroStage available={Boolean(readConfig(process.env))} />
+        <HeroStage />
       </Section>
       <LogoStrip />
       <Section id="work">

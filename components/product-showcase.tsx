@@ -2,25 +2,20 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import * as Tabs from "@radix-ui/react-tabs";
 import * as Dialog from "@radix-ui/react-dialog";
 import {
   ArrowLeft,
   ArrowRight,
-  ArrowUpRight,
   Expand,
   X,
   ZoomIn,
   ZoomOut,
 } from "lucide-react";
 import {
-  productShowcases,
   type ProductShowcaseContent,
   type ProductView,
 } from "@/content/product-showcases";
-import { Spotlight } from "./motion";
-import { Status } from "./layout-parts";
 import { MobileCardDetails } from "./mobile-card-details";
 import { ScreenshotViewport } from "./screenshot-viewport";
 
@@ -244,53 +239,5 @@ export function ProductShowcase({
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
-  );
-}
-
-export function ProductStoryCard({ slug }: { slug: string }) {
-  const content = productShowcases[slug];
-  return (
-    <Spotlight className="product-story-card" id={`project-${slug}`}>
-      <div className="product-story-heading">
-        <div className="product-story-brand">
-          <Link href={`/work/${slug}`}>
-            {content.name}
-            <ArrowUpRight size={15} />
-          </Link>
-          <Status status="Live" />
-        </div>
-        <span className="product-story-category">{content.category}</span>
-        <h3>{content.headline}</h3>
-        <MobileCardDetails label="Project details & my role">
-          <p className="product-story-description">{content.summary}</p>
-          <dl
-            className="product-story-facts"
-            aria-label={`${content.name} project scope`}
-          >
-            {content.facts.map((fact) => (
-              <div key={fact.label}>
-                <dt>{fact.label}</dt>
-                <dd>{fact.value}</dd>
-              </div>
-            ))}
-          </dl>
-          <div className="product-story-contribution">
-            <span className="product-story-role">{content.role}</span>
-            <ul className="product-story-foundations">
-              {content.foundations.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        </MobileCardDetails>
-      </div>
-      <ProductShowcase content={content} />
-      <div className="product-story-footer">
-        <Link className="text-link" href={`/work/${slug}`}>
-          The decisions behind {content.name}
-          <ArrowUpRight size={15} />
-        </Link>
-      </div>
-    </Spotlight>
   );
 }

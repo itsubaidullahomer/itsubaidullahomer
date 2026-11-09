@@ -2,7 +2,6 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
 import dynamic from "next/dynamic";
 import { ScrollReveals } from "./scroll-reveals";
-import { useRouter } from "next/navigation";
 import { MotionConfig } from "motion/react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { X, ArrowUpRight, Copy, Check } from "lucide-react";
@@ -12,28 +11,14 @@ const CalBooking = dynamic(() => import("./booking"), {
   ssr: false,
   loading: () => <p className="loading-copy">Opening the calendar…</p>,
 });
-const ContactContext = createContext({ book: () => {}, talk: () => {} });
+const ContactContext = createContext({ book: () => {} });
 export const useContact = () => useContext(ContactContext);
 export function Providers({ children }: { children: ReactNode }) {
   const [booking, setBooking] = useState(false);
-  const router = useRouter();
-  function talk() {
-    if (location.pathname !== "/") {
-      router.push("/?talk=1#avatar");
-      return;
-    }
-    document.getElementById("avatar")?.scrollIntoView({
-      behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
-        ? "instant"
-        : "smooth",
-      block: "center",
-    });
-    window.dispatchEvent(new Event("avatar:start"));
-  }
   return (
     <MotionConfig reducedMotion="user">
       <ScrollReveals />
-      <ContactContext.Provider value={{ book: () => setBooking(true), talk }}>
+      <ContactContext.Provider value={{ book: () => setBooking(true) }}>
         {children}
         <Dialog.Root open={booking} onOpenChange={setBooking}>
           <Dialog.Portal>
@@ -82,20 +67,6 @@ export function BookButton({
   const { book } = useContact();
   return (
     <Button variant={variant} className={className} onClick={book}>
-      {children}
-    </Button>
-  );
-}
-export function TalkButton({
-  children = "Ask the AI me",
-  variant = "primary",
-}: {
-  children?: ReactNode;
-  variant?: "primary" | "secondary" | "ghost";
-}) {
-  const { talk } = useContact();
-  return (
-    <Button variant={variant} onClick={talk} data-ai-trigger>
       {children}
     </Button>
   );

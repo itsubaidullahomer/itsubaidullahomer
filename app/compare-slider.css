@@ -238,41 +238,9 @@
 .compare-instructions > span:first-child {
   color: #71695d;
 }
-.compare-improvements {
-  list-style: none;
-  padding: 0;
-  margin: 24px 0 0;
-  display: grid;
-  gap: 10px;
-}
-.compare-improvements li {
-  font-size: 12px;
-  line-height: 1.6;
-  color: #706a60;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.compare-improvements li::before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  flex-shrink: 0;
-  border: 1px solid #c19a57;
-  background: #f6ead4;
-  border-radius: 2px;
-  box-shadow: 0 1px 0 #ddc69f;
-}
 .case-hero .compare-stage {
   border: 1px solid #e5e0d7;
   border-radius: 24px;
-}
-.compare-card .compare-stage {
-  padding: 20px 24px;
-  gap: 12px;
-}
-.compare-card .compare-device {
-  width: min(210px, 100%);
 }
 @media (max-width: 800px) {
   .compare-stage {
@@ -286,10 +254,6 @@
   .compare-stage {
     padding: 25px 24px 23px;
     gap: 17px;
-  }
-  .compare-improvements {
-    margin-top: 20px;
-    gap: 8px;
   }
   .compare-heading {
     width: min(260px, 100%);

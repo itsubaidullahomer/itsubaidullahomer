@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { Avatar } from "./avatar";
+import { site } from "@/content/site";
 
 const projects = [
   {
@@ -57,10 +57,32 @@ function ProjectSurface({
   );
 }
 
-export function HeroStage({ available }: { available: boolean }) {
+function Portrait() {
+  return (
+    <figure className="avatar-device hero-portrait">
+      <div className="hero-portrait-photo">
+        <Image
+          src="/images/ubaid-portrait.jpg"
+          alt={site.name}
+          fill
+          sizes="(max-width: 540px) 90vw, 365px"
+          priority
+        />
+      </div>
+      <figcaption>
+        <strong>{site.name}</strong>
+        <span>
+          {site.role} · {site.location}
+        </span>
+      </figcaption>
+    </figure>
+  );
+}
+
+export function HeroStage() {
   return (
     <div className="hero-stage">
-      <Avatar available={available} />
+      <Portrait />
       {projects.map((project) => (
         <Link
           key={project.id}

@@ -8,6 +8,8 @@ export type Project = {
   image: string;
   url: string;
   stack: string[];
+  /** Set when `image` is a phone-width capture, so cards frame it as a phone. */
+  device?: "phone";
 };
 export const projects: Project[] = [
   {
@@ -92,6 +94,7 @@ export const projects: Project[] = [
     image: "/images/ali-foodies/compare/after-home.jpg",
     url: "https://alifoodies.com",
     stack: [],
+    device: "phone",
   },
   {
     slug: "jurri",

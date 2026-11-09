@@ -2,14 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import * as Dialog from "@radix-ui/react-dialog";
-import { ArrowUpRight, ArrowRight, Expand, X } from "lucide-react";
+import { ArrowUpRight, Expand, X } from "lucide-react";
 import { projects, type Project } from "@/content/projects";
 import { Spotlight } from "./motion";
 import { Status } from "./layout-parts";
-import { CompareSlider } from "./compare-slider";
-import { TututorShowcase, TututorImpact } from "./tututor-showcase";
-import { ProductStoryCard } from "./product-showcase";
-import { MobileCardDetails } from "./mobile-card-details";
 export { TututorShowcase } from "./tututor-showcase";
 
 export function ProjectCard({ project: p }: { project: Project }) {
@@ -17,7 +13,9 @@ export function ProjectCard({ project: p }: { project: Project }) {
     <Spotlight id={`project-${p.slug}`}>
       <Link href={`/work/${p.slug}`} aria-label={`View ${p.name} case study`}>
         <div className="project-visual">
-          <div className="image-frame">
+          <div
+            className={`image-frame${p.device === "phone" ? " is-phone" : ""}`}
+          >
             <Image
               src={p.image}
               alt={`${p.name} product screenshot`}
@@ -34,11 +32,13 @@ export function ProjectCard({ project: p }: { project: Project }) {
             <Link href={`/work/${p.slug}`}>{p.name}</Link>
           </h3>
           <p>{p.description}</p>
-          <div className="work-tags">
-            {p.stack.slice(0, 3).map((s) => (
-              <span key={s}>{s}</span>
-            ))}
-          </div>
+          {p.stack.length > 0 && (
+            <div className="work-tags">
+              {p.stack.slice(0, 3).map((s) => (
+                <span key={s}>{s}</span>
+              ))}
+            </div>
+          )}
         </div>
         <Link
           href={`/work/${p.slug}`}
@@ -53,77 +53,11 @@ export function ProjectCard({ project: p }: { project: Project }) {
 }
 export function SelectedWork() {
   return (
-    <>
-      <Spotlight className="work-feature" id="project-tututor">
-        <div className="work-card-copy tututor-feature-heading">
-          <div>
-            <div className="tututor-feature-kicker">
-              <span>Tututor.ai / Featured project</span>
-              <Status status="Live" />
-            </div>
-            <h3>
-              <Link href="/work/tututor">
-                A small tool. Then a whole school platform.
-              </Link>
-            </h3>
-            <MobileCardDetails label="Project details & impact">
-              <p>
-                As Tututor grew, I built a shared backend for eight products and
-                brought AI into the document editor, where teachers could use it
-                in their work. Those decisions helped a small teaching tool grow
-                into a platform for 20k+ students, teachers and families.
-              </p>
-              <div className="work-tags">
-                <span>Lead engineer</span>
-                <span>AI + web + mobile</span>
-                <span>2023 — present</span>
-              </div>
-              <div className="tututor-context-impact">
-                <TututorImpact />
-              </div>
-            </MobileCardDetails>
-          </div>
-          <div className="tututor-feature-aside">
-            <Link href="/work/tututor" className="text-link">
-              The full story <ArrowUpRight size={16} />
-            </Link>
-          </div>
-        </div>
-        <TututorShowcase />
-      </Spotlight>
-      <div className="product-story-grid">
-        {projects.slice(1, 3).map((p) => (
-          <ProductStoryCard key={p.slug} slug={p.slug} />
-        ))}
-      </div>
-      <Spotlight className="compare-card" id="project-ali-foodies">
-        <div className="work-card-copy">
-          <Status status="Building" />
-          <h3>
-            Ali Foodies.
-            <br />
-            Made for the phone.
-          </h3>
-          <MobileCardDetails label="The thinking behind the rebuild">
-            <p>
-              Ali Foodies is a small, straightforward website rebuild. I
-              included it here because the care is in the decisions:
-              understanding what customers need, designing a clearer experience,
-              and building every detail to support it.
-            </p>
-            <ul className="compare-improvements">
-              <li>Ordering, front and center.</li>
-              <li>A menu made for thumbs.</li>
-              <li>Hours and location in easy reach.</li>
-            </ul>
-          </MobileCardDetails>
-          <Link href="/work/ali-foodies" className="text-link">
-            Explore the redesign <ArrowRight size={15} />
-          </Link>
-        </div>
-        <CompareSlider />
-      </Spotlight>
-    </>
+    <div className="work-grid">
+      {projects.slice(0, 4).map((p) => (
+        <ProjectCard key={p.slug} project={p} />
+      ))}
+    </div>
   );
 }
 export function ImageZoom({ src, alt }: { src: string; alt: string }) {
