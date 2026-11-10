@@ -599,6 +599,31 @@
    "company": "Contour Software",
    "title": "Senior Full Stack Developer",
    "reason": "Karachi; AI-DLC with AI-generated code as daily practice (unconfirmed); LinkedIn apply only"
+  },
+  {
+   "company": "BuildQ",
+   "title": "Founding Engineer",
+   "reason": "US-style employment (401k), PT-ET overlap; Rails/Python backend (unconfirmed). HN Nov 2026"
+  },
+  {
+   "company": "Kaida",
+   "title": "Contributors & founding team members",
+   "reason": "Contributor/equity call, not a paid role. HN Nov 2026"
+  },
+  {
+   "company": "Stream",
+   "title": "Staff Engineer, Video",
+   "reason": "Go media plane, staff level; Amsterdam hybrid or EU remote. HN Nov 2026"
+  },
+  {
+   "company": "Proofline",
+   "title": "Founding Staff / Principal Engineer",
+   "reason": "Staff/principal level. HN Nov 2026"
+  },
+  {
+   "company": "ALBERT",
+   "title": "New grads / Principal engineers",
+   "reason": "New grads (max 2 years out of school) or principal track only. HN Nov 2026"
   }
  ],
  "checkIns": [
@@ -712,6 +737,10 @@
   {
    "at": "2026-10-26T13:15Z",
    "summary": "No employer replies or bounces since 10:00 UTC. Himalayas 1 new, feeds 5 new, LinkedIn 16 new, HN Oct thread 263 live. No fit; 3 screen-outs logged."
+  },
+  {
+   "at": "2026-11-10T04:02Z",
+   "summary": "Check-ins resumed after delayed triggers (Oct 27 run reached the session on Nov 9). No employer replies or bounces Oct 26 to Nov 10; owner sent no applications. HN November 2026 thread (218 live posts): 56 remote stack posts, 23 with emails, none eligible (US/EU-only, staff/principal, Rails/Python/Go, equity-only). 5 screen-outs logged."
   }
  ],
  "emailApplications": [
