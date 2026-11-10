@@ -624,6 +624,31 @@
    "company": "ALBERT",
    "title": "New grads / Principal engineers",
    "reason": "New grads (max 2 years out of school) or principal track only. HN Nov 2026"
+  },
+  {
+   "company": "One Tech Capital",
+   "title": "Senior Backend Engineer (Node.js / TypeScript)",
+   "reason": "Prisma and 4+ years backend non-negotiable (unconfirmed); immediate joiners only; Himalayas form"
+  },
+  {
+   "company": "Vaero",
+   "title": "Full Stack Developer",
+   "reason": "3+ years Ruby on Rails required; India and Central/South America only"
+  },
+  {
+   "company": "Hivex",
+   "title": "FullStack / Frontend / React Native roles",
+   "reason": "Nest.js required for full-stack (unconfirmed); outstaffing agency, Himalayas form only, no published email"
+  },
+  {
+   "company": "Startale",
+   "title": "Senior Frontend Engineer",
+   "reason": "Web3/blockchain frontend; Himalayas form only"
+  },
+  {
+   "company": "Eastwood & Cleef, LLC",
+   "title": "Frontend Software Development Engineer",
+   "reason": "Vue.js (unconfirmed)"
   }
  ],
  "checkIns": [
@@ -741,6 +766,10 @@
   {
    "at": "2026-11-10T04:02Z",
    "summary": "Check-ins resumed after delayed triggers (Oct 27 run reached the session on Nov 9). No employer replies or bounces Oct 26 to Nov 10; owner sent no applications. HN November 2026 thread (218 live posts): 56 remote stack posts, 23 with emails, none eligible (US/EU-only, staff/principal, Rails/Python/Go, equity-only). 5 screen-outs logged."
+  },
+  {
+   "at": "2026-11-10T04:03Z",
+   "summary": "Himalayas sweep (tool recreated after container reset): 550 jobs, 16 stack matches; none with a published email or a confirmed-facts fit. 5 screen-outs logged."
   }
  ],
  "emailApplications": [
