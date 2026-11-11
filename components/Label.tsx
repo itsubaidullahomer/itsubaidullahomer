@@ -11,7 +11,7 @@ export function Label() {
   return (
     <header className="hero">
       <nav className="top wrap" aria-label="Main">
-        <a className="top__name" href="#main">
+        <a className="top__name" href="#">
           <Box />
           <span>
             <b>{site.name}</b> / {site.role}

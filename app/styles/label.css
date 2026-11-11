@@ -52,9 +52,10 @@
   transform: scaleX(1);
 }
 .hero__stage {
+  position: relative;
   flex: 1;
   display: grid;
-  padding-bottom: clamp(30px, 4vw, 52px);
+  padding-bottom: clamp(22px, 3.4svh, 44px);
 }
 
 .lbl {
@@ -119,7 +120,7 @@
   width: 1.05em;
   background: var(--ink);
   color: var(--paper);
-  font-size: clamp(5rem, 8.4vw, 7.6rem);
+  font-size: clamp(4.4rem, min(8.4vw, 12.5svh), 7.6rem);
   line-height: 1;
 }
 .lbl-service__name {
@@ -147,7 +148,7 @@
 }
 .lbl-contents h1 {
   margin-top: 10px;
-  font-size: clamp(4.4rem, min(22.4cqi, 19.4svh), 15.5rem);
+  font-size: clamp(4.4rem, min(22.4cqi, 18.2svh), 15.5rem);
 }
 .lbl-sub {
   max-width: 44em;
@@ -241,7 +242,7 @@
 }
 .lbl-barcode svg {
   width: 100%;
-  height: clamp(40px, 5.4vw, 66px);
+  height: clamp(36px, min(5.4vw, 6.6svh), 66px);
 }
 .lbl-barcode > span {
   display: flex;
@@ -267,7 +268,7 @@
   text-decoration: none;
 }
 .lbl-qr svg {
-  width: clamp(62px, 6.6vw, 88px);
+  width: clamp(56px, min(6.6vw, 9svh), 88px);
   transition: transform 0.25s var(--ease-out);
 }
 .lbl-qr:hover svg {
@@ -287,6 +288,19 @@
   .lbl {
     animation: print 1s steps(26, end) both;
   }
+  /* the print head: a dark bar that rides the edge of the paper as it comes out */
+  .hero__stage::after {
+    content: "";
+    position: absolute;
+    inset: 0 calc(var(--gutter) - 10px) auto;
+    z-index: 2;
+    height: 12px;
+    border-radius: 3px;
+    background: var(--ink);
+    box-shadow: 0 6px 14px -4px #000a;
+    pointer-events: none;
+    animation: head 1.25s steps(26, end) both;
+  }
   .lbl-stamp {
     animation: thud 0.32s var(--ease-thud) 1.05s both;
   }
@@ -300,6 +314,19 @@
   }
   to {
     clip-path: inset(-80px -80px -80px -80px round 12px);
+  }
+}
+@keyframes head {
+  from {
+    top: 0;
+  }
+  80% {
+    top: calc(100% - clamp(22px, 3.4svh, 44px) - 6px);
+    opacity: 1;
+  }
+  to {
+    top: calc(100% - clamp(22px, 3.4svh, 44px) - 6px);
+    opacity: 0;
   }
 }
 @keyframes thud {
@@ -386,25 +413,69 @@
   }
 }
 @media (max-width: 520px) {
+  .top {
+    padding-block: 14px 10px;
+  }
   .lbl-from,
   .lbl-to {
     font-size: 12.5px;
   }
+  .lbl-from > span:nth-of-type(2),
+  .lbl-service,
+  .lbl-proof,
+  .lbl-marks,
+  .lbl-qr {
+    display: none;
+  }
+  .lbl-contents {
+    padding-block: 14px 16px;
+  }
+  .lbl-contents h1 {
+    margin-top: 6px;
+    font-size: clamp(3.6rem, min(25cqi, 13svh), 11rem);
+  }
+  .lbl-sub {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  .lbl-cta {
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .lbl-cta .btn {
+    min-height: 46px;
+    padding-inline: 13px;
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+  }
   .lbl-stamp {
-    position: static;
-    align-self: flex-start;
-    margin-top: 22px;
-    transform: rotate(-4deg);
+    top: 10px;
+    right: 3cqi;
+    bottom: auto;
+    font-size: clamp(1.9rem, 10cqi, 3rem);
+    transform: rotate(8deg);
+  }
+  .lbl-metrics > div {
+    border-bottom: 0;
+  }
+  .lbl-barcode {
+    border-bottom: 0;
   }
   .lbl-note {
     font-size: 9.5px;
   }
   .lbl-sticker {
     left: auto;
-    right: 12px;
-    bottom: auto;
-    top: -0.75em;
-    transform: rotate(3deg);
+    right: 10px;
+    bottom: -0.62em;
+    font-size: 1.05rem;
+    transform: rotate(-3deg);
+  }
+  .lbl-metrics .field {
+    font-size: 9.5px;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
   }
   .top__name span {
     font-size: 0;

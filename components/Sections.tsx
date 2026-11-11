@@ -280,7 +280,7 @@ export function Footer() {
         <p className="mono foot__legal">
           © {site.name}. Designed and built by me. No box was harmed: it&rsquo;s all CSS.
         </p>
-        <a className="mono foot__top" href="#main">
+        <a className="mono foot__top" href="#">
           Return to sender ↑
         </a>
       </div>

@@ -50,7 +50,7 @@ export function Sender() {
         </div>
 
         <div className="sender__copy">
-          <p className="kicker">01 — The sender</p>
+          <p className="kicker">02 — The sender</p>
           <h2 className="display h2" id="sender-title">
             One developer.
             <br />

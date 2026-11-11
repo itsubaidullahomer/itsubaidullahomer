@@ -126,7 +126,7 @@ export function Parcels() {
     <section className="sec sec--kraft parcels" aria-labelledby="parcels-title">
       <div className="wrap">
         <header className="parcels__head">
-          <p className="kicker">02 — The paperwork</p>
+          <p className="kicker">01 — The paperwork</p>
           <h2 className="display h2" id="parcels-title">
             Three delivered.
             <br />

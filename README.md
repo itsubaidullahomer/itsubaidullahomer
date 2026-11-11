@@ -3,7 +3,7 @@
 The creative portfolio of Ubaidullah Omer, a web developer. The whole site is one idea: a shipping label on a cardboard box. It is meant for `creative.itsubaidullahomer.com`; the full case studies stay on [itsubaidullahomer.com](https://itsubaidullahomer.com).
 
 - The hero is a shipping label. Its weight, delivery time and dimensions are measured by the visitor's own browser (the Performance API), the tracking number is the commit that was deployed, the barcode is real Code 128 and the QR code really starts an email.
-- "What's in the box?" is a cardboard box built from CSS planes. Scrolling sets one number, `--p`, and the stylesheet opens the flaps and lifts the four projects out.
+- The label is the front of a cardboard box built from CSS planes. Scrolling pulls the camera back until the box shows, cuts the tape, lifts the four projects out and finally drops into the empty box, whose floor becomes the next section. No 3D or animation library.
 - Projects are parcels with delivery slips, the career is a tracking history, the promises are handling marks, contact is a pickup request.
 
 ## Run it
@@ -24,7 +24,7 @@ Next.js 16 (App Router), React 19, TypeScript, plain CSS. No UI library, no anim
 | Any text, project, job, FAQ or link | `content/site.ts` |
 | Colours, type, buttons, stamps, tape | `app/globals.css` |
 | The hero label | `components/Label.tsx`, `app/styles/label.css` |
-| The 3D box | `components/Unbox.tsx`, `app/styles/unbox.css` |
+| The opening shot and the 3D box | `components/Voyage.tsx`, `app/styles/voyage.css` |
 | Project slips and the archive | `components/Parcels.tsx`, `app/styles/parcels.css` |
 | Tracking, handling, services, FAQ, contact, footer | `components/Sections.tsx`, `app/styles/sections.css` |
 | Screenshots | `public/work/` (`scripts/prep-images.mjs` crops them from the main portfolio) |

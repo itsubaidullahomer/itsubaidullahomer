@@ -1,0 +1,581 @@
+/* The opening shot: the label is the front of a cardboard box. Scroll pulls back, opens it, drops in.
+   Three numbers come from the script: --q (pulled back), --b (opened and unpacked), --d (dropped in). */
+.voy {
+  --q: 0;
+  --b: 0;
+  --d: 0;
+  --k: 1;
+  --ar: 0.62;
+  --cs: 1.12;
+  --dz: 0px;
+  position: relative;
+  /* one screen, plus the label's overflow, plus five screens of scroll for the shot,
+     plus a little more while the next section slides up over the bottom of the box */
+  height: calc(655svh + var(--over, 0px));
+  background: var(--ink);
+}
+.voy__stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: clip;
+  perspective: 1500px;
+  perspective-origin: 50% 36%;
+  background:
+    radial-gradient(ellipse 70% 46% at 50% 88%, #3a2d1f 0%, #0000 70%),
+    repeating-linear-gradient(90deg, #ffffff07 0 1px, #0000 1px 88px),
+    var(--ink);
+  color: var(--paper);
+}
+.voy__anchor {
+  position: absolute;
+  left: 0;
+  top: calc(var(--over, 0px) + 124svh);
+}
+
+/* ------------------------------------------------------------------ the box */
+.vbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  transform-style: preserve-3d;
+  color: var(--ink);
+}
+.vbox__face {
+  position: relative;
+  backface-visibility: hidden;
+  transform: translateZ(var(--dz));
+}
+/* Before the first scroll nothing is in 3D: the label is an ordinary, sharp page. */
+.voy[data-flat="1"] .vbox__face {
+  transform: none;
+}
+.voy[data-flat="1"] .rig {
+  visibility: hidden;
+}
+
+/* Everything but the front: a small box, scaled up to meet the label. */
+.rig {
+  --W: min(23vw, 390px, calc(78svh / (var(--ar) + 1.29)));
+  --H: calc(var(--W) * var(--ar));
+  --D: calc(var(--W) * 0.68);
+  /* 0 → 1 as the long flaps, then the short ones, swing open */
+  --o1: clamp(0, calc((var(--b) - 0.05) / 0.16), 1);
+  --o2: clamp(0, calc((var(--b) - 0.11) / 0.15), 1);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--W);
+  height: var(--H);
+  margin: calc(var(--H) / -2) 0 0 calc(var(--W) / -2);
+  transform-style: preserve-3d;
+  transform: scale3d(var(--k), var(--k), var(--k));
+  color: var(--paper);
+}
+/* Tall screens: the box lies on its side, so the label ends up sideways and the box stays wide. */
+.voy[data-roll="1"] .rig {
+  --W: min(56vw, calc(80svh / (var(--ar) + 2.38)));
+  transform: rotateZ(90deg) scale3d(var(--k), var(--k), var(--k));
+}
+.wall,
+.flap {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+.wall > i,
+.flap > i {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  font-style: normal;
+}
+.rig .out {
+  background-color: var(--kraft);
+  background-image: var(--grain), var(--fibre);
+  box-shadow: inset 0 0 0 1.5px #5a40224d;
+  color: #2a1c0d;
+}
+.rig .in {
+  transform: rotateY(180deg);
+  background: linear-gradient(#8a673f, #5d4325);
+  box-shadow: inset 0 0 0 1.5px #0003;
+}
+.wall--front {
+  inset: 0;
+  transform: translateZ(calc(var(--D) / 2));
+}
+.wall--back {
+  inset: 0;
+  transform: rotateY(180deg) translateZ(calc(var(--D) / 2));
+}
+.wall--left,
+.wall--right {
+  top: 0;
+  left: calc(50% - var(--D) / 2);
+  width: var(--D);
+  height: 100%;
+}
+.wall--left {
+  transform: rotateY(-90deg) translateZ(calc(var(--W) / 2));
+}
+.wall--right {
+  transform: rotateY(90deg) translateZ(calc(var(--W) / 2));
+}
+.wall--left .out,
+.wall--right .out {
+  background-color: var(--kraft-shade);
+}
+.wall--floor {
+  left: 0;
+  top: calc(50% - var(--D) / 2);
+  width: 100%;
+  height: var(--D);
+  transform: rotateX(-90deg) translateZ(calc(var(--H) / 2));
+}
+/* The floor is the cardboard the next section is printed on. */
+.rig .wall--floor .in {
+  display: grid;
+  place-items: center;
+  background-color: var(--kraft);
+  background-image: radial-gradient(closest-side, #0000 40%, #3b291466 100%);
+}
+.rig__note {
+  display: grid;
+  justify-items: center;
+  gap: calc(var(--W) * 0.02);
+  color: #2a1c0dcc;
+  transform: rotate(180deg);
+}
+.rig__note b {
+  font-size: calc(var(--W) * 0.105);
+  line-height: 0.9;
+  white-space: nowrap;
+}
+/* On its side, the box is turned back upright as the camera drops in, so the note is printed across it. */
+.voy[data-roll="1"] .rig__note {
+  transform: rotate(90deg);
+}
+.voy[data-roll="1"] .rig__note b {
+  font-size: calc(var(--W) * 0.074);
+}
+.voy[data-roll="1"] .rig__note .mono {
+  font-size: calc(var(--W) * 0.021);
+}
+.rig__note .mono {
+  font-size: calc(var(--W) * 0.026);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.rig__shadow {
+  position: absolute;
+  left: -30%;
+  top: calc(50% - var(--D));
+  width: 160%;
+  height: calc(var(--D) * 2);
+  background: radial-gradient(closest-side, #000c 30%, #0000 100%);
+  transform: rotateX(-90deg) translateZ(calc(var(--H) / 2 + 2px));
+  opacity: calc(1 - var(--d) * 4);
+}
+
+/* Flaps hinge on the top edges. Long ones close last, so they sit on top. */
+.flap {
+  bottom: 100%;
+  height: calc(var(--D) / 2);
+  transform-origin: 50% 100%;
+}
+.flap--front,
+.flap--back {
+  left: 0;
+  width: 100%;
+}
+.flap--left,
+.flap--right {
+  left: calc(50% - var(--D) / 2);
+  width: var(--D);
+}
+.flap--front {
+  transform: translateZ(calc(var(--D) / 2)) rotateX(calc(90deg - var(--o1) * 181deg));
+}
+.flap--back {
+  transform: rotateY(180deg) translateZ(calc(var(--D) / 2)) rotateX(calc(90deg - var(--o1) * 150deg));
+}
+.flap--left {
+  transform: rotateY(-90deg) translateZ(calc(var(--W) / 2)) rotateX(calc(92deg - var(--o2) * 205deg));
+}
+.flap--right {
+  transform: rotateY(90deg) translateZ(calc(var(--W) / 2)) rotateX(calc(92deg - var(--o2) * 205deg));
+}
+.rig .flap .in {
+  background: linear-gradient(#a98455, #8c6a41);
+}
+/* The tape runs along the seam and a little way down each side. */
+.flap--front .out::after,
+.flap--back .out::after,
+.wall--left .out::after,
+.wall--right .out::after {
+  content: "";
+  position: absolute;
+  background:
+    repeating-linear-gradient(90deg, #0000 0 22px, #15120f26 22px 24px),
+    var(--blaze);
+}
+.flap--front .out::after,
+.flap--back .out::after {
+  inset: 0 0 auto 0;
+  height: 13%;
+}
+.wall--left .out::after,
+.wall--right .out::after {
+  left: calc(50% - var(--D) * 0.0433);
+  top: 0;
+  width: calc(var(--D) * 0.0866);
+  height: 30%;
+}
+.wall--left .out,
+.wall--right .out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6%;
+  padding-bottom: 9%;
+}
+.wall--left svg,
+.wall--right svg {
+  width: 26%;
+  opacity: 0.85;
+}
+.wall--left b,
+.wall--right b {
+  font-size: calc(var(--W) * 0.07);
+  line-height: 1;
+  opacity: 0.85;
+}
+
+/* --------------------------------------------------------------- the cards */
+.card {
+  /* local progress of this card: 0 in the box, 1 unpacked */
+  --t: clamp(0, calc((var(--b) - var(--s)) / 0.24), 1);
+  --up: clamp(0, calc(var(--t) / 0.48), 1);
+  --out: clamp(0, calc((var(--t) - 0.4) / 0.6), 1);
+  --clear: calc(var(--H) * -1.08);
+  /* Drawn at twice its size and scaled back down, so screenshots and type stay sharp on dense screens. */
+  --n: 2;
+  position: absolute;
+  left: 50%;
+  bottom: 4%;
+  /* The label hangs off the corner of the frame. The padding keeps it inside this element's own box:
+     browsers cut off anything that overflows a plane once they have to sort it against the box walls. */
+  box-sizing: content-box;
+  width: calc(min(86%, var(--H) * 1.37) * var(--n));
+  padding: 0 0 calc(12px * var(--n)) calc(10px * var(--n));
+  margin-bottom: calc(-12px * var(--n));
+  transform-origin: 50% 100%;
+  color: var(--ink);
+  text-decoration: none;
+  /* as the camera drops into the box, the cards lift away past it */
+  opacity: calc(1 - var(--d) * 3.4);
+  transform: translate3d(
+      calc(-50% + var(--x) * var(--out)),
+      calc(var(--clear) * var(--up) + (var(--y) - var(--clear)) * var(--out) - var(--d) * var(--W) * 1.4),
+      calc(var(--z) * (1 - var(--out)) + var(--zo) * var(--out))
+    )
+    rotate(calc(var(--r) * var(--out))) scale(calc((1 + (var(--cs) - 1) * var(--out)) / var(--n)));
+}
+.card__frame {
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 16 / 10.2;
+  border: calc(2px * var(--n)) solid var(--ink);
+  border-radius: calc(7px * var(--n));
+  background: var(--paper);
+  overflow: hidden;
+  box-shadow: 0 calc(var(--out) * 16px) calc(var(--out) * 32px) calc(var(--out) * -16px) #000b;
+}
+.card:nth-of-type(1) {
+  --s: 0.26;
+  --zo: 5px;
+  --z: calc(var(--D) * -0.27);
+  --x: calc(var(--W) * -1.2);
+  --y: calc(var(--H) * -1 - var(--W) * 0.155);
+  --r: -8deg;
+}
+.card:nth-of-type(2) {
+  --s: 0.41;
+  --zo: 10px;
+  --z: calc(var(--D) * -0.09);
+  --x: calc(var(--W) * -0.47);
+  --y: calc(var(--H) * -1 - var(--W) * 0.69);
+  --r: -3deg;
+}
+.card:nth-of-type(3) {
+  --s: 0.56;
+  --zo: 15px;
+  --z: calc(var(--D) * 0.09);
+  --x: calc(var(--W) * 0.47);
+  --y: calc(var(--H) * -1 - var(--W) * 0.69);
+  --r: 3deg;
+}
+.card:nth-of-type(4) {
+  --s: 0.71;
+  --zo: 20px;
+  --z: calc(var(--D) * 0.27);
+  --x: calc(var(--W) * 1.2);
+  --y: calc(var(--H) * -1 - var(--W) * 0.155);
+  --r: 8deg;
+}
+.voy[data-roll="1"] .card:nth-of-type(1) {
+  --x: calc(var(--W) * -0.24);
+  --y: calc(var(--H) * -1 - var(--W) * 0.25);
+  --r: -5deg;
+}
+.voy[data-roll="1"] .card:nth-of-type(2) {
+  --x: calc(var(--W) * 0.24);
+  --y: calc(var(--H) * -1 - var(--W) * 0.71);
+  --r: 4deg;
+}
+.voy[data-roll="1"] .card:nth-of-type(3) {
+  --x: calc(var(--W) * -0.24);
+  --y: calc(var(--H) * -1 - var(--W) * 1.24);
+  --r: -4deg;
+}
+.voy[data-roll="1"] .card:nth-of-type(4) {
+  --x: calc(var(--W) * 0.24);
+  --y: calc(var(--H) * -1 - var(--W) * 1.77);
+  --r: 5deg;
+}
+/* Type on the cards is sized against the box, so it reads the same on any screen. */
+.card__bar {
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.55em 0.9em;
+  border-bottom: calc(2px * var(--n)) solid var(--ink);
+  background: var(--paper-shade);
+  font-size: calc(var(--W) * 0.03 / var(--cs) * var(--n));
+  letter-spacing: 0.08em;
+}
+.card__bar i {
+  width: 0.66em;
+  height: 0.66em;
+  border-radius: 50%;
+  background: var(--ink);
+}
+.card__bar i:first-child {
+  background: var(--blaze);
+}
+.card__bar .mono {
+  margin-left: 6px;
+  opacity: 0.7;
+}
+.card__shot {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  background: var(--paper-shade);
+}
+.card__shot img {
+  object-fit: cover;
+  object-position: 50% 0;
+}
+.card__tag {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.24em 0.5em 0.14em 0.3em;
+  background: var(--blaze);
+  color: var(--ink);
+  font-family: var(--font-display), sans-serif;
+  font-size: calc(var(--W) * 0.066 / var(--cs) * var(--n));
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: var(--out);
+  transform: rotate(-3deg);
+}
+.card__tag .mono {
+  padding: 0.24em 0.4em 0.16em;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 0.62em;
+  font-weight: 600;
+}
+.card:focus-visible {
+  outline: none;
+}
+.card:hover .card__frame,
+.card:focus-visible .card__frame {
+  border-color: var(--blaze);
+}
+
+/* ------------------------------------------------------------ stage chrome */
+.voy__hud {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  opacity: calc(clamp(0, calc((var(--q) - 0.86) * 8), 1) - var(--d) * 4);
+}
+.voy__kicker,
+.voy__count {
+  position: absolute;
+  top: clamp(20px, 3.4vw, 40px);
+}
+.voy__kicker {
+  left: var(--gutter);
+  color: var(--kraft-light);
+}
+.voy__count {
+  right: var(--gutter);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--kraft-light);
+}
+.voy__count > b {
+  margin-left: 8px;
+  padding: 3px 9px 2px;
+  background: var(--blaze);
+  color: var(--ink);
+  font-weight: 600;
+}
+.voy__title {
+  position: absolute;
+  inset: clamp(64px, 11svh, 120px) 0 auto 0;
+  z-index: 1;
+  text-align: center;
+  font-size: clamp(3.6rem, min(15vw, 24svh), 15rem);
+  color: var(--kraft);
+  pointer-events: none;
+  opacity: calc(clamp(0, calc((var(--q) - 0.72) * 4), 1) * (1 - var(--b) * 5.5));
+  transform: translateY(calc((1 - var(--q)) * 90px + var(--b) * -160px)) scale(calc(1 - var(--b) * 0.3));
+}
+.voy__steps {
+  position: absolute;
+  left: var(--gutter);
+  bottom: clamp(18px, 3.4vw, 40px);
+  display: flex;
+  gap: 8px;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.voy__steps li {
+  padding: 5px 10px 4px;
+  border: 1.5px solid #ffffff2e;
+  color: #ffffff73;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border-color 0.3s;
+}
+.voy[data-stage="sealed"] [data-step="sealed"],
+.voy[data-stage="opened"] [data-step="opened"],
+.voy[data-stage="unpacked"] [data-step="unpacked"] {
+  border-color: var(--blaze);
+  background: var(--blaze);
+  color: var(--ink);
+}
+.voy__hint {
+  position: absolute;
+  right: var(--gutter);
+  bottom: clamp(18px, 3.4vw, 40px);
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--kraft-light);
+}
+.voy__hint span {
+  grid-area: 1 / 1;
+  text-align: right;
+  transition: opacity 0.3s;
+}
+.voy__hint svg {
+  width: 16px;
+  height: 16px;
+}
+.voy__hint-b,
+.voy[data-stage="unpacked"] .voy__hint-a {
+  opacity: 0;
+}
+.voy[data-stage="unpacked"] .voy__hint-b {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .voy__hint svg {
+    animation: nudge 1.4s ease-in-out infinite;
+  }
+}
+@keyframes nudge {
+  50% {
+    transform: translateY(5px);
+  }
+}
+/* The last frames: the bottom of the box becomes the cardboard of the next section. */
+.voy__fade {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+  background-color: var(--kraft);
+  background-image: var(--grain), var(--fibre);
+  opacity: clamp(0, calc((var(--d) - 0.7) / 0.3), 1);
+}
+
+@media (max-width: 760px) {
+  .voy__steps li {
+    padding-inline: 7px;
+    font-size: 9.5px;
+  }
+  .voy__hint span,
+  .voy__count > span {
+    display: none;
+  }
+  .voy__title {
+    top: 13svh;
+    font-size: min(21vw, 17svh);
+  }
+}
+
+/* The paperwork is what is at the bottom of the box: it slides up over the last, all-cardboard frame. */
+@media (prefers-reduced-motion: no-preference) {
+  .voy + main > .parcels {
+    z-index: 3;
+    margin-top: -55svh;
+    padding-top: clamp(40px, 6vw, 88px);
+  }
+}
+
+/* No motion wanted: the label is a plain first screen and the page carries on below it. */
+@media (prefers-reduced-motion: reduce) {
+  .voy {
+    height: auto;
+  }
+  .voy__stage {
+    position: relative;
+    height: auto;
+  }
+  .vbox {
+    position: relative;
+  }
+  .rig,
+  .voy__hud,
+  .voy__title,
+  .voy__fade {
+    display: none;
+  }
+  .voy__anchor {
+    position: static;
+  }
+}
