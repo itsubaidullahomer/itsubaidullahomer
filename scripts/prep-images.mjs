@@ -5,8 +5,6 @@ const out = "public";
 const jobs = [
   // [source, target, resize width, crop height (from the top), format]
   ["images/tututor/showcase/tututor-catalog.jpg", "work/tututor.jpg", 1600, 757],
-  ["images/tututor/showcase/tututor-editor-ai.jpg", "work/tututor-editor.jpg", 1600, 750],
-  ["images/tututor/showcase/edunova-dashboard.jpg", "work/tututor-school.jpg", 1600, 760],
   ["images/tututor/mobile/familias-tareas.jpg", "work/tututor-mobile.jpg", 720, 1557],
   ["images/illume/showcase/dashboard.png", "work/illume.jpg", 1600, 1014],
   ["images/screens/viloi.jpg", "work/viloi.jpg", 1600, 1000],
