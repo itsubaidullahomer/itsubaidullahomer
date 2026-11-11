@@ -1,0 +1,528 @@
+/* The manifest: a cardboard box made of CSS planes. One number, --p, opens it. */
+.unbox {
+  --p: 0;
+  position: relative;
+  height: 430vh;
+  background: var(--ink);
+  color: var(--paper);
+}
+.unbox__stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse 70% 46% at 50% 88%, #3a2d1f 0%, #0000 70%),
+    repeating-linear-gradient(90deg, #ffffff07 0 1px, #0000 1px 88px),
+    var(--ink);
+}
+.unbox__kicker,
+.unbox__count {
+  position: absolute;
+  top: clamp(20px, 3.4vw, 40px);
+  z-index: 4;
+}
+.unbox__kicker {
+  left: var(--gutter);
+  color: var(--kraft-light);
+}
+.unbox__count {
+  right: var(--gutter);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--kraft-light);
+}
+.unbox__count > b {
+  margin-left: 8px;
+  padding: 3px 9px 2px;
+  background: var(--blaze);
+  color: var(--ink);
+  font-weight: 600;
+}
+.unbox__title {
+  position: absolute;
+  inset: clamp(64px, 11svh, 120px) 0 auto 0;
+  z-index: 1;
+  text-align: center;
+  font-size: clamp(3.6rem, min(15vw, 24svh), 15rem);
+  color: var(--kraft);
+  opacity: calc(1 - var(--p) * 5.5);
+  transform: translateY(calc(var(--p) * -160px)) scale(calc(1 - var(--p) * 0.3));
+}
+
+/* ------------------------------------------------------------ the 3D scene */
+.unbox__scene {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  perspective: 1500px;
+  perspective-origin: 50% 36%;
+}
+.box {
+  --W: min(23vw, 41svh, 390px);
+  --H: calc(var(--W) * 0.62);
+  --D: calc(var(--W) * 0.68);
+  /* 0 → 1 as the long flaps, then the short ones, swing open */
+  --o1: clamp(0, calc((var(--p) - 0.05) / 0.16), 1);
+  --o2: clamp(0, calc((var(--p) - 0.11) / 0.15), 1);
+  position: absolute;
+  left: 50%;
+  bottom: 15svh;
+  width: var(--W);
+  height: var(--H);
+  margin-left: calc(var(--W) / -2);
+  transform-style: preserve-3d;
+  transform: rotateX(calc(-27deg + var(--p) * 15deg)) rotateY(calc(-34deg + var(--p) * 30deg));
+}
+.wall,
+.flap {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+.wall > i,
+.flap > i {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  font-style: normal;
+}
+.box .out {
+  background-color: var(--kraft);
+  background-image: var(--grain), var(--fibre);
+  box-shadow: inset 0 0 0 1.5px #5a40224d;
+  color: #2a1c0d;
+}
+.box .in {
+  transform: rotateY(180deg);
+  background: linear-gradient(#7d5c38, #4a341d);
+  box-shadow: inset 0 0 0 1.5px #0003;
+}
+.wall--front {
+  inset: 0;
+  transform: translateZ(calc(var(--D) / 2));
+}
+.wall--back {
+  inset: 0;
+  transform: rotateY(180deg) translateZ(calc(var(--D) / 2));
+}
+.wall--left,
+.wall--right {
+  top: 0;
+  left: calc(50% - var(--D) / 2);
+  width: var(--D);
+  height: 100%;
+}
+.wall--left {
+  transform: rotateY(-90deg) translateZ(calc(var(--W) / 2));
+}
+.wall--right {
+  transform: rotateY(90deg) translateZ(calc(var(--W) / 2));
+}
+.wall--left .out,
+.wall--right .out {
+  background-color: var(--kraft-shade);
+}
+.wall--floor {
+  left: 0;
+  top: calc(50% - var(--D) / 2);
+  width: 100%;
+  height: var(--D);
+  transform: rotateX(-90deg) translateZ(calc(var(--H) / 2));
+}
+.wall--floor .in {
+  background: #3b2914;
+}
+.box__shadow {
+  position: absolute;
+  left: -30%;
+  top: calc(50% - var(--D));
+  width: 160%;
+  height: calc(var(--D) * 2);
+  background: radial-gradient(closest-side, #000c 30%, #0000 100%);
+  transform: rotateX(-90deg) translateZ(calc(var(--H) / 2 + 2px));
+}
+
+/* Flaps hinge on the top edges. Long ones close last, so they sit on top. */
+.flap {
+  bottom: 100%;
+  height: calc(var(--D) / 2);
+  transform-origin: 50% 100%;
+}
+.flap--front,
+.flap--back {
+  left: 0;
+  width: 100%;
+}
+.flap--left,
+.flap--right {
+  left: calc(50% - var(--D) / 2);
+  width: var(--D);
+}
+.flap--front {
+  transform: translateZ(calc(var(--D) / 2)) rotateX(calc(90deg - var(--o1) * 181deg));
+}
+.flap--back {
+  transform: rotateY(180deg) translateZ(calc(var(--D) / 2)) rotateX(calc(90deg - var(--o1) * 150deg));
+}
+.flap--left {
+  transform: rotateY(-90deg) translateZ(calc(var(--W) / 2)) rotateX(calc(92deg - var(--o2) * 205deg));
+}
+.flap--right {
+  transform: rotateY(90deg) translateZ(calc(var(--W) / 2)) rotateX(calc(92deg - var(--o2) * 205deg));
+}
+.flap .in {
+  background: linear-gradient(#a98455, #8c6a41);
+}
+/* The tape runs along the seam and a little way down each side. */
+.flap--front .out::after,
+.flap--back .out::after,
+.wall--left .out::after,
+.wall--right .out::after {
+  content: "";
+  position: absolute;
+  background:
+    repeating-linear-gradient(90deg, #0000 0 22px, #15120f26 22px 24px),
+    var(--blaze);
+}
+.flap--front .out::after,
+.flap--back .out::after {
+  inset: 0 0 auto 0;
+  height: 13%;
+}
+.wall--left .out::after,
+.wall--right .out::after {
+  left: calc(50% - var(--D) * 0.0433);
+  top: 0;
+  width: calc(var(--D) * 0.0866);
+  height: 30%;
+}
+
+/* What is printed on the box */
+.wall--front .out {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr auto auto;
+  align-items: end;
+  padding: 6% 7%;
+}
+.box .box__meta {
+  grid-column: 1 / -1;
+  align-self: start;
+  font-size: calc(var(--W) * 0.027);
+  line-height: 1.7;
+  white-space: nowrap;
+  opacity: 0.8;
+}
+.box__brand {
+  grid-column: 1 / -1;
+  margin-bottom: 5%;
+  font-size: calc(var(--W) * 0.172);
+  line-height: 0.9;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  opacity: 0.88;
+}
+.box__marks {
+  display: flex;
+  align-items: flex-end;
+  gap: 6%;
+  --mark-bg: var(--kraft);
+}
+.box__marks svg {
+  width: calc(var(--W) * 0.1);
+}
+.box__slip {
+  display: grid;
+  gap: 4px;
+  width: calc(var(--W) * 0.3);
+  padding: 7px 8px 8px;
+  background: var(--paper);
+  color: var(--ink);
+  transform: rotate(-3deg);
+  box-shadow: 0 2px 5px #0004;
+}
+.box__slip .field {
+  font-size: calc(var(--W) * 0.026);
+}
+.box__slip i {
+  height: 3px;
+  background: var(--ink);
+}
+.box__slip i:nth-of-type(2) {
+  width: 70%;
+}
+.box__slip i:nth-of-type(3) {
+  height: calc(var(--W) * 0.04);
+  background: repeating-linear-gradient(90deg, var(--ink) 0 2px, #0000 2px 3px, var(--ink) 3px 4px, #0000 4px 7px);
+}
+.wall--left .out,
+.wall--right .out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6%;
+  padding-bottom: 9%;
+}
+.wall--left svg,
+.wall--right svg {
+  width: 26%;
+  opacity: 0.85;
+}
+.wall--left b,
+.wall--right b {
+  font-size: calc(var(--W) * 0.07);
+  line-height: 1;
+  opacity: 0.85;
+}
+
+/* --------------------------------------------------------------- the cards */
+.card {
+  /* local progress of this card: 0 in the box, 1 unpacked */
+  --t: clamp(0, calc((var(--p) - var(--s)) / 0.24), 1);
+  --up: clamp(0, calc(var(--t) / 0.48), 1);
+  --out: clamp(0, calc((var(--t) - 0.4) / 0.6), 1);
+  --clear: calc(var(--H) * -1.08);
+  position: absolute;
+  left: 7%;
+  bottom: 4%;
+  width: 86%;
+  aspect-ratio: 16 / 10.2;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--ink);
+  border-radius: 7px;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 calc(var(--out) * 26px) calc(var(--out) * 44px) calc(var(--out) * -18px) #000c;
+  transform: translate3d(
+      calc(var(--x) * var(--out)),
+      calc(var(--clear) * var(--up) + (var(--y) - var(--clear)) * var(--out)),
+      calc(var(--z) * (1 - var(--out)))
+    )
+    rotate(calc(var(--r) * var(--out))) scale(calc(1 + 0.12 * var(--out)));
+}
+.card:nth-of-type(1) {
+  --s: 0.26;
+  --z: calc(var(--D) * -0.27);
+  --x: calc(var(--W) * -1.2);
+  --y: calc(var(--H) * -1.25);
+  --r: -8deg;
+}
+.card:nth-of-type(2) {
+  --s: 0.41;
+  --z: calc(var(--D) * -0.09);
+  --x: calc(var(--W) * -0.47);
+  --y: calc(var(--H) * -2.12);
+  --r: -3deg;
+}
+.card:nth-of-type(3) {
+  --s: 0.56;
+  --z: calc(var(--D) * 0.09);
+  --x: calc(var(--W) * 0.47);
+  --y: calc(var(--H) * -2.12);
+  --r: 3deg;
+}
+.card:nth-of-type(4) {
+  --s: 0.71;
+  --z: calc(var(--D) * 0.27);
+  --x: calc(var(--W) * 1.2);
+  --y: calc(var(--H) * -1.25);
+  --r: 8deg;
+}
+.card__bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 8px;
+  border-bottom: 2px solid var(--ink);
+  background: var(--paper-shade);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+.card__bar i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--ink);
+}
+.card__bar i:first-child {
+  background: var(--blaze);
+}
+.card__bar .mono {
+  margin-left: 6px;
+  opacity: 0.7;
+}
+.card__shot {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 0 0 5px 5px;
+  background: var(--paper-shade);
+}
+.card__shot img {
+  object-fit: cover;
+  object-position: 50% 0;
+}
+.card__tag {
+  position: absolute;
+  left: -10px;
+  bottom: -12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px 3px 6px;
+  background: var(--blaze);
+  color: var(--ink);
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(0.95rem, 1.5vw, 1.35rem);
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: var(--out);
+  transform: rotate(-3deg);
+}
+.card__tag .mono {
+  padding: 3px 5px 2px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 0.62em;
+  font-weight: 600;
+}
+.card:hover,
+.card:focus-visible {
+  z-index: 1;
+  outline: 3px solid var(--blaze);
+  outline-offset: 3px;
+}
+
+/* ------------------------------------------------------------- stage chrome */
+.unbox__steps {
+  position: absolute;
+  left: var(--gutter);
+  bottom: clamp(18px, 3.4vw, 40px);
+  z-index: 4;
+  display: flex;
+  gap: 8px;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.unbox__steps li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px 4px;
+  border: 1.5px solid #ffffff2e;
+  color: #ffffff73;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border-color 0.3s;
+}
+.unbox[data-stage="sealed"] [data-step="sealed"],
+.unbox[data-stage="opened"] [data-step="opened"],
+.unbox[data-stage="unpacked"] [data-step="unpacked"] {
+  border-color: var(--blaze);
+  background: var(--blaze);
+  color: var(--ink);
+}
+.unbox__hint {
+  position: absolute;
+  right: var(--gutter);
+  bottom: clamp(18px, 3.4vw, 40px);
+  z-index: 4;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--kraft-light);
+}
+.unbox__hint span {
+  grid-area: 1 / 1;
+  text-align: right;
+  transition: opacity 0.3s;
+}
+.unbox__hint svg {
+  width: 16px;
+  height: 16px;
+}
+.unbox__hint-b,
+.unbox[data-stage="unpacked"] .unbox__hint-a {
+  opacity: 0;
+}
+.unbox[data-stage="unpacked"] .unbox__hint-b {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .unbox__hint svg {
+    animation: nudge 1.4s ease-in-out infinite;
+  }
+}
+@keyframes nudge {
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+/* Phones: the parcels stack upward out of the box instead of fanning sideways. */
+@media (max-width: 760px) {
+  .box {
+    --W: min(52vw, 26svh);
+    bottom: 14svh;
+    transform: rotateX(calc(-27deg + var(--p) * 17deg)) rotateY(calc(-30deg + var(--p) * 26deg));
+  }
+  .card:nth-of-type(1) {
+    --x: calc(var(--W) * -0.24);
+    --y: calc(var(--H) * -1.3);
+    --r: -5deg;
+  }
+  .card:nth-of-type(2) {
+    --x: calc(var(--W) * 0.24);
+    --y: calc(var(--H) * -2.15);
+    --r: 4deg;
+  }
+  .card:nth-of-type(3) {
+    --x: calc(var(--W) * -0.24);
+    --y: calc(var(--H) * -3);
+    --r: -4deg;
+  }
+  .card:nth-of-type(4) {
+    --x: calc(var(--W) * 0.24);
+    --y: calc(var(--H) * -3.85);
+    --r: 5deg;
+  }
+  .unbox__steps li {
+    padding-inline: 7px;
+    font-size: 9.5px;
+  }
+  .unbox__hint span,
+  .unbox__count > span {
+    display: none;
+  }
+  .unbox__title {
+    top: 15svh;
+    font-size: min(21vw, 17svh);
+  }
+}
+
+/* No motion wanted: no pinned scene, the box is simply open. */
+@media (prefers-reduced-motion: reduce) {
+  .unbox {
+    --p: 1;
+    height: auto;
+  }
+  .unbox__stage {
+    position: relative;
+  }
+  .unbox__steps,
+  .unbox__hint,
+  .unbox__count {
+    display: none;
+  }
+}
