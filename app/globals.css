@@ -7,6 +7,7 @@
 @import "./tututor-showcase.css";
 @import "./product-showcase.css";
 @import "./mobile-card-details.css";
+@import "./home.css";
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

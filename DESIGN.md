@@ -16,5 +16,13 @@ Nav contracts when scrolling, mobile uses a keyboard-accessible disclosure. Shar
 ## Motion
 Motion springs: stiffness 240, damping 30. Word reveal 55ms stagger, 8px blur and movement. Scroll reveals once; product parallax <=20px; no parallax on mobile or reduced motion. Marquee pauses on hover/focus and has a pause control. Reduced-motion disables blur, transforms and continuous animations. All content stays readable without JavaScript.
 
+## Home page (November 2026)
+The home page speaks to people who are hiring. It keeps the tokens above (white canvas, Geist, neutral greys, the slate `#697993` for the one soft phrase, the framed page with corner marks) and adds scroll-driven motion. Freelance content (services, process, pricing, FAQ) lives on `/freelance`.
+
+- **Copy is data.** `content/home.ts` holds the hero, stats, the five build steps, the timeline, the toolbox and the "short version" card. Numbers there must also appear on a case study or the About page.
+- **One scroll engine.** `components/home/track.tsx` turns scroll position into a CSS variable (`--p`) on an element; the stylesheet (`app/home.css`, every class prefixed `hx-`) decides what moves. Defaults are the finished state, so the page is complete without JavaScript and under reduced motion.
+- **Sections, in order:** hero (dot field, word reveal, real portrait, one row of four numbers) → logo strip → the build scene (pinned, five steps: one Tututor screen goes from wireframe to live while one pointer changes job) → project cards that stack → a band of large words → a short bio that lights up as it is read → the timeline → principles and toolbox → writing → the hiring close with the CV and the short version.
+- **Rules for new motion:** it must be tied to scroll or to the pointer, never to a timer that hides content; it must leave the content readable when switched off; no third animation library (the `motion` package stays for the older components).
+
 ## Forbidden
-Dark theme, colored accents, serif/italic emphasis, gradient text, heading emojis, section numbers, fake status bars, decorative clocks, repeated stat grids, custom cursors, magnetic buttons, wipes, scroll-jacking, confetti, neon, excessive glass. Avoid generic marketing claims, fabricated metrics, fake testimonials, and invented pricing.
+Dark theme, a second accent colour, serif/italic emphasis, gradient text, heading emojis, fake status bars, decorative clocks, more than one stat row per page, magnetic buttons, confetti, neon, excessive glass. Avoid generic marketing claims, fabricated metrics, fake testimonials, and invented pricing.

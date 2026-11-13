@@ -2,13 +2,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { ArrowUpRight, Menu, X } from "lucide-react";
-import { BookButton } from "./providers";
+import { ArrowDownToLine, ArrowUpRight, Menu, X } from "lucide-react";
 const links = [
   ["Work", "/work"],
   ["About", "/about"],
+  ["Writing", "/writing"],
   ["Experiments", "/playground"],
 ];
+const cv = "/Ubaidullah-CV.pdf";
 export function Wordmark() {
   return (
     <Link href="/" className="wordmark" aria-label="Ubaidullah Omer, home">
@@ -45,9 +46,12 @@ export function Navbar() {
           ))}
         </div>
         <div className="nav-actions">
-          <BookButton>
-            Book a call <ArrowUpRight size={15} />
-          </BookButton>
+          <a className="nav-cv" href={cv} download>
+            CV <ArrowDownToLine size={13} />
+          </a>
+          <Link className="button button-primary" href="/contact">
+            Get in touch <ArrowUpRight size={15} />
+          </Link>
           <button
             className="menu-toggle"
             aria-label={open ? "Close menu" : "Open menu"}
@@ -73,14 +77,14 @@ export function Navbar() {
               <ArrowUpRight size={16} />
             </Link>
           ))}
-          <Link href="/writing" onClick={() => setOpen(false)}>
-            Writing
-            <ArrowUpRight size={16} />
-          </Link>
           <Link href="/contact" onClick={() => setOpen(false)}>
             Contact
             <ArrowUpRight size={16} />
           </Link>
+          <a href={cv} download onClick={() => setOpen(false)}>
+            Download CV
+            <ArrowDownToLine size={16} />
+          </a>
         </div>
       )}
     </header>

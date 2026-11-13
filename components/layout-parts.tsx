@@ -126,6 +126,7 @@ export function Footer() {
             ["Experiments", "/playground"],
             ["What I’m working on", "/now"],
             ["Writing", "/writing"],
+            ["Freelance", "/freelance"],
             ["Contact", "/contact"],
           ].map(([label, href]) => (
             <Link key={href} href={href}>
