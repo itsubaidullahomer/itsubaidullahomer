@@ -649,6 +649,46 @@
    "company": "Eastwood & Cleef, LLC",
    "title": "Frontend Software Development Engineer",
    "reason": "Vue.js (unconfirmed)"
+  },
+  {
+   "company": "Search Atlas",
+   "title": "Senior Full-Stack Engineer (Django / Next.js)",
+   "reason": "Django/Python backend (unconfirmed) and 5+ years; Himalayas form only"
+  },
+  {
+   "company": "Makeshift Software (ThunderTruck)",
+   "title": "AI Engineer (Fullstack, Ruby/Python | TypeScript)",
+   "reason": "HN Nov; founder email given, but backend is Ruby on Rails or Rust/Axum with strict TDD and Rails/Axum experience required (all unconfirmed)"
+  },
+  {
+   "company": "Common Prefix",
+   "title": "Senior Software Engineer",
+   "reason": "HN Nov; 5+ years, Rust and Go (unconfirmed); Notion form only"
+  },
+  {
+   "company": "Native",
+   "title": "Founding Builder-in-Residence",
+   "reason": "HN Nov; 3-month contract, application is four recorded Loom videos (needs the owner)"
+  },
+  {
+   "company": "RAIDS AI",
+   "title": "Senior Technical Project Manager (Full Stack)",
+   "reason": "HN Nov; project-manager role on a Python/Django/FastAPI stack (unconfirmed)"
+  },
+  {
+   "company": "Foji",
+   "title": "Full Stack Engineer (TypeScript/React/Node)",
+   "reason": "HN Nov; hybrid Atlanta or remote in US time zones only"
+  },
+  {
+   "company": "Elm AI",
+   "title": "Forward-Deployed Product Engineer",
+   "reason": "HN Nov; New York/London, remote considered for US/Europe only"
+  },
+  {
+   "company": "Alternative Payments",
+   "title": "Senior Software Engineer, Alti (AI agents)",
+   "reason": "HN Nov; remote in Brazil only"
   }
  ],
  "checkIns": [
@@ -782,6 +822,10 @@
   {
    "at": "2026-11-10T13:02Z",
    "summary": "No employer replies or bounces since 10:00 UTC. Himalayas 0 new, HN November thread 0 new. No applications."
+  },
+  {
+   "at": "2026-11-14T04:05Z",
+   "summary": "Check-in delayed from Nov 11 (owner asked for the portfolio redesign; triggers arrived late). No employer replies or bounces since Nov 10 13:00 UTC; LinkedIn digests on Nov 12 reported messages from Paola Cinco and Abdullah Omer (cannot be opened from here; owner told). Himalayas 1 new (Search Atlas, screened out). HN November thread 23 new top-level posts: none eligible (on-site/hybrid, US/EU/Brazil-only remote, unconfirmed stacks, or form/video-only). No applications. No follow-ups sent (still awaiting owner approval)."
   }
  ],
  "emailApplications": [
