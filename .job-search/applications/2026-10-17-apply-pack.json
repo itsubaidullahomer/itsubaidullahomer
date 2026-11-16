@@ -877,6 +877,10 @@
   {
    "at": "2026-11-16T07:01Z",
    "summary": "No employer replies, bounces or new LinkedIn digests since 04:00 UTC. Himalayas 0 new, HN November thread 0 new (245 top-level posts). No applications."
+  },
+  {
+   "at": "2026-11-16T10:01Z",
+   "summary": "No employer replies, bounces or new LinkedIn digests since 07:00 UTC. Himalayas 0 new, but the API returned only 80 listings instead of the usual 450-550 (probably rate-limited), so this pass was partial; the 13:00 sweep covers it. HN November thread 0 new (245 top-level posts). No applications."
   }
  ],
  "emailApplications": [
