@@ -694,6 +694,16 @@
    "company": "Early-stage startup (kaveronix.com contact)",
    "title": "Software Engineer",
    "reason": "HN Nov; remote for US citizens in the US only"
+  },
+  {
+   "company": "Supabase",
+   "title": "Software Engineer, AI Tooling",
+   "reason": "RemoteOK; no published hiring email, company form only (forms await owner approval)"
+  },
+  {
+   "company": "Unnamed new product (HN)",
+   "title": "Full Stack Engineer (mostly backend + API)",
+   "reason": "HN Nov; moonlighting role for engineers employed in the Bay Area, 6+ years, Go/Python (unconfirmed)"
   }
  ],
  "checkIns": [
@@ -859,6 +869,10 @@
   {
    "at": "2026-11-15T13:01Z",
    "summary": "No employer replies, bounces or new LinkedIn digests since 10:00 UTC. Himalayas 0 new, HN November thread 0 new (244 top-level posts). No applications."
+  },
+  {
+   "at": "2026-11-16T04:01Z",
+   "summary": "No employer replies, bounces or new LinkedIn digests since Nov 15 13:00 UTC (only an Indeed suggestion for a UI/UX designer role and the owner's own CRM test email). Himalayas 0 new. HN November thread 1 new (245), screened out. Monday pass over Remotive, RemoteOK and We Work Remotely (last 4 days, worldwide, React/TS/Node): 1 candidate, Supabase, form only. No applications."
   }
  ],
  "emailApplications": [
