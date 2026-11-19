@@ -509,23 +509,44 @@
   inset: 0;
   clip-path: inset(0 0 0 var(--x));
 }
-.ba__tag {
+/* What stays fixed on the real site stays fixed here: the top bar and the tab bar. */
+.ba__pin {
   position: absolute;
-  top: 14px;
-  padding: 0.25em 0.8em;
-  border-radius: 999px;
-  background: rgba(18, 17, 16, 0.78);
-  color: #fff;
-  font-size: 0.78rem;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.ba__pin img {
+  width: 100%;
+  max-width: none;
+  height: auto;
+}
+.ba__pin--top {
+  top: 0;
+  height: calc(100cqw * var(--head));
+}
+.ba__pin--bottom {
+  bottom: 0;
+  box-shadow: 0 -1px 0 rgba(18, 17, 16, 0.08);
+}
+.ba__labels {
+  display: flex;
+  justify-content: space-between;
+  width: min(76vw, 330px);
+  padding-inline: 6px;
+  font-size: 0.84rem;
   font-weight: 500;
 }
-.ba__tag--before {
-  left: 14px;
+.ba__labels span {
+  padding: 0.25em 0.9em;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  background: #fff;
 }
-.ba__tag--after {
-  right: 14px;
+.ba__labels span:last-child {
+  border-color: var(--gold);
   background: var(--gold);
-  color: var(--ink);
 }
 .ba__handle {
   position: absolute;

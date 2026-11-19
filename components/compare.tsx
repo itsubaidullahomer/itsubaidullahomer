@@ -88,6 +88,10 @@ export function Compare() {
           </p>
         </div>
         <div className="ba-wrap" data-reveal="right">
+          <p className="ba__labels" aria-hidden="true">
+            <span>{compare.before.label}</span>
+            <span>{compare.after.label}</span>
+          </p>
           <div
             className="ba"
             ref={frame}
@@ -115,9 +119,24 @@ export function Compare() {
                   height={compare.after.height}
                   sizes="340px"
                 />
+                {/* The new site keeps its top bar and tab bar on screen while the page moves under them. */}
+                <div
+                  className="ba__pin ba__pin--top"
+                  style={{ "--head": compare.after.head / compare.after.width } as CSSProperties}
+                  aria-hidden="true"
+                >
+                  <Image src={compare.after.src} alt="" width={compare.after.width} height={compare.after.height} sizes="340px" />
+                </div>
+                <div className="ba__pin ba__pin--bottom" aria-hidden="true">
+                  <Image
+                    src={compare.after.nav.src}
+                    alt=""
+                    width={compare.after.nav.width}
+                    height={compare.after.nav.height}
+                    sizes="340px"
+                  />
+                </div>
               </div>
-              <span className="ba__tag ba__tag--before">{compare.before.label}</span>
-              <span className="ba__tag ba__tag--after">{compare.after.label}</span>
               <div
                 className="ba__handle"
                 role="slider"

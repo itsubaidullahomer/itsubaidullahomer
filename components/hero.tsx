@@ -65,7 +65,15 @@ export function Hero() {
       <div className="fan">
         {hero.fan.map((shot, i) => (
           <div className={`fan__card fan__card--${i === 0 ? "l" : "r"}`} key={shot.src} aria-hidden="true">
-            <Image src={shot.src} alt="" width={shot.width} height={shot.height} sizes="(min-width: 900px) 300px, 50vw" loading="eager" />
+            <Image
+              src={shot.src}
+              alt=""
+              width={shot.width}
+              height={shot.height}
+              sizes="(min-width: 900px) 300px, 50vw"
+              loading="eager"
+              style={{ objectPosition: `50% ${shot.at}` }}
+            />
           </div>
         ))}
         <figure className="fan__me">

@@ -31,10 +31,10 @@ export const hero = {
   role: "Web design & marketing",
   /** Small labels that drift around the portrait. */
   chips: ["Web design", "Local SEO", "Social media", "Google Ads"],
-  /** Real work shown as the two cards behind the portrait. */
+  /** Real work shown as the two cards behind the portrait. `at` is how far down the capture the card looks. */
   fan: [
-    { src: "/images/ali-foodies/compare/after-home.jpg", width: 664, height: 3861 },
-    { src: "/images/tututor/mobile/alumnos-home.jpg", width: 720, height: 1557 },
+    { src: "/images/ali-foodies/compare/after-home.jpg", width: 780, height: 4600, at: "9%" },
+    { src: "/images/tututor/mobile/alumnos-home.jpg", width: 720, height: 1557, at: "0%" },
   ],
 };
 
@@ -263,7 +263,19 @@ export const compare = {
   place: "Food truck · Mercer Island, Washington",
   text: "Same truck, same food. Now the first thing a hungry customer sees is how to order.",
   before: { src: "/images/ali-foodies/compare/before-home.jpg", width: 664, height: 4032, label: "Before" },
-  after: { src: "/images/ali-foodies/compare/after-home.jpg", width: 664, height: 3861, label: "After" },
+  /**
+   * Captured from the live site with scripts/capture-ali.mjs. The site keeps its top bar and its bottom
+   * tab bar fixed on screen, so the phone pins them too: `head` is the height of the top bar in the
+   * capture, and `nav` is the tab bar, captured on its own.
+   */
+  after: {
+    src: "/images/ali-foodies/compare/after-home.jpg",
+    width: 780,
+    height: 4600,
+    label: "After",
+    head: 112,
+    nav: { src: "/images/ali-foodies/compare/after-nav.png", width: 780, height: 126 },
+  },
   hint: "Drag the handle",
 };
 
