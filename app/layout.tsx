@@ -1,55 +1,49 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { Providers } from "@/components/providers";
-import { Navbar } from "@/components/shell";
-import { Footer } from "@/components/layout-parts";
-import { site } from "@/content/site";
-import "./globals.css";
-const sans = Geist({
+import type { Metadata, Viewport } from "next";
+import { Geist, Instrument_Serif } from "next/font/google";
+import { studio } from "@/content/studio";
+import "./styles/base.css";
+import "./styles/hero.css";
+import "./styles/story.css";
+import "./styles/sections.css";
+import "./styles/work.css";
+
+const sans = Geist({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
+const serif = Instrument_Serif({
   subsets: ["latin"],
-  variable: "--font-geist-sans",
+  weight: "400",
+  style: ["normal", "italic"],
+  variable: "--font-serif",
   display: "swap",
 });
-const mono = Geist_Mono({
-  subsets: ["latin"],
-  variable: "--font-geist-mono",
-  display: "swap",
-});
+
+const title = `${studio.name} — ${studio.title}`;
+
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
-  title: {
-    default: "Ubaidullah Omer — AI Product Engineer",
-    template: "%s — Ubaidullah Omer",
-  },
-  description: site.description,
+  metadataBase: new URL(studio.url),
+  title: { default: title, template: `%s — ${studio.name}` },
+  description: studio.description,
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    siteName: site.name,
-    title: "Ubaidullah Omer — AI Product Engineer",
-    description: site.description,
+    siteName: studio.name,
+    title,
+    description: studio.description,
+    url: "/",
     images: [{ url: "/api/og", width: 1200, height: 630 }],
   },
   twitter: { card: "summary_large_image", images: ["/api/og"] },
   robots: { index: true, follow: true },
 };
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export const viewport: Viewport = { themeColor: "#ffffff", width: "device-width", initialScale: 1 };
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${sans.variable} ${mono.variable}`}>
+    <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
-        <a href="#main" className="skip-link">
+        <a href="#main" className="skip">
           Skip to content
         </a>
-        <Providers>
-          <div className="page-frame">
-            <Navbar />
-            <main id="main">{children}</main>
-            <Footer />
-          </div>
-        </Providers>
+        {children}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -58,26 +52,22 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "Person",
-                  "@id": `${site.url}/#person`,
-                  name: site.name,
-                  url: site.url,
-                  jobTitle: site.role,
-                  image: `${site.url}/images/ubaid-portrait.jpg`,
-                  sameAs: Object.values(site.social),
-                  worksFor: { "@type": "Organization", name: "Tututor.ai" },
+                  "@id": `${studio.url}/#person`,
+                  name: studio.name,
+                  url: studio.url,
+                  image: `${studio.url}/images/me/ubaid.jpg`,
+                  sameAs: [...Object.values(studio.social), studio.engineerUrl],
                 },
                 {
                   "@type": "ProfessionalService",
-                  name: site.name,
-                  url: site.url,
-                  description: site.description,
-                  email: site.email,
-                  address: {
-                    "@type": "PostalAddress",
-                    addressLocality: "Rahim Yar Khan",
-                    addressCountry: "PK",
-                  },
-                  provider: { "@id": `${site.url}/#person` },
+                  "@id": `${studio.url}/#service`,
+                  name: studio.name,
+                  url: studio.url,
+                  description: studio.description,
+                  email: studio.email,
+                  image: `${studio.url}/images/me/ubaid.jpg`,
+                  founder: { "@id": `${studio.url}/#person` },
+                  serviceType: ["Web design", "Local SEO", "Social media management", "Online advertising", "Branding"],
                 },
               ],
             }),

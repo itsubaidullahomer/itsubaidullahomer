@@ -4,19 +4,5 @@ import nextTs from "eslint-config-next/typescript";
 export default defineConfig([
   ...nextVitals,
   ...nextTs,
-  globalIgnores([
-    ".next/**",
-    "next-env.d.ts",
-    "qa-output/**",
-    "scripts/build.mjs",
-  ]),
-  {
-    files: ["public/audio-capture.js"],
-    languageOptions: {
-      globals: {
-        AudioWorkletProcessor: "readonly",
-        registerProcessor: "readonly",
-      },
-    },
-  },
+  globalIgnores([".next/**", "next-env.d.ts", "scripts/build.mjs"]),
 ]);

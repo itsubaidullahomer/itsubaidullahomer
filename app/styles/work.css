@@ -1,0 +1,217 @@
+/*
+ * The work, as a row of cards that travels sideways while the page scrolls down.
+ * --p is the progress through the tall wrapper; --travel is how far the row has to move (set by the script).
+ * Without the script the row is a plain strip that swipes sideways.
+ */
+.reel {
+  --p: 0;
+  --travel: 0px;
+  --pad: max(var(--gutter), calc((100vw - var(--wide)) / 2));
+}
+.reel[data-live] {
+  height: calc(100svh + var(--travel));
+}
+.reel__pin {
+  display: grid;
+  gap: 24px;
+  padding-block: clamp(70px, 10vw, 120px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.reel[data-live] .reel__pin {
+  position: sticky;
+  top: 0;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 18px;
+  height: 100svh;
+  padding-block: calc(var(--bar) + 14px) 22px;
+  overflow: hidden;
+}
+.reel__head {
+  position: sticky;
+  left: 0;
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+  width: 100vw;
+  padding-inline: var(--pad);
+}
+.reel__head .h2 {
+  max-width: 17ch;
+  font-size: clamp(1.6rem, 5.6vw, 3rem);
+}
+.reel__rail {
+  display: flex;
+  gap: clamp(14px, 2.4vw, 28px);
+  width: max-content;
+  padding-inline: var(--pad);
+}
+.reel[data-live] .reel__rail {
+  height: 100%;
+  min-height: 0;
+  transform: translate3d(calc(var(--p) * var(--travel) * -1), 0, 0);
+  will-change: transform;
+}
+
+/* A card. --local is 0 when it is the one in view, negative before, positive after: it turns slightly as it passes. */
+.card {
+  --local: calc(var(--p) * (var(--n) - 1) - var(--i));
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 18px;
+  width: min(82vw, 600px);
+  height: min(72svh, 600px);
+  padding: 14px 14px 22px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--soft);
+  scroll-snap-align: center;
+}
+.reel:not([data-live]) .card {
+  --local: 0;
+}
+.reel[data-live] .card {
+  height: 100%;
+  transform: perspective(1500px) rotateY(calc(var(--local) * -5deg));
+}
+.card__media {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+}
+.browser {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  height: 100%;
+}
+.browser__bar {
+  display: flex;
+  gap: 6px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.browser__bar i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--line-2);
+}
+.browser__view {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+}
+.browser__view img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+/* A tall capture slides up inside its frame while the card passes. */
+.browser__view[data-pan] img {
+  height: auto;
+  transform: translateY(calc(clamp(0, calc((var(--local) + 1) / 2), 1) * -42%));
+  will-change: transform;
+}
+.phones {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4%;
+  height: 100%;
+  padding: 7% 0 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--gold-tint), #fff);
+}
+.phones__one {
+  flex: none;
+  width: min(40%, 200px);
+  aspect-ratio: 720 / 1557;
+  overflow: hidden;
+  border: 5px solid #17161a;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+  transform: translateY(calc(8% + var(--local) * 16px));
+}
+.phones__one:nth-child(2) {
+  transform: translateY(calc(var(--local) * -16px));
+}
+.phones__one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__text {
+  display: grid;
+  gap: 4px;
+  justify-items: start;
+  padding-inline: 8px;
+}
+.card__kind {
+  color: var(--gold-deep);
+  font-size: 0.86rem;
+  font-weight: 500;
+}
+.card h3 {
+  font-size: clamp(1.5rem, 5vw, 2.1rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+}
+.card__line {
+  max-width: 44ch;
+  color: var(--mute);
+}
+.card .link {
+  font-size: 0.95rem;
+}
+.card--last {
+  grid-template-rows: none;
+  align-content: center;
+  justify-items: start;
+  gap: 16px;
+  width: min(78vw, 460px);
+  padding: clamp(24px, 5vw, 48px);
+  border-color: var(--dark);
+  background: var(--dark);
+  color: #fff;
+}
+.card--last h3 {
+  font-size: clamp(2.8rem, 10vw, 4.6rem);
+  line-height: 1;
+}
+.card--last h3 em {
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--gold);
+}
+.card--last p {
+  max-width: 22ch;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 1.15rem;
+}
+.reel__bar {
+  display: none;
+}
+.reel[data-live] .reel__bar {
+  display: block;
+  height: 3px;
+  margin-inline: var(--pad);
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--line);
+}
+.reel__bar i {
+  display: block;
+  height: 100%;
+  background: var(--ink);
+  transform: scaleX(var(--p));
+  transform-origin: left;
+}

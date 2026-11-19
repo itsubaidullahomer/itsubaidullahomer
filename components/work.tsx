@@ -1,101 +1,121 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
-import * as Dialog from "@radix-ui/react-dialog";
-import { ArrowUpRight, Expand, X } from "lucide-react";
-import { projects, type Project } from "@/content/projects";
-import { Spotlight } from "./motion";
-import { Status } from "./layout-parts";
-export { TututorShowcase } from "./tututor-showcase";
 
-export function ProjectCard({ project: p }: { project: Project }) {
+import Image from "next/image";
+import { useEffect, useRef, type CSSProperties } from "react";
+import { work } from "@/content/studio";
+import { prefersReducedMotion, track } from "./fx";
+import { Arrow, ArrowOut } from "./icons";
+import { Rich } from "./rich";
+
+/**
+ * The work, as a row of large cards that travels sideways while the page scrolls down.
+ * The script measures how far the row has to travel and reports progress; the stylesheet moves it.
+ * With no script, or reduced motion, the row is an ordinary swipeable strip.
+ */
+export function WorkReel() {
+  const wrap = useRef<HTMLDivElement>(null);
+  const rail = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = wrap.current;
+    const row = rail.current;
+    if (!el || !row || prefersReducedMotion()) return;
+    const size = () => {
+      el.style.setProperty("--travel", `${Math.max(0, row.scrollWidth - window.innerWidth)}px`);
+    };
+    el.dataset.live = "1";
+    size();
+    const watch = new ResizeObserver(size);
+    watch.observe(row);
+    window.addEventListener("resize", size);
+    const stop = track(el, "pin", (p) => el.style.setProperty("--p", p.toFixed(4)));
+    return () => {
+      stop();
+      watch.disconnect();
+      window.removeEventListener("resize", size);
+      delete el.dataset.live;
+    };
+  }, []);
+
+  const count = work.items.length + 1;
+
   return (
-    <Spotlight id={`project-${p.slug}`}>
-      <Link href={`/work/${p.slug}`} aria-label={`View ${p.name} case study`}>
-        <div className="project-visual">
-          <div
-            className={`image-frame${p.device === "phone" ? " is-phone" : ""}`}
-          >
-            <Image
-              src={p.image}
-              alt={`${p.name} product screenshot`}
-              fill
-              sizes="(max-width: 540px) 90vw, 500px"
-            />
+    <section className="work" id="work" data-nosticky>
+      <div className="reel" ref={wrap} style={{ "--n": count } as CSSProperties}>
+        <div className="reel__pin">
+          <div className="reel__head">
+            <p className="eyebrow">
+              <i />
+              {work.kicker}
+            </p>
+            <h2 className="h2">
+              <Rich text={work.title} />
+            </h2>
+          </div>
+          <div className="reel__rail" ref={rail}>
+            {work.items.map((item, i) => (
+              <article className={`card card--${item.frame}`} key={item.key} style={{ "--i": i } as CSSProperties}>
+                <div className="card__media">
+                  {item.frame === "browser" ? (
+                    <div className="browser">
+                      <span className="browser__bar">
+                        <i />
+                        <i />
+                        <i />
+                      </span>
+                      <div className="browser__view" data-pan={item.pan || undefined}>
+                        <Image
+                          src={item.shots[0].src}
+                          alt={`${item.name}: ${item.kind.toLowerCase()}`}
+                          width={item.shots[0].width}
+                          height={item.shots[0].height}
+                          sizes="(min-width: 900px) 620px, 82vw"
+                        />
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="phones">
+                      {item.shots.map((shot, n) => (
+                        <div className="phones__one" key={shot.src}>
+                          <Image
+                            src={shot.src}
+                            alt={n === 0 ? `${item.name}: ${item.kind.toLowerCase()}` : ""}
+                            width={shot.width}
+                            height={shot.height}
+                            sizes="(min-width: 900px) 200px, 28vw"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                <div className="card__text">
+                  <p className="card__kind">{item.kind}</p>
+                  <h3>{item.name}</h3>
+                  <p className="card__line">{item.line}</p>
+                  {item.url ? (
+                    <a className="link" href={item.url} target="_blank" rel="noopener noreferrer">
+                      Visit the site <ArrowOut size={16} />
+                    </a>
+                  ) : null}
+                </div>
+              </article>
+            ))}
+            <article className="card card--last" style={{ "--i": count - 1 } as CSSProperties}>
+              <h3>
+                <Rich text={`*${work.last.title}*`} />
+              </h3>
+              <p>{work.last.text}</p>
+              <a className="btn btn--gold" href="#contact">
+                {work.last.cta} <Arrow size={18} />
+              </a>
+            </article>
+          </div>
+          <div className="reel__bar" aria-hidden="true">
+            <i />
           </div>
         </div>
-      </Link>
-      <div className="work-card-copy">
-        <div>
-          <Status status={p.status} />
-          <h3>
-            <Link href={`/work/${p.slug}`}>{p.name}</Link>
-          </h3>
-          <p>{p.description}</p>
-          {p.stack.length > 0 && (
-            <div className="work-tags">
-              {p.stack.slice(0, 3).map((s) => (
-                <span key={s}>{s}</span>
-              ))}
-            </div>
-          )}
-        </div>
-        <Link
-          href={`/work/${p.slug}`}
-          className="work-arrow"
-          aria-label={`Read the ${p.name} case study`}
-        >
-          <ArrowUpRight size={18} />
-        </Link>
       </div>
-    </Spotlight>
-  );
-}
-export function SelectedWork() {
-  return (
-    <div className="work-grid">
-      {projects.slice(0, 4).map((p) => (
-        <ProjectCard key={p.slug} project={p} />
-      ))}
-    </div>
-  );
-}
-export function ImageZoom({ src, alt }: { src: string; alt: string }) {
-  return (
-    <Dialog.Root>
-      <Dialog.Trigger className="case-image">
-        <Image
-          src={src}
-          alt={alt}
-          fill
-          sizes="(max-width: 768px) 90vw, 1080px"
-          priority
-        />
-        <span className="image-zoom-hint">
-          <Expand size={13} /> Explore screenshot
-        </span>
-      </Dialog.Trigger>
-      <Dialog.Portal>
-        <Dialog.Overlay className="dialog-overlay" />
-        <Dialog.Content className="dialog-content image-dialog">
-          <Dialog.Title>{alt}</Dialog.Title>
-          <Dialog.Description className="sr-only">
-            Expanded product screenshot. Scroll to explore. Press Escape to
-            close.
-          </Dialog.Description>
-          <Dialog.Close className="dialog-close" aria-label="Close screenshot">
-            <X size={17} />
-          </Dialog.Close>
-          <Image
-            src={src}
-            alt={alt}
-            width={1800}
-            height={1200}
-            sizes="95vw"
-            className="zoom-image"
-          />
-        </Dialog.Content>
-      </Dialog.Portal>
-    </Dialog.Root>
+    </section>
   );
 }

@@ -1,28 +1,54 @@
-# Portfolio design system
+# Design
 
-## Reference audit — 10 October 2026
-Aceternity was inspected in the browser at desktop and 375px, including its process cards and page structure. Borrow the narrow type, quiet gray secondary copy, bounded page, fine dividers, generously padded white cards, and small working product surfaces. Its current blue brand, mountain artwork, numbered process, and centered hero are deliberately not part of this design.
+This branch is the client-facing site on itsubaidullahomer.com: one page that sells web design, local SEO,
+social media and ads to owners of local businesses. The hiring portfolio that used to be here lives on the
+`cv-portfolio` branch and is served from cv.itsubaidullahomer.com; its old addresses redirect there
+(`next.config.ts`).
 
-## Tokens
-- White canvas; alternate surfaces #fafafa; text #171717, #525252, #737373. Decorative muted marks may use #a3a3a3. Borders #e5e5e5 and inner rules #f5f5f5.
-- Geist Sans for prose; Geist Mono for labels and small metadata. Hero 60px desktop / 42px phone, -0.045em tracking, weight 500. Section headings 36–42px / 30px.
-- Frame 1200px with vertical 1px rails. Content inset 56px desktop / 22px phone. Section padding 96px / 64px. Crosshair markers at boundaries.
-- Cards radius 20px; nested windows 12px. Layered diffuse neutral shadows. Pills 44px minimum interaction height.
-- Monochrome screenshots and portraits. Tiny green/amber status dots only. Avatar is the only dark section surface.
+## Who it is for
 
-## Components
-Nav contracts when scrolling, mobile uses a keyboard-accessible disclosure. Shared buttons, Radix dialog, accordion and tab patterns. Section headers pair concise titles with purposeful descriptions. Product cards have a cursor spotlight, real screenshots, source links and case-study links. Large Tututor showcase, two supporting cards, wide Ali Foodies comparison. Asymmetric services use miniature interfaces, never generic icon grids.
+Business owners and managers, usually on a phone, usually arriving from a link in an email after a call.
+They are not technical. Copy says what they get in plain words: no stack names, no jargon, no invented
+numbers. Every figure on the page is also on the hiring portfolio.
 
-## Motion
-Motion springs: stiffness 240, damping 30. Word reveal 55ms stagger, 8px blur and movement. Scroll reveals once; product parallax <=20px; no parallax on mobile or reduced motion. Marquee pauses on hover/focus and has a pause control. Reduced-motion disables blur, transforms and continuous animations. All content stays readable without JavaScript.
+## Look
 
-## Home page (November 2026)
-The home page speaks to people who are hiring. It keeps the tokens above (white canvas, Geist, neutral greys, the slate `#697993` for the one soft phrase, the framed page with corner marks) and adds scroll-driven motion. Freelance content (services, process, pricing, FAQ) lives on `/freelance`.
+- Clean, light, premium. White (`--bg`) with a warm off-white (`--soft`) for alternate sections and one dark
+  panel at the end (`--dark`) for contact and footer.
+- One accent: the gold in the portrait (`--gold`, `--gold-deep` for text on white, `--gold-soft` / `--gold-tint`
+  for fills). No second accent colour.
+- Type: Geist for everything; one word or phrase per heading in Instrument Serif italic, in gold. In
+  `content/studio.ts` that phrase is written between `*stars*`.
+- Hairline borders, soft shadows, large radii. No thick outlines, hard offset shadows, stickers or cartoon
+  shapes: the owner rejected that direction outright.
+- The fun comes from motion, not decoration: things slide in from the left and right, a phone plays out a
+  story while pinned, the work travels sideways.
 
-- **Copy is data.** `content/home.ts` holds the hero, stats, the five build steps, the timeline, the toolbox and the "short version" card. Numbers there must also appear on a case study or the About page.
-- **One scroll engine.** `components/home/track.tsx` turns scroll position into a CSS variable (`--p`) on an element; the stylesheet (`app/home.css`, every class prefixed `hx-`) decides what moves. Defaults are the finished state, so the page is complete without JavaScript and under reduced motion.
-- **Sections, in order:** hero (dot field, word reveal, real portrait, one row of four numbers) → logo strip → the build scene (pinned, five steps: one Tututor screen goes from wireframe to live while one pointer changes job) → project cards that stack → a band of large words → a short bio that lights up as it is read → the timeline → principles and toolbox → writing → the hiring close with the CV and the short version.
-- **Rules for new motion:** it must be tied to scroll or to the pointer, never to a timer that hides content; it must leave the content readable when switched off; no third animation library (the `motion` package stays for the older components).
+## How motion works
 
-## Forbidden
-Dark theme, a second accent colour, serif/italic emphasis, gradient text, heading emojis, fake status bars, decorative clocks, more than one stat row per page, magnetic buttons, confetti, neon, excessive glass. Avoid generic marketing claims, fabricated metrics, fake testimonials, and invented pricing.
+`components/fx.tsx` has one scroll listener and one animation frame for the whole page. It only writes a
+progress number to a CSS variable (`--p`); the stylesheets decide what moves. Every default is the finished
+state, so the page is complete with no script, and `prefers-reduced-motion` unpins the two pinned scenes.
+
+- Hero (`hero.css`): words rise in, "searching" types into a search bar, the portrait sits on a fan of two
+  real screenshots that spreads as the page scrolls.
+- Story (`story.tsx`, `story.css`): a pinned phone in five beats (search, found, website, proof, call). The
+  beat boundaries are `STEP_AT` in the component and the matching `clamp()`s at the top of the stylesheet;
+  change them together.
+- Services: each card is dealt in from the side, driven by its own scroll progress.
+- Before and after: a draggable wipe between two full-page phone captures.
+- Work (`work.tsx`, `work.css`): a row of cards that moves sideways while the page scrolls down.
+
+## Personal links
+
+`/for/<business-name>` renders the same page for one business: `/for/smith-septic` shows "Prepared for Smith
+Septic", puts the name in the demo phone and the contact form, and picks the trade from words in the name
+(`lib/business.ts`, tested in `tests/business.test.ts`). These pages are `noindex` and blocked in
+`robots.txt`. The name is stripped to letters, numbers and ordinary punctuation and capped at 40 characters.
+
+## Rules
+
+- All copy lives in `content/studio.ts`. Components only render it.
+- The contact form has no server: it writes an email and opens the visitor's own mail app.
+- Never state how many tools ToolkitJar has, anywhere.
+- Checks: `npm run typecheck`, `npm run lint`, `npm test`, `npm run build`.

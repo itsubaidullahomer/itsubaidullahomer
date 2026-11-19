@@ -1,8 +1,10 @@
 import type { MetadataRoute } from "next";
-import { site } from "@/content/site";
+import { studio } from "@/content/studio";
+
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: { userAgent: "*", allow: "/", disallow: "/api/avatar/" },
-    sitemap: `${site.url}/sitemap.xml`,
+    // Pages made for one business (/for/…) are private links, not search results.
+    rules: { userAgent: "*", allow: "/", disallow: "/for/" },
+    sitemap: `${studio.url}/sitemap.xml`,
   };
 }
