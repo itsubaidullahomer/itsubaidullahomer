@@ -66,6 +66,35 @@ export const intro = {
   ],
 };
 
+/**
+ * The words inside the small moving screens on the service cards. They are drawings of a search page,
+ * a website, a post and so on for a made-up business; on a /for/… link the business name is the visitor's.
+ */
+export const sample = {
+  business: "Your Business",
+  domain: "yourbusiness.com",
+  query: "plumber near me",
+  /** A word in a business name picks a closer search than the default one. */
+  queries: [
+    ["septic", "septic service near me"],
+    ["roof", "roof repair near me"],
+    ["hvac|heating|cooling|air", "ac repair near me"],
+    ["lawn|landscap|tree|garden", "lawn care near me"],
+    ["clean|maid", "house cleaning near me"],
+    ["electric", "electrician near me"],
+    ["auto|tire|mechanic|brake", "auto repair near me"],
+    ["dent", "dentist near me"],
+    ["salon|barber|spa", "hair salon near me"],
+    ["restaurant|pizza|grill|cafe|kitchen|food", "best food near me"],
+  ] as [string, string][],
+  others: ["Another Company", "Someone Else Ltd"],
+  site: { headline: "Fast, friendly service near you.", line: "Local, on time and easy to reach.", call: "Call now", quote: "Get a quote", toast: "Incoming call" },
+  post: { text: "Another job finished this morning.", tag: "Job done", comment: "Great work, thank you!", likes: 128 },
+  ad: { tag: "Sponsored", line: "Call today. Local and on time.", call: "Call", chart: "Calls this week", chip: "New call" },
+  card: { line: "Local services", swatches: ["#121110", "#c8922a", "#f6ead0", "#ffffff"] },
+  care: { state: "Online", checks: ["Updates installed", "Backup saved", "Phone number changed"] },
+};
+
 export type Service = {
   key: "web" | "seo" | "social" | "ads" | "brand" | "care";
   name: string;

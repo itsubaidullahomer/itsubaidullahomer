@@ -39,10 +39,17 @@ state, so the page is complete with no script, and `prefers-reduced-motion` unpi
   small moving preview of real work. On the way out the lines drift apart sideways and the panel tucks back.
 - Who I am (`intro.tsx`): one sentence that lights up word by word as it is read, three promises, three numbers.
 - Headings (`.h2--fill`) fill from grey to black as they scroll into view.
-- Services: each card is dealt in from the side, driven by its own scroll progress.
+- Services: each card is dealt in from the side, driven by its own scroll progress. At the top of each is a
+  small looping screen (`service-art.tsx`, `art.css`): a search page where the business climbs to first, its
+  website, a post, an ad, business cards, a status panel. They are meant to be recognisable, not replicas:
+  the owner found abstract placeholder shapes lifeless, and did not want a copy of the real Google either.
+  Their wording is `sample` in `content/studio.ts`; on a `/for/…` link they carry the visitor's name.
 - Before and after: a draggable wipe between two full-page phone captures, with the site's fixed bars pinned.
 - Work (`work.tsx`, `work.css`): two big words slide apart, then screenshots float past sideways at different
   heights, each bobbing and turning slightly. Long pages scroll inside a taller window.
+- After the work: three bands of very large type, each far wider than the screen, sliding against each other.
+- Anything that moves sideways in a loop repeats its content enough to fill a very wide monitor, and the whole
+  site scales up above 1700px wide (`html` font size in `base.css`); sizes are in rem so they follow.
 - Also: a very large word behind the steps, a giant line of type across the contact panel, and the name
   rising letter by letter in the footer.
 

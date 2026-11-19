@@ -130,8 +130,8 @@ export function Hero() {
 }
 
 function Row({ reverse = false }: { reverse?: boolean }) {
-  // The list is doubled so the loop has no seam; the copy is hidden from screen readers.
-  const words = [...tape, ...tape];
+  // The list is repeated so the loop has no seam on any screen; the copies are hidden from screen readers.
+  const words = [...tape, ...tape, ...tape, ...tape];
   return (
     <div className={reverse ? "ticker ticker--b" : "ticker"}>
       <ul>

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { businessFromSlug, slugForBusiness } from "../lib/business";
+import { businessFromSlug, domainForBusiness, slugForBusiness } from "../lib/business";
 
 test("a hyphenated slug becomes a readable name", () => {
   assert.equal(businessFromSlug("smith-septic"), "Smith Septic");
@@ -20,4 +20,9 @@ test("markup, symbols and overlong names are cut down", () => {
 
 test("a name turns back into a link", () => {
   assert.equal(slugForBusiness("Smith Septic & Drain"), "smith-septic-drain");
+});
+
+test("a name gives the drawings a web address", () => {
+  assert.equal(domainForBusiness("Smith Septic & Drain"), "smithsepticdrain.com");
+  assert.equal(domainForBusiness("!!!"), null);
 });

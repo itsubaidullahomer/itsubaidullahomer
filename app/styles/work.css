@@ -95,7 +95,8 @@
   align-items: center;
   gap: clamp(28px, 5vw, 96px);
   width: max-content;
-  padding-inline: var(--pad);
+  /* Starts in line with the heading; ends near the edge of the screen, so a wide screen is not left half empty. */
+  padding-inline: var(--pad) max(var(--gutter), 5vw);
 }
 .reel[data-live] .reel__rail {
   height: 100%;
@@ -158,13 +159,13 @@
   }
 }
 .piece--wide {
-  width: min(88vw, 720px, 72svh);
+  width: min(88vw, 45rem, 72svh);
 }
 .piece--tall {
-  width: min(62vw, 340px, 28svh);
+  width: min(62vw, 21.25rem, 28svh);
 }
 .piece--phones {
-  width: min(96vw, 600px, 70svh);
+  width: min(96vw, 37.5rem, 70svh);
 }
 
 /* A screenshot in a browser window, at the screenshot's own shape. Nothing is cropped. */
@@ -287,10 +288,12 @@
   font-size: 0.92rem;
 }
 .piece--last {
-  width: min(80vw, 420px);
+  width: min(84vw, 30rem);
 }
 .piece--last .piece__float {
+  align-content: center;
   justify-items: start;
+  min-height: min(50svh, 24rem);
   padding: clamp(26px, 5vw, 44px);
   border-radius: 28px;
   background: var(--dark);

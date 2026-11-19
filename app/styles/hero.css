@@ -200,7 +200,7 @@
   order: 4;
   align-self: end;
   justify-self: center;
-  width: min(100%, 430px);
+  width: min(100%, 27rem);
   aspect-ratio: 1 / 1.04;
   margin-top: 6px;
   overflow: hidden;
@@ -312,10 +312,10 @@
       "intro figure head"
       "intro figure proof";
     gap: 0 clamp(28px, 3.4vw, 60px);
-    padding: calc(var(--bar) + 20px) max(40px, calc((100vw - 1360px) / 2)) 0;
+    padding: calc(var(--bar) + 20px) max(40px, calc((100vw - 85rem) / 2)) 0;
   }
   .hero__rules {
-    inset: 0 max(40px, calc((100vw - 1360px) / 2));
+    inset: 0 max(40px, calc((100vw - 85rem) / 2));
   }
   .hero__head {
     grid-area: head;
@@ -340,7 +340,7 @@
   .hero__figure {
     grid-area: figure;
     width: auto;
-    height: min(72svh, 640px);
+    height: min(72svh, 40rem);
     margin-top: 0;
     aspect-ratio: 0.68;
     overflow: visible;

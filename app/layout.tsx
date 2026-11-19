@@ -4,6 +4,7 @@ import { studio } from "@/content/studio";
 import "./styles/base.css";
 import "./styles/hero.css";
 import "./styles/sections.css";
+import "./styles/art.css";
 import "./styles/work.css";
 
 const sans = Geist({ subsets: ["latin"], variable: "--font-sans", display: "swap" });

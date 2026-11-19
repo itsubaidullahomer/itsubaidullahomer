@@ -1,0 +1,1411 @@
+/*
+ * The small moving screens on the service cards. Each scene is sized in em, and 1em follows the card's
+ * width, so the drawings scale as one piece. Every scene loops on the same clock (--t).
+ * The resting styles are the finished picture; the keyframes only describe how it gets there, so with
+ * reduced motion (or before the animation starts) each card shows its end state.
+ */
+@property --likes {
+  syntax: "<integer>";
+  inherits: false;
+  initial-value: 128;
+}
+.svc__art {
+  container-type: inline-size;
+}
+.scene {
+  --t: 9s;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  color: var(--ink);
+  font-size: clamp(8px, 3.05cqw, 15px);
+  line-height: 1.25;
+}
+.scene *,
+.scene *::before,
+.scene *::after {
+  animation-duration: var(--t);
+  animation-timing-function: var(--out);
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+/* Off screen, the scenes hold still. */
+.art-host {
+  position: absolute;
+  inset: 0;
+}
+.art-host[data-paused] *,
+.art-host[data-paused] *::before,
+.art-host[data-paused] *::after {
+  animation-play-state: paused;
+}
+
+/* Shared pieces. */
+.a-win {
+  position: absolute;
+  inset: 2em 2.4em -1.2em;
+  overflow: hidden;
+  border: 1px solid var(--line-2);
+  border-radius: 1em 1em 0 0;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+}
+.a-win__bar {
+  display: flex;
+  align-items: center;
+  height: 2.3em;
+  padding-inline: 0.9em;
+  border-bottom: 1px solid var(--line);
+  background: #faf9f6;
+}
+.a-win__bar b {
+  max-width: 62%;
+  margin-inline: auto;
+  padding: 0.15em 1.1em;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 2em;
+  background: #fff;
+  color: var(--mute);
+  font-size: 0.7em;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transform: translateX(-1.4em);
+}
+.a-dots {
+  display: flex;
+  flex: none;
+  gap: 0.35em;
+}
+.a-dots i {
+  width: 0.55em;
+  height: 0.55em;
+  border-radius: 50%;
+  background: var(--line-2);
+}
+.a-logo {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 2.2em;
+  height: 2.2em;
+  border-radius: 0.65em;
+  background: var(--ink);
+  color: var(--gold);
+  font-size: 0.72em;
+  font-weight: 700;
+}
+.a-stars {
+  display: inline-flex;
+  gap: 0.08em;
+  color: var(--gold);
+}
+.a-stars svg {
+  width: 1.2em;
+  height: 1.2em;
+}
+.a-cursor {
+  position: absolute;
+  z-index: 5;
+  width: 1.9em;
+  height: 1.9em;
+  fill: var(--ink);
+  stroke: #fff;
+  stroke-width: 1.6;
+  filter: drop-shadow(0 0.2em 0.3em rgba(0, 0, 0, 0.25));
+}
+.a-toast {
+  position: absolute;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55em;
+  padding: 0.55em 1em;
+  border: 1px solid var(--line);
+  border-radius: 2em;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+  font-size: 0.84em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.a-toast i {
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  background: #1fa765;
+  box-shadow: 0 0 0 0.3em rgba(31, 167, 101, 0.18);
+}
+.w-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.5em 0.95em;
+  border-radius: 2em;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.76em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.w-call svg {
+  width: 0.95em;
+  height: 0.95em;
+}
+.w-quote {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5em 0.9em;
+  border: 1px solid var(--line-2);
+  border-radius: 2em;
+  font-size: 0.76em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+/* A small picture: sky, a hill, a house. Used on the website and in the post. */
+.w-photo,
+.p-photo {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #bfe0f6, #eaf5fc 72%);
+}
+.w-sun {
+  position: absolute;
+  right: 14%;
+  top: 14%;
+  width: 2.2em;
+  height: 2.2em;
+  border-radius: 50%;
+  background: #ffd66b;
+}
+.w-hill {
+  position: absolute;
+  left: -12%;
+  right: -12%;
+  bottom: -38%;
+  height: 74%;
+  border-radius: 50%;
+  background: #8cc98a;
+}
+.w-house {
+  position: absolute;
+  left: 24%;
+  bottom: 15%;
+  width: 4.6em;
+  height: 3.3em;
+  border-radius: 0.2em;
+  background: #fffdf7;
+  box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.12);
+}
+.w-house::before {
+  content: "";
+  position: absolute;
+  left: -0.6em;
+  right: -0.6em;
+  bottom: 100%;
+  height: 2em;
+  background: var(--gold);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+.w-house::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 1.1em;
+  height: 1.7em;
+  margin-left: -0.55em;
+  border-radius: 0.2em 0.2em 0 0;
+  background: var(--ink);
+}
+/* 1. A website: it builds itself, a visitor taps "Call now", a call comes in. */
+.w-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.9em;
+  padding: 0.8em 1.2em 0.5em;
+  animation-name: w-nav;
+}
+.w-nav strong {
+  max-width: 9.5em;
+  overflow: hidden;
+  font-size: 0.84em;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.w-nav i {
+  color: var(--mute);
+  font-size: 0.68em;
+  font-style: normal;
+}
+.w-nav i:first-of-type {
+  margin-left: auto;
+}
+.w-nav em {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.3em 0.8em;
+  border-radius: 2em;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.68em;
+  font-style: normal;
+  font-weight: 600;
+}
+.w-nav em svg {
+  width: 0.9em;
+  height: 0.9em;
+}
+.w-body {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 1.1em;
+  padding: 0.5em 1.2em 0;
+}
+.w-h {
+  font-size: 1.5em;
+  font-weight: 650;
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  animation-name: w-h;
+}
+.w-p {
+  margin: 0.5em 0 0.8em;
+  color: var(--mute);
+  font-size: 0.72em;
+  animation-name: w-p;
+}
+.w-cta,
+.d-btns {
+  display: flex;
+  gap: 0.5em;
+}
+.w-cta {
+  animation-name: w-cta;
+}
+.w-photo {
+  height: 9.4em;
+  border-radius: 0.8em;
+  animation-name: w-photo;
+}
+.scene--web .w-call {
+  animation-name: w-press;
+}
+.scene--web .a-cursor {
+  left: 20%;
+  top: 68%;
+  animation-name: w-cursor;
+}
+.w-toast {
+  right: 1.4em;
+  bottom: 1.3em;
+  animation-name: w-toast;
+}
+@keyframes w-nav {
+  0%,
+  2% {
+    opacity: 0;
+    transform: translateY(-0.7em);
+  }
+  8%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes w-h {
+  0%,
+  6% {
+    opacity: 0;
+    transform: translateY(0.9em);
+  }
+  13%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes w-p {
+  0%,
+  11% {
+    opacity: 0;
+    transform: translateY(0.9em);
+  }
+  18%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes w-cta {
+  0%,
+  17% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  24%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes w-photo {
+  0%,
+  9% {
+    clip-path: inset(0 100% 0 0 round 0.8em);
+  }
+  22%,
+  94% {
+    clip-path: inset(0 0 0 0 round 0.8em);
+  }
+  100% {
+    clip-path: inset(0 0 0 100% round 0.8em);
+  }
+}
+@keyframes w-cursor {
+  0%,
+  28% {
+    opacity: 0;
+    transform: translate(14em, 7em);
+  }
+  32% {
+    opacity: 1;
+    transform: translate(14em, 7em);
+  }
+  46%,
+  49% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  51% {
+    transform: translate(0, 0) scale(0.82);
+  }
+  54%,
+  94% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes w-press {
+  0%,
+  49%,
+  56%,
+  100% {
+    transform: scale(1);
+    background: var(--ink);
+  }
+  52% {
+    transform: scale(0.9);
+    background: var(--gold-deep);
+  }
+}
+@keyframes w-toast {
+  0%,
+  54% {
+    opacity: 0;
+    transform: translateY(1em) scale(0.6);
+  }
+  60%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 2. A search page: the query is typed, the results arrive, and the business climbs from third to first. */
+.scene--seo .a-win {
+  padding: 1.1em 1.2em 0;
+}
+.s-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  height: 2.7em;
+  padding-inline: 1em;
+  border: 1px solid var(--line-2);
+  border-radius: 2em;
+  box-shadow: var(--shadow-sm);
+}
+.s-bar svg {
+  flex: none;
+  width: 1.15em;
+  height: 1.15em;
+  color: var(--faint);
+}
+.s-typed {
+  max-width: 22em;
+  padding-right: 0.15em;
+  overflow: hidden;
+  border-right: 0.12em solid var(--ink);
+  font-size: 0.92em;
+  font-weight: 500;
+  white-space: nowrap;
+  animation-name: s-type;
+  animation-timing-function: steps(22, end);
+}
+.s-meta {
+  margin: 0.8em 0.3em 0.45em;
+  color: var(--mute);
+  font-size: 0.68em;
+  animation-name: s-show;
+}
+.s-list {
+  position: relative;
+  height: 14em;
+}
+.s-res {
+  position: absolute;
+  inset: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  height: 4.2em;
+  padding-inline: 0.8em;
+  border: 1px solid transparent;
+  border-radius: 0.9em;
+  background: #fff;
+}
+.s-fav {
+  flex: none;
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  background: #e9e6df;
+}
+.s-text {
+  display: grid;
+  flex: 1;
+  gap: 0.12em;
+  min-width: 0;
+}
+.s-text small {
+  overflow: hidden;
+  color: var(--mute);
+  font-size: 0.6em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.s-text b {
+  overflow: hidden;
+  color: #1a56c4;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.s-text i {
+  width: 72%;
+  height: 0.5em;
+  border-radius: 0.3em;
+  background: #eceae4;
+}
+.s-rate {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  color: var(--mute);
+  font-size: 0.64em;
+}
+.s-rate .a-stars {
+  animation-name: s-stars;
+}
+.s-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.4em 0.8em;
+  border-radius: 2em;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 600;
+  animation-name: s-pop;
+}
+.s-call svg {
+  width: 0.9em;
+  height: 0.9em;
+}
+.s-first {
+  position: absolute;
+  right: -0.4em;
+  top: -0.7em;
+  padding: 0.15em 0.6em;
+  border-radius: 2em;
+  background: var(--gold);
+  box-shadow: var(--shadow-sm);
+  font-size: 0.72em;
+  font-weight: 700;
+  animation-name: s-pop;
+}
+.s-res--o1 {
+  transform: translateY(4.7em);
+  animation-name: s-o1;
+}
+.s-res--o2 {
+  transform: translateY(9.4em);
+  animation-name: s-o2;
+}
+.s-res--you {
+  z-index: 2;
+  border-color: var(--gold);
+  background: var(--gold-tint);
+  box-shadow: 0 0.6em 1.4em -0.6em rgba(148, 100, 15, 0.45);
+  animation-name: s-you;
+}
+@keyframes s-type {
+  0%,
+  2% {
+    max-width: 0;
+  }
+  17%,
+  96% {
+    max-width: 22em;
+  }
+  100% {
+    max-width: 0;
+  }
+}
+@keyframes s-show {
+  0%,
+  17% {
+    opacity: 0;
+  }
+  23%,
+  94% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes s-o1 {
+  0%,
+  17% {
+    opacity: 0;
+    transform: translateY(0.8em);
+  }
+  23%,
+  42% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  52%,
+  94% {
+    opacity: 0.6;
+    transform: translateY(4.7em);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(4.7em);
+  }
+}
+@keyframes s-o2 {
+  0%,
+  19% {
+    opacity: 0;
+    transform: translateY(5.5em);
+  }
+  25%,
+  28% {
+    opacity: 1;
+    transform: translateY(4.7em);
+  }
+  38%,
+  94% {
+    opacity: 0.6;
+    transform: translateY(9.4em);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(9.4em);
+  }
+}
+@keyframes s-you {
+  0%,
+  21% {
+    opacity: 0;
+    transform: translateY(10.2em);
+    border-color: transparent;
+    background: #fff;
+    box-shadow: none;
+  }
+  27%,
+  28% {
+    opacity: 1;
+    transform: translateY(9.4em);
+    border-color: transparent;
+    background: #fff;
+    box-shadow: none;
+  }
+  38%,
+  42% {
+    transform: translateY(4.7em);
+    border-color: transparent;
+    background: #fff;
+    box-shadow: 0 0.6em 1.4em -0.6em rgba(18, 17, 16, 0.3);
+  }
+  52% {
+    transform: translateY(0);
+    border-color: transparent;
+    background: #fff;
+  }
+  57%,
+  94% {
+    opacity: 1;
+    transform: translateY(0);
+    border-color: var(--gold);
+    background: var(--gold-tint);
+    box-shadow: 0 0.6em 1.4em -0.6em rgba(148, 100, 15, 0.45);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes s-stars {
+  0%,
+  38% {
+    clip-path: inset(0 100% 0 0);
+  }
+  56%,
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes s-pop {
+  0%,
+  55% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  61%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 3. A post: it lands, gets a double-tap, the likes climb and a comment comes in. */
+.p-post {
+  position: absolute;
+  left: 50%;
+  top: 1.5em;
+  width: 20em;
+  margin-left: -10em;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 1.1em;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+  animation-name: p-post;
+}
+.p-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.7em 0.9em;
+}
+.p-head .a-logo {
+  border-radius: 50%;
+}
+.p-head > span:nth-child(2) {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+}
+.p-head b {
+  overflow: hidden;
+  font-size: 0.8em;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.p-head small {
+  color: var(--mute);
+  font-size: 0.6em;
+}
+.p-photo {
+  height: 9em;
+}
+.p-tag {
+  position: absolute;
+  left: 0.7em;
+  top: 0.7em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.25em 0.7em;
+  border-radius: 2em;
+  background: rgba(255, 255, 255, 0.94);
+  font-size: 0.64em;
+  font-weight: 650;
+}
+.p-tag svg {
+  width: 1em;
+  height: 1em;
+  color: #1fa765;
+}
+.p-burst {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4.4em;
+  height: 4.4em;
+  margin: -2.2em;
+  color: #fff;
+  filter: drop-shadow(0 0.2em 0.5em rgba(0, 0, 0, 0.3));
+  transform: scale(0);
+  animation-name: p-burst;
+}
+.p-burst svg {
+  width: 100%;
+  height: 100%;
+}
+.p-acts {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 0.65em 0.9em 0.2em;
+}
+.p-acts svg {
+  width: 1.35em;
+  height: 1.35em;
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.p-like {
+  display: inline-flex;
+  animation-name: p-like;
+}
+.p-like svg {
+  fill: #e5484d;
+  stroke: #e5484d;
+  animation-name: p-fill;
+}
+.p-count {
+  margin-left: auto;
+  font-size: 0.72em;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  animation-name: p-count;
+  animation-timing-function: linear;
+}
+.p-count::before {
+  content: counter(likes) " ";
+  counter-reset: likes var(--likes);
+}
+.p-text {
+  padding: 0.2em 0.9em 0.9em;
+  overflow: hidden;
+  color: var(--mute);
+  font-size: 0.7em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.p-text b {
+  color: var(--ink);
+  font-weight: 650;
+}
+.p-comment {
+  right: 0.8em;
+  bottom: 1.5em;
+  animation-name: p-comment;
+}
+.p-comment i {
+  background: var(--gold);
+  box-shadow: 0 0 0 0.3em var(--gold-soft);
+}
+.p-float {
+  position: absolute;
+  left: 73%;
+  top: 62%;
+  width: 1.4em;
+  height: 1.4em;
+  color: #e5484d;
+  opacity: 0;
+  animation-name: p-float;
+  animation-timing-function: ease-out;
+}
+.p-float svg {
+  width: 100%;
+  height: 100%;
+}
+.p-float--2 {
+  left: 80%;
+  animation-delay: 0.35s;
+}
+.p-float--3 {
+  left: 15%;
+  animation-delay: 0.7s;
+}
+@keyframes p-post {
+  0% {
+    opacity: 0;
+    transform: translateY(3em) rotate(3deg);
+  }
+  8%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-1em);
+  }
+}
+@keyframes p-burst {
+  0%,
+  20% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+  29%,
+  34% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40%,
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+@keyframes p-like {
+  0%,
+  23%,
+  32%,
+  100% {
+    transform: scale(1);
+  }
+  27% {
+    transform: scale(1.45);
+  }
+}
+@keyframes p-fill {
+  0%,
+  23% {
+    fill: transparent;
+    stroke: var(--ink);
+  }
+  26%,
+  100% {
+    fill: #e5484d;
+    stroke: #e5484d;
+  }
+}
+@keyframes p-count {
+  0%,
+  24% {
+    --likes: 96;
+  }
+  66%,
+  100% {
+    --likes: 128;
+  }
+}
+@keyframes p-float {
+  0%,
+  26% {
+    opacity: 0;
+    transform: translateY(0) scale(0.5);
+  }
+  32% {
+    opacity: 1;
+  }
+  52%,
+  100% {
+    opacity: 0;
+    transform: translateY(-9em) scale(1.3);
+  }
+}
+@keyframes p-comment {
+  0%,
+  58% {
+    opacity: 0;
+    transform: translateX(4em) scale(0.7);
+  }
+  65%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 4. An ad: it appears, the week's calls build up, someone taps "Call". */
+.d-ad {
+  position: absolute;
+  left: 1.8em;
+  top: 1.9em;
+  width: 18em;
+  padding: 1em 1.1em 1.1em;
+  border: 1px solid var(--line);
+  border-radius: 1em;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+  animation-name: d-ad;
+}
+.d-tag {
+  display: inline-block;
+  padding: 0.12em 0.6em;
+  border-radius: 0.4em;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.6em;
+  font-weight: 650;
+}
+.d-site {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin: 0.7em 0 0.3em;
+  overflow: hidden;
+  color: var(--mute);
+  font-size: 0.66em;
+  white-space: nowrap;
+}
+.d-site .a-logo {
+  border-radius: 50%;
+  font-size: 0.9em;
+}
+.d-title {
+  overflow: hidden;
+  color: #1a56c4;
+  font-size: 1.12em;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.d-line {
+  margin: 0.25em 0 0.8em;
+  color: var(--mute);
+  font-size: 0.7em;
+}
+.scene--ads .w-call {
+  animation-name: w-press;
+}
+.d-chart {
+  position: absolute;
+  right: 1.8em;
+  bottom: 1.5em;
+  width: 12.4em;
+  padding: 0.9em 1em;
+  border: 1px solid var(--line);
+  border-radius: 1em;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+  animation-name: d-chart;
+}
+.d-chart small {
+  color: var(--mute);
+  font-size: 0.64em;
+  font-weight: 600;
+}
+.d-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.4em;
+  height: 5.2em;
+  margin-top: 0.6em;
+}
+.d-bars i {
+  flex: 1;
+  height: var(--h);
+  border-radius: 0.25em 0.25em 0 0;
+  background: #e4dfd3;
+  transform-origin: bottom;
+  animation-name: d-bar;
+  animation-delay: calc(var(--n) * 0.22s);
+}
+.d-bars i:last-child {
+  background: var(--gold);
+}
+.d-toast {
+  right: 1.2em;
+  top: 1.6em;
+  animation-name: w-toast;
+}
+.scene--ads .a-cursor {
+  left: 10%;
+  top: 60%;
+  animation-name: w-cursor;
+}
+@keyframes d-ad {
+  0% {
+    opacity: 0;
+    transform: translateX(-8em);
+  }
+  9%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes d-chart {
+  0%,
+  7% {
+    opacity: 0;
+    transform: translateY(4em);
+  }
+  16%,
+  94% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes d-bar {
+  0%,
+  16% {
+    transform: scaleY(0);
+  }
+  24%,
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+/* 5. A brand: two business cards slide together, the colours pop in, the mark changes shape. */
+.b-card {
+  position: absolute;
+  width: 15.5em;
+  height: 9em;
+  border-radius: 0.9em;
+  box-shadow: var(--shadow-lg);
+}
+.b-card--back {
+  left: 9.6em;
+  top: 3em;
+  display: grid;
+  place-items: center;
+  background: var(--gold);
+  transform: rotate(7deg);
+  animation-name: b-back;
+}
+.b-card--front {
+  left: 2.8em;
+  top: 5.6em;
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  gap: 0.25em;
+  padding: 1.1em 1.3em;
+  border: 1px solid var(--line);
+  background: #fff;
+  transform: rotate(-5deg);
+  animation-name: b-front;
+}
+.b-card--front b {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.b-card--front small {
+  color: var(--mute);
+  font-size: 0.66em;
+}
+.b-mark {
+  display: grid;
+  place-items: center;
+  width: 2.3em;
+  height: 2.3em;
+  border-radius: 0.7em;
+  background: var(--ink);
+  color: var(--gold);
+  font-weight: 700;
+  animation-name: b-mark;
+  animation-timing-function: var(--pop);
+}
+.b-card--back .b-mark {
+  width: 2.4em;
+  height: 2.4em;
+  background: #fff;
+  color: var(--ink);
+  font-size: 1.6em;
+}
+.b-lines {
+  display: grid;
+  gap: 0.35em;
+  width: 8em;
+  margin-top: 0.4em;
+}
+.b-lines i {
+  height: 0.4em;
+  border-radius: 0.3em;
+  background: #ebe8e1;
+}
+.b-lines i:last-child {
+  width: 60%;
+}
+.b-swatches {
+  position: absolute;
+  right: 2em;
+  top: 2em;
+  display: grid;
+  gap: 0.5em;
+}
+.b-swatches i {
+  width: 2em;
+  height: 2em;
+  border: 1px solid var(--line-2);
+  border-radius: 50%;
+  box-shadow: var(--shadow-sm);
+  animation-name: b-swatch;
+  animation-delay: calc(var(--n) * 0.18s);
+  animation-timing-function: var(--pop);
+}
+.b-sign {
+  position: absolute;
+  right: 5.2em;
+  bottom: 1.4em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  max-width: 13em;
+  padding: 0.5em 1em 0.5em 0.5em;
+  overflow: hidden;
+  border-radius: 2em;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.74em;
+  font-weight: 650;
+  white-space: nowrap;
+  animation-name: w-toast;
+}
+.b-sign .b-mark {
+  flex: none;
+  width: 1.9em;
+  height: 1.9em;
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--ink);
+}
+@keyframes b-back {
+  0% {
+    opacity: 0;
+    transform: translateX(10em) rotate(24deg);
+  }
+  12%,
+  94% {
+    opacity: 1;
+    transform: rotate(7deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(4em) rotate(12deg);
+  }
+}
+@keyframes b-front {
+  0%,
+  5% {
+    opacity: 0;
+    transform: translateX(-10em) rotate(-22deg);
+  }
+  18%,
+  94% {
+    opacity: 1;
+    transform: rotate(-5deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-4em) rotate(-10deg);
+  }
+}
+@keyframes b-mark {
+  0%,
+  30%,
+  92%,
+  100% {
+    border-radius: 0.7em;
+  }
+  40%,
+  58% {
+    border-radius: 50%;
+  }
+  68%,
+  84% {
+    border-radius: 0.7em 0.7em 0.7em 0.1em;
+  }
+}
+@keyframes b-swatch {
+  0%,
+  20% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  28%,
+  94% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 6. Looking after the site: the status bars fill, then each job is ticked off. */
+.c-panel {
+  position: absolute;
+  left: 50%;
+  top: 1.9em;
+  width: 24em;
+  margin-left: -12em;
+  padding: 1.1em 1.3em 1.2em;
+  border: 1px solid var(--line);
+  border-radius: 1.1em;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+  animation-name: p-post;
+}
+.c-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+.c-head b {
+  flex: 1;
+  overflow: hidden;
+  font-size: 0.84em;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.c-head em {
+  padding: 0.15em 0.7em;
+  border-radius: 2em;
+  background: #e3f6ec;
+  color: #157a4c;
+  font-size: 0.66em;
+  font-style: normal;
+  font-weight: 700;
+}
+.c-dot {
+  flex: none;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+  background: #1fa765;
+  animation: c-pulse 1.8s ease-out infinite;
+}
+.c-bars {
+  display: flex;
+  gap: 0.22em;
+  height: 2.2em;
+  margin: 0.9em 0 1em;
+}
+.c-bars i {
+  flex: 1;
+  border-radius: 0.2em;
+  background: #1fa765;
+  opacity: 0.85;
+  transform-origin: bottom;
+  animation-name: c-bar;
+  animation-delay: calc(var(--n) * 0.07s);
+}
+.c-panel ul {
+  display: grid;
+  gap: 0.55em;
+}
+.c-panel li {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  font-size: 0.8em;
+  font-weight: 500;
+  animation-name: c-row;
+  animation-delay: calc(var(--n) * 0.75s);
+}
+.c-panel li span {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  color: var(--gold-deep);
+  animation-name: c-tick;
+  animation-delay: calc(var(--n) * 0.75s);
+  animation-timing-function: var(--pop);
+}
+.c-panel li svg {
+  width: 0.9em;
+  height: 0.9em;
+}
+@keyframes c-pulse {
+  from {
+    box-shadow: 0 0 0 0 rgba(31, 167, 101, 0.5);
+  }
+  to {
+    box-shadow: 0 0 0 0.7em rgba(31, 167, 101, 0);
+  }
+}
+@keyframes c-bar {
+  0%,
+  8% {
+    transform: scaleY(0);
+  }
+  14%,
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes c-row {
+  0%,
+  30% {
+    opacity: 0.25;
+  }
+  36%,
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes c-tick {
+  0%,
+  30% {
+    transform: scale(0);
+  }
+  37%,
+  100% {
+    transform: scale(1);
+  }
+}

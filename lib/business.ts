@@ -32,3 +32,9 @@ export function slugForBusiness(name: string) {
     .replace(/[^\p{L}\p{N}]+/gu, "-")
     .replace(/^-|-$/g, "");
 }
+
+/** A web address for the drawings: "Smith Septic" becomes smithseptic.com. */
+export function domainForBusiness(name: string) {
+  const joined = name.toLowerCase().replace(/[^a-z0-9]+/g, "");
+  return joined ? `${joined.slice(0, 22)}.com` : null;
+}

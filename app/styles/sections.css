@@ -33,7 +33,7 @@
 }
 .svc__art {
   position: relative;
-  height: 150px;
+  aspect-ratio: 16 / 10.6;
   margin-bottom: 8px;
   overflow: hidden;
   border-radius: 16px;
@@ -95,318 +95,6 @@
   }
 }
 
-/* The small drawings. */
-.art {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-}
-.art--web {
-  place-items: start;
-  align-content: start;
-  gap: 10px;
-  padding: 18px 22px;
-}
-.art--web .win {
-  display: flex;
-  gap: 5px;
-}
-.art--web .win i {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--line-2);
-}
-.art--web .ln {
-  width: 70%;
-  height: 10px;
-  border-radius: 6px;
-  background: rgba(18, 17, 16, 0.1);
-}
-.art--web .ln--short {
-  width: 44%;
-}
-.art--web .cta {
-  width: 92px;
-  height: 30px;
-  margin-top: 6px;
-  border-radius: 999px;
-  background: var(--ink);
-  animation: press 3.2s var(--out) infinite;
-}
-.art--web .cur {
-  position: absolute;
-  left: 150px;
-  top: 112px;
-  width: 22px;
-  height: 22px;
-  fill: var(--gold);
-  stroke: #fff;
-  stroke-width: 1.5;
-  animation: cursor 3.2s var(--out) infinite;
-}
-@keyframes cursor {
-  0%,
-  12%,
-  100% {
-    transform: translate(70px, 16px);
-  }
-  45%,
-  72% {
-    transform: translate(-68px, -22px);
-  }
-}
-@keyframes press {
-  0%,
-  48%,
-  64%,
-  100% {
-    transform: scale(1);
-    background: var(--ink);
-  }
-  55% {
-    transform: scale(0.92);
-    background: var(--gold-deep);
-  }
-}
-.art--seo {
-  place-items: stretch;
-  align-content: center;
-  gap: 8px;
-  padding: 20px 22px;
-}
-.art--seo .row {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  height: 28px;
-  padding-inline: 10px;
-  border: 1px solid var(--line);
-  border-radius: 9px;
-  background: #fff;
-  animation: down 4.2s var(--out) infinite;
-}
-.art--seo .row--you {
-  position: relative;
-  z-index: 1;
-  border-color: var(--gold);
-  background: var(--gold-tint);
-  color: var(--gold);
-  animation-name: climb;
-}
-.art--seo svg {
-  width: 12px;
-  height: 12px;
-}
-@keyframes climb {
-  0%,
-  16%,
-  100% {
-    transform: translateY(0);
-  }
-  42%,
-  84% {
-    transform: translateY(-72px);
-  }
-}
-@keyframes down {
-  0%,
-  16%,
-  100% {
-    transform: translateY(0);
-  }
-  42%,
-  84% {
-    transform: translateY(36px);
-  }
-}
-.art--social .post {
-  display: grid;
-  place-items: center;
-  width: 86px;
-  height: 86px;
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  background: #fff;
-  box-shadow: var(--shadow-sm);
-  color: var(--gold);
-  animation: like 2.6s var(--pop) infinite;
-}
-.art--social .post svg {
-  width: 34px;
-  height: 34px;
-}
-.art--social .h {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  color: var(--gold);
-  opacity: 0;
-  animation: floatup 2.6s ease-out infinite;
-}
-.art--social .h svg {
-  width: 16px;
-  height: 16px;
-}
-.art--social .h--1 {
-  margin-left: 54px;
-}
-.art--social .h--2 {
-  margin-left: -72px;
-  animation-delay: 0.5s;
-}
-.art--social .h--3 {
-  margin-left: 76px;
-  animation-delay: 1.1s;
-}
-@keyframes floatup {
-  0% {
-    opacity: 0;
-    transform: translateY(22px) scale(0.5);
-  }
-  25% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-62px) scale(1.25);
-  }
-}
-@keyframes like {
-  0%,
-  58%,
-  100% {
-    transform: scale(1);
-  }
-  70% {
-    transform: scale(1.12);
-  }
-}
-.art--ads > svg {
-  width: 52px;
-  height: 52px;
-  transform: translateX(-34px);
-}
-.art--ads i {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 40px;
-  height: 40px;
-  margin: -20px 0 0 -8px;
-  border: 2px solid transparent;
-  border-right-color: var(--gold);
-  border-radius: 50%;
-  opacity: 0;
-  animation: sound 2.1s linear infinite;
-}
-.art--ads i:nth-of-type(2) {
-  animation-delay: 0.7s;
-}
-.art--ads i:nth-of-type(3) {
-  animation-delay: 1.4s;
-}
-@keyframes sound {
-  0% {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-  20% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(2.7);
-  }
-}
-.art--brand {
-  grid-auto-flow: column;
-  place-content: center;
-  gap: 10px;
-}
-.art--brand .mark {
-  display: grid;
-  place-items: center;
-  width: 68px;
-  height: 68px;
-  border-radius: 20px;
-  background: var(--ink);
-  color: #fff;
-  font-family: var(--font-serif), Georgia, serif;
-  font-size: 2.5rem;
-  font-style: italic;
-  line-height: 1;
-  animation: swap 4.5s steps(1) infinite;
-}
-.art--brand .sw {
-  width: 22px;
-  height: 68px;
-  border-radius: 11px;
-  background: var(--ink);
-}
-.art--brand .sw:nth-child(3) {
-  background: var(--gold);
-}
-.art--brand .sw:nth-child(4) {
-  border: 1px solid var(--line-2);
-  background: var(--gold-soft);
-}
-@keyframes swap {
-  0% {
-    background: var(--ink);
-    color: #fff;
-  }
-  33% {
-    background: var(--gold);
-    color: var(--ink);
-  }
-  66% {
-    background: var(--gold-soft);
-    color: var(--gold-deep);
-  }
-}
-.art--care svg {
-  width: 84px;
-  height: 84px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-.art--care circle {
-  stroke: var(--gold);
-  stroke-width: 3;
-  stroke-dasharray: 151;
-  transform: rotate(-90deg);
-  transform-origin: center;
-  animation: draw 3.6s var(--out) infinite;
-}
-.art--care path {
-  stroke: var(--ink);
-  stroke-width: 4;
-  stroke-dasharray: 32;
-  animation: tick 3.6s var(--out) infinite;
-}
-@keyframes draw {
-  0% {
-    stroke-dashoffset: 151;
-  }
-  50%,
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-@keyframes tick {
-  0%,
-  45% {
-    stroke-dashoffset: 32;
-  }
-  65%,
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
 /* "Also on the menu": two rows running in opposite directions. */
 .more {
   display: grid;
@@ -427,11 +115,11 @@
   gap: 10px;
   width: max-content;
   padding-right: 10px;
-  animation: ticker 38s linear infinite;
+  animation: ticker 150s linear infinite;
 }
 .more__row--b ul {
   animation-direction: reverse;
-  animation-duration: 44s;
+  animation-duration: 170s;
 }
 .more__row li {
   padding: 0.6em 1.2em;
@@ -475,7 +163,7 @@
 .ba {
   --x: 50%;
   position: relative;
-  width: min(76vw, 330px);
+  width: min(76vw, 20.6rem);
   aspect-ratio: 9 / 18;
   border: 10px solid #17161a;
   border-radius: 46px;
@@ -533,7 +221,7 @@
 .ba__labels {
   display: flex;
   justify-content: space-between;
-  width: min(76vw, 330px);
+  width: min(76vw, 20.6rem);
   padding-inline: 6px;
   font-size: 0.84rem;
   font-weight: 500;
@@ -592,27 +280,36 @@
   }
 }
 
-/* Three lines of very large type, sliding in opposite directions. */
+/* Three bands of very large type. Each is far wider than the screen and slides against its neighbours. */
 .band {
   --p: 0.5;
   display: grid;
-  gap: 0.08em;
-  padding-block: clamp(70px, 11vw, 150px);
+  gap: 0.1em;
+  padding-block: clamp(56px, 8vw, 120px);
   overflow-x: clip;
   border-block: 1px solid var(--line);
-  font-size: clamp(1.8rem, 7.5vw, 7.2rem);
+  font-size: clamp(2.6rem, 9vw, 10.5rem);
 }
 .band__row {
-  display: flex;
-  justify-content: center;
   font-weight: 600;
-  line-height: 1.08;
+  line-height: 1.04;
   letter-spacing: -0.045em;
   white-space: nowrap;
 }
-.band__row span {
-  transform: translate3d(calc((var(--p) - 0.5) * var(--dir) * 30%), 0, 0);
+.band__row > span {
+  display: inline-flex;
+  width: max-content;
+  /* Starts a third of the way in, then travels a fifth of its own length either way. */
+  transform: translate3d(calc(-34% + (var(--p) - 0.5) * var(--dir) * 22%), 0, 0);
   will-change: transform;
+}
+.band__row > span > span::after {
+  content: "✦";
+  display: inline-block;
+  margin-inline: 0.5em;
+  color: var(--gold);
+  font-size: 0.34em;
+  vertical-align: middle;
 }
 .band__row em {
   font-family: var(--font-serif), Georgia, serif;
@@ -621,8 +318,16 @@
   letter-spacing: -0.02em;
   color: var(--gold-deep);
 }
-.band__row:nth-child(2) {
+.band__row:nth-child(odd) {
   color: var(--faint);
+}
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 /* A very large word behind the steps, sliding across as the section scrolls by. */

@@ -1,81 +1,10 @@
-import type { CSSProperties, ReactNode } from "react";
-import { band, faq, footer, process, services, studio, type Service } from "@/content/studio";
+import type { CSSProperties } from "react";
+import { band, faq, footer, process, services, studio } from "@/content/studio";
 import { Track } from "./fx";
-import { ArrowOut, Heart, Megaphone, Star } from "./icons";
+import { ArrowOut } from "./icons";
+import { ServiceArt } from "./service-art";
 import { Label } from "./label";
 import { Rich } from "./rich";
-
-/** A small moving drawing for each service, in ink and gold. Decoration only. */
-const art: Record<Service["key"], ReactNode> = {
-  web: (
-    <div className="art art--web">
-      <span className="win">
-        <i />
-        <i />
-        <i />
-      </span>
-      <span className="ln" />
-      <span className="ln ln--short" />
-      <span className="cta" />
-      <svg className="cur" viewBox="0 0 24 24" focusable="false">
-        <path d="M5 3l14 8-6 1.500L10 19z" />
-      </svg>
-    </div>
-  ),
-  seo: (
-    <div className="art art--seo">
-      <span className="row" />
-      <span className="row" />
-      <span className="row row--you">
-        <Star />
-        <Star />
-        <Star />
-        <Star />
-        <Star />
-      </span>
-    </div>
-  ),
-  social: (
-    <div className="art art--social">
-      <span className="post">
-        <Heart />
-      </span>
-      <span className="h h--1">
-        <Heart />
-      </span>
-      <span className="h h--2">
-        <Heart />
-      </span>
-      <span className="h h--3">
-        <Heart />
-      </span>
-    </div>
-  ),
-  ads: (
-    <div className="art art--ads">
-      <Megaphone />
-      <i />
-      <i />
-      <i />
-    </div>
-  ),
-  brand: (
-    <div className="art art--brand">
-      <span className="mark">A</span>
-      <span className="sw" />
-      <span className="sw" />
-      <span className="sw" />
-    </div>
-  ),
-  care: (
-    <div className="art art--care">
-      <svg viewBox="0 0 60 60" focusable="false">
-        <circle cx="30" cy="30" r="24" />
-        <path d="m20 31 7 7 14-15" />
-      </svg>
-    </div>
-  ),
-};
 
 export function Services() {
   return (
@@ -91,7 +20,7 @@ export function Services() {
           {services.list.map((service) => (
             <Track as="article" mode="view" className="svc" key={service.key}>
               <div className="svc__art" aria-hidden="true">
-                {art[service.key]}
+                <ServiceArt kind={service.key} />
               </div>
               <p className="svc__name">{service.name}</p>
               <h3>{service.title}</h3>
@@ -109,12 +38,15 @@ export function Services() {
         <p className="more__title wrap">{services.moreTitle}</p>
         {services.more.map((row, r) => (
           <div className={r % 2 ? "more__row more__row--b" : "more__row"} key={r}>
+            {/* Repeated enough times to fill the widest screen; only the first set is read out. */}
             <ul>
-              {[...row, ...row].map((item, i) => (
-                <li key={i} aria-hidden={i >= row.length}>
-                  {item}
-                </li>
-              ))}
+              {Array.from({ length: 8 }, () => row)
+                .flat()
+                .map((item, i) => (
+                  <li key={i} aria-hidden={i >= row.length}>
+                    {item}
+                  </li>
+                ))}
             </ul>
           </div>
         ))}
@@ -123,14 +55,22 @@ export function Services() {
   );
 }
 
-/** Three lines of very large type that slide in opposite directions as the page scrolls. */
+/**
+ * Three bands of very large type. Each repeats its line until it is far wider than the screen, and the
+ * bands slide in opposite directions as the page scrolls, so on any screen it reads as moving type.
+ */
 export function Band() {
   return (
     <Track as="section" mode="view" className="band">
+      <h2 className="sr">{band.map((line) => line.join(" ")).join(" ")}</h2>
       {band.map(([plain, accent], i) => (
-        <p className="band__row" key={plain} style={{ "--dir": i % 2 ? 1 : -1 } as CSSProperties}>
+        <p className="band__row" key={plain} aria-hidden="true" style={{ "--dir": i % 2 ? 1 : -1 } as CSSProperties}>
           <span>
-            {plain} <em>{accent}</em>
+            {[0, 1, 2, 3, 4, 5].map((n) => (
+              <span key={n}>
+                {plain} <em>{accent}</em>
+              </span>
+            ))}
           </span>
         </p>
       ))}
