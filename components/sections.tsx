@@ -1,8 +1,8 @@
-import Image from "next/image";
 import type { CSSProperties, ReactNode } from "react";
-import { about, band, faq, footer, process, services, studio, type Service } from "@/content/studio";
-import { CountUp, Track } from "./fx";
+import { band, faq, footer, process, services, studio, type Service } from "@/content/studio";
+import { Track } from "./fx";
 import { ArrowOut, Heart, Megaphone, Star } from "./icons";
+import { Label } from "./label";
 import { Rich } from "./rich";
 
 /** A small moving drawing for each service, in ink and gold. Decoration only. */
@@ -82,13 +82,10 @@ export function Services() {
     <section className="section services" id="services">
       <div className="wrap">
         <div className="section__head">
-          <p className="eyebrow" data-reveal>
-            <i />
-            {services.kicker}
-          </p>
-          <h2 className="h2" data-reveal>
+          <Label n="02">{services.kicker}</Label>
+          <Track as="h2" mode="read" className="h2 h2--fill">
             <Rich text={services.title} />
-          </h2>
+          </Track>
         </div>
         <div className="svc-grid">
           {services.list.map((service) => (
@@ -143,16 +140,16 @@ export function Band() {
 
 export function Process() {
   return (
-    <section className="section section--soft process" id="process">
+    <Track as="section" mode="view" className="section section--soft process" id="process">
+      <span className="ghost" aria-hidden="true">
+        {process.ghost}
+      </span>
       <div className="wrap">
         <div className="section__head">
-          <p className="eyebrow" data-reveal>
-            <i />
-            {process.kicker}
-          </p>
-          <h2 className="h2" data-reveal>
+          <Label n="05">{process.kicker}</Label>
+          <Track as="h2" mode="read" className="h2 h2--fill">
             <Rich text={process.title} />
-          </h2>
+          </Track>
         </div>
         <Track as="div" mode="read" className="steps">
           <span className="steps__line" aria-hidden="true">
@@ -169,43 +166,7 @@ export function Process() {
           </ol>
         </Track>
       </div>
-    </section>
-  );
-}
-
-export function About() {
-  return (
-    <section className="section about" id="about">
-      <div className="wrap about__grid">
-        <Track as="div" mode="view" className="about__photo">
-          <Image src="/images/me/ubaid.jpg" alt={studio.name} width={800} height={800} sizes="(min-width: 900px) 420px, 90vw" />
-        </Track>
-        <div className="about__copy">
-          <p className="eyebrow" data-reveal>
-            <i />
-            {about.kicker}
-          </p>
-          <h2 className="h2" data-reveal>
-            <Rich text={about.title} />
-          </h2>
-          {about.text.map((paragraph) => (
-            <p className="about__p" key={paragraph} data-reveal>
-              {paragraph}
-            </p>
-          ))}
-          <dl className="stats" data-reveal>
-            {about.stats.map((stat) => (
-              <div key={stat.label}>
-                <dt>{stat.label}</dt>
-                <dd>
-                  <CountUp value={stat.value} suffix={stat.suffix} />
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-      </div>
-    </section>
+    </Track>
   );
 }
 
@@ -214,13 +175,10 @@ export function Faq() {
     <section className="section section--soft faq" id="faq">
       <div className="wrap faq__grid">
         <div className="section__head">
-          <p className="eyebrow" data-reveal>
-            <i />
-            {faq.kicker}
-          </p>
-          <h2 className="h2" data-reveal>
+          <Label n="06">{faq.kicker}</Label>
+          <Track as="h2" mode="read" className="h2 h2--fill">
             <Rich text={faq.title} />
-          </h2>
+          </Track>
         </div>
         <div className="faq__list">
           {faq.list.map(([question, answer], i) => (
@@ -267,6 +225,14 @@ export function Footer() {
           {footer.hiring} <ArrowOut size={15} />
         </a>
       </div>
+      {/* The name, very large, each letter rising into place. */}
+      <p className="footer__big" aria-hidden="true" data-reveal>
+        {`${studio.name}.`.split("").map((letter, i) => (
+          <span key={i} style={{ "--d": i } as CSSProperties}>
+            {letter}
+          </span>
+        ))}
+      </p>
     </footer>
   );
 }

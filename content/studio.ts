@@ -6,13 +6,15 @@
  */
 
 export const studio = {
-  name: "Ubaidullah Omer",
-  short: "Ubaid",
+  /** The name shown on the site. */
+  name: "Ubaid",
+  /** The full name, used only in the data search engines read. */
+  fullName: "Ubaidullah Omer",
   url: "https://itsubaidullahomer.com",
   email: "itsubaidullahomer@gmail.com",
   /** The hiring portfolio that used to be on this domain. */
   engineerUrl: "https://cv.itsubaidullahomer.com",
-  title: "Websites, Google and social media for local businesses",
+  title: "Websites, SEO and social media for local businesses",
   description:
     "I build websites, set up Google and run social media for local businesses, so more nearby customers find you and call. One person, start to finish.",
   social: {
@@ -23,175 +25,45 @@ export const studio = {
 
 export const hero = {
   eyebrow: ["Web design", "SEO", "Social media", "Ads"],
-  /** The headline, in three parts. The middle word sits in a search bar. */
-  title: { before: "Your next customer is", search: "searching", after: "right now." },
-  lede: "Let’s make sure they find you. Websites, Google and social media for local businesses, handled from start to finish.",
-  primary: "See how it works",
-  secondary: "Email me",
-  role: "Web design & marketing",
-  /** Small labels that drift around the portrait. */
-  chips: ["Web design", "Local SEO", "Social media", "Google Ads"],
-  /** Real work shown as the two cards behind the portrait. `at` is how far down the capture the card looks. */
-  fan: [
-    { src: "/images/ali-foodies/compare/after-home.jpg", width: 780, height: 4600, at: "9%" },
-    { src: "/images/tututor/mobile/alumnos-home.jpg", width: 720, height: 1557, at: "0%" },
-  ],
+  /** The headline, one line per entry. "soft" lines are set in grey, "ink" lines in black. */
+  title: [
+    ["Websites,", "soft"],
+    ["SEO & social", "soft"],
+    ["that bring you", "ink"],
+    ["more customers.", "ink"],
+  ] as [string, "soft" | "ink"][],
+  lede: "I build websites, get local businesses found on Google and run their social media. One person, from start to finish.",
+  primary: "Get in touch",
+  secondary: "See my work",
+  /** The words around the turning badge on the portrait. */
+  badge: "Web design • SEO • Social media • Ads • ",
+  /** A real piece of work, shown as a small moving preview. */
+  peek: {
+    src: "/images/ali-foodies/compare/after-home.jpg",
+    width: 780,
+    height: 4600,
+    label: "Latest: Ali’s Foodies",
+    href: "#before-after",
+  },
+  stat: { value: 20, suffix: "k+", label: "people use what I’ve built" },
 };
 
 export const tape = ["Websites", "Google Maps", "Local SEO", "Social media", "Ads", "Logos", "Reviews", "Online booking"];
 
-/** The kind of business the demo phone shows. `match` words pick one from a business name. */
-export type Trade = {
-  key: string;
-  label: string;
-  match: string[];
-  query: string;
-  headline: string;
-  jobs: [string, string, string];
-  review: string;
-  post: string;
-  ad: string;
-};
+/** The words on the gold strip that runs down the hero. */
+export const strip = ["Web design", "SEO", "Social media", "Branding", "Ads"];
 
-export const trades: Trade[] = [
-  {
-    key: "septic",
-    label: "Septic",
-    match: ["septic", "sewer", "pumping"],
-    query: "septic pumping near me",
-    headline: "Septic pumping without the wait.",
-    jobs: ["Pumping", "Inspections", "Repairs"],
-    review: "Came out the same day. Fair price, no mess.",
-    post: "Slow drains this week? We’re in your area.",
-    ad: "Tank due for a pump-out?",
-  },
-  {
-    key: "plumbing",
-    label: "Plumbing",
-    match: ["plumb", "drain", "rooter", "pipe"],
-    query: "emergency plumber near me",
-    headline: "Leaks fixed fast. Done right.",
-    jobs: ["Leaks", "Water heaters", "Drains"],
-    review: "Fixed the leak in an hour. Friendly and fair.",
-    post: "Cold snap coming. Here’s how to protect your pipes.",
-    ad: "Leak that can’t wait?",
-  },
-  {
-    key: "roofing",
-    label: "Roofing",
-    match: ["roof", "gutter", "siding"],
-    query: "roof repair near me",
-    headline: "A roof you can stop worrying about.",
-    jobs: ["Repairs", "New roofs", "Inspections"],
-    review: "Honest quote, and the crew cleaned up after.",
-    post: "Storm last night? Here’s what to check first.",
-    ad: "Missing shingles after the storm?",
-  },
-  {
-    key: "hvac",
-    label: "Heating & air",
-    match: ["hvac", "heating", "cooling", "air", "furnace", "mechanical"],
-    query: "ac repair near me",
-    headline: "Comfortable again by tonight.",
-    jobs: ["AC repair", "Heating", "Tune-ups"],
-    review: "House was cool again by dinner. Great service.",
-    post: "Three signs your AC needs a tune-up.",
-    ad: "AC blowing warm air?",
-  },
-  {
-    key: "lawn",
-    label: "Lawn care",
-    match: ["lawn", "landscap", "tree", "garden", "mowing", "yard"],
-    query: "lawn care near me",
-    headline: "The best-looking yard on the block.",
-    jobs: ["Mowing", "Clean-ups", "Planting"],
-    review: "Shows up every week. The yard has never looked better.",
-    post: "Before and after: a weekend clean-up.",
-    ad: "Yard getting away from you?",
-  },
-  {
-    key: "cleaning",
-    label: "Cleaning",
-    match: ["clean", "maid", "janitor", "wash"],
-    query: "house cleaning near me",
-    headline: "Come home to a clean house.",
-    jobs: ["Homes", "Offices", "Move-outs"],
-    review: "Spotless every time. I’ve stopped checking.",
-    post: "Our five-minute kitchen reset.",
-    ad: "Need the house guest-ready?",
-  },
-  {
-    key: "electric",
-    label: "Electrical",
-    match: ["electric", "wiring", "lighting"],
-    query: "electrician near me",
-    headline: "Safe, tidy electrical work.",
-    jobs: ["Repairs", "Panels", "Lighting"],
-    review: "On time, explained everything, left it tidy.",
-    post: "Flickering lights? Here’s when to call.",
-    ad: "Breaker keeps tripping?",
-  },
-  {
-    key: "auto",
-    label: "Auto repair",
-    match: ["auto", "tire", "mechanic", "collision", "garage", "brake", "towing"],
-    query: "auto repair near me",
-    headline: "Back on the road. No surprises.",
-    jobs: ["Brakes", "Oil & tune-ups", "Diagnostics"],
-    review: "Told me what could wait and what couldn’t. Rare.",
-    post: "What that dashboard light is telling you.",
-    ad: "Check-engine light on?",
-  },
-  {
-    key: "other",
-    label: "Something else",
-    match: [],
-    query: "best local service near me",
-    headline: "The local name people trust.",
-    jobs: ["What you do", "Where you work", "How to book"],
-    review: "Easy to reach, did exactly what they said.",
-    post: "A look at this week’s jobs.",
-    ad: "Need it done this week?",
-  },
-];
-
-export const defaultTrade = "septic";
-
-export const story = {
-  kicker: "How it works",
-  title: "Watch a customer *find you.*",
-  prompt: "What kind of business do you run?",
-  namePrompt: "Business name (optional)",
-  placeholderName: "Your Business",
-  steps: [
-    {
-      tag: "The search",
-      title: "Someone nearby needs help.",
-      text: "Right now, a few miles from you, a person is typing this into their phone.",
-    },
-    {
-      tag: "Google & local SEO",
-      title: "They find you.",
-      text: "I set up your Google profile, tune your website and help the reviews come in, so yours is the name they see.",
-    },
-    {
-      tag: "Web design",
-      title: "Your site makes it easy.",
-      text: "One clear page that loads fast and says what you do. The call button is always under their thumb.",
-    },
-    {
-      tag: "Social media, reviews & ads",
-      title: "You look busy and trusted.",
-      text: "Fresh posts, answered reviews and a few well-aimed ads. Proof that real people hire you.",
-    },
-    {
-      tag: "The whole point",
-      title: "They call you.",
-      text: "That’s the job: more of the right people picking up the phone.",
-    },
+export const intro = {
+  kicker: "Who I am",
+  /** Lights up word by word as it is read. */
+  statement:
+    "I’m Ubaid. I build websites, get local businesses found on Google and run their social media, so more of the right customers find you and call.",
+  points: ["One person, from start to finish.", "A fixed quote before any work starts.", "You deal with me directly."],
+  stats: [
+    { value: 4, suffix: "", label: "years building for the web" },
+    { value: 8, suffix: "", label: "products launched" },
+    { value: 20, suffix: "k+", label: "people using what I’ve built" },
   ],
-  cta: "Let’s set this up",
-  example: "example",
 };
 
 export type Service = {
@@ -295,7 +167,8 @@ export type WorkItem = {
 export const work = {
   kicker: "Work",
   title: "Things I’ve built that people *use every day.*",
-  hint: "Keep scrolling",
+  /** The two giant words that slide apart before the cards arrive. */
+  split: ["Recent", "work"],
   items: [
     {
       key: "tututor",
@@ -369,25 +242,13 @@ export const band = [
 export const process = {
   kicker: "Working together",
   title: "Four steps. *No surprises.*",
+  /** The very large word behind the steps. */
+  ghost: "Steps",
   steps: [
     { title: "We talk.", text: "A short call. You tell me about the business and what’s not working." },
     { title: "You get a plan.", text: "What I’d build, what it costs and how long it takes. A fixed quote, in writing, before anything starts." },
     { title: "I build. You react.", text: "You see it early and tell me what to change. Nothing technical to learn." },
     { title: "We go live.", text: "Then I stay around to keep it working and keep it fresh." },
-  ],
-};
-
-export const about = {
-  kicker: "Who you’ll work with",
-  title: "One person *who answers.*",
-  text: [
-    "I’m Ubaid. For four years I’ve been building websites and apps that thousands of people use every day.",
-    "Now I do the same for local businesses. You deal with me directly: when you email, I reply, and when something breaks, I fix it.",
-  ],
-  stats: [
-    { value: 4, suffix: "", label: "years building for the web" },
-    { value: 8, suffix: "", label: "products launched" },
-    { value: 20, suffix: "k+", label: "people using what I’ve built" },
   ],
 };
 
@@ -425,6 +286,8 @@ export const faq = {
 export const contact = {
   kicker: "Your turn",
   title: { before: "Let’s get you", accent: "found." },
+  /** The giant line that runs across the top of the panel. */
+  shout: "Let’s talk",
   text: "Tell me what you need. I’ll reply with what I’d do and what it would cost.",
   needLabel: "I need help with",
   needs: ["A website", "Google & SEO", "Social media", "Ads", "Logo & branding", "Not sure yet"],

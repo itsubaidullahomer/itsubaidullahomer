@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent } from "react";
 import { compare } from "@/content/studio";
 import { prefersReducedMotion, Track } from "./fx";
+import { Label } from "./label";
 import { Rich } from "./rich";
 
 const clamp = (n: number) => Math.round(Math.min(96, Math.max(4, n)));
@@ -72,13 +73,10 @@ export function Compare() {
     <Track as="section" mode="view" className="section compare" id="before-after">
       <div className="wrap compare__grid">
         <div className="section__head">
-          <p className="eyebrow" data-reveal>
-            <i />
-            {compare.kicker}
-          </p>
-          <h2 className="h2" data-reveal>
+          <Label n="03">{compare.kicker}</Label>
+          <Track as="h2" mode="read" className="h2 h2--fill">
             <Rich text={compare.title} />
-          </h2>
+          </Track>
           <p className="lede" data-reveal>
             {compare.text}
           </p>

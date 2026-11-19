@@ -1,30 +1,50 @@
-/* The hero. --p is how far it has scrolled away: 0 at the top of the page, 1 once it is gone. */
+/*
+ * The opening panel. --p is how far it has scrolled away: 0 at the top of the page, 1 once it is gone.
+ * Everything that plays on load uses a "from" keyframe with backwards fill, so once it has played the
+ * element rests on its own scroll-driven transform.
+ */
 .hero {
   --p: 0;
+}
+.hero__panel {
   position: relative;
   isolation: isolate;
   display: grid;
   align-content: start;
-  gap: 52px;
+  gap: 26px;
   min-height: 100svh;
-  padding: calc(var(--bar) + 5svh) var(--gutter) 72px;
-  overflow: clip;
+  padding: calc(var(--bar) + 4svh) var(--gutter) 0;
+  overflow: hidden;
+  border-radius: 0 0 calc(32px + var(--p) * 28px) calc(32px + var(--p) * 28px);
+  background: var(--soft);
+  transform: scale(calc(1 - var(--p) * 0.04));
+  transform-origin: 50% 0;
 }
-.hero__glow {
+/* Thin rules down the panel, drawn in one after the other. */
+.hero__rules {
   position: absolute;
-  left: 50%;
-  bottom: -18%;
+  inset: 0 var(--gutter);
   z-index: -1;
-  width: max(120vw, 700px);
-  aspect-ratio: 1.3;
-  background: radial-gradient(closest-side, rgba(200, 146, 42, 0.2), rgba(200, 146, 42, 0.06) 55%, transparent);
-  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
   pointer-events: none;
 }
+.hero__rules i {
+  width: 1px;
+  background: rgba(18, 17, 16, 0.07);
+  transform-origin: top;
+  animation: rule 1.6s var(--out) backwards;
+  animation-delay: calc(var(--n) * 110ms);
+}
+@keyframes rule {
+  from {
+    transform: scaleY(0);
+  }
+}
+
 .madefor {
   display: inline-flex;
   gap: 0.4em;
-  margin-bottom: 18px;
   padding: 0.4em 0.95em;
   border: 1px solid rgba(200, 146, 42, 0.45);
   border-radius: 999px;
@@ -38,90 +58,43 @@
 .madefor b {
   font-weight: 600;
 }
+.hero__head {
+  display: grid;
+  gap: 16px;
+  justify-items: start;
+}
 .hero .eyebrow {
   animation: rise 0.8s var(--out) 0.1s backwards;
 }
+/* The headline: two grey lines, two black. Each rises out of its own slot, and they drift apart on the way out. */
 .hero__title {
-  margin-top: 18px;
-  font-size: clamp(2.6rem, 11.4vw, 4.2rem);
+  font-size: clamp(2.6rem, 12vw, 4.4rem);
   font-weight: 600;
-  line-height: 1.04;
-  letter-spacing: -0.045em;
-  text-wrap: balance;
-  transform: translateY(calc(var(--p) * -40px));
-}
-/* Each word rises out of its own slot. */
-.w {
-  display: inline-block;
-  overflow: hidden;
-  padding-bottom: 0.14em;
-  margin-bottom: -0.14em;
-  vertical-align: top;
-}
-.w > span {
-  display: inline-block;
-  animation: word 0.95s var(--out) backwards;
-  animation-delay: calc(var(--n) * 60ms + 150ms);
-}
-@keyframes word {
-  from {
-    transform: translateY(115%) rotate(5deg);
-  }
-}
-/* "searching" sits in a search bar, typed in after the rest has landed. */
-.hero__search {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.14em;
-  margin-block: 0.04em;
-  padding: 0 0.3em 0.07em 0.2em;
-  border: 1px solid var(--line-2);
-  border-radius: 999px;
-  background: #fff;
-  box-shadow: var(--shadow-sm);
-  vertical-align: baseline;
-  animation: pill 0.9s var(--pop) 0.45s backwards;
-}
-.hero__search svg {
-  width: 0.46em;
-  height: 0.46em;
-  color: var(--faint);
-}
-.hero__search em {
-  padding-right: 0.06em;
-  font-family: var(--font-serif), Georgia, serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1.08em;
   line-height: 1;
-  letter-spacing: -0.02em;
-  color: var(--gold-deep);
-  animation: type 0.9s steps(9, end) 1.05s backwards;
+  letter-spacing: -0.05em;
 }
-.caret {
-  width: 2px;
-  height: 0.7em;
-  border-radius: 2px;
-  background: var(--ink);
-  animation: blink 1.1s steps(2, start) infinite;
+.hl {
+  display: block;
+  padding-block: 0.04em 0.12em;
+  margin-block: -0.04em -0.12em;
+  overflow: hidden;
+  transform: translate3d(calc(var(--p) * -10vw), 0, 0);
 }
-@keyframes pill {
+.hl:nth-child(even) {
+  transform: translate3d(calc(var(--p) * 10vw), 0, 0);
+}
+.hl > span {
+  display: block;
+  width: max-content;
+  animation: line-up 1.05s var(--out) backwards;
+  animation-delay: calc(var(--n) * 110ms + 120ms);
+}
+.hl--soft {
+  color: #918b7f;
+}
+@keyframes line-up {
   from {
-    opacity: 0;
-    transform: scale(0.6);
-  }
-}
-@keyframes type {
-  from {
-    clip-path: inset(0 100% 0 0);
-  }
-  to {
-    clip-path: inset(0 0 0 0);
-  }
-}
-@keyframes blink {
-  to {
-    visibility: hidden;
+    transform: translateY(115%);
   }
 }
 @keyframes rise {
@@ -130,209 +103,271 @@
     transform: translateY(22px);
   }
 }
+@keyframes pop {
+  from {
+    opacity: 0;
+    scale: 0.4;
+  }
+}
+
+.hero__intro {
+  display: grid;
+  gap: 22px;
+  justify-items: start;
+  animation: rise 0.9s var(--out) 0.6s backwards;
+}
 .hero__lede {
   max-width: 34ch;
-  margin-top: 22px;
   color: var(--mute);
-  font-size: clamp(1.08rem, 4.3vw, 1.3rem);
-  line-height: 1.45;
-  animation: rise 0.9s var(--out) 0.75s backwards;
+  font-size: clamp(1.05rem, 4.2vw, 1.2rem);
+  line-height: 1.5;
 }
 .hero__cta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px 26px;
-  margin-top: 28px;
-  animation: rise 0.9s var(--out) 0.9s backwards;
+  gap: 10px 24px;
 }
 
-/* The portrait, with two pieces of real work fanned out behind it. They spread as the page scrolls. */
-.fan {
-  position: relative;
-  justify-self: center;
-  width: min(62vw, 290px);
-  aspect-ratio: 4 / 5;
-  margin-top: 6px;
-}
-.fan__card {
-  position: absolute;
-  inset: 7% 4%;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  background: #fff;
-  box-shadow: var(--shadow-lg);
-  transform-origin: 50% 100%;
-}
-.fan__card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-}
-.fan__card--l {
-  transform: translateX(calc(-36% - var(--p) * 60%)) rotate(calc(-9deg - var(--p) * 14deg));
-  animation: fan 1.2s var(--out) 0.55s backwards;
-}
-.fan__card--r {
-  transform: translateX(calc(36% + var(--p) * 60%)) rotate(calc(9deg + var(--p) * 14deg));
-  animation: fan 1.2s var(--out) 0.65s backwards;
-}
-@keyframes fan {
-  from {
-    opacity: 0;
-    transform: translateX(0) rotate(0deg) scale(0.9);
-  }
-}
-.fan__me {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  overflow: hidden;
-  border-radius: 26px;
-  background: #b47a1d;
-  box-shadow: var(--shadow-lg);
-  transform: translateY(calc(var(--p) * -5svh)) scale(calc(1 + var(--p) * 0.06));
-  animation: me 1.1s var(--out) 0.35s backwards;
-}
-@keyframes me {
-  from {
-    opacity: 0;
-    transform: translateY(40px) scale(0.94);
-  }
-}
-.fan__me img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 14%;
-}
-.fan__me figcaption {
-  position: absolute;
-  inset: auto 10px 10px;
-  display: grid;
-  padding: 9px 14px 10px;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  line-height: 1.25;
-}
-.fan__me b {
-  font-size: 0.95rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-}
-.fan__me span {
-  color: var(--mute);
-  font-size: 0.8rem;
-}
-
-/* Small labels drifting around the portrait: two come in from the left, two from the right. */
-.fchip {
-  --dir: -1;
-  position: absolute;
-  z-index: 3;
-  display: inline-flex;
+/* A real piece of work, slowly scrolling in a small frame, and one honest number. */
+.hero__proof {
+  display: flex;
   align-items: center;
-  gap: 0.55em;
-  padding: 0.5em 0.95em 0.5em 0.8em;
+  gap: 18px;
+  order: 3;
+  animation: rise 0.9s var(--out) 0.75s backwards;
+}
+.peek {
+  flex: none;
+  width: 124px;
+  text-decoration: none;
+}
+.peek__view {
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 16px;
   background: #fff;
   box-shadow: var(--shadow-sm);
-  font-size: 0.82rem;
-  font-weight: 500;
-  white-space: nowrap;
-  transform: translateX(calc(var(--p) * var(--dir) * 90px));
-  animation:
-    chip 1s var(--pop) backwards,
-    bob 5s ease-in-out infinite;
+  transition:
+    transform 0.4s var(--out),
+    box-shadow 0.4s var(--out);
 }
-.fchip i {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--gold);
+.peek:hover .peek__view {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px) rotate(-1.5deg);
 }
-.fchip--1 {
-  left: -30%;
-  top: 24%;
-  animation-delay: 0.95s, 0s;
+.peek__view img {
+  width: 100%;
+  height: auto;
+  animation: peek 18s ease-in-out infinite alternate;
 }
-.fchip--2 {
-  --dir: 1;
-  right: -26%;
-  top: 7%;
-  animation-delay: 1.05s, -1.6s;
-}
-.fchip--3 {
-  left: -22%;
-  bottom: 13%;
-  animation-delay: 1.15s, -3s;
-}
-.fchip--4 {
-  --dir: 1;
-  right: -30%;
-  bottom: 30%;
-  animation-delay: 1.25s, -2.2s;
-}
-@keyframes chip {
+@keyframes peek {
   from {
-    opacity: 0;
-    transform: translateX(calc(var(--dir) * 90px)) scale(0.7);
+    transform: translateY(-5%);
+  }
+  to {
+    transform: translateY(-36%);
   }
 }
-@keyframes bob {
-  50% {
-    translate: 0 -7px;
+.peek__label {
+  display: block;
+  margin-top: 7px;
+  color: var(--mute);
+  font-size: 0.76rem;
+}
+.hero__stat {
+  display: grid;
+  gap: 4px;
+}
+.hero__stat b {
+  font-size: clamp(2.4rem, 9.4vw, 3.6rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+.hero__stat > span {
+  max-width: 17ch;
+  color: var(--mute);
+  font-size: 0.86rem;
+  line-height: 1.3;
+}
+
+/* The portrait rises from the bottom edge, under an arch. A gold strip of services runs down it. */
+.hero__figure {
+  position: relative;
+  order: 4;
+  align-self: end;
+  justify-self: center;
+  width: min(100%, 430px);
+  aspect-ratio: 1 / 1.04;
+  margin-top: 6px;
+  overflow: hidden;
+  border-radius: 999px 999px 0 0;
+}
+.hero__photo {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 999px 999px 0 0;
+  background: #b47a1d;
+  animation: photo 1.35s var(--out) 0.25s backwards;
+}
+@keyframes photo {
+  from {
+    transform: translateY(104%);
+  }
+}
+.hero__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0;
+  transform: translateY(calc(var(--p) * 9%)) scale(1.02);
+  transform-origin: 50% 0;
+}
+.vstrip {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 13%;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  overflow: hidden;
+  background: var(--gold);
+  color: var(--ink);
+  animation: strip 1.3s var(--out) 0.75s backwards;
+}
+@keyframes strip {
+  from {
+    transform: translateY(-101%);
+  }
+}
+.vstrip ul {
+  display: flex;
+  align-items: center;
+  height: max-content;
+  writing-mode: vertical-rl;
+  animation: vticker 30s linear infinite;
+}
+.vstrip li {
+  display: flex;
+  align-items: center;
+  font-size: 0.92rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.vstrip li::after {
+  content: "✦";
+  margin-inline: 0.9em;
+  font-size: 0.75em;
+}
+@keyframes vticker {
+  to {
+    transform: translateY(-50%);
+  }
+}
+.spin {
+  position: absolute;
+  left: 6%;
+  bottom: 7%;
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--ink);
+  animation: pop 0.8s var(--pop) 1.15s backwards;
+}
+.spin > svg {
+  width: 100%;
+  height: 100%;
+  animation: spin 18s linear infinite;
+}
+.spin text {
+  fill: #fff;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.spin span {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--gold);
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
 
-@media (min-width: 900px) {
-  .hero {
-    grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
-    align-content: center;
-    align-items: center;
-    gap: 4vw;
-    padding: calc(var(--bar) + 24px) max(var(--gutter), calc((100vw - var(--wide)) / 2)) 64px;
+@media (min-width: 1000px) {
+  .hero__panel {
+    grid-template-columns: minmax(0, 0.72fr) auto minmax(0, 1.5fr);
+    grid-template-rows: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "intro figure head"
+      "intro figure proof";
+    gap: 0 clamp(28px, 3.4vw, 60px);
+    padding: calc(var(--bar) + 20px) max(40px, calc((100vw - 1360px) / 2)) 0;
   }
-  .hero__glow {
-    left: 76%;
-    bottom: auto;
-    top: 8%;
-    width: 70vw;
+  .hero__rules {
+    inset: 0 max(40px, calc((100vw - 1360px) / 2));
   }
-  .hero__copy {
-    max-width: 650px;
+  .hero__head {
+    grid-area: head;
+    justify-items: end;
+    padding-top: 6svh;
+    text-align: right;
   }
   .hero__title {
-    font-size: clamp(3.3rem, 5.1vw, 5.2rem);
+    font-size: clamp(3rem, 4.9vw, 5.2rem);
+  }
+  .hl > span {
+    margin-left: auto;
+  }
+  .hero__intro {
+    grid-area: intro;
+    align-self: center;
+    padding-bottom: 6svh;
   }
   .hero__lede {
-    max-width: 38ch;
-    font-size: clamp(1.15rem, 1.4vw, 1.4rem);
+    font-size: clamp(1.05rem, 1.25vw, 1.25rem);
   }
-  .fan {
-    width: min(100%, 360px, 46svh);
+  .hero__figure {
+    grid-area: figure;
+    width: auto;
+    height: min(72svh, 640px);
+    margin-top: 0;
+    aspect-ratio: 0.68;
+    overflow: visible;
+    border-radius: 0;
   }
-  .fan__me b {
-    font-size: 1.02rem;
+  .vstrip {
+    top: auto;
+    right: 11%;
+    width: 46px;
+    height: 130svh;
   }
-  .fchip {
-    font-size: 0.9rem;
+  .vstrip li {
+    font-size: 1rem;
   }
-  .fchip--1 {
-    left: -42%;
+  .spin {
+    left: -38px;
+    bottom: 11%;
+    width: 124px;
   }
-  .fchip--2 {
-    right: -34%;
+  .hero__proof {
+    grid-area: proof;
+    align-self: end;
+    justify-self: end;
+    gap: 26px;
+    padding-bottom: 44px;
   }
-  .fchip--3 {
-    left: -34%;
-  }
-  .fchip--4 {
-    right: -42%;
+  .peek {
+    width: 200px;
   }
 }

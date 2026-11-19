@@ -85,7 +85,7 @@ export function Track({
   children,
 }: {
   mode?: TrackMode;
-  as?: "div" | "section" | "li" | "article" | "header";
+  as?: "div" | "section" | "li" | "article" | "header" | "h2" | "p";
   className?: string;
   id?: string;
   style?: CSSProperties;

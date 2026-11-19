@@ -3,8 +3,8 @@ import { Compare } from "./compare";
 import { Contact, Sticky } from "./contact";
 import { Reveals } from "./fx";
 import { Bar, Hero, Tapes } from "./hero";
-import { About, Band, Faq, Footer, Process, Services } from "./sections";
-import { Story } from "./story";
+import { Intro } from "./intro";
+import { Band, Faq, Footer, Process, Services } from "./sections";
 import { WorkReel } from "./work";
 
 /** The whole page. `business` is set on a /for/… link and makes the page speak to that business. */
@@ -16,13 +16,12 @@ export function Site({ business }: { business?: string | null }) {
       <Hero />
       <main id="main">
         <Tapes />
-        <Story />
+        <Intro />
         <Services />
         <Compare />
         <WorkReel />
         <Band />
         <Process />
-        <About />
         <Faq />
         <Contact />
       </main>

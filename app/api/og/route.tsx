@@ -24,11 +24,10 @@ export async function GET() {
           <div style={{ width: 14, height: 14, borderRadius: 14, background: "#c8922a" }} />
           Web design · SEO · Social media · Ads
         </div>
-        <div style={{ display: "flex", flexDirection: "column", fontSize: 92, fontWeight: 700, lineHeight: 1.05, letterSpacing: -4 }}>
-          <span>Your next customer</span>
-          <span>
-            is <span style={{ color: "#94640f", marginLeft: 22, marginRight: 22 }}>searching</span> right now.
-          </span>
+        <div style={{ display: "flex", flexDirection: "column", fontSize: 96, fontWeight: 700, lineHeight: 1.03, letterSpacing: -4 }}>
+          <span style={{ color: "#918b7f" }}>Websites, SEO & social</span>
+          <span>that bring you</span>
+          <span>more customers.</span>
         </div>
         <div
           style={{

@@ -1,5 +1,3 @@
-import { defaultTrade, trades, type Trade } from "@/content/studio";
-
 const MAX = 40;
 
 /**
@@ -34,16 +32,3 @@ export function slugForBusiness(name: string) {
     .replace(/[^\p{L}\p{N}]+/gu, "-")
     .replace(/^-|-$/g, "");
 }
-
-/** Guesses the trade from words in the name, so "Smith Septic" opens on the septic demo. */
-export function tradeForBusiness(name: string | null | undefined): Trade["key"] {
-  const lower = (name ?? "").toLowerCase();
-  if (lower) {
-    for (const trade of trades) {
-      if (trade.match.some((word) => new RegExp(`\\b${word}`).test(lower))) return trade.key;
-    }
-  }
-  return defaultTrade;
-}
-
-export const tradeByKey = (key: string) => trades.find((trade) => trade.key === key) ?? trades[0];

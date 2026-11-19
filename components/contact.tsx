@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { contact, studio } from "@/content/studio";
 import { useBiz } from "./biz";
 import { Arrow, Check, Copy, Mail } from "./icons";
+import { Label } from "./label";
 
 /**
  * The way in. There is no server behind this form: it writes the email for the visitor and opens
@@ -46,12 +47,17 @@ export function Contact() {
 
   return (
     <section className="contact" id="contact">
+      {/* A giant line of type running across the top of the panel. */}
+      <div className="shout" aria-hidden="true">
+        <ul>
+          {[0, 1, 2, 3, 4, 5].map((n) => (
+            <li key={n}>{contact.shout}</li>
+          ))}
+        </ul>
+      </div>
       <div className="wrap contact__grid">
         <div className="contact__copy">
-          <p className="eyebrow" data-reveal>
-            <i />
-            {contact.kicker}
-          </p>
+          <Label n="07">{contact.kicker}</Label>
           <h2 className="contact__title" data-reveal>
             {contact.title.before} <em>{contact.title.accent}</em>
           </h2>

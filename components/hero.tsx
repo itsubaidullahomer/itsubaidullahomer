@@ -1,16 +1,17 @@
 import Image from "next/image";
-import { Fragment, type CSSProperties } from "react";
-import { hero, studio, tape } from "@/content/studio";
-import { Track } from "./fx";
-import { Arrow, ArrowDown, SearchIcon } from "./icons";
+import type { CSSProperties } from "react";
+import { hero, strip, studio, tape } from "@/content/studio";
+import { CountUp, Track } from "./fx";
+import { Arrow, ArrowDown } from "./icons";
 import { MadeFor } from "./hero-bits";
 
 /** The floating bar: the name and the way to get in touch. */
 export function Bar() {
   return (
     <div className="bar">
-      <a className="bar__mark" href="#top">
+      <a className="bar__mark" href="#top" aria-label={`${studio.name}, back to the top`}>
         {studio.name}
+        <i>.</i>
       </a>
       <a className="bar__cta" href="#contact">
         Get in touch
@@ -19,84 +20,110 @@ export function Bar() {
   );
 }
 
-/** Each word rises out of its own slot, one after the other. */
-function Words({ text, from = 0 }: { text: string; from?: number }) {
-  return text.split(" ").map((word, i) => (
-    <Fragment key={`${word}-${i}`}>
-      <span className="w">
-        <span style={{ "--n": from + i } as CSSProperties}>{word}</span>
-      </span>{" "}
-    </Fragment>
-  ));
-}
-
+/**
+ * The opening panel. The headline comes up line by line, the portrait rises from the bottom edge,
+ * and a gold strip of services runs down beside it. As the page scrolls on, the lines drift apart
+ * sideways and the panel tucks back (--p is how far it has scrolled away).
+ */
 export function Hero() {
-  const { before, search, after } = hero.title;
-  const count = before.split(" ").length;
+  // The strip's words are doubled so its loop has no seam.
+  const words = [...strip, ...strip, ...strip, ...strip];
   return (
     <Track as="header" mode="exit" className="hero" id="top">
-      <div className="hero__glow" aria-hidden="true" />
-      <div className="hero__copy">
-        <MadeFor />
-        <p className="eyebrow">
-          <i />
-          {hero.eyebrow.join(" · ")}
-        </p>
-        <h1 className="hero__title">
-          <Words text={before} />
-          <span className="hero__search">
-            <SearchIcon />
-            <em>{search}</em>
-            <i className="caret" aria-hidden="true" />
-          </span>{" "}
-          <Words text={after} from={count + 2} />
-        </h1>
-        <p className="hero__lede">{hero.lede}</p>
-        <div className="hero__cta">
-          <a className="btn btn--dark" href="#story">
-            {hero.primary} <ArrowDown size={18} />
-          </a>
-          <a className="link" href="#contact">
-            {hero.secondary} <Arrow size={18} />
-          </a>
+      <div className="hero__panel">
+        <div className="hero__rules" aria-hidden="true">
+          {[0, 1, 2, 3, 4].map((n) => (
+            <i key={n} style={{ "--n": n } as CSSProperties} />
+          ))}
         </div>
-      </div>
 
-      <div className="fan">
-        {hero.fan.map((shot, i) => (
-          <div className={`fan__card fan__card--${i === 0 ? "l" : "r"}`} key={shot.src} aria-hidden="true">
+        <div className="hero__head">
+          <MadeFor />
+          <p className="eyebrow">
+            <i />
+            {hero.eyebrow.join(" · ")}
+          </p>
+          <h1 className="hero__title">
+            {hero.title.map(([text, tone], n) => (
+              <span className={`hl hl--${tone}`} key={text} style={{ "--n": n } as CSSProperties}>
+                <span>{text}</span>{" "}
+              </span>
+            ))}
+          </h1>
+        </div>
+
+        <div className="hero__intro">
+          <p className="hero__lede">{hero.lede}</p>
+          <div className="hero__cta">
+            <a className="btn btn--dark btn--chip" href="#contact">
+              <span className="btn__chip">
+                <Arrow size={18} />
+              </span>
+              {hero.primary}
+            </a>
+            <a className="link" href="#work">
+              {hero.secondary} <ArrowDown size={18} />
+            </a>
+          </div>
+        </div>
+
+        <div className="hero__figure">
+          <div className="hero__photo">
             <Image
-              src={shot.src}
-              alt=""
-              width={shot.width}
-              height={shot.height}
-              sizes="(min-width: 900px) 300px, 50vw"
-              loading="eager"
-              style={{ objectPosition: `50% ${shot.at}` }}
+              src="/images/me/ubaid.jpg"
+              alt={studio.name}
+              width={1280}
+              height={1280}
+              sizes="(min-width: 1000px) 640px, 100vw"
+              quality={90}
+              priority
             />
           </div>
-        ))}
-        <figure className="fan__me">
-          <Image
-            src="/images/me/ubaid.jpg"
-            alt={studio.name}
-            width={800}
-            height={800}
-            sizes="(min-width: 900px) 400px, 70vw"
-            quality={90}
-            priority
-          />
-          <figcaption>
-            <b>{studio.name}</b>
-            <span>{hero.role}</span>
-          </figcaption>
-        </figure>
-        {hero.chips.map((chip, i) => (
-          <span className={`fchip fchip--${i + 1}`} key={chip} aria-hidden="true">
-            <i />
-            {chip}
-          </span>
-        ))}
+          <div className="vstrip" aria-hidden="true">
+            <ul>
+              {words.map((word, i) => (
+                <li key={i}>{word}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="spin" aria-hidden="true">
+            <svg viewBox="0 0 120 120" focusable="false">
+              <defs>
+                <path id="spin-ring" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0" />
+              </defs>
+              <text>
+                <textPath href="#spin-ring" textLength="276">
+                  {hero.badge}
+                </textPath>
+              </text>
+            </svg>
+            <span>
+              <ArrowDown size={26} />
+            </span>
+          </div>
+        </div>
+
+        <div className="hero__proof">
+          <a className="peek" href={hero.peek.href}>
+            <span className="peek__view">
+              <Image
+                src={hero.peek.src}
+                alt=""
+                width={hero.peek.width}
+                height={hero.peek.height}
+                sizes="220px"
+                loading="eager"
+              />
+            </span>
+            <span className="peek__label">{hero.peek.label}</span>
+          </a>
+          <p className="hero__stat">
+            <b>
+              <CountUp value={hero.stat.value} suffix={hero.stat.suffix} />
+            </b>
+            <span>{hero.stat.label}</span>
+          </p>
+        </div>
       </div>
     </Track>
   );

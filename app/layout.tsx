@@ -3,7 +3,6 @@ import { Geist, Instrument_Serif } from "next/font/google";
 import { studio } from "@/content/studio";
 import "./styles/base.css";
 import "./styles/hero.css";
-import "./styles/story.css";
 import "./styles/sections.css";
 import "./styles/work.css";
 
@@ -53,7 +52,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 {
                   "@type": "Person",
                   "@id": `${studio.url}/#person`,
-                  name: studio.name,
+                  name: studio.fullName,
+                  alternateName: studio.name,
                   url: studio.url,
                   image: `${studio.url}/images/me/ubaid.jpg`,
                   sameAs: [...Object.values(studio.social), studio.engineerUrl],
