@@ -704,6 +704,31 @@
    "company": "Unnamed new product (HN)",
    "title": "Full Stack Engineer (mostly backend + API)",
    "reason": "HN Nov; moonlighting role for engineers employed in the Bay Area, 6+ years, Go/Python (unconfirmed)"
+  },
+  {
+   "company": "outGoing",
+   "title": "Software Engineer",
+   "reason": "HN Nov; hybrid in Lisbon, must live in Portugal or hold EU work rights (no visa sponsorship)"
+  },
+  {
+   "company": "Treatwell",
+   "title": "SEO Full Stack Engineer",
+   "reason": "RemoteOK; Europe-based team, no published hiring email, company form only (forms await owner approval)"
+  },
+  {
+   "company": "Lemon.io",
+   "title": "Senior React Full-stack Developer",
+   "reason": "We Work Remotely; freelance marketplace with its own vetting form, no hiring email (listing page blocked this pass, apply method not re-read)"
+  },
+  {
+   "company": "CircleCI",
+   "title": "Senior Software Engineer, Query",
+   "reason": "We Work Remotely; company careers form only, no hiring email (listing page blocked this pass, apply method not re-read)"
+  },
+  {
+   "company": "G-P",
+   "title": "Software Engineer II",
+   "reason": "We Work Remotely, Asia only; company careers form only, no hiring email (listing page blocked this pass, apply method not re-read)"
   }
  ],
  "checkIns": [
@@ -885,6 +910,10 @@
   {
    "at": "2026-11-16T13:01Z",
    "summary": "No employer replies, bounces or new LinkedIn digests since 10:00 UTC. Himalayas 0 new (full pass, 398 listings fetched), HN November thread 0 new (245 top-level posts). No applications."
+  },
+  {
+   "at": "2026-11-19T18:06Z",
+   "summary": "Delayed check-in: the Nov 17 04:00 UTC reminder only reached the session on Nov 19 18:02 UTC, so Nov 17-19 had no checks. Mail NOT checked: the Gmail connector is now signed in to a different Google account, not the job-search mailbox, so nothing was read beyond the first listing and nothing was sent from it; owner told. Himalayas full pass (473 listings; one query rate-limited): 1 new row, Wizdaa 'Senior React Native & React Engineer PK', a repost of a role already screened out (AI-first Cursor/Claude delivery by default, unconfirmed). HN November thread: 1 new post, outGoing, screened out. Wider feeds (Remotive, RemoteOK, We Work Remotely, last 4 days): Treatwell, Lemon.io, CircleCI and G-P, all company forms; Proxify already listed as form only. No applications."
   }
  ],
  "emailApplications": [
