@@ -2,7 +2,7 @@ export const site = {
   name: "Ubaidullah Omer",
   shortName: "ubaid",
   role: "AI Product Engineer",
-  url: "https://itsubaidullahomer.com",
+  url: "https://cv.itsubaidullahomer.com",
   email: "itsubaidullahomer@gmail.com",
   location: "Rahim Yar Khan, Pakistan",
   description:

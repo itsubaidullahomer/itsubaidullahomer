@@ -57,7 +57,7 @@ export async function GET(request: Request) {
           }}
         >
           <span>Ubaidullah Omer</span>
-          <span>itsubaidullahomer.com</span>
+          <span>cv.itsubaidullahomer.com</span>
         </div>
       </div>
     </div>,
