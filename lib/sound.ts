@@ -11,11 +11,22 @@
  * - On by default, with a switch in the bar; the choice is remembered on the visitor's device. On an iPhone
  *   it follows the silent switch and mixes with music instead of stopping it.
  * - Small effects vary their pitch slightly each time, so repeats never sound mechanical.
+ * - Under it all, a quiet music loop that follows the visitor down the page (see SCENES).
  */
 
-export type SoundName = "tap" | "hover" | "pop" | "whoosh" | "land" | "chime" | "success" | "tick" | "intro";
+export type SoundName =
+  | "tap"
+  | "hover"
+  | "pop"
+  | "whoosh"
+  | "swish"
+  | "note"
+  | "chime"
+  | "success"
+  | "tick"
+  | "intro";
 
-const NAMES: SoundName[] = ["tap", "hover", "pop", "whoosh", "land", "chime", "success", "tick", "intro"];
+const NAMES: SoundName[] = ["tap", "hover", "pop", "whoosh", "swish", "note", "chime", "success", "tick", "intro"];
 const BASE = "/sounds/v1/";
 
 /** Sound is on until the visitor turns it off. Set to false to make it opt-in. */
@@ -27,8 +38,9 @@ const MIX: Record<SoundName, number> = {
   tick: 0.1,
   tap: 0.3,
   pop: 0.26,
-  land: 0.22,
   whoosh: 0.24,
+  swish: 0.22,
+  note: 0.2,
   success: 0.3,
   chime: 0.32,
   intro: 0.3,
@@ -39,13 +51,49 @@ const GAP: Record<SoundName, number> = {
   tick: 40,
   tap: 40,
   pop: 45,
-  land: 120,
   whoosh: 280,
+  swish: 280,
+  note: 90,
   success: 400,
   chime: 600,
   intro: 3000,
 };
-const VARY = new Set<SoundName>(["hover", "tick", "tap", "pop", "land"]);
+const VARY = new Set<SoundName>(["hover", "tick", "tap", "pop"]);
+/** Notes that arrive together are spread into a quick run instead of being dropped. */
+const SPREAD = new Set<SoundName>(["note"]);
+
+/**
+ * Notes of a C major scale as playback rates (the note file is a C, like the chime and the music), so
+ * things that arrive one after another climb a scale.
+ */
+export const SCALE = [1, 9 / 8, 5 / 4, 4 / 3, 3 / 2, 5 / 3, 15 / 8, 2];
+
+/**
+ * The music: one calm loop under the whole site (public/sounds/v1/music.*), in C major like everything
+ * else. Each part of the page has its own level and brightness (a gain and a low-pass filter), and the
+ * music glides between them as the visitor scrolls: open and full for the work and the big type, softer
+ * while reading the questions or using the before and after, warm again for the contact panel.
+ */
+const MUSIC_LEVEL = 0.2;
+/**
+ * The file holds 51.2 seconds of music (16 bars at 75 BPM) with half a second of its own end before it and
+ * of its start after it, so the loop points sit inside continuous music. That keeps the loop seamless even
+ * where a browser's decoder shifts the audio by a few milliseconds.
+ */
+const MUSIC_LOOP = [0.5, 51.7] as const;
+export type Scene = "top" | "about" | "services" | "compare" | "work" | "band" | "process" | "faq" | "contact" | "footer";
+const SCENES: Record<Scene, [level: number, brightness: number]> = {
+  top: [0.8, 2600],
+  about: [0.7, 1900],
+  services: [0.85, 4200],
+  compare: [0.6, 1700],
+  work: [1, 9000],
+  band: [1, 14000],
+  process: [0.75, 3400],
+  faq: [0.5, 1300],
+  contact: [0.9, 6500],
+  footer: [0.6, 2200],
+};
 
 type Opening = { at: number; sound: boolean };
 type SoundWindow = Window & {
@@ -57,6 +105,10 @@ type SoundWindow = Window & {
 
 let ctx: AudioContext | null = null;
 let out: GainNode | null = null;
+let musicBuffer: AudioBuffer | null = null;
+let musicLoad: Promise<void> | null = null;
+let music: { source: AudioBufferSourceNode; filter: BiquadFilterNode; level: GainNode } | null = null;
+let scene: Scene = "top";
 let on = false;
 let started = false;
 /** The visitor has made a gesture, so the context may be running or about to run. */
@@ -154,6 +206,7 @@ function unlock() {
   if (!audio) return;
   unlocked = true;
   void audio.resume();
+  startMusic();
 }
 
 /** The visitor came in through the curtain (lib/opening.ts has already played the opening). */
@@ -162,8 +215,79 @@ function entered(detail: Opening) {
   if (on) {
     context();
     unlocked = true;
+    startMusic();
   }
   emit();
+}
+
+/** A visitor saving data, or on a very slow connection, gets the effects without the music. */
+function frugal() {
+  const connection = (navigator as unknown as { connection?: { saveData?: boolean; effectiveType?: string } })
+    .connection;
+  return !!connection && (connection.saveData === true || /2g/.test(connection.effectiveType ?? ""));
+}
+
+/** Downloads and decodes the music once, quietly, after the page itself has finished loading. */
+function loadMusic() {
+  if (frugal()) return;
+  musicLoad ??= (async () => {
+    const Offline = window.OfflineAudioContext;
+    if (!Offline) return;
+    // 32 kHz is plenty for a soft background and keeps the decoded loop small in memory.
+    const decoder = new Offline(2, 1, 32000);
+    const opus = new Audio().canPlayType('audio/webm; codecs="opus"') !== "";
+    for (const type of opus ? ["webm", "mp3"] : ["mp3"]) {
+      try {
+        const response = await fetch(`${BASE}music.${type}`, { priority: "low" } as RequestInit);
+        if (!response.ok) continue;
+        musicBuffer = await decoder.decodeAudioData(await response.arrayBuffer());
+        break;
+      } catch {
+        // Try the other format.
+      }
+    }
+    startMusic();
+  })().catch(() => undefined);
+}
+
+/** Starts the loop if sound is on and allowed, fading in over a few seconds. */
+function startMusic() {
+  if (!on || !unlocked || !ctx || !out || music) return;
+  if (!musicBuffer) {
+    loadMusic();
+    return;
+  }
+  const source = ctx.createBufferSource();
+  source.buffer = musicBuffer;
+  source.loop = true;
+  [source.loopStart, source.loopEnd] = MUSIC_LOOP;
+  const filter = ctx.createBiquadFilter();
+  filter.type = "lowpass";
+  filter.Q.value = 0.5;
+  const level = ctx.createGain();
+  level.gain.value = 0;
+  source.connect(filter).connect(level).connect(out);
+  const [gain, brightness] = SCENES[scene];
+  filter.frequency.value = brightness;
+  level.gain.setTargetAtTime(gain * MUSIC_LEVEL, ctx.currentTime + 0.05, 1.1);
+  source.start(ctx.currentTime, MUSIC_LOOP[0]);
+  music = { source, filter, level };
+}
+
+function stopMusic() {
+  if (!music || !ctx) return;
+  music.level.gain.setTargetAtTime(0, ctx.currentTime, 0.12);
+  music.source.stop(ctx.currentTime + 0.7);
+  music = null;
+}
+
+/** The part of the page in the middle of the screen: the music glides to its level and brightness. */
+export function setScene(next: Scene) {
+  scene = next;
+  if (!music || !ctx) return;
+  const [gain, brightness] = SCENES[next];
+  music.level.gain.setTargetAtTime(gain * MUSIC_LEVEL, ctx.currentTime, 0.7);
+  music.filter.frequency.setTargetAtTime(brightness, ctx.currentTime, 0.9);
 }
 
 /** Reads the visitor's choice, decodes the sounds and waits for the first gesture. Safe to call twice. */
@@ -186,6 +310,20 @@ export function startSound() {
   }
   const first = () => unlock();
   for (const name of ["pointerdown", "keydown", "touchend"]) window.addEventListener(name, first, true);
+  // The music never competes with the page: it downloads once the visitor has chosen sound (Enter, the
+  // switch, or a first tap with sound on), or, for someone who chose it on an earlier visit, as soon as
+  // everything else has loaded, so it is ready for their first tap.
+  const later = () => {
+    let chosen = false;
+    try {
+      chosen = localStorage.getItem("sound") === "on";
+    } catch {
+      // No storage: wait for the first tap.
+    }
+    if (on && chosen) loadMusic();
+  };
+  if (document.readyState === "complete") later();
+  else window.addEventListener("load", later, { once: true });
 }
 
 export function soundOn() {
@@ -203,6 +341,7 @@ export function onSoundChange(listener: (on: boolean) => void) {
 export function setSound(next: boolean) {
   if (!next) {
     play("pop", { rate: 0.8, force: true });
+    stopMusic();
     on = false;
     store(false);
     emit();
@@ -216,6 +355,7 @@ export function setSound(next: boolean) {
   unlocked = true;
   void audio.resume();
   play("chime");
+  startMusic();
 }
 
 /**
@@ -258,8 +398,14 @@ export function play(
   const buffer = buffers.get(name);
   if (!buffer) return false;
   // Spacing is measured at the moment each sound will actually start, so a planned run of notes plays in full.
-  const at = performance.now() + delay * 1000;
-  if (Math.abs(at - (last.get(name) ?? -1e9)) < GAP[name]) return false;
+  let at = performance.now() + delay * 1000;
+  const previous = last.get(name) ?? -1e9;
+  if (Math.abs(at - previous) < GAP[name]) {
+    // Notes that land together become a quick run, one after another (never a long queue).
+    if (!SPREAD.has(name) || previous + GAP[name] - at > 500) return false;
+    at = previous + GAP[name];
+    delay = (at - performance.now()) / 1000;
+  }
   last.set(name, at);
   const source = ctx.createBufferSource();
   source.buffer = buffer;

@@ -1,13 +1,11 @@
 import type { CSSProperties } from "react";
 import { band, faq, footer, process, services, studio } from "@/content/studio";
+import { SCALE } from "@/lib/sound";
 import { Track } from "./fx";
 import { ArrowOut } from "./icons";
 import { ServiceArt } from "./service-art";
 import { Label } from "./label";
 import { Rich } from "./rich";
-
-/** Notes of a major scale, as playback rates: each service card plays the next one up as it arrives. */
-const SCALE = [1, 9 / 8, 5 / 4, 4 / 3, 3 / 2, 5 / 3];
 
 export function Services() {
   return (
@@ -26,10 +24,11 @@ export function Services() {
               mode="view"
               className="svc"
               key={service.key}
-              sound="pop"
-              soundAt={0.25}
-              soundRate={SCALE[i % SCALE.length] * 1.05}
-              soundGain={0.7}
+              // A note as the card is halfway in, one step up the scale for each card.
+              sound="note"
+              soundAt={0.1}
+              soundRate={SCALE[i % SCALE.length]}
+              soundGain={0.8}
             >
               <div className="svc__art" aria-hidden="true">
                 <ServiceArt kind={service.key} />
@@ -103,7 +102,16 @@ export function Process() {
             <Rich text={process.title} />
           </Track>
         </div>
-        <Track as="div" mode="read" className="steps">
+        {/* Each step plays the next note of a C major chord as it starts to light up. */}
+        <Track
+          as="div"
+          mode="read"
+          className="steps"
+          sound="note"
+          soundAt={process.steps.map((_, i) => i * 0.22 + 0.06)}
+          soundRate={process.steps.map((_, i) => [1, 5 / 4, 3 / 2, 2, 5 / 2][i] ?? 2)}
+          soundGain={0.75}
+        >
           <span className="steps__line" aria-hidden="true">
             <i />
           </span>

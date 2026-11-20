@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, type CSSProperties } from "react";
 import { work, type WorkItem } from "@/content/studio";
-import { play } from "@/lib/sound";
+import { play, SCALE } from "@/lib/sound";
 import { clamp01, prefersReducedMotion, track } from "./fx";
 import { Arrow, ArrowOut } from "./icons";
 import { Label } from "./label";
@@ -84,26 +84,48 @@ function Shot({ item }: { item: WorkItem }) {
  * The script measures the distance and reports progress; the stylesheet does the moving.
  */
 function reel(el: HTMLElement, row: HTMLElement) {
+  const pieces = Array.from(row.children) as HTMLElement[];
+  /** Where in the row's travel (0 → 1) each card passes the middle of the screen. */
+  let marks: number[] = [];
   const size = () => {
     const travel = Math.max(0, row.scrollWidth - window.innerWidth);
     const intro = window.innerHeight * INTRO;
     el.style.setProperty("--travel", `${travel}px`);
     el.style.setProperty("--intro", `${intro}px`);
     el.style.setProperty("--t0", (intro / (intro + travel || 1)).toFixed(4));
+    const left = row.getBoundingClientRect().left;
+    marks = pieces.map((piece) => {
+      const r = piece.getBoundingClientRect();
+      const mark = travel ? (r.left - left + r.width / 2 - window.innerWidth / 2) / travel : 0;
+      // The first card is already in the middle when the row starts moving, and the last one never quite
+      // reaches it: they sound as the row sets off and as it comes to its end.
+      return Math.min(0.995, Math.max(0.005, mark));
+    });
   };
   el.dataset.live = "1";
   size();
   const watch = new ResizeObserver(size);
   watch.observe(row);
   window.addEventListener("resize", size);
-  // The two words part with a whoosh, once each time the section is entered from above.
+  // A swish the moment the two words start to part (once each time the section is entered from above),
+  // then a soft note as each card passes the middle of the screen, climbing the scale card by card.
   let parted = false;
+  let last = -1;
   const stop = track(el, "pin", (p) => {
     el.style.setProperty("--p", p.toFixed(4));
     const t0 = parseFloat(el.style.getPropertyValue("--t0")) || 0.2;
     const o = p / t0;
-    if (!parted && o > 0.45 && o < 1) parted = play("whoosh", { ambient: true });
-    else if (o < 0.1) parted = false;
+    if (!parted && o >= 0.06 && o < 0.6) parted = play("swish", { ambient: true });
+    else if (o < 0.02) parted = false;
+    const q = clamp01((p - t0) / Math.max(1e-4, 1 - t0));
+    if (last >= 0 && q !== last) {
+      marks.forEach((mark, i) => {
+        if ((last < mark) !== (q < mark)) {
+          play("note", { rate: SCALE[i % SCALE.length], gain: 0.8, ambient: true });
+        }
+      });
+    }
+    last = q;
   });
   return () => {
     stop();
@@ -137,9 +159,9 @@ function deck(row: HTMLElement) {
       (e) => {
         card.style.setProperty("--e", e.toFixed(4));
         cards[i - 1]?.style.setProperty("--k", e.toFixed(4));
-        // A soft card-on-table thud as each one settles at the top, once per arrival.
-        if (!settled[i] && e > 0.985) settled[i] = play("land", { ambient: true });
-        else if (e < 0.7) settled[i] = false;
+        // A soft note as each one comes to rest, one step up the scale per card, once per arrival.
+        if (!settled[i] && e >= 0.88) settled[i] = play("note", { rate: SCALE[i % SCALE.length], ambient: true });
+        else if (e < 0.6) settled[i] = false;
       },
       0.3,
     ),

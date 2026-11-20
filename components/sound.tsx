@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useSyncExternalStore } from "react";
-import { hush, onSoundChange, play, setSound, soundOn, startSound } from "@/lib/sound";
+import { hush, onSoundChange, play, setScene, setSound, soundOn, startSound, type Scene } from "@/lib/sound";
 
 /** The switch in the bar: four little bars that dance while sound is on and lie flat when it is off. */
 export function SoundToggle() {
@@ -31,6 +31,20 @@ export function SoundToggle() {
   );
 }
 
+/** The parts of the page the music follows (lib/sound.ts gives each its level and brightness). */
+const SCENES: [selector: string, scene: Scene][] = [
+  ["#top", "top"],
+  ["#about", "about"],
+  ["#services", "services"],
+  ["#before-after", "compare"],
+  ["#work", "work"],
+  [".band", "band"],
+  ["#process", "process"],
+  ["#faq", "faq"],
+  ["#contact", "contact"],
+  [".footer", "footer"],
+];
+
 const HOVERABLE = "a, button, summary, [role='slider'], .svc, .piece__window, .pphone, .peek";
 const PRESSABLE = "a, button, summary";
 
@@ -39,7 +53,8 @@ const PRESSABLE = "a, button, summary";
  * answer, choosing a service, jumping to a section, the contact panel arriving. A press sounds the instant
  * the mouse goes down (on a touch screen, when the tap lands, so scrolling never makes a sound). The moments
  * that belong to one component play their own: service cards arriving (Track), cards settling, numbers
- * counting, the before and after handle, copying the email, and the opening (lib/sound.ts).
+ * counting, the before and after handle, copying the email, and the opening (lib/sound.ts). It also tells
+ * the music which part of the page is in the middle of the screen.
  */
 export function SoundEvents() {
   useEffect(() => {
@@ -86,20 +101,37 @@ export function SoundEvents() {
       if (target !== pressed) press(target);
       pressed = null;
       if (target.matches("a[href^='#']")) {
-        play("whoosh", { delay: 0.04 });
+        play("swish", { delay: 0.02 });
         hush();
       }
     };
 
-    // The contact panel shimmers once, the first time it is seen with sound ready.
+    // The contact panel shimmers once, as soon as it starts to come up with sound ready.
     const panel = document.getElementById("contact");
     const shimmer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && play("intro", { ambient: true })) shimmer.disconnect();
       },
-      { threshold: 0.35 },
+      { threshold: 0.12 },
     );
     if (panel) shimmer.observe(panel);
+
+    // A line across the middle of the screen: whichever part of the page crosses it sets the music.
+    const scenes = new Map<Element, Scene>();
+    for (const [selector, scene] of SCENES) {
+      const element = document.querySelector(selector);
+      if (element) scenes.set(element, scene);
+    }
+    const middle = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const scene = scenes.get(entry.target);
+          if (entry.isIntersecting && scene) setScene(scene);
+        }
+      },
+      { rootMargin: "-50% 0px -50% 0px" },
+    );
+    for (const element of scenes.keys()) middle.observe(element);
 
     window.addEventListener("scroll", scroll, { passive: true });
     document.addEventListener("pointerover", over, { passive: true });
@@ -111,6 +143,7 @@ export function SoundEvents() {
       document.removeEventListener("pointerdown", down, true);
       document.removeEventListener("click", click, true);
       shimmer.disconnect();
+      middle.disconnect();
     };
   }, []);
   return null;

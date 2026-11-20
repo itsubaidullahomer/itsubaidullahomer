@@ -140,27 +140,40 @@ export function Track({
   className?: string;
   id?: string;
   style?: CSSProperties;
-  /** A sound played as the progress passes soundAt on the way in: the moment the element has arrived. */
+  /**
+   * A sound played as the progress passes soundAt on the way in. soundAt can list several moments (with a
+   * soundRate for each), for a section whose parts arrive one after another.
+   */
   sound?: SoundName;
-  soundAt?: number;
-  soundRate?: number;
+  soundAt?: number | number[];
+  soundRate?: number | number[];
   soundGain?: number;
   children: ReactNode;
 }) {
   const ref = useRef<HTMLElement>(null);
+  // Arrays are compared by value, so a re-render with the same moments keeps the same subscription.
+  const cues = JSON.stringify([soundAt, soundRate]);
   useEffect(() => {
     const el = ref.current;
     if (!el || prefersReducedMotion()) return;
     el.dataset.live = "1";
-    // Armed only once it has been seen before its moment, so nothing sounds for what was already there.
-    let armed = false;
+    const [at, rate] = JSON.parse(cues) as [number | number[], number | number[]];
+    const moments = Array.isArray(at) ? at : [at];
+    const rates = moments.map((_, i) => (Array.isArray(rate) ? (rate[i] ?? 1) : rate));
+    // Each moment is armed only once it has been seen before it, so nothing sounds for what was already there.
+    const armed = moments.map(() => false);
     return track(el, mode, (p) => {
       el.style.setProperty("--p", p.toFixed(4));
       if (!sound) return;
-      if (p < soundAt - 0.08) armed = true;
-      else if (armed && p >= soundAt && play(sound, { rate: soundRate, gain: soundGain, ambient: true })) armed = false;
+      moments.forEach((moment, i) => {
+        if (p < moment - Math.min(0.08, moment / 2)) armed[i] = true;
+        else if (armed[i] && p >= moment) {
+          armed[i] = false;
+          play(sound, { rate: rates[i], gain: soundGain, ambient: true });
+        }
+      });
     });
-  }, [mode, sound, soundAt, soundRate, soundGain]);
+  }, [mode, sound, cues, soundGain]);
   return (
     // The element type is fixed per call site, so one ref type covers all of them.
     <Tag ref={ref as never} id={id} className={className} style={style}>

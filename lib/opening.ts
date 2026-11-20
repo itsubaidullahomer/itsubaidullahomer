@@ -19,7 +19,7 @@
  * The opening's levels match MIX in lib/sound.ts.
  */
 export const OPENING = `(function(){
-var d=document.documentElement,w=window,first=["pop","whoosh","intro","tick"],rest=["tap","hover","land","chime","success"],got=0;
+var d=document.documentElement,w=window,first=["pop","whoosh","intro","tick"],rest=["tap","hover","swish","note","chime","success"],got=0;
 if(location.hash)d.classList.add("cv-all","jump");
 w.__sfx={};w.__buf={};
 function get(n,low){w.__sfx[n]=fetch("/sounds/v1/"+n+".mp3",low?{priority:"low"}:{}).then(function(r){return r.ok?r.arrayBuffer():null}).catch(function(){return null})}

@@ -76,18 +76,29 @@ all it plays a short timed version. A personal link shows "Prepared for …" on 
 
 ## Sound
 
-`lib/sound.ts`, `components/sound.tsx`, files in `public/sounds/v1` (made with ElevenLabs Sound Effects v3:
-four takes each, picked by measurement, trimmed, faded and levelled; the tonal ones are all in C major).
-The files start downloading before the page paints and are decoded straight away, so a sound is ready the
+`lib/sound.ts`, `components/sound.tsx`, files in `public/sounds/v1` (made with ElevenLabs: the effects with
+Sound Effects v3, the music with Eleven Music; four takes each, picked by measurement, trimmed, faded and
+levelled; everything tonal is in C major, so effects and music never clash).
+The effects start downloading before the page paints and are decoded straight away, so a sound is ready the
 moment the browser allows it; each starts at its first audible sample. Sound is on by default with a switch
 in the bar, remembered per device; on iPhones it follows the silent switch and mixes with music. Presses
 sound the instant the mouse goes down (on touch, when the tap lands). Hover (mouse only, never while
 scrolling) is a faint tick; clicks a soft tap; chips and answers a pop, higher on and lower off; section
-links a tap and a whoosh, and what they pass on the way stays quiet; service cards play a rising scale at
-the moment each one lands (`Track` `sound` props); work cards land with a soft thud; counters tick, rising
-with the count; the before and after handle ratchets; copying the email rings a bell; turning sound on
-plays a C–E–G–C chime; the contact panel shimmers once. Keep new sounds in the same family and quiet: a
-sound that answers a click or a moment, never one that loops. Replace a file by adding `v2/`.
+links a tap and a swish, and what they pass on the way stays quiet. Things that arrive play a soft marimba
+note **as they move, not after**: service cards halfway in, each one step up the scale (`Track` `sound`
+props); the four steps a C–E–G–C as each starts to light; work cards as each passes the middle of the
+screen (desktop) or comes to rest (phone), climbing the scale; the work heading's words part with a swish.
+Counters tick, rising with the count; the before and after handle ratchets; copying the email rings a bell;
+turning sound on plays a C–E–G–C chime; the contact panel shimmers once as it comes up.
+
+**Music.** A quiet 51-second loop (16 bars at 75 BPM, `music.webm` with an MP3 fallback, padded so the
+loop points sit inside the music and the seam is inaudible) plays under the whole page once sound is on.
+It downloads only after the page has finished loading, never on data saver or 2G, and fades in. Each part
+of the page has its own level and brightness (`SCENES` in `lib/sound.ts`: a gain and a low-pass filter),
+and the music glides between them as the part in the middle of the screen changes: fuller and brighter for
+the work and the big type, softer and darker while reading the questions or using the before and after.
+The switch in the bar turns music and effects off together. Keep new sounds in the same family and quiet;
+the music is the only thing that loops. Replace a file by adding `v2/`.
 
 ## Personal links
 
