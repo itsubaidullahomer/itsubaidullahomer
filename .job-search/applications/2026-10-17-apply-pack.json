@@ -729,6 +729,31 @@
    "company": "G-P",
    "title": "Software Engineer II",
    "reason": "We Work Remotely, Asia only; company careers form only, no hiring email (listing page blocked this pass, apply method not re-read)"
+  },
+  {
+   "company": "Creative Chaos",
+   "title": "Software Engineer / Senior Software Engineer - React Native",
+   "reason": "Himalayas, Pakistan; bachelor's degree is a stated minimum (no degree claim); apply through the listing form only"
+  },
+  {
+   "company": "Panacea Logics",
+   "title": "React Native Developer",
+   "reason": "Himalayas, Pakistan; this company was already emailed at its careers address (on record), so no second application; job mailbox also unavailable today"
+  },
+  {
+   "company": "Tebra",
+   "title": "Senior Analytics Engineer",
+   "reason": "We Work Remotely; analytics engineering, not a product engineering role"
+  },
+  {
+   "company": "Fin",
+   "title": "Forward Deployed Engineer",
+   "reason": "We Work Remotely; company careers form only, no published hiring email (forms await owner approval)"
+  },
+  {
+   "company": "Lithic",
+   "title": "Senior Software Engineer, Issuing",
+   "reason": "We Work Remotely; company careers form only, no published hiring email; payments backend role"
   }
  ],
  "checkIns": [
@@ -914,6 +939,10 @@
   {
    "at": "2026-11-19T18:06Z",
    "summary": "Delayed check-in: the Nov 17 04:00 UTC reminder only reached the session on Nov 19 18:02 UTC, so Nov 17-19 had no checks. Mail NOT checked: the Gmail connector is now signed in to a different Google account, not the job-search mailbox, so nothing was read beyond the first listing and nothing was sent from it; owner told. Himalayas full pass (473 listings; one query rate-limited): 1 new row, Wizdaa 'Senior React Native & React Engineer PK', a repost of a role already screened out (AI-first Cursor/Claude delivery by default, unconfirmed). HN November thread: 1 new post, outGoing, screened out. Wider feeds (Remotive, RemoteOK, We Work Remotely, last 4 days): Treatwell, Lemon.io, CircleCI and G-P, all company forms; Proxify already listed as form only. No applications."
+  },
+  {
+   "at": "2026-11-20T04:01Z",
+   "summary": "Mail NOT checked: one small search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (549 listings): 5 new rows, all Pakistan-based and all from companies already on record (Creative Chaos React Native roles need a bachelor's degree; Panacea Logics was already emailed; Sortitt is a repost of a role already screened out). HN November thread 0 new (242 top-level posts). Wider feeds: Tebra analytics role, Fin and Lithic company forms. No applications."
   }
  ],
  "emailApplications": [
