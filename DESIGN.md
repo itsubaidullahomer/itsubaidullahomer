@@ -64,24 +64,30 @@ stylesheet is the phone, and wider screens add to it.
 
 ## Opening curtain
 
-`components/loader.tsx`, `styles/loader.css`: on the first visit of a session the name rises letter by
-letter over a count to 100 and a gold line, then the curtain lifts with a curved edge and the hero plays
-underneath (`--intro-delay` holds the hero's entrance). A personal link shows "Prepared for …" on it. It is
-pure CSS, so it never waits on the network; a reload, an `#anchor` link or reduced motion skips it (the
-script at the top of `app/layout.tsx` sets `html.seen`).
+`components/loader.tsx`, `lib/opening.ts` (runs before anything paints), `styles/loader.css`. On the first
+visit of a session the name rises letter by letter while a counter and a gold line follow what has really
+loaded: the type, the portrait and the opening's sounds (never more than nine seconds). At 100 the counter
+gives way to an **Enter** button (and "Enter without sound"). Enter is the visitor's first click, the only
+moment a browser allows sound, so the curtain lifts with the opening playing in time: the press, a whoosh at
+the curtain's fastest point, a shimmer as the headline lands, the counter ticking up, a pop as the badge
+appears. The hero is held (paused) until then. If nobody presses anything it lifts by itself after nine
+seconds, quietly. A reload, an `#anchor` link or reduced motion skips it (`html.seen`); with no script at
+all it plays a short timed version. A personal link shows "Prepared for …" on it.
 
 ## Sound
 
 `lib/sound.ts`, `components/sound.tsx`, files in `public/sounds/v1` (made with ElevenLabs Sound Effects v3:
 four takes each, picked by measurement, trimmed, faded and levelled; the tonal ones are all in C major).
-Sound is on by default with a switch in the bar, remembered per device; browsers only allow it after the
-first tap or click, and nothing is downloaded before then. On iPhones it follows the silent switch and mixes
-with music. Hover (mouse only, never while scrolling) is a faint tick; clicks a soft tap; chips and answers
-a pop, higher on and lower off; section links a tap and a whoosh, and everything they pass on the way stays
-quiet; service cards play a rising scale as they arrive; work cards land with a soft thud; counters tick,
-rising with the count; the before and after handle ratchets; copying the email rings a bell; turning sound
-on plays a C–E–G–C chime; the contact panel shimmers once. Keep new sounds in the same family and quiet:
-a sound that answers a click, or a moment, never one that loops. Replace a file by adding `v2/`.
+The files start downloading before the page paints and are decoded straight away, so a sound is ready the
+moment the browser allows it; each starts at its first audible sample. Sound is on by default with a switch
+in the bar, remembered per device; on iPhones it follows the silent switch and mixes with music. Presses
+sound the instant the mouse goes down (on touch, when the tap lands). Hover (mouse only, never while
+scrolling) is a faint tick; clicks a soft tap; chips and answers a pop, higher on and lower off; section
+links a tap and a whoosh, and what they pass on the way stays quiet; service cards play a rising scale at
+the moment each one lands (`Track` `sound` props); work cards land with a soft thud; counters tick, rising
+with the count; the before and after handle ratchets; copying the email rings a bell; turning sound on
+plays a C–E–G–C chime; the contact panel shimmers once. Keep new sounds in the same family and quiet: a
+sound that answers a click or a moment, never one that loops. Replace a file by adding `v2/`.
 
 ## Personal links
 

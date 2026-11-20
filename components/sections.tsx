@@ -6,6 +6,9 @@ import { ServiceArt } from "./service-art";
 import { Label } from "./label";
 import { Rich } from "./rich";
 
+/** Notes of a major scale, as playback rates: each service card plays the next one up as it arrives. */
+const SCALE = [1, 9 / 8, 5 / 4, 4 / 3, 3 / 2, 5 / 3];
+
 export function Services() {
   return (
     <section className="section services" id="services">
@@ -17,8 +20,17 @@ export function Services() {
           </Track>
         </div>
         <div className="svc-grid">
-          {services.list.map((service) => (
-            <Track as="article" mode="view" className="svc" key={service.key}>
+          {services.list.map((service, i) => (
+            <Track
+              as="article"
+              mode="view"
+              className="svc"
+              key={service.key}
+              sound="pop"
+              soundAt={0.25}
+              soundRate={SCALE[i % SCALE.length] * 1.05}
+              soundGain={0.7}
+            >
               <div className="svc__art" aria-hidden="true">
                 <ServiceArt kind={service.key} />
               </div>

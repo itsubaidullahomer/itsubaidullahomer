@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, type CSSProperties, type ReactNode } from "react";
-import { play } from "@/lib/sound";
+import { play, type SoundName } from "@/lib/sound";
 
 /**
  * pin   0 → 1 while a tall section scrolls past its pinned, screen-high child
@@ -129,6 +129,10 @@ export function Track({
   className,
   id,
   style,
+  sound,
+  soundAt = 0.25,
+  soundRate = 1,
+  soundGain = 1,
   children,
 }: {
   mode?: TrackMode;
@@ -136,6 +140,11 @@ export function Track({
   className?: string;
   id?: string;
   style?: CSSProperties;
+  /** A sound played as the progress passes soundAt on the way in: the moment the element has arrived. */
+  sound?: SoundName;
+  soundAt?: number;
+  soundRate?: number;
+  soundGain?: number;
   children: ReactNode;
 }) {
   const ref = useRef<HTMLElement>(null);
@@ -143,8 +152,15 @@ export function Track({
     const el = ref.current;
     if (!el || prefersReducedMotion()) return;
     el.dataset.live = "1";
-    return track(el, mode, (p) => el.style.setProperty("--p", p.toFixed(4)));
-  }, [mode]);
+    // Armed only once it has been seen before its moment, so nothing sounds for what was already there.
+    let armed = false;
+    return track(el, mode, (p) => {
+      el.style.setProperty("--p", p.toFixed(4));
+      if (!sound) return;
+      if (p < soundAt - 0.08) armed = true;
+      else if (armed && p >= soundAt && play(sound, { rate: soundRate, gain: soundGain, ambient: true })) armed = false;
+    });
+  }, [mode, sound, soundAt, soundRate, soundGain]);
   return (
     // The element type is fixed per call site, so one ref type covers all of them.
     <Tag ref={ref as never} id={id} className={className} style={style}>
@@ -260,10 +276,20 @@ export function CountUp({ value, prefix = "", suffix = "" }: { value: number; pr
       },
       { threshold: 0.6 },
     );
-    // While the opening curtain is up, wait for it to lift (see loader.css).
-    const wait = document.documentElement.classList.contains("seen") ? 0 : Math.max(0, 1500 - performance.now());
-    const timer = setTimeout(() => io.observe(el), wait);
+    // Behind the opening curtain, wait until the visitor is in and the hero has started to land.
+    const root = document.documentElement;
+    const opened = (window as Window & { __entered?: { at: number } }).__entered;
+    // If the visitor came in a while before this script arrived, the number simply stays as it is.
+    if (opened && performance.now() - opened.at > 1500) return;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const begin = () => {
+      timer = setTimeout(() => io.observe(el), root.classList.contains("gate") ? 700 : 0);
+    };
+    if (root.classList.contains("gate") && !root.classList.contains("entered")) {
+      window.addEventListener("enter", begin, { once: true });
+    } else begin();
     return () => {
+      window.removeEventListener("enter", begin);
       clearTimeout(timer);
       io.disconnect();
       cancelAnimationFrame(raf);

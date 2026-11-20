@@ -31,75 +31,67 @@ export function SoundToggle() {
   );
 }
 
-/** Notes of a major scale, as playback rates: each service card that arrives plays the next one up. */
-const SCALE = [1, 9 / 8, 5 / 4, 4 / 3, 3 / 2, 5 / 3];
-
 const HOVERABLE = "a, button, summary, [role='slider'], .svc, .piece__window, .pphone, .peek";
+const PRESSABLE = "a, button, summary";
 
 /**
- * Listens once, for the whole page, and gives the ordinary moments a sound: hovering, clicking, opening an
- * answer, choosing a service, jumping to a section, the service cards and the contact panel arriving. The
- * moments that belong to one component (cards settling, numbers counting, the before and after handle,
- * copying the email) play their own, from that component.
+ * Listens once, for the whole page, and gives the ordinary moments a sound: hovering, pressing, opening an
+ * answer, choosing a service, jumping to a section, the contact panel arriving. A press sounds the instant
+ * the mouse goes down (on a touch screen, when the tap lands, so scrolling never makes a sound). The moments
+ * that belong to one component play their own: service cards arriving (Track), cards settling, numbers
+ * counting, the before and after handle, copying the email, and the opening (lib/sound.ts).
  */
 export function SoundEvents() {
   useEffect(() => {
     startSound();
     let hovered: Element | null = null;
+    let pressed: Element | null = null;
     // When the page scrolls under a still mouse, things pass beneath it: that is not a hover.
     let scrolled = 0;
     const scroll = () => {
       scrolled = performance.now();
     };
+    const quiet = (target: Element) => !!target.closest(".snd, .loader, [data-quiet]");
 
     const over = (event: PointerEvent) => {
       if (event.pointerType !== "mouse") return;
       const target = (event.target as Element | null)?.closest?.(HOVERABLE) ?? null;
       const still = performance.now() - scrolled < 180;
-      if (target && target !== hovered && !still && !target.closest(".snd")) play("hover");
+      if (target && target !== hovered && !still && !quiet(target)) play("hover");
       hovered = target;
     };
 
-    const click = (event: MouseEvent) => {
-      const target = (event.target as Element | null)?.closest?.("a, button, summary") ?? null;
-      if (!target || target.closest(".snd, [data-quiet]")) return;
+    const press = (target: Element) => {
       if (target.matches(".chip")) {
         // Higher when it is being switched on, lower when off.
         play("pop", { rate: target.getAttribute("aria-pressed") === "true" ? 0.84 : 1.12 });
-        return;
-      }
-      if (target.matches("summary")) {
+      } else if (target.matches("summary")) {
         const open = (target.parentElement as HTMLDetailsElement | null)?.open;
         play("pop", { rate: open ? 0.82 : 1.08 });
-        return;
-      }
-      play("tap");
+      } else play("tap");
+    };
+
+    const down = (event: PointerEvent) => {
+      if (event.pointerType === "touch" || event.button !== 0) return;
+      const target = (event.target as Element | null)?.closest?.(PRESSABLE) ?? null;
+      if (!target || quiet(target)) return;
+      pressed = target;
+      press(target);
+    };
+
+    const click = (event: MouseEvent) => {
+      const target = (event.target as Element | null)?.closest?.(PRESSABLE) ?? null;
+      if (!target || quiet(target)) return;
+      // A mouse already sounded on the way down; a tap or a key sounds now.
+      if (target !== pressed) press(target);
+      pressed = null;
       if (target.matches("a[href^='#']")) {
-        play("whoosh", { delay: 0.07 });
+        play("whoosh", { delay: 0.04 });
         hush();
       }
     };
 
-    // The service cards each play the next note as they arrive; the contact panel shimmers once.
-    const cards = Array.from(document.querySelectorAll(".svc"));
-    let batch = 0;
-    const arrive = new IntersectionObserver(
-      (entries) => {
-        batch = 0;
-        for (const entry of entries) {
-          if (!entry.isIntersecting) continue;
-          const index = cards.indexOf(entry.target);
-          // Each card sings once, the first time it is seen with sound ready.
-          if (play("pop", { rate: SCALE[index % SCALE.length] * 1.05, gain: 0.7, delay: batch * 0.09, ambient: true })) {
-            batch++;
-            arrive.unobserve(entry.target);
-          }
-        }
-      },
-      { threshold: 0.45 },
-    );
-    for (const card of cards) arrive.observe(card);
-
+    // The contact panel shimmers once, the first time it is seen with sound ready.
     const panel = document.getElementById("contact");
     const shimmer = new IntersectionObserver(
       ([entry]) => {
@@ -111,12 +103,13 @@ export function SoundEvents() {
 
     window.addEventListener("scroll", scroll, { passive: true });
     document.addEventListener("pointerover", over, { passive: true });
+    document.addEventListener("pointerdown", down, true);
     document.addEventListener("click", click, true);
     return () => {
       window.removeEventListener("scroll", scroll);
       document.removeEventListener("pointerover", over);
+      document.removeEventListener("pointerdown", down, true);
       document.removeEventListener("click", click, true);
-      arrive.disconnect();
       shimmer.disconnect();
     };
   }, []);

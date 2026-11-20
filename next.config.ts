@@ -18,6 +18,11 @@ const config: NextConfig = {
   async headers() {
     return [
       {
+        // Versioned folder (v1, v2…): a changed sound gets a new address, so these can be kept for a year.
+        source: "/sounds/:path*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
         source: "/(.*)",
         headers: [
           { key: "X-Content-Type-Options", value: "nosniff" },

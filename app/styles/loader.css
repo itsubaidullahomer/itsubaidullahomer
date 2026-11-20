@@ -1,19 +1,32 @@
 /*
  * The opening curtain and the sound switch.
  *
- * The curtain holds for --hold, then lifts. The hero's own entrance waits --intro-delay, so its lines rise
- * as the curtain clears. On a reload in the same session, a link to a part of the page, or with reduced
- * motion, html gets .seen (from the script in app/layout.tsx) and both are skipped.
+ * html.gate (set by lib/opening.ts on the first visit of a session): the curtain holds, its counter and gold
+ * line follow what has really loaded (--load, 0 → 1), and at 100 (data-ready) the Enter button appears.
+ * Entering adds html.entered: the curtain lifts and the hero, held until then, plays.
+ * html.seen (a reload, a link to a part of the page, reduced motion): no curtain at all.
+ * Neither (no script): a short timed curtain that lifts on its own.
  */
 :root {
   --hold: 0.8s;
   --intro-delay: 1s;
+}
+html.gate {
+  --intro-delay: 0.3s;
 }
 html.seen {
   --intro-delay: 0s;
 }
 html.seen .loader {
   display: none;
+}
+/* Nothing behind the curtain moves or scrolls until the visitor is in. */
+html.gate:not(.entered) {
+  overflow: hidden;
+}
+html.gate:not(.entered) :is(.hero, .bar),
+html.gate:not(.entered) :is(.hero, .bar) * {
+  animation-play-state: paused !important;
 }
 
 @property --count {
@@ -32,6 +45,12 @@ html.seen .loader {
   background: var(--soft);
   animation: loader-out 0.72s cubic-bezier(0.76, 0, 0.24, 1) var(--hold) forwards;
 }
+html.gate .loader {
+  animation: none;
+}
+html.gate.entered .loader {
+  animation: loader-out 0.8s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
 @keyframes loader-out {
   to {
     border-radius: 0 0 50% 50% / 0 0 14vh 14vh;
@@ -43,7 +62,15 @@ html.seen .loader {
   display: grid;
   justify-items: center;
   gap: 14px;
+  padding-inline: var(--gutter);
+  text-align: center;
   animation: loader-inner 0.72s cubic-bezier(0.76, 0, 0.24, 1) var(--hold) forwards;
+}
+html.gate .loader__inner {
+  animation: none;
+}
+html.gate.entered .loader__inner {
+  animation: loader-inner 0.8s cubic-bezier(0.76, 0, 0.24, 1) forwards;
 }
 /* The words leave a little faster than the curtain, so it reads as depth. */
 @keyframes loader-inner {
@@ -83,6 +110,127 @@ html.seen .loader {
   color: var(--ink);
   font-weight: 600;
 }
+
+/* Enter: appears when everything is in. The bars say it comes with sound. */
+.loader__enter {
+  display: none;
+}
+html.gate .loader__enter {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  margin-top: clamp(18px, 4vh, 34px);
+  opacity: 0;
+  transform: translateY(14px) scale(0.96);
+  pointer-events: none;
+  transition:
+    opacity 0.5s var(--out),
+    transform 0.6s var(--pop);
+}
+html.gate .loader[data-ready] .loader__enter {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+.loader__go {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 62px;
+  padding: 0 34px 0 28px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition:
+    transform 0.3s var(--out),
+    background 0.2s;
+}
+/* A slow ring that breathes out from the button, inviting the press. */
+.loader__go::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--gold);
+  opacity: 0;
+}
+.loader[data-ready] .loader__go::before {
+  animation: invite 2.2s var(--out) 0.4s infinite;
+}
+@keyframes invite {
+  from {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.35, 1.7);
+  }
+}
+@media (hover: hover) {
+  .loader__go:hover {
+    background: #000;
+    transform: scale(1.04);
+  }
+}
+.loader__go:active,
+html.entered .loader__go {
+  transform: scale(0.96);
+}
+.loader__bars {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 18px;
+  color: var(--gold);
+}
+.loader__bars i {
+  width: 2.5px;
+  height: 18px;
+  border-radius: 2px;
+  background: currentColor;
+  transform: scaleY(0.3);
+  animation: eq 0.9s ease-in-out infinite alternate;
+}
+.loader__bars i:nth-child(2) {
+  animation-duration: 0.65s;
+  animation-delay: -0.3s;
+}
+.loader__bars i:nth-child(3) {
+  animation-duration: 1.1s;
+  animation-delay: -0.5s;
+}
+.loader__bars i:nth-child(4) {
+  animation-duration: 0.75s;
+  animation-delay: -0.15s;
+}
+.loader__bars i:nth-child(5) {
+  animation-duration: 0.95s;
+  animation-delay: -0.7s;
+}
+.loader__quiet {
+  min-height: 40px;
+  padding: 0 10px;
+  border: 0;
+  background: none;
+  color: var(--mute);
+  font-size: 0.86rem;
+  text-decoration: underline;
+  text-decoration-color: var(--line-2);
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+.loader__quiet:hover {
+  color: var(--ink);
+}
+
 .loader__foot {
   position: absolute;
   inset: auto var(--gutter) max(26px, env(safe-area-inset-bottom));
@@ -95,18 +243,23 @@ html.seen .loader {
   animation: rise 0.6s var(--out) 0.15s backwards;
 }
 .loader__count {
-  --count: 100;
   color: var(--ink);
   font-size: clamp(2rem, 7vw, 3.4rem);
   font-weight: 600;
   font-variant-numeric: tabular-nums;
   line-height: 0.9;
   letter-spacing: -0.04em;
+}
+/* Without a script the count runs on its own clock. */
+html:not(.gate) .loader__count {
+  --count: 100;
+  font-size: 0;
   counter-reset: count var(--count);
   animation: loader-count 0.75s cubic-bezier(0.5, 0, 0.2, 1) 0.05s backwards;
 }
-.loader__count::after {
+html:not(.gate) .loader__count::after {
   content: counter(count);
+  font-size: clamp(2rem, 7vw, 3.4rem);
 }
 @keyframes loader-count {
   from {
@@ -122,6 +275,10 @@ html.seen .loader {
   background: var(--gold);
   transform-origin: left;
   animation: loader-line 0.8s cubic-bezier(0.5, 0, 0.2, 1) backwards;
+}
+html.gate .loader__line {
+  animation: none;
+  transform: scaleX(var(--load, 0));
 }
 @keyframes loader-line {
   from {

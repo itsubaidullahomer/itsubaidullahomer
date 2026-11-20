@@ -2,10 +2,14 @@
  * The site's sound. A handful of short, quiet effects from one family (made with ElevenLabs Sound Effects,
  * picked and trimmed by hand, see public/sounds/v1), played through one Web Audio context.
  *
- * - Nothing is downloaded until sound is actually used, so it costs a page load nothing.
- * - Browsers only allow sound after the visitor has tapped or clicked, so the first gesture unlocks it.
- * - It is on by default and the bar has a switch; the visitor's choice is remembered on their device.
- * - On an iPhone it follows the silent switch and mixes with music instead of stopping it.
+ * - The files start downloading before the page paints (lib/opening.ts) and are decoded as soon as this
+ *   script runs, before anyone has touched anything, so every sound is ready the moment it is allowed.
+ * - Browsers only allow sound once the visitor has tapped or clicked. On a first visit that is the curtain's
+ *   Enter button (the opening itself is played by lib/opening.ts, so it never waits for this script);
+ *   otherwise their first tap or click, which makes its own sound straight away.
+ * - Each sound starts at its first audible sample, so it lands exactly on the action.
+ * - On by default, with a switch in the bar; the choice is remembered on the visitor's device. On an iPhone
+ *   it follows the silent switch and mixes with music instead of stopping it.
  * - Small effects vary their pitch slightly each time, so repeats never sound mechanical.
  */
 
@@ -24,10 +28,10 @@ const MIX: Record<SoundName, number> = {
   tap: 0.3,
   pop: 0.26,
   land: 0.22,
-  whoosh: 0.22,
+  whoosh: 0.24,
   success: 0.3,
   chime: 0.32,
-  intro: 0.28,
+  intro: 0.3,
 };
 /** The shortest gap between two plays of the same sound, in ms, so a fast hand never makes a buzz. */
 const GAP: Record<SoundName, number> = {
@@ -43,17 +47,30 @@ const GAP: Record<SoundName, number> = {
 };
 const VARY = new Set<SoundName>(["hover", "tick", "tap", "pop", "land"]);
 
+type Opening = { at: number; sound: boolean };
+type SoundWindow = Window & {
+  __sfx?: Partial<Record<SoundName, Promise<ArrayBuffer | null>>>;
+  __ac?: AudioContext;
+  __entered?: Opening;
+  webkitAudioContext?: typeof AudioContext;
+};
+
 let ctx: AudioContext | null = null;
 let out: GainNode | null = null;
-let loading: Promise<void> | null = null;
 let on = false;
 let started = false;
+/** The visitor has made a gesture, so the context may be running or about to run. */
+let unlocked = false;
 /** True while the page glides to a section after a link: what passes by on the way stays quiet. */
 let hushed = false;
 let hushTimer: ReturnType<typeof setTimeout> | undefined;
 const buffers = new Map<SoundName, AudioBuffer>();
+/** Where each sound's first audible sample is, in seconds, so playback skips any silence in front. */
+const onsets = new Map<SoundName, number>();
 const last = new Map<SoundName, number>();
 const listeners = new Set<(on: boolean) => void>();
+
+const win = () => window as SoundWindow;
 
 function stored(): boolean {
   try {
@@ -74,63 +91,100 @@ function emit() {
   for (const listener of listeners) listener(on);
 }
 
+/** The live audio context: the one the curtain opened, or a new one. Only ever created inside a gesture. */
 function context(): AudioContext | null {
-  if (ctx) return ctx;
-  const Ctor = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
-  if (!Ctor) return null;
-  try {
-    // Mix with whatever the visitor is listening to, and stay quiet when an iPhone is on silent.
-    const session = (navigator as unknown as { audioSession?: { type: string } }).audioSession;
-    if (session) session.type = "ambient";
-  } catch {
-    // Not supported: the browser's default is fine.
+  if (!ctx) {
+    const w = win();
+    if (w.__ac) ctx = w.__ac;
+    else {
+      const Ctor = window.AudioContext ?? w.webkitAudioContext;
+      if (!Ctor) return null;
+      try {
+        // Mix with whatever the visitor is listening to, and stay quiet when an iPhone is on silent.
+        const session = (navigator as unknown as { audioSession?: { type: string } }).audioSession;
+        if (session) session.type = "ambient";
+      } catch {
+        // Not supported: the browser's default is fine.
+      }
+      ctx = new Ctor({ latencyHint: "interactive" });
+      w.__ac = ctx;
+    }
+    out = ctx.createGain();
+    out.gain.value = 0.9;
+    out.connect(ctx.destination);
+    document.addEventListener("visibilitychange", () => {
+      if (!ctx) return;
+      if (document.hidden) void ctx.suspend();
+      else if (on && unlocked) void ctx.resume();
+    });
   }
-  ctx = new Ctor({ latencyHint: "interactive" });
-  out = ctx.createGain();
-  out.gain.value = 0.9;
-  out.connect(ctx.destination);
-  document.addEventListener("visibilitychange", () => {
-    if (!ctx) return;
-    if (document.hidden) void ctx.suspend();
-    else if (on) void ctx.resume();
-  });
   return ctx;
 }
 
-function load(): Promise<void> {
-  const audio = ctx;
-  if (!audio) return Promise.resolve();
-  loading ??= Promise.all(
+/** Decodes every sound without waiting for a gesture (an offline context needs no permission). */
+async function prepare() {
+  const w = win();
+  const Offline = window.OfflineAudioContext;
+  if (!Offline) return;
+  const decoder = new Offline(1, 1, 44100);
+  await Promise.all(
     NAMES.map(async (name) => {
-      const response = await fetch(`${BASE}${name}.mp3`);
-      buffers.set(name, await audio.decodeAudioData(await response.arrayBuffer()));
+      try {
+        const data = (await w.__sfx?.[name]) ?? (await (await fetch(`${BASE}${name}.mp3`)).arrayBuffer());
+        if (!data) return;
+        const buffer = await decoder.decodeAudioData(data.slice(0));
+        const samples = buffer.getChannelData(0);
+        let peak = 0;
+        for (const sample of samples) peak = Math.max(peak, Math.abs(sample));
+        let first = 0;
+        while (first < samples.length && Math.abs(samples[first]) < peak * 0.02) first++;
+        buffers.set(name, buffer);
+        onsets.set(name, Math.max(0, first / buffer.sampleRate - 0.002));
+      } catch {
+        // One missing sound never stops the rest.
+      }
     }),
-  ).then(
-    () => undefined,
-    () => undefined,
   );
-  return loading;
 }
 
-/** Called on the visitor's first tap, click or key press: the moment the browser allows sound. */
+/** The visitor's first tap, click or key press: the moment a browser allows sound. */
 function unlock() {
-  if (!on) return;
+  if (unlocked || !on) return;
   const audio = context();
   if (!audio) return;
+  unlocked = true;
   void audio.resume();
-  void load();
 }
 
-/** Reads the visitor's choice and waits for their first gesture. Safe to call more than once. */
+/** The visitor came in through the curtain (lib/opening.ts has already played the opening). */
+function entered(detail: Opening) {
+  on = detail.sound;
+  if (on) {
+    context();
+    unlocked = true;
+  }
+  emit();
+}
+
+/** Reads the visitor's choice, decodes the sounds and waits for the first gesture. Safe to call twice. */
 export function startSound() {
   if (started || typeof window === "undefined") return;
   started = true;
   on = stored();
   emit();
-  const first = () => {
-    unlock();
-    for (const name of ["pointerdown", "keydown", "touchend"]) window.removeEventListener(name, first, true);
-  };
+  void prepare();
+  const w = win();
+  if (w.__entered) {
+    // The visitor pressed Enter before this script arrived: pick up where the curtain left off.
+    if (w.__entered.sound && w.__ac) {
+      context();
+      unlocked = true;
+    }
+    entered(w.__entered);
+  } else {
+    window.addEventListener("enter", (event) => entered((event as CustomEvent<Opening>).detail), { once: true });
+  }
+  const first = () => unlock();
   for (const name of ["pointerdown", "keydown", "touchend"]) window.addEventListener(name, first, true);
 }
 
@@ -145,8 +199,8 @@ export function onSoundChange(listener: (on: boolean) => void) {
   };
 }
 
-/** The switch in the bar. Turning it on plays the chime once everything has loaded. */
-export async function setSound(next: boolean) {
+/** The switch in the bar. Turning it on plays the chime. */
+export function setSound(next: boolean) {
   if (!next) {
     play("pop", { rate: 0.8, force: true });
     on = false;
@@ -159,8 +213,8 @@ export async function setSound(next: boolean) {
   emit();
   const audio = context();
   if (!audio) return;
-  await audio.resume();
-  await load();
+  unlocked = true;
+  void audio.resume();
   play("chime");
 }
 
@@ -193,12 +247,14 @@ type PlayOptions = {
   ambient?: boolean;
 };
 
-/** Plays a sound if sound is on and ready. Returns whether it played. */
+/** Plays a sound if sound is on and allowed. Returns whether it played. */
 export function play(
   name: SoundName,
   { rate = 1, gain = 1, delay = 0, force = false, ambient = false }: PlayOptions = {},
 ): boolean {
-  if ((!on && !force) || (ambient && hushed) || !ctx || !out || ctx.state !== "running") return false;
+  if ((!on && !force) || (ambient && hushed) || !unlocked || !ctx || !out) return false;
+  // A context that is still waking from the gesture that unlocked it plays as soon as it is up.
+  if (ctx.state === "closed" || (ctx.state === "suspended" && document.hidden)) return false;
   const buffer = buffers.get(name);
   if (!buffer) return false;
   // Spacing is measured at the moment each sound will actually start, so a planned run of notes plays in full.
@@ -211,6 +267,6 @@ export function play(
   const level = ctx.createGain();
   level.gain.value = MIX[name] * gain;
   source.connect(level).connect(out);
-  source.start(ctx.currentTime + delay);
+  source.start(ctx.currentTime + delay, onsets.get(name) ?? 0);
   return true;
 }

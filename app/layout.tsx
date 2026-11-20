@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Instrument_Serif } from "next/font/google";
 import { studio } from "@/content/studio";
+import { OPENING } from "@/lib/opening";
 import "./styles/base.css";
 import "./styles/hero.css";
 import "./styles/sections.css";
@@ -22,11 +23,7 @@ const serif = Instrument_Serif({
 
 const title = `${studio.name} — ${studio.title}`;
 
-const OPENING = [
-  "var d=document.documentElement;",
-  'if(location.hash)d.classList.add("cv-all","jump","seen");',
-  'try{if(sessionStorage.getItem("seen"))d.classList.add("seen");else sessionStorage.setItem("seen","1")}catch(e){}',
-].join("");
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(studio.url),
@@ -50,11 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
-        {/*
-          Before anything paints. Opened at an #anchor: lay out the whole page first and jump straight there,
-          without the smooth scroll or the opening curtain (see AnchorFix in components/fx.tsx). The curtain
-          (components/loader.tsx) plays once per visit: a reload skips it.
-        */}
+        {/* Before anything paints: the opening curtain, the sound downloads, and #anchor links (lib/opening.ts). */}
         <script dangerouslySetInnerHTML={{ __html: OPENING }} />
         <a href="#main" className="skip">
           Skip to content
