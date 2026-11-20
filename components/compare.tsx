@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent } from "react";
 import { compare } from "@/content/studio";
+import { play } from "@/lib/sound";
 import { prefersReducedMotion, Track } from "./fx";
 import { Label } from "./label";
 import { Rich } from "./rich";
@@ -48,9 +49,18 @@ export function Compare() {
     };
   }, []);
 
+  /** A soft ratchet tick every few steps of the handle, higher toward the new site. */
+  const ticked = useRef(50);
+  function tick(next: number) {
+    if (Math.abs(next - ticked.current) < 4) return;
+    ticked.current = next;
+    play("tick", { rate: 0.8 + next / 200 });
+  }
   function place(event: PointerEvent<HTMLDivElement>) {
     const box = event.currentTarget.getBoundingClientRect();
-    setX(clamp(((event.clientX - box.left) / box.width) * 100));
+    const next = clamp(((event.clientX - box.left) / box.width) * 100);
+    tick(next);
+    setX(next);
   }
   function down(event: PointerEvent<HTMLDivElement>) {
     touched.current = true;
@@ -69,7 +79,9 @@ export function Compare() {
     if (!step) return;
     event.preventDefault();
     touched.current = true;
-    setX((value) => clamp(value + step));
+    const next = clamp(x + step);
+    play("tick", { rate: 0.8 + next / 200 });
+    setX(next);
   }
 
   return (

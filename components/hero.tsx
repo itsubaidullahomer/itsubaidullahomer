@@ -4,6 +4,7 @@ import { hero, strip, studio, tape } from "@/content/studio";
 import { CountUp, Track } from "./fx";
 import { Arrow, ArrowDown } from "./icons";
 import { MadeFor } from "./hero-bits";
+import { SoundToggle } from "./sound";
 
 /** The floating bar: the name and the way to get in touch. */
 export function Bar() {
@@ -13,9 +14,12 @@ export function Bar() {
         {studio.name}
         <i>.</i>
       </a>
-      <a className="bar__cta" href="#contact">
-        Get in touch
-      </a>
+      <div className="bar__end">
+        <SoundToggle />
+        <a className="bar__cta" href="#contact">
+          Get in touch
+        </a>
+      </div>
     </div>
   );
 }

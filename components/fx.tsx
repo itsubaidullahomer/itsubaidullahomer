@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, type CSSProperties, type ReactNode } from "react";
+import { play } from "@/lib/sound";
 
 /**
  * pin   0 → 1 while a tall section scrolls past its pinned, screen-high child
@@ -238,8 +239,11 @@ export function CountUp({ value, prefix = "", suffix = "" }: { value: number; pr
     let raf = 0;
     let shown = "";
     // Only touch the text when the number changes: each write costs a layout, so 0 → 20 is 21 writes, not 60.
-    const show = (text: string) => {
-      if (text !== shown) el.textContent = shown = text;
+    // Each change ticks, a little higher as the number climbs, like a mechanical counter.
+    const show = (text: string, t = 0) => {
+      if (text === shown) return;
+      el.textContent = shown = text;
+      if (t > 0) play("tick", { rate: 0.85 + t * 0.5, gain: 0.75, ambient: true });
     };
     const io = new IntersectionObserver(
       ([entry]) => {
@@ -248,7 +252,7 @@ export function CountUp({ value, prefix = "", suffix = "" }: { value: number; pr
         const start = performance.now();
         const step = (now: number) => {
           const t = Math.min(1, (now - start) / 1100);
-          show(format(value * (1 - Math.pow(1 - t, 3))));
+          show(format(value * (1 - Math.pow(1 - t, 3))), t);
           if (t < 1) raf = requestAnimationFrame(step);
         };
         show(format(0));
@@ -256,8 +260,11 @@ export function CountUp({ value, prefix = "", suffix = "" }: { value: number; pr
       },
       { threshold: 0.6 },
     );
-    io.observe(el);
+    // While the opening curtain is up, wait for it to lift (see loader.css).
+    const wait = document.documentElement.classList.contains("seen") ? 0 : Math.max(0, 1500 - performance.now());
+    const timer = setTimeout(() => io.observe(el), wait);
     return () => {
+      clearTimeout(timer);
       io.disconnect();
       cancelAnimationFrame(raf);
     };

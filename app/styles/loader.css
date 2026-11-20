@@ -1,0 +1,229 @@
+/*
+ * The opening curtain and the sound switch.
+ *
+ * The curtain holds for --hold, then lifts. The hero's own entrance waits --intro-delay, so its lines rise
+ * as the curtain clears. On a reload in the same session, a link to a part of the page, or with reduced
+ * motion, html gets .seen (from the script in app/layout.tsx) and both are skipped.
+ */
+:root {
+  --hold: 0.8s;
+  --intro-delay: 1s;
+}
+html.seen {
+  --intro-delay: 0s;
+}
+html.seen .loader {
+  display: none;
+}
+
+@property --count {
+  syntax: "<integer>";
+  inherits: false;
+  initial-value: 0;
+}
+
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--soft);
+  animation: loader-out 0.72s cubic-bezier(0.76, 0, 0.24, 1) var(--hold) forwards;
+}
+@keyframes loader-out {
+  to {
+    border-radius: 0 0 50% 50% / 0 0 14vh 14vh;
+    transform: translate3d(0, -104%, 0);
+    visibility: hidden;
+  }
+}
+.loader__inner {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  animation: loader-inner 0.72s cubic-bezier(0.76, 0, 0.24, 1) var(--hold) forwards;
+}
+/* The words leave a little faster than the curtain, so it reads as depth. */
+@keyframes loader-inner {
+  to {
+    opacity: 0;
+    transform: translate3d(0, -14vh, 0);
+  }
+}
+.loader__mark {
+  display: flex;
+  overflow: hidden;
+  padding-block: 0.04em 0.1em;
+  font-size: clamp(4.2rem, 20vw, 11rem);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+}
+.loader__mark span {
+  display: block;
+  animation: loader-letter 0.7s var(--out) backwards;
+  animation-delay: calc(0.05s + var(--d) * 0.055s);
+}
+.loader__mark span:last-child {
+  color: var(--gold);
+}
+@keyframes loader-letter {
+  from {
+    transform: translateY(110%);
+  }
+}
+.loader__for {
+  color: var(--mute);
+  font-size: 0.95rem;
+  animation: rise 0.7s var(--out) 0.3s backwards;
+}
+.loader__for b {
+  color: var(--ink);
+  font-weight: 600;
+}
+.loader__foot {
+  position: absolute;
+  inset: auto var(--gutter) max(26px, env(safe-area-inset-bottom));
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--mute);
+  font-size: 0.82rem;
+  animation: rise 0.6s var(--out) 0.15s backwards;
+}
+.loader__count {
+  --count: 100;
+  color: var(--ink);
+  font-size: clamp(2rem, 7vw, 3.4rem);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  counter-reset: count var(--count);
+  animation: loader-count 0.75s cubic-bezier(0.5, 0, 0.2, 1) 0.05s backwards;
+}
+.loader__count::after {
+  content: counter(count);
+}
+@keyframes loader-count {
+  from {
+    --count: 0;
+  }
+}
+.loader__line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: var(--gold);
+  transform-origin: left;
+  animation: loader-line 0.8s cubic-bezier(0.5, 0, 0.2, 1) backwards;
+}
+@keyframes loader-line {
+  from {
+    transform: scaleX(0);
+  }
+}
+@media (max-width: 559px) {
+  .loader__foot span {
+    max-width: 18ch;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loader {
+    display: none;
+  }
+  :root {
+    --intro-delay: 0s;
+  }
+}
+
+/* The sound switch: four little bars that dance while sound is on and lie flat when it is off. */
+.bar__end {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.snd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-width: 40px;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--mute);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+}
+.snd:hover {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+.snd__bars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 14px;
+}
+.snd__bars i {
+  width: 2px;
+  height: 14px;
+  border-radius: 2px;
+  background: currentColor;
+  transform: scaleY(0.22);
+  transition: transform 0.35s var(--out);
+}
+.snd[data-on] {
+  color: var(--ink);
+}
+.snd[data-on] .snd__bars i {
+  animation: eq 0.9s ease-in-out infinite alternate;
+}
+.snd[data-on] .snd__bars i:nth-child(2) {
+  animation-duration: 0.7s;
+  animation-delay: -0.3s;
+}
+.snd[data-on] .snd__bars i:nth-child(3) {
+  animation-duration: 1.05s;
+  animation-delay: -0.6s;
+}
+.snd[data-on] .snd__bars i:nth-child(4) {
+  animation-duration: 0.8s;
+  animation-delay: -0.15s;
+}
+@keyframes eq {
+  from {
+    transform: scaleY(0.25);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+/* On a phone the switch is just the bars. */
+@media (max-width: 559px) {
+  .snd {
+    padding: 0;
+  }
+  .snd__label {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .snd[data-on] .snd__bars i {
+    animation: none;
+    transform: scaleY(0.7);
+  }
+}

@@ -34,7 +34,7 @@
   background: rgba(18, 17, 16, 0.07);
   transform-origin: top;
   animation: rule 1.6s var(--out) backwards;
-  animation-delay: calc(var(--n) * 110ms);
+  animation-delay: calc(var(--n) * 110ms + var(--intro-delay, 0s));
 }
 @keyframes rule {
   from {
@@ -50,7 +50,7 @@
   border-radius: 999px;
   background: var(--gold-tint);
   font-size: 0.9rem;
-  animation: rise 0.8s var(--out) 0.05s backwards;
+  animation: rise 0.8s var(--out) calc(0.05s + var(--intro-delay, 0s)) backwards;
 }
 .madefor span {
   color: var(--mute);
@@ -66,7 +66,7 @@
   justify-items: start;
 }
 .hero .eyebrow {
-  animation: rise 0.8s var(--out) 0.1s backwards;
+  animation: rise 0.8s var(--out) calc(0.1s + var(--intro-delay, 0s)) backwards;
 }
 /* The headline: two grey lines, two black. Each rises out of its own slot, and they drift apart on the way out. */
 .hero__title {
@@ -89,7 +89,7 @@
   display: block;
   width: max-content;
   animation: line-up 1.05s var(--out) backwards;
-  animation-delay: calc(var(--n) * 110ms + 120ms);
+  animation-delay: calc(var(--n) * 110ms + 120ms + var(--intro-delay, 0s));
 }
 .hl--soft {
   color: #918b7f;
@@ -120,7 +120,7 @@
   display: grid;
   gap: 22px;
   justify-items: start;
-  animation: settle 0.9s var(--out) backwards;
+  animation: settle 0.9s var(--out) var(--intro-delay, 0s) backwards;
 }
 @keyframes settle {
   from {
@@ -146,7 +146,7 @@
   align-items: center;
   gap: 18px;
   order: 3;
-  animation: rise 0.9s var(--out) 0.5s backwards;
+  animation: rise 0.9s var(--out) calc(0.5s + var(--intro-delay, 0s)) backwards;
 }
 .peek {
   flex: none;
@@ -224,7 +224,7 @@
   overflow: hidden;
   border-radius: 999px 999px 0 0;
   background: #b47a1d;
-  animation: photo 1.35s var(--out) 0.25s backwards;
+  animation: photo 1.35s var(--out) calc(0.25s + var(--intro-delay, 0s)) backwards;
 }
 @keyframes photo {
   from {
@@ -250,7 +250,7 @@
   overflow: hidden;
   background: var(--gold);
   color: var(--ink);
-  animation: strip 1.3s var(--out) 0.75s backwards;
+  animation: strip 1.3s var(--out) calc(0.75s + var(--intro-delay, 0s)) backwards;
 }
 @keyframes strip {
   from {
@@ -289,7 +289,7 @@
   aspect-ratio: 1;
   border-radius: 50%;
   background: var(--ink);
-  animation: pop 0.8s var(--pop) 1.15s backwards;
+  animation: pop 0.8s var(--pop) calc(1.15s + var(--intro-delay, 0s)) backwards;
 }
 .spin > svg {
   width: 100%;

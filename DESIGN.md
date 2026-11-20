@@ -62,6 +62,27 @@ stylesheet is the phone, and wider screens add to it.
 - Also: a very large word behind the steps, a giant line of type across the contact panel, and the name
   rising letter by letter in the footer.
 
+## Opening curtain
+
+`components/loader.tsx`, `styles/loader.css`: on the first visit of a session the name rises letter by
+letter over a count to 100 and a gold line, then the curtain lifts with a curved edge and the hero plays
+underneath (`--intro-delay` holds the hero's entrance). A personal link shows "Prepared for …" on it. It is
+pure CSS, so it never waits on the network; a reload, an `#anchor` link or reduced motion skips it (the
+script at the top of `app/layout.tsx` sets `html.seen`).
+
+## Sound
+
+`lib/sound.ts`, `components/sound.tsx`, files in `public/sounds/v1` (made with ElevenLabs Sound Effects v3:
+four takes each, picked by measurement, trimmed, faded and levelled; the tonal ones are all in C major).
+Sound is on by default with a switch in the bar, remembered per device; browsers only allow it after the
+first tap or click, and nothing is downloaded before then. On iPhones it follows the silent switch and mixes
+with music. Hover (mouse only, never while scrolling) is a faint tick; clicks a soft tap; chips and answers
+a pop, higher on and lower off; section links a tap and a whoosh, and everything they pass on the way stays
+quiet; service cards play a rising scale as they arrive; work cards land with a soft thud; counters tick,
+rising with the count; the before and after handle ratchets; copying the email rings a bell; turning sound
+on plays a C–E–G–C chime; the contact panel shimmers once. Keep new sounds in the same family and quiet:
+a sound that answers a click, or a moment, never one that loops. Replace a file by adding `v2/`.
+
 ## Personal links
 
 `/for/<business-name>` renders the same page for one business: `/for/smith-septic` shows "Prepared for Smith

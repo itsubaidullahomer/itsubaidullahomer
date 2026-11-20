@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, type CSSProperties } from "react";
 import { work, type WorkItem } from "@/content/studio";
+import { play } from "@/lib/sound";
 import { clamp01, prefersReducedMotion, track } from "./fx";
 import { Arrow, ArrowOut } from "./icons";
 import { Label } from "./label";
@@ -95,7 +96,15 @@ function reel(el: HTMLElement, row: HTMLElement) {
   const watch = new ResizeObserver(size);
   watch.observe(row);
   window.addEventListener("resize", size);
-  const stop = track(el, "pin", (p) => el.style.setProperty("--p", p.toFixed(4)));
+  // The two words part with a whoosh, once each time the section is entered from above.
+  let parted = false;
+  const stop = track(el, "pin", (p) => {
+    el.style.setProperty("--p", p.toFixed(4));
+    const t0 = parseFloat(el.style.getPropertyValue("--t0")) || 0.2;
+    const o = p / t0;
+    if (!parted && o > 0.45 && o < 1) parted = play("whoosh", { ambient: true });
+    else if (o < 0.1) parted = false;
+  });
   return () => {
     stop();
     watch.disconnect();
@@ -112,6 +121,7 @@ function reel(el: HTMLElement, row: HTMLElement) {
 function deck(row: HTMLElement) {
   const cards = Array.from(row.children) as HTMLElement[];
   let docks = cards.map(() => 0);
+  const settled = cards.map(() => false);
   const size = () => {
     docks = cards.map((card) => parseFloat(getComputedStyle(card).top) || 0);
   };
@@ -127,6 +137,9 @@ function deck(row: HTMLElement) {
       (e) => {
         card.style.setProperty("--e", e.toFixed(4));
         cards[i - 1]?.style.setProperty("--k", e.toFixed(4));
+        // A soft card-on-table thud as each one settles at the top, once per arrival.
+        if (!settled[i] && e > 0.985) settled[i] = play("land", { ambient: true });
+        else if (e < 0.7) settled[i] = false;
       },
       0.3,
     ),

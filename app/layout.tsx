@@ -6,6 +6,7 @@ import "./styles/hero.css";
 import "./styles/sections.css";
 import "./styles/art.css";
 import "./styles/work.css";
+import "./styles/loader.css";
 
 const sans = Geist({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 // The serif is only ever used in italics, and never in the first screen: it is not preloaded, so it does
@@ -20,6 +21,12 @@ const serif = Instrument_Serif({
 });
 
 const title = `${studio.name} — ${studio.title}`;
+
+const OPENING = [
+  "var d=document.documentElement;",
+  'if(location.hash)d.classList.add("cv-all","jump","seen");',
+  'try{if(sessionStorage.getItem("seen"))d.classList.add("seen");else sessionStorage.setItem("seen","1")}catch(e){}',
+].join("");
 
 export const metadata: Metadata = {
   metadataBase: new URL(studio.url),
@@ -44,12 +51,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
         {/*
-          Opened at an #anchor: lay out the whole page first and jump straight there, without the smooth
-          scroll, so it lands in the right place (see AnchorFix in components/fx.tsx).
+          Before anything paints. Opened at an #anchor: lay out the whole page first and jump straight there,
+          without the smooth scroll or the opening curtain (see AnchorFix in components/fx.tsx). The curtain
+          (components/loader.tsx) plays once per visit: a reload skips it.
         */}
-        <script
-          dangerouslySetInnerHTML={{ __html: `if(location.hash)document.documentElement.classList.add("cv-all","jump")` }}
-        />
+        <script dangerouslySetInnerHTML={{ __html: OPENING }} />
         <a href="#main" className="skip">
           Skip to content
         </a>

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { contact, studio } from "@/content/studio";
+import { play } from "@/lib/sound";
 import { useBiz } from "./biz";
 import { Arrow, Check, Copy, Mail } from "./icons";
 import { Label } from "./label";
@@ -37,6 +38,7 @@ export function Contact() {
   async function copy() {
     try {
       await navigator.clipboard.writeText(studio.email);
+      play("success");
       setCopied(true);
       clearTimeout(timer.current);
       timer.current = setTimeout(() => setCopied(false), 2400);
@@ -104,7 +106,7 @@ export function Contact() {
             <a className="btn btn--gold" href={href}>
               <Mail size={18} /> {contact.send} <Arrow size={18} />
             </a>
-            <button type="button" className="btn btn--ghost" onClick={copy}>
+            <button type="button" className="btn btn--ghost" onClick={copy} data-quiet>
               {copied ? <Check size={18} /> : <Copy size={18} />}
               <span aria-live="polite">{copied ? contact.copied : contact.copy}</span>
             </button>

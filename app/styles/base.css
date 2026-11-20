@@ -343,7 +343,7 @@ html.js [data-reveal][data-in] {
   backdrop-filter: saturate(1.5) blur(16px);
   -webkit-backdrop-filter: saturate(1.5) blur(16px);
   transform: translateX(-50%);
-  animation: bar 0.8s var(--out) 0.1s backwards;
+  animation: bar 0.8s var(--out) calc(0.1s + var(--intro-delay, 0s)) backwards;
 }
 @keyframes bar {
   from {
