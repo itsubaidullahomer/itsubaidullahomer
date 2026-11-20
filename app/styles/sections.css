@@ -3,17 +3,64 @@
   interpolate-size: allow-keywords;
 }
 
-/* Services: each card is dealt in from the side as it comes on screen. --p is its own scroll progress. */
+/*
+ * Sections further down are not laid out or painted until they come near the screen, which makes the
+ * first screen much quicker on a slow phone. The sizes are estimates for the scroll bar; once a section
+ * has been shown, the browser remembers its real size. A same-page link lays everything out first
+ * (html.cv-all, set by AnchorFix in fx.tsx), so the jump lands where it should.
+ */
+.services,
+.compare,
+.band,
+.process,
+.faq,
+.contact,
+.footer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+.services {
+  contain-intrinsic-size: auto 3600px;
+}
+.compare,
+.contact {
+  contain-intrinsic-size: auto 1400px;
+}
+.band {
+  contain-intrinsic-size: auto 480px;
+}
+.footer {
+  contain-intrinsic-size: auto 560px;
+}
+@media (min-width: 900px) {
+  .services {
+    contain-intrinsic-size: auto 2000px;
+  }
+  .compare,
+  .contact {
+    contain-intrinsic-size: auto 1000px;
+  }
+}
+html.cv-all :is(.services, .compare, .band, .process, .faq, .contact, .footer) {
+  content-visibility: visible;
+}
+
+/*
+ * Services: each card arrives as it comes on screen. --p is its own scroll progress. On a phone a card
+ * rises and settles; with two columns they come in from their own side; with three, the outer ones are
+ * dealt in from the edges and the middle one rises.
+ */
 .svc-grid {
   display: grid;
   gap: 16px;
 }
 .svc {
   --p: 1;
-  --k: clamp(0, calc(var(--p) * 3.4), 1);
-  --from: -64vw;
-  --up: 0px;
-  --ry: 26deg;
+  --k: clamp(0, calc(var(--p) * 4.2), 1);
+  --from: 0px;
+  --up: 70px;
+  --ry: 0deg;
+  --s: 0.93;
   display: grid;
   align-content: start;
   gap: 10px;
@@ -24,12 +71,8 @@
   box-shadow: var(--shadow-sm);
   opacity: var(--k);
   transform: perspective(1400px) translate3d(calc((1 - var(--k)) * var(--from)), calc((1 - var(--k)) * var(--up)), 0)
-    rotateY(calc((1 - var(--k)) * var(--ry)));
+    rotateY(calc((1 - var(--k)) * var(--ry))) scale(calc(1 - (1 - var(--k)) * (1 - var(--s))));
   will-change: transform;
-}
-.svc:nth-child(even) {
-  --from: 64vw;
-  --ry: -26deg;
 }
 .svc__art {
   position: relative;
@@ -74,11 +117,28 @@
   .svc-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .svc {
+    --k: clamp(0, calc(var(--p) * 3.4), 1);
+    --up: 30px;
+    --s: 0.97;
+  }
+  .svc:nth-child(odd) {
+    --from: -30vw;
+    --ry: 16deg;
+  }
+  .svc:nth-child(even) {
+    --from: 30vw;
+    --ry: -16deg;
+  }
 }
 @media (min-width: 1000px) {
   .svc-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+  }
+  .svc {
+    --up: 0px;
+    --s: 1;
   }
   .svc:nth-child(3n + 1) {
     --from: -34vw;

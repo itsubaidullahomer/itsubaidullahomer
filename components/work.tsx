@@ -3,13 +3,27 @@
 import Image from "next/image";
 import { useEffect, useRef, type CSSProperties } from "react";
 import { work, type WorkItem } from "@/content/studio";
-import { prefersReducedMotion, track } from "./fx";
+import { clamp01, prefersReducedMotion, track } from "./fx";
 import { Arrow, ArrowOut } from "./icons";
 import { Label } from "./label";
 import { Rich } from "./rich";
 
 /** How long the two big words take to part, as a share of the screen's height. */
 const INTRO = 0.7;
+
+/** The sideways reel is for a big screen with a mouse. Thumbs and touch screens get the deck. */
+const REEL = "(min-width: 1024px) and (hover: hover) and (pointer: fine)";
+
+/**
+ * How wide each kind of picture is drawn, for the browser to pick the right file: in the reel on a desktop
+ * (growing with the type on very large monitors, see base.css), beside the words on a tablet, and across
+ * the card on a phone.
+ */
+const SIZES = {
+  wide: "(min-width: 1600px) calc(24.75vw + 315px), (min-width: 1024px) 720px, (min-width: 700px) 440px, calc(100vw - 64px)",
+  tall: "(min-width: 1600px) calc(11.7vw + 149px), (min-width: 1024px) 340px, (min-width: 700px) 336px, calc(100vw - 64px)",
+  phones: "(min-width: 1600px) calc(6.4vw + 81px), (min-width: 700px) 190px, calc(36vw - 22px)",
+};
 
 /** A wide screenshot is shown whole; a full-page capture scrolls slowly inside a taller window. */
 function shapeOf(item: WorkItem) {
@@ -25,12 +39,11 @@ function Shot({ item }: { item: WorkItem }) {
         {item.shots.map((shot, n) => (
           <span className="pphone" key={shot.src}>
             <Image
-              src={shot.src}
+              src={shot}
               alt={n === 0 ? `${item.name}: ${item.kind.toLowerCase()}` : ""}
-              width={shot.width}
-              height={shot.height}
-              sizes="(min-width: 900px) 210px, 30vw"
+              sizes={SIZES.phones}
               quality={90}
+              placeholder="blur"
             />
           </span>
         ))}
@@ -54,12 +67,11 @@ function Shot({ item }: { item: WorkItem }) {
       </span>
       <div className="piece__view">
         <Image
-          src={shot.src}
+          src={shot}
           alt={`${item.name}: ${item.kind.toLowerCase()}`}
-          width={shot.width}
-          height={shot.height}
-          sizes={shape === "tall" ? "(min-width: 900px) 360px, 62vw" : "(min-width: 900px) 720px, 88vw"}
+          sizes={SIZES[shape]}
           quality={90}
+          placeholder="blur"
         />
       </div>
     </div>
@@ -67,11 +79,72 @@ function Shot({ item }: { item: WorkItem }) {
 }
 
 /**
- * The work, as screenshots that float past. Each one keeps its own shape: wide pages are shown whole,
- * long pages scroll inside a taller window, the apps stand as phones. They sit at different heights,
- * bob gently, and travel sideways while the page scrolls down, after two big words slide apart.
- * The script measures the distance and reports progress; the stylesheet does the moving. With no
- * script, or reduced motion, it is a plain strip that swipes sideways.
+ * The reel: the section pins, two big words part, and the row travels sideways as the page scrolls down.
+ * The script measures the distance and reports progress; the stylesheet does the moving.
+ */
+function reel(el: HTMLElement, row: HTMLElement) {
+  const size = () => {
+    const travel = Math.max(0, row.scrollWidth - window.innerWidth);
+    const intro = window.innerHeight * INTRO;
+    el.style.setProperty("--travel", `${travel}px`);
+    el.style.setProperty("--intro", `${intro}px`);
+    el.style.setProperty("--t0", (intro / (intro + travel || 1)).toFixed(4));
+  };
+  el.dataset.live = "1";
+  size();
+  const watch = new ResizeObserver(size);
+  watch.observe(row);
+  window.addEventListener("resize", size);
+  const stop = track(el, "pin", (p) => el.style.setProperty("--p", p.toFixed(4)));
+  return () => {
+    stop();
+    watch.disconnect();
+    window.removeEventListener("resize", size);
+    delete el.dataset.live;
+    for (const name of ["--travel", "--intro", "--t0", "--p"]) el.style.removeProperty(name);
+  };
+}
+
+/**
+ * The deck: each card reports how far it has come up the screen toward the place where it settles (--e),
+ * and the card before it learns how far it has been covered (--k). The stylesheet does the rest.
+ */
+function deck(row: HTMLElement) {
+  const cards = Array.from(row.children) as HTMLElement[];
+  let docks = cards.map(() => 0);
+  const size = () => {
+    docks = cards.map((card) => parseFloat(getComputedStyle(card).top) || 0);
+  };
+  size();
+  window.addEventListener("resize", size);
+  const stops = cards.map((card, i) =>
+    track(
+      card,
+      (c) => {
+        const vh = window.innerHeight;
+        return clamp01((vh - c.getBoundingClientRect().top) / Math.max(1, vh - docks[i]));
+      },
+      (e) => {
+        card.style.setProperty("--e", e.toFixed(4));
+        cards[i - 1]?.style.setProperty("--k", e.toFixed(4));
+      },
+      0.3,
+    ),
+  );
+  return () => {
+    for (const stop of stops) stop();
+    window.removeEventListener("resize", size);
+    for (const card of cards) {
+      card.style.removeProperty("--e");
+      card.style.removeProperty("--k");
+    }
+  };
+}
+
+/**
+ * The work, as cards that keep each screenshot's own shape: wide pages whole, long pages scrolling inside a
+ * taller window, the apps as phones. On a desktop with a mouse they float past sideways; on a phone or a
+ * tablet they come up one after another and stack. With no script, or reduced motion, it is a plain column.
  */
 export function WorkReel() {
   const wrap = useRef<HTMLDivElement>(null);
@@ -81,24 +154,17 @@ export function WorkReel() {
     const el = wrap.current;
     const row = rail.current;
     if (!el || !row || prefersReducedMotion()) return;
-    const size = () => {
-      const travel = Math.max(0, row.scrollWidth - window.innerWidth);
-      const intro = window.innerHeight * INTRO;
-      el.style.setProperty("--travel", `${travel}px`);
-      el.style.setProperty("--intro", `${intro}px`);
-      el.style.setProperty("--t0", (intro / (intro + travel || 1)).toFixed(4));
-    };
-    el.dataset.live = "1";
-    size();
-    const watch = new ResizeObserver(size);
-    watch.observe(row);
-    window.addEventListener("resize", size);
-    const stop = track(el, "pin", (p) => el.style.setProperty("--p", p.toFixed(4)));
-    return () => {
+    const desktop = window.matchMedia(REEL);
+    let stop = () => {};
+    const start = () => {
       stop();
-      watch.disconnect();
-      window.removeEventListener("resize", size);
-      delete el.dataset.live;
+      stop = desktop.matches ? reel(el, row) : deck(row);
+    };
+    start();
+    desktop.addEventListener("change", start);
+    return () => {
+      desktop.removeEventListener("change", start);
+      stop();
     };
   }, []);
 

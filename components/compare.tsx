@@ -9,6 +9,9 @@ import { Rich } from "./rich";
 
 const clamp = (n: number) => Math.round(Math.min(96, Math.max(4, n)));
 
+/** How wide the phone's screen is drawn: it grows with the type on very large monitors (see base.css). */
+const SCREEN = "(min-width: 1600px) calc(11.33vw + 124px), (min-width: 440px) 310px, calc(76vw - 20px)";
+
 /**
  * A real before and after, in one phone. Drag the handle sideways (or use the arrow keys) to wipe
  * between the old site and the new one. The first time it is seen, the handle sweeps once to show it moves.
@@ -85,7 +88,8 @@ export function Compare() {
             <span>{compare.place}</span>
           </p>
         </div>
-        <div className="ba-wrap" data-reveal="right">
+        {/* The floating "get in touch" button on phones steps aside while the phone is on screen. */}
+        <div className="ba-wrap" data-reveal="right" data-nosticky>
           <p className="ba__labels" aria-hidden="true">
             <span>{compare.before.label}</span>
             <span>{compare.after.label}</span>
@@ -102,37 +106,29 @@ export function Compare() {
             <div className="ba__screen">
               <Image
                 className="ba__img"
-                src={compare.before.src}
+                src={compare.before.image}
                 alt={`${compare.name}: the old website`}
-                width={compare.before.width}
-                height={compare.before.height}
-                sizes="340px"
+                sizes={SCREEN}
+                placeholder="blur"
               />
               <div className="ba__after">
                 <Image
                   className="ba__img"
-                  src={compare.after.src}
+                  src={compare.after.image}
                   alt={`${compare.name}: the redesigned website`}
-                  width={compare.after.width}
-                  height={compare.after.height}
-                  sizes="340px"
+                  sizes={SCREEN}
+                  placeholder="blur"
                 />
                 {/* The new site keeps its top bar and tab bar on screen while the page moves under them. */}
                 <div
                   className="ba__pin ba__pin--top"
-                  style={{ "--head": compare.after.head / compare.after.width } as CSSProperties}
+                  style={{ "--head": compare.after.head / compare.after.image.width } as CSSProperties}
                   aria-hidden="true"
                 >
-                  <Image src={compare.after.src} alt="" width={compare.after.width} height={compare.after.height} sizes="340px" />
+                  <Image src={compare.after.image} alt="" sizes={SCREEN} />
                 </div>
                 <div className="ba__pin ba__pin--bottom" aria-hidden="true">
-                  <Image
-                    src={compare.after.nav.src}
-                    alt=""
-                    width={compare.after.nav.width}
-                    height={compare.after.nav.height}
-                    sizes="340px"
-                  />
+                  <Image src={compare.after.nav} alt="" sizes={SCREEN} />
                 </div>
               </div>
               <div

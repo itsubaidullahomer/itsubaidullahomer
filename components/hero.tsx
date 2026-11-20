@@ -74,9 +74,10 @@ export function Hero() {
               alt={studio.name}
               width={1280}
               height={1280}
-              sizes="(min-width: 1000px) 640px, 100vw"
+              sizes="(min-width: 1600px) calc(22vw + 280px), (min-width: 1000px) 640px, (min-width: 700px) 48vw, (min-width: 480px) 450px, 94vw"
               quality={90}
-              priority
+              preload
+              fetchPriority="high"
             />
           </div>
           <div className="vstrip" aria-hidden="true">
@@ -106,13 +107,13 @@ export function Hero() {
         <div className="hero__proof">
           <a className="peek" href={hero.peek.href}>
             <span className="peek__view">
+              {/* Small and not urgent: it loads after the portrait and the type, never ahead of them. */}
               <Image
-                src={hero.peek.src}
+                src={hero.peek.image}
                 alt=""
-                width={hero.peek.width}
-                height={hero.peek.height}
-                sizes="220px"
-                loading="eager"
+                sizes="(min-width: 1600px) calc(6.9vw + 88px), (min-width: 1000px) 200px, 124px"
+                fetchPriority="low"
+                placeholder="blur"
               />
             </span>
             <span className="peek__label">{hero.peek.label}</span>

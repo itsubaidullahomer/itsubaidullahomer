@@ -29,15 +29,19 @@
   animation-iteration-count: infinite;
   animation-fill-mode: backwards;
 }
-/* Off screen, the scenes hold still. */
+/*
+ * A scene only plays while its card is on screen (data-run, set by ServiceArt), and starts from the top
+ * each time it comes into view. Off screen, before the script runs, or without it, there is no animation
+ * at all: the scene shows its finished picture and costs nothing.
+ */
 .art-host {
   position: absolute;
   inset: 0;
 }
-.art-host[data-paused] *,
-.art-host[data-paused] *::before,
-.art-host[data-paused] *::after {
-  animation-play-state: paused;
+.art-host:not([data-run]) *,
+.art-host:not([data-run]) *::before,
+.art-host:not([data-run]) *::after {
+  animation-name: none !important;
 }
 
 /* Shared pieces. */
@@ -1323,7 +1327,17 @@
   width: 0.7em;
   height: 0.7em;
   border-radius: 50%;
+  position: relative;
   background: #1fa765;
+}
+/* The "online" pulse: a ring that grows and fades. Scale and opacity only, so it never repaints. */
+.c-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgba(31, 167, 101, 0.5);
+  opacity: 0;
   animation: c-pulse 1.8s ease-out infinite;
 }
 .c-bars {
@@ -1373,10 +1387,12 @@
 }
 @keyframes c-pulse {
   from {
-    box-shadow: 0 0 0 0 rgba(31, 167, 101, 0.5);
+    opacity: 1;
+    transform: scale(1);
   }
   to {
-    box-shadow: 0 0 0 0.7em rgba(31, 167, 101, 0);
+    opacity: 0;
+    transform: scale(3);
   }
 }
 @keyframes c-bar {

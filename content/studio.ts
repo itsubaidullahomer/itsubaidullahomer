@@ -5,6 +5,22 @@
  * each figure below is also on the engineering portfolio.
  */
 
+import type { StaticImageData } from "next/image";
+// Screenshots are imported rather than linked: the build reads their size, makes a tiny blurred copy to show
+// while they load, and gives each a fingerprinted address that browsers can keep for a long time.
+import aliAfter from "@/public/images/ali-foodies/compare/after-home.jpg";
+import aliNav from "@/public/images/ali-foodies/compare/after-nav.png";
+import aliPeek from "@/public/images/ali-foodies/compare/after-peek.jpg";
+import aliBefore from "@/public/images/ali-foodies/compare/before-home.jpg";
+import illume from "@/public/images/illume/showcase/dashboard.png";
+import crown from "@/public/images/screens/crownkabab.png";
+import viloi from "@/public/images/screens/viloi.jpg";
+import yaksport from "@/public/images/screens/yaksport.jpg";
+import familias from "@/public/images/tututor/mobile/familias-tareas.jpg";
+import alumnos from "@/public/images/tututor/mobile/alumnos-home.jpg";
+import profesores from "@/public/images/tututor/mobile/profesores-horario.jpg";
+import tututor from "@/public/images/tututor/showcase/tututor-catalog.jpg";
+
 export const studio = {
   /** The name shown on the site. */
   name: "Ubaid",
@@ -39,9 +55,8 @@ export const hero = {
   badge: "Web design • SEO • Social media • Ads • ",
   /** A real piece of work, shown as a small moving preview. */
   peek: {
-    src: "/images/ali-foodies/compare/after-home.jpg",
-    width: 780,
-    height: 4600,
+    /** The top half of the page only: that is all the small frame ever shows. */
+    image: aliPeek,
     label: "Latest: Ali’s Foodies",
     href: "#before-after",
   },
@@ -163,24 +178,22 @@ export const compare = {
   name: "Ali’s Foodies",
   place: "Food truck · Mercer Island, Washington",
   text: "Same truck, same food. Now the first thing a hungry customer sees is how to order.",
-  before: { src: "/images/ali-foodies/compare/before-home.jpg", width: 664, height: 4032, label: "Before" },
+  before: { image: aliBefore, label: "Before" },
   /**
    * Captured from the live site with scripts/capture-ali.mjs. The site keeps its top bar and its bottom
    * tab bar fixed on screen, so the phone pins them too: `head` is the height of the top bar in the
    * capture, and `nav` is the tab bar, captured on its own.
    */
   after: {
-    src: "/images/ali-foodies/compare/after-home.jpg",
-    width: 780,
-    height: 4600,
+    image: aliAfter,
     label: "After",
     head: 112,
-    nav: { src: "/images/ali-foodies/compare/after-nav.png", width: 780, height: 126 },
+    nav: aliNav,
   },
   hint: "Drag the handle",
 };
 
-export type Shot = { src: string; width: number; height: number };
+export type Shot = StaticImageData;
 export type WorkItem = {
   key: string;
   name: string;
@@ -206,7 +219,7 @@ export const work = {
       line: "Used by 20,000+ students, teachers and families.",
       url: "https://tututor.ai",
       frame: "browser",
-      shots: [{ src: "/images/tututor/showcase/tututor-catalog.jpg", width: 1600, height: 757 }],
+      shots: [tututor],
     },
     {
       key: "apps",
@@ -214,11 +227,7 @@ export const work = {
       kind: "Phone apps",
       line: "Three apps, in the App Store and on Google Play.",
       frame: "phones",
-      shots: [
-        { src: "/images/tututor/mobile/familias-tareas.jpg", width: 720, height: 1557 },
-        { src: "/images/tututor/mobile/alumnos-home.jpg", width: 720, height: 1557 },
-        { src: "/images/tututor/mobile/profesores-horario.jpg", width: 720, height: 1557 },
-      ],
+      shots: [familias, alumnos, profesores],
     },
     {
       key: "illume",
@@ -227,7 +236,7 @@ export const work = {
       line: "Turns a week of bookings into numbers an owner can read at a glance.",
       url: "https://www.joinillume.com/",
       frame: "browser",
-      shots: [{ src: "/images/illume/showcase/dashboard.png", width: 1600, height: 1014 }],
+      shots: [illume],
     },
     {
       key: "yaksport",
@@ -237,7 +246,7 @@ export const work = {
       url: "https://yaksport.dk/",
       frame: "browser",
       pan: true,
-      shots: [{ src: "/images/screens/yaksport.jpg", width: 2160, height: 5400 }],
+      shots: [yaksport],
     },
     {
       key: "crown",
@@ -245,7 +254,7 @@ export const work = {
       kind: "Online ordering for a takeaway",
       line: "From the menu to the payment to “your order is on its way”.",
       frame: "browser",
-      shots: [{ src: "/images/screens/crownkabab.png", width: 2544, height: 1288 }],
+      shots: [crown],
     },
     {
       key: "viloi",
@@ -255,7 +264,7 @@ export const work = {
       url: "https://viloi.com",
       frame: "browser",
       pan: true,
-      shots: [{ src: "/images/screens/viloi.jpg", width: 2160, height: 7800 }],
+      shots: [viloi],
     },
   ] satisfies WorkItem[],
   last: { title: "Yours next?", text: "Tell me what you do. I’ll tell you what I’d build.", cta: "Start with an email" },

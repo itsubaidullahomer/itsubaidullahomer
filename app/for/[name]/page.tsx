@@ -6,6 +6,16 @@ import { businessFromSlug } from "@/lib/business";
 
 type Props = { params: Promise<{ name: string }> };
 
+/*
+ * Each business's page is built the first time its link is opened and then served from the edge cache
+ * like the home page, so the person you sent it to never waits on a server. Opening a link yourself
+ * before sending it warms it up.
+ */
+export const dynamicParams = true;
+export function generateStaticParams() {
+  return [];
+}
+
 /** A page made for one business: itsubaidullahomer.com/for/smith-septic. Not for search engines. */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const business = businessFromSlug((await params).name);

@@ -8,12 +8,15 @@ import "./styles/art.css";
 import "./styles/work.css";
 
 const sans = Geist({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
+// The serif is only ever used in italics, and never in the first screen: it is not preloaded, so it does
+// not compete with the type and the portrait on a slow connection.
 const serif = Instrument_Serif({
   subsets: ["latin"],
   weight: "400",
-  style: ["normal", "italic"],
+  style: "italic",
   variable: "--font-serif",
   display: "swap",
+  preload: false,
 });
 
 const title = `${studio.name} — ${studio.title}`;
@@ -40,6 +43,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
+        {/*
+          Opened at an #anchor: lay out the whole page first and jump straight there, without the smooth
+          scroll, so it lands in the right place (see AnchorFix in components/fx.tsx).
+        */}
+        <script
+          dangerouslySetInnerHTML={{ __html: `if(location.hash)document.documentElement.classList.add("cv-all","jump")` }}
+        />
         <a href="#main" className="skip">
           Skip to content
         </a>

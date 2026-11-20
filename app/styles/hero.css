@@ -60,6 +60,8 @@
 }
 .hero__head {
   display: grid;
+  /* Rows keep their own height: without this a tall cell stretches them, and the pill swells into an oval. */
+  align-content: start;
   gap: 16px;
   justify-items: start;
 }
@@ -110,11 +112,20 @@
   }
 }
 
+/*
+ * The sentence and the button are there from the first paint (on a phone they are the biggest thing on
+ * the first screen, so they decide how soon the page counts as loaded); they only settle into place.
+ */
 .hero__intro {
   display: grid;
   gap: 22px;
   justify-items: start;
-  animation: rise 0.9s var(--out) 0.6s backwards;
+  animation: settle 0.9s var(--out) backwards;
+}
+@keyframes settle {
+  from {
+    transform: translateY(16px);
+  }
 }
 .hero__lede {
   max-width: 34ch;
@@ -135,7 +146,7 @@
   align-items: center;
   gap: 18px;
   order: 3;
-  animation: rise 0.9s var(--out) 0.75s backwards;
+  animation: rise 0.9s var(--out) 0.5s backwards;
 }
 .peek {
   flex: none;
@@ -163,12 +174,13 @@
   height: auto;
   animation: peek 18s ease-in-out infinite alternate;
 }
+/* The picture is the top half of the page; the frame shows about a quarter of it at a time. */
 @keyframes peek {
   from {
-    transform: translateY(-5%);
+    transform: translateY(-10%);
   }
   to {
-    transform: translateY(-36%);
+    transform: translateY(-72%);
   }
 }
 .peek__label {
@@ -304,6 +316,41 @@
   }
 }
 
+/* Tablets: the headline across the top, then the words on the left and the portrait on the right. */
+@media (min-width: 700px) and (max-width: 999px) {
+  .hero__panel {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "head head"
+      "intro figure"
+      "proof figure";
+    gap: 30px clamp(24px, 4vw, 40px);
+  }
+  .hero__head {
+    grid-area: head;
+  }
+  .hero__title {
+    font-size: clamp(4.4rem, 10.6vw, 6rem);
+  }
+  .hero__intro {
+    grid-area: intro;
+    align-self: center;
+  }
+  .hero__proof {
+    grid-area: proof;
+    align-self: start;
+    padding-bottom: 40px;
+  }
+  /* Taller than on a phone, so the portrait fills the column instead of leaving a gap under the headline. */
+  .hero__figure {
+    grid-area: figure;
+    width: 100%;
+    margin-top: 0;
+    aspect-ratio: 0.72;
+  }
+}
+
 @media (min-width: 1000px) {
   .hero__panel {
     grid-template-columns: minmax(0, 0.72fr) auto minmax(0, 1.5fr);
@@ -319,8 +366,9 @@
   }
   .hero__head {
     grid-area: head;
+    align-content: center;
     justify-items: end;
-    padding-top: 6svh;
+    padding-block: 4svh;
     text-align: right;
   }
   .hero__title {
@@ -349,25 +397,25 @@
   .vstrip {
     top: auto;
     right: 11%;
-    width: 46px;
+    width: 2.9rem;
     height: 130svh;
   }
   .vstrip li {
     font-size: 1rem;
   }
   .spin {
-    left: -38px;
+    left: -2.4rem;
     bottom: 11%;
-    width: 124px;
+    width: 7.75rem;
   }
   .hero__proof {
     grid-area: proof;
     align-self: end;
     justify-self: end;
-    gap: 26px;
-    padding-bottom: 44px;
+    gap: 1.6rem;
+    padding-bottom: 2.75rem;
   }
   .peek {
-    width: 200px;
+    width: 12.5rem;
   }
 }

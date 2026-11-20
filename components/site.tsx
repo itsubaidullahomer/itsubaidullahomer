@@ -1,7 +1,7 @@
 import { BizProvider } from "./biz";
 import { Compare } from "./compare";
 import { Contact, Sticky } from "./contact";
-import { Reveals } from "./fx";
+import { AnchorFix, Reveals } from "./fx";
 import { Bar, Hero, Tapes } from "./hero";
 import { Intro } from "./intro";
 import { Band, Faq, Footer, Process, Services } from "./sections";
@@ -12,6 +12,7 @@ export function Site({ business }: { business?: string | null }) {
   return (
     <BizProvider initialName={business}>
       <Reveals />
+      <AnchorFix />
       <Bar />
       <Hero />
       <main id="main">

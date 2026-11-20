@@ -5,7 +5,16 @@ const ENGINEER = "https://cv.itsubaidullahomer.com";
 
 const config: NextConfig = {
   devIndicators: false,
-  images: { formats: ["image/avif", "image/webp"], qualities: [75, 90] },
+  experimental: {
+    // The stylesheet goes into the page itself, so the first paint does not wait for a second request.
+    inlineCss: true,
+  },
+  images: {
+    formats: ["image/avif", "image/webp"],
+    qualities: [75, 90],
+    // Screenshots are imported, so their addresses change when they do: they can be cached for a long time.
+    minimumCacheTTL: 2678400,
+  },
   async headers() {
     return [
       {

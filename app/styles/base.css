@@ -33,22 +33,19 @@
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
-  scroll-padding-top: 84px;
+  scroll-padding-top: calc(var(--bar) + 12px);
 }
-/* On large monitors the whole site grows, so it does not sit small in the middle of the screen. */
-@media (min-width: 1700px) {
-  html {
-    font-size: 112.5%;
-  }
+html.jump {
+  scroll-behavior: auto;
 }
-@media (min-width: 2100px) {
+/*
+ * On large monitors, and when a big monitor is zoomed out, the whole site grows with the screen, so it
+ * never sits small in the middle: 16px up to about 1600px wide, then smoothly larger (18px at 2048,
+ * 21px at 2560, 28px at 3840), up to 36px. Image `sizes` in the components follow the same line.
+ */
+@media (min-width: 1600px) {
   html {
-    font-size: 125%;
-  }
-}
-@media (min-width: 2700px) {
-  html {
-    font-size: 150%;
+    font-size: clamp(100%, 0.55vw + 7px, 225%);
   }
 }
 html,
@@ -201,6 +198,7 @@ textarea {
   color: var(--ink);
   font-weight: 500;
   text-decoration: none;
+  white-space: nowrap;
   cursor: pointer;
   transition:
     transform 0.25s var(--out),
@@ -313,11 +311,14 @@ html.js [data-reveal] {
     transform 0.9s var(--out);
   transition-delay: calc(var(--d, 0) * 80ms);
 }
-html.js [data-reveal="left"] {
-  transform: translateX(-56px);
-}
-html.js [data-reveal="right"] {
-  transform: translateX(56px);
+/* Sideways entrances only where there is room for them; on a phone everything rises. */
+@media (min-width: 900px) {
+  html.js [data-reveal="left"] {
+    transform: translateX(-56px);
+  }
+  html.js [data-reveal="right"] {
+    transform: translateX(56px);
+  }
 }
 html.js [data-reveal][data-in] {
   opacity: 1;

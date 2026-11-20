@@ -1,8 +1,15 @@
 /*
- * The work, as screenshots that float past.
- * --p is the progress through the tall wrapper. The first part (up to --t0) is the intro, where two big
- * words slide apart (--o runs 0 → 1); the rest moves the row sideways (--q runs 0 → 1 over --travel).
- * The script sets --travel, --intro and --t0. Without it the row is a plain strip that swipes sideways.
+ * The work. Two ways of showing the same cards, chosen by WorkReel (components/work.tsx):
+ *
+ * The deck (the default: phones, tablets, touch screens, reduced motion, no script). The cards are a column
+ * that you scroll through with your thumb. Each one swings in from its own side as it comes up the screen,
+ * settles at the top, and the next one slides up over it while it sinks back and fades. --e is a card's
+ * own arrival (0 → 1), --k how far the next one has covered it (0 → 1). Both rest at the finished state,
+ * so without the script it is a plain stack.
+ *
+ * The reel (a desktop with a mouse; data-live is set by the script). The section pins, two big words slide
+ * apart, and the cards travel sideways as the page scrolls down. --p is the progress through the tall
+ * wrapper: up to --t0 the words part (--o runs 0 → 1), the rest moves the row (--q runs 0 → 1 over --travel).
  */
 .reel {
   --p: 0;
@@ -13,19 +20,250 @@
   --q: 0;
   --pad: max(var(--gutter), calc((100vw - var(--wide)) / 2));
 }
+.reel__pin {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(30px, 6vw, 56px);
+  padding-block: clamp(76px, 11vw, 140px);
+}
+.reel__head {
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+  padding-inline: var(--pad);
+}
+.reel__head .h2 {
+  max-width: 17ch;
+  font-size: clamp(2rem, 7vw, 2.8rem);
+}
+.reel__split,
+.reel__bar {
+  display: none;
+}
+
+/* ---------- The deck ---------- */
+
+.reel__rail {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(22px, 5vw, 40px);
+  width: min(100% - 2 * var(--gutter), 40rem);
+  margin-inline: auto;
+}
+.piece {
+  --e: 1;
+  --k: 0;
+  --side: -1;
+  position: sticky;
+  top: calc(var(--bar) + 14px);
+}
+.piece:nth-child(even) {
+  --side: 1;
+}
+.piece__float {
+  display: grid;
+  gap: 14px;
+  padding: 10px 10px 18px;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+  transform-origin: 50% 0;
+  transform: translate3d(calc((1 - var(--e)) * var(--side) * 9vw), calc((1 - var(--e)) * 24px), 0)
+    rotate(calc((1 - var(--e)) * var(--side) * 5deg)) scale(calc(1 - var(--k) * 0.08));
+  /* A covered card stays put until the next one has nearly reached the top, then fades out of the way. */
+  opacity: clamp(0, calc((1 - var(--k)) * 4), 1);
+}
+
+/* A screenshot in a browser window, at the screenshot's own shape. Nothing is cropped. */
+.piece__window {
+  overflow: hidden;
+  border: 1px solid var(--line-2);
+  border-radius: 16px;
+  background: #fff;
+}
+.piece__bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 30px;
+  padding-inline: 12px;
+  border-bottom: 1px solid var(--line);
+  background: #faf9f6;
+}
+.piece__bar i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--line-2);
+}
+.piece__bar b {
+  margin-inline: auto;
+  padding: 2px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--mute);
+  font-size: 0.7rem;
+  font-weight: 500;
+  transform: translateX(-18px);
+}
+.piece__view {
+  aspect-ratio: var(--ar);
+  overflow: hidden;
+}
+.piece__view img {
+  width: 100%;
+  height: auto;
+}
+/*
+ * A long page scrolls slowly inside a taller window, down and back up. The window never grows past what
+ * fits under the bar with its caption, so a card always fits on the screen while it sits at the top.
+ */
+.piece--tall .piece__view {
+  aspect-ratio: 9 / 12.5;
+  max-height: max(200px, calc(100svh - var(--bar) - 15.5rem));
+  container-type: size;
+}
+.piece--tall .piece__view img {
+  animation: page var(--pan, 24s) ease-in-out infinite alternate;
+}
+@keyframes page {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% + 100cqh));
+  }
+}
+
+/* The apps: three phones, fanned. */
+.piece__phones {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 18px 0 8px;
+}
+.pphone {
+  flex: none;
+  width: 36%;
+  margin-inline: -2.5%;
+  aspect-ratio: 720 / 1557;
+  overflow: hidden;
+  border: 4px solid #17161a;
+  border-radius: clamp(16px, 4vw, 26px);
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+}
+.pphone:nth-child(1) {
+  transform: translateY(5%) rotate(-7deg);
+}
+.pphone:nth-child(2) {
+  z-index: 1;
+}
+.pphone:nth-child(3) {
+  transform: translateY(5%) rotate(7deg);
+}
+.pphone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.piece__cap {
+  display: grid;
+  gap: 3px;
+  justify-items: start;
+  max-width: 46ch;
+  padding-inline: 8px;
+}
+.piece__kind {
+  color: var(--gold-deep);
+  font-size: 0.84rem;
+  font-weight: 500;
+}
+.piece h3 {
+  font-size: clamp(1.4rem, 4.6vw, 1.9rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+}
+.piece__line {
+  color: var(--mute);
+  font-size: 0.98rem;
+}
+.piece .link {
+  font-size: 0.92rem;
+}
+
+/* The last card is the invitation. */
+.piece--last .piece__float {
+  align-content: center;
+  justify-items: start;
+  gap: 16px;
+  min-height: min(52svh, 24rem);
+  padding: clamp(26px, 6vw, 44px);
+  border-color: transparent;
+  background: var(--dark);
+  color: #fff;
+}
+.piece--last h3 {
+  font-size: clamp(2.6rem, 11vw, 4rem);
+  line-height: 1;
+}
+.piece--last h3 em {
+  color: var(--gold);
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+.piece--last p {
+  max-width: 22ch;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 1.1rem;
+}
+
+/* Tablets: the picture on the left, the words beside it. */
+@media (min-width: 700px) {
+  .reel__rail {
+    width: min(100% - 2 * var(--gutter), 52rem);
+  }
+  .piece__float {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 28px;
+    padding: 14px 26px 14px 14px;
+    border-radius: 30px;
+  }
+  .piece--tall .piece__window {
+    justify-self: center;
+    width: min(100%, 21rem);
+  }
+  .piece--last .piece__float {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 44px;
+  }
+}
+
+/* Too short to keep a card at the top (a phone on its side), or asked to keep still: a plain column. */
+@media (max-height: 560px), (prefers-reduced-motion: reduce) {
+  .piece {
+    position: relative;
+    top: auto;
+  }
+  .piece__float {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/* ---------- The reel ---------- */
+
 .reel[data-live] {
   height: calc(100svh + var(--travel) + var(--intro));
   --o: clamp(0, calc(var(--p) / max(var(--t0), 0.0001)), 1);
   --q: clamp(0, calc((var(--p) - var(--t0)) / max(1 - var(--t0), 0.0001)), 1);
-}
-.reel__pin {
-  position: relative;
-  display: grid;
-  gap: 26px;
-  padding-block: clamp(70px, 10vw, 120px);
-  overflow-x: auto;
-  scroll-snap-type: x proximity;
-  scrollbar-width: none;
 }
 .reel[data-live] .reel__pin {
   position: sticky;
@@ -36,30 +274,18 @@
   padding-block: calc(var(--bar) + 12px) 20px;
   /* clip, not hidden: a hidden box can still be scrolled sideways by scroll snapping. */
   overflow: clip;
-  scroll-snap-type: none;
-}
-.reel__head {
-  position: sticky;
-  left: 0;
-  display: grid;
-  gap: 10px;
-  justify-items: start;
-  width: 100vw;
-  padding-inline: var(--pad);
 }
 .reel[data-live] .reel__head {
   opacity: var(--o);
   transform: translateY(calc((1 - var(--o)) * 24px));
 }
-.reel__head .h2 {
-  max-width: 17ch;
-  font-size: clamp(1.5rem, 5.2vw, 2.8rem);
+/* On a short laptop screen the heading gives up a little size, so the cards keep their room. */
+.reel[data-live] .reel__head .h2 {
+  max-width: 40ch;
+  font-size: clamp(1.6rem, min(3.4vw, 5.2svh), 2.8rem);
 }
 
 /* Two very large words that slide apart, left and right, to let the work through. */
-.reel__split {
-  display: none;
-}
 .reel[data-live] .reel__split {
   position: absolute;
   inset: 0;
@@ -90,65 +316,73 @@
   transform: translate3d(calc(var(--o) * 80vw), 0, 0);
 }
 
-.reel__rail {
-  display: flex;
+.reel[data-live] .reel__rail {
+  flex-direction: row;
   align-items: center;
   gap: clamp(28px, 5vw, 96px);
   width: max-content;
-  /* Starts in line with the heading; ends near the edge of the screen, so a wide screen is not left half empty. */
-  padding-inline: var(--pad) max(var(--gutter), 5vw);
-}
-.reel[data-live] .reel__rail {
   height: 100%;
   min-height: 0;
+  margin: 0;
+  /* Starts in line with the heading; ends near the edge of the screen, so a wide screen is not left half empty. */
+  padding-inline: var(--pad) max(var(--gutter), 5vw);
   opacity: var(--o);
   transform: translate3d(calc(var(--q) * var(--travel) * -1 + (1 - var(--o)) * 26vw), 0, 0);
   will-change: transform;
 }
 
 /*
- * One piece of work. --local is 0 when it is the one in view, negative before and positive after, so
- * neighbours drift at slightly different speeds. Odd and even pieces sit at different heights, and
- * each bobs on its own clock.
+ * --local is 0 when a card is the one in view, negative before and positive after, so neighbours drift at
+ * slightly different speeds. Odd and even cards sit at different heights, and each bobs on its own clock.
  */
-.piece {
+.reel[data-live] .piece {
   --local: calc(var(--q) * (var(--n) - 1) - var(--i));
   /* Lifts shrink on short screens, so nothing rides up into the heading or down into the progress line. */
-  --lift: min(2.4svh, (100svh - 640px) / 6);
+  --lift: min(2.6svh, (100svh - 680px) / 5);
   --drift: -22px;
   /* It turns toward the middle of the screen as it arrives, and away as it leaves. */
   --turn: clamp(-11deg, calc(var(--local) * -8deg), 11deg);
+  position: relative;
+  top: auto;
   flex: none;
-  scroll-snap-align: center;
   transform: translate3d(calc(var(--local) * var(--drift)), var(--lift), 0);
 }
-.piece:nth-child(even) {
+.reel[data-live] .piece:nth-child(even) {
   --drift: 26px;
 }
-.piece:nth-child(3n) {
+.reel[data-live] .piece:nth-child(3n) {
   --drift: -34px;
 }
-/* Wide screenshots are short, so they ride high; the taller pieces sit a little low. */
-.piece--wide {
-  --lift: calc(-1 * min(7svh, (100svh - 560px) / 4));
+/*
+ * Wide screenshots are short, so they ride high on a tall screen; the taller pieces sit a little low.
+ * Every size is also held by the screen's height, so nothing reaches the heading on a short laptop.
+ */
+.reel[data-live] .piece--wide {
+  --lift: calc(-1 * clamp(0px, (100svh - 760px) / 6, 3svh));
+  width: min(88vw, 45rem, 90svh - 190px);
 }
-.reel:not([data-live]) .piece {
-  --local: 0;
-  --lift: 0px;
+.reel[data-live] .piece--tall {
+  width: min(62vw, 21.25rem, 28svh);
 }
-@media (min-width: 900px) {
-  .piece {
-    --lift: min(2.6svh, (100svh - 680px) / 5);
-  }
-  .piece--wide {
-    --lift: calc(-1 * min(3svh, (100svh - 640px) / 6));
-  }
+.reel[data-live] .piece--phones {
+  width: min(96vw, 37.5rem, 70svh);
 }
-.piece__float {
-  display: grid;
+.reel[data-live] .piece--last {
+  width: min(84vw, 30rem);
+}
+.reel[data-live] .piece__float {
   gap: 16px;
+  opacity: 1;
   animation: bob 6.5s ease-in-out infinite alternate;
   animation-delay: calc(var(--i) * -1.7s);
+}
+.reel[data-live] .piece:not(.piece--last) .piece__float {
+  grid-template-columns: minmax(0, 1fr);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
 }
 @keyframes bob {
   from {
@@ -158,165 +392,51 @@
     transform: translateY(9px) rotate(0.35deg);
   }
 }
-.piece--wide {
-  width: min(88vw, 45rem, 72svh);
-}
-.piece--tall {
-  width: min(62vw, 21.25rem, 28svh);
-}
-.piece--phones {
-  width: min(96vw, 37.5rem, 70svh);
-}
-
-/* A screenshot in a browser window, at the screenshot's own shape. Nothing is cropped. */
-.piece__window {
-  overflow: hidden;
-  border: 1px solid var(--line-2);
-  border-radius: 16px;
-  background: #fff;
+.reel[data-live] .piece__window {
   box-shadow: var(--shadow-lg);
   transform: perspective(1400px) rotateY(var(--turn));
   transition: transform 0.5s var(--out);
 }
 @media (hover: hover) {
-  .piece:hover .piece__window {
+  .reel[data-live] .piece:hover .piece__window {
     transform: perspective(1400px) translateY(-6px) scale(1.012);
   }
 }
-.piece__bar {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.reel[data-live] .piece--tall .piece__window {
+  justify-self: stretch;
+  width: auto;
+}
+.reel[data-live] .piece--tall .piece__view {
+  max-height: none;
+}
+.reel[data-live] .piece__bar {
   height: 32px;
-  padding-inline: 12px;
-  border-bottom: 1px solid var(--line);
-  background: #faf9f6;
 }
-.piece__bar i {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--line-2);
-}
-.piece__bar b {
-  margin-inline: auto;
-  padding: 2px 14px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: #fff;
-  color: var(--mute);
-  font-size: 0.7rem;
-  font-weight: 500;
-  transform: translateX(-18px);
-}
-.piece__view {
-  aspect-ratio: var(--ar);
-  overflow: hidden;
-}
-.piece__view img {
-  width: 100%;
-  height: auto;
-}
-/* A long page scrolls slowly inside a taller window, down and back up. */
-.piece--tall .piece__view {
-  aspect-ratio: 9 / 12.5;
-  container-type: size;
-}
-.piece--tall .piece__view img {
-  animation: page var(--pan, 24s) ease-in-out infinite alternate;
-}
-@keyframes page {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(calc(-100% + 100cqh));
-  }
-}
-.piece__phones {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+.reel[data-live] .piece__phones {
   gap: 4%;
-  padding-top: 7%;
+  padding: 7% 0 0;
   transform: perspective(1400px) rotateY(var(--turn));
 }
-.pphone {
+.reel[data-live] .pphone {
   flex: 1;
+  width: auto;
   max-width: 31%;
-  aspect-ratio: 720 / 1557;
-  overflow: hidden;
-  border: 5px solid #17161a;
-  border-radius: clamp(16px, 2.6vw, 26px);
-  background: #fff;
-  box-shadow: var(--shadow-lg);
+  margin: 0;
+  border-width: 5px;
+  border-radius: clamp(16px, 1.6vw, 1.6rem);
 }
-.pphone:nth-child(1) {
+.reel[data-live] .pphone:nth-child(1) {
   transform: translateY(-8%) rotate(-3deg);
 }
-.pphone:nth-child(3) {
+.reel[data-live] .pphone:nth-child(3) {
   transform: translateY(-8%) rotate(3deg);
 }
-.pphone img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.piece__cap {
-  display: grid;
-  gap: 3px;
-  justify-items: start;
-  max-width: 46ch;
+.reel[data-live] .piece__cap {
   padding-inline: 4px;
 }
-.piece__kind {
-  color: var(--gold-deep);
-  font-size: 0.84rem;
-  font-weight: 500;
-}
-.piece h3 {
-  font-size: clamp(1.4rem, 4.6vw, 1.9rem);
-  font-weight: 600;
-  line-height: 1.1;
-  letter-spacing: -0.035em;
-}
-.piece__line {
-  color: var(--mute);
-  font-size: 0.98rem;
-}
-.piece .link {
-  font-size: 0.92rem;
-}
-.piece--last {
-  width: min(84vw, 30rem);
-}
-.piece--last .piece__float {
-  align-content: center;
-  justify-items: start;
+.reel[data-live] .piece--last .piece__float {
   min-height: min(50svh, 24rem);
-  padding: clamp(26px, 5vw, 44px);
   border-radius: 28px;
-  background: var(--dark);
-  color: #fff;
-}
-.piece--last h3 {
-  font-size: clamp(2.6rem, 9vw, 4rem);
-  line-height: 1;
-}
-.piece--last h3 em {
-  color: var(--gold);
-  font-family: var(--font-serif), Georgia, serif;
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-.piece--last p {
-  max-width: 22ch;
-  color: rgba(255, 255, 255, 0.66);
-  font-size: 1.1rem;
-}
-.reel__bar {
-  display: none;
 }
 .reel[data-live] .reel__bar {
   display: block;

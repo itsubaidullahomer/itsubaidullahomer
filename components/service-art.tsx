@@ -35,13 +35,13 @@ const Dots = () => (
 export function ServiceArt({ kind }: { kind: Service["key"] }) {
   const { name } = useBiz();
   const host = useRef<HTMLDivElement>(null);
-  // The loops only run while the card is on screen.
+  // The loops only run while the card is on screen, and start from the top each time it arrives.
   useEffect(() => {
     const el = host.current;
     if (!el || !("IntersectionObserver" in window)) return;
     const io = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) delete el.dataset.paused;
-      else el.dataset.paused = "1";
+      if (entry.isIntersecting) el.dataset.run = "1";
+      else delete el.dataset.run;
     });
     io.observe(el);
     return () => io.disconnect();

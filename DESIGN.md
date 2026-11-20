@@ -30,26 +30,35 @@ numbers. Every figure on the page is also on the hiring portfolio.
 
 ## How motion works
 
-`components/fx.tsx` has one scroll listener and one animation frame for the whole page. It only writes a
-progress number to a CSS variable (`--p`); the stylesheets decide what moves. Every default is the finished
-state, so the page is complete with no script, and `prefers-reduced-motion` unpins the pinned scene.
+`components/fx.tsx` has one scroll listener, one intersection observer and one animation frame for the whole
+page. It only writes a progress number to a CSS variable (`--p`); the stylesheets decide what moves. Only
+things within half a screen of view are measured. Every default is the finished state, so the page is complete
+with no script, and `prefers-reduced-motion` unpins the pinned scene. The site is built phone first: the plain
+stylesheet is the phone, and wider screens add to it.
 
 - Hero (`hero.css`): a soft panel with thin rules, a headline that rises line by line (two grey lines, two
   black), the portrait rising under an arch, a gold strip of services running down it, a turning badge and a
   small moving preview of real work. On the way out the lines drift apart sideways and the panel tucks back.
 - Who I am (`intro.tsx`): one sentence that lights up word by word as it is read, three promises, three numbers.
 - Headings (`.h2--fill`) fill from grey to black as they scroll into view.
-- Services: each card is dealt in from the side, driven by its own scroll progress. At the top of each is a
+- Services: each card arrives as it comes on screen, driven by its own scroll progress: it rises on a phone,
+  comes in from its own side in two columns, and is dealt in from the edges in three. At the top of each is a
   small looping screen (`service-art.tsx`, `art.css`): a search page where the business climbs to first, its
   website, a post, an ad, business cards, a status panel. They are meant to be recognisable, not replicas:
   the owner found abstract placeholder shapes lifeless, and did not want a copy of the real Google either.
   Their wording is `sample` in `content/studio.ts`; on a `/for/…` link they carry the visitor's name.
+  A scene only plays while its card is on screen and starts from the top each time; off screen it is a still
+  picture. Animate transform and opacity only in new scenes (a box-shadow or width loop repaints every frame).
 - Before and after: a draggable wipe between two full-page phone captures, with the site's fixed bars pinned.
-- Work (`work.tsx`, `work.css`): two big words slide apart, then screenshots float past sideways at different
-  heights, each bobbing and turning slightly. Long pages scroll inside a taller window.
+- Work (`work.tsx`, `work.css`) has two forms. On a desktop with a mouse, the reel: two big words slide apart,
+  then screenshots float past sideways at different heights, each bobbing and turning slightly. On phones,
+  tablets and touch screens, the deck: the cards come up one at a time, swinging in from alternate sides,
+  settle under the bar, and sink back and fade as the next one covers them (the owner found the sideways
+  reel odd on a phone). Long pages scroll inside a taller window in both.
 - After the work: three bands of very large type, each far wider than the screen, sliding against each other.
 - Anything that moves sideways in a loop repeats its content enough to fill a very wide monitor, and the whole
-  site scales up above 1700px wide (`html` font size in `base.css`); sizes are in rem so they follow.
+  site scales up smoothly above 1600px wide (`html` font size in `base.css`), so a big monitor zoomed out looks
+  like the same page, not a small one; sizes are in rem so they follow, and image `sizes` follow the same line.
 - Also: a very large word behind the steps, a giant line of type across the contact panel, and the name
   rising letter by letter in the footer.
 
@@ -59,6 +68,20 @@ state, so the page is complete with no script, and `prefers-reduced-motion` unpi
 Septic" in the hero and fills the name into the contact form (`lib/business.ts`, tested in
 `tests/business.test.ts`). These pages are `noindex` and blocked in
 `robots.txt`. The name is stripped to letters, numbers and ordinary punctuation and capped at 40 characters.
+
+## Speed
+
+The owner's clients open this on phones, often on poor connections, so first paint comes before everything.
+
+- The stylesheet is inlined into the page (`experimental.inlineCss`): on a slow connection the page paints
+  in about 2s instead of 5s. Keep the CSS lean.
+- Sections below the work are not laid out until they come near (`content-visibility` in `sections.css`).
+  Same-page links and pages opened at an `#anchor` lay out the whole page first (`AnchorFix`).
+- Screenshots are imported in `content/studio.ts`, never linked by path: that gives them a blurred preview
+  while they load and a fingerprinted address that can be cached for a long time. Give every image a
+  `sizes` that matches how wide it is really drawn.
+- Only the portrait is preloaded. The serif is only used in italics and is not preloaded.
+- `/for/…` pages are built on their first visit and then served from the cache.
 
 ## Rules
 
