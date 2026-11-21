@@ -984,6 +984,10 @@
   {
    "at": "2026-11-21T04:01Z",
    "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (433 listings): 0 new rows. HN November thread 0 new (242 top-level posts). Wider feeds: 22 new rows; 4 engineering leads logged as formOnlyLeads (Arbor Education, Postscript x2, Teamified; unverified, not emailed), 5 screened out. No applications."
+  },
+  {
+   "at": "2026-11-21T07:01Z",
+   "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (408 listings): 0 new rows. HN November thread 0 new (242 top-level posts). Wider feeds not re-run (already swept this morning). No applications."
   }
  ],
  "emailApplications": [
