@@ -779,6 +779,31 @@
    "company": "Ritual",
    "title": "Ecosystem Engineer",
    "reason": "We Work Remotely; crypto ecosystem/devrel role, not a fit"
+  },
+  {
+   "company": "Tailscale",
+   "title": "Billing Engineer",
+   "reason": "We Work Remotely; backend billing systems role (Go), not a fit"
+  },
+  {
+   "company": "Gusto, Inc.",
+   "title": "Software Engineer,  Financial Data & Payments",
+   "reason": "We Work Remotely; payments backend role, not a fit"
+  },
+  {
+   "company": "Twilio",
+   "title": "Developer Success Engineer, P2",
+   "reason": "We Work Remotely; developer support role, not product engineering"
+  },
+  {
+   "company": "Alloy",
+   "title": "Senior Solutions Architect - IAM",
+   "reason": "We Work Remotely; identity/solutions architect role, not a fit"
+  },
+  {
+   "company": "Ritual",
+   "title": "Growth Engineer",
+   "reason": "We Work Remotely; crypto growth role, not a fit"
   }
  ],
  "checkIns": [
@@ -996,6 +1021,10 @@
   {
    "at": "2026-11-21T13:01Z",
    "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (453 listings): 0 new rows. HN November thread 0 new (242 top-level posts). Wider feeds not re-run (already swept this morning). No applications."
+  },
+  {
+   "at": "2026-11-22T04:01Z",
+   "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (554 listings): 0 new rows. HN November thread 0 new (242 top-level posts). Wider feeds: 14 new rows; 3 engineering leads logged as formOnlyLeads (Ritual Frontend Engineer, Smartsheet Full Stack, Wrike Senior Product Builder; unverified, not emailed), 5 screened out. No applications."
   }
  ],
  "emailApplications": [
@@ -1263,6 +1292,24 @@
    "title": "Senior Software Engineer",
    "url": "https://weworkremotely.com/remote-jobs/teamified-senior-software-engineer",
    "note": "We Work Remotely, 'Asia Only'; stack not yet checked; not emailed (job-search mailbox not connected)."
+  },
+  {
+   "company": "Ritual",
+   "title": "Frontend Engineer",
+   "url": "https://weworkremotely.com/remote-jobs/ritual-frontend-engineer",
+   "note": "We Work Remotely, 'Anywhere in the World'; crypto/AI infrastructure company; not verified on the company page; not emailed (job-search mailbox not connected)."
+  },
+  {
+   "company": "Smartsheet",
+   "title": "Software Engineer II - Full Stack (Remote Eligible)",
+   "url": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-ii-full-stack-remote-eligible",
+   "note": "We Work Remotely, 'Anywhere in the World'; 'remote eligible' may mean specific countries only; not verified; not emailed (job-search mailbox not connected)."
+  },
+  {
+   "company": "Wrike",
+   "title": "Senior Product Builder - Talent Pool",
+   "url": "https://weworkremotely.com/remote-jobs/wrike-senior-product-builder-talent-pool",
+   "note": "We Work Remotely, 'Anywhere in the World'; talent-pool listing; not verified; not emailed (job-search mailbox not connected)."
   }
  ]
 }
