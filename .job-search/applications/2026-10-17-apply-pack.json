@@ -839,6 +839,26 @@
    "company": "Alloy",
    "title": "Senior Solutions Architect - Transaction Monitoring",
    "reason": "We Work Remotely; solutions architect role, not a fit"
+  },
+  {
+   "company": "Airbnb",
+   "title": "Senior Mobile Software Engineer, Quality Engineering",
+   "reason": "We Work Remotely; mobile quality engineering role, not a fit"
+  },
+  {
+   "company": "Ritual",
+   "title": "TEE Specialist",
+   "reason": "We Work Remotely; trusted execution environment role, not a fit"
+  },
+  {
+   "company": "Datadog",
+   "title": "Senior Sales Engineer - AI Accounts",
+   "reason": "We Work Remotely; sales engineering role, not a fit"
+  },
+  {
+   "company": "Affirm",
+   "title": "Analytics Lead, Full Stack (Collections & Recoveries)",
+   "reason": "We Work Remotely; analytics role, not product engineering"
   }
  ],
  "checkIns": [
@@ -1104,6 +1124,10 @@
   {
    "at": "2026-11-24T13:01Z",
    "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (552 listings): 0 new rows. HN November thread 0 new (239 top-level posts). Wider feeds not re-run (already swept this morning). No applications."
+  },
+  {
+   "at": "2026-11-25T04:01Z",
+   "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (550 listings): 0 new rows. HN November thread 0 new (239 top-level posts). Wider feeds: 10 new rows; 2 engineering leads logged as formOnlyLeads (Airbnb Partner Integrations, Airbnb Guest & Host; unverified, not emailed), 4 screened out, the rest non-engineering. No applications."
   }
  ],
  "emailApplications": [
@@ -1419,6 +1443,18 @@
    "title": "Frontend Software Engineer, Personal Loans",
    "url": "https://weworkremotely.com/remote-jobs/upstart-frontend-software-engineer-personal-loans",
    "note": "We Work Remotely, 'Anywhere in the World'; country eligibility not verified; not emailed (job-search mailbox not connected)."
+  },
+  {
+   "company": "Airbnb",
+   "title": "Senior Software Engineer, Partner Integrations",
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-software-engineer-partner-integrations",
+   "note": "We Work Remotely, 'Anywhere in the World'; Airbnb remote roles are often country-limited; not verified; not emailed (job-search mailbox not connected)."
+  },
+  {
+   "company": "Airbnb",
+   "title": "Senior Software Engineer Guest & Host",
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-software-engineer-guest-host",
+   "note": "We Work Remotely, 'Anywhere in the World'; Airbnb remote roles are often country-limited; not verified; not emailed (job-search mailbox not connected)."
   }
  ]
 }
