@@ -859,6 +859,16 @@
    "company": "Affirm",
    "title": "Analytics Lead, Full Stack (Collections & Recoveries)",
    "reason": "We Work Remotely; analytics role, not product engineering"
+  },
+  {
+   "company": "Customer.io",
+   "title": "Senior Software Engineer, Backend",
+   "reason": "We Work Remotely; backend-only role, not a fit"
+  },
+  {
+   "company": "Ritual",
+   "title": "Validator Engineer",
+   "reason": "We Work Remotely; blockchain validator role, not a fit"
   }
  ],
  "checkIns": [
@@ -1140,6 +1150,10 @@
   {
    "at": "2026-11-25T13:01Z",
    "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (551 listings): 0 new rows. HN November thread 0 new (238 top-level posts). Wider feeds not re-run (already swept this morning). No applications."
+  },
+  {
+   "at": "2026-11-26T04:01Z",
+   "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (475 listings): 0 new rows. HN November thread 0 new (238 top-level posts). Wider feeds: 16 new rows; 2 engineering leads logged as formOnlyLeads (MetaMask Senior Software Engineer Assets, BeyondTrust Software Development Engineer; unverified, not emailed), 2 screened out, the rest non-engineering. No applications."
   }
  ],
  "emailApplications": [
@@ -1467,6 +1481,18 @@
    "title": "Senior Software Engineer Guest & Host",
    "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-software-engineer-guest-host",
    "note": "We Work Remotely, 'Anywhere in the World'; Airbnb remote roles are often country-limited; not verified; not emailed (job-search mailbox not connected)."
+  },
+  {
+   "company": "MetaMask",
+   "title": "Senior Software Engineer: Assets",
+   "url": "https://weworkremotely.com/remote-jobs/metamask-senior-software-engineer-assets",
+   "note": "We Work Remotely, 'Anywhere in the World'; crypto wallet (TypeScript/React likely, not yet checked); not verified; not emailed (job-search mailbox not connected)."
+  },
+  {
+   "company": "BeyondTrust",
+   "title": "Software Development Engineer",
+   "url": "https://weworkremotely.com/remote-jobs/beyondtrust-software-development-engineer",
+   "note": "We Work Remotely, 'Anywhere in the World'; security software, stack not yet checked; not verified; not emailed (job-search mailbox not connected)."
   }
  ]
 }
