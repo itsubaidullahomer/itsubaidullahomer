@@ -874,6 +874,16 @@
    "company": "Wizdaa",
    "title": "Senior Full Stack Engineer PK - Backend Focused",
    "reason": "Himalayas, Pakistan only; requires 2+ years of NestJS (not in facts.json) and AI-first agentic delivery with Cursor/Claude by default (daily AI coding tool use unconfirmed; same reason as the Nov 19 Wizdaa screen-out)"
+  },
+  {
+   "company": "Customer.io",
+   "title": "Senior Software Engineer - Backend Platform",
+   "reason": "We Work Remotely; backend platform role, not a fit"
+  },
+  {
+   "company": "Abnormal",
+   "title": "Software Engineer I - Backend",
+   "reason": "We Work Remotely, Asia only; junior backend role, not a fit"
   }
  ],
  "checkIns": [
@@ -1171,6 +1181,10 @@
   {
    "at": "2026-11-26T13:01Z",
    "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (554 listings): 0 new rows. HN November thread 0 new (238 top-level posts). Wider feeds not re-run (already swept this morning). No applications."
+  },
+  {
+   "at": "2026-11-27T04:01Z",
+   "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (554 listings): 1 new row, Human Power BG Full-Stack Node.js & React Developer (logged as a lead; AWS Lambda/Python/Hasura unconfirmed). HN November thread 0 new (238 top-level posts). Wider feeds: 9 new rows; 1 engineering lead logged (Customer.io Senior Software Engineer Product/AI; unverified, not emailed), 2 screened out, the rest non-engineering. No applications."
   }
  ],
  "emailApplications": [
@@ -1510,6 +1524,12 @@
    "title": "Software Development Engineer",
    "url": "https://weworkremotely.com/remote-jobs/beyondtrust-software-development-engineer",
    "note": "We Work Remotely, 'Anywhere in the World'; security software, stack not yet checked; not verified; not emailed (job-search mailbox not connected)."
+  },
+  {
+   "company": "Human Power BG",
+   "title": "Full-Stack Node.js & React Developer",
+   "url": "https://himalayas.app/companies/human-power-bg/jobs/full-stack-node-js-react-developer",
+   "note": "Himalayas, no location restriction ('join from anywhere'); recruiter for a Berlin corporate-startup platform; React/TypeScript, Apollo GraphQL, Node.js, PostgreSQL fit, but AWS Lambda, Python, Hasura and Airtable are unconfirmed; posted Nov 20; apply route not yet checked; not emailed (job-search mailbox not connected)."
   }
  ]
 }
