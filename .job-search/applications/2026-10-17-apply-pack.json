@@ -884,6 +884,21 @@
    "company": "Abnormal",
    "title": "Software Engineer I - Backend",
    "reason": "We Work Remotely, Asia only; junior backend role, not a fit"
+  },
+  {
+   "company": "Sardine",
+   "title": "Software Engineer - Backend",
+   "reason": "Remote OK (Asia); backend-only role, not a fit"
+  },
+  {
+   "company": "LastPass",
+   "title": "Senior Frontend Engineer",
+   "reason": "Remote OK; Europe only, candidate is in Pakistan"
+  },
+  {
+   "company": "Bitwarden",
+   "title": "Senior Database Engineer",
+   "reason": "We Work Remotely; database engineering role, not a fit"
   }
  ],
  "checkIns": [
@@ -1197,6 +1212,10 @@
   {
    "at": "2026-11-27T13:01Z",
    "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (554 listings): 0 new rows. HN November thread 0 new (237 top-level posts). Wider feeds not re-run (already swept this morning). No applications."
+  },
+  {
+   "at": "2026-11-28T04:01Z",
+   "summary": "Mail NOT checked: one small metadata-only search showed the Gmail connector is still signed in to a different Google account, not the job-search mailbox, so nothing more was read and nothing was sent. Himalayas full pass (554 listings): 0 new rows. HN November thread 0 new (237 top-level posts). Wider feeds: 9 new rows; 3 engineering roles screened out (Sardine backend, LastPass Europe-only frontend, Bitwarden database), the rest non-engineering. No applications."
   }
  ],
  "emailApplications": [
